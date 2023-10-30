@@ -12,7 +12,7 @@ namespace FlagsEditorEXPlugin
         static string s_flagsList_res = null;
         Dictionary<ulong, bool> m_blocksStatus;
 
-        protected override void InitFlagsData(SaveFile savFile)
+        protected override void InitFlagsData(SaveFile savFile, string resData)
         {
             m_savFile = savFile;
             m_blocksStatus = new Dictionary<ulong, bool>(4000);
@@ -22,19 +22,24 @@ namespace FlagsEditorEXPlugin
             s_flagsList_res = null;
 #endif
 
+            if (resData != null)
+            {
+                s_flagsList_res = resData;
+            }
             if (s_flagsList_res == null)
             {
                 s_flagsList_res = ReadResFile("flags_gen9sv.txt");
             }
 
-            AssembleList(s_flagsList_res);
+            AssembleList(s_flagsList_res, 0, "", null);
         }
 
-        protected override void AssembleList(string flagsList_res, bool[] customFlagValues = null)
+        protected override void AssembleList(string flagsList_res, int sourceIdx, string sourceName, bool[] flagValues)
         {
             var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+            var fSet = new FlagsSet(sourceIdx, sourceName);
 
-            m_eventFlagsList.Clear();
+            m_flagsSetList.Clear();
             m_blocksStatus.Clear();
 
             // Field Items
@@ -49,18 +54,19 @@ namespace FlagsEditorEXPlugin
 
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
             {
+
                 string s = reader.ReadLine();
                 do
                 {
                     if (!string.IsNullOrWhiteSpace(s) && !s.StartsWith("//"))
                     {
                         var flagDetail = new FlagDetail(s);
-                        if (flagDetail.AHTB != 0)
+                        if (flagDetail.FlagIdx != 0)
                         {
-                            if (m_blocksStatus.ContainsKey(flagDetail.AHTB))
+                            if (m_blocksStatus.ContainsKey(flagDetail.FlagIdx))
                             {
-                                flagDetail.IsSet = m_blocksStatus[flagDetail.AHTB];
-                                m_blocksStatus.Remove(flagDetail.AHTB);
+                                flagDetail.IsSet = m_blocksStatus[flagDetail.FlagIdx];
+                                m_blocksStatus.Remove(flagDetail.FlagIdx);
                             }
                             else
                             {
@@ -77,7 +83,7 @@ namespace FlagsEditorEXPlugin
                                                 case 0xB6D28884: // Chien-Pao
                                                 case 0x8FC1AFF5: // Wo-Chien
                                                 case 0x0FD2F9E2: // Chi-Yu
-                                                    flagVal = ((int)savEventBlocks.GetBlockSafe(flagDetail.FlagIdx).GetValue() == 3);
+                                                    flagVal = ((int)savEventBlocks.GetBlockSafe((uint)flagDetail.FlagIdx).GetValue() == 3);
                                                     handled = true;
                                                     break;
                                             }
@@ -106,7 +112,7 @@ namespace FlagsEditorEXPlugin
                                                 case 0x9C16DA94: // Badge Flying
                                                 case 0xA6CDE603: // Badge Rock
                                                 case 0xBDAC74B3: // Badge Ground
-                                                    flagVal = ((int)savEventBlocks.GetBlockSafe(flagDetail.FlagIdx).GetValue() != 0);
+                                                    flagVal = ((int)savEventBlocks.GetBlockSafe((uint)flagDetail.FlagIdx).GetValue() != 0);
                                                     handled = true;
                                                     break;
                                             }
@@ -117,12 +123,12 @@ namespace FlagsEditorEXPlugin
                                 // Common bool block
                                 if (!handled)
                                 {
-                                    flagVal = (savEventBlocks.GetBlockSafe(flagDetail.FlagIdx).Type == SCTypeCode.Bool2);
+                                    flagVal = (savEventBlocks.GetBlockSafe((uint)flagDetail.FlagIdx).Type == SCTypeCode.Bool2);
                                 }
 
                                 flagDetail.IsSet = flagVal;
                             }
-                            m_eventFlagsList.Add(flagDetail);
+                            fSet.Flags.Add(flagDetail);
                         }
                     }
 
@@ -134,8 +140,10 @@ namespace FlagsEditorEXPlugin
             // Fill missing block status
             foreach (var pair in m_blocksStatus)
             {
-                m_eventFlagsList.Add(new FlagDetail((uint)pair.Key, source: 0, EventFlagType._Unknown, "", "") { IsSet = pair.Value, AHTB = pair.Key });
+                fSet.Flags.Add(new FlagDetail(pair.Key, source: 0, EventFlagType._Unknown, "", "") { IsSet = pair.Value });
             }
+
+            m_flagsSetList.Add(fSet);
 
 
             /*var data = savEventBlocks.GetBlockSafe(0x2482AD60).Data;
@@ -226,14 +234,14 @@ namespace FlagsEditorEXPlugin
                     {
                         using (var writer = new System.IO.BinaryWriter(ms))
                         {
-                            foreach (var f in m_eventFlagsList)
+                            foreach (var f in m_flagsSetList[0].Flags)
                             {
                                 if (ms.Position < ms.Length)
                                 {
                                     if (f.FlagTypeVal == flagType)
                                     {
                                         f.IsSet = value;
-                                        writer.Write(f.AHTB);
+                                        writer.Write(f.FlagIdx);
                                         writer.Write(value ? (ulong)1 : (ulong)0);
                                     }
                                 }
@@ -249,14 +257,14 @@ namespace FlagsEditorEXPlugin
                     {
                         using (var writer = new System.IO.BinaryWriter(ms))
                         {
-                            foreach (var f in m_eventFlagsList)
+                            foreach (var f in m_flagsSetList[0].Flags)
                             {
                                 if (ms.Position < ms.Length)
                                 {
                                     if (f.FlagTypeVal == flagType)
                                     {
                                         f.IsSet = value;
-                                        writer.Write(value ? f.AHTB : 0xCBF29CE484222645);
+                                        writer.Write(value ? f.FlagIdx : 0xCBF29CE484222645);
                                         writer.Write(value ? (ulong)1 : (ulong)0);
                                     }
                                 }
@@ -274,12 +282,12 @@ namespace FlagsEditorEXPlugin
 
                 else if (flagType == EventFlagType.SideEvent || flagType == EventFlagType.InGameTrade || flagType == EventFlagType.Gift)
                 {
-                    foreach (var f in m_eventFlagsList)
+                    foreach (var f in m_flagsSetList[0].Flags)
                     {
                         if (f.FlagTypeVal == flagType)
                         {
                             f.IsSet = value;
-                            savEventBlocks.GetBlockSafe(f.FlagIdx).ChangeBooleanType(value ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
+                            savEventBlocks.GetBlockSafe((uint)f.FlagIdx).ChangeBooleanType(value ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
                         }
                     }
                 }
@@ -301,10 +309,12 @@ namespace FlagsEditorEXPlugin
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
 
-            for (int i = 0; i < m_eventFlagsList.Count; ++i)
+            var flagsList = m_flagsSetList[0].Flags;
+
+            for (int i = 0; i < flagsList.Count; ++i)
             {
-                sb.AppendFormat("FLAG_0x{0:X16} {1}\t{2}\r\n", m_eventFlagsList[i].AHTB, m_eventFlagsList[i].IsSet,
-                    m_eventFlagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
+                sb.AppendFormat("FLAG_0x{0:X16} {1}\t{2}\r\n", flagsList[i].FlagIdx, flagsList[i].IsSet,
+                    flagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : flagsList[i].ToString());
             }
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());

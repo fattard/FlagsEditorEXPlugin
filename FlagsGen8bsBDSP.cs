@@ -18,7 +18,7 @@ namespace FlagsEditorEXPlugin
         const int Src_SysFlags = 1;
         const int Src_TrainerFlags = 2;
 
-        protected override void InitFlagsData(SaveFile savFile)
+        protected override void InitFlagsData(SaveFile savFile, string resData)
         {
             m_savFile = savFile;
             m_battleTrainerStatus = (m_savFile as SAV8BS).BattleTrainer;
@@ -29,6 +29,10 @@ namespace FlagsEditorEXPlugin
             s_flagsList_res = null;
 #endif
 
+            if (resData != null)
+            {
+                s_flagsList_res = resData;
+            }
             if (s_flagsList_res == null)
             {
                 s_flagsList_res = ReadResFile("flags_gen8bsbdsp.txt");
@@ -53,9 +57,9 @@ namespace FlagsEditorEXPlugin
 
             bool[] eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
 
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), Src_EventFlags, eventFlags);
-            AssembleList(s_flagsList_res.Substring(idxSysFlagsSection), Src_SysFlags, sysFlagsVals);
-            AssembleList(s_flagsList_res.Substring(idxTrainerFlagsSection), Src_TrainerFlags, battleTrainerVals);
+            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), Src_EventFlags, "Event Flags", eventFlags);
+            AssembleList(s_flagsList_res.Substring(idxSysFlagsSection), Src_SysFlags, "Sys Flags", sysFlagsVals);
+            AssembleList(s_flagsList_res.Substring(idxTrainerFlagsSection), Src_TrainerFlags, "Trainer Flags", battleTrainerVals);
 
             AssembleWorkList<int>(s_flagsList_res.Substring(idxEventWorkSection));
         }
@@ -88,7 +92,7 @@ namespace FlagsEditorEXPlugin
         {
             if (SupportsEditingFlag(flagType))
             {
-                foreach (var f in m_eventFlagsList)
+                foreach (var f in m_flagsSetList[0].Flags)
                 {
                     if (f.FlagTypeVal == flagType)
                     {

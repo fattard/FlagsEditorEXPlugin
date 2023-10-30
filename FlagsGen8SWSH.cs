@@ -11,7 +11,7 @@ namespace FlagsEditorEXPlugin
     {
         static string s_flagsList_res = null;
 
-        protected override void InitFlagsData(SaveFile savFile)
+        protected override void InitFlagsData(SaveFile savFile, string resData)
         {
             m_savFile = savFile;
 
@@ -20,20 +20,26 @@ namespace FlagsEditorEXPlugin
             s_flagsList_res = null;
 #endif
 
+            if (resData != null)
+            {
+                s_flagsList_res = resData;
+            }
             if (s_flagsList_res == null)
             {
                 s_flagsList_res = ReadResFile("flags_gen8swsh.txt");
             }
 
-            AssembleList(s_flagsList_res);
+            AssembleList(s_flagsList_res, 0, "", null);
         }
 
-        protected override void AssembleList(string flagsList_res, bool[] customFlagValues = null)
+        protected override void AssembleList(string flagsList_res, int sourceIdx, string sourceName, bool[] flagValues)
         {
             var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
-            m_eventFlagsList.Clear();
+            m_flagsSetList.Clear();
+
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
             {
+                var fSet = new FlagsSet(sourceIdx, sourceName);
                 string s = reader.ReadLine();
                 do
                 {
@@ -41,13 +47,16 @@ namespace FlagsEditorEXPlugin
                     {
                         var flagDetail = new FlagDetail(s);
                         flagDetail.IsSet = (savEventBlocks.GetBlockSafe((uint)flagDetail.FlagIdx).Type == SCTypeCode.Bool2);
-                        m_eventFlagsList.Add(flagDetail);
+                        fSet.Flags.Add(flagDetail);
                     }
 
                     s = reader.ReadLine();
 
                 } while (s != null);
+                
+                m_flagsSetList.Add(fSet);
             }
+
         }
 
         public override bool SupportsEditingFlag(EventFlagType flagType)
@@ -80,7 +89,7 @@ namespace FlagsEditorEXPlugin
             {
                 var blocks = (m_savFile as ISCBlockArray).Accessor;
 
-                foreach (var f in m_eventFlagsList)
+                foreach (var f in m_flagsSetList[0].Flags)
                 {
                     if (f.FlagTypeVal == flagType)
                     {
@@ -95,10 +104,12 @@ namespace FlagsEditorEXPlugin
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
 
-            for (int i = 0; i < m_eventFlagsList.Count; ++i)
+            var flagsList = m_flagsSetList[0].Flags;
+
+            for (int i = 0; i < flagsList.Count; ++i)
             {
-                sb.AppendFormat("FLAG_0x{0:X8} {1}\t{2}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet,
-                    m_eventFlagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
+                sb.AppendFormat("FLAG_0x{0:X8} {1}\t{2}\r\n", flagsList[i].FlagIdx, flagsList[i].IsSet,
+                    flagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : flagsList[i].ToString());
             }
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());

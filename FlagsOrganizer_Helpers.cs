@@ -167,16 +167,19 @@ namespace FlagsEditorEXPlugin
 
     class DummyOrgFlags : FlagsOrganizer
     {
-        protected override void InitFlagsData(SaveFile savFile)
+        protected override void InitFlagsData(SaveFile savFile, string resData)
         {
             m_savFile = savFile;
             bool[] savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-            m_eventFlagsList.Clear();
+            m_flagsSetList.Clear();
+            var fSet = new FlagsSet(0, "");
 
             for (int i = 0; i < savEventFlags.Length; ++i)
             {
-                m_eventFlagsList.Add(new FlagDetail((uint)i, source: 0, EventFlagType._Unknown, "", "") { IsSet = savEventFlags[i] });
+                fSet.Flags.Add(new FlagDetail((uint)i, source: 0, EventFlagType._Unknown, "", "") { IsSet = savEventFlags[i] });
             }
+
+            m_flagsSetList.Add(fSet);
         }
 
         public override void MarkFlags(EventFlagType flagType) { }
@@ -191,7 +194,7 @@ namespace FlagsEditorEXPlugin
     {
         List<SCBlock> m_blockEventFlags;
 
-        protected override void InitFlagsData(SaveFile savFile)
+        protected override void InitFlagsData(SaveFile savFile, string resData)
         {
             m_savFile = savFile;
 
@@ -205,23 +208,28 @@ namespace FlagsEditorEXPlugin
                 }
             }
 
-            m_eventFlagsList.Clear();
+            m_flagsSetList.Clear();
+            var fSet = new FlagsSet(0, "");
 
             for (int i = 0; i < m_blockEventFlags.Count; ++i)
             {
                 var b = m_blockEventFlags[i];
-                m_eventFlagsList.Add(new FlagDetail(b.Key, source: 0, EventFlagType._Unknown, "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
+                fSet.Flags.Add(new FlagDetail(b.Key, source: 0, EventFlagType._Unknown, "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
             }
+
+            m_flagsSetList.Add(fSet);
         }
 
         public override void DumpAllFlags()
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
+
+            var flagsList = m_flagsSetList[0].Flags;
             
-            for (int i = 0; i < m_eventFlagsList.Count; ++i)
+            for (int i = 0; i < flagsList.Count; ++i)
             {
-                sb.AppendFormat("FLAG_0x{0:X8} {1}\t{2}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet,
-                    m_eventFlagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
+                sb.AppendFormat("FLAG_0x{0:X8} {1}\t{2}\r\n", flagsList[i].FlagIdx, flagsList[i].IsSet,
+                    flagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : flagsList[i].ToString());
             }
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());

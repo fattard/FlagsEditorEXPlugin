@@ -11,7 +11,7 @@ namespace FlagsEditorEXPlugin
     {
         static string s_flagsList_res = null;
 
-        protected override void InitFlagsData(SaveFile savFile)
+        protected override void InitFlagsData(SaveFile savFile, string resData)
         {
             m_savFile = savFile;
 
@@ -20,6 +20,10 @@ namespace FlagsEditorEXPlugin
             s_flagsList_res = null;
 #endif
 
+            if (resData != null)
+            {
+                s_flagsList_res = resData;
+            }
             if (s_flagsList_res == null)
             {
                 s_flagsList_res = ReadResFile("flags_gen5b2w2.txt");
@@ -29,7 +33,7 @@ namespace FlagsEditorEXPlugin
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
 
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection));
+            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), 0, "Event Flags", (m_savFile as IEventFlagArray).GetEventFlags());
             AssembleWorkList<ushort>(s_flagsList_res.Substring(idxEventWorkSection));
         }
 
@@ -63,7 +67,7 @@ namespace FlagsEditorEXPlugin
             {
                 var flagHelper = (m_savFile as IEventFlagArray);
 
-                foreach (var f in m_eventFlagsList)
+                foreach (var f in m_flagsSetList[0].Flags)
                 {
                     if (f.FlagTypeVal == flagType)
                     {

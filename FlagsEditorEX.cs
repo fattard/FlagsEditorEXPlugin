@@ -50,7 +50,7 @@ namespace FlagsEditorEXPlugin
 
         private void DumpAllFlags_UIEvt(object sender, EventArgs e)
         {
-            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV, resData: null);
 
             if (flagsOrganizer == null)
             {
@@ -62,7 +62,7 @@ namespace FlagsEditorEXPlugin
 
         private void EditFlags_UIEvt(object sender, EventArgs e)
         {
-            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV);
+            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV, resData: null);
 
             if (flagsOrganizer == null)
             {

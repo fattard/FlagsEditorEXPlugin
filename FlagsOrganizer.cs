@@ -39,15 +39,13 @@ namespace FlagsEditorEXPlugin
 
         public class FlagDetail
         {
-            public long OrderKey { get; set; }
             public int SourceIdx { get; set; }
-            public uint FlagIdx { get; private set; }
+            public ulong FlagIdx { get; private set; }
             public EventFlagType FlagTypeVal { get; private set; }
             public string FlagTypeTxt => FlagTypeVal.AsText();
             public string LocationName { get; private set; }
             public string DetailMsg { get; private set; }
             public bool IsSet { get; set; }
-            public ulong AHTB { get; set; }
 
 
             public FlagDetail(string detailEntry)
@@ -58,8 +56,7 @@ namespace FlagsEditorEXPlugin
                 {
                     throw new ArgumentException("Argument detailEntry format is not valid");
                 }
-                AHTB = ParseDecOrHex(info[0]);
-                FlagIdx = (uint)(AHTB & 0xFFFFFFFF);
+                FlagIdx = ParseDecOrHex(info[0]);
                 FlagTypeVal = FlagTypeVal.Parse(info[1]);
                 LocationName = info[2];
                 if (!string.IsNullOrWhiteSpace(info[3]))
@@ -68,15 +65,11 @@ namespace FlagsEditorEXPlugin
                 }
                 DetailMsg = !string.IsNullOrWhiteSpace(info[4]) ? info[4] : info[6];
                 IsSet = false;
-                //OrderKey = string.IsNullOrWhiteSpace(info[0]) ? (FlagIdx + 100000) : Convert.ToInt64(info[0]);
-                OrderKey = (FlagIdx + 100000);
                 SourceIdx = 0;
             }
 
-            public FlagDetail(uint flagIdx, int source, EventFlagType flagType, string locationName, string detailMsg)
+            public FlagDetail(ulong flagIdx, int source, EventFlagType flagType, string locationName, string detailMsg)
             {
-                OrderKey = (flagIdx + 100000);
-                AHTB = (ulong)flagIdx;
                 FlagIdx = flagIdx;
                 FlagTypeVal = flagType;
                 LocationName = locationName;
@@ -100,17 +93,31 @@ namespace FlagsEditorEXPlugin
         }
 
 
+        public class FlagsSet
+        {
+            public int SourceIdx { get; private set; }
+            public string SourceName { get; private set; }
+            public List<FlagDetail> Flags { get; private set; }
+
+
+            public FlagsSet(int sourceIdx, string sourceName)
+            {
+                SourceIdx = sourceIdx;
+                SourceName = sourceName;
+                Flags = new List<FlagDetail>(4096);
+            }
+        }
+
+
         public class WorkDetail
         {
-            public long OrderKey { get; set; }
-            public uint WorkIdx { get; private set; }
+            public ulong WorkIdx { get; private set; }
             public EventFlagType FlagTypeVal { get; private set; }
             public string FlagTypeTxt => FlagTypeVal.AsText();
             public string LocationName { get; private set; }
             public string DetailMsg { get; private set; }
             public Dictionary<long, string> ValidValues { get; private set; }
             public long Value { get; set; }
-            public ulong AHTB { get; set; }
 
 
             public WorkDetail(string detailEntry)
@@ -121,8 +128,7 @@ namespace FlagsEditorEXPlugin
                 {
                     throw new ArgumentException("Argument detailEntry format is not valid");
                 }
-                AHTB = Convert.ToUInt64(info[0], 16);
-                WorkIdx = (uint)(AHTB & 0xFFFFFFFF);
+                WorkIdx = ParseDecOrHex(info[0]);
                 FlagTypeVal = FlagTypeVal.Parse(info[1]);
                 LocationName = info[2];
                 if (!string.IsNullOrWhiteSpace(info[3]))
@@ -146,19 +152,14 @@ namespace FlagsEditorEXPlugin
                         }
                     }
                 }
-
-                //OrderKey = string.IsNullOrWhiteSpace(info[0]) ? (WorkIdx + 100000) : Convert.ToInt64(info[0]);
-                OrderKey = (WorkIdx + 100000);
             }
 
-            public WorkDetail(uint workIdx, EventFlagType flagType, string detailMsg) : this(workIdx, flagType, "", detailMsg)
+            public WorkDetail(ulong workIdx, EventFlagType flagType, string detailMsg) : this(workIdx, flagType, "", detailMsg)
             {
             }
 
-            public WorkDetail(uint workIdx, EventFlagType flagType, string locationName, string detailMsg)
+            public WorkDetail(ulong workIdx, EventFlagType flagType, string locationName, string detailMsg)
             {
-                OrderKey = (workIdx + 100000);
-                AHTB = (ulong)workIdx;
                 WorkIdx = workIdx;
                 FlagTypeVal = flagType;
                 LocationName = locationName;
@@ -184,59 +185,22 @@ namespace FlagsEditorEXPlugin
 
         protected SaveFile m_savFile;
 
-        protected List<FlagDetail> m_eventFlagsList = new List<FlagDetail>(4096);
+        protected List<FlagsSet> m_flagsSetList = new List<FlagsSet>(10);
         protected List<WorkDetail> m_eventWorkList = new List<WorkDetail>(4096);
 
-        protected virtual void InitFlagsData(SaveFile savFile)
+        protected virtual void InitFlagsData(SaveFile savFile, string resData)
         {
             m_savFile = savFile;
-            m_eventFlagsList.Clear();
+            m_flagsSetList.Clear();
             m_eventWorkList.Clear();
         }
 
-        protected virtual void AssembleList(string flagsList_res, bool[] customFlagValues = null)
-        {
-            var savEventFlags = customFlagValues ?? (m_savFile as IEventFlagArray).GetEventFlags();
-            
-            //TODO: remove the clear from this place, each InitFlags should clear it
-            if (customFlagValues == null)
-                m_eventFlagsList.Clear();
-
-            using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
-            {
-                string s = reader.ReadLine();
-                
-                // Skip header
-                if (s.StartsWith("//"))
-                {
-                    s = reader.ReadLine();
-                }
-
-                do
-                {
-                    if (!string.IsNullOrWhiteSpace(s))
-                    {
-                        // End of section
-                        if (s.StartsWith("//"))
-                        {
-                            break;
-                        }
-
-                        var flagDetail = new FlagDetail(s);
-                        flagDetail.IsSet = savEventFlags[flagDetail.FlagIdx];
-                        m_eventFlagsList.Add(flagDetail);
-                    }
-
-                    s = reader.ReadLine();
-
-                } while (s != null);
-            }
-        }
-
-        protected virtual void AssembleList(string flagsList_res, int sourceIdx, bool[] flagValues)
+        protected virtual void AssembleList(string flagsList_res, int sourceIdx, string sourceName, bool[] flagValues)
         {
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
             {
+                FlagsSet flagsSet = new FlagsSet(sourceIdx, sourceName);
+
                 string s = reader.ReadLine();
 
                 // Skip header
@@ -258,12 +222,14 @@ namespace FlagsEditorEXPlugin
                         var flagDetail = new FlagDetail(s);
                         flagDetail.IsSet = flagValues[flagDetail.FlagIdx];
                         flagDetail.SourceIdx = sourceIdx;
-                        m_eventFlagsList.Add(flagDetail);
+                        flagsSet.Flags.Add(flagDetail);
                     }
 
                     s = reader.ReadLine();
 
                 } while (s != null);
+
+                m_flagsSetList.Add(flagsSet);
             }
         }
 
@@ -324,18 +290,19 @@ namespace FlagsEditorEXPlugin
         public virtual void DumpAllFlags()
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
-            int curSourceIdx = 0;
 
-            for (int i = 0; i < m_eventFlagsList.Count; ++i)
+            foreach (var fSet in m_flagsSetList)
             {
-                if (curSourceIdx != m_eventFlagsList[i].SourceIdx)
+                var flagsList = fSet.Flags;
+                sb.Append($"{fSet.SourceName}\r\n");
+
+                for (int i = 0; i < flagsList.Count; ++i)
                 {
-                    curSourceIdx = m_eventFlagsList[i].SourceIdx;
-                    sb.Append("\r\n\r\n");
+                    sb.AppendFormat("FLAG_0x{0:X4} {1}\t{2}\r\n", flagsList[i].FlagIdx, flagsList[i].IsSet,
+                        flagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : flagsList[i].ToString());
                 }
 
-                sb.AppendFormat("FLAG_0x{0:X4} {1}\t{2}\r\n", m_eventFlagsList[i].FlagIdx, m_eventFlagsList[i].IsSet,
-                    m_eventFlagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_eventFlagsList[i].ToString());
+                sb.Append("\r\n\r\n");
             }
 
             if (m_eventWorkList.Count > 0)
@@ -396,7 +363,7 @@ namespace FlagsEditorEXPlugin
 
 
 
-        public static FlagsOrganizer OrganizeFlags(SaveFile savFile)
+        public static FlagsOrganizer OrganizeFlags(SaveFile savFile, string resData)
         {
             FlagsOrganizer flagsOrganizer = null;
 
@@ -541,7 +508,7 @@ namespace FlagsEditorEXPlugin
 
             if (flagsOrganizer != null)
             {
-                flagsOrganizer.InitFlagsData(savFile);
+                flagsOrganizer.InitFlagsData(savFile, resData);
             }
 
             return flagsOrganizer;
