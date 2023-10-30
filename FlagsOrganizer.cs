@@ -349,7 +349,7 @@ namespace FlagsEditorEXPlugin
                 }
             }
 
-            System.IO.File.WriteAllText(string.Format("flags_dump_{0}_EX.txt", m_savFile.Version), sb.ToString());
+            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
         }
 
         public abstract void MarkFlags(EventFlagType flagType);
