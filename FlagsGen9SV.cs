@@ -140,7 +140,7 @@ namespace FlagsEditorEXPlugin
             // Fill missing block status
             foreach (var pair in m_blocksStatus)
             {
-                fSet.Flags.Add(new FlagDetail(pair.Key, source: 0, EventFlagType._Unknown, "", "") { IsSet = pair.Value });
+                fSet.Flags.Add(new FlagDetail(pair.Key, source: 0, EventFlagType._Unknown, "", "", "") { IsSet = pair.Value });
             }
 
             m_flagsSetList.Add(fSet);

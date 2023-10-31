@@ -176,7 +176,7 @@ namespace FlagsEditorEXPlugin
 
             for (int i = 0; i < savEventFlags.Length; ++i)
             {
-                fSet.Flags.Add(new FlagDetail((uint)i, source: 0, EventFlagType._Unknown, "", "") { IsSet = savEventFlags[i] });
+                fSet.Flags.Add(new FlagDetail((uint)i, source: 0, EventFlagType._Unknown, "", "", "") { IsSet = savEventFlags[i] });
             }
 
             m_flagsSetList.Add(fSet);
@@ -214,7 +214,7 @@ namespace FlagsEditorEXPlugin
             for (int i = 0; i < m_blockEventFlags.Count; ++i)
             {
                 var b = m_blockEventFlags[i];
-                fSet.Flags.Add(new FlagDetail(b.Key, source: 0, EventFlagType._Unknown, "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
+                fSet.Flags.Add(new FlagDetail(b.Key, source: 0, EventFlagType._Unknown, "", "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
             }
 
             m_flagsSetList.Add(fSet);

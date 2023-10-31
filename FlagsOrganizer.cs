@@ -45,6 +45,7 @@ namespace FlagsEditorEXPlugin
             public string FlagTypeTxt => FlagTypeVal.AsText();
             public string LocationName { get; private set; }
             public string DetailMsg { get; private set; }
+            public string InternalName { get; private set; }
             public bool IsSet { get; set; }
 
 
@@ -63,31 +64,35 @@ namespace FlagsEditorEXPlugin
                 {
                     LocationName += " " + info[3];
                 }
-                DetailMsg = !string.IsNullOrWhiteSpace(info[4]) ? info[4] : info[6];
+                DetailMsg = info[4];
+                InternalName = info[6];
                 IsSet = false;
                 SourceIdx = 0;
             }
 
-            public FlagDetail(ulong flagIdx, int source, EventFlagType flagType, string locationName, string detailMsg)
+            public FlagDetail(ulong flagIdx, int source, EventFlagType flagType, string locationName, string detailMsg, string internalName)
             {
                 FlagIdx = flagIdx;
                 FlagTypeVal = flagType;
                 LocationName = locationName;
                 DetailMsg = detailMsg;
+                InternalName = internalName;
                 IsSet = false;
                 SourceIdx = source;
             }
 
             public override string ToString()
             {
+                string msg = string.IsNullOrEmpty(DetailMsg) ? InternalName : DetailMsg;
+
                 if (string.IsNullOrEmpty(LocationName))
                 {
-                    return string.Format("{0} - {1}", FlagTypeTxt, DetailMsg);
+                    return string.Format("{0} - {1}", FlagTypeTxt, msg);
                 }
 
                 else
                 {
-                    return string.Format("{0} - {1} - {2}", FlagTypeTxt, LocationName, DetailMsg);
+                    return string.Format("{0} - {1} - {2}", FlagTypeTxt, LocationName, msg);
                 }
             }
         }
@@ -187,6 +192,8 @@ namespace FlagsEditorEXPlugin
 
         protected List<FlagsSet> m_flagsSetList = new List<FlagsSet>(10);
         protected List<WorkDetail> m_eventWorkList = new List<WorkDetail>(4096);
+
+        public List<FlagsSet> FlagsSets => m_flagsSetList;
 
         protected virtual void InitFlagsData(SaveFile savFile, string resData)
         {
