@@ -9,7 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using PKHeX.Core;
 
-namespace FlagsEditorEXPlugin
+
+namespace FlagsEditorEXPlugin.Forms
 {
     public partial class SelectedFlagsEditor : Form
     {

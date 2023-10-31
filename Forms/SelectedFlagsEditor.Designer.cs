@@ -1,5 +1,5 @@
 ﻿
-namespace FlagsEditorEXPlugin
+namespace FlagsEditorEXPlugin.Forms
 {
     partial class SelectedFlagsEditor
     {
