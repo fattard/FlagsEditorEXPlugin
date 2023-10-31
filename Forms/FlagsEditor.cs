@@ -15,15 +15,19 @@ namespace FlagsEditorEXPlugin.Forms
         List<FlagsOrganizer.FlagDetail> m_flagsList;
         List<FlagsOrganizer.FlagDetail> m_editableFlagsList;
         FlagsOrganizer m_organizer;
+        FlagsOrganizer.FlagsSet m_curFlagsSet;
 
 
-        public FlagsEditor(List<FlagsOrganizer.FlagDetail> flagsList, FlagsOrganizer flagsOrganizer)
+        public FlagsEditor(FlagsOrganizer flagsOrganizer, FlagsOrganizer.FlagsSet flagsSet)
         {
             m_organizer = flagsOrganizer;
-            m_flagsList = flagsList;
+            m_curFlagsSet = flagsSet;
+            m_flagsList = flagsSet.Flags;
             m_editableFlagsList = new List<FlagsOrganizer.FlagDetail>(m_flagsList.Count);
 
             InitializeComponent();
+
+            this.Text = $"Flags Editor - {m_curFlagsSet.SourceName}";
 
             dataGridView.CurrentCellDirtyStateChanged += dataGridView_CurrentCellDirtyStateChanged;
             dataGridView.CellValueChanged += dataGridView_CellValueChanged;
@@ -38,7 +42,7 @@ namespace FlagsEditorEXPlugin.Forms
                 m_flagsList[i].IsSet = m_editableFlagsList[i].IsSet;
             }
 
-            m_organizer.SyncEditedFlags(m_flagsList[0].SourceIdx);
+            m_organizer.SyncEditedFlags(m_curFlagsSet.SourceIdx);
 
             Close();
         }
@@ -54,7 +58,7 @@ namespace FlagsEditorEXPlugin.Forms
 
             foreach (var f in m_editableFlagsList)
             {
-                if (skipUnused && f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused)
+                if (f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused && skipUnused)
                 {
                     continue;
                 }
@@ -72,7 +76,7 @@ namespace FlagsEditorEXPlugin.Forms
 
             foreach (var f in m_editableFlagsList)
             {
-                if (skipUnused && f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused)
+                if (f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused && skipUnused)
                 {
                     continue;
                 }
@@ -159,7 +163,7 @@ namespace FlagsEditorEXPlugin.Forms
 
             foreach (var f in m_editableFlagsList)
             {
-                if (skipUnused && f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused)
+                if (f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused && skipUnused)
                 {
                     continue;
                 }
@@ -176,7 +180,6 @@ namespace FlagsEditorEXPlugin.Forms
                 dataGridView.Rows.Add(new object[] { f.IsSet, f.FlagIdx, f.InternalName, $"{f.LocationName} - {f.DetailMsg}"});
             }
         }
-
 
         private void RefreshCounters()
         {
