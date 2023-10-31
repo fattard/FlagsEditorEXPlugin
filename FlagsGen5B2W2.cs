@@ -37,7 +37,7 @@ namespace FlagsEditorEXPlugin
             AssembleWorkList<ushort>(s_flagsList_res.Substring(idxEventWorkSection));
         }
 
-        public override bool SupportsEditingFlag(EventFlagType flagType)
+        public override bool SupportsBulkEditingFlags(EventFlagType flagType)
         {
             switch (flagType)
             {
@@ -51,19 +51,19 @@ namespace FlagsEditorEXPlugin
             }
         }
 
-        public override void MarkFlags(EventFlagType flagType)
+        public override void BulkMarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: true);
         }
 
-        public override void UnmarkFlags(EventFlagType flagType)
+        public override void BulkUnmarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: false);
         }
 
         void ChangeFlagsVal(EventFlagType flagType, bool value)
         {
-            if (SupportsEditingFlag(flagType))
+            if (SupportsBulkEditingFlags(flagType))
             {
                 var flagHelper = (m_savFile as IEventFlagArray);
 
@@ -76,6 +76,11 @@ namespace FlagsEditorEXPlugin
                     }
                 }
             }
+        }
+
+        public override void SyncEditedFlags(int sourceIdx)
+        {
+
         }
     }
 }

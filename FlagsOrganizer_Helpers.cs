@@ -182,11 +182,13 @@ namespace FlagsEditorEXPlugin
             m_flagsSetList.Add(fSet);
         }
 
-        public override void MarkFlags(EventFlagType flagType) { }
+        public override void BulkMarkFlags(EventFlagType flagType) { }
 
-        public override void UnmarkFlags(EventFlagType flagType) { }
+        public override void BulkUnmarkFlags(EventFlagType flagType) { }
 
-        public override bool SupportsEditingFlag(EventFlagType flagType) { return false; }
+        public override bool SupportsBulkEditingFlags(EventFlagType flagType) { return false; }
+
+        public override void SyncEditedFlags(int sourceIdx) { }
     }
 
 
@@ -235,11 +237,13 @@ namespace FlagsEditorEXPlugin
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
         }
 
-        public override void MarkFlags(EventFlagType flagType) { }
+        public override void BulkMarkFlags(EventFlagType flagType) { }
 
-        public override void UnmarkFlags(EventFlagType flagType) { }
+        public override void BulkUnmarkFlags(EventFlagType flagType) { }
 
-        public override bool SupportsEditingFlag(EventFlagType flagType) { return false; }
+        public override bool SupportsBulkEditingFlags(EventFlagType flagType) { return false; }
+
+        public override void SyncEditedFlags(int sourceIdx) { }
     }
 
 }

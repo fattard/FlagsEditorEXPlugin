@@ -13,25 +13,32 @@ namespace FlagsEditorEXPlugin.Forms
     public partial class FlagsEditor : Form
     {
         List<FlagsOrganizer.FlagDetail> m_flagsList;
-        List<FlagsOrganizer.FlagDetail> m_editabelFlagsList;
+        List<FlagsOrganizer.FlagDetail> m_editableFlagsList;
+        FlagsOrganizer m_organizer;
 
 
         public FlagsEditor(List<FlagsOrganizer.FlagDetail> flagsList, FlagsOrganizer flagsOrganizer)
         {
+            m_organizer = flagsOrganizer;
             m_flagsList = flagsList;
-            m_editabelFlagsList = new List<FlagsOrganizer.FlagDetail>(m_flagsList.Count);
+            m_editableFlagsList = new List<FlagsOrganizer.FlagDetail>(m_flagsList.Count);
 
             InitializeComponent();
+
+            dataGridView.CurrentCellDirtyStateChanged += dataGridView_CurrentCellDirtyStateChanged;
+            dataGridView.CellValueChanged += dataGridView_CellValueChanged;
 
             RestoreData();
         }
 
         private void saveBtn_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < m_editabelFlagsList.Count; i++)
+            for (int i = 0; i < m_editableFlagsList.Count; i++)
             {
-                m_flagsList[i].IsSet = m_editabelFlagsList[i].IsSet;
+                m_flagsList[i].IsSet = m_editableFlagsList[i].IsSet;
             }
+
+            m_organizer.SyncEditedFlags(m_flagsList[0].SourceIdx);
 
             Close();
         }
@@ -45,7 +52,7 @@ namespace FlagsEditorEXPlugin.Forms
         {
             bool skipUnused = filterUnusedChk.Checked;
 
-            foreach (var f in m_editabelFlagsList)
+            foreach (var f in m_editableFlagsList)
             {
                 if (skipUnused && f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused)
                 {
@@ -63,7 +70,7 @@ namespace FlagsEditorEXPlugin.Forms
         {
             bool skipUnused = filterUnusedChk.Checked;
 
-            foreach (var f in m_editabelFlagsList)
+            foreach (var f in m_editableFlagsList)
             {
                 if (skipUnused && f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused)
                 {
@@ -110,15 +117,29 @@ namespace FlagsEditorEXPlugin.Forms
             RefreshCounters();
         }
 
+        private void dataGridView_CurrentCellDirtyStateChanged(object sender, EventArgs e)
+        {
+            if (dataGridView.IsCurrentCellDirty)
+            {
+                dataGridView.CommitEdit(DataGridViewDataErrorContexts.Commit);
+            }
+        }
+
+        private void dataGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            int idx = (int)(dataGridView.Rows[e.RowIndex].Cells[1].Value as UInt64?).Value;
+            m_editableFlagsList[idx].IsSet = (dataGridView.CurrentRow.Cells[0].Value as Boolean?).Value;
+        }
+
 
 
         private void RestoreData()
         {
-            m_editabelFlagsList.Clear();
+            m_editableFlagsList.Clear();
 
             foreach (var f in m_flagsList)
             {
-                m_editabelFlagsList.Add(new FlagsOrganizer.FlagDetail(f.FlagIdx, f.SourceIdx, f.FlagTypeVal, f.LocationName, f.DetailMsg, f.InternalName) { IsSet = f.IsSet });
+                m_editableFlagsList.Add(new FlagsOrganizer.FlagDetail(f.FlagIdx, f.SourceIdx, f.FlagTypeVal, f.LocationName, f.DetailMsg, f.InternalName) { IsSet = f.IsSet });
             }
 
             RefreshDataGrid();
@@ -136,7 +157,7 @@ namespace FlagsEditorEXPlugin.Forms
             bool skipSet = showOnlyUnsetChk.Checked;
             bool skipUnset = showOnlySetChk.Checked;
 
-            foreach (var f in m_editabelFlagsList)
+            foreach (var f in m_editableFlagsList)
             {
                 if (skipUnused && f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused)
                 {
@@ -165,9 +186,7 @@ namespace FlagsEditorEXPlugin.Forms
 
             for (int i = 0; i < dataGridView.Rows.Count; i++)
             {
-                var a = (dataGridView.Rows[i].Cells[0].Value as Boolean?);
-
-                if (a.Value)
+                if ((dataGridView.Rows[i].Cells[0].Value as Boolean?).Value)
                 {
                     totalSet++;
                 }

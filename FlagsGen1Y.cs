@@ -39,6 +39,7 @@ namespace FlagsEditorEXPlugin
             EventFlags = 0x29E9,
         }
 
+        int EventFlagsOffset;
         int BadgeFlagsOffset;
         int MissableObjectFlagsOffset;
         int GameProgressWorkOffset;
@@ -78,6 +79,7 @@ namespace FlagsEditorEXPlugin
                 RodFlagsOffset = (int)FlagOffsets_JAP.RodFlags;
                 LaprasFlagOffset = (int)FlagOffsets_JAP.LaprasFlag;
                 CompletedInGameTradeFlagsOffset = (int)FlagOffsets_JAP.CompletedInGameTradeFlags;
+                EventFlagsOffset = (int)FlagOffsets_JAP.EventFlags;
             }
             else
             {
@@ -90,6 +92,7 @@ namespace FlagsEditorEXPlugin
                 RodFlagsOffset = (int)FlagOffsets_INTL.RodFlags;
                 LaprasFlagOffset = (int)FlagOffsets_INTL.LaprasFlag;
                 CompletedInGameTradeFlagsOffset = (int)FlagOffsets_INTL.CompletedInGameTradeFlags;
+                EventFlagsOffset = (int)FlagOffsets_INTL.EventFlags;
             }
 
             // wObtainedBadges
@@ -195,7 +198,7 @@ namespace FlagsEditorEXPlugin
 
         }
 
-        public override bool SupportsEditingFlag(EventFlagType flagType)
+        public override bool SupportsBulkEditingFlags(EventFlagType flagType)
         {
             switch (flagType)
             {
@@ -214,19 +217,19 @@ namespace FlagsEditorEXPlugin
             }
         }
 
-        public override void MarkFlags(EventFlagType flagType)
+        public override void BulkMarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: true);
         }
 
-        public override void UnmarkFlags(EventFlagType flagType)
+        public override void BulkUnmarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: false);
         }
 
         void ChangeFlagsVal(EventFlagType flagType, bool value)
         {
-            if (SupportsEditingFlag(flagType))
+            if (SupportsBulkEditingFlags(flagType))
             {
                 var flagHelper = (m_savFile as IEventFlagArray);
 
@@ -281,6 +284,63 @@ namespace FlagsEditorEXPlugin
                 }
             }
         }
-    }
 
+        public override void SyncEditedFlags(int sourceIdx)
+        {
+            foreach (var fSet in m_flagsSetList)
+            {
+                if (fSet.SourceIdx == sourceIdx)
+                {
+                    int _offset = 0;
+
+                    switch (fSet.SourceIdx)
+                    {
+                        case Src_EventFlags:
+                            _offset = EventFlagsOffset;
+                            break;
+
+                        case Src_HideShowFlags:
+                            _offset = MissableObjectFlagsOffset;
+                            break;
+
+                        case Src_HiddenItemFlags:
+                            _offset = ObtainedHiddenItemsOffset;
+                            break;
+
+                        case Src_HiddenCoinsFlags:
+                            _offset = ObtainedHiddenCoinsOffset;
+                            break;
+
+                        case Src_TradeFlags:
+                            _offset = CompletedInGameTradeFlagsOffset;
+                            break;
+
+                        case Src_FlySpotFlags:
+                            _offset = FlySpotFlagsOffset;
+                            break;
+
+                        case Src_BadgesFlags:
+                            _offset = BadgeFlagsOffset;
+                            break;
+
+                        case Src_Misc_wd728:
+                            _offset = RodFlagsOffset;
+                            break;
+
+                        case Src_Misc_wd72e:
+                            _offset = LaprasFlagOffset;
+                            break;
+                    }
+
+                    foreach (var f in fSet.Flags)
+                    {
+                        int idx = (int)f.FlagIdx;
+                        m_savFile.SetFlag(_offset + (idx >> 3), idx & 7, f.IsSet);
+                    }
+
+                    break;
+                }
+            }
+        }
+    }
 }

@@ -326,9 +326,10 @@ namespace FlagsEditorEXPlugin
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
         }
 
-        public abstract void MarkFlags(EventFlagType flagType);
-        public abstract void UnmarkFlags(EventFlagType flagType);
-        public abstract bool SupportsEditingFlag(EventFlagType flagType);
+        public abstract void BulkMarkFlags(EventFlagType flagType);
+        public abstract void BulkUnmarkFlags(EventFlagType flagType);
+        public abstract bool SupportsBulkEditingFlags(EventFlagType flagType);
+        public abstract void SyncEditedFlags(int sourceIdx);
 
         #endregion
         
