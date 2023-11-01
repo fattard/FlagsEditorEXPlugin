@@ -16,12 +16,14 @@ namespace FlagsEditorEXPlugin.Forms
         List<FlagsOrganizer.FlagDetail> m_editableFlagsList;
         FlagsOrganizer m_organizer;
         FlagsOrganizer.FlagsSet m_curFlagsSet;
+        FlagsOrganizer.EventFlagType m_filter;
 
 
-        public FlagsEditor(FlagsOrganizer flagsOrganizer, FlagsOrganizer.FlagsSet flagsSet)
+        public FlagsEditor(FlagsOrganizer flagsOrganizer, FlagsOrganizer.FlagsSet flagsSet, FlagsOrganizer.EventFlagType filter)
         {
             m_organizer = flagsOrganizer;
             m_curFlagsSet = flagsSet;
+            m_filter = filter;
             m_flagsList = flagsSet.Flags;
             m_editableFlagsList = new List<FlagsOrganizer.FlagDetail>(m_flagsList.Count);
 
@@ -143,7 +145,10 @@ namespace FlagsEditorEXPlugin.Forms
 
             foreach (var f in m_flagsList)
             {
-                m_editableFlagsList.Add(new FlagsOrganizer.FlagDetail(f.FlagIdx, f.SourceIdx, f.FlagTypeVal, f.LocationName, f.DetailMsg, f.InternalName) { IsSet = f.IsSet });
+                if (m_filter == FlagsOrganizer.EventFlagType._Unknown || f.FlagTypeVal == m_filter)
+                {
+                    m_editableFlagsList.Add(new FlagsOrganizer.FlagDetail(f.FlagIdx, f.SourceIdx, f.FlagTypeVal, f.LocationName, f.DetailMsg, f.InternalName) { IsSet = f.IsSet });
+                }
             }
 
             RefreshDataGrid();
@@ -173,6 +178,11 @@ namespace FlagsEditorEXPlugin.Forms
                     continue;
                 }
                 if (!f.IsSet && skipUnset)
+                {
+                    continue;
+                }
+
+                if (m_filter != FlagsOrganizer.EventFlagType._Unknown && f.FlagTypeVal != m_filter)
                 {
                     continue;
                 }

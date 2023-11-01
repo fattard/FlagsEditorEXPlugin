@@ -69,7 +69,7 @@ namespace FlagsEditorEXPlugin
                 throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
             }
 
-            var form = new SelectedFlagsEditor(flagsOrganizer);
+            var form = new Forms.MainWin(flagsOrganizer);
             form.ShowDialog();
         }
 
