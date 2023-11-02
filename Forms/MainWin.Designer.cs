@@ -31,11 +31,11 @@ namespace FlagsEditorEXPlugin.Forms
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.flagsSetEditBtn = new System.Windows.Forms.Button();
+            this.rawFlagsEditBtn = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.flagsCategoryCombo = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.flagsSetCombo = new System.Windows.Forms.ComboBox();
+            this.flagsGroupCombo = new System.Windows.Forms.ComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
@@ -66,7 +66,7 @@ namespace FlagsEditorEXPlugin.Forms
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.flagsSetEditBtn);
+            this.tabPage1.Controls.Add(this.rawFlagsEditBtn);
             this.tabPage1.Controls.Add(this.groupBox2);
             this.tabPage1.Controls.Add(this.groupBox1);
             this.tabPage1.Location = new System.Drawing.Point(4, 40);
@@ -77,17 +77,17 @@ namespace FlagsEditorEXPlugin.Forms
             this.tabPage1.Text = "Raw Flags Edit";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // flagsSetEditBtn
+            // rawFlagsEditBtn
             // 
-            this.flagsSetEditBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.rawFlagsEditBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.flagsSetEditBtn.Location = new System.Drawing.Point(87, 205);
-            this.flagsSetEditBtn.Name = "flagsSetEditBtn";
-            this.flagsSetEditBtn.Size = new System.Drawing.Size(180, 23);
-            this.flagsSetEditBtn.TabIndex = 1;
-            this.flagsSetEditBtn.Text = "Edit...";
-            this.flagsSetEditBtn.UseVisualStyleBackColor = true;
-            this.flagsSetEditBtn.Click += new System.EventHandler(this.flagsSetEditBtn_Click);
+            this.rawFlagsEditBtn.Location = new System.Drawing.Point(87, 205);
+            this.rawFlagsEditBtn.Name = "rawFlagsEditBtn";
+            this.rawFlagsEditBtn.Size = new System.Drawing.Size(180, 23);
+            this.rawFlagsEditBtn.TabIndex = 1;
+            this.rawFlagsEditBtn.Text = "Edit...";
+            this.rawFlagsEditBtn.UseVisualStyleBackColor = true;
+            this.rawFlagsEditBtn.Click += new System.EventHandler(this.rawFlagsEditBtn_Click);
             // 
             // groupBox2
             // 
@@ -117,25 +117,25 @@ namespace FlagsEditorEXPlugin.Forms
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.flagsSetCombo);
+            this.groupBox1.Controls.Add(this.flagsGroupCombo);
             this.groupBox1.Location = new System.Drawing.Point(15, 25);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(324, 71);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Flags Set";
+            this.groupBox1.Text = "Flags Group";
             // 
-            // flagsSetCombo
+            // flagsGroupCombo
             // 
-            this.flagsSetCombo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.flagsGroupCombo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.flagsSetCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.flagsSetCombo.FormattingEnabled = true;
-            this.flagsSetCombo.Location = new System.Drawing.Point(15, 28);
-            this.flagsSetCombo.Name = "flagsSetCombo";
-            this.flagsSetCombo.Size = new System.Drawing.Size(294, 21);
-            this.flagsSetCombo.TabIndex = 0;
+            this.flagsGroupCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.flagsGroupCombo.FormattingEnabled = true;
+            this.flagsGroupCombo.Location = new System.Drawing.Point(15, 28);
+            this.flagsGroupCombo.Name = "flagsGroupCombo";
+            this.flagsGroupCombo.Size = new System.Drawing.Size(294, 21);
+            this.flagsGroupCombo.TabIndex = 0;
             // 
             // tabPage2
             // 
@@ -220,8 +220,8 @@ namespace FlagsEditorEXPlugin.Forms
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.ComboBox flagsCategoryCombo;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button flagsSetEditBtn;
-        private System.Windows.Forms.ComboBox flagsSetCombo;
+        private System.Windows.Forms.Button rawFlagsEditBtn;
+        private System.Windows.Forms.ComboBox flagsGroupCombo;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.Label warnLabel;

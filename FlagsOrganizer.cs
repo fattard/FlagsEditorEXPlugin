@@ -98,14 +98,14 @@ namespace FlagsEditorEXPlugin
         }
 
 
-        public class FlagsSet
+        public class FlagsGroup
         {
             public int SourceIdx { get; private set; }
             public string SourceName { get; private set; }
             public List<FlagDetail> Flags { get; private set; }
 
 
-            public FlagsSet(int sourceIdx, string sourceName)
+            public FlagsGroup(int sourceIdx, string sourceName)
             {
                 SourceIdx = sourceIdx;
                 SourceName = sourceName;
@@ -190,15 +190,15 @@ namespace FlagsEditorEXPlugin
 
         protected SaveFile m_savFile;
 
-        protected List<FlagsSet> m_flagsSetList = new List<FlagsSet>(10);
+        protected List<FlagsGroup> m_flagsGroupsList = new List<FlagsGroup>(10);
         protected List<WorkDetail> m_eventWorkList = new List<WorkDetail>(4096);
 
-        public List<FlagsSet> FlagsSets => m_flagsSetList;
+        public List<FlagsGroup> FlagsGroups => m_flagsGroupsList;
 
         protected virtual void InitFlagsData(SaveFile savFile, string resData)
         {
             m_savFile = savFile;
-            m_flagsSetList.Clear();
+            m_flagsGroupsList.Clear();
             m_eventWorkList.Clear();
         }
 
@@ -206,7 +206,7 @@ namespace FlagsEditorEXPlugin
         {
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
             {
-                FlagsSet flagsSet = new FlagsSet(sourceIdx, sourceName);
+                FlagsGroup flagsGroup = new FlagsGroup(sourceIdx, sourceName);
 
                 string s = reader.ReadLine();
 
@@ -229,14 +229,14 @@ namespace FlagsEditorEXPlugin
                         var flagDetail = new FlagDetail(s);
                         flagDetail.IsSet = flagValues[flagDetail.FlagIdx];
                         flagDetail.SourceIdx = sourceIdx;
-                        flagsSet.Flags.Add(flagDetail);
+                        flagsGroup.Flags.Add(flagDetail);
                     }
 
                     s = reader.ReadLine();
 
                 } while (s != null);
 
-                m_flagsSetList.Add(flagsSet);
+                m_flagsGroupsList.Add(flagsGroup);
             }
         }
 
@@ -298,10 +298,10 @@ namespace FlagsEditorEXPlugin
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
 
-            foreach (var fSet in m_flagsSetList)
+            foreach (var fGroup in m_flagsGroupsList)
             {
-                var flagsList = fSet.Flags;
-                sb.Append($"{fSet.SourceName}\r\n");
+                var flagsList = fGroup.Flags;
+                sb.Append($"{fGroup.SourceName}\r\n");
 
                 for (int i = 0; i < flagsList.Count; ++i)
                 {

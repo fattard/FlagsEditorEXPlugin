@@ -37,9 +37,9 @@ namespace FlagsEditorEXPlugin
         protected override void AssembleList(string flagsList_res, int sourceIdx, string sourceName, bool[] flagValues)
         {
             var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
-            var fSet = new FlagsSet(sourceIdx, sourceName);
+            var fGroup = new FlagsGroup(sourceIdx, sourceName);
 
-            m_flagsSetList.Clear();
+            m_flagsGroupsList.Clear();
             m_blocksStatus.Clear();
 
             // Field Items
@@ -128,7 +128,7 @@ namespace FlagsEditorEXPlugin
 
                                 flagDetail.IsSet = flagVal;
                             }
-                            fSet.Flags.Add(flagDetail);
+                            fGroup.Flags.Add(flagDetail);
                         }
                     }
 
@@ -140,10 +140,10 @@ namespace FlagsEditorEXPlugin
             // Fill missing block status
             foreach (var pair in m_blocksStatus)
             {
-                fSet.Flags.Add(new FlagDetail(pair.Key, source: 0, EventFlagType._Unknown, "", "", "") { IsSet = pair.Value });
+                fGroup.Flags.Add(new FlagDetail(pair.Key, source: 0, EventFlagType._Unknown, "", "", "") { IsSet = pair.Value });
             }
 
-            m_flagsSetList.Add(fSet);
+            m_flagsGroupsList.Add(fGroup);
 
 
             /*var data = savEventBlocks.GetBlockSafe(0x2482AD60).Data;
@@ -234,7 +234,7 @@ namespace FlagsEditorEXPlugin
                     {
                         using (var writer = new System.IO.BinaryWriter(ms))
                         {
-                            foreach (var f in m_flagsSetList[0].Flags)
+                            foreach (var f in m_flagsGroupsList[0].Flags)
                             {
                                 if (ms.Position < ms.Length)
                                 {
@@ -257,7 +257,7 @@ namespace FlagsEditorEXPlugin
                     {
                         using (var writer = new System.IO.BinaryWriter(ms))
                         {
-                            foreach (var f in m_flagsSetList[0].Flags)
+                            foreach (var f in m_flagsGroupsList[0].Flags)
                             {
                                 if (ms.Position < ms.Length)
                                 {
@@ -282,7 +282,7 @@ namespace FlagsEditorEXPlugin
 
                 else if (flagType == EventFlagType.SideEvent || flagType == EventFlagType.InGameTrade || flagType == EventFlagType.Gift)
                 {
-                    foreach (var f in m_flagsSetList[0].Flags)
+                    foreach (var f in m_flagsGroupsList[0].Flags)
                     {
                         if (f.FlagTypeVal == flagType)
                         {
@@ -314,7 +314,7 @@ namespace FlagsEditorEXPlugin
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
 
-            var flagsList = m_flagsSetList[0].Flags;
+            var flagsList = m_flagsGroupsList[0].Flags;
 
             for (int i = 0; i < flagsList.Count; ++i)
             {

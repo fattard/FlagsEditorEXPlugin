@@ -233,7 +233,7 @@ namespace FlagsEditorEXPlugin
             {
                 var flagHelper = (m_savFile as IEventFlagArray);
 
-                foreach (var f in m_flagsSetList[0].Flags)
+                foreach (var f in m_flagsGroupsList[0].Flags)
                 {
                     if (f.FlagTypeVal == flagType)
                     {
@@ -287,13 +287,13 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedFlags(int sourceIdx)
         {
-            foreach (var fSet in m_flagsSetList)
+            foreach (var fGroup in m_flagsGroupsList)
             {
-                if (fSet.SourceIdx == sourceIdx)
+                if (fGroup.SourceIdx == sourceIdx)
                 {
                     int _offset = 0;
 
-                    switch (fSet.SourceIdx)
+                    switch (fGroup.SourceIdx)
                     {
                         case Src_EventFlags:
                             _offset = EventFlagsOffset;
@@ -332,7 +332,7 @@ namespace FlagsEditorEXPlugin
                             break;
                     }
 
-                    foreach (var f in fSet.Flags)
+                    foreach (var f in fGroup.Flags)
                     {
                         int idx = (int)f.FlagIdx;
                         m_savFile.SetFlag(_offset + (idx >> 3), idx & 7, f.IsSet);

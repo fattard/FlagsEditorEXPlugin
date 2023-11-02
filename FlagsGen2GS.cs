@@ -84,7 +84,7 @@ namespace FlagsEditorEXPlugin
             {
                 var flagHelper = (m_savFile as IEventFlagArray);
 
-                foreach (var f in m_flagsSetList[0].Flags)
+                foreach (var f in m_flagsGroupsList[0].Flags)
                 {
                     if (f.FlagTypeVal == flagType)
                     {

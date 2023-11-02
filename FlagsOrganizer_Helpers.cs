@@ -171,15 +171,15 @@ namespace FlagsEditorEXPlugin
         {
             m_savFile = savFile;
             bool[] savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-            m_flagsSetList.Clear();
-            var fSet = new FlagsSet(0, "");
+            m_flagsGroupsList.Clear();
+            var fGroup = new FlagsGroup(0, "");
 
             for (int i = 0; i < savEventFlags.Length; ++i)
             {
-                fSet.Flags.Add(new FlagDetail((uint)i, source: 0, EventFlagType._Unknown, "", "", "") { IsSet = savEventFlags[i] });
+                fGroup.Flags.Add(new FlagDetail((uint)i, source: 0, EventFlagType._Unknown, "", "", "") { IsSet = savEventFlags[i] });
             }
 
-            m_flagsSetList.Add(fSet);
+            m_flagsGroupsList.Add(fGroup);
         }
 
         public override void BulkMarkFlags(EventFlagType flagType) { }
@@ -210,23 +210,23 @@ namespace FlagsEditorEXPlugin
                 }
             }
 
-            m_flagsSetList.Clear();
-            var fSet = new FlagsSet(0, "");
+            m_flagsGroupsList.Clear();
+            var fGroup = new FlagsGroup(0, "");
 
             for (int i = 0; i < m_blockEventFlags.Count; ++i)
             {
                 var b = m_blockEventFlags[i];
-                fSet.Flags.Add(new FlagDetail(b.Key, source: 0, EventFlagType._Unknown, "", "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
+                fGroup.Flags.Add(new FlagDetail(b.Key, source: 0, EventFlagType._Unknown, "", "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
             }
 
-            m_flagsSetList.Add(fSet);
+            m_flagsGroupsList.Add(fGroup);
         }
 
         public override void DumpAllFlags()
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
 
-            var flagsList = m_flagsSetList[0].Flags;
+            var flagsList = m_flagsGroupsList[0].Flags;
             
             for (int i = 0; i < flagsList.Count; ++i)
             {

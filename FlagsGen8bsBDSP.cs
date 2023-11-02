@@ -92,7 +92,7 @@ namespace FlagsEditorEXPlugin
         {
             if (SupportsBulkEditingFlags(flagType))
             {
-                foreach (var f in m_flagsSetList[0].Flags)
+                foreach (var f in m_flagsGroupsList[0].Flags)
                 {
                     if (f.FlagTypeVal == flagType)
                     {

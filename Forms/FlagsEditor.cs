@@ -15,21 +15,21 @@ namespace FlagsEditorEXPlugin.Forms
         List<FlagsOrganizer.FlagDetail> m_flagsList;
         List<FlagsOrganizer.FlagDetail> m_editableFlagsList;
         FlagsOrganizer m_organizer;
-        FlagsOrganizer.FlagsSet m_curFlagsSet;
+        FlagsOrganizer.FlagsGroup m_curFlagsGroup;
         FlagsOrganizer.EventFlagType m_filter;
 
 
-        public FlagsEditor(FlagsOrganizer flagsOrganizer, FlagsOrganizer.FlagsSet flagsSet, FlagsOrganizer.EventFlagType filter)
+        public FlagsEditor(FlagsOrganizer flagsOrganizer, FlagsOrganizer.FlagsGroup flagsGroup, FlagsOrganizer.EventFlagType filter)
         {
             m_organizer = flagsOrganizer;
-            m_curFlagsSet = flagsSet;
+            m_curFlagsGroup = flagsGroup;
             m_filter = filter;
-            m_flagsList = flagsSet.Flags;
+            m_flagsList = flagsGroup.Flags;
             m_editableFlagsList = new List<FlagsOrganizer.FlagDetail>(m_flagsList.Count);
 
             InitializeComponent();
 
-            this.Text = $"Flags Editor - {m_curFlagsSet.SourceName}";
+            this.Text = $"Flags Editor - {m_curFlagsGroup.SourceName}";
 
             dataGridView.CurrentCellDirtyStateChanged += dataGridView_CurrentCellDirtyStateChanged;
             dataGridView.CellValueChanged += dataGridView_CellValueChanged;
@@ -44,7 +44,7 @@ namespace FlagsEditorEXPlugin.Forms
                 m_flagsList[i].IsSet = m_editableFlagsList[i].IsSet;
             }
 
-            m_organizer.SyncEditedFlags(m_curFlagsSet.SourceIdx);
+            m_organizer.SyncEditedFlags(m_curFlagsGroup.SourceIdx);
 
             Close();
         }

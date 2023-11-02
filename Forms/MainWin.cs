@@ -20,9 +20,9 @@ namespace FlagsEditorEXPlugin.Forms
 
             InitializeComponent();
 
-            foreach (var fSet in m_organizer.FlagsSets)
+            foreach (var fGroup in m_organizer.FlagsGroups)
             {
-                flagsSetCombo.Items.Add(fSet.SourceName);
+                flagsGroupCombo.Items.Add(fGroup.SourceName);
             }
 
             flagsCategoryCombo.Items.Add("- All -");
@@ -32,20 +32,20 @@ namespace FlagsEditorEXPlugin.Forms
             }
 
 
-            flagsSetCombo.SelectedIndex = 0;
+            flagsGroupCombo.SelectedIndex = 0;
             flagsCategoryCombo.SelectedIndex = 0;
         }
 
-        private void flagsSetEditBtn_Click(object sender, EventArgs e)
+        private void rawFlagsEditBtn_Click(object sender, EventArgs e)
         {
-            foreach (var fSet in m_organizer.FlagsSets)
+            foreach (var fGroup in m_organizer.FlagsGroups)
             {
-                if (fSet.SourceName == (flagsSetCombo.SelectedItem as string))
+                if (fGroup.SourceName == (flagsGroupCombo.SelectedItem as string))
                 {
                     var filter = FlagsOrganizer.EventFlagType._Unknown;
                     filter = filter.Parse(flagsCategoryCombo.SelectedItem as string);
 
-                    var form = new FlagsEditor(m_organizer, fSet, filter);
+                    var form = new FlagsEditor(m_organizer, fGroup, filter);
                     form.ShowDialog();
                     break;
                 }

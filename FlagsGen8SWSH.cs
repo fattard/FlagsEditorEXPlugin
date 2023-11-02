@@ -35,11 +35,11 @@ namespace FlagsEditorEXPlugin
         protected override void AssembleList(string flagsList_res, int sourceIdx, string sourceName, bool[] flagValues)
         {
             var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
-            m_flagsSetList.Clear();
+            m_flagsGroupsList.Clear();
 
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
             {
-                var fSet = new FlagsSet(sourceIdx, sourceName);
+                var fGroup = new FlagsGroup(sourceIdx, sourceName);
                 string s = reader.ReadLine();
                 do
                 {
@@ -47,14 +47,14 @@ namespace FlagsEditorEXPlugin
                     {
                         var flagDetail = new FlagDetail(s);
                         flagDetail.IsSet = (savEventBlocks.GetBlockSafe((uint)flagDetail.FlagIdx).Type == SCTypeCode.Bool2);
-                        fSet.Flags.Add(flagDetail);
+                        fGroup.Flags.Add(flagDetail);
                     }
 
                     s = reader.ReadLine();
 
                 } while (s != null);
                 
-                m_flagsSetList.Add(fSet);
+                m_flagsGroupsList.Add(fGroup);
             }
 
         }
@@ -89,7 +89,7 @@ namespace FlagsEditorEXPlugin
             {
                 var blocks = (m_savFile as ISCBlockArray).Accessor;
 
-                foreach (var f in m_flagsSetList[0].Flags)
+                foreach (var f in m_flagsGroupsList[0].Flags)
                 {
                     if (f.FlagTypeVal == flagType)
                     {
@@ -109,7 +109,7 @@ namespace FlagsEditorEXPlugin
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
 
-            var flagsList = m_flagsSetList[0].Flags;
+            var flagsList = m_flagsGroupsList[0].Flags;
 
             for (int i = 0; i < flagsList.Count; ++i)
             {
