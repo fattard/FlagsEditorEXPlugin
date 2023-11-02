@@ -61,7 +61,7 @@ namespace FlagsEditorEXPlugin
             AssembleList(s_flagsList_res.Substring(idxSysFlagsSection), Src_SysFlags, "Sys Flags", sysFlagsVals);
             AssembleList(s_flagsList_res.Substring(idxTrainerFlagsSection), Src_TrainerFlags, "Trainer Flags", battleTrainerVals);
 
-            AssembleWorkList<int>(s_flagsList_res.Substring(idxEventWorkSection));
+            AssembleWorkList(s_flagsList_res.Substring(idxEventWorkSection), (m_savFile as IEventWorkArray<int>).GetAllEventWork());
         }
 
         public override bool SupportsBulkEditingFlags(EventFlagType flagType)

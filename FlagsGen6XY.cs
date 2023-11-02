@@ -30,7 +30,7 @@ namespace FlagsEditorEXPlugin
             }
 
             AssembleList(s_flagsList_res, 0, "Event Flags", (m_savFile as IEventFlagArray).GetEventFlags());
-            AssembleWorkList<ushort>(null);
+            AssembleWorkList(null, (m_savFile as IEventWorkArray<ushort>).GetAllEventWork());
         }
 
         public override bool SupportsBulkEditingFlags(EventFlagType flagType)

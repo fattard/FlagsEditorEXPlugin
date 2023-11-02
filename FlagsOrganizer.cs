@@ -241,18 +241,15 @@ namespace FlagsEditorEXPlugin
         }
 
 
-        protected virtual void AssembleWorkList<T>(string workList_res) where T: unmanaged
+        protected virtual void AssembleWorkList<T>(string workList_res, T[] eventWorkValues) where T: unmanaged
         {
-            var savEventWork = (m_savFile as IEventWorkArray<T>).GetAllEventWork();
-            m_eventWorkList.Clear();
-
             //TODO: temp for those that still have no resources file
             if (workList_res == null)
             {
-                for (uint i = 0; i < savEventWork.Length; i++)
+                for (uint i = 0; i < eventWorkValues.Length; i++)
                 {
                     var workDetail = new WorkDetail(i, EventFlagType._Unknown, "");
-                    workDetail.Value = Convert.ToInt64(savEventWork[workDetail.WorkIdx]);
+                    workDetail.Value = Convert.ToInt64(eventWorkValues[workDetail.WorkIdx]);
                     m_eventWorkList.Add(workDetail);
                 }
             }
@@ -279,7 +276,7 @@ namespace FlagsEditorEXPlugin
                             }
 
                             var workDetail = new WorkDetail(s);
-                            workDetail.Value = Convert.ToInt64(savEventWork[workDetail.WorkIdx]);
+                            workDetail.Value = Convert.ToInt64(eventWorkValues[workDetail.WorkIdx]);
                             m_eventWorkList.Add(workDetail);
                         }
 
