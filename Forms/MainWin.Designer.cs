@@ -31,20 +31,20 @@ namespace FlagsEditorEXPlugin.Forms
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.flagsSetEditBtn = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.flagsCategoryCombo = new System.Windows.Forms.ComboBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.flagsSetCombo = new System.Windows.Forms.ComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.flagsSetCombo = new System.Windows.Forms.ComboBox();
-            this.flagsSetEditBtn = new System.Windows.Forms.Button();
-            this.flagsCategoryCombo = new System.Windows.Forms.ComboBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.warnLabel = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -77,37 +77,17 @@ namespace FlagsEditorEXPlugin.Forms
             this.tabPage1.Text = "Raw Flags Edit";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // flagsSetEditBtn
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 40);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(324, 353);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Bulk Flags Edit";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(292, 371);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Event Work Edit";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.flagsSetEditBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.flagsSetCombo);
-            this.groupBox1.Location = new System.Drawing.Point(15, 25);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(324, 71);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Flags Set";
+            this.flagsSetEditBtn.Location = new System.Drawing.Point(87, 205);
+            this.flagsSetEditBtn.Name = "flagsSetEditBtn";
+            this.flagsSetEditBtn.Size = new System.Drawing.Size(180, 23);
+            this.flagsSetEditBtn.TabIndex = 1;
+            this.flagsSetEditBtn.Text = "Edit...";
+            this.flagsSetEditBtn.UseVisualStyleBackColor = true;
+            this.flagsSetEditBtn.Click += new System.EventHandler(this.flagsSetEditBtn_Click);
             // 
             // groupBox2
             // 
@@ -121,30 +101,6 @@ namespace FlagsEditorEXPlugin.Forms
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Flags Category";
             // 
-            // flagsSetCombo
-            // 
-            this.flagsSetCombo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.flagsSetCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.flagsSetCombo.FormattingEnabled = true;
-            this.flagsSetCombo.Location = new System.Drawing.Point(15, 28);
-            this.flagsSetCombo.Name = "flagsSetCombo";
-            this.flagsSetCombo.Size = new System.Drawing.Size(294, 21);
-            this.flagsSetCombo.TabIndex = 0;
-            // 
-            // flagsSetEditBtn
-            // 
-            this.flagsSetEditBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.flagsSetEditBtn.Location = new System.Drawing.Point(87, 205);
-            this.flagsSetEditBtn.Name = "flagsSetEditBtn";
-            this.flagsSetEditBtn.Size = new System.Drawing.Size(180, 23);
-            this.flagsSetEditBtn.TabIndex = 1;
-            this.flagsSetEditBtn.Text = "Edit...";
-            this.flagsSetEditBtn.UseVisualStyleBackColor = true;
-            this.flagsSetEditBtn.Click += new System.EventHandler(this.flagsSetEditBtn_Click);
-            // 
             // flagsCategoryCombo
             // 
             this.flagsCategoryCombo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -157,12 +113,56 @@ namespace FlagsEditorEXPlugin.Forms
             this.flagsCategoryCombo.Size = new System.Drawing.Size(294, 21);
             this.flagsCategoryCombo.TabIndex = 0;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.flagsSetCombo);
+            this.groupBox1.Location = new System.Drawing.Point(15, 25);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(324, 71);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Flags Set";
+            // 
+            // flagsSetCombo
+            // 
+            this.flagsSetCombo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flagsSetCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.flagsSetCombo.FormattingEnabled = true;
+            this.flagsSetCombo.Location = new System.Drawing.Point(15, 28);
+            this.flagsSetCombo.Name = "flagsSetCombo";
+            this.flagsSetCombo.Size = new System.Drawing.Size(294, 21);
+            this.flagsSetCombo.TabIndex = 0;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Location = new System.Drawing.Point(4, 40);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(354, 353);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Bulk Flags Edit";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 40);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(354, 353);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Event Work Edit";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
             // tabPage4
             // 
             this.tabPage4.Location = new System.Drawing.Point(4, 40);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(292, 353);
+            this.tabPage4.Size = new System.Drawing.Size(354, 353);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Special Edit";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -172,7 +172,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.tabPage5.Location = new System.Drawing.Point(4, 40);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(292, 353);
+            this.tabPage5.Size = new System.Drawing.Size(354, 353);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Misc Edit";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -200,11 +200,12 @@ namespace FlagsEditorEXPlugin.Forms
             this.MaximumSize = new System.Drawing.Size(380, 480);
             this.MinimumSize = new System.Drawing.Size(380, 480);
             this.Name = "MainWin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Flags Editor EX";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -40,12 +40,13 @@ namespace FlagsEditorEXPlugin.Forms
             this.numUnsetTxt = new System.Windows.Forms.Label();
             this.numSetTxt = new System.Windows.Forms.Label();
             this.filterUnusedChk = new System.Windows.Forms.CheckBox();
+            this.showOnlySetChk = new System.Windows.Forms.CheckBox();
+            this.showOnlyUnsetChk = new System.Windows.Forms.CheckBox();
             this.dgv_val = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dgv_ref = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgv_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_location = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgv_txtDesc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.showOnlySetChk = new System.Windows.Forms.CheckBox();
-            this.showOnlyUnsetChk = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,6 +65,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.dgv_val,
             this.dgv_ref,
             this.dgv_id,
+            this.dgv_location,
             this.dgv_txtDesc});
             this.dataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.dataGridView.Location = new System.Drawing.Point(12, 12);
@@ -71,12 +73,12 @@ namespace FlagsEditorEXPlugin.Forms
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersVisible = false;
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView.Size = new System.Drawing.Size(776, 357);
+            this.dataGridView.Size = new System.Drawing.Size(800, 357);
             this.dataGridView.TabIndex = 0;
             // 
             // saveBtn
             // 
-            this.saveBtn.Location = new System.Drawing.Point(694, 380);
+            this.saveBtn.Location = new System.Drawing.Point(718, 381);
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Size = new System.Drawing.Size(94, 23);
             this.saveBtn.TabIndex = 1;
@@ -86,7 +88,7 @@ namespace FlagsEditorEXPlugin.Forms
             // 
             // cancelBtn
             // 
-            this.cancelBtn.Location = new System.Drawing.Point(694, 409);
+            this.cancelBtn.Location = new System.Drawing.Point(718, 410);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(94, 23);
             this.cancelBtn.TabIndex = 2;
@@ -173,6 +175,28 @@ namespace FlagsEditorEXPlugin.Forms
             this.filterUnusedChk.UseVisualStyleBackColor = true;
             this.filterUnusedChk.CheckedChanged += new System.EventHandler(this.filterUnusedChk_CheckedChanged);
             // 
+            // showOnlySetChk
+            // 
+            this.showOnlySetChk.AutoSize = true;
+            this.showOnlySetChk.Location = new System.Drawing.Point(238, 385);
+            this.showOnlySetChk.Name = "showOnlySetChk";
+            this.showOnlySetChk.Size = new System.Drawing.Size(92, 17);
+            this.showOnlySetChk.TabIndex = 11;
+            this.showOnlySetChk.Text = "Show only set";
+            this.showOnlySetChk.UseVisualStyleBackColor = true;
+            this.showOnlySetChk.CheckedChanged += new System.EventHandler(this.showOnlySetChk_CheckedChanged);
+            // 
+            // showOnlyUnsetChk
+            // 
+            this.showOnlyUnsetChk.AutoSize = true;
+            this.showOnlyUnsetChk.Location = new System.Drawing.Point(238, 414);
+            this.showOnlyUnsetChk.Name = "showOnlyUnsetChk";
+            this.showOnlyUnsetChk.Size = new System.Drawing.Size(104, 17);
+            this.showOnlyUnsetChk.TabIndex = 12;
+            this.showOnlyUnsetChk.Text = "Show only unset";
+            this.showOnlyUnsetChk.UseVisualStyleBackColor = true;
+            this.showOnlyUnsetChk.CheckedChanged += new System.EventHandler(this.showOnlyUnsetChk_CheckedChanged);
+            // 
             // dgv_val
             // 
             this.dgv_val.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
@@ -196,6 +220,14 @@ namespace FlagsEditorEXPlugin.Forms
             this.dgv_id.ReadOnly = true;
             this.dgv_id.Width = 98;
             // 
+            // dgv_location
+            // 
+            this.dgv_location.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dgv_location.HeaderText = "Location";
+            this.dgv_location.Name = "dgv_location";
+            this.dgv_location.ReadOnly = true;
+            this.dgv_location.Width = 73;
+            // 
             // dgv_txtDesc
             // 
             this.dgv_txtDesc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
@@ -204,33 +236,11 @@ namespace FlagsEditorEXPlugin.Forms
             this.dgv_txtDesc.ReadOnly = true;
             this.dgv_txtDesc.Width = 85;
             // 
-            // showOnlySetChk
-            // 
-            this.showOnlySetChk.AutoSize = true;
-            this.showOnlySetChk.Location = new System.Drawing.Point(238, 385);
-            this.showOnlySetChk.Name = "showOnlySetChk";
-            this.showOnlySetChk.Size = new System.Drawing.Size(92, 17);
-            this.showOnlySetChk.TabIndex = 11;
-            this.showOnlySetChk.Text = "Show only set";
-            this.showOnlySetChk.UseVisualStyleBackColor = true;
-            this.showOnlySetChk.CheckedChanged += new System.EventHandler(this.showOnlySetChk_CheckedChanged);
-            // 
-            // showOnlyUnsetChk
-            // 
-            this.showOnlyUnsetChk.AutoSize = true;
-            this.showOnlyUnsetChk.Location = new System.Drawing.Point(238, 414);
-            this.showOnlyUnsetChk.Name = "showOnlyUnsetChk";
-            this.showOnlyUnsetChk.Size = new System.Drawing.Size(104, 17);
-            this.showOnlyUnsetChk.TabIndex = 12;
-            this.showOnlyUnsetChk.Text = "Show only unset";
-            this.showOnlyUnsetChk.UseVisualStyleBackColor = true;
-            this.showOnlyUnsetChk.CheckedChanged += new System.EventHandler(this.showOnlyUnsetChk_CheckedChanged);
-            // 
             // FlagsEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 468);
+            this.ClientSize = new System.Drawing.Size(824, 468);
             this.Controls.Add(this.showOnlyUnsetChk);
             this.Controls.Add(this.showOnlySetChk);
             this.Controls.Add(this.filterUnusedChk);
@@ -245,7 +255,10 @@ namespace FlagsEditorEXPlugin.Forms
             this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.dataGridView);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(840, 507);
+            this.MinimumSize = new System.Drawing.Size(840, 507);
             this.Name = "FlagsEditor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Flags Editor";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
@@ -266,11 +279,12 @@ namespace FlagsEditorEXPlugin.Forms
         private System.Windows.Forms.Label numUnsetTxt;
         private System.Windows.Forms.Label numSetTxt;
         private System.Windows.Forms.CheckBox filterUnusedChk;
+        private System.Windows.Forms.CheckBox showOnlySetChk;
+        private System.Windows.Forms.CheckBox showOnlyUnsetChk;
         private System.Windows.Forms.DataGridViewCheckBoxColumn dgv_val;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_ref;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgv_location;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_txtDesc;
-        private System.Windows.Forms.CheckBox showOnlySetChk;
-        private System.Windows.Forms.CheckBox showOnlyUnsetChk;
     }
 }

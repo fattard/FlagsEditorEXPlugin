@@ -187,7 +187,7 @@ namespace FlagsEditorEXPlugin.Forms
                     continue;
                 }
 
-                dataGridView.Rows.Add(new object[] { f.IsSet, f.FlagIdx, f.InternalName, $"{f.LocationName} - {f.DetailMsg}"});
+                dataGridView.Rows.Add(new object[] { f.IsSet, f.FlagIdx, f.InternalName, f.LocationName, f.DetailMsg });
             }
         }
 
