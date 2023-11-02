@@ -69,6 +69,12 @@
     <Compile Include="FlagsOrganizer.cs" />
     <Compile Include="FlagsOrganizer_Helpers.cs" />
     <Compile Include="FlagsEditorEX.cs" />
+    <Compile Include="Forms\EventWorkEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EventWorkEditor.Designer.cs">
+      <DependentUpon>EventWorkEditor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FlagsEditor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Forms\EventWorkEditor.resx">
+      <DependentUpon>EventWorkEditor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FlagsEditor.resx">
       <DependentUpon>FlagsEditor.cs</DependentUpon>
     </EmbeddedResource>

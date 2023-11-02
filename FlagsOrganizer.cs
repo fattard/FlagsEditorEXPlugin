@@ -121,6 +121,7 @@ namespace FlagsEditorEXPlugin
             public string FlagTypeTxt => FlagTypeVal.AsText();
             public string LocationName { get; private set; }
             public string DetailMsg { get; private set; }
+            public string InternalName { get; private set; }
             public Dictionary<long, string> ValidValues { get; private set; }
             public long Value { get; set; }
 
@@ -140,7 +141,8 @@ namespace FlagsEditorEXPlugin
                 {
                     LocationName += " " + info[3];
                 }
-                DetailMsg = !string.IsNullOrWhiteSpace(info[4]) ? info[4] : info[6];
+                DetailMsg = info[4];
+                InternalName = info[6];
                 Value = 0;
 
                 ValidValues = new Dictionary<long, string>(4);
@@ -159,30 +161,40 @@ namespace FlagsEditorEXPlugin
                 }
             }
 
-            public WorkDetail(ulong workIdx, EventFlagType flagType, string detailMsg) : this(workIdx, flagType, "", detailMsg)
+            public WorkDetail(WorkDetail workDetail)
             {
+                WorkIdx = workDetail.WorkIdx;
+                FlagTypeVal = workDetail.FlagTypeVal;
+                LocationName = workDetail.LocationName;
+                DetailMsg = workDetail.DetailMsg;
+                InternalName = workDetail.InternalName;
+                ValidValues = workDetail.ValidValues;
+                Value = workDetail.Value;
             }
 
-            public WorkDetail(ulong workIdx, EventFlagType flagType, string locationName, string detailMsg)
+            public WorkDetail(ulong workIdx, EventFlagType flagType, string locationName, string detailMsg, string internalName)
             {
                 WorkIdx = workIdx;
                 FlagTypeVal = flagType;
                 LocationName = locationName;
                 DetailMsg = detailMsg;
+                InternalName = internalName;
                 ValidValues = new Dictionary<long, string>(4);
                 Value = 0;
             }
 
             public override string ToString()
             {
+                string msg = string.IsNullOrEmpty(DetailMsg) ? InternalName : DetailMsg;
+
                 if (string.IsNullOrEmpty(LocationName))
                 {
-                    return string.Format("{0} - {1}{2}", FlagTypeTxt, DetailMsg, ((ValidValues.Count > 0 && ValidValues.ContainsKey(Value)) ? " => " + ValidValues[Value] : ""));
+                    return string.Format("{0} - {1}{2}", FlagTypeTxt, msg, ((ValidValues.Count > 0 && ValidValues.ContainsKey(Value)) ? " => " + ValidValues[Value] : ""));
                 }
 
                 else
                 {
-                    return string.Format("{0} - {1} - {2}{3}", FlagTypeTxt, LocationName, DetailMsg, ((ValidValues.Count > 0 && ValidValues.ContainsKey(Value)) ? " => " + ValidValues[Value] : ""));
+                    return string.Format("{0} - {1} - {2}{3}", FlagTypeTxt, LocationName, msg, ((ValidValues.Count > 0 && ValidValues.ContainsKey(Value)) ? " => " + ValidValues[Value] : ""));
                 }
             }
         }
@@ -194,6 +206,7 @@ namespace FlagsEditorEXPlugin
         protected List<WorkDetail> m_eventWorkList = new List<WorkDetail>(4096);
 
         public List<FlagsGroup> FlagsGroups => m_flagsGroupsList;
+        public List<WorkDetail> EventWorkList => m_eventWorkList;
 
         protected virtual void InitFlagsData(SaveFile savFile, string resData)
         {
@@ -248,7 +261,7 @@ namespace FlagsEditorEXPlugin
             {
                 for (uint i = 0; i < eventWorkValues.Length; i++)
                 {
-                    var workDetail = new WorkDetail(i, EventFlagType._Unknown, "");
+                    var workDetail = new WorkDetail(i, EventFlagType._Unknown, "", "", "");
                     workDetail.Value = Convert.ToInt64(eventWorkValues[workDetail.WorkIdx]);
                     m_eventWorkList.Add(workDetail);
                 }

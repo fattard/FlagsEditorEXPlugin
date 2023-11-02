@@ -38,7 +38,7 @@ namespace FlagsEditorEXPlugin
             m_eventWorkList.Clear();
             for (uint i = 0; i < m_eventWorkData.CountWork; i++)
             {
-                var workDetail = new WorkDetail(i, EventFlagType._Unknown, "");
+                var workDetail = new WorkDetail(i, EventFlagType._Unknown, "", "", "");
                 workDetail.Value = Convert.ToInt64(m_eventWorkData.GetWork((int)workDetail.WorkIdx));
                 m_eventWorkList.Add(workDetail);
             }

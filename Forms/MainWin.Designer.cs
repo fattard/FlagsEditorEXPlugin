@@ -41,10 +41,12 @@ namespace FlagsEditorEXPlugin.Forms
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.warnLabel = new System.Windows.Forms.Label();
+            this.eventWorkEditBtn = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -149,6 +151,7 @@ namespace FlagsEditorEXPlugin.Forms
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.eventWorkEditBtn);
             this.tabPage3.Location = new System.Drawing.Point(4, 40);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -189,6 +192,16 @@ namespace FlagsEditorEXPlugin.Forms
             this.warnLabel.Text = "Changing the flags values may cause softlock,\r\ncrashes, and permanent data loss.\r" +
     "\nSave file backups is strongly recommended.";
             // 
+            // eventWorkEditBtn
+            // 
+            this.eventWorkEditBtn.Location = new System.Drawing.Point(160, 77);
+            this.eventWorkEditBtn.Name = "eventWorkEditBtn";
+            this.eventWorkEditBtn.Size = new System.Drawing.Size(75, 23);
+            this.eventWorkEditBtn.TabIndex = 0;
+            this.eventWorkEditBtn.Text = "button1";
+            this.eventWorkEditBtn.UseVisualStyleBackColor = true;
+            this.eventWorkEditBtn.Click += new System.EventHandler(this.eventWorkEditBtn_Click);
+            // 
             // MainWin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -206,6 +219,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.tabPage1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -225,5 +239,6 @@ namespace FlagsEditorEXPlugin.Forms
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.Label warnLabel;
+        private System.Windows.Forms.Button eventWorkEditBtn;
     }
 }

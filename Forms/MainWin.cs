@@ -51,5 +51,11 @@ namespace FlagsEditorEXPlugin.Forms
                 }
             }
         }
+
+        private void eventWorkEditBtn_Click(object sender, EventArgs e)
+        {
+            var form = new EventWorkEditor(m_organizer);
+            form.ShowDialog();
+        }
     }
 }
