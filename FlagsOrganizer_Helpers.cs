@@ -189,6 +189,8 @@ namespace FlagsEditorEXPlugin
         public override bool SupportsBulkEditingFlags(EventFlagType flagType) { return false; }
 
         public override void SyncEditedFlags(int sourceIdx) { }
+
+        public override void SyncEditedEventWork() { }
     }
 
 
@@ -244,6 +246,8 @@ namespace FlagsEditorEXPlugin
         public override bool SupportsBulkEditingFlags(EventFlagType flagType) { return false; }
 
         public override void SyncEditedFlags(int sourceIdx) { }
+
+        public override void SyncEditedEventWork() { }
     }
 
 }

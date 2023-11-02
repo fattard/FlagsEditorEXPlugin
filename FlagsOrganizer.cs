@@ -324,7 +324,7 @@ namespace FlagsEditorEXPlugin
 
             if (m_eventWorkList.Count > 0)
             {
-                sb.Append("\r\n\r\n");
+                sb.Append($"{"Event Work"}\r\n");
 
                 for (int i = 0; i < m_eventWorkList.Count; ++i)
                 {
@@ -340,6 +340,7 @@ namespace FlagsEditorEXPlugin
         public abstract void BulkUnmarkFlags(EventFlagType flagType);
         public abstract bool SupportsBulkEditingFlags(EventFlagType flagType);
         public abstract void SyncEditedFlags(int sourceIdx);
+        public abstract void SyncEditedEventWork();
 
         #endregion
         

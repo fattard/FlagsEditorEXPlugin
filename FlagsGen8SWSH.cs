@@ -105,6 +105,11 @@ namespace FlagsEditorEXPlugin
 
         }
 
+        public override void SyncEditedEventWork()
+        {
+
+        }
+
         public override void DumpAllFlags()
         {
             StringBuilder sb = new StringBuilder(512 * 1024);

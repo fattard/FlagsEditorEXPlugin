@@ -33,6 +33,13 @@ namespace FlagsEditorEXPlugin.Forms
 
         private void saveBtn_Click(object sender, EventArgs e)
         {
+            for (int i = 0; i < m_editableEventWorkList.Count; i++)
+            {
+                m_eventWorkList[i].Value = m_editableEventWorkList[i].Value;
+            }
+
+            m_organizer.SyncEditedEventWork();
+
             Close();
         }
 

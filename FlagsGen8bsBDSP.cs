@@ -123,5 +123,10 @@ namespace FlagsEditorEXPlugin
         {
 
         }
+
+        public override void SyncEditedEventWork()
+        {
+
+        }
     }
 }

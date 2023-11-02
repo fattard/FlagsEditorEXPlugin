@@ -351,5 +351,13 @@ namespace FlagsEditorEXPlugin
                 }
             }
         }
+
+        public override void SyncEditedEventWork()
+        {
+            for (int i = 0; i < m_eventWorkList.Count; i++)
+            {
+                m_savFile.Data[GameProgressWorkOffset + i] = (byte)m_eventWorkList[i].Value;
+            }
+        }
     }
 }
