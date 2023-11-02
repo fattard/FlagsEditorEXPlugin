@@ -162,6 +162,13 @@ namespace FlagsEditorEXPlugin
             // wEventFlags
             bool[] eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
 
+            // wGameProgressFlags
+            var workValues = new byte[0xC8];
+            for (int i = 0; i < workValues.Length; i++)
+            {
+                workValues[i] = m_savFile.Data[GameProgressWorkOffset + i];
+            }
+
 #if DEBUG
             // Force refresh
             s_flagsList_res = null;
@@ -185,6 +192,7 @@ namespace FlagsEditorEXPlugin
             int idxBadgesSection = s_flagsList_res.IndexOf("//\tBadges Flags");
             int idxMisc_wd728_Section = s_flagsList_res.IndexOf("//\tMisc-wd728");
             int idxMisc_wd72e_Section = s_flagsList_res.IndexOf("//\tMisc-wd72e");
+            int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
             AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), Src_EventFlags, "Event Flags", eventFlags);
             AssembleList(s_flagsList_res.Substring(idxHideShowSection), Src_HideShowFlags, "Hide-Show Flags", missableObjectFlags);
@@ -196,6 +204,7 @@ namespace FlagsEditorEXPlugin
             AssembleList(s_flagsList_res.Substring(idxMisc_wd728_Section), Src_Misc_wd728, "Misc-wd728 Flags", miscFlags_wd728);
             AssembleList(s_flagsList_res.Substring(idxMisc_wd72e_Section), Src_Misc_wd72e, "Misc-wd72e Flags", miscFlags_wd72e);
 
+            AssembleWorkList(s_flagsList_res.Substring(idxEventWorkSection), workValues);
         }
 
         public override bool SupportsBulkEditingFlags(EventFlagType flagType)

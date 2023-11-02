@@ -3027,3 +3027,208 @@
 0x9FD	_UNUSED					
 0x9FE	_UNUSED					
 0x9FF	_UNUSED					
+						
+						
+						
+						
+//	Event Work					wGameProgressFlags
+0x0000	EVENT					wOaksLabCurScript
+0x0001	EVENT					wPalletTownCurScript
+0x0002	_UNUSED					
+0x0003	EVENT					wBluesHouseCurScript
+0x0004	EVENT					wViridianCityCurScript
+0x0005	_UNUSED					
+0x0006	_UNUSED					
+0x0007	EVENT					wPewterCityCurScript
+0x0008	EVENT					wRoute3CurScript
+0x0009	EVENT					wRoute4CurScript
+0x000A	_UNUSED					
+0x000B	EVENT					wViridianGymCurScript
+0x000C	EVENT					wPewterGymCurScript
+0x000D	EVENT					wCeruleanGymCurScript
+0x000E	EVENT					wVermilionGymCurScript
+0x000F	EVENT					wCeladonGymCurScript
+0x0010	EVENT					wRoute6CurScript
+0x0011	EVENT					wRoute8CurScript
+0x0012	EVENT					wRoute24CurScript
+0x0013	EVENT					wRoute25CurScript
+0x0014	EVENT					wRoute9CurScript
+0x0015	EVENT					wRoute10CurScript
+0x0016	EVENT					wMtMoon1FCurScript
+0x0017	EVENT					wMtMoonB2FCurScript
+0x0018	EVENT					wSSAnne1FRoomsCurScript
+0x0019	EVENT					wSSAnne2FRoomsCurScript
+0x001A	EVENT					wRoute22CurScript
+0x001B	_UNUSED					
+0x001C	EVENT					wRedsHouse2FCurScript
+0x001D	EVENT	Viridian City	Poké Mart	State	0:Clerk will ask for Oak's Parcel delivery,2:Normal	wViridianMartCurScript
+0x001E	EVENT					wRoute22GateCurScript
+0x001F	EVENT					wCeruleanCityCurScript
+0x0020	_UNUSED					
+0x0021	_UNUSED					
+0x0022	_UNUSED					
+0x0023	_UNUSED					
+0x0024	_UNUSED					
+0x0025	_UNUSED					
+0x0026	_UNUSED					
+0x0027	EVENT					wSSAnneBowCurScript
+0x0028	EVENT					wViridianForestCurScript
+0x0029	EVENT					wMuseum1FCurScript
+0x002A	EVENT					wRoute13CurScript
+0x002B	EVENT					wRoute14CurScript
+0x002C	EVENT					wRoute17CurScript
+0x002D	EVENT					wRoute19CurScript
+0x002E	EVENT					wRoute21CurScript
+0x002F	EVENT					wSafariZoneGateCurScript
+0x0030	EVENT					wRockTunnelB1FCurScript
+0x0031	EVENT					wRockTunnel1FCurScript
+0x0032	_UNUSED					
+0x0033	EVENT					wRoute11CurScript
+0x0034	EVENT					wRoute12CurScript
+0x0035	EVENT					wRoute15CurScript
+0x0036	EVENT					wRoute16CurScript
+0x0037	EVENT					wRoute18CurScript
+0x0038	EVENT					wRoute20CurScript
+0x0039	EVENT					wSSAnneB1FRoomsCurScript
+0x003A	EVENT					wVermilionCityCurScript
+0x003B	EVENT					wPokemonTower2FCurScript
+0x003C	EVENT					wPokemonTower3FCurScript
+0x003D	EVENT					wPokemonTower4FCurScript
+0x003E	EVENT					wPokemonTower5FCurScript
+0x003F	EVENT					wPokemonTower6FCurScript
+0x0040	EVENT					wPokemonTower7FCurScript
+0x0041	EVENT					wRocketHideoutB1FCurScript
+0x0042	EVENT					wRocketHideoutB2FCurScript
+0x0043	EVENT					wRocketHideoutB3FCurScript
+0x0044	EVENT					wRocketHideoutB4FCurScript
+0x0045	_UNUSED					
+0x0046	EVENT					wRoute6GateCurScript
+0x0047	EVENT					wRoute8GateCurScript
+0x0048	_UNUSED					
+0x0049	EVENT					wCinnabarIslandCurScript
+0x004A	EVENT					wPokemonMansion1FCurScript
+0x004B	_UNUSED					
+0x004C	EVENT					wPokemonMansion2FCurScript
+0x004D	EVENT					wPokemonMansion3FCurScript
+0x004E	EVENT					wPokemonMansionB1FCurScript
+0x004F	EVENT					wVictoryRoad2FCurScript
+0x0050	EVENT					wVictoryRoad3FCurScript
+0x0051	_UNUSED					
+0x0052	EVENT					wFightingDojoCurScript
+0x0053	EVENT					wSilphCo2FCurScript
+0x0054	EVENT					wSilphCo3FCurScript
+0x0055	EVENT					wSilphCo4FCurScript
+0x0056	EVENT					wSilphCo5FCurScript
+0x0057	EVENT					wSilphCo6FCurScript
+0x0058	EVENT					wSilphCo7FCurScript
+0x0059	EVENT					wSilphCo8FCurScript
+0x005A	EVENT					wSilphCo9FCurScript
+0x005B	EVENT					wHallOfFameCurScript
+0x005C	EVENT					wChampionsRoomCurScript
+0x005D	EVENT					wLoreleisRoomCurScript
+0x005E	EVENT					wBrunosRoomCurScript
+0x005F	EVENT					wAgathasRoomCurScript
+0x0060	EVENT					wCeruleanCaveB1FCurScript
+0x0061	EVENT					wVictoryRoad1FCurScript
+0x0062	_UNUSED					
+0x0063	EVENT					wLancesRoomCurScript
+0x0064	_UNUSED					
+0x0065	_UNUSED					
+0x0066	_UNUSED					
+0x0067	_UNUSED					
+0x0068	EVENT					wSilphCo10FCurScript
+0x0069	EVENT					wSilphCo11FCurScript
+0x006A	_UNUSED					
+0x006B	EVENT					wFuchsiaGymCurScript
+0x006C	EVENT					wSaffronGymCurScript
+0x006D	_UNUSED					
+0x006E	EVENT					wCinnabarGymCurScript
+0x006F	EVENT					wGameCornerCurScript
+0x0070	EVENT					wRoute16Gate1FCurScript
+0x0071	EVENT					wBillsHouseCurScript
+0x0072	EVENT					wRoute5GateCurScript
+0x0073	EVENT					wRoute7GateCurScript and wPowerPlantCurScript
+0x0074	_UNUSED					
+0x0075	EVENT	S.S. Anne	2F	State	0:Rival will battle you,4:Rival disappeared	wSSAnne2FCurScript
+0x0076	EVENT					wSeafoamIslandsB3FCurScript
+0x0077	EVENT					wRoute23CurScript
+0x0078	EVENT					wSeafoamIslandsB4FCurScript
+0x0079	EVENT					wRoute18Gate1FCurScript
+0x007A	_UNUSED					
+0x007B	_UNUSED					
+0x007C	_UNUSED					
+0x007D	_UNUSED					
+0x007E	_UNUSED					
+0x007F	_UNUSED					
+0x0080	_UNUSED					
+0x0081	_UNUSED					
+0x0082	_UNUSED					
+0x0083	_UNUSED					
+0x0084	_UNUSED					
+0x0085	_UNUSED					
+0x0086	_UNUSED					
+0x0087	_UNUSED					
+0x0088	_UNUSED					
+0x0089	_UNUSED					
+0x008A	_UNUSED					
+0x008B	_UNUSED					
+0x008C	_UNUSED					
+0x008D	_UNUSED					
+0x008E	_UNUSED					
+0x008F	_UNUSED					
+0x0090	_UNUSED					
+0x0091	_UNUSED					
+0x0092	_UNUSED					
+0x0093	_UNUSED					
+0x0094	_UNUSED					
+0x0095	_UNUSED					
+0x0096	_UNUSED					
+0x0097	_UNUSED					
+0x0098	_UNUSED					
+0x0099	_UNUSED					
+0x009A	_UNUSED					
+0x009B	_UNUSED					
+0x009C	_UNUSED					
+0x009D	_UNUSED					
+0x009E	_UNUSED					
+0x009F	_UNUSED					
+0x00A0	_UNUSED					
+0x00A1	_UNUSED					
+0x00A2	_UNUSED					
+0x00A3	_UNUSED					
+0x00A4	_UNUSED					
+0x00A5	_UNUSED					
+0x00A6	_UNUSED					
+0x00A7	_UNUSED					
+0x00A8	_UNUSED					
+0x00A9	_UNUSED					
+0x00AA	_UNUSED					
+0x00AB	_UNUSED					
+0x00AC	_UNUSED					
+0x00AD	_UNUSED					
+0x00AE	_UNUSED					
+0x00AF	_UNUSED					
+0x00B0	_UNUSED					
+0x00B1	_UNUSED					
+0x00B2	_UNUSED					
+0x00B3	_UNUSED					
+0x00B4	_UNUSED					
+0x00B5	_UNUSED					
+0x00B6	_UNUSED					
+0x00B7	_UNUSED					
+0x00B8	_UNUSED					
+0x00B9	_UNUSED					
+0x00BA	_UNUSED					
+0x00BB	_UNUSED					
+0x00BC	_UNUSED					
+0x00BD	_UNUSED					
+0x00BE	_UNUSED					
+0x00BF	_UNUSED					
+0x00C0	_UNUSED					
+0x00C1	_UNUSED					
+0x00C2	_UNUSED					
+0x00C3	_UNUSED					
+0x00C4	_UNUSED					
+0x00C5	_UNUSED					
+0x00C6	_UNUSED					
+0x00C7	_UNUSED					
