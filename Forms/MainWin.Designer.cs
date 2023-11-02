@@ -55,8 +55,8 @@ namespace FlagsEditorEXPlugin.Forms
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
@@ -194,11 +194,11 @@ namespace FlagsEditorEXPlugin.Forms
             // 
             // eventWorkEditBtn
             // 
-            this.eventWorkEditBtn.Location = new System.Drawing.Point(160, 77);
+            this.eventWorkEditBtn.Location = new System.Drawing.Point(87, 77);
             this.eventWorkEditBtn.Name = "eventWorkEditBtn";
-            this.eventWorkEditBtn.Size = new System.Drawing.Size(75, 23);
+            this.eventWorkEditBtn.Size = new System.Drawing.Size(180, 23);
             this.eventWorkEditBtn.TabIndex = 0;
-            this.eventWorkEditBtn.Text = "button1";
+            this.eventWorkEditBtn.Text = "Edit...";
             this.eventWorkEditBtn.UseVisualStyleBackColor = true;
             this.eventWorkEditBtn.Click += new System.EventHandler(this.eventWorkEditBtn_Click);
             // 

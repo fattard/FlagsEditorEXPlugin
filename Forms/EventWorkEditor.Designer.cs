@@ -68,7 +68,7 @@ namespace FlagsEditorEXPlugin.Forms
             // 
             // cancelBtn
             // 
-            this.cancelBtn.Location = new System.Drawing.Point(718, 408);
+            this.cancelBtn.Location = new System.Drawing.Point(718, 436);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(94, 23);
             this.cancelBtn.TabIndex = 13;
@@ -78,7 +78,7 @@ namespace FlagsEditorEXPlugin.Forms
             // 
             // saveBtn
             // 
-            this.saveBtn.Location = new System.Drawing.Point(718, 379);
+            this.saveBtn.Location = new System.Drawing.Point(718, 407);
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Size = new System.Drawing.Size(94, 23);
             this.saveBtn.TabIndex = 12;
@@ -110,7 +110,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.RowHeadersVisible = false;
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView.Size = new System.Drawing.Size(800, 357);
+            this.dataGridView.Size = new System.Drawing.Size(800, 389);
             this.dataGridView.TabIndex = 16;
             // 
             // Column2
@@ -173,6 +173,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.MaximumSize = new System.Drawing.Size(840, 507);
             this.MinimumSize = new System.Drawing.Size(840, 507);
             this.Name = "EventWorkEditor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Event Work Editor";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);
