@@ -134,7 +134,7 @@ namespace FlagsEditorEXPlugin.Forms
         private void dataGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
             int idx = (int)(dataGridView.Rows[e.RowIndex].Cells[1].Value as UInt64?).Value;
-            m_editableFlagsList[idx].IsSet = (dataGridView.CurrentRow.Cells[0].Value as Boolean?).Value;
+            m_editableFlagsList[idx].IsSet = (dataGridView.Rows[e.RowIndex].Cells[0].Value as Boolean?).Value;
         }
 
 
@@ -145,10 +145,7 @@ namespace FlagsEditorEXPlugin.Forms
 
             foreach (var f in m_flagsList)
             {
-                if (m_filter == FlagsOrganizer.EventFlagType._Unknown || f.FlagTypeVal == m_filter)
-                {
-                    m_editableFlagsList.Add(new FlagsOrganizer.FlagDetail(f.FlagIdx, f.SourceIdx, f.FlagTypeVal, f.LocationName, f.DetailMsg, f.InternalName) { IsSet = f.IsSet });
-                }
+                m_editableFlagsList.Add(new FlagsOrganizer.FlagDetail(f.FlagIdx, f.SourceIdx, f.FlagTypeVal, f.LocationName, f.DetailMsg, f.InternalName) { IsSet = f.IsSet });
             }
 
             RefreshDataGrid();
