@@ -1,0 +1,17 @@
+//	In-Game Trades Flags					wCompletedInGameTradeFlags
+0x00	IN-GAME TRADE	Route 11	Gate	Traded Rhydon for Kangaskhan (ロダン)		TRADE_FOR_RODAN
+0x01	IN-GAME TRADE	Route 2	House	Traded Jigglypuff for Mr. Mime (まさる)		TRADE_FOR_MASARU
+0x02	_UNUSED					TRADE_FOR_CHIKUCHIKU
+0x03	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Traded Growlithe for Krabby (どうらく)		TRADE_FOR_DOORAKU
+0x04	IN-GAME TRADE	Vermilion City	House	Traded Pidgey for Farfetch'd (アッカ)		TRADE_FOR_AKKA
+0x05	IN-GAME TRADE	Route 18	South Gate	Traded Persian for Tauros (ぎゅうた)		TRADE_FOR_GYUUTA
+0x06	IN-GAME TRADE	Cerulean City	House	Traded Machoke for Haunter (ゴーすけ)		TRADE_FOR_GHOSUKE
+0x07	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Traded Kadabra for Graveler (さぶろう)		TRADE_FOR_SABUROO
+0x08	IN-GAME TRADE	Cinnabar Island	Pokémon Lab	Traded Seel for Slowpoke (オスカル)		TRADE_FOR_OSCAR
+0x09	IN-GAME TRADE	Underground Path	South Entrance	Traded Rattata for Poliwag (ロモたん)		TRADE_FOR_ROMO_TAN
+0x0A	_UNUSED					
+0x0B	_UNUSED					
+0x0C	_UNUSED					
+0x0D	_UNUSED					
+0x0E	_UNUSED					
+0x0F	_UNUSED					

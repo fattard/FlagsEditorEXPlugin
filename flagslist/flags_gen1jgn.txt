@@ -1,0 +1,134 @@
+//	Hidden Items Flags					wObtainedHiddenItemsFlags
+0x00	HIDDEN ITEM	Viridian Forest		Found Potion		VIRIDIAN_FOREST_0
+0x01	HIDDEN ITEM	Viridian Forest		Found Antidote		VIRIDIAN_FOREST_1
+0x02	HIDDEN ITEM	Mt. Moon	B2F	Found Moon Stone		MT_MOON_B2F_0
+0x03	HIDDEN ITEM	Route 25		Found Ether		ROUTE_25_0
+0x04	HIDDEN ITEM	Route 9		Found Ether		ROUTE_9_0
+0x05	HIDDEN ITEM	S.S. Anne	Kitchen	Found Great Ball		SS_ANNE_KITCHEN_0
+0x06	HIDDEN ITEM	S.S. Anne	B1F	Found Hyper Potion		SS_ANNE_B1F_ROOMS_0
+0x07	HIDDEN ITEM	Route 10		Found Super Potion		ROUTE_10_0
+0x08	HIDDEN ITEM	Route 10		Found Max Ether		ROUTE_10_1
+0x09	HIDDEN ITEM	Rocket Hideout	B1F	Found PP Up		ROCKET_HIDEOUT_B1F_0
+0x0A	_UNUSED	Rocket Hideout	B3F	[Broken] Found Nugget		ROCKET_HIDEOUT_B3F_0
+0x0B	HIDDEN ITEM	Rocket Hideout	B4F	Found Super Potion		ROCKET_HIDEOUT_B4F_0
+0x0C	HIDDEN ITEM	Pokémon Tower	5F	Found Elixer		POKEMON_TOWER_5F_0
+0x0D	HIDDEN ITEM	Route 13		Found PP Up		ROUTE_13_0
+0x0E	_UNUSED	Route 13		[Broken] Found Calcium		ROUTE_13_1
+0x0F	_UNUSED	Pokémon Mansion	B1F	[Broken] Found Rare Candy		POKEMON_MANSION_B1F_0
+0x10	HIDDEN ITEM	Safari Zone	West	Found Revive		SAFARI_ZONE_WEST_0
+0x11	HIDDEN ITEM	Silph Co.	5F	Found Elixer		SILPH_CO_5F_0
+0x12	HIDDEN ITEM	Silph Co.	9F	Found Max Potion		SILPH_CO_9F_0
+0x13	_UNUSED	Saffron City	Copycat's House	[Broken] Found Nugget		COPYCATS_HOUSE_2F_0
+0x14	_UNUSED	Cerulean Cave	1F	Found [Broken] Rare Candy		CERULEAN_CAVE_1F_0
+0x15	_UNUSED	Cerulean Cave	B1F	Found [Broken] Ultra Ball		CERULEAN_CAVE_B1F_0
+0x16	HIDDEN ITEM	Power Plant		Found Max Elixer		POWER_PLANT_0
+0x17	HIDDEN ITEM	Power Plant		Found PP Up		POWER_PLANT_1
+0x18	HIDDEN ITEM	Seafoam Islands	B2F	Found Nugget		SEAFOAM_ISLANDS_B2F_0
+0x19	HIDDEN ITEM	Seafoam Islands	B4F	Found Ultra Ball		SEAFOAM_ISLANDS_B4F_0
+0x1A	HIDDEN ITEM	Pokémon Mansion	1F	Found Moon Stone		POKEMON_MANSION_1F_0
+0x1B	HIDDEN ITEM	Pokémon Mansion	3F	Found Max Revive		POKEMON_MANSION_3F_0
+0x1C	HIDDEN ITEM	Route 23		Found Full Restore		ROUTE_23_0
+0x1D	HIDDEN ITEM	Route 23		Found Ultra Ball		ROUTE_23_1
+0x1E	HIDDEN ITEM	Route 23		Found Max Ether		ROUTE_23_2
+0x1F	HIDDEN ITEM	Victory Road	2F	Found Ultra Ball		VICTORY_ROAD_2F_0
+0x20	HIDDEN ITEM	Victory Road	2F	Found Full Restore		VICTORY_ROAD_2F_1
+0x21	_UNUSED					UNUSED_MAP_6F_0
+0x22	HIDDEN ITEM	Viridian City		Found Potion		VIRIDIAN_CITY_0
+0x23	HIDDEN ITEM	Route 11		Found Escape Rope		ROUTE_11_0
+0x24	HIDDEN ITEM	Route 12		Found Hyper Potion		ROUTE_12_0
+0x25	HIDDEN ITEM	Route 17		Found Rare Candy		ROUTE_17_0
+0x26	HIDDEN ITEM	Route 17		Found Full Restore		ROUTE_17_1
+0x27	HIDDEN ITEM	Route 17		Found PP Up		ROUTE_17_2
+0x28	HIDDEN ITEM	Route 17		Found Max Revive		ROUTE_17_3
+0x29	HIDDEN ITEM	Route 17		Found Max Elixer		ROUTE_17_4
+0x2A	HIDDEN ITEM	Underground Path	North-South	Found Full Restore		UNDERGROUND_PATH_NORTH_SOUTH_0
+0x2B	HIDDEN ITEM	Underground Path	North-South	Found X Special		UNDERGROUND_PATH_NORTH_SOUTH_1
+0x2C	HIDDEN ITEM	Underground Path	West-East	Found Nugget		UNDERGROUND_PATH_WEST_EAST_0
+0x2D	HIDDEN ITEM	Underground Path	West-East	Found Elixer		UNDERGROUND_PATH_WEST_EAST_1
+0x2E	HIDDEN ITEM	Celadon City		Found PP Up		CELADON_CITY_0
+0x2F	HIDDEN ITEM	Route 25		Found Elixer		ROUTE_25_0
+0x30	HIDDEN ITEM	Mt. Moon	B2F	Found Ether		MT_MOON_B2F_0
+0x31	HIDDEN ITEM	Seafoam Islands	B3F	Found Max Elixer		SEAFOAM_ISLANDS_B3F_0
+0x32	HIDDEN ITEM	Vermilion City		Found Max Ether		VERMILION_CITY_0
+0x33	HIDDEN ITEM	Cerulean City		Found Rare Candy		CERULEAN_CITY_0
+0x34	HIDDEN ITEM	Route 4		Found Great Ball		ROUTE_4_0
+0x35	_UNUSED					
+0x36	_UNUSED					
+0x37	_UNUSED					
+0x38	_UNUSED					
+0x39	_UNUSED					
+0x3A	_UNUSED					
+0x3B	_UNUSED					
+0x3C	_UNUSED					
+0x3D	_UNUSED					
+0x3E	_UNUSED					
+0x3F	_UNUSED					
+0x40	_UNUSED					
+0x41	_UNUSED					
+0x42	_UNUSED					
+0x43	_UNUSED					
+0x44	_UNUSED					
+0x45	_UNUSED					
+0x46	_UNUSED					
+0x47	_UNUSED					
+0x48	_UNUSED					
+0x49	_UNUSED					
+0x4A	_UNUSED					
+0x4B	_UNUSED					
+0x4C	_UNUSED					
+0x4D	_UNUSED					
+0x4E	_UNUSED					
+0x4F	_UNUSED					
+0x50	_UNUSED					
+0x51	_UNUSED					
+0x52	_UNUSED					
+0x53	_UNUSED					
+0x54	_UNUSED					
+0x55	_UNUSED					
+0x56	_UNUSED					
+0x57	_UNUSED					
+0x58	_UNUSED					
+0x59	_UNUSED					
+0x5A	_UNUSED					
+0x5B	_UNUSED					
+0x5C	_UNUSED					
+0x5D	_UNUSED					
+0x5E	_UNUSED					
+0x5F	_UNUSED					
+0x60	_UNUSED					
+0x61	_UNUSED					
+0x62	_UNUSED					
+0x63	_UNUSED					
+0x64	_UNUSED					
+0x65	_UNUSED					
+0x66	_UNUSED					
+0x67	_UNUSED					
+0x68	_UNUSED					
+0x69	_UNUSED					
+0x6A	_UNUSED					
+0x6B	_UNUSED					
+0x6C	_UNUSED					
+0x6D	_UNUSED					
+0x6E	_UNUSED					
+0x6F	_UNUSED					
+						
+						
+						
+						
+//	Hidden Coins Flags					wObtainedHiddenCoinsFlags
+0x00	HIDDEN ITEM	Celadon City	Game Corner	Found 10 coins		COINS_GAME_CORNER_0
+0x01	HIDDEN ITEM	Celadon City	Game Corner	Found 10 coins		COINS_GAME_CORNER_1
+0x02	HIDDEN ITEM	Celadon City	Game Corner	Found 20 coins		COINS_GAME_CORNER_2
+0x03	HIDDEN ITEM	Celadon City	Game Corner	Found 10 coins		COINS_GAME_CORNER_3
+0x04	HIDDEN ITEM	Celadon City	Game Corner	Found 10 / 20 coins		COINS_GAME_CORNER_4
+0x05	_UNUSED					COINS_GAME_CORNER_5
+0x06	HIDDEN ITEM	Celadon City	Game Corner	Found 10 / 10 coins		COINS_GAME_CORNER_6
+0x07	HIDDEN ITEM	Celadon City	Game Corner	Found 10 coins		COINS_GAME_CORNER_7
+0x08	_UNUSED					COINS_GAME_CORNER_8
+0x09	HIDDEN ITEM	Celadon City	Game Corner	Found 20 / 100 coins		COINS_GAME_CORNER_9
+0x0A	_UNUSED					COINS_GAME_CORNER_10
+0x0B	_UNUSED					COINS_GAME_CORNER_11
+0x0C	_UNUSED					
+0x0D	_UNUSED					
+0x0E	_UNUSED					
+0x0F	_UNUSED					
