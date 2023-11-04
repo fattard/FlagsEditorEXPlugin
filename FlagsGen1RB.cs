@@ -39,6 +39,12 @@ namespace FlagsEditorEXPlugin
             EventFlags = 0x29E9,
         }
 
+        int gameVer;
+
+        const int GameVer_JapRedGreen = 35;
+        const int GameVer_IntlRedBlue = 36;
+        const int GameVer_JapBlue = 37;
+
         int EventFlagsOffset;
         int BadgeFlagsOffset;
         int MissableObjectFlagsOffset;
@@ -80,6 +86,32 @@ namespace FlagsEditorEXPlugin
                 LaprasFlagOffset = (int)FlagOffsets_JAP.LaprasFlag;
                 CompletedInGameTradeFlagsOffset = (int)FlagOffsets_JAP.CompletedInGameTradeFlags;
                 EventFlagsOffset = (int)FlagOffsets_JAP.EventFlags;
+
+                switch (m_savFile.Data[0x555])
+                {
+                    case GameVer_JapBlue:
+                        gameVer = GameVer_JapBlue;
+                        break;
+
+                    case GameVer_JapRedGreen:
+                        gameVer = GameVer_JapRedGreen;
+                        break;
+
+                    default:
+                        {
+                            var dialogResult = System.Windows.Forms.MessageBox.Show("Do your save data comes from Jap Blue version,\ninstead of a Jap Red/Green version?", "Jap Gen1 Save File Selection", System.Windows.Forms.MessageBoxButtons.YesNo, System.Windows.Forms.MessageBoxIcon.Question);
+                            if (dialogResult == System.Windows.Forms.DialogResult.Yes)
+                            {
+                                gameVer = GameVer_JapBlue;
+                            }
+                            else
+                            {
+                                gameVer = GameVer_JapRedGreen;
+                            }
+
+                        }
+                        break;
+                }
             }
             else
             {
@@ -93,7 +125,14 @@ namespace FlagsEditorEXPlugin
                 LaprasFlagOffset = (int)FlagOffsets_INTL.LaprasFlag;
                 CompletedInGameTradeFlagsOffset = (int)FlagOffsets_INTL.CompletedInGameTradeFlags;
                 EventFlagsOffset = (int)FlagOffsets_INTL.EventFlags;
+
+                gameVer = GameVer_IntlRedBlue;
             }
+
+#if DEBUG
+            m_savFile.Data[0x555] = (byte)gameVer;
+#endif
+
 
             // wObtainedBadges
             bool[] result = new bool[8];
@@ -183,12 +222,21 @@ namespace FlagsEditorEXPlugin
                 s_flagsList_res = ReadResFile("flags_gen1rb.txt");
             }
 
+            string flagsList_res_jp_blue = null;
+            if (gameVer == GameVer_JapBlue)
+            {
+                flagsList_res_jp_blue = ReadResFile("flags_gen1jbu.txt");
+            }
+
+            string flagsList_res_jp_redgreen = null;
+            if (gameVer == GameVer_JapRedGreen)
+            {
+                flagsList_res_jp_redgreen = ReadResFile("flags_gen1jgn.txt");
+            }
+
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxHideShowSection = s_flagsList_res.IndexOf("//\tHide-Show Flags");
-            int idxHiddenItemsSection = s_flagsList_res.IndexOf("//\tHidden Items Flags");
-            int idxHiddenCoinsSection = s_flagsList_res.IndexOf("//\tHidden Coins Flags");
             int idxFlySpotSection = s_flagsList_res.IndexOf("//\tFly Spot Flags");
-            int idxTradesSection = s_flagsList_res.IndexOf("//\tIn-Game Trades Flags");
             int idxBadgesSection = s_flagsList_res.IndexOf("//\tBadges Flags");
             int idxMisc_wd728_Section = s_flagsList_res.IndexOf("//\tMisc-wd728");
             int idxMisc_wd72e_Section = s_flagsList_res.IndexOf("//\tMisc-wd72e");
@@ -196,9 +244,43 @@ namespace FlagsEditorEXPlugin
 
             AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), Src_EventFlags, "Event Flags", eventFlags);
             AssembleList(s_flagsList_res.Substring(idxHideShowSection), Src_HideShowFlags, "Hide-Show Flags", missableObjectFlags);
-            AssembleList(s_flagsList_res.Substring(idxHiddenItemsSection), Src_HiddenItemFlags, "Hidden Items Flags", obtainedHiddenItemsFlags);
-            AssembleList(s_flagsList_res.Substring(idxHiddenCoinsSection), Src_HiddenCoinsFlags, "Hidden Coins Flags", obtainedHiddenCoinsFlags);
-            AssembleList(s_flagsList_res.Substring(idxTradesSection), Src_TradeFlags, "Trade Flags", completedInGameTradeFlags);
+
+            int idxTradesSection = 0;
+            int idxHiddenItemsSection = 0;
+            int idxHiddenCoinsSection = 0;
+
+            if (gameVer == GameVer_JapRedGreen)
+            {
+                idxHiddenItemsSection = flagsList_res_jp_redgreen.IndexOf("//\tHidden Items Flags");
+                idxHiddenCoinsSection = flagsList_res_jp_redgreen.IndexOf("//\tHidden Coins Flags");
+                idxTradesSection = s_flagsList_res.IndexOf("//\tIn-Game Trades Flags");
+
+                AssembleList(flagsList_res_jp_redgreen.Substring(idxHiddenItemsSection), Src_HiddenItemFlags, "Hidden Items Flags", obtainedHiddenItemsFlags);
+                AssembleList(flagsList_res_jp_redgreen.Substring(idxHiddenCoinsSection), Src_HiddenCoinsFlags, "Hidden Coins Flags", obtainedHiddenCoinsFlags);
+                AssembleList(s_flagsList_res.Substring(idxTradesSection), Src_TradeFlags, "Trade Flags", completedInGameTradeFlags);
+            }
+            else if (gameVer == GameVer_JapBlue)
+            {
+                idxHiddenItemsSection = s_flagsList_res.IndexOf("//\tHidden Items Flags");
+                idxHiddenCoinsSection = s_flagsList_res.IndexOf("//\tHidden Coins Flags");
+                idxTradesSection = flagsList_res_jp_blue.IndexOf("//\tIn-Game Trades Flags");
+
+                AssembleList(s_flagsList_res.Substring(idxHiddenItemsSection), Src_HiddenItemFlags, "Hidden Items Flags", obtainedHiddenItemsFlags);
+                AssembleList(s_flagsList_res.Substring(idxHiddenCoinsSection), Src_HiddenCoinsFlags, "Hidden Coins Flags", obtainedHiddenCoinsFlags);
+                AssembleList(flagsList_res_jp_blue.Substring(idxTradesSection), Src_TradeFlags, "Trade Flags", completedInGameTradeFlags);
+            }
+            else
+            {
+                idxHiddenItemsSection = s_flagsList_res.IndexOf("//\tHidden Items Flags");
+                idxHiddenCoinsSection = s_flagsList_res.IndexOf("//\tHidden Coins Flags");
+                idxTradesSection = s_flagsList_res.IndexOf("//\tIn-Game Trades Flags");
+
+                AssembleList(s_flagsList_res.Substring(idxHiddenItemsSection), Src_HiddenItemFlags, "Hidden Items Flags", obtainedHiddenItemsFlags);
+                AssembleList(s_flagsList_res.Substring(idxHiddenCoinsSection), Src_HiddenCoinsFlags, "Hidden Coins Flags", obtainedHiddenCoinsFlags);
+                AssembleList(s_flagsList_res.Substring(idxTradesSection), Src_TradeFlags, "Trade Flags", completedInGameTradeFlags);
+            }
+
+            
             AssembleList(s_flagsList_res.Substring(idxFlySpotSection), Src_FlySpotFlags, "Fly Spot Flags", flySpotFlags);
             AssembleList(s_flagsList_res.Substring(idxBadgesSection), Src_BadgesFlags, "Badges Flags", badgeFlags);
             AssembleList(s_flagsList_res.Substring(idxMisc_wd728_Section), Src_Misc_wd728, "Misc-wd728 Flags", miscFlags_wd728);
@@ -218,6 +300,7 @@ namespace FlagsEditorEXPlugin
                 case EventFlagType.InGameTrade:
                 case EventFlagType.ItemGift:
                 case EventFlagType.PkmnGift:
+                case EventFlagType.SideEvent:
                 case EventFlagType.FlySpot:
                     return true;
 

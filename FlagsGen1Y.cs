@@ -218,6 +218,7 @@ namespace FlagsEditorEXPlugin
                 case EventFlagType.InGameTrade:
                 case EventFlagType.ItemGift:
                 case EventFlagType.PkmnGift:
+                case EventFlagType.SideEvent:
                 case EventFlagType.FlySpot:
                     return true;
 
