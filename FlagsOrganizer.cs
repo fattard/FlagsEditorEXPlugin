@@ -350,7 +350,7 @@ namespace FlagsEditorEXPlugin
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
         }
 
-        public virtual SpecialEditableEventInfo[] GetSpecialEditableEvents() { return null; }
+        public virtual SpecialEditableEventInfo[] GetSpecialEditableEvents() { return new SpecialEditableEventInfo[0]; }
 
         public virtual void ProcessSpecialEventEdit(SpecialEditableEventInfo eventInfo) { }
 
