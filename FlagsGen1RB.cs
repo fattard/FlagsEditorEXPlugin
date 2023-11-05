@@ -300,7 +300,6 @@ namespace FlagsEditorEXPlugin
                 case EventFlagType.InGameTrade:
                 case EventFlagType.ItemGift:
                 case EventFlagType.PkmnGift:
-                case EventFlagType.SideEvent:
                 case EventFlagType.FlySpot:
                     return true;
 
@@ -323,57 +322,411 @@ namespace FlagsEditorEXPlugin
         {
             if (SupportsBulkEditingFlags(flagType))
             {
-                var flagHelper = (m_savFile as IEventFlagArray);
-
-                foreach (var f in m_flagsGroupsList[0].Flags)
+                switch (flagType)
                 {
-                    if (f.FlagTypeVal == flagType)
+                    case EventFlagType.FieldItem:
+                        BulkEdit_FieldItem(value);
+                        break;
+
+                    case EventFlagType.HiddenItem:
+                        BulkEdit_HiddenItems(value);
+                        break;
+
+                    case EventFlagType.TrainerBattle:
+                        BulkEdit_Trainers(value);
+                        break;
+
+                    case EventFlagType.StaticBattle:
+                        BulkEdit_StaticBattle(value);
+                        break;
+
+                    case EventFlagType.InGameTrade:
+                        BulkEdit_Trades(value);
+                        break;
+
+                    case EventFlagType.ItemGift:
+                        BulkEdit_ItemGift(value);
+                        break;
+
+                    case EventFlagType.PkmnGift:
+                        BulkEdit_PkmnGift(value);
+                        break;
+
+                    case EventFlagType.FlySpot:
+                        BulkEdit_FlySpot(value);
+                        break;
+
+                }
+            }
+        }
+
+        void BulkEdit_FieldItem(bool value)
+        {
+            var flagGroups = new FlagsGroup[]
+            {
+                m_flagsGroupsList[Src_HideShowFlags]
+            };
+
+            foreach (var fGroup in flagGroups)
+            {
+                foreach (var f in fGroup.Flags)
+                {
+                    if (f.FlagTypeVal == EventFlagType.FieldItem)
                     {
-                        int idx = (int)f.FlagIdx;
-
                         f.IsSet = value;
-
-                        switch (f.SourceIdx)
-                        {
-                            case Src_EventFlags:
-                                flagHelper.SetEventFlag(idx, value);
-                                break;
-
-                            case Src_HideShowFlags:
-                                m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
-                                break;
-
-                            case Src_HiddenItemFlags:
-                                m_savFile.SetFlag(ObtainedHiddenItemsOffset + (idx >> 3), idx & 7, value);
-                                break;
-
-                            case Src_HiddenCoinsFlags:
-                                m_savFile.SetFlag(ObtainedHiddenCoinsOffset + (idx >> 3), idx & 7, value);
-                                break;
-
-                            case Src_FlySpotFlags:
-                                m_savFile.SetFlag(FlySpotFlagsOffset + (idx >> 3), idx & 7, value);
-                                break;
-
-                            case Src_TradeFlags:
-                                m_savFile.SetFlag(CompletedInGameTradeFlagsOffset + (idx >> 3), idx & 7, value);
-                                break;
-
-                            case Src_BadgesFlags:
-                                m_savFile.SetFlag(BadgeFlagsOffset + (idx >> 3), idx & 7, value);
-                                break;
-
-                            case Src_Misc_wd728:
-                                m_savFile.SetFlag(RodFlagsOffset + (idx >> 3), idx & 7, value);
-                                break;
-
-                            case Src_Misc_wd72e:
-                                m_savFile.SetFlag(LaprasFlagOffset + (idx >> 3), idx & 7, value);
-                                break;
-                        }
-
                     }
                 }
+
+                SyncEditedFlags(fGroup.SourceIdx);
+            }
+        }
+
+        void BulkEdit_HiddenItems(bool value)
+        {
+            var flagGroups = new FlagsGroup[]
+            {
+                m_flagsGroupsList[Src_HiddenItemFlags],
+                m_flagsGroupsList[Src_HiddenCoinsFlags]
+            };
+            
+            foreach (var fGroup in flagGroups)
+            {
+                foreach (var f in fGroup.Flags)
+                {
+                    if (f.FlagTypeVal == EventFlagType.HiddenItem)
+                    {
+                        f.IsSet = value;
+                    }
+                }
+
+                SyncEditedFlags(fGroup.SourceIdx);
+            }
+        }
+
+        void BulkEdit_Trainers(bool value)
+        {
+            var flagGroups = new FlagsGroup[]
+            {
+                m_flagsGroupsList[Src_EventFlags],
+                m_flagsGroupsList[Src_HideShowFlags],
+            };
+
+            foreach (var fGroup in flagGroups)
+            {
+                foreach (var f in fGroup.Flags)
+                {
+                    if (f.FlagTypeVal == EventFlagType.TrainerBattle)
+                    {
+                        f.IsSet = value;
+                    }
+                }
+
+                SyncEditedFlags(fGroup.SourceIdx);
+            }
+
+            // Fix simple HS flags
+            if (!value)
+            {
+                int[] idxArr = new int[]
+                {
+                    0x06, // HS_CERULEAN_ROCKET
+                    0x32, // HS_VIRIDIAN_GYM_GIOVANNI
+                };
+
+                foreach (var idx in idxArr)
+                {
+                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
+                }
+            }
+
+            // Fix Rival event flags
+            {
+                int idx = 0x0EE; // EVENT_POKEMON_TOWER_RIVAL_ON_LEFT
+                m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
+
+                idx = 0x75; // wSSAnne2FCurScript
+                m_eventWorkList[idx].Value = value ? 4 : 0;
+                m_savFile.Data[GameProgressWorkOffset + idx] = (byte)m_eventWorkList[idx].Value;
+
+                bool hasBoulderBadge = m_flagsGroupsList[Src_BadgesFlags].Flags[0].IsSet;
+                bool hasEarthBadge = m_flagsGroupsList[Src_BadgesFlags].Flags[7].IsSet;
+
+                if (!hasBoulderBadge)
+                {
+                    idx = 0x520; // EVENT_1ST_ROUTE22_RIVAL_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, !value);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = !value;
+
+                    idx = 0x525; // EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
+
+                    idx = 0x22; // HS_ROUTE_22_RIVAL_1
+                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
+
+                    idx = 0x521; // EVENT_2ND_ROUTE22_RIVAL_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                    idx = 0x526; // EVENT_BEAT_ROUTE22_RIVAL_2ND_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                    idx = 0x23; // HS_ROUTE_22_RIVAL_2
+                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                    m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
+
+                    idx = 0x527; // EVENT_ROUTE22_RIVAL_WANTS_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, !value);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = !value;
+
+                    idx = 0x1A; // wRoute22CurScript
+                    m_eventWorkList[idx].Value = 0;
+                    m_savFile.Data[GameProgressWorkOffset + idx] = (byte)m_eventWorkList[idx].Value;
+                }
+
+                else if (hasEarthBadge)
+                {
+                    idx = 0x520; // EVENT_1ST_ROUTE22_RIVAL_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                    idx = 0x525; // EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
+
+                    idx = 0x22; // HS_ROUTE_22_RIVAL_1
+                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                    m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
+
+                    idx = 0x521; // EVENT_2ND_ROUTE22_RIVAL_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, !value);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = !value;
+
+                    idx = 0x526; // EVENT_BEAT_ROUTE22_RIVAL_2ND_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
+
+                    idx = 0x23; // HS_ROUTE_22_RIVAL_2
+                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
+
+                    idx = 0x527; // EVENT_ROUTE22_RIVAL_WANTS_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, !value);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = !value;
+
+                    idx = 0x1A; // wRoute22CurScript
+                    m_eventWorkList[idx].Value = value ? 7 : 0;
+                    m_savFile.Data[GameProgressWorkOffset + idx] = (byte)m_eventWorkList[idx].Value;
+                }
+
+                else
+                {
+                    idx = 0x520; // EVENT_1ST_ROUTE22_RIVAL_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                    idx = 0x525; // EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
+
+                    idx = 0x22; // HS_ROUTE_22_RIVAL_1
+                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                    m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
+
+                    idx = 0x521; // EVENT_2ND_ROUTE22_RIVAL_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                    idx = 0x526; // EVENT_BEAT_ROUTE22_RIVAL_2ND_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                    idx = 0x23; // HS_ROUTE_22_RIVAL_2
+                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                    m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
+
+                    idx = 0x527; // EVENT_ROUTE22_RIVAL_WANTS_BATTLE
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                    idx = 0x1A; // wRoute22CurScript
+                    m_eventWorkList[idx].Value = 0;
+                    m_savFile.Data[GameProgressWorkOffset + idx] = (byte)m_eventWorkList[idx].Value;
+                }
+            }
+        }
+
+        void BulkEdit_StaticBattle(bool value)
+        {
+            var flagGroups = new FlagsGroup[]
+            {
+                m_flagsGroupsList[Src_EventFlags],
+                m_flagsGroupsList[Src_HideShowFlags]
+            };
+
+            foreach (var fGroup in flagGroups)
+            {
+                foreach (var f in fGroup.Flags)
+                {
+                    if (f.FlagTypeVal == EventFlagType.StaticBattle)
+                    {
+                        f.IsSet = value;
+                    }
+                }
+
+                SyncEditedFlags(fGroup.SourceIdx);
+            }
+        }
+
+        void BulkEdit_Trades(bool value)
+        {
+            var flagGroups = new FlagsGroup[]
+            {
+                m_flagsGroupsList[Src_TradeFlags]
+            };
+
+            foreach (var fGroup in flagGroups)
+            {
+                foreach (var f in fGroup.Flags)
+                {
+                    if (f.FlagTypeVal == EventFlagType.InGameTrade)
+                    {
+                        f.IsSet = value;
+                    }
+                }
+
+                SyncEditedFlags(fGroup.SourceIdx);
+            }
+        }
+
+        void BulkEdit_ItemGift(bool value)
+        {
+            var flagGroups = new FlagsGroup[]
+            {
+                m_flagsGroupsList[Src_EventFlags],
+                m_flagsGroupsList[Src_HideShowFlags],
+                m_flagsGroupsList[Src_Misc_wd728]
+            };
+
+            foreach (var fGroup in flagGroups)
+            {
+                foreach (var f in fGroup.Flags)
+                {
+                    if (f.FlagTypeVal == EventFlagType.ItemGift)
+                    {
+                        f.IsSet = value;
+                    }
+                }
+
+                SyncEditedFlags(fGroup.SourceIdx);
+            }
+
+            // Fix simple HS flags
+            if (!value)
+            {
+                int[] idxArr = new int[]
+                {
+                    0x06, // HS_CERULEAN_ROCKET
+                    0x24, // HS_NUGGET_BRIDGE_GUY
+                    0x29, // HS_TOWN_MAP
+                    0x32, // HS_VIRIDIAN_GYM_GIOVANNI
+                    0x34, // HS_OLD_AMBER
+                };
+
+                foreach (var idx in idxArr)
+                {
+                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
+                }
+            }
+
+            // Fix Bill event flags
+            {
+                int idx = 0x55F; // EVENT_LEFT_BILLS_HOUSE_AFTER_HELPING
+                m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
+
+                idx = 0x62; // HS_BILL_1
+                m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
+
+                idx = 0x63; // HS_BILL_2
+                m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, !value);
+                m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = !value;
+            }
+
+            // Fix Daisy event flags
+            {
+                if (m_flagsGroupsList[Src_EventFlags].Flags[0x025].IsSet) // EVENT_GOT_POKEDEX
+                {
+                    int idx = 0x01A; // EVENT_DAISY_WALKING
+                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
+
+                    idx = 0x27; // HS_DAISY_SITTING
+                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
+
+                    idx = 0x28; // HS_DAISY_WALKING
+                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, !value);
+                    m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = !value;
+                }
+            }
+        }
+
+        void BulkEdit_PkmnGift(bool value)
+        {
+            var flagGroups = new FlagsGroup[]
+            {
+                m_flagsGroupsList[Src_EventFlags],
+                m_flagsGroupsList[Src_HideShowFlags],
+                m_flagsGroupsList[Src_Misc_wd72e]
+            };
+
+            foreach (var fGroup in flagGroups)
+            {
+                foreach (var f in fGroup.Flags)
+                {
+                    if (f.FlagTypeVal == EventFlagType.PkmnGift)
+                    {
+                        f.IsSet = value;
+                    }
+                }
+
+                SyncEditedFlags(fGroup.SourceIdx);
+            }
+
+            // Fix Karate Master flag
+            //TODO: Fix choice of Hitmonlee / Hitmonchan, only one should be allowed
+            {
+                int idx = 0x350; // EVENT_DEFEATED_FIGHTING_DOJO
+                m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
+            }
+        }
+
+        void BulkEdit_FlySpot(bool value)
+        {
+            var flagGroups = new FlagsGroup[]
+            {
+                m_flagsGroupsList[Src_FlySpotFlags]
+            };
+
+            foreach (var fGroup in flagGroups)
+            {
+                foreach (var f in fGroup.Flags)
+                {
+                    if (f.FlagTypeVal == EventFlagType.FlySpot)
+                    {
+                        f.IsSet = value;
+                    }
+                }
+
+                SyncEditedFlags(fGroup.SourceIdx);
             }
         }
 
