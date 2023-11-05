@@ -20,7 +20,7 @@
 0x04	EVENT					HS_MUSEUM_GUY
 0x05	EVENT					HS_GYM_GUY
 0x06	TRAINER BATTLE	Cerulean City		Rival sprite disappeared		HS_CERULEAN_RIVAL
-0x07	ITEM GIFT	Cerulean City		Received TM28 (Dig) from Team Rocket thief and sprite disappeared		HS_CERULEAN_ROCKET
+0x07	EVENT	Cerulean City		Received TM28 (Dig) from Team Rocket thief and sprite disappeared		HS_CERULEAN_ROCKET
 0x08	EVENT					HS_CERULEAN_GUARD_1
 0x09	STORY EVENT	Route 4		Guy blocking Cerulean cave disappeared after player becomes the Champion		HS_CERULEAN_CAVE_GUY
 0x0A	EVENT					HS_CERULEAN_GUARD_2
@@ -48,21 +48,21 @@
 0x20	FIELD ITEM	Route 12		Iron item ball disappeared		HS_ROUTE_12_ITEM_2
 0x21	FIELD ITEM	Route 15		TM20 (Rage) item ball disappeared		HS_ROUTE_15_ITEM
 0x22	STATIC BATTLE	Route 16		Snorlax sprite disappeared		HS_ROUTE_16_SNORLAX
-0x23	EVENT					HS_ROUTE_22_RIVAL_1
-0x24	EVENT					HS_ROUTE_22_RIVAL_2
-0x25	EVENT					HS_NUGGET_BRIDGE_GUY
+0x23	EVENT	Route 22		Rival sprite disappeared		HS_ROUTE_22_RIVAL_1
+0x24	EVENT	Route 22		Rival sprite disappeared		HS_ROUTE_22_RIVAL_2
+0x25	EVENT	Route 24		Nugget bridge guy sprite disappeared		HS_NUGGET_BRIDGE_GUY
 0x26	FIELD ITEM	Route 24		TM45 (Thunder Wave) item ball disappeared		HS_ROUTE_24_ITEM
 0x27	FIELD ITEM	Route 25		TM19 (Seismic Toss) item ball disappeared		HS_ROUTE_25_ITEM
 0x28	EVENT					HS_DAISY_SITTING
 0x29	EVENT					HS_DAISY_WALKING
 0x2A	EVENT					HS_TOWN_MAP
-0x2B	EVENT					HS_OAKS_LAB_RIVAL
+0x2B	TRAINER BATTLE	Pallet Town	Oak's Lab	Rival sprite disappeared		HS_OAKS_LAB_RIVAL
 0x2C	EVENT					HS_STARTER_BALL_1
 0x2D	EVENT					HS_OAKS_LAB_OAK_1
 0x2E	EVENT					HS_POKEDEX_1
 0x2F	EVENT					HS_POKEDEX_2
 0x30	EVENT					HS_OAKS_LAB_OAK_2
-0x31	ITEM GIFT	Viridian City	Gym	Received TM27 (Fissure) from Leader Giovanni and sprite disappeared		HS_VIRIDIAN_GYM_GIOVANNI
+0x31	EVENT	Viridian City	Gym	Received TM27 (Fissure) from Leader Giovanni and sprite disappeared		HS_VIRIDIAN_GYM_GIOVANNI
 0x32	FIELD ITEM	Viridian City	Gym	Revive item ball disappeared		HS_VIRIDIAN_GYM_ITEM
 0x33	EVENT					HS_OLD_AMBER
 0x34	EVENT					HS_CERULEAN_BULBASAUR
@@ -70,7 +70,7 @@
 0x36	FIELD ITEM	Cerulean Cave	1F	Max Elixer item ball disappeared		HS_CERULEAN_CAVE_1F_ITEM_2
 0x37	FIELD ITEM	Cerulean Cave	1F	Max Revive item ball disappeared		HS_CERULEAN_CAVE_1F_ITEM_3
 0x38	FIELD ITEM	Cerulean Cave	1F	Ultra Ball item ball disappeared		HS_CERULEAN_CAVE_1F_ITEM_4
-0x39	EVENT					HS_POKEMON_TOWER_2F_RIVAL
+0x39	TRAINER BATTLE	Pokémon Tower	2F	Rival sprite disappeared		HS_POKEMON_TOWER_2F_RIVAL
 0x3A	FIELD ITEM	Pokémon Tower	3F	Escape Rope item ball disappeared		HS_POKEMON_TOWER_3F_ITEM
 0x3B	FIELD ITEM	Pokémon Tower	4F	Elixer item ball disappeared		HS_POKEMON_TOWER_4F_ITEM_1
 0x3C	FIELD ITEM	Pokémon Tower	4F	Awakening item ball disappeared		HS_POKEMON_TOWER_4F_ITEM_2
@@ -110,9 +110,9 @@
 0x5E	FIELD ITEM	Victory Road	2F	TM05 (Mega Kick) item ball disappeared		HS_VICTORY_ROAD_2F_ITEM_3
 0x5F	FIELD ITEM	Victory Road	2F	Guard Spec. item ball disappeared		HS_VICTORY_ROAD_2F_ITEM_4
 0x60	EVENT					HS_VICTORY_ROAD_2F_BOULDER
-0x61	EVENT					HS_BILL_POKEMON
-0x62	EVENT					HS_BILL_1
-0x63	EVENT					HS_BILL_2
+0x61	EVENT	Route 25	Sea Cottage	Bill transformed in Pokémon sprite disappeared		HS_BILL_POKEMON
+0x62	EVENT	Route 25	Sea Cottage	Received S.S Ticket from Bill and disappeared		HS_BILL_1
+0x63	EVENT	Route 25	Sea Cottage	Bill default sprite disappeared		HS_BILL_2
 0x64	FIELD ITEM	Viridian Forest		Antidote item ball disappeared		HS_VIRIDIAN_FOREST_ITEM_1
 0x65	FIELD ITEM	Viridian Forest		Potion item ball disappeared		HS_VIRIDIAN_FOREST_ITEM_2
 0x66	FIELD ITEM	Viridian Forest		Poké Ball item ball disappeared		HS_VIRIDIAN_FOREST_ITEM_3
@@ -146,9 +146,9 @@
 0x82	FIELD ITEM	Rocket Hideout	B2F	Super Potion item ball disappeared		HS_ROCKET_HIDEOUT_B2F_ITEM_4
 0x83	FIELD ITEM	Rocket Hideout	B3F	TM10 (Double-Edge) item ball disappeared		HS_ROCKET_HIDEOUT_B3F_ITEM_1
 0x84	FIELD ITEM	Rocket Hideout	B3F	Rare Candy item ball disappeared		HS_ROCKET_HIDEOUT_B3F_ITEM_2
-0x85	EVENT					HS_ROCKET_HIDEOUT_B4F_GIOVANNI
-0x86	EVENT					HS_ROCKET_HIDEOUT_B4F_JAMES
-0x87	EVENT					HS_ROCKET_HIDEOUT_B4F_JESSIE
+0x85	EVENT	Rocket Hideout	B4F	Boss Giovanni sprite disappeared		HS_ROCKET_HIDEOUT_B4F_GIOVANNI
+0x86	EVENT	Rocket Hideout	B4F	James sprite disappeared		HS_ROCKET_HIDEOUT_B4F_JAMES
+0x87	EVENT	Rocket Hideout	B4F	Jessie sprite disappeared		HS_ROCKET_HIDEOUT_B4F_JESSIE
 0x88	FIELD ITEM	Rocket Hideout	B4F	HP Up item ball disappeared		HS_ROCKET_HIDEOUT_B4F_ITEM_1
 0x89	FIELD ITEM	Rocket Hideout	B4F	TM02 (Razor Wind) item ball disappeared		HS_ROCKET_HIDEOUT_B4F_ITEM_2
 0x8A	FIELD ITEM	Rocket Hideout	B4F	Iron item ball disappeared		HS_ROCKET_HIDEOUT_B4F_ITEM_3
@@ -201,9 +201,9 @@
 0xB9	FIELD ITEM	Silph Co.	10F	Rare Candy item ball disappeared		HS_SILPH_CO_10F_ITEM_2
 0xBA	FIELD ITEM	Silph Co.	10F	Carbos item ball disappeared		HS_SILPH_CO_10F_ITEM_3
 0xBB	EVENT					HS_SILPH_CO_11F_1
-0xBC	EVENT					HS_SILPH_CO_11F_JAMES
+0xBC	EVENT	Silph Co.	11F	James sprite disappeared		HS_SILPH_CO_11F_JAMES
 0xBD	EVENT					HS_SILPH_CO_11F_2
-0xBE	EVENT					HS_SILPH_CO_11F_JESSIE
+0xBE	EVENT	Silph Co.	11F	Jessie sprite disappeared		HS_SILPH_CO_11F_JESSIE
 0xBF	_UNUSED					HS_UNUSED_MAP_F4_1
 0xC0	FIELD ITEM	Pokémon Mansion	2F	Calcium item ball disappeared		HS_POKEMON_MANSION_2F_ITEM
 0xC1	FIELD ITEM	Pokémon Mansion	3F	Max Potion item ball disappeared		HS_POKEMON_MANSION_3F_ITEM_1
@@ -3032,203 +3032,203 @@
 						
 						
 //	Event Work					wGameProgressFlags
-0x0000	EVENT					wOaksLabCurScript
-0x0001	EVENT					wPalletTownCurScript
-0x0002	_UNUSED					
-0x0003	EVENT					wBluesHouseCurScript
-0x0004	EVENT					wViridianCityCurScript
-0x0005	_UNUSED					
-0x0006	_UNUSED					
-0x0007	EVENT					wPewterCityCurScript
-0x0008	EVENT					wRoute3CurScript
-0x0009	EVENT					wRoute4CurScript
-0x000A	_UNUSED					
-0x000B	EVENT					wViridianGymCurScript
-0x000C	EVENT					wPewterGymCurScript
-0x000D	EVENT					wCeruleanGymCurScript
-0x000E	EVENT					wVermilionGymCurScript
-0x000F	EVENT					wCeladonGymCurScript
-0x0010	EVENT					wRoute6CurScript
-0x0011	EVENT					wRoute8CurScript
-0x0012	EVENT					wRoute24CurScript
-0x0013	EVENT					wRoute25CurScript
-0x0014	EVENT					wRoute9CurScript
-0x0015	EVENT					wRoute10CurScript
-0x0016	EVENT					wMtMoon1FCurScript
-0x0017	EVENT					wMtMoonB2FCurScript
-0x0018	EVENT					wSSAnne1FRoomsCurScript
-0x0019	EVENT					wSSAnne2FRoomsCurScript
-0x001A	EVENT					wRoute22CurScript
-0x001B	_UNUSED					
-0x001C	EVENT					wRedsHouse2FCurScript
-0x001D	EVENT	Viridian City	Poké Mart	State	0:Clerk will ask for Oak's Parcel delivery,2:Normal	wViridianMartCurScript
-0x001E	EVENT					wRoute22GateCurScript
-0x001F	EVENT					wCeruleanCityCurScript
-0x0020	_UNUSED					
-0x0021	_UNUSED					
-0x0022	_UNUSED					
-0x0023	_UNUSED					
-0x0024	_UNUSED					
-0x0025	_UNUSED					
-0x0026	_UNUSED					
-0x0027	EVENT					wSSAnneBowCurScript
-0x0028	EVENT					wViridianForestCurScript
-0x0029	EVENT					wMuseum1FCurScript
-0x002A	EVENT					wRoute13CurScript
-0x002B	EVENT					wRoute14CurScript
-0x002C	EVENT					wRoute17CurScript
-0x002D	EVENT					wRoute19CurScript
-0x002E	EVENT					wRoute21CurScript
-0x002F	EVENT					wSafariZoneGateCurScript
-0x0030	EVENT					wRockTunnelB1FCurScript
-0x0031	EVENT					wRockTunnel1FCurScript
-0x0032	_UNUSED					
-0x0033	EVENT					wRoute11CurScript
-0x0034	EVENT					wRoute12CurScript
-0x0035	EVENT					wRoute15CurScript
-0x0036	EVENT					wRoute16CurScript
-0x0037	EVENT					wRoute18CurScript
-0x0038	EVENT					wRoute20CurScript
-0x0039	EVENT					wSSAnneB1FRoomsCurScript
-0x003A	EVENT					wVermilionCityCurScript
-0x003B	EVENT					wPokemonTower2FCurScript
-0x003C	EVENT					wPokemonTower3FCurScript
-0x003D	EVENT					wPokemonTower4FCurScript
-0x003E	EVENT					wPokemonTower5FCurScript
-0x003F	EVENT					wPokemonTower6FCurScript
-0x0040	EVENT					wPokemonTower7FCurScript
-0x0041	EVENT					wRocketHideoutB1FCurScript
-0x0042	EVENT					wRocketHideoutB2FCurScript
-0x0043	EVENT					wRocketHideoutB3FCurScript
-0x0044	EVENT					wRocketHideoutB4FCurScript
-0x0045	_UNUSED					
-0x0046	EVENT					wRoute6GateCurScript
-0x0047	EVENT					wRoute8GateCurScript
-0x0048	_UNUSED					
-0x0049	EVENT					wCinnabarIslandCurScript
-0x004A	EVENT					wPokemonMansion1FCurScript
-0x004B	_UNUSED					
-0x004C	EVENT					wPokemonMansion2FCurScript
-0x004D	EVENT					wPokemonMansion3FCurScript
-0x004E	EVENT					wPokemonMansionB1FCurScript
-0x004F	EVENT					wVictoryRoad2FCurScript
-0x0050	EVENT					wVictoryRoad3FCurScript
-0x0051	_UNUSED					
-0x0052	EVENT					wFightingDojoCurScript
-0x0053	EVENT					wSilphCo2FCurScript
-0x0054	EVENT					wSilphCo3FCurScript
-0x0055	EVENT					wSilphCo4FCurScript
-0x0056	EVENT					wSilphCo5FCurScript
-0x0057	EVENT					wSilphCo6FCurScript
-0x0058	EVENT					wSilphCo7FCurScript
-0x0059	EVENT					wSilphCo8FCurScript
-0x005A	EVENT					wSilphCo9FCurScript
-0x005B	EVENT					wHallOfFameCurScript
-0x005C	EVENT					wChampionsRoomCurScript
-0x005D	EVENT					wLoreleisRoomCurScript
-0x005E	EVENT					wBrunosRoomCurScript
-0x005F	EVENT					wAgathasRoomCurScript
-0x0060	EVENT					wCeruleanCaveB1FCurScript
-0x0061	EVENT					wVictoryRoad1FCurScript
-0x0062	_UNUSED					
-0x0063	EVENT					wLancesRoomCurScript
-0x0064	_UNUSED					
-0x0065	_UNUSED					
-0x0066	_UNUSED					
-0x0067	_UNUSED					
-0x0068	EVENT					wSilphCo10FCurScript
-0x0069	EVENT					wSilphCo11FCurScript
-0x006A	_UNUSED					
-0x006B	EVENT					wFuchsiaGymCurScript
-0x006C	EVENT					wSaffronGymCurScript
-0x006D	_UNUSED					
-0x006E	EVENT					wCinnabarGymCurScript
-0x006F	EVENT					wGameCornerCurScript
-0x0070	EVENT					wRoute16Gate1FCurScript
-0x0071	EVENT					wBillsHouseCurScript
-0x0072	EVENT					wRoute5GateCurScript
-0x0073	EVENT					wRoute7GateCurScript and wPowerPlantCurScript
-0x0074	_UNUSED					
-0x0075	EVENT	S.S. Anne	2F	State	0:Rival will battle you,4:Rival disappeared	wSSAnne2FCurScript
-0x0076	EVENT					wSeafoamIslandsB3FCurScript
-0x0077	EVENT					wRoute23CurScript
-0x0078	EVENT					wSeafoamIslandsB4FCurScript
-0x0079	EVENT					wRoute18Gate1FCurScript
-0x007A	_UNUSED					
-0x007B	_UNUSED					
-0x007C	_UNUSED					
-0x007D	_UNUSED					
-0x007E	_UNUSED					
-0x007F	_UNUSED					
-0x0080	_UNUSED					
-0x0081	_UNUSED					
-0x0082	_UNUSED					
-0x0083	_UNUSED					
-0x0084	_UNUSED					
-0x0085	_UNUSED					
-0x0086	_UNUSED					
-0x0087	_UNUSED					
-0x0088	_UNUSED					
-0x0089	_UNUSED					
-0x008A	_UNUSED					
-0x008B	_UNUSED					
-0x008C	_UNUSED					
-0x008D	_UNUSED					
-0x008E	_UNUSED					
-0x008F	_UNUSED					
-0x0090	_UNUSED					
-0x0091	_UNUSED					
-0x0092	_UNUSED					
-0x0093	_UNUSED					
-0x0094	_UNUSED					
-0x0095	_UNUSED					
-0x0096	_UNUSED					
-0x0097	_UNUSED					
-0x0098	_UNUSED					
-0x0099	_UNUSED					
-0x009A	_UNUSED					
-0x009B	_UNUSED					
-0x009C	_UNUSED					
-0x009D	_UNUSED					
-0x009E	_UNUSED					
-0x009F	_UNUSED					
-0x00A0	_UNUSED					
-0x00A1	_UNUSED					
-0x00A2	_UNUSED					
-0x00A3	_UNUSED					
-0x00A4	_UNUSED					
-0x00A5	_UNUSED					
-0x00A6	_UNUSED					
-0x00A7	_UNUSED					
-0x00A8	_UNUSED					
-0x00A9	_UNUSED					
-0x00AA	_UNUSED					
-0x00AB	_UNUSED					
-0x00AC	_UNUSED					
-0x00AD	_UNUSED					
-0x00AE	_UNUSED					
-0x00AF	_UNUSED					
-0x00B0	_UNUSED					
-0x00B1	_UNUSED					
-0x00B2	_UNUSED					
-0x00B3	_UNUSED					
-0x00B4	_UNUSED					
-0x00B5	_UNUSED					
-0x00B6	_UNUSED					
-0x00B7	_UNUSED					
-0x00B8	_UNUSED					
-0x00B9	_UNUSED					
-0x00BA	_UNUSED					
-0x00BB	_UNUSED					
-0x00BC	_UNUSED					
-0x00BD	_UNUSED					
-0x00BE	_UNUSED					
-0x00BF	_UNUSED					
-0x00C0	_UNUSED					
-0x00C1	_UNUSED					
-0x00C2	_UNUSED					
-0x00C3	_UNUSED					
-0x00C4	_UNUSED					
-0x00C5	_UNUSED					
-0x00C6	_UNUSED					
-0x00C7	_UNUSED					
+0x00	EVENT					wOaksLabCurScript
+0x01	EVENT					wPalletTownCurScript
+0x02	_UNUSED					
+0x03	EVENT					wBluesHouseCurScript
+0x04	EVENT					wViridianCityCurScript
+0x05	_UNUSED					
+0x06	_UNUSED					
+0x07	EVENT					wPewterCityCurScript
+0x08	EVENT					wRoute3CurScript
+0x09	EVENT					wRoute4CurScript
+0x0A	_UNUSED					
+0x0B	EVENT					wViridianGymCurScript
+0x0C	EVENT					wPewterGymCurScript
+0x0D	EVENT					wCeruleanGymCurScript
+0x0E	EVENT					wVermilionGymCurScript
+0x0F	EVENT					wCeladonGymCurScript
+0x10	EVENT					wRoute6CurScript
+0x11	EVENT					wRoute8CurScript
+0x12	EVENT					wRoute24CurScript
+0x13	EVENT					wRoute25CurScript
+0x14	EVENT					wRoute9CurScript
+0x15	EVENT					wRoute10CurScript
+0x16	EVENT					wMtMoon1FCurScript
+0x17	EVENT					wMtMoonB2FCurScript
+0x18	EVENT					wSSAnne1FRoomsCurScript
+0x19	EVENT					wSSAnne2FRoomsCurScript
+0x1A	EVENT					wRoute22CurScript
+0x1B	_UNUSED					
+0x1C	EVENT					wRedsHouse2FCurScript
+0x1D	EVENT	Viridian City	Poké Mart	State	0:Clerk will ask for Oak's Parcel delivery,2:Normal	wViridianMartCurScript
+0x1E	EVENT					wRoute22GateCurScript
+0x1F	EVENT					wCeruleanCityCurScript
+0x20	_UNUSED					
+0x21	_UNUSED					
+0x22	_UNUSED					
+0x23	_UNUSED					
+0x24	_UNUSED					
+0x25	_UNUSED					
+0x26	_UNUSED					
+0x27	EVENT					wSSAnneBowCurScript
+0x28	EVENT					wViridianForestCurScript
+0x29	EVENT					wMuseum1FCurScript
+0x2A	EVENT					wRoute13CurScript
+0x2B	EVENT					wRoute14CurScript
+0x2C	EVENT					wRoute17CurScript
+0x2D	EVENT					wRoute19CurScript
+0x2E	EVENT					wRoute21CurScript
+0x2F	EVENT					wSafariZoneGateCurScript
+0x30	EVENT					wRockTunnelB1FCurScript
+0x31	EVENT					wRockTunnel1FCurScript
+0x32	_UNUSED					
+0x33	EVENT					wRoute11CurScript
+0x34	EVENT					wRoute12CurScript
+0x35	EVENT					wRoute15CurScript
+0x36	EVENT					wRoute16CurScript
+0x37	EVENT					wRoute18CurScript
+0x38	EVENT					wRoute20CurScript
+0x39	EVENT					wSSAnneB1FRoomsCurScript
+0x3A	EVENT					wVermilionCityCurScript
+0x3B	EVENT					wPokemonTower2FCurScript
+0x3C	EVENT					wPokemonTower3FCurScript
+0x3D	EVENT					wPokemonTower4FCurScript
+0x3E	EVENT					wPokemonTower5FCurScript
+0x3F	EVENT					wPokemonTower6FCurScript
+0x40	EVENT					wPokemonTower7FCurScript
+0x41	EVENT					wRocketHideoutB1FCurScript
+0x42	EVENT					wRocketHideoutB2FCurScript
+0x43	EVENT					wRocketHideoutB3FCurScript
+0x44	EVENT					wRocketHideoutB4FCurScript
+0x45	_UNUSED					
+0x46	EVENT					wRoute6GateCurScript
+0x47	EVENT					wRoute8GateCurScript
+0x48	_UNUSED					
+0x49	EVENT					wCinnabarIslandCurScript
+0x4A	EVENT					wPokemonMansion1FCurScript
+0x4B	_UNUSED					
+0x4C	EVENT					wPokemonMansion2FCurScript
+0x4D	EVENT					wPokemonMansion3FCurScript
+0x4E	EVENT					wPokemonMansionB1FCurScript
+0x4F	EVENT					wVictoryRoad2FCurScript
+0x50	EVENT					wVictoryRoad3FCurScript
+0x51	_UNUSED					
+0x52	EVENT					wFightingDojoCurScript
+0x53	EVENT					wSilphCo2FCurScript
+0x54	EVENT					wSilphCo3FCurScript
+0x55	EVENT					wSilphCo4FCurScript
+0x56	EVENT					wSilphCo5FCurScript
+0x57	EVENT					wSilphCo6FCurScript
+0x58	EVENT					wSilphCo7FCurScript
+0x59	EVENT					wSilphCo8FCurScript
+0x5A	EVENT					wSilphCo9FCurScript
+0x5B	EVENT					wHallOfFameCurScript
+0x5C	EVENT					wChampionsRoomCurScript
+0x5D	EVENT					wLoreleisRoomCurScript
+0x5E	EVENT					wBrunosRoomCurScript
+0x5F	EVENT					wAgathasRoomCurScript
+0x60	EVENT					wCeruleanCaveB1FCurScript
+0x61	EVENT					wVictoryRoad1FCurScript
+0x62	_UNUSED					
+0x63	EVENT					wLancesRoomCurScript
+0x64	_UNUSED					
+0x65	_UNUSED					
+0x66	_UNUSED					
+0x67	_UNUSED					
+0x68	EVENT					wSilphCo10FCurScript
+0x69	EVENT					wSilphCo11FCurScript
+0x6A	_UNUSED					
+0x6B	EVENT					wFuchsiaGymCurScript
+0x6C	EVENT					wSaffronGymCurScript
+0x6D	_UNUSED					
+0x6E	EVENT					wCinnabarGymCurScript
+0x6F	EVENT					wGameCornerCurScript
+0x70	EVENT					wRoute16Gate1FCurScript
+0x71	EVENT					wBillsHouseCurScript
+0x72	EVENT					wRoute5GateCurScript
+0x73	EVENT					wRoute7GateCurScript and wPowerPlantCurScript
+0x74	_UNUSED					
+0x75	EVENT	S.S. Anne	2F	State	0:Rival will battle you,4:Rival disappeared	wSSAnne2FCurScript
+0x76	EVENT					wSeafoamIslandsB3FCurScript
+0x77	EVENT					wRoute23CurScript
+0x78	EVENT					wSeafoamIslandsB4FCurScript
+0x79	EVENT					wRoute18Gate1FCurScript
+0x7A	_UNUSED					
+0x7B	_UNUSED					
+0x7C	_UNUSED					
+0x7D	_UNUSED					
+0x7E	_UNUSED					
+0x7F	_UNUSED					
+0x80	_UNUSED					
+0x81	_UNUSED					
+0x82	_UNUSED					
+0x83	_UNUSED					
+0x84	_UNUSED					
+0x85	_UNUSED					
+0x86	_UNUSED					
+0x87	_UNUSED					
+0x88	_UNUSED					
+0x89	_UNUSED					
+0x8A	_UNUSED					
+0x8B	_UNUSED					
+0x8C	_UNUSED					
+0x8D	_UNUSED					
+0x8E	_UNUSED					
+0x8F	_UNUSED					
+0x90	_UNUSED					
+0x91	_UNUSED					
+0x92	_UNUSED					
+0x93	_UNUSED					
+0x94	_UNUSED					
+0x95	_UNUSED					
+0x96	_UNUSED					
+0x97	_UNUSED					
+0x98	_UNUSED					
+0x99	_UNUSED					
+0x9A	_UNUSED					
+0x9B	_UNUSED					
+0x9C	_UNUSED					
+0x9D	_UNUSED					
+0x9E	_UNUSED					
+0x9F	_UNUSED					
+0xA0	_UNUSED					
+0xA1	_UNUSED					
+0xA2	_UNUSED					
+0xA3	_UNUSED					
+0xA4	_UNUSED					
+0xA5	_UNUSED					
+0xA6	_UNUSED					
+0xA7	_UNUSED					
+0xA8	_UNUSED					
+0xA9	_UNUSED					
+0xAA	_UNUSED					
+0xAB	_UNUSED					
+0xAC	_UNUSED					
+0xAD	_UNUSED					
+0xAE	_UNUSED					
+0xAF	_UNUSED					
+0xB0	_UNUSED					
+0xB1	_UNUSED					
+0xB2	_UNUSED					
+0xB3	_UNUSED					
+0xB4	_UNUSED					
+0xB5	_UNUSED					
+0xB6	_UNUSED					
+0xB7	_UNUSED					
+0xB8	_UNUSED					
+0xB9	_UNUSED					
+0xBA	_UNUSED					
+0xBB	_UNUSED					
+0xBC	_UNUSED					
+0xBD	_UNUSED					
+0xBE	_UNUSED					
+0xBF	_UNUSED					
+0xC0	_UNUSED					
+0xC1	_UNUSED					
+0xC2	_UNUSED					
+0xC3	_UNUSED					
+0xC4	_UNUSED					
+0xC5	_UNUSED					
+0xC6	_UNUSED					
+0xC7	_UNUSED					
