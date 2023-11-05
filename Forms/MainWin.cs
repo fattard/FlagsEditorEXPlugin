@@ -56,6 +56,32 @@ namespace FlagsEditorEXPlugin.Forms
             collectablesChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.Collectable);
 
             #endregion Bulk Edit Tab
+
+            #region Special Edit Tab
+
+            var specialEditableEvents = m_organizer.GetSpecialEditableEvents();
+            for (int i = 0; i < specialEditableEvents.Length; i++)
+            {
+                var evt = specialEditableEvents[i];
+
+                var newBtn = new System.Windows.Forms.Button();
+                newBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            | System.Windows.Forms.AnchorStyles.Right)));
+                newBtn.Location = new System.Drawing.Point(i < 16 ? 2 : (200 + 8),  2 + ((i%16) * 27));
+                newBtn.Name = "specialEvtBtn_" + evt.Index;
+                newBtn.Size = new System.Drawing.Size(200, 23);
+                //newBtn.TabIndex = 1;
+                newBtn.Text = evt.Name;
+                newBtn.UseVisualStyleBackColor = true;
+                newBtn.Click += (object sender, EventArgs e) =>
+                {
+                    m_organizer.ProcessSpecialEventEdit(evt);
+                };
+
+                tabPage4.Controls.Add(newBtn);
+            }
+
+            #endregion Special Edit Tab
         }
 
         private void rawFlagsEditBtn_Click(object sender, EventArgs e)

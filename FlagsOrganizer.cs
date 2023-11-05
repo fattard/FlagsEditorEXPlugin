@@ -199,6 +199,20 @@ namespace FlagsEditorEXPlugin
             }
         }
 
+        public class SpecialEditableEventInfo
+        {
+            public int Index { get; private set; }
+            public string Name { get; private set; }
+            public bool IsAvailable { get; set; }
+
+            public SpecialEditableEventInfo(int index, string name, bool isAvailable = true)
+            {
+                Index = index;
+                Name = name;
+                IsAvailable = isAvailable;
+            }
+        }
+
 
         protected SaveFile m_savFile;
 
@@ -335,6 +349,10 @@ namespace FlagsEditorEXPlugin
 
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
         }
+
+        public virtual SpecialEditableEventInfo[] GetSpecialEditableEvents() { return null; }
+
+        public virtual void ProcessSpecialEventEdit(SpecialEditableEventInfo eventInfo) { }
 
         public abstract void BulkMarkFlags(EventFlagType flagType);
         public abstract void BulkUnmarkFlags(EventFlagType flagType);
