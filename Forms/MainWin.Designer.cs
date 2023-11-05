@@ -36,19 +36,16 @@ namespace FlagsEditorEXPlugin.Forms
             this.flagsCategoryCombo = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.flagsGroupCombo = new System.Windows.Forms.ComboBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.warnLabel = new System.Windows.Forms.Label();
             this.eventWorkEditBtn = new System.Windows.Forms.Button();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.unmarkFlagsBtn = new System.Windows.Forms.Button();
             this.markFlagsBtn = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.flySpotsChk = new System.Windows.Forms.CheckBox();
             this.collectablesChk = new System.Windows.Forms.CheckBox();
             this.pkmnGiftsChk = new System.Windows.Forms.CheckBox();
-            this.miscEventsChk = new System.Windows.Forms.CheckBox();
+            this.specialItemsChk = new System.Windows.Forms.CheckBox();
             this.berryTreesChk = new System.Windows.Forms.CheckBox();
             this.sideEventsChk = new System.Windows.Forms.CheckBox();
             this.inGameTradesChk = new System.Windows.Forms.CheckBox();
@@ -57,12 +54,15 @@ namespace FlagsEditorEXPlugin.Forms
             this.fieldItemsChk = new System.Windows.Forms.CheckBox();
             this.trainerBattlesChk = new System.Windows.Forms.CheckBox();
             this.hiddenItemsChk = new System.Windows.Forms.CheckBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.warnLabel = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -156,6 +156,27 @@ namespace FlagsEditorEXPlugin.Forms
             this.flagsGroupCombo.Size = new System.Drawing.Size(294, 21);
             this.flagsGroupCombo.TabIndex = 0;
             // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.eventWorkEditBtn);
+            this.tabPage3.Location = new System.Drawing.Point(4, 40);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(354, 353);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Event Work Edit";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // eventWorkEditBtn
+            // 
+            this.eventWorkEditBtn.Location = new System.Drawing.Point(87, 77);
+            this.eventWorkEditBtn.Name = "eventWorkEditBtn";
+            this.eventWorkEditBtn.Size = new System.Drawing.Size(180, 23);
+            this.eventWorkEditBtn.TabIndex = 0;
+            this.eventWorkEditBtn.Text = "Edit...";
+            this.eventWorkEditBtn.UseVisualStyleBackColor = true;
+            this.eventWorkEditBtn.Click += new System.EventHandler(this.eventWorkEditBtn_Click);
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.unmarkFlagsBtn);
@@ -168,59 +189,6 @@ namespace FlagsEditorEXPlugin.Forms
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Bulk Flags Edit";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.eventWorkEditBtn);
-            this.tabPage3.Location = new System.Drawing.Point(4, 40);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(354, 353);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Event Work Edit";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 40);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(354, 353);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Special Edit";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 40);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(354, 353);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Misc Edit";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // warnLabel
-            // 
-            this.warnLabel.AutoSize = true;
-            this.warnLabel.ForeColor = System.Drawing.Color.DarkRed;
-            this.warnLabel.Location = new System.Drawing.Point(4, 398);
-            this.warnLabel.MaximumSize = new System.Drawing.Size(350, 0);
-            this.warnLabel.Name = "warnLabel";
-            this.warnLabel.Size = new System.Drawing.Size(226, 39);
-            this.warnLabel.TabIndex = 1;
-            this.warnLabel.Text = "Changing the flags values may cause softlock,\r\ncrashes, and permanent data loss.\r" +
-    "\nSave file backups is strongly recommended.";
-            // 
-            // eventWorkEditBtn
-            // 
-            this.eventWorkEditBtn.Location = new System.Drawing.Point(87, 77);
-            this.eventWorkEditBtn.Name = "eventWorkEditBtn";
-            this.eventWorkEditBtn.Size = new System.Drawing.Size(180, 23);
-            this.eventWorkEditBtn.TabIndex = 0;
-            this.eventWorkEditBtn.Text = "Edit...";
-            this.eventWorkEditBtn.UseVisualStyleBackColor = true;
-            this.eventWorkEditBtn.Click += new System.EventHandler(this.eventWorkEditBtn_Click);
             // 
             // unmarkFlagsBtn
             // 
@@ -246,7 +214,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.groupBox3.Controls.Add(this.flySpotsChk);
             this.groupBox3.Controls.Add(this.collectablesChk);
             this.groupBox3.Controls.Add(this.pkmnGiftsChk);
-            this.groupBox3.Controls.Add(this.miscEventsChk);
+            this.groupBox3.Controls.Add(this.specialItemsChk);
             this.groupBox3.Controls.Add(this.berryTreesChk);
             this.groupBox3.Controls.Add(this.sideEventsChk);
             this.groupBox3.Controls.Add(this.inGameTradesChk);
@@ -284,22 +252,22 @@ namespace FlagsEditorEXPlugin.Forms
             // pkmnGiftsChk
             // 
             this.pkmnGiftsChk.AutoSize = true;
-            this.pkmnGiftsChk.Location = new System.Drawing.Point(6, 80);
+            this.pkmnGiftsChk.Location = new System.Drawing.Point(6, 103);
             this.pkmnGiftsChk.Name = "pkmnGiftsChk";
             this.pkmnGiftsChk.Size = new System.Drawing.Size(81, 17);
             this.pkmnGiftsChk.TabIndex = 4;
             this.pkmnGiftsChk.Text = "PKMN Gifts";
             this.pkmnGiftsChk.UseVisualStyleBackColor = true;
             // 
-            // miscEventsChk
+            // specialItemsChk
             // 
-            this.miscEventsChk.AutoSize = true;
-            this.miscEventsChk.Location = new System.Drawing.Point(6, 197);
-            this.miscEventsChk.Name = "miscEventsChk";
-            this.miscEventsChk.Size = new System.Drawing.Size(87, 17);
-            this.miscEventsChk.TabIndex = 9;
-            this.miscEventsChk.Text = "Misc. Events";
-            this.miscEventsChk.UseVisualStyleBackColor = true;
+            this.specialItemsChk.AutoSize = true;
+            this.specialItemsChk.Location = new System.Drawing.Point(6, 56);
+            this.specialItemsChk.Name = "specialItemsChk";
+            this.specialItemsChk.Size = new System.Drawing.Size(89, 17);
+            this.specialItemsChk.TabIndex = 9;
+            this.specialItemsChk.Text = "Special Items";
+            this.specialItemsChk.UseVisualStyleBackColor = true;
             // 
             // berryTreesChk
             // 
@@ -314,7 +282,7 @@ namespace FlagsEditorEXPlugin.Forms
             // sideEventsChk
             // 
             this.sideEventsChk.AutoSize = true;
-            this.sideEventsChk.Location = new System.Drawing.Point(6, 174);
+            this.sideEventsChk.Location = new System.Drawing.Point(6, 197);
             this.sideEventsChk.Name = "sideEventsChk";
             this.sideEventsChk.Size = new System.Drawing.Size(83, 17);
             this.sideEventsChk.TabIndex = 8;
@@ -324,7 +292,7 @@ namespace FlagsEditorEXPlugin.Forms
             // inGameTradesChk
             // 
             this.inGameTradesChk.AutoSize = true;
-            this.inGameTradesChk.Location = new System.Drawing.Point(6, 151);
+            this.inGameTradesChk.Location = new System.Drawing.Point(6, 174);
             this.inGameTradesChk.Name = "inGameTradesChk";
             this.inGameTradesChk.Size = new System.Drawing.Size(102, 17);
             this.inGameTradesChk.TabIndex = 7;
@@ -334,7 +302,7 @@ namespace FlagsEditorEXPlugin.Forms
             // staticEncounterChk
             // 
             this.staticEncounterChk.AutoSize = true;
-            this.staticEncounterChk.Location = new System.Drawing.Point(6, 127);
+            this.staticEncounterChk.Location = new System.Drawing.Point(6, 150);
             this.staticEncounterChk.Name = "staticEncounterChk";
             this.staticEncounterChk.Size = new System.Drawing.Size(88, 17);
             this.staticEncounterChk.TabIndex = 6;
@@ -344,7 +312,7 @@ namespace FlagsEditorEXPlugin.Forms
             // itemGiftsChk
             // 
             this.itemGiftsChk.AutoSize = true;
-            this.itemGiftsChk.Location = new System.Drawing.Point(6, 56);
+            this.itemGiftsChk.Location = new System.Drawing.Point(6, 79);
             this.itemGiftsChk.Name = "itemGiftsChk";
             this.itemGiftsChk.Size = new System.Drawing.Size(70, 17);
             this.itemGiftsChk.TabIndex = 3;
@@ -364,7 +332,7 @@ namespace FlagsEditorEXPlugin.Forms
             // trainerBattlesChk
             // 
             this.trainerBattlesChk.AutoSize = true;
-            this.trainerBattlesChk.Location = new System.Drawing.Point(6, 103);
+            this.trainerBattlesChk.Location = new System.Drawing.Point(6, 126);
             this.trainerBattlesChk.Name = "trainerBattlesChk";
             this.trainerBattlesChk.Size = new System.Drawing.Size(64, 17);
             this.trainerBattlesChk.TabIndex = 5;
@@ -380,6 +348,38 @@ namespace FlagsEditorEXPlugin.Forms
             this.hiddenItemsChk.TabIndex = 2;
             this.hiddenItemsChk.Text = "Hidden Items";
             this.hiddenItemsChk.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 40);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(354, 353);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Special Edit";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 40);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(354, 353);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Misc Edit";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // warnLabel
+            // 
+            this.warnLabel.AutoSize = true;
+            this.warnLabel.ForeColor = System.Drawing.Color.DarkRed;
+            this.warnLabel.Location = new System.Drawing.Point(4, 398);
+            this.warnLabel.MaximumSize = new System.Drawing.Size(350, 0);
+            this.warnLabel.Name = "warnLabel";
+            this.warnLabel.Size = new System.Drawing.Size(226, 39);
+            this.warnLabel.TabIndex = 1;
+            this.warnLabel.Text = "Changing the flags values may cause softlock,\r\ncrashes, and permanent data loss.\r" +
+    "\nSave file backups is strongly recommended.";
             // 
             // MainWin
             // 
@@ -398,8 +398,8 @@ namespace FlagsEditorEXPlugin.Forms
             this.tabPage1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
@@ -428,7 +428,7 @@ namespace FlagsEditorEXPlugin.Forms
         private System.Windows.Forms.CheckBox flySpotsChk;
         private System.Windows.Forms.CheckBox collectablesChk;
         private System.Windows.Forms.CheckBox pkmnGiftsChk;
-        private System.Windows.Forms.CheckBox miscEventsChk;
+        private System.Windows.Forms.CheckBox specialItemsChk;
         private System.Windows.Forms.CheckBox berryTreesChk;
         private System.Windows.Forms.CheckBox sideEventsChk;
         private System.Windows.Forms.CheckBox inGameTradesChk;

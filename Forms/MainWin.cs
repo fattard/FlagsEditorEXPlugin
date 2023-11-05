@@ -50,7 +50,7 @@ namespace FlagsEditorEXPlugin.Forms
             staticEncounterChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.StaticBattle);
             inGameTradesChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.InGameTrade);
             sideEventsChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.SideEvent);
-            miscEventsChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.GeneralEvent);
+            specialItemsChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.GeneralEvent);
             flySpotsChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.FlySpot);
             berryTreesChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.BerryTree);
             collectablesChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.Collectable);
@@ -88,6 +88,9 @@ namespace FlagsEditorEXPlugin.Forms
             if (hiddenItemsChk.Checked)
                 m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.HiddenItem);
 
+            if (specialItemsChk.Checked)
+                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.SpecialItem);
+
             if (itemGiftsChk.Checked)
                 m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.ItemGift);
 
@@ -105,9 +108,6 @@ namespace FlagsEditorEXPlugin.Forms
 
             if (sideEventsChk.Checked)
                 m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.SideEvent);
-
-            if (miscEventsChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.GeneralEvent);
 
             if (flySpotsChk.Checked)
                 m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.FlySpot);
@@ -129,6 +129,9 @@ namespace FlagsEditorEXPlugin.Forms
             if (hiddenItemsChk.Checked)
                 m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.HiddenItem);
 
+            if (specialItemsChk.Checked)
+                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.SpecialItem);
+
             if (itemGiftsChk.Checked)
                 m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.ItemGift);
 
@@ -146,9 +149,6 @@ namespace FlagsEditorEXPlugin.Forms
 
             if (sideEventsChk.Checked)
                 m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.SideEvent);
-
-            if (miscEventsChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.GeneralEvent);
 
             if (flySpotsChk.Checked)
                 m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.FlySpot);
