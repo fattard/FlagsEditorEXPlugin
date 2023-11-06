@@ -226,6 +226,193 @@ namespace FlagsEditorEXPlugin
             }
         }
 
+
+        public override SpecialEditableEventInfo[] GetSpecialEditableEvents()
+        {
+            int idx = 0;
+            return new SpecialEditableEventInfo[]
+            {
+                new SpecialEditableEventInfo(idx++, "Reset Fossils choice"),
+                new SpecialEditableEventInfo(idx++, "Reset Dojo choice"),
+                new SpecialEditableEventInfo(idx++, "Reset Bill events"),
+                new SpecialEditableEventInfo(idx++, "Reset S.S. Anne events"),
+                new SpecialEditableEventInfo(idx++, "Reset Rocket Hideout events"),
+                new SpecialEditableEventInfo(idx++, "Reset Pokémon Tower events"),
+                new SpecialEditableEventInfo(idx++, "Reset Silph Co. events"),
+                new SpecialEditableEventInfo(idx++, "Unblock Cerulean Cave"),
+            };
+        }
+
+        public override void ProcessSpecialEventEdit(SpecialEditableEventInfo eventInfo)
+        {
+            int idx = 0;
+
+            switch (eventInfo.Index)
+            {
+                case 0: // Fossils Choice
+                    {
+                        idx = 0x6F; // HS_MT_MOON_B2F_FOSSIL_1
+                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x70; // HS_MT_MOON_B2F_FOSSIL_2
+                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x578; // EVENT_GOT_DOME_FOSSIL
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x57F; // EVENT_GOT_HELIX_FOSSIL
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                    }
+                    break;
+
+                case 1: // Dojo Choice
+                    {
+                        idx = 0x4A; // HS_FIGHTING_DOJO_GIFT_1
+                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x4B; // HS_FIGHTING_DOJO_GIFT_2
+                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x350; // EVENT_DEFEATED_FIGHTING_DOJO
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x356; // EVENT_GOT_HITMONLEE
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x357; // EVENT_GOT_HITMONCHAN
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                    }
+                    break;
+
+                case 2: // Bill events
+                    {
+                        idx = 0x61; // HS_BILL_POKEMON
+                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x62; // HS_BILL_1
+                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                        m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
+
+                        idx = 0x63; // HS_BILL_2
+                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                        m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
+
+                        idx = 0x550; // EVENT_MET_BILL
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                        // EVENT_USED_CELL_SEPARATOR_ON_BILL .. EVENT_LEFT_BILLS_HOUSE_AFTER_HELPING
+                        for (idx = 0x55B; idx <= 0x55F; idx++)
+                        {
+                            m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                            m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                        }
+                    }
+                    break;
+
+                case 3: // S.S. Anne events
+                    {
+                        // EVENT_GOT_HM01 .. EVENT_WALKED_OUT_OF_DOCK
+                        for (idx = 0x5E0; idx <= 0x5E5; idx++)
+                        {
+                            m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                            m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                        }
+                    }
+                    break;
+
+                case 4: // Rocket Hideout events
+                    {
+                        idx = 0x83; // HS_ROCKET_HIDEOUT_B4F_GIOVANNI
+                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x6A7; // EVENT_BEAT_ROCKET_HIDEOUT_GIOVANNI
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                    }
+                    break;
+
+                case 5: // Pokémon Tower events
+                    {
+                        // HS_POKEMON_TOWER_7F_JESSIE .. HS_POKEMON_TOWER_7F_MR_FUJI
+                        for (idx = 0x41; idx <= 0x43; idx++)
+                        {
+                            m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                            m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
+                        }
+
+                        idx = 0x44; // HS_MR_FUJIS_HOUSE_MR_FUJI
+                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                        m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
+
+                        idx = 0x10F; // EVENT_BEAT_GHOST_MAROWAK
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                        // EVENT_BEAT_POKEMONTOWER_7_TRAINER_0 .. EVENT_BEAT_POKEMONTOWER_7_TRAINER_1
+                        for (idx = 0x111; idx <= 0x112; idx++)
+                        {
+                            m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                            m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                        }
+
+                        idx = 0x117; // EVENT_RESCUED_MR_FUJI_2
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x4CF; // EVENT_RESCUED_MR_FUJI
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                    }
+                    break;
+
+                case 6: // Silph Co. events
+                    {
+                        // HS_SILPH_CO_2F_1 .. HS_SILPH_CO_11F_JESSIE
+                        for (idx = 0x8D; idx <= 0xBE; idx++)
+                        {
+                            if (m_flagsGroupsList[Src_HideShowFlags].Flags[idx].FlagTypeVal == EventFlagType.GeneralEvent)
+                            {
+                                m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                                m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
+                            }
+                        }
+
+                        idx = 0x4C; // HS_SILPH_CO_1F_RECEPTIONIST
+                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                        m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
+
+                        idx = 0x397; // EVENT_SILPH_CO_RECEPTIONIST_AT_DESK
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x78F; // EVENT_BEAT_SILPH_CO_GIOVANNI
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                    }
+                    break;
+
+                case 7: // Unblock Cerulean Cave
+                    {
+                        idx = 0x09; // HS_CERULEAN_CAVE_GUY
+                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                        m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
+                    }
+                    break;
+            }
+        }
+
         public override void BulkMarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: true);
