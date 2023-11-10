@@ -1,67 +1,68 @@
-0x0000						
-0x0001						
-0x0002						
-0x0003						
-0x0004						
-0x0005						
-0x0006						
-0x0007						
-0x0008						
-0x0009						
-0x000A						
-0x000B						
-0x000C						
-0x000D						
-0x000E						
-0x000F						
-0x0010						
-0x0011						
-0x0012						
-0x0013						
-0x0014						
-0x0015						
-0x0016						
-0x0017						
-0x0018						
-0x0019						
-0x001A						
-0x001B						
-0x001C						
-0x001D						
-0x001E						
-0x001F						
-0x0020						
-0x0021						
-0x0022						
-0x0023						
-0x0024						
-0x0025						
-0x0026						
-0x0027						
-0x0028						
-0x0029						
-0x002A						
-0x002B						
-0x002C						
-0x002D						
-0x002E						
-0x002F						
-0x0030						
-0x0031						
-0x0032						
-0x0033						
-0x0034						
-0x0035						
-0x0036						
-0x0037						
-0x0038						
-0x0039						
-0x003A						
-0x003B						
-0x003C						
-0x003D						
-0x003E						
-0x003F						
+//	Event Flags					
+0x0000						// FH_0
+0x0001						FH_01
+0x0002						FH_02
+0x0003						FH_03
+0x0004						FH_04
+0x0005						FH_05
+0x0006						FH_06
+0x0007						FH_07
+0x0008						FH_08
+0x0009						FH_09
+0x000A						FH_10
+0x000B						FH_11
+0x000C						FH_12
+0x000D						FH_13
+0x000E						FH_14
+0x000F						FH_15
+0x0010						FH_16
+0x0011						FH_17
+0x0012						FH_18
+0x0013						FH_19
+0x0014						FH_20
+0x0015						FH_21
+0x0016						FH_22
+0x0017						FH_23
+0x0018						FH_24
+0x0019						FH_25
+0x001A						FH_26
+0x001B						FH_27
+0x001C						FH_28
+0x001D						FH_29
+0x001E						FH_30
+0x001F						FH_31
+0x0020						FH_OBJ00
+0x0021						FH_OBJ01
+0x0022						FH_OBJ02
+0x0023						FH_OBJ03
+0x0024						FH_OBJ04
+0x0025						FH_OBJ05
+0x0026						FH_OBJ06
+0x0027						FH_OBJ07
+0x0028						FH_OBJ08
+0x0029						FH_OBJ09
+0x002A						FH_OBJ10
+0x002B						FH_OBJ11
+0x002C						FH_OBJ12
+0x002D						FH_OBJ13
+0x002E						FH_OBJ14
+0x002F						FH_OBJ15
+0x0030						FH_OBJ16
+0x0031						FH_OBJ17
+0x0032						FH_OBJ18
+0x0033						FH_OBJ19
+0x0034						FH_OBJ20
+0x0035						FH_OBJ21
+0x0036						FH_OBJ22
+0x0037						FH_OBJ23
+0x0038						FH_OBJ24
+0x0039						FH_OBJ25
+0x003A						FH_OBJ26
+0x003B						FH_OBJ27
+0x003C						FH_OBJ28
+0x003D						FH_OBJ29
+0x003E						FH_OBJ30
+0x003F						FH_OBJ31
 0x0040						
 0x0041						
 0x0042						
@@ -147,7 +148,7 @@
 0x0092						
 0x0093						
 0x0094						
-0x0095	GIFT	Goldenrod City	Bill's House	Receive Eevee from Bill		
+0x0095	PKMN GIFT	Goldenrod City	Bill's House	Receive Eevee from Bill		
 0x0096						
 0x0097						
 0x0098						
@@ -163,7 +164,7 @@
 0x00A2						
 0x00A3						
 0x00A4						
-0x00A5	GIFT			Met Sunny/Got Magnet		
+0x00A5	ITEM GIFT			Met Sunny/Got Magnet		
 0x00A6						
 0x00A7						
 0x00A8						
@@ -175,7 +176,7 @@
 0x00AE						
 0x00AF						
 0x00B0						
-0x00B1	GIFT			Met Arthur/Got Hard Stone		
+0x00B1	ITEM GIFT			Met Arthur/Got Hard Stone		
 0x00B2						
 0x00B3						
 0x00B4						
@@ -189,7 +190,7 @@
 0x00BC						
 0x00BD						
 0x00BE	IN-GAME TRADE			Traded in Olivine City		
-0x00BF	GIFT	Cianwood Town		Received Shuckle Gift		
+0x00BF	PKMN GIFT	Cianwood Town		Received Shuckle Gift		
 0x00C0						
 0x00C1	EVENT			Shuckle returned or allowed to keep		
 0x00C2						
@@ -210,15 +211,15 @@
 0x00D1						
 0x00D2						
 0x00D3						
-0x00D4	GIFT			Met Santos/Got Soft Sand		
-0x00D5	GIFT			Met Wesley/Got Black Belt		
+0x00D4	ITEM GIFT			Met Santos/Got Soft Sand		
+0x00D5	ITEM GIFT			Met Wesley/Got Black Belt		
 0x00D6						
-0x00D7	GIFT			Met Monica/Got Sharp Beak		
-0x00D8	GIFT			Met Tuscany/Got TwistedSpoon		
-0x00D9	GIFT			Met Frieda/Got Poison Barb		
+0x00D7	ITEM GIFT			Met Monica/Got Sharp Beak		
+0x00D8	ITEM GIFT			Met Tuscany/Got TwistedSpoon		
+0x00D9	ITEM GIFT			Met Frieda/Got Poison Barb		
 0x00DA						
 0x00DB	EVENT			Quiz answered wrong (Gift Dratini won't have Extremespeed)		
-0x00DC	GIFT			Received Dratini Gift		
+0x00DC	PKMN GIFT			Received Dratini Gift		
 0x00DD						
 0x00DE						
 0x00DF						
@@ -266,7 +267,7 @@
 0x0109						
 0x010A						
 0x010B						
-0x010C	GIFT			Received Tyrogue Gift		
+0x010C	PKMN GIFT			Received Tyrogue Gift		
 0x010D	EVENT			Defeated Karate King in Mt. Mortar		
 0x010E						
 0x010F						
@@ -798,518 +799,518 @@
 0x031D						
 0x031E						
 0x031F						
-0x0320	HIDDEN ITEM	New Bark Town		Potion		
-0x0321	HIDDEN ITEM	Cherrygrove City		Nugget		
-0x0322	HIDDEN ITEM	Route 30		Potion		
-0x0323	HIDDEN ITEM	Violet City		Hyper Potion		
-0x0324	HIDDEN ITEM	Route 32		Heart Scale		
-0x0325	HIDDEN ITEM	Route 32		Great Ball		
-0x0326	HIDDEN ITEM	Azalea Town		Full Heal		
-0x0327	HIDDEN ITEM	Route 34		Rare Candy		
-0x0328	HIDDEN ITEM	Route 35		Super Potion		
-0x0329	HIDDEN ITEM	Route 36		Super Potion		
-0x032A	HIDDEN ITEM	Route 35		Nugget		
-0x032B	HIDDEN ITEM	Route 36		Awakening		
-0x032C	HIDDEN ITEM	Ecruteak City		Hyper Potion		
-0x032D	HIDDEN ITEM	Ecruteak City		Ether		
-0x032E	HIDDEN ITEM	Dark Cave		Poke Ball		
-0x032F	HIDDEN ITEM	Dark Cave		Max Ether		
-0x0330	HIDDEN ITEM	Dark Cave		Max Revive		
-0x0331	HIDDEN ITEM	Dark Cave		Hyper Potion		
-0x0332	HIDDEN ITEM	Dark Cave		Elixir		
-0x0333	HIDDEN ITEM	Burned Tower		Ether		
-0x0334	HIDDEN ITEM	Burned Tower		Ultra Ball		
-0x0335	HIDDEN ITEM	Burned Tower		Revive		
-0x0336	HIDDEN ITEM	Route 38		HP Up		
-0x0337	HIDDEN ITEM	Olivine City		Rare Candy		
-0x0338	HIDDEN ITEM	Route 40		Hyper Potion		
-0x0339	HIDDEN ITEM	Cianwood City		Revive		
-0x033A	HIDDEN ITEM	Cianwood City		Stardust		
-0x033B	HIDDEN ITEM	Slowpoke Well		Great Ball		
-0x033C	HIDDEN ITEM	Slowpoke Well		Super Potion		
-0x033D	HIDDEN ITEM	Slowpoke Well		Full Heal		
-0x033E	HIDDEN ITEM	Ilex Forest		Antidote		
-0x033F	HIDDEN ITEM	Ilex Forest		Super Potion		
-0x0340	HIDDEN ITEM	Ilex Forest		Full Heal		
-0x0341	HIDDEN ITEM	Ilex Forest		Ether		
-0x0342	HIDDEN ITEM	National Park		Full Heal		
-0x0343	HIDDEN ITEM	National Park		Full Heal		
-0x0344	HIDDEN ITEM	Lake of Rage		Full Restore		
-0x0345	HIDDEN ITEM	Lake of Rage		Rare Candy		
-0x0346	HIDDEN ITEM	Route 20		Deepseatooth		
-0x0347	HIDDEN ITEM	Route 47		Stardust		
-0x0348	HIDDEN ITEM	Route 47		Pearl		
-0x0349	HIDDEN ITEM	Safari Zone Gate		Tinymushroom		
-0x034A	HIDDEN ITEM	Route 42		Max Potion		
-0x034B	HIDDEN ITEM	Mt. Mortar		Hyper Potion		
-0x034C	HIDDEN ITEM	Mt. Mortar		Revive		
-0x034D	HIDDEN ITEM	Mt. Mortar		Max Repel		
-0x034E	HIDDEN ITEM	Mt. Mortar		Ether		
-0x034F	HIDDEN ITEM	Mt. Mortar		Full Restore		
-0x0350	HIDDEN ITEM	Mt. Mortar		HP Up		
-0x0351	HIDDEN ITEM	Mt. Mortar		Max Revive		
-0x0352	HIDDEN ITEM	Mt. Mortar		Ultra Ball		
-0x0353	HIDDEN ITEM	Team Rocket HQ		Revive		
-0x0354	HIDDEN ITEM	Goldenrod Tunnel		Parlyz Heal		
-0x0355	HIDDEN ITEM	Goldenrod Tunnel		Super Potion		
-0x0356	HIDDEN ITEM	Team Rocket HQ		Full Heal		
-0x0357	HIDDEN ITEM	Team Rocket HQ		X Sp  Def		
-0x0358	HIDDEN ITEM	Diglett's Cave		Max Revive		
-0x0359	HIDDEN ITEM	Route 5		Full Restore		
-0x035A	HIDDEN ITEM	Route 5		X Special		
-0x035B	HIDDEN ITEM	Rock Tunnel		X Accuracy		
-0x035C	HIDDEN ITEM	Rock Tunnel		X Defense		
-0x035D	HIDDEN ITEM	Rock Tunnel		Max Potion		
-0x035E	HIDDEN ITEM	Bell Tower		Max Potion		
-0x035F	HIDDEN ITEM	Bell Tower		Full Restore		
-0x0360	HIDDEN ITEM	Bell Tower		Carbos		
-0x0361	HIDDEN ITEM	Burned Tower		Antidote		
-0x0362	HIDDEN ITEM	Lighthouse		Hyper Potion		
-0x0363	HIDDEN ITEM	Goldenrod City		Antidote		
-0x0364	HIDDEN ITEM	Goldenrod City		Max Potion		
-0x0365	HIDDEN ITEM	Goldenrod City		Revive		
-0x0366	HIDDEN ITEM	Ice Path		Max Potion		
-0x0367	HIDDEN ITEM	Ice Path		Carbos		
-0x0368	HIDDEN ITEM	Ice Path		Ice Heal		
-0x0369	HIDDEN ITEM	Whirl Islands		Rare Candy		
-0x036A	HIDDEN ITEM	Whirl Islands		Ultra Ball		
-0x036B	HIDDEN ITEM	Whirl Islands		Full Restore		
-0x036C	HIDDEN ITEM	Mt. Silver Cave		Dire Hit		
-0x036D	HIDDEN ITEM	Mt. Silver Cave		Ultra Ball		
-0x036E	HIDDEN ITEM	Mt. Silver Cave		Max Potion		
-0x036F	HIDDEN ITEM	Victory Road		Max Potion		
-0x0370	HIDDEN ITEM	Victory Road		Full Heal		
-0x0371	HIDDEN ITEM	Dragon's Den		Revive		
-0x0372	HIDDEN ITEM	Dragon's Den		Max Potion		
-0x0373	HIDDEN ITEM	Dragon's Den		Max Elixir		
-0x0374	HIDDEN ITEM	S.S. Aqua		Iron		
-0x0375	HIDDEN ITEM	Viridian Forest		Max Ether		
-0x0376	HIDDEN ITEM	Olivine City		Protein		
-0x0377	HIDDEN ITEM	Viridian Forest		Full Restore		
-0x0378	HIDDEN ITEM	Seafoam Islands		Escape Rope		
-0x0379	HIDDEN ITEM	Seafoam Islands		Ice Heal		
-0x037A	HIDDEN ITEM	Seafoam Islands		Pearl		
-0x037B	HIDDEN ITEM	Seafoam Islands		Pearl		
-0x037C	HIDDEN ITEM	Seafoam Islands		Max Revive		
-0x037D	HIDDEN ITEM	Cerulean Cave		Hyper Potion		
-0x037E	HIDDEN ITEM	Cerulean Cave		Rare Candy		
-0x037F	HIDDEN ITEM	Cerulean Cave		Revive		
-0x0380	HIDDEN ITEM	Cerulean Cave		Ultra Ball		
-0x0381	HIDDEN ITEM	Route 32		Super Potion		
-0x0382	HIDDEN ITEM	Route 39		Nugget		
-0x0383	HIDDEN ITEM	Route 41		Max Ether		
-0x0384	HIDDEN ITEM	Route 44		Elixir		
-0x0385	HIDDEN ITEM	Route 45		PP Up		
-0x0386	HIDDEN ITEM	Lake of Rage		Max Potion		
-0x0387	HIDDEN ITEM	Vermilion City		Full Heal		
-0x0388	HIDDEN ITEM	Route 11		Revive		
-0x0389	HIDDEN ITEM	Route 9		Ether		
-0x038A	HIDDEN ITEM	Cerulean City		Nugget		
-0x038B	HIDDEN ITEM	Route 25		Revive		
-0x038C	HIDDEN ITEM	Violet City		Poke Ball		
-0x038D	HIDDEN ITEM	Route 17		Max Ether		
-0x038E	HIDDEN ITEM	Route 17		Max Elixir		
-0x038F	HIDDEN ITEM	Route 13		Calcium		
-0x0390	HIDDEN ITEM	Route 12		Elixir		
-0x0391	HIDDEN ITEM	Route 4		Ultra Ball		
-0x0392	HIDDEN ITEM	Cinnabar Island		Rare Candy		
-0x0393	HIDDEN ITEM	Route 28		Rare Candy		
-0x0394	HIDDEN ITEM	Mt. Silver		Full Restore		
-0x0395	HIDDEN ITEM	Cerulean Cave		PP Up		
-0x0396	HIDDEN ITEM	Cerulean Cave		Big Pearl		
-0x0397	HIDDEN ITEM	Cerulean Cave		Zinc		
-0x0398	HIDDEN ITEM	Cerulean Cave		Full Heal		
-0x0399	HIDDEN ITEM	Cerulean Cave		Max Revive		
-0x039A	HIDDEN ITEM	Celadon City		PP Up		
-0x039B	HIDDEN ITEM	Cerulean Cave		Ultra Ball		
-0x039C	HIDDEN ITEM	Cerulean Cave		Nugget		
-0x039D	HIDDEN ITEM	Bellchime Trail		Tinymushroom		
-0x039E	HIDDEN ITEM	Bellchime Trail		Big Mushroom		
-0x039F	HIDDEN ITEM	Bellchime Trail		Big Mushroom		
-0x03A0	HIDDEN ITEM	Bellchime Trail		Tinymushroom		
-0x03A1	HIDDEN ITEM	Bellchime Trail		Tinymushroom		
-0x03A2	HIDDEN ITEM	Safari Zone Gate		Tinymushroom		
-0x03A3	HIDDEN ITEM	Safari Zone Gate		Tinymushroom		
-0x03A4	HIDDEN ITEM	Ecruteak City		Rare Candy		
-0x03A5	HIDDEN ITEM	Ecruteak City		Ultra Ball		
-0x03A6	HIDDEN ITEM	Fuchsia City		Nugget		
-0x03A7	HIDDEN ITEM	Route 39		PP Up		
-0x03A8	HIDDEN ITEM	Route 39		X Attack		
-0x03A9	HIDDEN ITEM	Route 39		Full Heal		
-0x03AA	HIDDEN ITEM	Route 3		Star Piece		
-0x03AB	HIDDEN ITEM	Route 3		Hyper Potion		
-0x03AC	HIDDEN ITEM	Mt. Mortar		Rare Candy		
-0x03AD	HIDDEN ITEM	Mt. Mortar		Ultra Ball		
-0x03AE	HIDDEN ITEM	Mt. Mortar		Nugget		
-0x03AF	HIDDEN ITEM	Mt. Mortar		Hyper Potion		
-0x03B0	HIDDEN ITEM	Mt. Mortar		Full Heal		
-0x03B1	HIDDEN ITEM	Route 3		Star Piece		
-0x03B2	HIDDEN ITEM	Ruins of Alph		Great Ball		
-0x03B3	HIDDEN ITEM	Ruins of Alph		Big Mushroom		
-0x03B4	HIDDEN ITEM	Ruins of Alph		Tinymushroom		
-0x03B5	HIDDEN ITEM	Ruins of Alph		Rare Candy		
-0x03B6	HIDDEN ITEM	Ruins of Alph		Nugget		
-0x03B7	HIDDEN ITEM	Union Cave		Great Ball		
-0x03B8	HIDDEN ITEM	Union Cave		Parlyz Heal		
-0x03B9	HIDDEN ITEM	Union Cave		X Speed		
-0x03BA	HIDDEN ITEM	Union Cave		Big Pearl		
-0x03BB	HIDDEN ITEM	Union Cave		Revive		
-0x03BC	HIDDEN ITEM	Union Cave		Ultra Ball		
-0x03BD	HIDDEN ITEM	Union Cave		Calcium		
-0x03BE	HIDDEN ITEM	Olivine City		Pearl		
-0x03BF	HIDDEN ITEM	Pokeathlon Dome		PP Up		
-0x03C0	HIDDEN ITEM	Pokeathlon Dome		Protein		
-0x03C1	HIDDEN ITEM	Frontier Access		Rare Candy		
-0x03C2	HIDDEN ITEM	Vermilion City		Pearl		
-0x03C3	HIDDEN ITEM	Vermilion City		Pearl		
-0x03C4	HIDDEN ITEM	Vermilion City		Big Pearl		
-0x03C5	HIDDEN ITEM	Mt. Silver Cave		Rare Candy		
-0x03C6	HIDDEN ITEM	Cinnabar Island		Iron		
-0x03C7	HIDDEN ITEM	Cinnabar Island		Star Piece		
-0x03C8	HIDDEN ITEM	Vermilion City		Heart Scale		
-0x03C9	HIDDEN ITEM	Rock Tunnel		HP Up		
-0x03CA	HIDDEN ITEM	Route 41		Stardust		
-0x03CB	HIDDEN ITEM	Route 41		Stardust		
-0x03CC	HIDDEN ITEM	Route 41		Stardust		
-0x03CD	HIDDEN ITEM	Route 41		Stardust		
-0x03CE	HIDDEN ITEM	Route 20		Stardust		
-0x03CF	HIDDEN ITEM	Route 21		Stardust		
-0x03D0	HIDDEN ITEM	Route 21		Stardust		
-0x03D1	HIDDEN ITEM	Route 21		Stardust		
-0x03D2	HIDDEN ITEM	Route 19		Pearl		
-0x03D3	HIDDEN ITEM	Route 19		Pearl		
-0x03D4	HIDDEN ITEM	Route 19		Big Pearl		
-0x03D5	HIDDEN ITEM	Route 27		Revive		
-0x03D6	HIDDEN ITEM	Route 27		Big Mushroom		
-0x03D7	HIDDEN ITEM	Route 26		Nugget		
-0x03D8	HIDDEN ITEM	Route 26		Tinymushroom		
-0x03D9	HIDDEN ITEM	Victory Road		Max Revive		
-0x03DA	HIDDEN ITEM	Victory Road		PP Up		
-0x03DB	HIDDEN ITEM	Victory Road		Hyper Potion		
-0x03DC	HIDDEN ITEM	Victory Road		Zinc		
-0x03DD	HIDDEN ITEM	Victory Road		Ultra Ball		
-0x03DE	HIDDEN ITEM	Indigo Plateau		Rare Candy		
-0x03DF	HIDDEN ITEM	Whirl Islands		Super Repel		
-0x03E0	HIDDEN ITEM	Whirl Islands		Pearl		
-0x03E1	HIDDEN ITEM	Whirl Islands		Revive		
-0x03E2	HIDDEN ITEM	Route 4		Big Mushroom		
-0x03E3	HIDDEN ITEM	Mt. Moon		Revive		
-0x03E4	HIDDEN ITEM	Mt. Moon		Max Revive		
-0x03E5	HIDDEN ITEM	Route 10		Carbos		
-0x03E6	HIDDEN ITEM	Pewter City		PP Up		
-0x03E7	HIDDEN ITEM	Pewter City		Guard Spec		
-0x03E8	HIDDEN ITEM	Viridian City		Nugget		
-0x03E9	HIDDEN ITEM	Mt. Silver Cave		Revive		
-0x03EA	HIDDEN ITEM	Mt. Silver Cave		Ultra Ball		
-0x03EB	HIDDEN ITEM	Mt. Silver Cave		Hyper Potion		
-0x03EC	HIDDEN ITEM	Mt. Silver Cave		Max Ether		
-0x03ED	HIDDEN ITEM	Mt. Silver Cave		Hyper Potion		
-0x03EE	HIDDEN ITEM	Mt. Silver Cave		Max Revive		
-0x03EF	HIDDEN ITEM	Route 19		Revive		
-0x03F0	HIDDEN ITEM	Route 19		Max Elixir		
-0x03F1	HIDDEN ITEM	Cliff Edge Gate		Big Pearl		
-0x03F2	HIDDEN ITEM	Seafoam Islands		Rare Candy		
-0x03F3	HIDDEN ITEM	Ilex Forest		Tinymushroom		
-0x03F4	HIDDEN ITEM	Ilex Forest		Repel		
-0x03F5	HIDDEN ITEM	Ilex Forest		Big Mushroom		
-0x03F6	HIDDEN ITEM	Ilex Forest		Tinymushroom		
-0x03F7	HIDDEN ITEM	Ilex Forest		Tinymushroom		
-0x03F8	HIDDEN ITEM	Viridian Forest		Big Mushroom		
-0x03F9	HIDDEN ITEM	Viridian Forest		Big Mushroom		
-0x03FA	HIDDEN ITEM	Viridian Forest		Tinymushroom		
-0x03FB	HIDDEN ITEM	Viridian Forest		Tinymushroom		
-0x03FC	HIDDEN ITEM	Viridian Forest		Tinymushroom		
-0x03FD	HIDDEN ITEM	Cerulean Cave		Protein		
-0x03FE	HIDDEN ITEM	Mt. Silver Cave		Iron		
-0x03FF	HIDDEN ITEM	Seafoam Islands		Zinc		
-0x0400	HIDDEN ITEM	Diglett's Cave		Calcium		
-0x0401	HIDDEN ITEM	Cherrygrove City		Nugget		
-0x0402	HIDDEN ITEM	Cliff Cave		Ultra Ball		
-0x0403	HIDDEN ITEM	Pewter City		Max Revive		
-0x0404	HIDDEN ITEM	Ice Path		Revive		
-0x0405	HIDDEN ITEM	Route 20		Deepseascale		
-0x0406	HIDDEN ITEM	Route 45/46		PP Max		
-0x0407	_UNUSED					
-0x0408	_UNUSED					
-0x0409	_UNUSED					
-0x040A	_UNUSED					
-0x040B	_UNUSED					
-0x040C	_UNUSED					
-0x040D	_UNUSED					
-0x040E	_UNUSED					
-0x040F	_UNUSED					
-0x0410	_UNUSED					
-0x0411	_UNUSED					
-0x0412	_UNUSED					
-0x0413	_UNUSED					
-0x0414	_UNUSED					
-0x0415	_UNUSED					
-0x0416	_UNUSED					
-0x0417	_UNUSED					
-0x0418	_UNUSED					
-0x0419	_UNUSED					
-0x041A	_UNUSED					
-0x041B	_UNUSED					
-0x041C	_UNUSED					
-0x041D	_UNUSED					
-0x041E	_UNUSED					
-0x041F	_UNUSED					
-0x0420	FIELD ITEM	Route 30		Antidote		
-0x0421	FIELD ITEM	Route 31		Potion		
-0x0422	FIELD ITEM	Route 31		Poke Ball		
-0x0423	FIELD ITEM	Violet City		Rare Candy		
-0x0424	FIELD ITEM	Violet City		PP Up		
-0x0425	FIELD ITEM	Sprout Tower		Parlyz Heal		
-0x0426	FIELD ITEM	Sprout Tower		X Accuracy		
-0x0427	FIELD ITEM	Sprout Tower		Potion		
-0x0428	FIELD ITEM	Sprout Tower		Escape Rope		
-0x0429	FIELD ITEM	Route 32		Repel		
-0x042A	FIELD ITEM	Route 32		Great Ball		
-0x042B	FIELD ITEM	Union Cave		X Attack		
-0x042C	FIELD ITEM	Union Cave		Great Ball		
-0x042D	FIELD ITEM	Union Cave		Potion		
-0x042E	FIELD ITEM	Union Cave		Awakening		
-0x042F	FIELD ITEM	Union Cave		X Defense		
-0x0430	FIELD ITEM	Union Cave		TM39		
-0x0431	FIELD ITEM	Burned Tower		HP Up		
-0x0432	FIELD ITEM	Burned Tower		TM12		
-0x0433	FIELD ITEM	Slowpoke Well		Super Potion		
-0x0434	FIELD ITEM	Slowpoke Well		TM18		
-0x0435	FIELD ITEM	Ilex Forest		Revive		
-0x0436	FIELD ITEM	Goldenrod City		TM82		
-0x0437	FIELD ITEM	Goldenrod City		Max Ether		
-0x0438	FIELD ITEM	Goldenrod Tunnel		Coin Case (Japanese Games Only)		
-0x0439	FIELD ITEM	Route 29		Potion		
-0x043A	FIELD ITEM	Union Cave		Elixir		
-0x043B	FIELD ITEM	Union Cave		Hyper Potion		
-0x043C	FIELD ITEM	Ilex Forest		X Attack		
-0x043D	FIELD ITEM	Ilex Forest		Antidote		
-0x043E	FIELD ITEM	Ilex Forest		Ether		
-0x043F	FIELD ITEM	Route 34		Nugget		
-0x0440	FIELD ITEM	Route 30		Potion		
-0x0441	FIELD ITEM	Radio Tower		Ultra Ball		
-0x0442	FIELD ITEM	Goldenrod City		Burn Heal		
-0x0443	FIELD ITEM	Goldenrod City		Amulet Coin		
-0x0444	FIELD ITEM	Goldenrod City		Ether		
-0x0445	FIELD ITEM	Goldenrod City		Ultra Ball		
-0x0446	FIELD ITEM	Goldenrod City		Ultra Ball		
-0x0447	FIELD ITEM	Goldenrod City		Full Heal		
-0x0448	FIELD ITEM	Goldenrod City		Smoke Ball		
-0x0449	FIELD ITEM	Route 35		TM66		
-0x044A	FIELD ITEM	Lighthouse		Ether		
-0x044B	FIELD ITEM	Lighthouse		TM87		
-0x044C	FIELD ITEM	Lighthouse		Super Repel		
-0x044D	FIELD ITEM	Lighthouse		Super Potion		
-0x044E	FIELD ITEM	Team Rocket HQ		Hyper Potion		
-0x044F	FIELD ITEM	Team Rocket HQ		Guard Spec		
-0x0450	FIELD ITEM	Team Rocket HQ		Nugget		
-0x0451	FIELD ITEM	Team Rocket HQ		TM46		
-0x0452	FIELD ITEM	Team Rocket HQ		TM49		
-0x0453	FIELD ITEM	Team Rocket HQ		Full Heal		
-0x0454	FIELD ITEM	Team Rocket HQ		Protein		
-0x0455	FIELD ITEM	Team Rocket HQ		X Special		
-0x0456	FIELD ITEM	Ice Path		TM72		
-0x0457	FIELD ITEM	Ice Path		HM07		
-0x0458	FIELD ITEM	Dragon's Den		Dragon Fang		
-0x0459	FIELD ITEM	Dark Cave		TM54		
-0x045A	FIELD ITEM	Dark Cave		Revive		
-0x045B	FIELD ITEM	Route 26		Max Elixir		
-0x045C	FIELD ITEM	Tohjo Falls		Moon Stone		
-0x045D	FIELD ITEM	Route 27		Rare Candy		
-0x045E	FIELD ITEM	Route 27		TM02		
-0x045F	FIELD ITEM	Victory Road		Max Revive		
-0x0460	FIELD ITEM	Victory Road		Full Heal		
-0x0461	FIELD ITEM	Victory Road		Potion		
-0x0462	FIELD ITEM	Victory Road		TM26		
-0x0463	FIELD ITEM	Victory Road		HP Up		
-0x0464	FIELD ITEM	Victory Road		Full Restore		
-0x0465	FIELD ITEM	Victory Road		Ultra Ball		
-0x0466	FIELD ITEM	Victory Road		TM79		
-0x0467	FIELD ITEM	Victory Road		Rare Candy		
-0x0468	FIELD ITEM	Ruins of Alph		Heal Powder		
-0x0469	FIELD ITEM	Ruins of Alph		Energypowder		
-0x046A	FIELD ITEM	Ruins of Alph		Oran Berry		
-0x046B	FIELD ITEM	Ruins of Alph		Pecha Berry		
-0x046C	FIELD ITEM	Ruins of Alph		Heal Powder		
-0x046D	FIELD ITEM	Ruins of Alph		Energy Root		
-0x046E	FIELD ITEM	Ruins of Alph		Sitrus Berry		
-0x046F	FIELD ITEM	Ruins of Alph		Moon Stone		
-0x0470	FIELD ITEM	Ruins of Alph		Stardust		
-0x0471	FIELD ITEM	Ruins of Alph		Star Piece		
-0x0472	FIELD ITEM	Ruins of Alph		Leppa Berry		
-0x0473	FIELD ITEM	Ruins of Alph		Mystic Water		
-0x0474	FIELD ITEM	Ruins of Alph		Revival Herb		
-0x0475	FIELD ITEM	Ruins of Alph		Charcoal		
-0x0476	FIELD ITEM	Ruins of Alph		Life Orb		
-0x0477	FIELD ITEM	Ruins of Alph		Leppa Berry		
-0x0478	FIELD ITEM	National Park		Soothe Bell		
-0x0479	FIELD ITEM	National Park		TM28		
-0x047A	FIELD ITEM	Ruins of Alph		Potion		
-0x047B	FIELD ITEM	Ruins of Alph		Hyper Potion		
-0x047C	FIELD ITEM	Bell Tower		Full Heal		
-0x047D	FIELD ITEM	Bell Tower		Escape Rope		
-0x047E	FIELD ITEM	Bell Tower		Ultra Ball		
-0x047F	FIELD ITEM	Bell Tower		PP Up		
-0x0480	FIELD ITEM	Bell Tower		Rare Candy		
-0x0481	FIELD ITEM	Bell Tower		Max Potion		
-0x0482	FIELD ITEM	Bell Tower		Full Heal		
-0x0483	FIELD ITEM	Bell Tower		Max Revive		
-0x0484	FIELD ITEM	Bell Tower		Full Restore		
-0x0485	FIELD ITEM	Bell Tower		Max Elixir		
-0x0486	FIELD ITEM	Bell Tower		Nugget		
-0x0487	FIELD ITEM	Bell Tower		HP Up		
-0x0488	FIELD ITEM	Lighthouse		Rare Candy		
-0x0489	FIELD ITEM	Whirl Islands		Ultra Ball		
-0x048A	FIELD ITEM	Whirl Islands		Ultra Ball 2		
-0x048B	FIELD ITEM	Whirl Islands		Escape Rope		
-0x048C	FIELD ITEM	Whirl Islands		Carbos		
-0x048D	FIELD ITEM	Whirl Islands		Full Restore		
-0x048E	FIELD ITEM	Whirl Islands		Nugget		
-0x048F	FIELD ITEM	Whirl Islands		Calcium		
-0x0490	FIELD ITEM	Whirl Islands		Max Revive		
-0x0491	FIELD ITEM	Whirl Islands		Full Restore		
-0x0492	FIELD ITEM	Whirl Islands		Max Elixir		
-0x0493	FIELD ITEM	Whirl Islands		Rare Candy		
-0x0494	FIELD ITEM	Route 42		Super Potion		
-0x0495	FIELD ITEM	Mt. Mortar		Ether		
-0x0496	FIELD ITEM	Mt. Mortar		Revive		
-0x0497	FIELD ITEM	Mt. Mortar		Escape Rope		
-0x0498	FIELD ITEM	Mt. Mortar		Nugget		
-0x0499	FIELD ITEM	Mt. Mortar		Iron Ball		
-0x049A	FIELD ITEM	Mt. Mortar		Max Potion		
-0x049B	FIELD ITEM	Mt. Mortar		Iron		
-0x049C	FIELD ITEM	Mt. Mortar		Max Revive		
-0x049D	FIELD ITEM	Mt. Mortar		Ultra Ball		
-0x049E	FIELD ITEM	Mt. Mortar		Rare Candy		
-0x049F	FIELD ITEM	Mt. Mortar		Max Potion		
-0x04A0	FIELD ITEM	Mt. Mortar		TM40		
-0x04A1	FIELD ITEM	Mt. Mortar		Elixir		
-0x04A2	FIELD ITEM	Mt. Mortar		Dragon Scale		
-0x04A3	FIELD ITEM	Mt. Mortar		Escape Rope		
-0x04A4	FIELD ITEM	Mt. Mortar		Carbos		
-0x04A5	FIELD ITEM	Mt. Mortar		PP Up		
-0x04A6	FIELD ITEM	Mt. Mortar		Full Restore		
-0x04A7	FIELD ITEM	Mt. Mortar		Max Ether		
-0x04A8	FIELD ITEM	Mt. Mortar		Hyper Potion		
-0x04A9	FIELD ITEM	Route 42		Dubious Disc		
-0x04AA	FIELD ITEM	Mt. Mortar		Full Incense		
-0x04AB	FIELD ITEM	Mt. Mortar		Protector		
-0x04AC	FIELD ITEM	Team Rocket HQ		Ultra Ball		
-0x04AD	FIELD ITEM	Route 7		Mental Herb		
-0x04AE	FIELD ITEM	Route 43		Max Ether		
-0x04AF	FIELD ITEM	Route 19		TM55		
-0x04B0	FIELD ITEM	Goldenrod City		TM78		
-0x04B1	FIELD ITEM	Route 44		Max Repel		
-0x04B2	FIELD ITEM	Route 44		Max Revive		
-0x04B3	FIELD ITEM	Route 44		Ultra Ball		
-0x04B4	FIELD ITEM	Ice Path		Protein		
-0x04B5	FIELD ITEM	Ice Path		PP Up		
-0x04B6	FIELD ITEM	Ice Path		Full Heal		
-0x04B7	FIELD ITEM	Ice Path		Max Potion		
-0x04B8	FIELD ITEM	Ice Path		Nevermeltice		
-0x04B9	FIELD ITEM	Ice Path		Iron		
-0x04BA	FIELD ITEM	Dragon's Den		Calcium		
-0x04BB	FIELD ITEM	Dragon's Den		Max Elixir		
-0x04BC	FIELD ITEM	Route 45		Elixir		
-0x04BD	FIELD ITEM	Route 45		Max Potion		
-0x04BE	FIELD ITEM	Route 45		Full Heal		
-0x04BF	FIELD ITEM	Route 45		Nugget		
-0x04C0	FIELD ITEM	Route 45		Revive		
-0x04C1	FIELD ITEM	Route 46		X Speed		
-0x04C2	FIELD ITEM	Dark Cave		Potion		
-0x04C3	FIELD ITEM	Dark Cave		Hyper Potion		
-0x04C4	FIELD ITEM	Dark Cave		Full Heal		
-0x04C5	FIELD ITEM	Dark Cave		Dire Hit		
-0x04C6	FIELD ITEM	Rock Tunnel		Elixir		
-0x04C7	FIELD ITEM	Rock Tunnel		TM56		
-0x04C8	FIELD ITEM	Rock Tunnel		Iron		
-0x04C9	FIELD ITEM	Rock Tunnel		PP Up		
-0x04CA	FIELD ITEM	Rock Tunnel		Revive		
-0x04CB	FIELD ITEM	Route 25		Protein		
-0x04CC	FIELD ITEM	Route 12		Calcium		
-0x04CD	FIELD ITEM	Route 12		Yellow Flute		
-0x04CE	FIELD ITEM	Route 15		PP Up		
-0x04CF	FIELD ITEM	Mt. Silver		Reaper Cloth		
-0x04D0	FIELD ITEM	Route 2		Carbos		
-0x04D1	FIELD ITEM	Route 2		Elixir		
-0x04D2	FIELD ITEM	Viridian Forest		Dire Hit		
-0x04D3	FIELD ITEM	Viridian Forest		Blue Flute		
-0x04D4	FIELD ITEM	Cinnabar Island		Magmarizer		
-0x04D5	FIELD ITEM	Viridian Forest		Leaf Stone		
-0x04D6	FIELD ITEM	Viridian Forest		TM77		
-0x04D7	FIELD ITEM	Route 32		Shell Bell		
-0x04D8	FIELD ITEM	Route 4		HP Up		
-0x04D9	FIELD ITEM	Mt. Silver Cave		Full Restore		
-0x04DA	FIELD ITEM	Mt. Silver Cave		Pure Incense		
-0x04DB	FIELD ITEM	Mt. Silver Cave		Dawn Stone		
-0x04DC	FIELD ITEM	Mt. Silver Cave		Escape Rope		
-0x04DD	FIELD ITEM	Mt. Silver Cave		TM76		
-0x04DE	FIELD ITEM	Mt. Silver Cave		Expert Belt		
-0x04DF	FIELD ITEM	Mt. Silver Cave		Max Elixir		
-0x04E0	FIELD ITEM	Mt. Silver Cave		Calcium		
-0x04E1	FIELD ITEM	Mt. Silver Cave		Protein		
-0x04E2	FIELD ITEM	Mt. Silver Cave		Max Revive		
-0x04E3	FIELD ITEM	Seafoam Islands		Ice Heal		
-0x04E4	FIELD ITEM	Seafoam Islands		Water Stone		
-0x04E5	FIELD ITEM	Seafoam Islands		Revive		
-0x04E6	FIELD ITEM	Seafoam Islands		Big Pearl		
-0x04E7	FIELD ITEM	Seafoam Islands		Ultra Ball		
-0x04E8	FIELD ITEM	Seafoam Islands		Grip Claw		
-0x04E9	FIELD ITEM	Cerulean Cave		Max Elixir		
-0x04EA	FIELD ITEM	Seafoam Islands		TM13		
-0x04EB	FIELD ITEM	Cerulean Cave		Full Restore		
-0x04EC	FIELD ITEM	Cerulean Cave		Nugget		
-0x04ED	FIELD ITEM	Cerulean Cave		Sea Incense		
-0x04EE	FIELD ITEM	Cerulean Cave		PP Up		
-0x04EF	FIELD ITEM	Cerulean Cave		Ultra Ball		
-0x04F0	FIELD ITEM	Cerulean Cave		TM24		
-0x04F1	FIELD ITEM	Cerulean Cave		Odd Incense		
-0x04F2	FIELD ITEM	Route 40		TM88		
-0x04F3	FIELD ITEM	Route 47		Revive		
-0x04F4	FIELD ITEM	Cerulean Cave		Max Revive		
-0x04F5	FIELD ITEM	Cerulean Cave		Ultra Ball		
-0x04F6	FIELD ITEM	Cerulean Cave		Dusk Stone		
-0x04F7	FIELD ITEM	Cerulean Cave		Electirizer		
-0x04F8	FIELD ITEM	Cerulean Cave		Black Sludge		
-0x04F9	FIELD ITEM	Route 32		TM09		
-0x04FA	FIELD ITEM	Route 34		TM63		
-0x04FB	FIELD ITEM	Route 35		Parlyz Heal		
-0x04FC	FIELD ITEM	Route 36		Hyper Potion		
-0x04FD	FIELD ITEM	Route 38		Max Potion		
-0x04FE	FIELD ITEM	Route 38		Lax Incense		
-0x04FF	FIELD ITEM	Route 39		TM60		
-0x0500	FIELD ITEM	Route 28		TM35		
-0x0501	FIELD ITEM	Route 47		Lagging Tail		
-0x0502	FIELD ITEM	Route 47		Wave Incense		
-0x0503	FIELD ITEM	Route 47		White Flute		
-0x0504	FIELD ITEM	Route 48		Nugget		
-0x0505	FIELD ITEM	Route 42		TM65		
-0x0506	FIELD ITEM	National Park		Shiny Stone		
-0x0507	FIELD ITEM	Route 8		TM41		
-0x0508	FIELD ITEM	Lake of Rage		TM43		
-0x0509	FIELD ITEM	Lake of Rage		Choice Specs		
-0x050A	FIELD ITEM	Lake of Rage		Red Flute		
-0x050B	FIELD ITEM	Burned Tower		Antidote		
-0x050C	FIELD ITEM	Dark Cave		Black Flute		
-0x050D	FIELD ITEM	Route 27		Destiny Knot		
-0x050E	FIELD ITEM	Vermilion City		Luck Incense		
-0x050F	FIELD ITEM	Vermilion City		Sticky Barb		
-0x0510	FIELD ITEM	Rock Tunnel		Oval Stone		
-0x0511	FIELD ITEM	Diglett's Cave		PP Max		
-0x0512	FIELD ITEM	Diglett's Cave		Rock Incense		
-0x0513	FIELD ITEM	Route 6		TM62		
-0x0514	FIELD ITEM	Route 10		TM69		
-0x0515	FIELD ITEM	Route 9		TM91		
-0x0516	FIELD ITEM	Route 9		Full Restore		
-0x0517	FIELD ITEM	Route 9		Light Clay		
-0x0518	FIELD ITEM	Route 9		Max Potion		
-0x0519	FIELD ITEM	Celadon City		TM67		
-0x051A	FIELD ITEM	Route 15		Rose Incense		
-0x051B	FIELD ITEM	Route 11		TM86		
-0x051C	FIELD ITEM	Pewter City		Wise Glasses		
-0x051D	FIELD ITEM	Route 3		Big Root		
-0x051E	FIELD ITEM	Olivine City		TM57		
-0x051F	_UNUSED					
+0x0320	HIDDEN ITEM	New Bark Town		Potion		FH_HIDDEN_ITEM_0
+0x0321	HIDDEN ITEM	Cherrygrove City		Nugget		FH_HIDDEN_ITEM_1
+0x0322	HIDDEN ITEM	Route 30		Potion		FH_HIDDEN_ITEM_2
+0x0323	HIDDEN ITEM	Violet City		Hyper Potion		FH_HIDDEN_ITEM_3
+0x0324	HIDDEN ITEM	Route 32		Heart Scale		FH_HIDDEN_ITEM_4
+0x0325	HIDDEN ITEM	Route 32		Great Ball		FH_HIDDEN_ITEM_5
+0x0326	HIDDEN ITEM	Azalea Town		Full Heal		FH_HIDDEN_ITEM_6
+0x0327	HIDDEN ITEM	Route 34		Rare Candy		FH_HIDDEN_ITEM_7
+0x0328	HIDDEN ITEM	Route 35		Super Potion		FH_HIDDEN_ITEM_8
+0x0329	HIDDEN ITEM	Route 36		Super Potion		FH_HIDDEN_ITEM_9
+0x032A	HIDDEN ITEM	Route 35		Nugget		FH_HIDDEN_ITEM_10
+0x032B	HIDDEN ITEM	Route 36		Awakening		FH_HIDDEN_ITEM_11
+0x032C	HIDDEN ITEM	Ecruteak City		Hyper Potion		FH_HIDDEN_ITEM_12
+0x032D	HIDDEN ITEM	Ecruteak City		Ether		FH_HIDDEN_ITEM_13
+0x032E	HIDDEN ITEM	Dark Cave		Poke Ball		FH_HIDDEN_ITEM_14
+0x032F	HIDDEN ITEM	Dark Cave		Max Ether		FH_HIDDEN_ITEM_15
+0x0330	HIDDEN ITEM	Dark Cave		Max Revive		FH_HIDDEN_ITEM_16
+0x0331	HIDDEN ITEM	Dark Cave		Hyper Potion		FH_HIDDEN_ITEM_17
+0x0332	HIDDEN ITEM	Dark Cave		Elixir		FH_HIDDEN_ITEM_18
+0x0333	HIDDEN ITEM	Burned Tower		Ether		FH_HIDDEN_ITEM_19
+0x0334	HIDDEN ITEM	Burned Tower		Ultra Ball		FH_HIDDEN_ITEM_20
+0x0335	HIDDEN ITEM	Burned Tower		Revive		FH_HIDDEN_ITEM_21
+0x0336	HIDDEN ITEM	Route 38		HP Up		FH_HIDDEN_ITEM_22
+0x0337	HIDDEN ITEM	Olivine City		Rare Candy		FH_HIDDEN_ITEM_23
+0x0338	HIDDEN ITEM	Route 40		Hyper Potion		FH_HIDDEN_ITEM_24
+0x0339	HIDDEN ITEM	Cianwood City		Revive		FH_HIDDEN_ITEM_25
+0x033A	HIDDEN ITEM	Cianwood City		Stardust		FH_HIDDEN_ITEM_26
+0x033B	HIDDEN ITEM	Slowpoke Well		Great Ball		FH_HIDDEN_ITEM_27
+0x033C	HIDDEN ITEM	Slowpoke Well		Super Potion		FH_HIDDEN_ITEM_28
+0x033D	HIDDEN ITEM	Slowpoke Well		Full Heal		FH_HIDDEN_ITEM_29
+0x033E	HIDDEN ITEM	Ilex Forest		Antidote		FH_HIDDEN_ITEM_30
+0x033F	HIDDEN ITEM	Ilex Forest		Super Potion		FH_HIDDEN_ITEM_31
+0x0340	HIDDEN ITEM	Ilex Forest		Full Heal		FH_HIDDEN_ITEM_32
+0x0341	HIDDEN ITEM	Ilex Forest		Ether		FH_HIDDEN_ITEM_33
+0x0342	HIDDEN ITEM	National Park		Full Heal		FH_HIDDEN_ITEM_34
+0x0343	HIDDEN ITEM	National Park		Full Heal		FH_HIDDEN_ITEM_35
+0x0344	HIDDEN ITEM	Lake of Rage		Full Restore		FH_HIDDEN_ITEM_36
+0x0345	HIDDEN ITEM	Lake of Rage		Rare Candy		FH_HIDDEN_ITEM_37
+0x0346	HIDDEN ITEM	Route 20		Deepseatooth		FH_HIDDEN_ITEM_38
+0x0347	HIDDEN ITEM	Route 47		Stardust		FH_HIDDEN_ITEM_39
+0x0348	HIDDEN ITEM	Route 47		Pearl		FH_HIDDEN_ITEM_40
+0x0349	HIDDEN ITEM	Safari Zone Gate		Tinymushroom		FH_HIDDEN_ITEM_41
+0x034A	HIDDEN ITEM	Route 42		Max Potion		FH_HIDDEN_ITEM_42
+0x034B	HIDDEN ITEM	Mt. Mortar		Hyper Potion		FH_HIDDEN_ITEM_43
+0x034C	HIDDEN ITEM	Mt. Mortar		Revive		FH_HIDDEN_ITEM_44
+0x034D	HIDDEN ITEM	Mt. Mortar		Max Repel		FH_HIDDEN_ITEM_45
+0x034E	HIDDEN ITEM	Mt. Mortar		Ether		FH_HIDDEN_ITEM_46
+0x034F	HIDDEN ITEM	Mt. Mortar		Full Restore		FH_HIDDEN_ITEM_47
+0x0350	HIDDEN ITEM	Mt. Mortar		HP Up		FH_HIDDEN_ITEM_48
+0x0351	HIDDEN ITEM	Mt. Mortar		Max Revive		FH_HIDDEN_ITEM_49
+0x0352	HIDDEN ITEM	Mt. Mortar		Ultra Ball		FH_HIDDEN_ITEM_50
+0x0353	HIDDEN ITEM	Team Rocket HQ		Revive		FH_HIDDEN_ITEM_51
+0x0354	HIDDEN ITEM	Goldenrod Tunnel		Parlyz Heal		FH_HIDDEN_ITEM_52
+0x0355	HIDDEN ITEM	Goldenrod Tunnel		Super Potion		FH_HIDDEN_ITEM_53
+0x0356	HIDDEN ITEM	Team Rocket HQ		Full Heal		FH_HIDDEN_ITEM_54
+0x0357	HIDDEN ITEM	Team Rocket HQ		X Sp  Def		FH_HIDDEN_ITEM_55
+0x0358	HIDDEN ITEM	Diglett's Cave		Max Revive		FH_HIDDEN_ITEM_56
+0x0359	HIDDEN ITEM	Route 5		Full Restore		FH_HIDDEN_ITEM_57
+0x035A	HIDDEN ITEM	Route 5		X Special		FH_HIDDEN_ITEM_58
+0x035B	HIDDEN ITEM	Rock Tunnel		X Accuracy		FH_HIDDEN_ITEM_59
+0x035C	HIDDEN ITEM	Rock Tunnel		X Defense		FH_HIDDEN_ITEM_60
+0x035D	HIDDEN ITEM	Rock Tunnel		Max Potion		FH_HIDDEN_ITEM_61
+0x035E	HIDDEN ITEM	Bell Tower		Max Potion		FH_HIDDEN_ITEM_62
+0x035F	HIDDEN ITEM	Bell Tower		Full Restore		FH_HIDDEN_ITEM_63
+0x0360	HIDDEN ITEM	Bell Tower		Carbos		FH_HIDDEN_ITEM_64
+0x0361	HIDDEN ITEM	Burned Tower		Antidote		FH_HIDDEN_ITEM_65
+0x0362	HIDDEN ITEM	Lighthouse		Hyper Potion		FH_HIDDEN_ITEM_66
+0x0363	HIDDEN ITEM	Goldenrod City		Antidote		FH_HIDDEN_ITEM_67
+0x0364	HIDDEN ITEM	Goldenrod City		Max Potion		FH_HIDDEN_ITEM_68
+0x0365	HIDDEN ITEM	Goldenrod City		Revive		FH_HIDDEN_ITEM_69
+0x0366	HIDDEN ITEM	Ice Path		Max Potion		FH_HIDDEN_ITEM_70
+0x0367	HIDDEN ITEM	Ice Path		Carbos		FH_HIDDEN_ITEM_71
+0x0368	HIDDEN ITEM	Ice Path		Ice Heal		FH_HIDDEN_ITEM_72
+0x0369	HIDDEN ITEM	Whirl Islands		Rare Candy		FH_HIDDEN_ITEM_73
+0x036A	HIDDEN ITEM	Whirl Islands		Ultra Ball		FH_HIDDEN_ITEM_74
+0x036B	HIDDEN ITEM	Whirl Islands		Full Restore		FH_HIDDEN_ITEM_75
+0x036C	HIDDEN ITEM	Mt. Silver Cave		Dire Hit		FH_HIDDEN_ITEM_76
+0x036D	HIDDEN ITEM	Mt. Silver Cave		Ultra Ball		FH_HIDDEN_ITEM_77
+0x036E	HIDDEN ITEM	Mt. Silver Cave		Max Potion		FH_HIDDEN_ITEM_78
+0x036F	HIDDEN ITEM	Victory Road		Max Potion		FH_HIDDEN_ITEM_79
+0x0370	HIDDEN ITEM	Victory Road		Full Heal		FH_HIDDEN_ITEM_80
+0x0371	HIDDEN ITEM	Dragon's Den		Revive		FH_HIDDEN_ITEM_81
+0x0372	HIDDEN ITEM	Dragon's Den		Max Potion		FH_HIDDEN_ITEM_82
+0x0373	HIDDEN ITEM	Dragon's Den		Max Elixir		FH_HIDDEN_ITEM_83
+0x0374	HIDDEN ITEM	S.S. Aqua		Iron		FH_HIDDEN_ITEM_84
+0x0375	HIDDEN ITEM	Viridian Forest		Max Ether		FH_HIDDEN_ITEM_85
+0x0376	HIDDEN ITEM	Olivine City		Protein		FH_HIDDEN_ITEM_86
+0x0377	HIDDEN ITEM	Viridian Forest		Full Restore		FH_HIDDEN_ITEM_87
+0x0378	HIDDEN ITEM	Seafoam Islands		Escape Rope		FH_HIDDEN_ITEM_88
+0x0379	HIDDEN ITEM	Seafoam Islands		Ice Heal		FH_HIDDEN_ITEM_89
+0x037A	HIDDEN ITEM	Seafoam Islands		Pearl		FH_HIDDEN_ITEM_90
+0x037B	HIDDEN ITEM	Seafoam Islands		Pearl		FH_HIDDEN_ITEM_91
+0x037C	HIDDEN ITEM	Seafoam Islands		Max Revive		FH_HIDDEN_ITEM_92
+0x037D	HIDDEN ITEM	Cerulean Cave		Hyper Potion		FH_HIDDEN_ITEM_93
+0x037E	HIDDEN ITEM	Cerulean Cave		Rare Candy		FH_HIDDEN_ITEM_94
+0x037F	HIDDEN ITEM	Cerulean Cave		Revive		FH_HIDDEN_ITEM_95
+0x0380	HIDDEN ITEM	Cerulean Cave		Ultra Ball		FH_HIDDEN_ITEM_96
+0x0381	HIDDEN ITEM	Route 32		Super Potion		FH_HIDDEN_ITEM_97
+0x0382	HIDDEN ITEM	Route 39		Nugget		FH_HIDDEN_ITEM_98
+0x0383	HIDDEN ITEM	Route 41		Max Ether		FH_HIDDEN_ITEM_99
+0x0384	HIDDEN ITEM	Route 44		Elixir		FH_HIDDEN_ITEM_100
+0x0385	HIDDEN ITEM	Route 45		PP Up		FH_HIDDEN_ITEM_101
+0x0386	HIDDEN ITEM	Lake of Rage		Max Potion		FH_HIDDEN_ITEM_102
+0x0387	HIDDEN ITEM	Vermilion City		Full Heal		FH_HIDDEN_ITEM_103
+0x0388	HIDDEN ITEM	Route 11		Revive		FH_HIDDEN_ITEM_104
+0x0389	HIDDEN ITEM	Route 9		Ether		FH_HIDDEN_ITEM_105
+0x038A	HIDDEN ITEM	Cerulean City		Nugget		FH_HIDDEN_ITEM_106
+0x038B	HIDDEN ITEM	Route 25		Revive		FH_HIDDEN_ITEM_107
+0x038C	HIDDEN ITEM	Violet City		Poke Ball		FH_HIDDEN_ITEM_108
+0x038D	HIDDEN ITEM	Route 17		Max Ether		FH_HIDDEN_ITEM_109
+0x038E	HIDDEN ITEM	Route 17		Max Elixir		FH_HIDDEN_ITEM_110
+0x038F	HIDDEN ITEM	Route 13		Calcium		FH_HIDDEN_ITEM_111
+0x0390	HIDDEN ITEM	Route 12		Elixir		FH_HIDDEN_ITEM_112
+0x0391	HIDDEN ITEM	Route 4		Ultra Ball		FH_HIDDEN_ITEM_113
+0x0392	HIDDEN ITEM	Cinnabar Island		Rare Candy		FH_HIDDEN_ITEM_114
+0x0393	HIDDEN ITEM	Route 28		Rare Candy		FH_HIDDEN_ITEM_115
+0x0394	HIDDEN ITEM	Mt. Silver		Full Restore		FH_HIDDEN_ITEM_116
+0x0395	HIDDEN ITEM	Cerulean Cave		PP Up		FH_HIDDEN_ITEM_117
+0x0396	HIDDEN ITEM	Cerulean Cave		Big Pearl		FH_HIDDEN_ITEM_118
+0x0397	HIDDEN ITEM	Cerulean Cave		Zinc		FH_HIDDEN_ITEM_119
+0x0398	HIDDEN ITEM	Cerulean Cave		Full Heal		FH_HIDDEN_ITEM_120
+0x0399	HIDDEN ITEM	Cerulean Cave		Max Revive		FH_HIDDEN_ITEM_121
+0x039A	HIDDEN ITEM	Celadon City		PP Up		FH_HIDDEN_ITEM_122
+0x039B	HIDDEN ITEM	Cerulean Cave		Ultra Ball		FH_HIDDEN_ITEM_123
+0x039C	HIDDEN ITEM	Cerulean Cave		Nugget		FH_HIDDEN_ITEM_124
+0x039D	HIDDEN ITEM	Bellchime Trail		Tinymushroom		FH_HIDDEN_ITEM_125
+0x039E	HIDDEN ITEM	Bellchime Trail		Big Mushroom		FH_HIDDEN_ITEM_126
+0x039F	HIDDEN ITEM	Bellchime Trail		Big Mushroom		FH_HIDDEN_ITEM_127
+0x03A0	HIDDEN ITEM	Bellchime Trail		Tinymushroom		FH_HIDDEN_ITEM_128
+0x03A1	HIDDEN ITEM	Bellchime Trail		Tinymushroom		FH_HIDDEN_ITEM_129
+0x03A2	HIDDEN ITEM	Safari Zone Gate		Tinymushroom		FH_HIDDEN_ITEM_130
+0x03A3	HIDDEN ITEM	Safari Zone Gate		Tinymushroom		FH_HIDDEN_ITEM_131
+0x03A4	HIDDEN ITEM	Ecruteak City		Rare Candy		FH_HIDDEN_ITEM_132
+0x03A5	HIDDEN ITEM	Ecruteak City		Ultra Ball		FH_HIDDEN_ITEM_133
+0x03A6	HIDDEN ITEM	Fuchsia City		Nugget		FH_HIDDEN_ITEM_134
+0x03A7	HIDDEN ITEM	Route 39		PP Up		FH_HIDDEN_ITEM_135
+0x03A8	HIDDEN ITEM	Route 39		X Attack		FH_HIDDEN_ITEM_136
+0x03A9	HIDDEN ITEM	Route 39		Full Heal		FH_HIDDEN_ITEM_137
+0x03AA	HIDDEN ITEM	Route 3		Star Piece		FH_HIDDEN_ITEM_138
+0x03AB	HIDDEN ITEM	Route 3		Hyper Potion		FH_HIDDEN_ITEM_139
+0x03AC	HIDDEN ITEM	Mt. Mortar		Rare Candy		FH_HIDDEN_ITEM_140
+0x03AD	HIDDEN ITEM	Mt. Mortar		Ultra Ball		FH_HIDDEN_ITEM_141
+0x03AE	HIDDEN ITEM	Mt. Mortar		Nugget		FH_HIDDEN_ITEM_142
+0x03AF	HIDDEN ITEM	Mt. Mortar		Hyper Potion		FH_HIDDEN_ITEM_143
+0x03B0	HIDDEN ITEM	Mt. Mortar		Full Heal		FH_HIDDEN_ITEM_144
+0x03B1	HIDDEN ITEM	Route 3		Star Piece		FH_HIDDEN_ITEM_145
+0x03B2	HIDDEN ITEM	Ruins of Alph		Great Ball		FH_HIDDEN_ITEM_146
+0x03B3	HIDDEN ITEM	Ruins of Alph		Big Mushroom		FH_HIDDEN_ITEM_147
+0x03B4	HIDDEN ITEM	Ruins of Alph		Tinymushroom		FH_HIDDEN_ITEM_148
+0x03B5	HIDDEN ITEM	Ruins of Alph		Rare Candy		FH_HIDDEN_ITEM_149
+0x03B6	HIDDEN ITEM	Ruins of Alph		Nugget		FH_HIDDEN_ITEM_150
+0x03B7	HIDDEN ITEM	Union Cave		Great Ball		FH_HIDDEN_ITEM_151
+0x03B8	HIDDEN ITEM	Union Cave		Parlyz Heal		FH_HIDDEN_ITEM_152
+0x03B9	HIDDEN ITEM	Union Cave		X Speed		FH_HIDDEN_ITEM_153
+0x03BA	HIDDEN ITEM	Union Cave		Big Pearl		FH_HIDDEN_ITEM_154
+0x03BB	HIDDEN ITEM	Union Cave		Revive		FH_HIDDEN_ITEM_155
+0x03BC	HIDDEN ITEM	Union Cave		Ultra Ball		FH_HIDDEN_ITEM_156
+0x03BD	HIDDEN ITEM	Union Cave		Calcium		FH_HIDDEN_ITEM_157
+0x03BE	HIDDEN ITEM	Olivine City		Pearl		FH_HIDDEN_ITEM_158
+0x03BF	HIDDEN ITEM	Pokeathlon Dome		PP Up		FH_HIDDEN_ITEM_159
+0x03C0	HIDDEN ITEM	Pokeathlon Dome		Protein		FH_HIDDEN_ITEM_160
+0x03C1	HIDDEN ITEM	Frontier Access		Rare Candy		FH_HIDDEN_ITEM_161
+0x03C2	HIDDEN ITEM	Vermilion City		Pearl		FH_HIDDEN_ITEM_162
+0x03C3	HIDDEN ITEM	Vermilion City		Pearl		FH_HIDDEN_ITEM_163
+0x03C4	HIDDEN ITEM	Vermilion City		Big Pearl		FH_HIDDEN_ITEM_164
+0x03C5	HIDDEN ITEM	Mt. Silver Cave		Rare Candy		FH_HIDDEN_ITEM_165
+0x03C6	HIDDEN ITEM	Cinnabar Island		Iron		FH_HIDDEN_ITEM_166
+0x03C7	HIDDEN ITEM	Cinnabar Island		Star Piece		FH_HIDDEN_ITEM_167
+0x03C8	HIDDEN ITEM	Vermilion City		Heart Scale		FH_HIDDEN_ITEM_168
+0x03C9	HIDDEN ITEM	Rock Tunnel		HP Up		FH_HIDDEN_ITEM_169
+0x03CA	HIDDEN ITEM	Route 41		Stardust		FH_HIDDEN_ITEM_170
+0x03CB	HIDDEN ITEM	Route 41		Stardust		FH_HIDDEN_ITEM_171
+0x03CC	HIDDEN ITEM	Route 41		Stardust		FH_HIDDEN_ITEM_172
+0x03CD	HIDDEN ITEM	Route 41		Stardust		FH_HIDDEN_ITEM_173
+0x03CE	HIDDEN ITEM	Route 20		Stardust		FH_HIDDEN_ITEM_174
+0x03CF	HIDDEN ITEM	Route 21		Stardust		FH_HIDDEN_ITEM_175
+0x03D0	HIDDEN ITEM	Route 21		Stardust		FH_HIDDEN_ITEM_176
+0x03D1	HIDDEN ITEM	Route 21		Stardust		FH_HIDDEN_ITEM_177
+0x03D2	HIDDEN ITEM	Route 19		Pearl		FH_HIDDEN_ITEM_178
+0x03D3	HIDDEN ITEM	Route 19		Pearl		FH_HIDDEN_ITEM_179
+0x03D4	HIDDEN ITEM	Route 19		Big Pearl		FH_HIDDEN_ITEM_180
+0x03D5	HIDDEN ITEM	Route 27		Revive		FH_HIDDEN_ITEM_181
+0x03D6	HIDDEN ITEM	Route 27		Big Mushroom		FH_HIDDEN_ITEM_182
+0x03D7	HIDDEN ITEM	Route 26		Nugget		FH_HIDDEN_ITEM_183
+0x03D8	HIDDEN ITEM	Route 26		Tinymushroom		FH_HIDDEN_ITEM_184
+0x03D9	HIDDEN ITEM	Victory Road		Max Revive		FH_HIDDEN_ITEM_185
+0x03DA	HIDDEN ITEM	Victory Road		PP Up		FH_HIDDEN_ITEM_186
+0x03DB	HIDDEN ITEM	Victory Road		Hyper Potion		FH_HIDDEN_ITEM_187
+0x03DC	HIDDEN ITEM	Victory Road		Zinc		FH_HIDDEN_ITEM_188
+0x03DD	HIDDEN ITEM	Victory Road		Ultra Ball		FH_HIDDEN_ITEM_189
+0x03DE	HIDDEN ITEM	Indigo Plateau		Rare Candy		FH_HIDDEN_ITEM_190
+0x03DF	HIDDEN ITEM	Whirl Islands		Super Repel		FH_HIDDEN_ITEM_191
+0x03E0	HIDDEN ITEM	Whirl Islands		Pearl		FH_HIDDEN_ITEM_192
+0x03E1	HIDDEN ITEM	Whirl Islands		Revive		FH_HIDDEN_ITEM_193
+0x03E2	HIDDEN ITEM	Route 4		Big Mushroom		FH_HIDDEN_ITEM_194
+0x03E3	HIDDEN ITEM	Mt. Moon		Revive		FH_HIDDEN_ITEM_195
+0x03E4	HIDDEN ITEM	Mt. Moon		Max Revive		FH_HIDDEN_ITEM_196
+0x03E5	HIDDEN ITEM	Route 10		Carbos		FH_HIDDEN_ITEM_197
+0x03E6	HIDDEN ITEM	Pewter City		PP Up		FH_HIDDEN_ITEM_198
+0x03E7	HIDDEN ITEM	Pewter City		Guard Spec		FH_HIDDEN_ITEM_199
+0x03E8	HIDDEN ITEM	Viridian City		Nugget		FH_HIDDEN_ITEM_200
+0x03E9	HIDDEN ITEM	Mt. Silver Cave		Revive		FH_HIDDEN_ITEM_201
+0x03EA	HIDDEN ITEM	Mt. Silver Cave		Ultra Ball		FH_HIDDEN_ITEM_202
+0x03EB	HIDDEN ITEM	Mt. Silver Cave		Hyper Potion		FH_HIDDEN_ITEM_203
+0x03EC	HIDDEN ITEM	Mt. Silver Cave		Max Ether		FH_HIDDEN_ITEM_204
+0x03ED	HIDDEN ITEM	Mt. Silver Cave		Hyper Potion		FH_HIDDEN_ITEM_205
+0x03EE	HIDDEN ITEM	Mt. Silver Cave		Max Revive		FH_HIDDEN_ITEM_206
+0x03EF	HIDDEN ITEM	Route 19		Revive		FH_HIDDEN_ITEM_207
+0x03F0	HIDDEN ITEM	Route 19		Max Elixir		FH_HIDDEN_ITEM_208
+0x03F1	HIDDEN ITEM	Cliff Edge Gate		Big Pearl		FH_HIDDEN_ITEM_209
+0x03F2	HIDDEN ITEM	Seafoam Islands		Rare Candy		FH_HIDDEN_ITEM_210
+0x03F3	HIDDEN ITEM	Ilex Forest		Tinymushroom		FH_HIDDEN_ITEM_211
+0x03F4	HIDDEN ITEM	Ilex Forest		Repel		FH_HIDDEN_ITEM_212
+0x03F5	HIDDEN ITEM	Ilex Forest		Big Mushroom		FH_HIDDEN_ITEM_213
+0x03F6	HIDDEN ITEM	Ilex Forest		Tinymushroom		FH_HIDDEN_ITEM_214
+0x03F7	HIDDEN ITEM	Ilex Forest		Tinymushroom		FH_HIDDEN_ITEM_215
+0x03F8	HIDDEN ITEM	Viridian Forest		Big Mushroom		FH_HIDDEN_ITEM_216
+0x03F9	HIDDEN ITEM	Viridian Forest		Big Mushroom		FH_HIDDEN_ITEM_217
+0x03FA	HIDDEN ITEM	Viridian Forest		Tinymushroom		FH_HIDDEN_ITEM_218
+0x03FB	HIDDEN ITEM	Viridian Forest		Tinymushroom		FH_HIDDEN_ITEM_219
+0x03FC	HIDDEN ITEM	Viridian Forest		Tinymushroom		FH_HIDDEN_ITEM_220
+0x03FD	HIDDEN ITEM	Cerulean Cave		Protein		FH_HIDDEN_ITEM_221
+0x03FE	HIDDEN ITEM	Mt. Silver Cave		Iron		FH_HIDDEN_ITEM_222
+0x03FF	HIDDEN ITEM	Seafoam Islands		Zinc		FH_HIDDEN_ITEM_223
+0x0400	HIDDEN ITEM	Diglett's Cave		Calcium		FH_HIDDEN_ITEM_224
+0x0401	HIDDEN ITEM	Cherrygrove City		Nugget		FH_HIDDEN_ITEM_225
+0x0402	HIDDEN ITEM	Cliff Cave		Ultra Ball		FH_HIDDEN_ITEM_226
+0x0403	HIDDEN ITEM	Pewter City		Max Revive		FH_HIDDEN_ITEM_227
+0x0404	HIDDEN ITEM	Ice Path		Revive		FH_HIDDEN_ITEM_228
+0x0405	HIDDEN ITEM	Route 20		Deepseascale		FH_HIDDEN_ITEM_229
+0x0406	HIDDEN ITEM	Route 45/46		PP Max		FH_HIDDEN_ITEM_230
+0x0407	_UNUSED					FH_HIDDEN_ITEM_231
+0x0408	_UNUSED					FH_HIDDEN_ITEM_232
+0x0409	_UNUSED					FH_HIDDEN_ITEM_233
+0x040A	_UNUSED					FH_HIDDEN_ITEM_234
+0x040B	_UNUSED					FH_HIDDEN_ITEM_235
+0x040C	_UNUSED					FH_HIDDEN_ITEM_236
+0x040D	_UNUSED					FH_HIDDEN_ITEM_237
+0x040E	_UNUSED					FH_HIDDEN_ITEM_238
+0x040F	_UNUSED					FH_HIDDEN_ITEM_239
+0x0410	_UNUSED					FH_HIDDEN_ITEM_240
+0x0411	_UNUSED					FH_HIDDEN_ITEM_241
+0x0412	_UNUSED					FH_HIDDEN_ITEM_242
+0x0413	_UNUSED					FH_HIDDEN_ITEM_243
+0x0414	_UNUSED					FH_HIDDEN_ITEM_244
+0x0415	_UNUSED					FH_HIDDEN_ITEM_245
+0x0416	_UNUSED					FH_HIDDEN_ITEM_246
+0x0417	_UNUSED					FH_HIDDEN_ITEM_247
+0x0418	_UNUSED					FH_HIDDEN_ITEM_248
+0x0419	_UNUSED					FH_HIDDEN_ITEM_249
+0x041A	_UNUSED					FH_HIDDEN_ITEM_250
+0x041B	_UNUSED					FH_HIDDEN_ITEM_251
+0x041C	_UNUSED					FH_HIDDEN_ITEM_252
+0x041D	_UNUSED					FH_HIDDEN_ITEM_253
+0x041E	_UNUSED					FH_HIDDEN_ITEM_254
+0x041F	_UNUSED					FH_HIDDEN_ITEM_255
+0x0420	FIELD ITEM	Route 30		Antidote		FV_FLD_ITEM_0
+0x0421	FIELD ITEM	Route 31		Potion		FV_FLD_ITEM_1
+0x0422	FIELD ITEM	Route 31		Poke Ball		FV_FLD_ITEM_2
+0x0423	FIELD ITEM	Violet City		Rare Candy		FV_FLD_ITEM_3
+0x0424	FIELD ITEM	Violet City		PP Up		FV_FLD_ITEM_4
+0x0425	FIELD ITEM	Sprout Tower		Parlyz Heal		FV_FLD_ITEM_5
+0x0426	FIELD ITEM	Sprout Tower		X Accuracy		FV_FLD_ITEM_6
+0x0427	FIELD ITEM	Sprout Tower		Potion		FV_FLD_ITEM_7
+0x0428	FIELD ITEM	Sprout Tower		Escape Rope		FV_FLD_ITEM_8
+0x0429	FIELD ITEM	Route 32		Repel		FV_FLD_ITEM_9
+0x042A	FIELD ITEM	Route 32		Great Ball		FV_FLD_ITEM_10
+0x042B	FIELD ITEM	Union Cave		X Attack		FV_FLD_ITEM_11
+0x042C	FIELD ITEM	Union Cave		Great Ball		FV_FLD_ITEM_12
+0x042D	FIELD ITEM	Union Cave		Potion		FV_FLD_ITEM_13
+0x042E	FIELD ITEM	Union Cave		Awakening		FV_FLD_ITEM_14
+0x042F	FIELD ITEM	Union Cave		X Defense		FV_FLD_ITEM_15
+0x0430	FIELD ITEM	Union Cave		TM39		FV_FLD_ITEM_16
+0x0431	FIELD ITEM	Burned Tower		HP Up		FV_FLD_ITEM_17
+0x0432	FIELD ITEM	Burned Tower		TM12		FV_FLD_ITEM_18
+0x0433	FIELD ITEM	Slowpoke Well		Super Potion		FV_FLD_ITEM_19
+0x0434	FIELD ITEM	Slowpoke Well		TM18		FV_FLD_ITEM_20
+0x0435	FIELD ITEM	Ilex Forest		Revive		FV_FLD_ITEM_21
+0x0436	FIELD ITEM	Goldenrod City		TM82		FV_FLD_ITEM_22
+0x0437	FIELD ITEM	Goldenrod City		Max Ether		FV_FLD_ITEM_23
+0x0438	FIELD ITEM	Goldenrod Tunnel		Coin Case (Japanese Games Only)		FV_FLD_ITEM_24
+0x0439	FIELD ITEM	Route 29		Potion		FV_FLD_ITEM_25
+0x043A	FIELD ITEM	Union Cave		Elixir		FV_FLD_ITEM_26
+0x043B	FIELD ITEM	Union Cave		Hyper Potion		FV_FLD_ITEM_27
+0x043C	FIELD ITEM	Ilex Forest		X Attack		FV_FLD_ITEM_28
+0x043D	FIELD ITEM	Ilex Forest		Antidote		FV_FLD_ITEM_29
+0x043E	FIELD ITEM	Ilex Forest		Ether		FV_FLD_ITEM_30
+0x043F	FIELD ITEM	Route 34		Nugget		FV_FLD_ITEM_31
+0x0440	FIELD ITEM	Route 30		Potion		FV_FLD_ITEM_32
+0x0441	FIELD ITEM	Radio Tower		Ultra Ball		FV_FLD_ITEM_33
+0x0442	FIELD ITEM	Goldenrod City		Burn Heal		FV_FLD_ITEM_34
+0x0443	FIELD ITEM	Goldenrod City		Amulet Coin		FV_FLD_ITEM_35
+0x0444	FIELD ITEM	Goldenrod City		Ether		FV_FLD_ITEM_36
+0x0445	FIELD ITEM	Goldenrod City		Ultra Ball		FV_FLD_ITEM_37
+0x0446	FIELD ITEM	Goldenrod City		Ultra Ball		FV_FLD_ITEM_38
+0x0447	FIELD ITEM	Goldenrod City		Full Heal		FV_FLD_ITEM_39
+0x0448	FIELD ITEM	Goldenrod City		Smoke Ball		FV_FLD_ITEM_40
+0x0449	FIELD ITEM	Route 35		TM66		FV_FLD_ITEM_41
+0x044A	FIELD ITEM	Lighthouse		Ether		FV_FLD_ITEM_42
+0x044B	FIELD ITEM	Lighthouse		TM87		FV_FLD_ITEM_43
+0x044C	FIELD ITEM	Lighthouse		Super Repel		FV_FLD_ITEM_44
+0x044D	FIELD ITEM	Lighthouse		Super Potion		FV_FLD_ITEM_45
+0x044E	FIELD ITEM	Team Rocket HQ		Hyper Potion		FV_FLD_ITEM_46
+0x044F	FIELD ITEM	Team Rocket HQ		Guard Spec		FV_FLD_ITEM_47
+0x0450	FIELD ITEM	Team Rocket HQ		Nugget		FV_FLD_ITEM_48
+0x0451	FIELD ITEM	Team Rocket HQ		TM46		FV_FLD_ITEM_49
+0x0452	FIELD ITEM	Team Rocket HQ		TM49		FV_FLD_ITEM_50
+0x0453	FIELD ITEM	Team Rocket HQ		Full Heal		FV_FLD_ITEM_51
+0x0454	FIELD ITEM	Team Rocket HQ		Protein		FV_FLD_ITEM_52
+0x0455	FIELD ITEM	Team Rocket HQ		X Special		FV_FLD_ITEM_53
+0x0456	FIELD ITEM	Ice Path		TM72		FV_FLD_ITEM_54
+0x0457	FIELD ITEM	Ice Path		HM07		FV_FLD_ITEM_55
+0x0458	FIELD ITEM	Dragon's Den		Dragon Fang		FV_FLD_ITEM_56
+0x0459	FIELD ITEM	Dark Cave		TM54		FV_FLD_ITEM_57
+0x045A	FIELD ITEM	Dark Cave		Revive		FV_FLD_ITEM_58
+0x045B	FIELD ITEM	Route 26		Max Elixir		FV_FLD_ITEM_59
+0x045C	FIELD ITEM	Tohjo Falls		Moon Stone		FV_FLD_ITEM_60
+0x045D	FIELD ITEM	Route 27		Rare Candy		FV_FLD_ITEM_61
+0x045E	FIELD ITEM	Route 27		TM02		FV_FLD_ITEM_62
+0x045F	FIELD ITEM	Victory Road		Max Revive		FV_FLD_ITEM_63
+0x0460	FIELD ITEM	Victory Road		Full Heal		FV_FLD_ITEM_64
+0x0461	FIELD ITEM	Victory Road		Potion		FV_FLD_ITEM_65
+0x0462	FIELD ITEM	Victory Road		TM26		FV_FLD_ITEM_66
+0x0463	FIELD ITEM	Victory Road		HP Up		FV_FLD_ITEM_67
+0x0464	FIELD ITEM	Victory Road		Full Restore		FV_FLD_ITEM_68
+0x0465	FIELD ITEM	Victory Road		Ultra Ball		FV_FLD_ITEM_69
+0x0466	FIELD ITEM	Victory Road		TM79		FV_FLD_ITEM_70
+0x0467	FIELD ITEM	Victory Road		Rare Candy		FV_FLD_ITEM_71
+0x0468	FIELD ITEM	Ruins of Alph		Heal Powder		FV_FLD_ITEM_72
+0x0469	FIELD ITEM	Ruins of Alph		Energypowder		FV_FLD_ITEM_73
+0x046A	FIELD ITEM	Ruins of Alph		Oran Berry		FV_FLD_ITEM_74
+0x046B	FIELD ITEM	Ruins of Alph		Pecha Berry		FV_FLD_ITEM_75
+0x046C	FIELD ITEM	Ruins of Alph		Heal Powder		FV_FLD_ITEM_76
+0x046D	FIELD ITEM	Ruins of Alph		Energy Root		FV_FLD_ITEM_77
+0x046E	FIELD ITEM	Ruins of Alph		Sitrus Berry		FV_FLD_ITEM_78
+0x046F	FIELD ITEM	Ruins of Alph		Moon Stone		FV_FLD_ITEM_79
+0x0470	FIELD ITEM	Ruins of Alph		Stardust		FV_FLD_ITEM_80
+0x0471	FIELD ITEM	Ruins of Alph		Star Piece		FV_FLD_ITEM_81
+0x0472	FIELD ITEM	Ruins of Alph		Leppa Berry		FV_FLD_ITEM_82
+0x0473	FIELD ITEM	Ruins of Alph		Mystic Water		FV_FLD_ITEM_83
+0x0474	FIELD ITEM	Ruins of Alph		Revival Herb		FV_FLD_ITEM_84
+0x0475	FIELD ITEM	Ruins of Alph		Charcoal		FV_FLD_ITEM_85
+0x0476	FIELD ITEM	Ruins of Alph		Life Orb		FV_FLD_ITEM_86
+0x0477	FIELD ITEM	Ruins of Alph		Leppa Berry		FV_FLD_ITEM_87
+0x0478	FIELD ITEM	National Park		Soothe Bell		FV_FLD_ITEM_88
+0x0479	FIELD ITEM	National Park		TM28		FV_FLD_ITEM_89
+0x047A	FIELD ITEM	Ruins of Alph		Potion		FV_FLD_ITEM_90
+0x047B	FIELD ITEM	Ruins of Alph		Hyper Potion		FV_FLD_ITEM_91
+0x047C	FIELD ITEM	Bell Tower		Full Heal		FV_FLD_ITEM_92
+0x047D	FIELD ITEM	Bell Tower		Escape Rope		FV_FLD_ITEM_93
+0x047E	FIELD ITEM	Bell Tower		Ultra Ball		FV_FLD_ITEM_94
+0x047F	FIELD ITEM	Bell Tower		PP Up		FV_FLD_ITEM_95
+0x0480	FIELD ITEM	Bell Tower		Rare Candy		FV_FLD_ITEM_96
+0x0481	FIELD ITEM	Bell Tower		Max Potion		FV_FLD_ITEM_97
+0x0482	FIELD ITEM	Bell Tower		Full Heal		FV_FLD_ITEM_98
+0x0483	FIELD ITEM	Bell Tower		Max Revive		FV_FLD_ITEM_99
+0x0484	FIELD ITEM	Bell Tower		Full Restore		FV_FLD_ITEM_100
+0x0485	FIELD ITEM	Bell Tower		Max Elixir		FV_FLD_ITEM_101
+0x0486	FIELD ITEM	Bell Tower		Nugget		FV_FLD_ITEM_102
+0x0487	FIELD ITEM	Bell Tower		HP Up		FV_FLD_ITEM_103
+0x0488	FIELD ITEM	Lighthouse		Rare Candy		FV_FLD_ITEM_104
+0x0489	FIELD ITEM	Whirl Islands		Ultra Ball		FV_FLD_ITEM_105
+0x048A	FIELD ITEM	Whirl Islands		Ultra Ball 2		FV_FLD_ITEM_106
+0x048B	FIELD ITEM	Whirl Islands		Escape Rope		FV_FLD_ITEM_107
+0x048C	FIELD ITEM	Whirl Islands		Carbos		FV_FLD_ITEM_108
+0x048D	FIELD ITEM	Whirl Islands		Full Restore		FV_FLD_ITEM_109
+0x048E	FIELD ITEM	Whirl Islands		Nugget		FV_FLD_ITEM_110
+0x048F	FIELD ITEM	Whirl Islands		Calcium		FV_FLD_ITEM_111
+0x0490	FIELD ITEM	Whirl Islands		Max Revive		FV_FLD_ITEM_112
+0x0491	FIELD ITEM	Whirl Islands		Full Restore		FV_FLD_ITEM_113
+0x0492	FIELD ITEM	Whirl Islands		Max Elixir		FV_FLD_ITEM_114
+0x0493	FIELD ITEM	Whirl Islands		Rare Candy		FV_FLD_ITEM_115
+0x0494	FIELD ITEM	Route 42		Super Potion		FV_FLD_ITEM_116
+0x0495	FIELD ITEM	Mt. Mortar		Ether		FV_FLD_ITEM_117
+0x0496	FIELD ITEM	Mt. Mortar		Revive		FV_FLD_ITEM_118
+0x0497	FIELD ITEM	Mt. Mortar		Escape Rope		FV_FLD_ITEM_119
+0x0498	FIELD ITEM	Mt. Mortar		Nugget		FV_FLD_ITEM_120
+0x0499	FIELD ITEM	Mt. Mortar		Iron Ball		FV_FLD_ITEM_121
+0x049A	FIELD ITEM	Mt. Mortar		Max Potion		FV_FLD_ITEM_122
+0x049B	FIELD ITEM	Mt. Mortar		Iron		FV_FLD_ITEM_123
+0x049C	FIELD ITEM	Mt. Mortar		Max Revive		FV_FLD_ITEM_124
+0x049D	FIELD ITEM	Mt. Mortar		Ultra Ball		FV_FLD_ITEM_125
+0x049E	FIELD ITEM	Mt. Mortar		Rare Candy		FV_FLD_ITEM_126
+0x049F	FIELD ITEM	Mt. Mortar		Max Potion		FV_FLD_ITEM_127
+0x04A0	FIELD ITEM	Mt. Mortar		TM40		FV_FLD_ITEM_128
+0x04A1	FIELD ITEM	Mt. Mortar		Elixir		FV_FLD_ITEM_129
+0x04A2	FIELD ITEM	Mt. Mortar		Dragon Scale		FV_FLD_ITEM_130
+0x04A3	FIELD ITEM	Mt. Mortar		Escape Rope		FV_FLD_ITEM_131
+0x04A4	FIELD ITEM	Mt. Mortar		Carbos		FV_FLD_ITEM_132
+0x04A5	FIELD ITEM	Mt. Mortar		PP Up		FV_FLD_ITEM_133
+0x04A6	FIELD ITEM	Mt. Mortar		Full Restore		FV_FLD_ITEM_134
+0x04A7	FIELD ITEM	Mt. Mortar		Max Ether		FV_FLD_ITEM_135
+0x04A8	FIELD ITEM	Mt. Mortar		Hyper Potion		FV_FLD_ITEM_136
+0x04A9	FIELD ITEM	Route 42		Dubious Disc		FV_FLD_ITEM_137
+0x04AA	FIELD ITEM	Mt. Mortar		Full Incense		FV_FLD_ITEM_138
+0x04AB	FIELD ITEM	Mt. Mortar		Protector		FV_FLD_ITEM_139
+0x04AC	FIELD ITEM	Team Rocket HQ		Ultra Ball		FV_FLD_ITEM_140
+0x04AD	FIELD ITEM	Route 7		Mental Herb		FV_FLD_ITEM_141
+0x04AE	FIELD ITEM	Route 43		Max Ether		FV_FLD_ITEM_142
+0x04AF	FIELD ITEM	Route 19		TM55		FV_FLD_ITEM_143
+0x04B0	FIELD ITEM	Goldenrod City		TM78		FV_FLD_ITEM_144
+0x04B1	FIELD ITEM	Route 44		Max Repel		FV_FLD_ITEM_145
+0x04B2	FIELD ITEM	Route 44		Max Revive		FV_FLD_ITEM_146
+0x04B3	FIELD ITEM	Route 44		Ultra Ball		FV_FLD_ITEM_147
+0x04B4	FIELD ITEM	Ice Path		Protein		FV_FLD_ITEM_148
+0x04B5	FIELD ITEM	Ice Path		PP Up		FV_FLD_ITEM_149
+0x04B6	FIELD ITEM	Ice Path		Full Heal		FV_FLD_ITEM_150
+0x04B7	FIELD ITEM	Ice Path		Max Potion		FV_FLD_ITEM_151
+0x04B8	FIELD ITEM	Ice Path		Nevermeltice		FV_FLD_ITEM_152
+0x04B9	FIELD ITEM	Ice Path		Iron		FV_FLD_ITEM_153
+0x04BA	FIELD ITEM	Dragon's Den		Calcium		FV_FLD_ITEM_154
+0x04BB	FIELD ITEM	Dragon's Den		Max Elixir		FV_FLD_ITEM_155
+0x04BC	FIELD ITEM	Route 45		Elixir		FV_FLD_ITEM_156
+0x04BD	FIELD ITEM	Route 45		Max Potion		FV_FLD_ITEM_157
+0x04BE	FIELD ITEM	Route 45		Full Heal		FV_FLD_ITEM_158
+0x04BF	FIELD ITEM	Route 45		Nugget		FV_FLD_ITEM_159
+0x04C0	FIELD ITEM	Route 45		Revive		FV_FLD_ITEM_160
+0x04C1	FIELD ITEM	Route 46		X Speed		FV_FLD_ITEM_161
+0x04C2	FIELD ITEM	Dark Cave		Potion		FV_FLD_ITEM_162
+0x04C3	FIELD ITEM	Dark Cave		Hyper Potion		FV_FLD_ITEM_163
+0x04C4	FIELD ITEM	Dark Cave		Full Heal		FV_FLD_ITEM_164
+0x04C5	FIELD ITEM	Dark Cave		Dire Hit		FV_FLD_ITEM_165
+0x04C6	FIELD ITEM	Rock Tunnel		Elixir		FV_FLD_ITEM_166
+0x04C7	FIELD ITEM	Rock Tunnel		TM56		FV_FLD_ITEM_167
+0x04C8	FIELD ITEM	Rock Tunnel		Iron		FV_FLD_ITEM_168
+0x04C9	FIELD ITEM	Rock Tunnel		PP Up		FV_FLD_ITEM_169
+0x04CA	FIELD ITEM	Rock Tunnel		Revive		FV_FLD_ITEM_170
+0x04CB	FIELD ITEM	Route 25		Protein		FV_FLD_ITEM_171
+0x04CC	FIELD ITEM	Route 12		Calcium		FV_FLD_ITEM_172
+0x04CD	FIELD ITEM	Route 12		Yellow Flute		FV_FLD_ITEM_173
+0x04CE	FIELD ITEM	Route 15		PP Up		FV_FLD_ITEM_174
+0x04CF	FIELD ITEM	Mt. Silver		Reaper Cloth		FV_FLD_ITEM_175
+0x04D0	FIELD ITEM	Route 2		Carbos		FV_FLD_ITEM_176
+0x04D1	FIELD ITEM	Route 2		Elixir		FV_FLD_ITEM_177
+0x04D2	FIELD ITEM	Viridian Forest		Dire Hit		FV_FLD_ITEM_178
+0x04D3	FIELD ITEM	Viridian Forest		Blue Flute		FV_FLD_ITEM_179
+0x04D4	FIELD ITEM	Cinnabar Island		Magmarizer		FV_FLD_ITEM_180
+0x04D5	FIELD ITEM	Viridian Forest		Leaf Stone		FV_FLD_ITEM_181
+0x04D6	FIELD ITEM	Viridian Forest		TM77		FV_FLD_ITEM_182
+0x04D7	FIELD ITEM	Route 32		Shell Bell		FV_FLD_ITEM_183
+0x04D8	FIELD ITEM	Route 4		HP Up		FV_FLD_ITEM_184
+0x04D9	FIELD ITEM	Mt. Silver Cave		Full Restore		FV_FLD_ITEM_185
+0x04DA	FIELD ITEM	Mt. Silver Cave		Pure Incense		FV_FLD_ITEM_186
+0x04DB	FIELD ITEM	Mt. Silver Cave		Dawn Stone		FV_FLD_ITEM_187
+0x04DC	FIELD ITEM	Mt. Silver Cave		Escape Rope		FV_FLD_ITEM_188
+0x04DD	FIELD ITEM	Mt. Silver Cave		TM76		FV_FLD_ITEM_189
+0x04DE	FIELD ITEM	Mt. Silver Cave		Expert Belt		FV_FLD_ITEM_190
+0x04DF	FIELD ITEM	Mt. Silver Cave		Max Elixir		FV_FLD_ITEM_191
+0x04E0	FIELD ITEM	Mt. Silver Cave		Calcium		FV_FLD_ITEM_192
+0x04E1	FIELD ITEM	Mt. Silver Cave		Protein		FV_FLD_ITEM_193
+0x04E2	FIELD ITEM	Mt. Silver Cave		Max Revive		FV_FLD_ITEM_194
+0x04E3	FIELD ITEM	Seafoam Islands		Ice Heal		FV_FLD_ITEM_195
+0x04E4	FIELD ITEM	Seafoam Islands		Water Stone		FV_FLD_ITEM_196
+0x04E5	FIELD ITEM	Seafoam Islands		Revive		FV_FLD_ITEM_197
+0x04E6	FIELD ITEM	Seafoam Islands		Big Pearl		FV_FLD_ITEM_198
+0x04E7	FIELD ITEM	Seafoam Islands		Ultra Ball		FV_FLD_ITEM_199
+0x04E8	FIELD ITEM	Seafoam Islands		Grip Claw		FV_FLD_ITEM_200
+0x04E9	FIELD ITEM	Cerulean Cave		Max Elixir		FV_FLD_ITEM_201
+0x04EA	FIELD ITEM	Seafoam Islands		TM13		FV_FLD_ITEM_202
+0x04EB	FIELD ITEM	Cerulean Cave		Full Restore		FV_FLD_ITEM_203
+0x04EC	FIELD ITEM	Cerulean Cave		Nugget		FV_FLD_ITEM_204
+0x04ED	FIELD ITEM	Cerulean Cave		Sea Incense		FV_FLD_ITEM_205
+0x04EE	FIELD ITEM	Cerulean Cave		PP Up		FV_FLD_ITEM_206
+0x04EF	FIELD ITEM	Cerulean Cave		Ultra Ball		FV_FLD_ITEM_207
+0x04F0	FIELD ITEM	Cerulean Cave		TM24		FV_FLD_ITEM_208
+0x04F1	FIELD ITEM	Cerulean Cave		Odd Incense		FV_FLD_ITEM_209
+0x04F2	FIELD ITEM	Route 40		TM88		FV_FLD_ITEM_210
+0x04F3	FIELD ITEM	Route 47		Revive		FV_FLD_ITEM_211
+0x04F4	FIELD ITEM	Cerulean Cave		Max Revive		FV_FLD_ITEM_212
+0x04F5	FIELD ITEM	Cerulean Cave		Ultra Ball		FV_FLD_ITEM_213
+0x04F6	FIELD ITEM	Cerulean Cave		Dusk Stone		FV_FLD_ITEM_214
+0x04F7	FIELD ITEM	Cerulean Cave		Electirizer		FV_FLD_ITEM_215
+0x04F8	FIELD ITEM	Cerulean Cave		Black Sludge		FV_FLD_ITEM_216
+0x04F9	FIELD ITEM	Route 32		TM09		FV_FLD_ITEM_217
+0x04FA	FIELD ITEM	Route 34		TM63		FV_FLD_ITEM_218
+0x04FB	FIELD ITEM	Route 35		Parlyz Heal		FV_FLD_ITEM_219
+0x04FC	FIELD ITEM	Route 36		Hyper Potion		FV_FLD_ITEM_220
+0x04FD	FIELD ITEM	Route 38		Max Potion		FV_FLD_ITEM_221
+0x04FE	FIELD ITEM	Route 38		Lax Incense		FV_FLD_ITEM_222
+0x04FF	FIELD ITEM	Route 39		TM60		FV_FLD_ITEM_223
+0x0500	FIELD ITEM	Route 28		TM35		FV_FLD_ITEM_224
+0x0501	FIELD ITEM	Route 47		Lagging Tail		FV_FLD_ITEM_225
+0x0502	FIELD ITEM	Route 47		Wave Incense		FV_FLD_ITEM_226
+0x0503	FIELD ITEM	Route 47		White Flute		FV_FLD_ITEM_227
+0x0504	FIELD ITEM	Route 48		Nugget		FV_FLD_ITEM_228
+0x0505	FIELD ITEM	Route 42		TM65		FV_FLD_ITEM_229
+0x0506	FIELD ITEM	National Park		Shiny Stone		FV_FLD_ITEM_230
+0x0507	FIELD ITEM	Route 8		TM41		FV_FLD_ITEM_231
+0x0508	FIELD ITEM	Lake of Rage		TM43		FV_FLD_ITEM_232
+0x0509	FIELD ITEM	Lake of Rage		Choice Specs		FV_FLD_ITEM_233
+0x050A	FIELD ITEM	Lake of Rage		Red Flute		FV_FLD_ITEM_234
+0x050B	FIELD ITEM	Burned Tower		Antidote		FV_FLD_ITEM_235
+0x050C	FIELD ITEM	Dark Cave		Black Flute		FV_FLD_ITEM_236
+0x050D	FIELD ITEM	Route 27		Destiny Knot		FV_FLD_ITEM_237
+0x050E	FIELD ITEM	Vermilion City		Luck Incense		FV_FLD_ITEM_238
+0x050F	FIELD ITEM	Vermilion City		Sticky Barb		FV_FLD_ITEM_239
+0x0510	FIELD ITEM	Rock Tunnel		Oval Stone		FV_FLD_ITEM_240
+0x0511	FIELD ITEM	Diglett's Cave		PP Max		FV_FLD_ITEM_241
+0x0512	FIELD ITEM	Diglett's Cave		Rock Incense		FV_FLD_ITEM_242
+0x0513	FIELD ITEM	Route 6		TM62		FV_FLD_ITEM_243
+0x0514	FIELD ITEM	Route 10		TM69		FV_FLD_ITEM_244
+0x0515	FIELD ITEM	Route 9		TM91		FV_FLD_ITEM_245
+0x0516	FIELD ITEM	Route 9		Full Restore		FV_FLD_ITEM_246
+0x0517	FIELD ITEM	Route 9		Light Clay		FV_FLD_ITEM_247
+0x0518	FIELD ITEM	Route 9		Max Potion		FV_FLD_ITEM_248
+0x0519	FIELD ITEM	Celadon City		TM67		FV_FLD_ITEM_249
+0x051A	FIELD ITEM	Route 15		Rose Incense		FV_FLD_ITEM_250
+0x051B	FIELD ITEM	Route 11		TM86		FV_FLD_ITEM_251
+0x051C	FIELD ITEM	Pewter City		Wise Glasses		FV_FLD_ITEM_252
+0x051D	FIELD ITEM	Route 3		Big Root		FV_FLD_ITEM_253
+0x051E	FIELD ITEM	Olivine City		TM57		FV_FLD_ITEM_254
+0x051F	_UNUSED					FV_FLD_ITEM_255
 0x0520						
 0x0521						
 0x0522						
@@ -1358,986 +1359,986 @@
 0x054D						
 0x054E						
 0x054F						
-0x0550	_UNUSED					TR_NONE
-0x0551	TRAINER BATTLE			Rival Silver		
-0x0552	TRAINER BATTLE			Rival Silver 2		
-0x0553	TRAINER BATTLE			Rival Silver 3		
-0x0554	TRAINER BATTLE			Bug Catcher Wade		
-0x0555	TRAINER BATTLE			Beauty Victoria		
-0x0556	TRAINER BATTLE			Policeman Keith (Night)		
-0x0557	TRAINER BATTLE			Juggler Irwin		
-0x0558	TRAINER BATTLE			Youngster Joey		
-0x0559	TRAINER BATTLE			Swimmer Elaine		
-0x055A	TRAINER BATTLE			Twins Amy and Mimi		
-0x055B	TRAINER BATTLE			Kimono Girl Mickey		
-0x055C	TRAINER BATTLE			Team Rocket Grunt		
-0x055D	TRAINER BATTLE			Team Rocket Grunt		
-0x055E	TRAINER BATTLE			Burglar Duncan		
-0x055F	TRAINER BATTLE			Firebreather Otis		
-0x0560	TRAINER BATTLE			Swimmer Simon		
-0x0561	TRAINER BATTLE			Black Belt Kenji		
-0x0562	TRAINER BATTLE			Fisherman Justin		
-0x0563	TRAINER BATTLE			Biker Mickey		
-0x0564	TRAINER BATTLE			Leader Falkner		
-0x0565	TRAINER BATTLE			Leader Bugsy		
-0x0566	TRAINER BATTLE			Lass Carrie		
-0x0567	TRAINER BATTLE			Poke Maniac Larry		
-0x0568	TRAINER BATTLE			School Kid Alan		
-0x0569	TRAINER BATTLE			Hiker Russel		
-0x056A	TRAINER BATTLE			Camper Roland		
-0x056B	TRAINER BATTLE			Picnicker Liz		
-0x056C	TRAINER BATTLE			Ace Trainer Jake		
-0x056D	TRAINER BATTLE			Bird Keeper Rod		
-0x056E	TRAINER BATTLE			Leader Whitney		
-0x056F	TRAINER BATTLE			Leader Morty		
-0x0570	TRAINER BATTLE			Leader Pryce		
-0x0571	TRAINER BATTLE			Leader Jasmine		
-0x0572	TRAINER BATTLE			Leader Chuck		
-0x0573	TRAINER BATTLE			Leader Clair		
-0x0574	TRAINER BATTLE			Ace Trainer Joyce		
-0x0575	TRAINER BATTLE			Gentleman Preston		
-0x0576	TRAINER BATTLE			Teacher Colette		
-0x0577	TRAINER BATTLE			Sailor Eugene		
-0x0578	TRAINER BATTLE			Super Nerd Mickey		
-0x0579	TRAINER BATTLE			Guitarist Clyde		
-0x057A	TRAINER BATTLE			Psychic Nathan		
-0x057B	TRAINER BATTLE			Sage Chow		
-0x057C	TRAINER BATTLE			Pokefan Derek		
-0x057D	TRAINER BATTLE			Pokefan Ruth		
-0x057E	TRAINER BATTLE			Medium Martha		
-0x057F	TRAINER BATTLE			Youngster Mikey		
-0x0580	TRAINER BATTLE			Bug Catcher Rob		
-0x0581	TRAINER BATTLE			Youngster Albert		
-0x0582	TRAINER BATTLE			Bird Keeper Abe		
-0x0583	TRAINER BATTLE			Sage Nico		
-0x0584	TRAINER BATTLE			Sage Edmond		
-0x0585	TRAINER BATTLE			Sage Jin		
-0x0586	TRAINER BATTLE			Sage Troy		
-0x0587	TRAINER BATTLE			Sage Neal		
-0x0588	TRAINER BATTLE			Youngster Gordon		
-0x0589	TRAINER BATTLE			Fisherman Ralph		
-0x058A	TRAINER BATTLE			Fisherman Arnold		
-0x058B	TRAINER BATTLE			Fisherman Kyle		
-0x058C	TRAINER BATTLE			Fisherman Henry		
-0x058D	TRAINER BATTLE			Hiker Anthony		
-0x058E	TRAINER BATTLE			Youngster Samuel		
-0x058F	TRAINER BATTLE			Team Rocket Mickey		
-0x0590	TRAINER BATTLE			Youngster Ian		
-0x0591	TRAINER BATTLE			Picnicker Gina		
-0x0592	TRAINER BATTLE			Camper Todd		
-0x0593	TRAINER BATTLE			Bug Catcher Benny		
-0x0594	TRAINER BATTLE			Bug Catcher Al		
-0x0595	TRAINER BATTLE			Bug Catcher Josh		
-0x0596	TRAINER BATTLE			Beauty Samantha		
-0x0597	TRAINER BATTLE			Lass Cathy		
-0x0598	TRAINER BATTLE			Bird Keeper Bryan		
-0x0599	TRAINER BATTLE			Bird Keeper Theo		
-0x059A	TRAINER BATTLE			Camper Ivan		
-0x059B	TRAINER BATTLE			Camper Elliot		
-0x059C	TRAINER BATTLE			Picnicker Brooke		
-0x059D	TRAINER BATTLE			Picnicker Kim		
-0x059E	TRAINER BATTLE			Bug Catcher Arnie		
-0x059F	TRAINER BATTLE			Bug Catcher Ken		
-0x05A0	TRAINER BATTLE			Policeman Dirk (Night)		
-0x05A1	TRAINER BATTLE			Twins Tori and Til		
-0x05A2	TRAINER BATTLE			Bird Keeper Toby		
-0x05A3	TRAINER BATTLE			Picnicker Cindy		
-0x05A4	TRAINER BATTLE			Camper Barry		
-0x05A5	TRAINER BATTLE			Swimmer Paula		
-0x05A6	TRAINER BATTLE			Swimmer Randall		
-0x05A7	TRAINER BATTLE			Sage Mickey		
-0x05A8	TRAINER BATTLE			Sage Mickey 2		
-0x05A9	TRAINER BATTLE			Medium Grace		
-0x05AA	TRAINER BATTLE			Swimmer Kaylee		
-0x05AB	TRAINER BATTLE			Swimmer Susie		
-0x05AC	TRAINER BATTLE			Swimmer Denise		
-0x05AD	TRAINER BATTLE			Swimmer Kara		
-0x05AE	TRAINER BATTLE			Swimmer Wendy		
-0x05AF	TRAINER BATTLE			Swimmer Charlie		
-0x05B0	TRAINER BATTLE			Swimmer George		
-0x05B1	TRAINER BATTLE			Swimmer Berke		
-0x05B2	TRAINER BATTLE			Swimmer Ronald		
-0x05B3	TRAINER BATTLE			Swimmer Matthew		
-0x05B4	TRAINER BATTLE			Hiker Anthony 2		
-0x05B5	TRAINER BATTLE			Team Rocket Grunt 2		
-0x05B6	TRAINER BATTLE			Ace Trainer Gaven		
-0x05B7	TRAINER BATTLE			Ace Trainer Blake		
-0x05B8	TRAINER BATTLE			Ace Trainer Brian		
-0x05B9	TRAINER BATTLE			Ace Trainer Mickey		
-0x05BA	TRAINER BATTLE			Ace Trainer Mickey 2		
-0x05BB	TRAINER BATTLE			Ace Trainer Mickey 3		
-0x05BC	TRAINER BATTLE			Ace Trainer Ryan		
-0x05BD	TRAINER BATTLE			Ace Trainer Alton		
-0x05BE	TRAINER BATTLE			Ace Trainer Paulo		
-0x05BF	TRAINER BATTLE			Ace Trainer Mike		
-0x05C0	TRAINER BATTLE			Ace Trainer Cody		
-0x05C1	TRAINER BATTLE			Ace Trainer Jamie		
-0x05C2	TRAINER BATTLE			Ace Trainer Reena		
-0x05C3	TRAINER BATTLE			Ace Trainer Megan		
-0x05C4	TRAINER BATTLE			Ace Trainer Lois		
-0x05C5	TRAINER BATTLE			Ace Trainer Lola		
-0x05C6	TRAINER BATTLE			Ace Trainer Kate		
-0x05C7	TRAINER BATTLE			Ace Trainer Fran		
-0x05C8	TRAINER BATTLE			Ace Trainer Irene		
-0x05C9	TRAINER BATTLE			Ace Trainer Kelly		
-0x05CA	TRAINER BATTLE			Fisherman Marvin		
-0x05CB	TRAINER BATTLE			Fisherman Tully		
-0x05CC	TRAINER BATTLE			Fisherman Wilton		
-0x05CD	TRAINER BATTLE			Fisherman Edgar		
-0x05CE	TRAINER BATTLE			Fisherman Andre		
-0x05CF	TRAINER BATTLE			Fisherman Raymond		
-0x05D0	TRAINER BATTLE			Fisherman Jonah		
-0x05D1	TRAINER BATTLE			Poke Maniac Shane		
-0x05D2	TRAINER BATTLE			Poke Maniac Beckett		
-0x05D3	TRAINER BATTLE			Poke Maniac Brent		
-0x05D4	TRAINER BATTLE			Poke Maniac Ron		
-0x05D5	TRAINER BATTLE			Poke Maniac Morgan		
-0x05D6	TRAINER BATTLE			Hiker Benjamin		
-0x05D7	TRAINER BATTLE			School Kid Johnny		
-0x05D8	TRAINER BATTLE			Lass Linda		
-0x05D9	TRAINER BATTLE			Bird Keeper Vance		
-0x05DA	TRAINER BATTLE			Camper Mickey		
-0x05DB	TRAINER BATTLE			Picnicker Debra		
-0x05DC	TRAINER BATTLE			Bug Catcher Doug		
-0x05DD	TRAINER BATTLE			Camper Mickey 2		
-0x05DE	TRAINER BATTLE			Picnicker Gina 2		
-0x05DF	TRAINER BATTLE			Hiker Erik		
-0x05E0	TRAINER BATTLE			Hiker Michael		
-0x05E1	TRAINER BATTLE			Hiker Parry		
-0x05E2	TRAINER BATTLE			Hiker Timothy		
-0x05E3	TRAINER BATTLE			Camper Ted		
-0x05E4	TRAINER BATTLE			Camper Lloyd		
-0x05E5	TRAINER BATTLE			Camper Dean		
-0x05E6	TRAINER BATTLE			Camper Sid		
-0x05E7	TRAINER BATTLE			Picnicker Erin		
-0x05E8	TRAINER BATTLE			Picnicker Hope		
-0x05E9	TRAINER BATTLE			Picnicker Sharon		
-0x05EA	TRAINER BATTLE			Hiker Bailey		
-0x05EB	TRAINER BATTLE			Hiker Anthony 3		
-0x05EC	TRAINER BATTLE			Black Belt Yoshi		
-0x05ED	TRAINER BATTLE			Black Belt Lao		
-0x05EE	TRAINER BATTLE			Black Belt Kiyo		
-0x05EF	TRAINER BATTLE			Black Belt Lung		
-0x05F0	TRAINER BATTLE			Kimono Girl Naoko		
-0x05F1	TRAINER BATTLE			Kimono Girl Sayo		
-0x05F2	TRAINER BATTLE			Kimono Girl Zuki		
-0x05F3	TRAINER BATTLE			Kimono Girl Kuni		
-0x05F4	TRAINER BATTLE			Kimono Girl Miki		
-0x05F5	TRAINER BATTLE			Swimmer Mickey		
-0x05F6	TRAINER BATTLE			Swimmer Mickey 2		
-0x05F7	TRAINER BATTLE			Swimmer Mickey 3		
-0x05F8	TRAINER BATTLE			Swimmer Mickey		
-0x05F9	TRAINER BATTLE			Swimmer Mickey 2		
-0x05FA	TRAINER BATTLE			Swimmer Mickey 3		
-0x05FB	TRAINER BATTLE			Swimmer Mickey 4		
-0x05FC	TRAINER BATTLE			Poke Maniac Brent 2		
-0x05FD	TRAINER BATTLE			Poke Maniac Brent 3		
-0x05FE	TRAINER BATTLE			Biker Mickey 2		
-0x05FF	TRAINER BATTLE			Medium Bethany		
-0x0600	TRAINER BATTLE			Medium Margaret		
-0x0601	TRAINER BATTLE			Medium Ethel		
-0x0602	TRAINER BATTLE			School Kid Jack		
-0x0603	TRAINER BATTLE			School Kid Kipp		
-0x0604	TRAINER BATTLE			Beauty Mickey		
-0x0605	TRAINER BATTLE			Pokefan William		
-0x0606	TRAINER BATTLE			Pokefan Beverly		
-0x0607	TRAINER BATTLE			Lass Alice		
-0x0608	TRAINER BATTLE			Lass Krise		
-0x0609	TRAINER BATTLE			Team Rocket Grunt 3		
-0x060A	TRAINER BATTLE			Team Rocket Grunt 4		
-0x060B	TRAINER BATTLE			Team Rocket Grunt 5		
-0x060C	TRAINER BATTLE			Team Rocket Grunt 6		
-0x060D	TRAINER BATTLE			Team Rocket Grunt 7		
-0x060E	TRAINER BATTLE			Team Rocket Grunt 8		
-0x060F	TRAINER BATTLE			Team Rocket Grunt 9		
-0x0610	TRAINER BATTLE			Team Rocket Grunt 10		
-0x0611	TRAINER BATTLE			Team Rocket Grunt 11		
-0x0612	TRAINER BATTLE			Team Rocket Mickey 2		
-0x0613	TRAINER BATTLE			Team Rocket Grunt 12		
-0x0614	TRAINER BATTLE			Team Rocket Grunt 13		
-0x0615	TRAINER BATTLE			Team Rocket Grunt 14		
-0x0616	TRAINER BATTLE			Team Rocket Grunt 2		
-0x0617	TRAINER BATTLE			Team Rocket Grunt 3		
-0x0618	TRAINER BATTLE			Team Rocket Grunt 4		
-0x0619	TRAINER BATTLE			Poke Maniac Andrew		
-0x061A	TRAINER BATTLE			Poke Maniac Calvin		
-0x061B	TRAINER BATTLE			Hiker Phillip		
-0x061C	TRAINER BATTLE			Hiker Leonard		
-0x061D	TRAINER BATTLE			Ace Trainer Nick		
-0x061E	TRAINER BATTLE			Ace Trainer Gwen		
-0x061F	TRAINER BATTLE			Beauty Mickey 2		
-0x0620	TRAINER BATTLE			Beauty Mickey 3		
-0x0621	TRAINER BATTLE			Beauty Cassie		
-0x0622	TRAINER BATTLE			Beauty Caroline		
-0x0623	TRAINER BATTLE			Sailor Huey		
-0x0624	TRAINER BATTLE			Sailor Terrell		
-0x0625	TRAINER BATTLE			Sailor Kent		
-0x0626	TRAINER BATTLE			Sailor Roberto		
-0x0627	TRAINER BATTLE			Lass Connie		
-0x0628	TRAINER BATTLE			Team Rocket Grunt 15		
-0x0629	TRAINER BATTLE			Bird Keeper Denis		
-0x062A	TRAINER BATTLE			Team Rocket Grunt 16		
-0x062B	TRAINER BATTLE			Team Rocket Grunt 17		
-0x062C	TRAINER BATTLE			Team Rocket Grunt 18		
-0x062D	TRAINER BATTLE			Team Rocket Mickey 3		
-0x062E	TRAINER BATTLE			Team Rocket Grunt 19		
-0x062F	TRAINER BATTLE			Team Rocket Grunt 20		
-0x0630	TRAINER BATTLE			Team Rocket Grunt 21		
-0x0631	TRAINER BATTLE			Team Rocket Mickey 4		
-0x0632	TRAINER BATTLE			Team Rocket Mickey 5		
-0x0633	TRAINER BATTLE			Team Rocket Grunt 22		
-0x0634	TRAINER BATTLE			Team Rocket Grunt 23		
-0x0635	TRAINER BATTLE			Team Rocket Mickey 6		
-0x0636	TRAINER BATTLE			Psychic Franklin		
-0x0637	TRAINER BATTLE			Gentleman Edward		
-0x0638	TRAINER BATTLE			Guitarist Vincent		
-0x0639	TRAINER BATTLE			Super Nerd Eric		
-0x063A	TRAINER BATTLE			Hiker Eoin		
-0x063B	TRAINER BATTLE			Hiker Noland		
-0x063C	TRAINER BATTLE			Ace Trainer Shaye		
-0x063D	TRAINER BATTLE			Ace Trainer Carol		
-0x063E	TRAINER BATTLE			Sailor Stanly		
-0x063F	TRAINER BATTLE			Sailor Jeff		
-0x0640	TRAINER BATTLE			Sailor Garrett		
-0x0641	TRAINER BATTLE			Sailor Kenneth		
-0x0642	TRAINER BATTLE			Juggler Fritz		
-0x0643	TRAINER BATTLE			Swimmer Katie		
-0x0644	TRAINER BATTLE			Champion Lance		
-0x0645	TRAINER BATTLE			Elite Four Will Will		
-0x0646	TRAINER BATTLE			Elite Four Karen Karen		
-0x0647	TRAINER BATTLE			Elite Four Koga Koga		
-0x0648	TRAINER BATTLE			Bug Catcher Ed		
-0x0649	TRAINER BATTLE			Bug Catcher Don		
-0x064A	TRAINER BATTLE			Black Belt Kenji 2		
-0x064B	TRAINER BATTLE			Black Belt Nob		
-0x064C	TRAINER BATTLE			Swimmer Harold		
-0x064D	TRAINER BATTLE			Leader Brock		
-0x064E	TRAINER BATTLE			Leader Misty		
-0x064F	TRAINER BATTLE			Leader Lt. Surge		
-0x0650	TRAINER BATTLE			Leader Erika		
-0x0651	TRAINER BATTLE			Leader Janine		
-0x0652	TRAINER BATTLE			Leader Sabrina		
-0x0653	TRAINER BATTLE			Leader Blaine		
-0x0654	TRAINER BATTLE			Pkmn Trainer Red		
-0x0655	TRAINER BATTLE			Leader Blue		
-0x0656	TRAINER BATTLE			Team Rocket Mickey 7		
-0x0657	TRAINER BATTLE			Rival Silver 4		
-0x0658	TRAINER BATTLE			Rival Silver 5		
-0x0659	TRAINER BATTLE			Rival Silver 6		
-0x065A	TRAINER BATTLE			Rival Silver 7		
-0x065B	TRAINER BATTLE			Rival Silver 8		
-0x065C	TRAINER BATTLE			Rival Silver 9		
-0x065D	TRAINER BATTLE			Rival Silver 10		
-0x065E	TRAINER BATTLE			Rival Silver 11		
-0x065F	TRAINER BATTLE			Rival Silver 12		
-0x0660	TRAINER BATTLE			Rival Silver 13		
-0x0661	TRAINER BATTLE			Swimmer Mickey 5		
-0x0662	TRAINER BATTLE			Camper Todd 2		
-0x0663	TRAINER BATTLE			Camper Todd 3		
-0x0664	TRAINER BATTLE			Picnicker Liz 2		
-0x0665	TRAINER BATTLE			Picnicker Liz 3		
-0x0666	TRAINER BATTLE			Black Belt Kenji 3		
-0x0667	TRAINER BATTLE			Youngster Joey 2		
-0x0668	TRAINER BATTLE			Youngster Joey 3		
-0x0669	TRAINER BATTLE			Firebreather Richard		
-0x066A	TRAINER BATTLE			Firebreather Ned		
-0x066B	TRAINER BATTLE			Burglar Orson		
-0x066C	TRAINER BATTLE			Burglar Corey		
-0x066D	TRAINER BATTLE			Rival Silver 14		
-0x066E	TRAINER BATTLE			Rival Silver 15		
-0x066F	TRAINER BATTLE			Rival Silver 16		
-0x0670	TRAINER BATTLE			Rival Silver 17		
-0x0671	TRAINER BATTLE			Rival Silver 18		
-0x0672	TRAINER BATTLE			Elder Li		
-0x0673	TRAINER BATTLE			Swimmer Debbie		
-0x0674	TRAINER BATTLE			Swimmer Mickey 4		
-0x0675	TRAINER BATTLE			Swimmer Nicole		
-0x0676	TRAINER BATTLE			Swimmer Lori		
-0x0677	TRAINER BATTLE			Swimmer Mickey 5		
-0x0678	TRAINER BATTLE			Swimmer Nikki		
-0x0679	TRAINER BATTLE			Swimmer Diana		
-0x067A	TRAINER BATTLE			Swimmer Briana		
-0x067B	TRAINER BATTLE			Bird Keeper Hank		
-0x067C	TRAINER BATTLE			Bird Keeper Roy		
-0x067D	TRAINER BATTLE			Bird Keeper Boris		
-0x067E	TRAINER BATTLE			Bird Keeper Bob		
-0x067F	TRAINER BATTLE			Bird Keeper Jose		
-0x0680	TRAINER BATTLE			Camper Mickey 3		
-0x0681	TRAINER BATTLE			Camper Mickey 4		
-0x0682	TRAINER BATTLE			Camper Mickey 5		
-0x0683	TRAINER BATTLE			Camper Mickey 6		
-0x0684	TRAINER BATTLE			Camper Jerry		
-0x0685	TRAINER BATTLE			Biker Dwayne		
-0x0686	TRAINER BATTLE			Biker Harris		
-0x0687	TRAINER BATTLE			Biker Zeke		
-0x0688	TRAINER BATTLE			Biker Charles		
-0x0689	TRAINER BATTLE			Biker Reese		
-0x068A	TRAINER BATTLE			Biker Joel		
-0x068B	TRAINER BATTLE			Biker Glenn		
-0x068C	TRAINER BATTLE			Psychic Herman		
-0x068D	TRAINER BATTLE			Psychic Fidel		
-0x068E	TRAINER BATTLE			Firebreather Burt		
-0x068F	TRAINER BATTLE			Firebreather Bill		
-0x0690	TRAINER BATTLE			Fisherman Martin		
-0x0691	TRAINER BATTLE			Fisherman Stephen		
-0x0692	TRAINER BATTLE			Fisherman Barney		
-0x0693	TRAINER BATTLE			Fisherman Tully 2		
-0x0694	TRAINER BATTLE			Fisherman Tully 3		
-0x0695	TRAINER BATTLE			Fisherman Wilton 2		
-0x0696	TRAINER BATTLE			Twins Jo and Zoe		
-0x0697	TRAINER BATTLE			School Kid Danny		
-0x0698	TRAINER BATTLE			School Kid Tommy		
-0x0699	TRAINER BATTLE			School Kid Dudley		
-0x069A	TRAINER BATTLE			School Kid Joe		
-0x069B	TRAINER BATTLE			School Kid Billy		
-0x069C	TRAINER BATTLE			Picnicker Heidi		
-0x069D	TRAINER BATTLE			Picnicker Edna		
-0x069E	TRAINER BATTLE			Picnicker Gina 3		
-0x069F	TRAINER BATTLE			Picnicker Erin 2		
-0x06A0	TRAINER BATTLE			Picnicker Tanya		
-0x06A1	TRAINER BATTLE			Gentleman Gregory		
-0x06A2	TRAINER BATTLE			Gentleman Mickey		
-0x06A3	TRAINER BATTLE			Black Belt Wai		
-0x06A4	TRAINER BATTLE			Beauty Mickey 4		
-0x06A5	TRAINER BATTLE			Beauty Mickey 5		
-0x06A6	TRAINER BATTLE			Beauty Mickey 6		
-0x06A7	TRAINER BATTLE			Beauty Mickey 7		
-0x06A8	TRAINER BATTLE			Beauty Mickey 8		
-0x06A9	TRAINER BATTLE			Beauty Mickey 9		
-0x06AA	TRAINER BATTLE			Beauty Julia		
-0x06AB	TRAINER BATTLE			Beauty Mickey 10		
-0x06AC	TRAINER BATTLE			Pokefan Robert		
-0x06AD	TRAINER BATTLE			Pokefan Joshua		
-0x06AE	TRAINER BATTLE			Pokefan Carter		
-0x06AF	TRAINER BATTLE			Pokefan Trevor		
-0x06B0	TRAINER BATTLE			Pokefan Georgia		
-0x06B1	TRAINER BATTLE			Team Rocket Grunt 24		
-0x06B2	TRAINER BATTLE			Lass Laura		
-0x06B3	TRAINER BATTLE			Lass Shannon		
-0x06B4	TRAINER BATTLE			Lass Michelle		
-0x06B5	TRAINER BATTLE			Hiker Clarke		
-0x06B6	TRAINER BATTLE			Hiker Kenny		
-0x06B7	TRAINER BATTLE			Hiker Jim		
-0x06B8	TRAINER BATTLE			Bug Catcher Arnie 2		
-0x06B9	TRAINER BATTLE			Ace Trainer Kevin		
-0x06BA	TRAINER BATTLE			Ace Trainer Quinn		
-0x06BB	TRAINER BATTLE			Ace Trainer Emma		
-0x06BC	TRAINER BATTLE			Super Nerd Sam		
-0x06BD	TRAINER BATTLE			Super Nerd Tyrone		
-0x06BE	TRAINER BATTLE			Super Nerd Pat		
-0x06BF	TRAINER BATTLE			Super Nerd Shawn		
-0x06C0	TRAINER BATTLE			Medium Rebecca		
-0x06C1	TRAINER BATTLE			Medium Darcy		
-0x06C2	TRAINER BATTLE			Swimmer Jerome		
-0x06C3	TRAINER BATTLE			Swimmer Tucker		
-0x06C4	TRAINER BATTLE			Swimmer Mickey 6		
-0x06C5	TRAINER BATTLE			Swimmer Frankie		
-0x06C6	TRAINER BATTLE			Swimmer Tyson		
-0x06C7	TRAINER BATTLE			Swimmer Mickey 7		
-0x06C8	TRAINER BATTLE			Swimmer Mickey 8		
-0x06C9	TRAINER BATTLE			Swimmer Parker		
-0x06CA	TRAINER BATTLE			Youngster Warren		
-0x06CB	TRAINER BATTLE			Youngster Jimmy		
-0x06CC	TRAINER BATTLE			Youngster Owen		
-0x06CD	TRAINER BATTLE			Youngster Jason		
-0x06CE	TRAINER BATTLE			Teacher Hillary		
-0x06CF	TRAINER BATTLE			Bird Keeper Peter		
-0x06D0	TRAINER BATTLE			Hiker Daniel		
-0x06D1	TRAINER BATTLE			Twins Dara and Dia		
-0x06D2	TRAINER BATTLE			Psychic Greg		
-0x06D3	TRAINER BATTLE			Twins Amy and Mimi 2		
-0x06D4	TRAINER BATTLE			Firebreather Walt		
-0x06D5	TRAINER BATTLE			Psychic Nelson		
-0x06D6	TRAINER BATTLE			Firebreather Ray		
-0x06D7	TRAINER BATTLE			Poke Maniac Issac		
-0x06D8	TRAINER BATTLE			Poke Maniac Donald		
-0x06D9	TRAINER BATTLE			Super Nerd Teru		
-0x06DA	TRAINER BATTLE			Ace Trainer Mickey 4		
-0x06DB	TRAINER BATTLE			Psychic Mark		
-0x06DC	TRAINER BATTLE			Juggler Horton		
-0x06DD	TRAINER BATTLE			School Kid Chad		
-0x06DE	TRAINER BATTLE			Beauty Valerie		
-0x06DF	TRAINER BATTLE			Firebreather Lyle		
-0x06E0	TRAINER BATTLE			Lass Dana		
-0x06E1	TRAINER BATTLE			Gentleman Alfred		
-0x06E2	TRAINER BATTLE			Picnicker Tiffany		
-0x06E3	TRAINER BATTLE			Camper Spencer		
-0x06E4	TRAINER BATTLE			Team Rocket Grunt 5		
-0x06E5	TRAINER BATTLE			Psychic Phil		
-0x06E6	TRAINER BATTLE			Poke Maniac Zach		
-0x06E7	TRAINER BATTLE			Ace Trainer Allen		
-0x06E8	TRAINER BATTLE			Ace Trainer Cybil		
-0x06E9	TRAINER BATTLE			Pokefan Brandon		
-0x06EA	TRAINER BATTLE			Sailor Harry		
-0x06EB	TRAINER BATTLE			Psychic Vernon		
-0x06EC	TRAINER BATTLE			Psychic Eli		
-0x06ED	TRAINER BATTLE			Fisherman Scott		
-0x06EE	TRAINER BATTLE			Bird Keeper Jose 2		
-0x06EF	TRAINER BATTLE			Psychic Jared		
-0x06F0	TRAINER BATTLE			Twins Jo and Zoe 2		
-0x06F1	TRAINER BATTLE			Ace Trainer Jenn		
-0x06F2	TRAINER BATTLE			Elite Four Bruno Bruno		
-0x06F3	TRAINER BATTLE			Lass Ellen		
-0x06F4	TRAINER BATTLE			Bird Keeper Perry		
-0x06F5	TRAINER BATTLE			Bird Keeper Bret		
-0x06F6	TRAINER BATTLE			Psychic Rodney		
-0x06F7	TRAINER BATTLE			Pokefan Jeremy		
-0x06F8	TRAINER BATTLE			Pokefan Colin		
-0x06F9	TRAINER BATTLE			Twins Meg and Peg		
-0x06FA	TRAINER BATTLE			Twins Meg and Peg 2		
-0x06FB	TRAINER BATTLE			Teacher Shirley		
-0x06FC	TRAINER BATTLE			School Kid Nate		
-0x06FD	TRAINER BATTLE			School Kid Ricky		
-0x06FE	TRAINER BATTLE			School Kid Jack 2		
-0x06FF	TRAINER BATTLE			School Kid Jack 3		
-0x0700	TRAINER BATTLE			School Kid Alan 2		
-0x0701	TRAINER BATTLE			School Kid Alan 3		
-0x0702	TRAINER BATTLE			School Kid Chad 2		
-0x0703	TRAINER BATTLE			School Kid Chad 3		
-0x0704	TRAINER BATTLE			Pokefan Beverly 2		
-0x0705	TRAINER BATTLE			Pokefan Beverly 3		
-0x0706	TRAINER BATTLE			Pokefan Derek 2		
-0x0707	TRAINER BATTLE			Pokefan Derek 3		
-0x0708	TRAINER BATTLE			Sailor Huey 2		
-0x0709	TRAINER BATTLE			Sailor Huey 3		
-0x070A	TRAINER BATTLE			Lass Mickey		
-0x070B	TRAINER BATTLE			Lass Mickey 2		
-0x070C	TRAINER BATTLE			Ace Trainer Reena 2		
-0x070D	TRAINER BATTLE			Ace Trainer Reena 3		
-0x070E	TRAINER BATTLE			Bird Keeper Jose 3		
-0x070F	TRAINER BATTLE			Bird Keeper Vance 2		
-0x0710	TRAINER BATTLE			Bird Keeper Vance 3		
-0x0711	TRAINER BATTLE			Bug Catcher Arnie 3		
-0x0712	TRAINER BATTLE			Fisherman Wilton 3		
-0x0713	TRAINER BATTLE			Hiker Parry 2		
-0x0714	TRAINER BATTLE			Hiker Parry 3		
-0x0715	TRAINER BATTLE			Picnicker Erin 3		
-0x0716	TRAINER BATTLE			Juggler Irwin 2		
-0x0717	TRAINER BATTLE			Juggler Irwin 3		
-0x0718	TRAINER BATTLE			Ace Trainer Gaven 2		
-0x0719	TRAINER BATTLE			Ace Trainer Gaven 3		
-0x071A	TRAINER BATTLE			Ace Trainer Jamie 2		
-0x071B	TRAINER BATTLE			Ace Trainer Jamie 3		
-0x071C	TRAINER BATTLE			Bug Catcher Wade 2		
-0x071D	TRAINER BATTLE			Bug Catcher Wade 3		
-0x071E	TRAINER BATTLE			Fisherman Ralph 2		
-0x071F	TRAINER BATTLE			Fisherman Ralph 3		
-0x0720	TRAINER BATTLE			Lass Dana 2		
-0x0721	TRAINER BATTLE			Lass Dana 3		
-0x0722	TRAINER BATTLE			Picnicker Tiffany 2		
-0x0723	TRAINER BATTLE			Picnicker Tiffany 3		
-0x0724	TRAINER BATTLE			Scientist Ross		
-0x0725	TRAINER BATTLE			Scientist Mitch		
-0x0726	TRAINER BATTLE			Scientist Gregg		
-0x0727	TRAINER BATTLE			Scientist Garett		
-0x0728	TRAINER BATTLE			Scientist Trenton		
-0x0729	TRAINER BATTLE			Super Nerd Mickey 2		
-0x072A	TRAINER BATTLE			Super Nerd Mickey 3		
-0x072B	TRAINER BATTLE			Super Nerd Mickey 4		
-0x072C	TRAINER BATTLE			Super Nerd Mickey 5		
-0x072D	TRAINER BATTLE			Super Nerd Mickey 6		
-0x072E	TRAINER BATTLE			Executive Ariana		
-0x072F	TRAINER BATTLE			Executive Ariana 2		
-0x0730	TRAINER BATTLE			Skier Diana		
-0x0731	TRAINER BATTLE			Skier Jill		
-0x0732	TRAINER BATTLE			Boarder Deandre		
-0x0733	TRAINER BATTLE			Boarder Patton		
-0x0734	TRAINER BATTLE			Boarder Gerardo		
-0x0735	TRAINER BATTLE			Executive Archer		
-0x0736	TRAINER BATTLE			Executive Proton		
-0x0737	TRAINER BATTLE			Executive Petrel		
-0x0738	TRAINER BATTLE			Executive Petrel 2		
-0x0739	TRAINER BATTLE			Rival Silver 19		
-0x073A	TRAINER BATTLE			Rival Silver 20		
-0x073B	TRAINER BATTLE			Rival Silver 21		
-0x073C	TRAINER BATTLE			Pokefan Alex		
-0x073D	TRAINER BATTLE			Medium Edith		
-0x073E	TRAINER BATTLE			Medium Georgina		
-0x073F	TRAINER BATTLE			Passerby Boy		
-0x0740	TRAINER BATTLE			Passerby Boy 2		
-0x0741	TRAINER BATTLE			Passerby Boy 3		
-0x0742	TRAINER BATTLE			Mystery Man Eusine		
-0x0743	TRAINER BATTLE			Team Rocket Grunt 25		
-0x0744	TRAINER BATTLE			Ace Trainer Kobe		
-0x0745	TRAINER BATTLE			Ace Trainer Piper		
-0x0746	TRAINER BATTLE			Twins Clea and Gil		
-0x0747	TRAINER BATTLE			School Kid Jack 4		
-0x0748	TRAINER BATTLE			School Kid Mickey		
-0x0749	TRAINER BATTLE			School Kid Alan 4		
-0x074A	TRAINER BATTLE			School Kid Mickey 2		
-0x074B	TRAINER BATTLE			School Kid Chad 4		
-0x074C	TRAINER BATTLE			School Kid Mickey 3		
-0x074D	TRAINER BATTLE			Sailor Huey 4		
-0x074E	TRAINER BATTLE			Youngster Joey 4		
-0x074F	TRAINER BATTLE			Youngster Mickey		
-0x0750	TRAINER BATTLE			Bug Catcher Wade 4		
-0x0751	TRAINER BATTLE			Bug Catcher Arnie 4		
-0x0752	TRAINER BATTLE			Bug Catcher Mickey		
-0x0753	TRAINER BATTLE			Fisherman Ralph 4		
-0x0754	TRAINER BATTLE			Fisherman Mickey		
-0x0755	TRAINER BATTLE			Fisherman Tully 4		
-0x0756	TRAINER BATTLE			Picnicker Liz 4		
-0x0757	TRAINER BATTLE			Picnicker Mickey		
-0x0758	TRAINER BATTLE			Picnicker Gina 4		
-0x0759	TRAINER BATTLE			Picnicker Mickey 2		
-0x075A	TRAINER BATTLE			Picnicker Tiffany 4		
-0x075B	TRAINER BATTLE			Hiker Anthony 4		
-0x075C	TRAINER BATTLE			Hiker Mickey		
-0x075D	TRAINER BATTLE			Camper Todd 4		
-0x075E	TRAINER BATTLE			Camper Mickey 7		
-0x075F	TRAINER BATTLE			Juggler Irwin 4		
-0x0760	TRAINER BATTLE			Lass Dana 4		
-0x0761	TRAINER BATTLE			Lass Mickey 3		
-0x0762	TRAINER BATTLE			Poke Maniac Brent 4		
-0x0763	TRAINER BATTLE			Twins Mickey		
-0x0764	TRAINER BATTLE			Bug Catcher Mickey 2		
-0x0765	TRAINER BATTLE			Bug Catcher Wayne		
-0x0766	TRAINER BATTLE			Beauty Kimberly		
-0x0767	TRAINER BATTLE			Pokefan Marigold		
-0x0768	TRAINER BATTLE			Camper Bertrand		
-0x0769	TRAINER BATTLE			Poke Maniac Harrison		
-0x076A	TRAINER BATTLE			Super Nerd Hugh		
-0x076B	TRAINER BATTLE			Super Nerd Markus		
-0x076C	TRAINER BATTLE			Pokefan Rex		
-0x076D	TRAINER BATTLE			Pokefan Andy		
-0x076E	TRAINER BATTLE			Sage Mickey 3		
-0x076F	TRAINER BATTLE			Sage Mickey 4		
-0x0770	TRAINER BATTLE			Sage Mickey 5		
-0x0771	TRAINER BATTLE			Ace Trainer French		
-0x0772	TRAINER BATTLE			School Kid Sherman		
-0x0773	TRAINER BATTLE			Hiker Bruce		
-0x0774	TRAINER BATTLE			Black Belt Manford		
-0x0775	TRAINER BATTLE			Double Team Zac and Jen		
-0x0776	TRAINER BATTLE			Black Belt Ander		
-0x0777	TRAINER BATTLE			Hiker Dwight		
-0x0778	TRAINER BATTLE			Youngster Regis		
-0x0779	TRAINER BATTLE			Young Couple Moe and Lulu		
-0x077A	TRAINER BATTLE			Gentleman Milton		
-0x077B	TRAINER BATTLE			Bird Keeper Justin		
-0x077C	TRAINER BATTLE			Bird Keeper Gail		
-0x077D	TRAINER BATTLE			Young Couple Vic and Tara		
-0x077E	TRAINER BATTLE			Fisherman Kyler		
-0x077F	TRAINER BATTLE			Young Couple Tim and Sue		
-0x0780	TRAINER BATTLE			Camper Clark		
-0x0781	TRAINER BATTLE			Camper Tanner		
-0x0782	TRAINER BATTLE			Picnicker Piper		
-0x0783	TRAINER BATTLE			Picnicker Ginger		
-0x0784	TRAINER BATTLE			Teacher Clarice		
-0x0785	TRAINER BATTLE			Bird Keeper Josh		
-0x0786	TRAINER BATTLE			School Kid Connor		
-0x0787	TRAINER BATTLE			School Kid Torin		
-0x0788	TRAINER BATTLE			School Kid Travis		
-0x0789	TRAINER BATTLE			Twins Kay and Tia		
-0x078A	TRAINER BATTLE			Pokefan Boone		
-0x078B	TRAINER BATTLE			Pokefan Eleanor		
-0x078C	TRAINER BATTLE			Biker Dale		
-0x078D	TRAINER BATTLE			Biker Jacob		
-0x078E	TRAINER BATTLE			Biker Aiden		
-0x078F	TRAINER BATTLE			Biker Dan		
-0x0790	TRAINER BATTLE			Biker Theron		
-0x0791	TRAINER BATTLE			Biker Markey		
-0x0792	TRAINER BATTLE			Biker Teddy		
-0x0793	TRAINER BATTLE			Biker Ernest		
-0x0794	TRAINER BATTLE			Camper Pedro		
-0x0795	TRAINER BATTLE			Picnicker Adrian		
-0x0796	TRAINER BATTLE			Picnicker Cheyenne		
-0x0797	TRAINER BATTLE			Bird Keeper Bert		
-0x0798	TRAINER BATTLE			Bird Keeper Ernie		
-0x0799	TRAINER BATTLE			Swimmer Elmo		
-0x079A	TRAINER BATTLE			Swimmer Luis		
-0x079B	TRAINER BATTLE			Swimmer Leona		
-0x079C	TRAINER BATTLE	Route 20		Swimmer Mina		
-0x079D	TRAINER BATTLE			Fisherman Murphy		
-0x079E	TRAINER BATTLE			Fisherman Liam		
-0x079F	TRAINER BATTLE			Fisherman Gideon		
-0x07A0	TRAINER BATTLE			Swimmer Chelan		
-0x07A1	TRAINER BATTLE			Swimmer Kendra		
-0x07A2	TRAINER BATTLE			Swimmer Esteban		
-0x07A3	TRAINER BATTLE			Swimmer Duane		
-0x07A4	TRAINER BATTLE			Bird Keeper Kinsley		
-0x07A5	TRAINER BATTLE	Route 21		Bird Keeper Easton		
-0x07A6	TRAINER BATTLE			Twins Day and Dani		
-0x07A7	TRAINER BATTLE			Camper Virgil		
-0x07A8	TRAINER BATTLE			Picnicker Selina		
-0x07A9	TRAINER BATTLE			Team Rocket Grunt 26		
-0x07AA	TRAINER BATTLE			Bird Keeper Jose 4		
-0x07AB	TRAINER BATTLE			Picnicker Erin 4		
-0x07AC	TRAINER BATTLE			Ace Trainer Gaven 4		
-0x07AD	TRAINER BATTLE			Black Belt Kenji 4		
-0x07AE	TRAINER BATTLE			Hiker Parry 4		
-0x07AF	TRAINER BATTLE			Ace Trainer Reena 4		
-0x07B0	TRAINER BATTLE			Fisherman Wilton 4		
-0x07B1	TRAINER BATTLE			Ace Trainer Jamie 4		
-0x07B2	TRAINER BATTLE			Pokefan Derek 4		
-0x07B3	TRAINER BATTLE			Pokefan Beverly 4		
-0x07B4	TRAINER BATTLE			Bird Keeper Vance 4		
-0x07B5	TRAINER BATTLE			Lass Krise 2		
-0x07B6	TRAINER BATTLE			Lass Krise 3		
-0x07B7	TRAINER BATTLE			Lass Krise 4		
-0x07B8	TRAINER BATTLE			Youngster Ian 2		
-0x07B9	TRAINER BATTLE			Youngster Ian 3		
-0x07BA	TRAINER BATTLE			Youngster Ian 4		
-0x07BB	TRAINER BATTLE			Firebreather Walt 2		
-0x07BC	TRAINER BATTLE			Firebreather Walt 3		
-0x07BD	TRAINER BATTLE			Firebreather Walt 4		
-0x07BE	TRAINER BATTLE			Bug Catcher Doug 2		
-0x07BF	TRAINER BATTLE			Bug Catcher Doug 3		
-0x07C0	TRAINER BATTLE			Bug Catcher Doug 4		
-0x07C1	TRAINER BATTLE			Bug Catcher Rob 2		
-0x07C2	TRAINER BATTLE			Bug Catcher Rob 3		
-0x07C3	TRAINER BATTLE			Bug Catcher Rob 4		
-0x07C4	TRAINER BATTLE			Biker Reese 2		
-0x07C5	TRAINER BATTLE			Biker Reese 3		
-0x07C6	TRAINER BATTLE			Biker Reese 4		
-0x07C7	TRAINER BATTLE			Biker Aiden 2		
-0x07C8	TRAINER BATTLE			Biker Aiden 3		
-0x07C9	TRAINER BATTLE			Biker Aiden 4		
-0x07CA	TRAINER BATTLE			Biker Ernest 2		
-0x07CB	TRAINER BATTLE			Biker Ernest 3		
-0x07CC	TRAINER BATTLE			Biker Ernest 4		
-0x07CD	TRAINER BATTLE			Teacher Hillary 2		
-0x07CE	TRAINER BATTLE			Teacher Hillary 3		
-0x07CF	TRAINER BATTLE			Teacher Hillary 4		
-0x07D0	TRAINER BATTLE			School Kid Billy 2		
-0x07D1	TRAINER BATTLE			School Kid Billy 3		
-0x07D2	TRAINER BATTLE			School Kid Billy 4		
-0x07D3	TRAINER BATTLE			Twins Kay and Tia 2		
-0x07D4	TRAINER BATTLE			Twins Kay and Tia 3		
-0x07D5	TRAINER BATTLE			Twins Kay and Tia 4		
-0x07D6	TRAINER BATTLE			Bird Keeper Josh 2		
-0x07D7	TRAINER BATTLE			Bird Keeper Josh 3		
-0x07D8	TRAINER BATTLE			Bird Keeper Josh 4		
-0x07D9	TRAINER BATTLE			School Kid Torin 2		
-0x07DA	TRAINER BATTLE			School Kid Torin 3		
-0x07DB	TRAINER BATTLE			School Kid Torin 4		
-0x07DC	TRAINER BATTLE			Young Couple Tim and Sue 2		
-0x07DD	TRAINER BATTLE			Young Couple Tim and Sue 3		
-0x07DE	TRAINER BATTLE			Young Couple Tim and Sue 4		
-0x07DF	TRAINER BATTLE			Hiker Kenny 2		
-0x07E0	TRAINER BATTLE			Hiker Kenny 3		
-0x07E1	TRAINER BATTLE			Hiker Kenny 4		
-0x07E2	TRAINER BATTLE			Camper Tanner 2		
-0x07E3	TRAINER BATTLE			Camper Tanner 3		
-0x07E4	TRAINER BATTLE			Camper Tanner 4		
-0x07E5	TRAINER BATTLE			Fisherman Kyle 2		
-0x07E6	TRAINER BATTLE			Fisherman Kyle 3		
-0x07E7	TRAINER BATTLE			Fisherman Kyle 4		
-0x07E8	TRAINER BATTLE			Fisherman Kyler 2		
-0x07E9	TRAINER BATTLE			Fisherman Kyler 3		
-0x07EA	TRAINER BATTLE			Fisherman Kyler 4		
-0x07EB	TRAINER BATTLE			Pkmn Trainer Cheryl		
-0x07EC	TRAINER BATTLE			Pkmn Trainer Buck		
-0x07ED	TRAINER BATTLE			Pkmn Trainer Marley		
-0x07EE	TRAINER BATTLE			Pkmn Trainer Riley		
-0x07EF	TRAINER BATTLE			Pkmn Trainer Mira		
-0x07F0	TRAINER BATTLE			Gentleman Alfred 2		
-0x07F1	TRAINER BATTLE			Gentleman Alfred 3		
-0x07F2	TRAINER BATTLE			Gentleman Alfred 4		
-0x07F3	TRAINER BATTLE			Pkmn Trainer Lance		
-0x07F4	TRAINER BATTLE			Sailor Parker		
-0x07F5	TRAINER BATTLE			Sailor Eddie		
-0x07F6	TRAINER BATTLE			Swimmer Joy		
-0x07F7	TRAINER BATTLE			Beauty Callie		
-0x07F8	TRAINER BATTLE			Beauty Kassandra		
-0x07F9	TRAINER BATTLE			Ace Trainer Arabella		
-0x07FA	TRAINER BATTLE			Ace Trainer Bonita		
-0x07FB	TRAINER BATTLE			Ace Trainer Salma		
-0x07FC	TRAINER BATTLE			Double Team Elan and Ida		
-0x07FD	TRAINER BATTLE			Hiker Edwin		
-0x07FE	TRAINER BATTLE			Boarder Bryce		
-0x07FF	TRAINER BATTLE			Boarder Shaun		
-0x0800	TRAINER BATTLE			Skier Cady		
-0x0801	TRAINER BATTLE			Super Nerd Cary		
-0x0802	TRAINER BATTLE			Super Nerd Waldo		
-0x0803	TRAINER BATTLE			Super Nerd Merle		
-0x0804	TRAINER BATTLE			Scientist Lowell		
-0x0805	TRAINER BATTLE			Scientist Linden		
-0x0806	TRAINER BATTLE			Scientist Daniel		
-0x0807	TRAINER BATTLE			Bug Catcher Dane		
-0x0808	TRAINER BATTLE			Bug Catcher Dion		
-0x0809	TRAINER BATTLE			Bug Catcher Stacey		
-0x080A	TRAINER BATTLE			Bug Catcher Ellis		
-0x080B	TRAINER BATTLE			Bug Catcher Abner		
-0x080C	TRAINER BATTLE			Rocket Boss Giovanni		
-0x080D	TRAINER BATTLE			Champion Lance 2		
-0x080E	TRAINER BATTLE			Elite Four Will 2		
-0x080F	TRAINER BATTLE			Elite Four Koga 2		
-0x0810	TRAINER BATTLE			Elite Four Bruno 2		
-0x0811	TRAINER BATTLE			Elite Four Karen 2		
-0x0812	TRAINER BATTLE			Executive Proton 2		
-0x0813	TRAINER BATTLE			Tower Tycoon Palmer		
-0x0814	TRAINER BATTLE			Hall Matron Argenta		
-0x0815	TRAINER BATTLE			Factory Head Thorton		
-0x0816	TRAINER BATTLE			Arcade Star Dahlia		
-0x0817	TRAINER BATTLE			Castle Valet Darach		
-0x0818	TRAINER BATTLE			Leader Falkner 2		
-0x0819	TRAINER BATTLE			Leader Bugsy 2		
-0x081A	TRAINER BATTLE			Leader Whitney 2		
-0x081B	TRAINER BATTLE			Leader Morty 2		
-0x081C	TRAINER BATTLE			Leader Pryce 2		
-0x081D	TRAINER BATTLE			Leader Jasmine 2		
-0x081E	TRAINER BATTLE			Leader Chuck 2		
-0x081F	TRAINER BATTLE			Leader Clair 2		
-0x0820	TRAINER BATTLE			Leader Brock 2		
-0x0821	TRAINER BATTLE			Leader Misty 2		
-0x0822	TRAINER BATTLE			Leader Lt. Surge 2		
-0x0823	TRAINER BATTLE			Leader Erika 2		
-0x0824	TRAINER BATTLE			Leader Janine 2		
-0x0825	TRAINER BATTLE			Leader Sabrina 2		
-0x0826	TRAINER BATTLE			Leader Blaine 2		
-0x0827	TRAINER BATTLE			Leader Blue 2		
-0x0828	TRAINER BATTLE			Beauty Charlotte		
-0x0829	TRAINER BATTLE			Young Couple Duff and Eda		
-0x082A	TRAINER BATTLE			Double Team Thom and Kae		
-0x082B	TRAINER BATTLE			Hiker Devin		
-0x082C	TRAINER BATTLE			Camper Grant		
-0x082D	TRAINER BATTLE			Champion Lance 3		
-0x082E	TRAINER BATTLE			Leader Clair 3		
-0x082F	TRAINER BATTLE			Partner Rival 1		
-0x0830	TRAINER BATTLE			Partner Rival 2		
-0x0831	TRAINER BATTLE			Partner Rival 3		
-0x0832	TRAINER BATTLE					
-0x0833	TRAINER BATTLE					
-0x0834	TRAINER BATTLE					
-0x0835	TRAINER BATTLE					
-0x0836	TRAINER BATTLE					
-0x0837	TRAINER BATTLE					
-0x0838	TRAINER BATTLE					
-0x0839	TRAINER BATTLE					
-0x083A	TRAINER BATTLE					
-0x083B	TRAINER BATTLE					
-0x083C	TRAINER BATTLE					
-0x083D	TRAINER BATTLE					
-0x083E	TRAINER BATTLE					
-0x083F	TRAINER BATTLE					
-0x0840	TRAINER BATTLE					
-0x0841	TRAINER BATTLE					
-0x0842	TRAINER BATTLE					
-0x0843	TRAINER BATTLE					
-0x0844	TRAINER BATTLE					
-0x0845	TRAINER BATTLE					
-0x0846	TRAINER BATTLE					
-0x0847	TRAINER BATTLE					
-0x0848	TRAINER BATTLE					
-0x0849	TRAINER BATTLE					
-0x084A	TRAINER BATTLE					
-0x084B	TRAINER BATTLE					
-0x084C	TRAINER BATTLE					
-0x084D	TRAINER BATTLE					
-0x084E	TRAINER BATTLE					
-0x084F	TRAINER BATTLE					
-0x0850	TRAINER BATTLE					
-0x0851	TRAINER BATTLE					
-0x0852	TRAINER BATTLE					
-0x0853	TRAINER BATTLE					
-0x0854	TRAINER BATTLE					
-0x0855	TRAINER BATTLE					
-0x0856	TRAINER BATTLE					
-0x0857	TRAINER BATTLE					
-0x0858	TRAINER BATTLE					
-0x0859	TRAINER BATTLE					
-0x085A	TRAINER BATTLE					
-0x085B	TRAINER BATTLE					
-0x085C	TRAINER BATTLE					
-0x085D	TRAINER BATTLE					
-0x085E	TRAINER BATTLE					
-0x085F	TRAINER BATTLE					
-0x0860	TRAINER BATTLE					
-0x0861	TRAINER BATTLE					
-0x0862	TRAINER BATTLE					
-0x0863	TRAINER BATTLE					
-0x0864	TRAINER BATTLE					
-0x0865	TRAINER BATTLE					
-0x0866	TRAINER BATTLE					
-0x0867	TRAINER BATTLE					
-0x0868	TRAINER BATTLE					
-0x0869	TRAINER BATTLE					
-0x086A	TRAINER BATTLE					
-0x086B	TRAINER BATTLE					
-0x086C	TRAINER BATTLE					
-0x086D	TRAINER BATTLE					
-0x086E	TRAINER BATTLE					
-0x086F	TRAINER BATTLE					
-0x0870	TRAINER BATTLE					
-0x0871	TRAINER BATTLE					
-0x0872	TRAINER BATTLE					
-0x0873	TRAINER BATTLE					
-0x0874	TRAINER BATTLE					
-0x0875	TRAINER BATTLE					
-0x0876	TRAINER BATTLE					
-0x0877	TRAINER BATTLE					
-0x0878	TRAINER BATTLE					
-0x0879	TRAINER BATTLE					
-0x087A	TRAINER BATTLE					
-0x087B	TRAINER BATTLE					
-0x087C	TRAINER BATTLE					
-0x087D	TRAINER BATTLE					
-0x087E	TRAINER BATTLE					
-0x087F	TRAINER BATTLE					
-0x0880	TRAINER BATTLE					
-0x0881	TRAINER BATTLE					
-0x0882	TRAINER BATTLE					
-0x0883	TRAINER BATTLE					
-0x0884	TRAINER BATTLE					
-0x0885	TRAINER BATTLE					
-0x0886	TRAINER BATTLE					
-0x0887	TRAINER BATTLE					
-0x0888	TRAINER BATTLE					
-0x0889	TRAINER BATTLE					
-0x088A	TRAINER BATTLE					
-0x088B	TRAINER BATTLE					
-0x088C	TRAINER BATTLE					
-0x088D	TRAINER BATTLE					
-0x088E	TRAINER BATTLE					
-0x088F	TRAINER BATTLE					
-0x0890	TRAINER BATTLE					
-0x0891	TRAINER BATTLE					
-0x0892	TRAINER BATTLE					
-0x0893	TRAINER BATTLE					
-0x0894	TRAINER BATTLE					
-0x0895	TRAINER BATTLE					
-0x0896	TRAINER BATTLE					
-0x0897	TRAINER BATTLE					
-0x0898	TRAINER BATTLE					
-0x0899	TRAINER BATTLE					
-0x089A	TRAINER BATTLE					
-0x089B	TRAINER BATTLE					
-0x089C	TRAINER BATTLE					
-0x089D	TRAINER BATTLE					
-0x089E	TRAINER BATTLE					
-0x089F	TRAINER BATTLE					
-0x08A0	TRAINER BATTLE					
-0x08A1	TRAINER BATTLE					
-0x08A2	TRAINER BATTLE					
-0x08A3	TRAINER BATTLE					
-0x08A4	TRAINER BATTLE					
-0x08A5	TRAINER BATTLE					
-0x08A6	TRAINER BATTLE					
-0x08A7	TRAINER BATTLE					
-0x08A8	TRAINER BATTLE					
-0x08A9	TRAINER BATTLE					
-0x08AA	TRAINER BATTLE					
-0x08AB	TRAINER BATTLE					
-0x08AC	TRAINER BATTLE					
-0x08AD	TRAINER BATTLE					
-0x08AE	TRAINER BATTLE					
-0x08AF	TRAINER BATTLE					
-0x08B0	TRAINER BATTLE					
-0x08B1	TRAINER BATTLE					
-0x08B2	TRAINER BATTLE					
-0x08B3	TRAINER BATTLE					
-0x08B4	TRAINER BATTLE					
-0x08B5	TRAINER BATTLE					
-0x08B6	TRAINER BATTLE					
-0x08B7	TRAINER BATTLE					
-0x08B8	TRAINER BATTLE					
-0x08B9	TRAINER BATTLE					
-0x08BA	TRAINER BATTLE					
-0x08BB	TRAINER BATTLE					
-0x08BC	TRAINER BATTLE					
-0x08BD	TRAINER BATTLE					
-0x08BE	TRAINER BATTLE					
-0x08BF	TRAINER BATTLE					
-0x08C0	TRAINER BATTLE					
-0x08C1	TRAINER BATTLE					
-0x08C2	TRAINER BATTLE					
-0x08C3	TRAINER BATTLE					
-0x08C4	TRAINER BATTLE					
-0x08C5	TRAINER BATTLE					
-0x08C6	TRAINER BATTLE					
-0x08C7	TRAINER BATTLE					
-0x08C8	TRAINER BATTLE					
-0x08C9	TRAINER BATTLE					
-0x08CA	TRAINER BATTLE					
-0x08CB	TRAINER BATTLE					
-0x08CC	TRAINER BATTLE					
-0x08CD	TRAINER BATTLE					
-0x08CE	TRAINER BATTLE					
-0x08CF	TRAINER BATTLE					
-0x08D0	TRAINER BATTLE					
-0x08D1	TRAINER BATTLE					
-0x08D2	TRAINER BATTLE					
-0x08D3	TRAINER BATTLE					
-0x08D4	TRAINER BATTLE					
-0x08D5	TRAINER BATTLE					
-0x08D6	TRAINER BATTLE					
-0x08D7	TRAINER BATTLE					
-0x08D8	TRAINER BATTLE					
-0x08D9	TRAINER BATTLE					
-0x08DA	TRAINER BATTLE					
-0x08DB	TRAINER BATTLE					
-0x08DC	TRAINER BATTLE					
-0x08DD	TRAINER BATTLE					
-0x08DE	TRAINER BATTLE					
-0x08DF	TRAINER BATTLE					
-0x08E0	TRAINER BATTLE					
-0x08E1	TRAINER BATTLE					
-0x08E2	TRAINER BATTLE					
-0x08E3	TRAINER BATTLE					
-0x08E4	TRAINER BATTLE					
-0x08E5	TRAINER BATTLE					
-0x08E6	TRAINER BATTLE					
-0x08E7	TRAINER BATTLE					
-0x08E8	TRAINER BATTLE					
-0x08E9	TRAINER BATTLE					
-0x08EA	TRAINER BATTLE					
-0x08EB	TRAINER BATTLE					
-0x08EC	TRAINER BATTLE					
-0x08ED	TRAINER BATTLE					
-0x08EE	TRAINER BATTLE					
-0x08EF	TRAINER BATTLE					
-0x08F0	TRAINER BATTLE					
-0x08F1	TRAINER BATTLE					
-0x08F2	TRAINER BATTLE					
-0x08F3	TRAINER BATTLE					
-0x08F4	TRAINER BATTLE					
-0x08F5	TRAINER BATTLE					
-0x08F6	TRAINER BATTLE					
-0x08F7	TRAINER BATTLE					
-0x08F8	TRAINER BATTLE					
-0x08F9	TRAINER BATTLE					
-0x08FA	TRAINER BATTLE					
-0x08FB	TRAINER BATTLE					
-0x08FC	TRAINER BATTLE					
-0x08FD	TRAINER BATTLE					
-0x08FE	TRAINER BATTLE					
-0x08FF	TRAINER BATTLE					
-0x0900	TRAINER BATTLE					
-0x0901	TRAINER BATTLE					
-0x0902	TRAINER BATTLE					
-0x0903	TRAINER BATTLE					
-0x0904	TRAINER BATTLE					
-0x0905	TRAINER BATTLE					
-0x0906	TRAINER BATTLE					
-0x0907	TRAINER BATTLE					
-0x0908	TRAINER BATTLE					
-0x0909	TRAINER BATTLE					
-0x090A	TRAINER BATTLE					
-0x090B	TRAINER BATTLE					
-0x090C	TRAINER BATTLE					
-0x090D	TRAINER BATTLE					
-0x090E	TRAINER BATTLE					
-0x090F	TRAINER BATTLE					
-0x0910	TRAINER BATTLE					
-0x0911	TRAINER BATTLE					
-0x0912	TRAINER BATTLE					
-0x0913	TRAINER BATTLE					
-0x0914	TRAINER BATTLE					
-0x0915	TRAINER BATTLE					
-0x0916	TRAINER BATTLE					
-0x0917	TRAINER BATTLE					
-0x0918	TRAINER BATTLE					
-0x0919	TRAINER BATTLE					
-0x091A	TRAINER BATTLE					
-0x091B	TRAINER BATTLE					
-0x091C	TRAINER BATTLE					
-0x091D	TRAINER BATTLE					
-0x091E	TRAINER BATTLE					
-0x091F	TRAINER BATTLE					
-0x0920	TRAINER BATTLE					
-0x0921	TRAINER BATTLE					
-0x0922	TRAINER BATTLE					
-0x0923	TRAINER BATTLE					
+0x0550	_UNUSED					TR_FLAG_000
+0x0551	TRAINER BATTLE			Rival Silver		TR_FLAG_001
+0x0552	TRAINER BATTLE			Rival Silver 2		TR_FLAG_002
+0x0553	TRAINER BATTLE			Rival Silver 3		TR_FLAG_003
+0x0554	TRAINER BATTLE			Bug Catcher Wade		TR_FLAG_004
+0x0555	TRAINER BATTLE			Beauty Victoria		TR_FLAG_005
+0x0556	TRAINER BATTLE			Policeman Keith (Night)		TR_FLAG_006
+0x0557	TRAINER BATTLE			Juggler Irwin		TR_FLAG_007
+0x0558	TRAINER BATTLE			Youngster Joey		TR_FLAG_008
+0x0559	TRAINER BATTLE			Swimmer Elaine		TR_FLAG_009
+0x055A	TRAINER BATTLE			Twins Amy and Mimi		TR_FLAG_010
+0x055B	TRAINER BATTLE			Kimono Girl Mickey		TR_FLAG_011
+0x055C	TRAINER BATTLE			Team Rocket Grunt		TR_FLAG_012
+0x055D	TRAINER BATTLE			Team Rocket Grunt		TR_FLAG_013
+0x055E	TRAINER BATTLE			Burglar Duncan		TR_FLAG_014
+0x055F	TRAINER BATTLE			Firebreather Otis		TR_FLAG_015
+0x0560	TRAINER BATTLE			Swimmer Simon		TR_FLAG_016
+0x0561	TRAINER BATTLE			Black Belt Kenji		TR_FLAG_017
+0x0562	TRAINER BATTLE			Fisherman Justin		TR_FLAG_018
+0x0563	TRAINER BATTLE			Biker Mickey		TR_FLAG_019
+0x0564	TRAINER BATTLE			Leader Falkner		TR_FLAG_020
+0x0565	TRAINER BATTLE			Leader Bugsy		TR_FLAG_021
+0x0566	TRAINER BATTLE			Lass Carrie		TR_FLAG_022
+0x0567	TRAINER BATTLE			Poke Maniac Larry		TR_FLAG_023
+0x0568	TRAINER BATTLE			School Kid Alan		TR_FLAG_024
+0x0569	TRAINER BATTLE			Hiker Russel		TR_FLAG_025
+0x056A	TRAINER BATTLE			Camper Roland		TR_FLAG_026
+0x056B	TRAINER BATTLE			Picnicker Liz		TR_FLAG_027
+0x056C	TRAINER BATTLE			Ace Trainer Jake		TR_FLAG_028
+0x056D	TRAINER BATTLE			Bird Keeper Rod		TR_FLAG_029
+0x056E	TRAINER BATTLE			Leader Whitney		TR_FLAG_030
+0x056F	TRAINER BATTLE			Leader Morty		TR_FLAG_031
+0x0570	TRAINER BATTLE			Leader Pryce		TR_FLAG_032
+0x0571	TRAINER BATTLE			Leader Jasmine		TR_FLAG_033
+0x0572	TRAINER BATTLE			Leader Chuck		TR_FLAG_034
+0x0573	TRAINER BATTLE			Leader Clair		TR_FLAG_035
+0x0574	TRAINER BATTLE			Ace Trainer Joyce		TR_FLAG_036
+0x0575	TRAINER BATTLE			Gentleman Preston		TR_FLAG_037
+0x0576	TRAINER BATTLE			Teacher Colette		TR_FLAG_038
+0x0577	TRAINER BATTLE			Sailor Eugene		TR_FLAG_039
+0x0578	TRAINER BATTLE			Super Nerd Mickey		TR_FLAG_040
+0x0579	TRAINER BATTLE			Guitarist Clyde		TR_FLAG_041
+0x057A	TRAINER BATTLE			Psychic Nathan		TR_FLAG_042
+0x057B	TRAINER BATTLE			Sage Chow		TR_FLAG_043
+0x057C	TRAINER BATTLE			Pokefan Derek		TR_FLAG_044
+0x057D	TRAINER BATTLE			Pokefan Ruth		TR_FLAG_045
+0x057E	TRAINER BATTLE			Medium Martha		TR_FLAG_046
+0x057F	TRAINER BATTLE			Youngster Mikey		TR_FLAG_047
+0x0580	TRAINER BATTLE			Bug Catcher Rob		TR_FLAG_048
+0x0581	TRAINER BATTLE			Youngster Albert		TR_FLAG_049
+0x0582	TRAINER BATTLE			Bird Keeper Abe		TR_FLAG_050
+0x0583	TRAINER BATTLE			Sage Nico		TR_FLAG_051
+0x0584	TRAINER BATTLE			Sage Edmond		TR_FLAG_052
+0x0585	TRAINER BATTLE			Sage Jin		TR_FLAG_053
+0x0586	TRAINER BATTLE			Sage Troy		TR_FLAG_054
+0x0587	TRAINER BATTLE			Sage Neal		TR_FLAG_055
+0x0588	TRAINER BATTLE			Youngster Gordon		TR_FLAG_056
+0x0589	TRAINER BATTLE			Fisherman Ralph		TR_FLAG_057
+0x058A	TRAINER BATTLE			Fisherman Arnold		TR_FLAG_058
+0x058B	TRAINER BATTLE			Fisherman Kyle		TR_FLAG_059
+0x058C	TRAINER BATTLE			Fisherman Henry		TR_FLAG_060
+0x058D	TRAINER BATTLE			Hiker Anthony		TR_FLAG_061
+0x058E	TRAINER BATTLE			Youngster Samuel		TR_FLAG_062
+0x058F	TRAINER BATTLE			Team Rocket Mickey		TR_FLAG_063
+0x0590	TRAINER BATTLE			Youngster Ian		TR_FLAG_064
+0x0591	TRAINER BATTLE			Picnicker Gina		TR_FLAG_065
+0x0592	TRAINER BATTLE			Camper Todd		TR_FLAG_066
+0x0593	TRAINER BATTLE			Bug Catcher Benny		TR_FLAG_067
+0x0594	TRAINER BATTLE			Bug Catcher Al		TR_FLAG_068
+0x0595	TRAINER BATTLE			Bug Catcher Josh		TR_FLAG_069
+0x0596	TRAINER BATTLE			Beauty Samantha		TR_FLAG_070
+0x0597	TRAINER BATTLE			Lass Cathy		TR_FLAG_071
+0x0598	TRAINER BATTLE			Bird Keeper Bryan		TR_FLAG_072
+0x0599	TRAINER BATTLE			Bird Keeper Theo		TR_FLAG_073
+0x059A	TRAINER BATTLE			Camper Ivan		TR_FLAG_074
+0x059B	TRAINER BATTLE			Camper Elliot		TR_FLAG_075
+0x059C	TRAINER BATTLE			Picnicker Brooke		TR_FLAG_076
+0x059D	TRAINER BATTLE			Picnicker Kim		TR_FLAG_077
+0x059E	TRAINER BATTLE			Bug Catcher Arnie		TR_FLAG_078
+0x059F	TRAINER BATTLE			Bug Catcher Ken		TR_FLAG_079
+0x05A0	TRAINER BATTLE			Policeman Dirk (Night)		TR_FLAG_080
+0x05A1	TRAINER BATTLE			Twins Tori and Til		TR_FLAG_081
+0x05A2	TRAINER BATTLE			Bird Keeper Toby		TR_FLAG_082
+0x05A3	TRAINER BATTLE			Picnicker Cindy		TR_FLAG_083
+0x05A4	TRAINER BATTLE			Camper Barry		TR_FLAG_084
+0x05A5	TRAINER BATTLE			Swimmer Paula		TR_FLAG_085
+0x05A6	TRAINER BATTLE			Swimmer Randall		TR_FLAG_086
+0x05A7	TRAINER BATTLE			Sage Mickey		TR_FLAG_087
+0x05A8	TRAINER BATTLE			Sage Mickey 2		TR_FLAG_088
+0x05A9	TRAINER BATTLE			Medium Grace		TR_FLAG_089
+0x05AA	TRAINER BATTLE			Swimmer Kaylee		TR_FLAG_090
+0x05AB	TRAINER BATTLE			Swimmer Susie		TR_FLAG_091
+0x05AC	TRAINER BATTLE			Swimmer Denise		TR_FLAG_092
+0x05AD	TRAINER BATTLE			Swimmer Kara		TR_FLAG_093
+0x05AE	TRAINER BATTLE			Swimmer Wendy		TR_FLAG_094
+0x05AF	TRAINER BATTLE			Swimmer Charlie		TR_FLAG_095
+0x05B0	TRAINER BATTLE			Swimmer George		TR_FLAG_096
+0x05B1	TRAINER BATTLE			Swimmer Berke		TR_FLAG_097
+0x05B2	TRAINER BATTLE			Swimmer Ronald		TR_FLAG_098
+0x05B3	TRAINER BATTLE			Swimmer Matthew		TR_FLAG_099
+0x05B4	TRAINER BATTLE			Hiker Anthony 2		TR_FLAG_100
+0x05B5	TRAINER BATTLE			Team Rocket Grunt 2		TR_FLAG_101
+0x05B6	TRAINER BATTLE			Ace Trainer Gaven		TR_FLAG_102
+0x05B7	TRAINER BATTLE			Ace Trainer Blake		TR_FLAG_103
+0x05B8	TRAINER BATTLE			Ace Trainer Brian		TR_FLAG_104
+0x05B9	TRAINER BATTLE			Ace Trainer Mickey		TR_FLAG_105
+0x05BA	TRAINER BATTLE			Ace Trainer Mickey 2		TR_FLAG_106
+0x05BB	TRAINER BATTLE			Ace Trainer Mickey 3		TR_FLAG_107
+0x05BC	TRAINER BATTLE			Ace Trainer Ryan		TR_FLAG_108
+0x05BD	TRAINER BATTLE			Ace Trainer Alton		TR_FLAG_109
+0x05BE	TRAINER BATTLE			Ace Trainer Paulo		TR_FLAG_110
+0x05BF	TRAINER BATTLE			Ace Trainer Mike		TR_FLAG_111
+0x05C0	TRAINER BATTLE			Ace Trainer Cody		TR_FLAG_112
+0x05C1	TRAINER BATTLE			Ace Trainer Jamie		TR_FLAG_113
+0x05C2	TRAINER BATTLE			Ace Trainer Reena		TR_FLAG_114
+0x05C3	TRAINER BATTLE			Ace Trainer Megan		TR_FLAG_115
+0x05C4	TRAINER BATTLE			Ace Trainer Lois		TR_FLAG_116
+0x05C5	TRAINER BATTLE			Ace Trainer Lola		TR_FLAG_117
+0x05C6	TRAINER BATTLE			Ace Trainer Kate		TR_FLAG_118
+0x05C7	TRAINER BATTLE			Ace Trainer Fran		TR_FLAG_119
+0x05C8	TRAINER BATTLE			Ace Trainer Irene		TR_FLAG_120
+0x05C9	TRAINER BATTLE			Ace Trainer Kelly		TR_FLAG_121
+0x05CA	TRAINER BATTLE			Fisherman Marvin		TR_FLAG_122
+0x05CB	TRAINER BATTLE			Fisherman Tully		TR_FLAG_123
+0x05CC	TRAINER BATTLE			Fisherman Wilton		TR_FLAG_124
+0x05CD	TRAINER BATTLE			Fisherman Edgar		TR_FLAG_125
+0x05CE	TRAINER BATTLE			Fisherman Andre		TR_FLAG_126
+0x05CF	TRAINER BATTLE			Fisherman Raymond		TR_FLAG_127
+0x05D0	TRAINER BATTLE			Fisherman Jonah		TR_FLAG_128
+0x05D1	TRAINER BATTLE			Poke Maniac Shane		TR_FLAG_129
+0x05D2	TRAINER BATTLE			Poke Maniac Beckett		TR_FLAG_130
+0x05D3	TRAINER BATTLE			Poke Maniac Brent		TR_FLAG_131
+0x05D4	TRAINER BATTLE			Poke Maniac Ron		TR_FLAG_132
+0x05D5	TRAINER BATTLE			Poke Maniac Morgan		TR_FLAG_133
+0x05D6	TRAINER BATTLE			Hiker Benjamin		TR_FLAG_134
+0x05D7	TRAINER BATTLE			School Kid Johnny		TR_FLAG_135
+0x05D8	TRAINER BATTLE			Lass Linda		TR_FLAG_136
+0x05D9	TRAINER BATTLE			Bird Keeper Vance		TR_FLAG_137
+0x05DA	TRAINER BATTLE			Camper Mickey		TR_FLAG_138
+0x05DB	TRAINER BATTLE			Picnicker Debra		TR_FLAG_139
+0x05DC	TRAINER BATTLE			Bug Catcher Doug		TR_FLAG_140
+0x05DD	TRAINER BATTLE			Camper Mickey 2		TR_FLAG_141
+0x05DE	TRAINER BATTLE			Picnicker Gina 2		TR_FLAG_142
+0x05DF	TRAINER BATTLE			Hiker Erik		TR_FLAG_143
+0x05E0	TRAINER BATTLE			Hiker Michael		TR_FLAG_144
+0x05E1	TRAINER BATTLE			Hiker Parry		TR_FLAG_145
+0x05E2	TRAINER BATTLE			Hiker Timothy		TR_FLAG_146
+0x05E3	TRAINER BATTLE			Camper Ted		TR_FLAG_147
+0x05E4	TRAINER BATTLE			Camper Lloyd		TR_FLAG_148
+0x05E5	TRAINER BATTLE			Camper Dean		TR_FLAG_149
+0x05E6	TRAINER BATTLE			Camper Sid		TR_FLAG_150
+0x05E7	TRAINER BATTLE			Picnicker Erin		TR_FLAG_151
+0x05E8	TRAINER BATTLE			Picnicker Hope		TR_FLAG_152
+0x05E9	TRAINER BATTLE			Picnicker Sharon		TR_FLAG_153
+0x05EA	TRAINER BATTLE			Hiker Bailey		TR_FLAG_154
+0x05EB	TRAINER BATTLE			Hiker Anthony 3		TR_FLAG_155
+0x05EC	TRAINER BATTLE			Black Belt Yoshi		TR_FLAG_156
+0x05ED	TRAINER BATTLE			Black Belt Lao		TR_FLAG_157
+0x05EE	TRAINER BATTLE			Black Belt Kiyo		TR_FLAG_158
+0x05EF	TRAINER BATTLE			Black Belt Lung		TR_FLAG_159
+0x05F0	TRAINER BATTLE			Kimono Girl Naoko		TR_FLAG_160
+0x05F1	TRAINER BATTLE			Kimono Girl Sayo		TR_FLAG_161
+0x05F2	TRAINER BATTLE			Kimono Girl Zuki		TR_FLAG_162
+0x05F3	TRAINER BATTLE			Kimono Girl Kuni		TR_FLAG_163
+0x05F4	TRAINER BATTLE			Kimono Girl Miki		TR_FLAG_164
+0x05F5	TRAINER BATTLE			Swimmer Mickey		TR_FLAG_165
+0x05F6	TRAINER BATTLE			Swimmer Mickey 2		TR_FLAG_166
+0x05F7	TRAINER BATTLE			Swimmer Mickey 3		TR_FLAG_167
+0x05F8	TRAINER BATTLE			Swimmer Mickey		TR_FLAG_168
+0x05F9	TRAINER BATTLE			Swimmer Mickey 2		TR_FLAG_169
+0x05FA	TRAINER BATTLE			Swimmer Mickey 3		TR_FLAG_170
+0x05FB	TRAINER BATTLE			Swimmer Mickey 4		TR_FLAG_171
+0x05FC	TRAINER BATTLE			Poke Maniac Brent 2		TR_FLAG_172
+0x05FD	TRAINER BATTLE			Poke Maniac Brent 3		TR_FLAG_173
+0x05FE	TRAINER BATTLE			Biker Mickey 2		TR_FLAG_174
+0x05FF	TRAINER BATTLE			Medium Bethany		TR_FLAG_175
+0x0600	TRAINER BATTLE			Medium Margaret		TR_FLAG_176
+0x0601	TRAINER BATTLE			Medium Ethel		TR_FLAG_177
+0x0602	TRAINER BATTLE			School Kid Jack		TR_FLAG_178
+0x0603	TRAINER BATTLE			School Kid Kipp		TR_FLAG_179
+0x0604	TRAINER BATTLE			Beauty Mickey		TR_FLAG_180
+0x0605	TRAINER BATTLE			Pokefan William		TR_FLAG_181
+0x0606	TRAINER BATTLE			Pokefan Beverly		TR_FLAG_182
+0x0607	TRAINER BATTLE			Lass Alice		TR_FLAG_183
+0x0608	TRAINER BATTLE			Lass Krise		TR_FLAG_184
+0x0609	TRAINER BATTLE			Team Rocket Grunt 3		TR_FLAG_185
+0x060A	TRAINER BATTLE			Team Rocket Grunt 4		TR_FLAG_186
+0x060B	TRAINER BATTLE			Team Rocket Grunt 5		TR_FLAG_187
+0x060C	TRAINER BATTLE			Team Rocket Grunt 6		TR_FLAG_188
+0x060D	TRAINER BATTLE			Team Rocket Grunt 7		TR_FLAG_189
+0x060E	TRAINER BATTLE			Team Rocket Grunt 8		TR_FLAG_190
+0x060F	TRAINER BATTLE			Team Rocket Grunt 9		TR_FLAG_191
+0x0610	TRAINER BATTLE			Team Rocket Grunt 10		TR_FLAG_192
+0x0611	TRAINER BATTLE			Team Rocket Grunt 11		TR_FLAG_193
+0x0612	TRAINER BATTLE			Team Rocket Mickey 2		TR_FLAG_194
+0x0613	TRAINER BATTLE			Team Rocket Grunt 12		TR_FLAG_195
+0x0614	TRAINER BATTLE			Team Rocket Grunt 13		TR_FLAG_196
+0x0615	TRAINER BATTLE			Team Rocket Grunt 14		TR_FLAG_197
+0x0616	TRAINER BATTLE			Team Rocket Grunt 2		TR_FLAG_198
+0x0617	TRAINER BATTLE			Team Rocket Grunt 3		TR_FLAG_199
+0x0618	TRAINER BATTLE			Team Rocket Grunt 4		TR_FLAG_200
+0x0619	TRAINER BATTLE			Poke Maniac Andrew		TR_FLAG_201
+0x061A	TRAINER BATTLE			Poke Maniac Calvin		TR_FLAG_202
+0x061B	TRAINER BATTLE			Hiker Phillip		TR_FLAG_203
+0x061C	TRAINER BATTLE			Hiker Leonard		TR_FLAG_204
+0x061D	TRAINER BATTLE			Ace Trainer Nick		TR_FLAG_205
+0x061E	TRAINER BATTLE			Ace Trainer Gwen		TR_FLAG_206
+0x061F	TRAINER BATTLE			Beauty Mickey 2		TR_FLAG_207
+0x0620	TRAINER BATTLE			Beauty Mickey 3		TR_FLAG_208
+0x0621	TRAINER BATTLE			Beauty Cassie		TR_FLAG_209
+0x0622	TRAINER BATTLE			Beauty Caroline		TR_FLAG_210
+0x0623	TRAINER BATTLE			Sailor Huey		TR_FLAG_211
+0x0624	TRAINER BATTLE			Sailor Terrell		TR_FLAG_212
+0x0625	TRAINER BATTLE			Sailor Kent		TR_FLAG_213
+0x0626	TRAINER BATTLE			Sailor Roberto		TR_FLAG_214
+0x0627	TRAINER BATTLE			Lass Connie		TR_FLAG_215
+0x0628	TRAINER BATTLE			Team Rocket Grunt 15		TR_FLAG_216
+0x0629	TRAINER BATTLE			Bird Keeper Denis		TR_FLAG_217
+0x062A	TRAINER BATTLE			Team Rocket Grunt 16		TR_FLAG_218
+0x062B	TRAINER BATTLE			Team Rocket Grunt 17		TR_FLAG_219
+0x062C	TRAINER BATTLE			Team Rocket Grunt 18		TR_FLAG_220
+0x062D	TRAINER BATTLE			Team Rocket Mickey 3		TR_FLAG_221
+0x062E	TRAINER BATTLE			Team Rocket Grunt 19		TR_FLAG_222
+0x062F	TRAINER BATTLE			Team Rocket Grunt 20		TR_FLAG_223
+0x0630	TRAINER BATTLE			Team Rocket Grunt 21		TR_FLAG_224
+0x0631	TRAINER BATTLE			Team Rocket Mickey 4		TR_FLAG_225
+0x0632	TRAINER BATTLE			Team Rocket Mickey 5		TR_FLAG_226
+0x0633	TRAINER BATTLE			Team Rocket Grunt 22		TR_FLAG_227
+0x0634	TRAINER BATTLE			Team Rocket Grunt 23		TR_FLAG_228
+0x0635	TRAINER BATTLE			Team Rocket Mickey 6		TR_FLAG_229
+0x0636	TRAINER BATTLE			Psychic Franklin		TR_FLAG_230
+0x0637	TRAINER BATTLE			Gentleman Edward		TR_FLAG_231
+0x0638	TRAINER BATTLE			Guitarist Vincent		TR_FLAG_232
+0x0639	TRAINER BATTLE			Super Nerd Eric		TR_FLAG_233
+0x063A	TRAINER BATTLE			Hiker Eoin		TR_FLAG_234
+0x063B	TRAINER BATTLE			Hiker Noland		TR_FLAG_235
+0x063C	TRAINER BATTLE			Ace Trainer Shaye		TR_FLAG_236
+0x063D	TRAINER BATTLE			Ace Trainer Carol		TR_FLAG_237
+0x063E	TRAINER BATTLE			Sailor Stanly		TR_FLAG_238
+0x063F	TRAINER BATTLE			Sailor Jeff		TR_FLAG_239
+0x0640	TRAINER BATTLE			Sailor Garrett		TR_FLAG_240
+0x0641	TRAINER BATTLE			Sailor Kenneth		TR_FLAG_241
+0x0642	TRAINER BATTLE			Juggler Fritz		TR_FLAG_242
+0x0643	TRAINER BATTLE			Swimmer Katie		TR_FLAG_243
+0x0644	TRAINER BATTLE			Champion Lance		TR_FLAG_244
+0x0645	TRAINER BATTLE			Elite Four Will Will		TR_FLAG_245
+0x0646	TRAINER BATTLE			Elite Four Karen Karen		TR_FLAG_246
+0x0647	TRAINER BATTLE			Elite Four Koga Koga		TR_FLAG_247
+0x0648	TRAINER BATTLE			Bug Catcher Ed		TR_FLAG_248
+0x0649	TRAINER BATTLE			Bug Catcher Don		TR_FLAG_249
+0x064A	TRAINER BATTLE			Black Belt Kenji 2		TR_FLAG_250
+0x064B	TRAINER BATTLE			Black Belt Nob		TR_FLAG_251
+0x064C	TRAINER BATTLE			Swimmer Harold		TR_FLAG_252
+0x064D	TRAINER BATTLE			Leader Brock		TR_FLAG_253
+0x064E	TRAINER BATTLE			Leader Misty		TR_FLAG_254
+0x064F	TRAINER BATTLE			Leader Lt. Surge		TR_FLAG_255
+0x0650	TRAINER BATTLE			Leader Erika		TR_FLAG_256
+0x0651	TRAINER BATTLE			Leader Janine		TR_FLAG_257
+0x0652	TRAINER BATTLE			Leader Sabrina		TR_FLAG_258
+0x0653	TRAINER BATTLE			Leader Blaine		TR_FLAG_259
+0x0654	TRAINER BATTLE			Pkmn Trainer Red		TR_FLAG_260
+0x0655	TRAINER BATTLE			Leader Blue		TR_FLAG_261
+0x0656	TRAINER BATTLE			Team Rocket Mickey 7		TR_FLAG_262
+0x0657	TRAINER BATTLE			Rival Silver 4		TR_FLAG_263
+0x0658	TRAINER BATTLE			Rival Silver 5		TR_FLAG_264
+0x0659	TRAINER BATTLE			Rival Silver 6		TR_FLAG_265
+0x065A	TRAINER BATTLE			Rival Silver 7		TR_FLAG_266
+0x065B	TRAINER BATTLE			Rival Silver 8		TR_FLAG_267
+0x065C	TRAINER BATTLE			Rival Silver 9		TR_FLAG_268
+0x065D	TRAINER BATTLE			Rival Silver 10		TR_FLAG_269
+0x065E	TRAINER BATTLE			Rival Silver 11		TR_FLAG_270
+0x065F	TRAINER BATTLE			Rival Silver 12		TR_FLAG_271
+0x0660	TRAINER BATTLE			Rival Silver 13		TR_FLAG_272
+0x0661	TRAINER BATTLE			Swimmer Mickey 5		TR_FLAG_273
+0x0662	TRAINER BATTLE			Camper Todd 2		TR_FLAG_274
+0x0663	TRAINER BATTLE			Camper Todd 3		TR_FLAG_275
+0x0664	TRAINER BATTLE			Picnicker Liz 2		TR_FLAG_276
+0x0665	TRAINER BATTLE			Picnicker Liz 3		TR_FLAG_277
+0x0666	TRAINER BATTLE			Black Belt Kenji 3		TR_FLAG_278
+0x0667	TRAINER BATTLE			Youngster Joey 2		TR_FLAG_279
+0x0668	TRAINER BATTLE			Youngster Joey 3		TR_FLAG_280
+0x0669	TRAINER BATTLE			Firebreather Richard		TR_FLAG_281
+0x066A	TRAINER BATTLE			Firebreather Ned		TR_FLAG_282
+0x066B	TRAINER BATTLE			Burglar Orson		TR_FLAG_283
+0x066C	TRAINER BATTLE			Burglar Corey		TR_FLAG_284
+0x066D	TRAINER BATTLE			Rival Silver 14		TR_FLAG_285
+0x066E	TRAINER BATTLE			Rival Silver 15		TR_FLAG_286
+0x066F	TRAINER BATTLE			Rival Silver 16		TR_FLAG_287
+0x0670	TRAINER BATTLE			Rival Silver 17		TR_FLAG_288
+0x0671	TRAINER BATTLE			Rival Silver 18		TR_FLAG_289
+0x0672	TRAINER BATTLE			Elder Li		TR_FLAG_290
+0x0673	TRAINER BATTLE			Swimmer Debbie		TR_FLAG_291
+0x0674	TRAINER BATTLE			Swimmer Mickey 4		TR_FLAG_292
+0x0675	TRAINER BATTLE			Swimmer Nicole		TR_FLAG_293
+0x0676	TRAINER BATTLE			Swimmer Lori		TR_FLAG_294
+0x0677	TRAINER BATTLE			Swimmer Mickey 5		TR_FLAG_295
+0x0678	TRAINER BATTLE			Swimmer Nikki		TR_FLAG_296
+0x0679	TRAINER BATTLE			Swimmer Diana		TR_FLAG_297
+0x067A	TRAINER BATTLE			Swimmer Briana		TR_FLAG_298
+0x067B	TRAINER BATTLE			Bird Keeper Hank		TR_FLAG_299
+0x067C	TRAINER BATTLE			Bird Keeper Roy		TR_FLAG_300
+0x067D	TRAINER BATTLE			Bird Keeper Boris		TR_FLAG_301
+0x067E	TRAINER BATTLE			Bird Keeper Bob		TR_FLAG_302
+0x067F	TRAINER BATTLE			Bird Keeper Jose		TR_FLAG_303
+0x0680	TRAINER BATTLE			Camper Mickey 3		TR_FLAG_304
+0x0681	TRAINER BATTLE			Camper Mickey 4		TR_FLAG_305
+0x0682	TRAINER BATTLE			Camper Mickey 5		TR_FLAG_306
+0x0683	TRAINER BATTLE			Camper Mickey 6		TR_FLAG_307
+0x0684	TRAINER BATTLE			Camper Jerry		TR_FLAG_308
+0x0685	TRAINER BATTLE			Biker Dwayne		TR_FLAG_309
+0x0686	TRAINER BATTLE			Biker Harris		TR_FLAG_310
+0x0687	TRAINER BATTLE			Biker Zeke		TR_FLAG_311
+0x0688	TRAINER BATTLE			Biker Charles		TR_FLAG_312
+0x0689	TRAINER BATTLE			Biker Reese		TR_FLAG_313
+0x068A	TRAINER BATTLE			Biker Joel		TR_FLAG_314
+0x068B	TRAINER BATTLE			Biker Glenn		TR_FLAG_315
+0x068C	TRAINER BATTLE			Psychic Herman		TR_FLAG_316
+0x068D	TRAINER BATTLE			Psychic Fidel		TR_FLAG_317
+0x068E	TRAINER BATTLE			Firebreather Burt		TR_FLAG_318
+0x068F	TRAINER BATTLE			Firebreather Bill		TR_FLAG_319
+0x0690	TRAINER BATTLE			Fisherman Martin		TR_FLAG_320
+0x0691	TRAINER BATTLE			Fisherman Stephen		TR_FLAG_321
+0x0692	TRAINER BATTLE			Fisherman Barney		TR_FLAG_322
+0x0693	TRAINER BATTLE			Fisherman Tully 2		TR_FLAG_323
+0x0694	TRAINER BATTLE			Fisherman Tully 3		TR_FLAG_324
+0x0695	TRAINER BATTLE			Fisherman Wilton 2		TR_FLAG_325
+0x0696	TRAINER BATTLE			Twins Jo and Zoe		TR_FLAG_326
+0x0697	TRAINER BATTLE			School Kid Danny		TR_FLAG_327
+0x0698	TRAINER BATTLE			School Kid Tommy		TR_FLAG_328
+0x0699	TRAINER BATTLE			School Kid Dudley		TR_FLAG_329
+0x069A	TRAINER BATTLE			School Kid Joe		TR_FLAG_330
+0x069B	TRAINER BATTLE			School Kid Billy		TR_FLAG_331
+0x069C	TRAINER BATTLE			Picnicker Heidi		TR_FLAG_332
+0x069D	TRAINER BATTLE			Picnicker Edna		TR_FLAG_333
+0x069E	TRAINER BATTLE			Picnicker Gina 3		TR_FLAG_334
+0x069F	TRAINER BATTLE			Picnicker Erin 2		TR_FLAG_335
+0x06A0	TRAINER BATTLE			Picnicker Tanya		TR_FLAG_336
+0x06A1	TRAINER BATTLE			Gentleman Gregory		TR_FLAG_337
+0x06A2	TRAINER BATTLE			Gentleman Mickey		TR_FLAG_338
+0x06A3	TRAINER BATTLE			Black Belt Wai		TR_FLAG_339
+0x06A4	TRAINER BATTLE			Beauty Mickey 4		TR_FLAG_340
+0x06A5	TRAINER BATTLE			Beauty Mickey 5		TR_FLAG_341
+0x06A6	TRAINER BATTLE			Beauty Mickey 6		TR_FLAG_342
+0x06A7	TRAINER BATTLE			Beauty Mickey 7		TR_FLAG_343
+0x06A8	TRAINER BATTLE			Beauty Mickey 8		TR_FLAG_344
+0x06A9	TRAINER BATTLE			Beauty Mickey 9		TR_FLAG_345
+0x06AA	TRAINER BATTLE			Beauty Julia		TR_FLAG_346
+0x06AB	TRAINER BATTLE			Beauty Mickey 10		TR_FLAG_347
+0x06AC	TRAINER BATTLE			Pokefan Robert		TR_FLAG_348
+0x06AD	TRAINER BATTLE			Pokefan Joshua		TR_FLAG_349
+0x06AE	TRAINER BATTLE			Pokefan Carter		TR_FLAG_350
+0x06AF	TRAINER BATTLE			Pokefan Trevor		TR_FLAG_351
+0x06B0	TRAINER BATTLE			Pokefan Georgia		TR_FLAG_352
+0x06B1	TRAINER BATTLE			Team Rocket Grunt 24		TR_FLAG_353
+0x06B2	TRAINER BATTLE			Lass Laura		TR_FLAG_354
+0x06B3	TRAINER BATTLE			Lass Shannon		TR_FLAG_355
+0x06B4	TRAINER BATTLE			Lass Michelle		TR_FLAG_356
+0x06B5	TRAINER BATTLE			Hiker Clarke		TR_FLAG_357
+0x06B6	TRAINER BATTLE			Hiker Kenny		TR_FLAG_358
+0x06B7	TRAINER BATTLE			Hiker Jim		TR_FLAG_359
+0x06B8	TRAINER BATTLE			Bug Catcher Arnie 2		TR_FLAG_360
+0x06B9	TRAINER BATTLE			Ace Trainer Kevin		TR_FLAG_361
+0x06BA	TRAINER BATTLE			Ace Trainer Quinn		TR_FLAG_362
+0x06BB	TRAINER BATTLE			Ace Trainer Emma		TR_FLAG_363
+0x06BC	TRAINER BATTLE			Super Nerd Sam		TR_FLAG_364
+0x06BD	TRAINER BATTLE			Super Nerd Tyrone		TR_FLAG_365
+0x06BE	TRAINER BATTLE			Super Nerd Pat		TR_FLAG_366
+0x06BF	TRAINER BATTLE			Super Nerd Shawn		TR_FLAG_367
+0x06C0	TRAINER BATTLE			Medium Rebecca		TR_FLAG_368
+0x06C1	TRAINER BATTLE			Medium Darcy		TR_FLAG_369
+0x06C2	TRAINER BATTLE			Swimmer Jerome		TR_FLAG_370
+0x06C3	TRAINER BATTLE			Swimmer Tucker		TR_FLAG_371
+0x06C4	TRAINER BATTLE			Swimmer Mickey 6		TR_FLAG_372
+0x06C5	TRAINER BATTLE			Swimmer Frankie		TR_FLAG_373
+0x06C6	TRAINER BATTLE			Swimmer Tyson		TR_FLAG_374
+0x06C7	TRAINER BATTLE			Swimmer Mickey 7		TR_FLAG_375
+0x06C8	TRAINER BATTLE			Swimmer Mickey 8		TR_FLAG_376
+0x06C9	TRAINER BATTLE			Swimmer Parker		TR_FLAG_377
+0x06CA	TRAINER BATTLE			Youngster Warren		TR_FLAG_378
+0x06CB	TRAINER BATTLE			Youngster Jimmy		TR_FLAG_379
+0x06CC	TRAINER BATTLE			Youngster Owen		TR_FLAG_380
+0x06CD	TRAINER BATTLE			Youngster Jason		TR_FLAG_381
+0x06CE	TRAINER BATTLE			Teacher Hillary		TR_FLAG_382
+0x06CF	TRAINER BATTLE			Bird Keeper Peter		TR_FLAG_383
+0x06D0	TRAINER BATTLE			Hiker Daniel		TR_FLAG_384
+0x06D1	TRAINER BATTLE			Twins Dara and Dia		TR_FLAG_385
+0x06D2	TRAINER BATTLE			Psychic Greg		TR_FLAG_386
+0x06D3	TRAINER BATTLE			Twins Amy and Mimi 2		TR_FLAG_387
+0x06D4	TRAINER BATTLE			Firebreather Walt		TR_FLAG_388
+0x06D5	TRAINER BATTLE			Psychic Nelson		TR_FLAG_389
+0x06D6	TRAINER BATTLE			Firebreather Ray		TR_FLAG_390
+0x06D7	TRAINER BATTLE			Poke Maniac Issac		TR_FLAG_391
+0x06D8	TRAINER BATTLE			Poke Maniac Donald		TR_FLAG_392
+0x06D9	TRAINER BATTLE			Super Nerd Teru		TR_FLAG_393
+0x06DA	TRAINER BATTLE			Ace Trainer Mickey 4		TR_FLAG_394
+0x06DB	TRAINER BATTLE			Psychic Mark		TR_FLAG_395
+0x06DC	TRAINER BATTLE			Juggler Horton		TR_FLAG_396
+0x06DD	TRAINER BATTLE			School Kid Chad		TR_FLAG_397
+0x06DE	TRAINER BATTLE			Beauty Valerie		TR_FLAG_398
+0x06DF	TRAINER BATTLE			Firebreather Lyle		TR_FLAG_399
+0x06E0	TRAINER BATTLE			Lass Dana		TR_FLAG_400
+0x06E1	TRAINER BATTLE			Gentleman Alfred		TR_FLAG_401
+0x06E2	TRAINER BATTLE			Picnicker Tiffany		TR_FLAG_402
+0x06E3	TRAINER BATTLE			Camper Spencer		TR_FLAG_403
+0x06E4	TRAINER BATTLE			Team Rocket Grunt 5		TR_FLAG_404
+0x06E5	TRAINER BATTLE			Psychic Phil		TR_FLAG_405
+0x06E6	TRAINER BATTLE			Poke Maniac Zach		TR_FLAG_406
+0x06E7	TRAINER BATTLE			Ace Trainer Allen		TR_FLAG_407
+0x06E8	TRAINER BATTLE			Ace Trainer Cybil		TR_FLAG_408
+0x06E9	TRAINER BATTLE			Pokefan Brandon		TR_FLAG_409
+0x06EA	TRAINER BATTLE			Sailor Harry		TR_FLAG_410
+0x06EB	TRAINER BATTLE			Psychic Vernon		TR_FLAG_411
+0x06EC	TRAINER BATTLE			Psychic Eli		TR_FLAG_412
+0x06ED	TRAINER BATTLE			Fisherman Scott		TR_FLAG_413
+0x06EE	TRAINER BATTLE			Bird Keeper Jose 2		TR_FLAG_414
+0x06EF	TRAINER BATTLE			Psychic Jared		TR_FLAG_415
+0x06F0	TRAINER BATTLE			Twins Jo and Zoe 2		TR_FLAG_416
+0x06F1	TRAINER BATTLE			Ace Trainer Jenn		TR_FLAG_417
+0x06F2	TRAINER BATTLE			Elite Four Bruno Bruno		TR_FLAG_418
+0x06F3	TRAINER BATTLE			Lass Ellen		TR_FLAG_419
+0x06F4	TRAINER BATTLE			Bird Keeper Perry		TR_FLAG_420
+0x06F5	TRAINER BATTLE			Bird Keeper Bret		TR_FLAG_421
+0x06F6	TRAINER BATTLE			Psychic Rodney		TR_FLAG_422
+0x06F7	TRAINER BATTLE			Pokefan Jeremy		TR_FLAG_423
+0x06F8	TRAINER BATTLE			Pokefan Colin		TR_FLAG_424
+0x06F9	TRAINER BATTLE			Twins Meg and Peg		TR_FLAG_425
+0x06FA	TRAINER BATTLE			Twins Meg and Peg 2		TR_FLAG_426
+0x06FB	TRAINER BATTLE			Teacher Shirley		TR_FLAG_427
+0x06FC	TRAINER BATTLE			School Kid Nate		TR_FLAG_428
+0x06FD	TRAINER BATTLE			School Kid Ricky		TR_FLAG_429
+0x06FE	TRAINER BATTLE			School Kid Jack 2		TR_FLAG_430
+0x06FF	TRAINER BATTLE			School Kid Jack 3		TR_FLAG_431
+0x0700	TRAINER BATTLE			School Kid Alan 2		TR_FLAG_432
+0x0701	TRAINER BATTLE			School Kid Alan 3		TR_FLAG_433
+0x0702	TRAINER BATTLE			School Kid Chad 2		TR_FLAG_434
+0x0703	TRAINER BATTLE			School Kid Chad 3		TR_FLAG_435
+0x0704	TRAINER BATTLE			Pokefan Beverly 2		TR_FLAG_436
+0x0705	TRAINER BATTLE			Pokefan Beverly 3		TR_FLAG_437
+0x0706	TRAINER BATTLE			Pokefan Derek 2		TR_FLAG_438
+0x0707	TRAINER BATTLE			Pokefan Derek 3		TR_FLAG_439
+0x0708	TRAINER BATTLE			Sailor Huey 2		TR_FLAG_440
+0x0709	TRAINER BATTLE			Sailor Huey 3		TR_FLAG_441
+0x070A	TRAINER BATTLE			Lass Mickey		TR_FLAG_442
+0x070B	TRAINER BATTLE			Lass Mickey 2		TR_FLAG_443
+0x070C	TRAINER BATTLE			Ace Trainer Reena 2		TR_FLAG_444
+0x070D	TRAINER BATTLE			Ace Trainer Reena 3		TR_FLAG_445
+0x070E	TRAINER BATTLE			Bird Keeper Jose 3		TR_FLAG_446
+0x070F	TRAINER BATTLE			Bird Keeper Vance 2		TR_FLAG_447
+0x0710	TRAINER BATTLE			Bird Keeper Vance 3		TR_FLAG_448
+0x0711	TRAINER BATTLE			Bug Catcher Arnie 3		TR_FLAG_449
+0x0712	TRAINER BATTLE			Fisherman Wilton 3		TR_FLAG_450
+0x0713	TRAINER BATTLE			Hiker Parry 2		TR_FLAG_451
+0x0714	TRAINER BATTLE			Hiker Parry 3		TR_FLAG_452
+0x0715	TRAINER BATTLE			Picnicker Erin 3		TR_FLAG_453
+0x0716	TRAINER BATTLE			Juggler Irwin 2		TR_FLAG_454
+0x0717	TRAINER BATTLE			Juggler Irwin 3		TR_FLAG_455
+0x0718	TRAINER BATTLE			Ace Trainer Gaven 2		TR_FLAG_456
+0x0719	TRAINER BATTLE			Ace Trainer Gaven 3		TR_FLAG_457
+0x071A	TRAINER BATTLE			Ace Trainer Jamie 2		TR_FLAG_458
+0x071B	TRAINER BATTLE			Ace Trainer Jamie 3		TR_FLAG_459
+0x071C	TRAINER BATTLE			Bug Catcher Wade 2		TR_FLAG_460
+0x071D	TRAINER BATTLE			Bug Catcher Wade 3		TR_FLAG_461
+0x071E	TRAINER BATTLE			Fisherman Ralph 2		TR_FLAG_462
+0x071F	TRAINER BATTLE			Fisherman Ralph 3		TR_FLAG_463
+0x0720	TRAINER BATTLE			Lass Dana 2		TR_FLAG_464
+0x0721	TRAINER BATTLE			Lass Dana 3		TR_FLAG_465
+0x0722	TRAINER BATTLE			Picnicker Tiffany 2		TR_FLAG_466
+0x0723	TRAINER BATTLE			Picnicker Tiffany 3		TR_FLAG_467
+0x0724	TRAINER BATTLE			Scientist Ross		TR_FLAG_468
+0x0725	TRAINER BATTLE			Scientist Mitch		TR_FLAG_469
+0x0726	TRAINER BATTLE			Scientist Gregg		TR_FLAG_470
+0x0727	TRAINER BATTLE			Scientist Garett		TR_FLAG_471
+0x0728	TRAINER BATTLE			Scientist Trenton		TR_FLAG_472
+0x0729	TRAINER BATTLE			Super Nerd Mickey 2		TR_FLAG_473
+0x072A	TRAINER BATTLE			Super Nerd Mickey 3		TR_FLAG_474
+0x072B	TRAINER BATTLE			Super Nerd Mickey 4		TR_FLAG_475
+0x072C	TRAINER BATTLE			Super Nerd Mickey 5		TR_FLAG_476
+0x072D	TRAINER BATTLE			Super Nerd Mickey 6		TR_FLAG_477
+0x072E	TRAINER BATTLE			Executive Ariana		TR_FLAG_478
+0x072F	TRAINER BATTLE			Executive Ariana 2		TR_FLAG_479
+0x0730	TRAINER BATTLE			Skier Diana		TR_FLAG_480
+0x0731	TRAINER BATTLE			Skier Jill		TR_FLAG_481
+0x0732	TRAINER BATTLE			Boarder Deandre		TR_FLAG_482
+0x0733	TRAINER BATTLE			Boarder Patton		TR_FLAG_483
+0x0734	TRAINER BATTLE			Boarder Gerardo		TR_FLAG_484
+0x0735	TRAINER BATTLE			Executive Archer		TR_FLAG_485
+0x0736	TRAINER BATTLE			Executive Proton		TR_FLAG_486
+0x0737	TRAINER BATTLE			Executive Petrel		TR_FLAG_487
+0x0738	TRAINER BATTLE			Executive Petrel 2		TR_FLAG_488
+0x0739	TRAINER BATTLE			Rival Silver 19		TR_FLAG_489
+0x073A	TRAINER BATTLE			Rival Silver 20		TR_FLAG_490
+0x073B	TRAINER BATTLE			Rival Silver 21		TR_FLAG_491
+0x073C	TRAINER BATTLE			Pokefan Alex		TR_FLAG_492
+0x073D	TRAINER BATTLE			Medium Edith		TR_FLAG_493
+0x073E	TRAINER BATTLE			Medium Georgina		TR_FLAG_494
+0x073F	TRAINER BATTLE			Passerby Boy		TR_FLAG_495
+0x0740	TRAINER BATTLE			Passerby Boy 2		TR_FLAG_496
+0x0741	TRAINER BATTLE			Passerby Boy 3		TR_FLAG_497
+0x0742	TRAINER BATTLE			Mystery Man Eusine		TR_FLAG_498
+0x0743	TRAINER BATTLE			Team Rocket Grunt 25		TR_FLAG_499
+0x0744	TRAINER BATTLE			Ace Trainer Kobe		TR_FLAG_500
+0x0745	TRAINER BATTLE			Ace Trainer Piper		TR_FLAG_501
+0x0746	TRAINER BATTLE			Twins Clea and Gil		TR_FLAG_502
+0x0747	TRAINER BATTLE			School Kid Jack 4		TR_FLAG_503
+0x0748	TRAINER BATTLE			School Kid Mickey		TR_FLAG_504
+0x0749	TRAINER BATTLE			School Kid Alan 4		TR_FLAG_505
+0x074A	TRAINER BATTLE			School Kid Mickey 2		TR_FLAG_506
+0x074B	TRAINER BATTLE			School Kid Chad 4		TR_FLAG_507
+0x074C	TRAINER BATTLE			School Kid Mickey 3		TR_FLAG_508
+0x074D	TRAINER BATTLE			Sailor Huey 4		TR_FLAG_509
+0x074E	TRAINER BATTLE			Youngster Joey 4		TR_FLAG_510
+0x074F	TRAINER BATTLE			Youngster Mickey		TR_FLAG_511
+0x0750	TRAINER BATTLE			Bug Catcher Wade 4		TR_FLAG_512
+0x0751	TRAINER BATTLE			Bug Catcher Arnie 4		TR_FLAG_513
+0x0752	TRAINER BATTLE			Bug Catcher Mickey		TR_FLAG_514
+0x0753	TRAINER BATTLE			Fisherman Ralph 4		TR_FLAG_515
+0x0754	TRAINER BATTLE			Fisherman Mickey		TR_FLAG_516
+0x0755	TRAINER BATTLE			Fisherman Tully 4		TR_FLAG_517
+0x0756	TRAINER BATTLE			Picnicker Liz 4		TR_FLAG_518
+0x0757	TRAINER BATTLE			Picnicker Mickey		TR_FLAG_519
+0x0758	TRAINER BATTLE			Picnicker Gina 4		TR_FLAG_520
+0x0759	TRAINER BATTLE			Picnicker Mickey 2		TR_FLAG_521
+0x075A	TRAINER BATTLE			Picnicker Tiffany 4		TR_FLAG_522
+0x075B	TRAINER BATTLE			Hiker Anthony 4		TR_FLAG_523
+0x075C	TRAINER BATTLE			Hiker Mickey		TR_FLAG_524
+0x075D	TRAINER BATTLE			Camper Todd 4		TR_FLAG_525
+0x075E	TRAINER BATTLE			Camper Mickey 7		TR_FLAG_526
+0x075F	TRAINER BATTLE			Juggler Irwin 4		TR_FLAG_527
+0x0760	TRAINER BATTLE			Lass Dana 4		TR_FLAG_528
+0x0761	TRAINER BATTLE			Lass Mickey 3		TR_FLAG_529
+0x0762	TRAINER BATTLE			Poke Maniac Brent 4		TR_FLAG_530
+0x0763	TRAINER BATTLE			Twins Mickey		TR_FLAG_531
+0x0764	TRAINER BATTLE			Bug Catcher Mickey 2		TR_FLAG_532
+0x0765	TRAINER BATTLE			Bug Catcher Wayne		TR_FLAG_533
+0x0766	TRAINER BATTLE			Beauty Kimberly		TR_FLAG_534
+0x0767	TRAINER BATTLE			Pokefan Marigold		TR_FLAG_535
+0x0768	TRAINER BATTLE			Camper Bertrand		TR_FLAG_536
+0x0769	TRAINER BATTLE			Poke Maniac Harrison		TR_FLAG_537
+0x076A	TRAINER BATTLE			Super Nerd Hugh		TR_FLAG_538
+0x076B	TRAINER BATTLE			Super Nerd Markus		TR_FLAG_539
+0x076C	TRAINER BATTLE			Pokefan Rex		TR_FLAG_540
+0x076D	TRAINER BATTLE			Pokefan Andy		TR_FLAG_541
+0x076E	TRAINER BATTLE			Sage Mickey 3		TR_FLAG_542
+0x076F	TRAINER BATTLE			Sage Mickey 4		TR_FLAG_543
+0x0770	TRAINER BATTLE			Sage Mickey 5		TR_FLAG_544
+0x0771	TRAINER BATTLE			Ace Trainer French		TR_FLAG_545
+0x0772	TRAINER BATTLE			School Kid Sherman		TR_FLAG_546
+0x0773	TRAINER BATTLE			Hiker Bruce		TR_FLAG_547
+0x0774	TRAINER BATTLE			Black Belt Manford		TR_FLAG_548
+0x0775	TRAINER BATTLE			Double Team Zac and Jen		TR_FLAG_549
+0x0776	TRAINER BATTLE			Black Belt Ander		TR_FLAG_550
+0x0777	TRAINER BATTLE			Hiker Dwight		TR_FLAG_551
+0x0778	TRAINER BATTLE			Youngster Regis		TR_FLAG_552
+0x0779	TRAINER BATTLE			Young Couple Moe and Lulu		TR_FLAG_553
+0x077A	TRAINER BATTLE			Gentleman Milton		TR_FLAG_554
+0x077B	TRAINER BATTLE			Bird Keeper Justin		TR_FLAG_555
+0x077C	TRAINER BATTLE			Bird Keeper Gail		TR_FLAG_556
+0x077D	TRAINER BATTLE			Young Couple Vic and Tara		TR_FLAG_557
+0x077E	TRAINER BATTLE			Fisherman Kyler		TR_FLAG_558
+0x077F	TRAINER BATTLE			Young Couple Tim and Sue		TR_FLAG_559
+0x0780	TRAINER BATTLE			Camper Clark		TR_FLAG_560
+0x0781	TRAINER BATTLE			Camper Tanner		TR_FLAG_561
+0x0782	TRAINER BATTLE			Picnicker Piper		TR_FLAG_562
+0x0783	TRAINER BATTLE			Picnicker Ginger		TR_FLAG_563
+0x0784	TRAINER BATTLE			Teacher Clarice		TR_FLAG_564
+0x0785	TRAINER BATTLE			Bird Keeper Josh		TR_FLAG_565
+0x0786	TRAINER BATTLE			School Kid Connor		TR_FLAG_566
+0x0787	TRAINER BATTLE			School Kid Torin		TR_FLAG_567
+0x0788	TRAINER BATTLE			School Kid Travis		TR_FLAG_568
+0x0789	TRAINER BATTLE			Twins Kay and Tia		TR_FLAG_569
+0x078A	TRAINER BATTLE			Pokefan Boone		TR_FLAG_570
+0x078B	TRAINER BATTLE			Pokefan Eleanor		TR_FLAG_571
+0x078C	TRAINER BATTLE			Biker Dale		TR_FLAG_572
+0x078D	TRAINER BATTLE			Biker Jacob		TR_FLAG_573
+0x078E	TRAINER BATTLE			Biker Aiden		TR_FLAG_574
+0x078F	TRAINER BATTLE			Biker Dan		TR_FLAG_575
+0x0790	TRAINER BATTLE			Biker Theron		TR_FLAG_576
+0x0791	TRAINER BATTLE			Biker Markey		TR_FLAG_577
+0x0792	TRAINER BATTLE			Biker Teddy		TR_FLAG_578
+0x0793	TRAINER BATTLE			Biker Ernest		TR_FLAG_579
+0x0794	TRAINER BATTLE			Camper Pedro		TR_FLAG_580
+0x0795	TRAINER BATTLE			Picnicker Adrian		TR_FLAG_581
+0x0796	TRAINER BATTLE			Picnicker Cheyenne		TR_FLAG_582
+0x0797	TRAINER BATTLE			Bird Keeper Bert		TR_FLAG_583
+0x0798	TRAINER BATTLE			Bird Keeper Ernie		TR_FLAG_584
+0x0799	TRAINER BATTLE			Swimmer Elmo		TR_FLAG_585
+0x079A	TRAINER BATTLE			Swimmer Luis		TR_FLAG_586
+0x079B	TRAINER BATTLE			Swimmer Leona		TR_FLAG_587
+0x079C	TRAINER BATTLE	Route 20		Swimmer Mina		TR_FLAG_588
+0x079D	TRAINER BATTLE			Fisherman Murphy		TR_FLAG_589
+0x079E	TRAINER BATTLE			Fisherman Liam		TR_FLAG_590
+0x079F	TRAINER BATTLE			Fisherman Gideon		TR_FLAG_591
+0x07A0	TRAINER BATTLE			Swimmer Chelan		TR_FLAG_592
+0x07A1	TRAINER BATTLE			Swimmer Kendra		TR_FLAG_593
+0x07A2	TRAINER BATTLE			Swimmer Esteban		TR_FLAG_594
+0x07A3	TRAINER BATTLE			Swimmer Duane		TR_FLAG_595
+0x07A4	TRAINER BATTLE			Bird Keeper Kinsley		TR_FLAG_596
+0x07A5	TRAINER BATTLE	Route 21		Bird Keeper Easton		TR_FLAG_597
+0x07A6	TRAINER BATTLE			Twins Day and Dani		TR_FLAG_598
+0x07A7	TRAINER BATTLE			Camper Virgil		TR_FLAG_599
+0x07A8	TRAINER BATTLE			Picnicker Selina		TR_FLAG_600
+0x07A9	TRAINER BATTLE			Team Rocket Grunt 26		TR_FLAG_601
+0x07AA	TRAINER BATTLE			Bird Keeper Jose 4		TR_FLAG_602
+0x07AB	TRAINER BATTLE			Picnicker Erin 4		TR_FLAG_603
+0x07AC	TRAINER BATTLE			Ace Trainer Gaven 4		TR_FLAG_604
+0x07AD	TRAINER BATTLE			Black Belt Kenji 4		TR_FLAG_605
+0x07AE	TRAINER BATTLE			Hiker Parry 4		TR_FLAG_606
+0x07AF	TRAINER BATTLE			Ace Trainer Reena 4		TR_FLAG_607
+0x07B0	TRAINER BATTLE			Fisherman Wilton 4		TR_FLAG_608
+0x07B1	TRAINER BATTLE			Ace Trainer Jamie 4		TR_FLAG_609
+0x07B2	TRAINER BATTLE			Pokefan Derek 4		TR_FLAG_610
+0x07B3	TRAINER BATTLE			Pokefan Beverly 4		TR_FLAG_611
+0x07B4	TRAINER BATTLE			Bird Keeper Vance 4		TR_FLAG_612
+0x07B5	TRAINER BATTLE			Lass Krise 2		TR_FLAG_613
+0x07B6	TRAINER BATTLE			Lass Krise 3		TR_FLAG_614
+0x07B7	TRAINER BATTLE			Lass Krise 4		TR_FLAG_615
+0x07B8	TRAINER BATTLE			Youngster Ian 2		TR_FLAG_616
+0x07B9	TRAINER BATTLE			Youngster Ian 3		TR_FLAG_617
+0x07BA	TRAINER BATTLE			Youngster Ian 4		TR_FLAG_618
+0x07BB	TRAINER BATTLE			Firebreather Walt 2		TR_FLAG_619
+0x07BC	TRAINER BATTLE			Firebreather Walt 3		TR_FLAG_620
+0x07BD	TRAINER BATTLE			Firebreather Walt 4		TR_FLAG_621
+0x07BE	TRAINER BATTLE			Bug Catcher Doug 2		TR_FLAG_622
+0x07BF	TRAINER BATTLE			Bug Catcher Doug 3		TR_FLAG_623
+0x07C0	TRAINER BATTLE			Bug Catcher Doug 4		TR_FLAG_624
+0x07C1	TRAINER BATTLE			Bug Catcher Rob 2		TR_FLAG_625
+0x07C2	TRAINER BATTLE			Bug Catcher Rob 3		TR_FLAG_626
+0x07C3	TRAINER BATTLE			Bug Catcher Rob 4		TR_FLAG_627
+0x07C4	TRAINER BATTLE			Biker Reese 2		TR_FLAG_628
+0x07C5	TRAINER BATTLE			Biker Reese 3		TR_FLAG_629
+0x07C6	TRAINER BATTLE			Biker Reese 4		TR_FLAG_630
+0x07C7	TRAINER BATTLE			Biker Aiden 2		TR_FLAG_631
+0x07C8	TRAINER BATTLE			Biker Aiden 3		TR_FLAG_632
+0x07C9	TRAINER BATTLE			Biker Aiden 4		TR_FLAG_633
+0x07CA	TRAINER BATTLE			Biker Ernest 2		TR_FLAG_634
+0x07CB	TRAINER BATTLE			Biker Ernest 3		TR_FLAG_635
+0x07CC	TRAINER BATTLE			Biker Ernest 4		TR_FLAG_636
+0x07CD	TRAINER BATTLE			Teacher Hillary 2		TR_FLAG_637
+0x07CE	TRAINER BATTLE			Teacher Hillary 3		TR_FLAG_638
+0x07CF	TRAINER BATTLE			Teacher Hillary 4		TR_FLAG_639
+0x07D0	TRAINER BATTLE			School Kid Billy 2		TR_FLAG_640
+0x07D1	TRAINER BATTLE			School Kid Billy 3		TR_FLAG_641
+0x07D2	TRAINER BATTLE			School Kid Billy 4		TR_FLAG_642
+0x07D3	TRAINER BATTLE			Twins Kay and Tia 2		TR_FLAG_643
+0x07D4	TRAINER BATTLE			Twins Kay and Tia 3		TR_FLAG_644
+0x07D5	TRAINER BATTLE			Twins Kay and Tia 4		TR_FLAG_645
+0x07D6	TRAINER BATTLE			Bird Keeper Josh 2		TR_FLAG_646
+0x07D7	TRAINER BATTLE			Bird Keeper Josh 3		TR_FLAG_647
+0x07D8	TRAINER BATTLE			Bird Keeper Josh 4		TR_FLAG_648
+0x07D9	TRAINER BATTLE			School Kid Torin 2		TR_FLAG_649
+0x07DA	TRAINER BATTLE			School Kid Torin 3		TR_FLAG_650
+0x07DB	TRAINER BATTLE			School Kid Torin 4		TR_FLAG_651
+0x07DC	TRAINER BATTLE			Young Couple Tim and Sue 2		TR_FLAG_652
+0x07DD	TRAINER BATTLE			Young Couple Tim and Sue 3		TR_FLAG_653
+0x07DE	TRAINER BATTLE			Young Couple Tim and Sue 4		TR_FLAG_654
+0x07DF	TRAINER BATTLE			Hiker Kenny 2		TR_FLAG_655
+0x07E0	TRAINER BATTLE			Hiker Kenny 3		TR_FLAG_656
+0x07E1	TRAINER BATTLE			Hiker Kenny 4		TR_FLAG_657
+0x07E2	TRAINER BATTLE			Camper Tanner 2		TR_FLAG_658
+0x07E3	TRAINER BATTLE			Camper Tanner 3		TR_FLAG_659
+0x07E4	TRAINER BATTLE			Camper Tanner 4		TR_FLAG_660
+0x07E5	TRAINER BATTLE			Fisherman Kyle 2		TR_FLAG_661
+0x07E6	TRAINER BATTLE			Fisherman Kyle 3		TR_FLAG_662
+0x07E7	TRAINER BATTLE			Fisherman Kyle 4		TR_FLAG_663
+0x07E8	TRAINER BATTLE			Fisherman Kyler 2		TR_FLAG_664
+0x07E9	TRAINER BATTLE			Fisherman Kyler 3		TR_FLAG_665
+0x07EA	TRAINER BATTLE			Fisherman Kyler 4		TR_FLAG_666
+0x07EB	TRAINER BATTLE			Pkmn Trainer Cheryl		TR_FLAG_667
+0x07EC	TRAINER BATTLE			Pkmn Trainer Buck		TR_FLAG_668
+0x07ED	TRAINER BATTLE			Pkmn Trainer Marley		TR_FLAG_669
+0x07EE	TRAINER BATTLE			Pkmn Trainer Riley		TR_FLAG_670
+0x07EF	TRAINER BATTLE			Pkmn Trainer Mira		TR_FLAG_671
+0x07F0	TRAINER BATTLE			Gentleman Alfred 2		TR_FLAG_672
+0x07F1	TRAINER BATTLE			Gentleman Alfred 3		TR_FLAG_673
+0x07F2	TRAINER BATTLE			Gentleman Alfred 4		TR_FLAG_674
+0x07F3	TRAINER BATTLE			Pkmn Trainer Lance		TR_FLAG_675
+0x07F4	TRAINER BATTLE			Sailor Parker		TR_FLAG_676
+0x07F5	TRAINER BATTLE			Sailor Eddie		TR_FLAG_677
+0x07F6	TRAINER BATTLE			Swimmer Joy		TR_FLAG_678
+0x07F7	TRAINER BATTLE			Beauty Callie		TR_FLAG_679
+0x07F8	TRAINER BATTLE			Beauty Kassandra		TR_FLAG_680
+0x07F9	TRAINER BATTLE			Ace Trainer Arabella		TR_FLAG_681
+0x07FA	TRAINER BATTLE			Ace Trainer Bonita		TR_FLAG_682
+0x07FB	TRAINER BATTLE			Ace Trainer Salma		TR_FLAG_683
+0x07FC	TRAINER BATTLE			Double Team Elan and Ida		TR_FLAG_684
+0x07FD	TRAINER BATTLE			Hiker Edwin		TR_FLAG_685
+0x07FE	TRAINER BATTLE			Boarder Bryce		TR_FLAG_686
+0x07FF	TRAINER BATTLE			Boarder Shaun		TR_FLAG_687
+0x0800	TRAINER BATTLE			Skier Cady		TR_FLAG_688
+0x0801	TRAINER BATTLE			Super Nerd Cary		TR_FLAG_689
+0x0802	TRAINER BATTLE			Super Nerd Waldo		TR_FLAG_690
+0x0803	TRAINER BATTLE			Super Nerd Merle		TR_FLAG_691
+0x0804	TRAINER BATTLE			Scientist Lowell		TR_FLAG_692
+0x0805	TRAINER BATTLE			Scientist Linden		TR_FLAG_693
+0x0806	TRAINER BATTLE			Scientist Daniel		TR_FLAG_694
+0x0807	TRAINER BATTLE			Bug Catcher Dane		TR_FLAG_695
+0x0808	TRAINER BATTLE			Bug Catcher Dion		TR_FLAG_696
+0x0809	TRAINER BATTLE			Bug Catcher Stacey		TR_FLAG_697
+0x080A	TRAINER BATTLE			Bug Catcher Ellis		TR_FLAG_698
+0x080B	TRAINER BATTLE			Bug Catcher Abner		TR_FLAG_699
+0x080C	TRAINER BATTLE			Rocket Boss Giovanni		TR_FLAG_700
+0x080D	TRAINER BATTLE			Champion Lance 2		TR_FLAG_701
+0x080E	TRAINER BATTLE			Elite Four Will 2		TR_FLAG_702
+0x080F	TRAINER BATTLE			Elite Four Koga 2		TR_FLAG_703
+0x0810	TRAINER BATTLE			Elite Four Bruno 2		TR_FLAG_704
+0x0811	TRAINER BATTLE			Elite Four Karen 2		TR_FLAG_705
+0x0812	TRAINER BATTLE			Executive Proton 2		TR_FLAG_706
+0x0813	TRAINER BATTLE			Tower Tycoon Palmer		TR_FLAG_707
+0x0814	TRAINER BATTLE			Hall Matron Argenta		TR_FLAG_708
+0x0815	TRAINER BATTLE			Factory Head Thorton		TR_FLAG_709
+0x0816	TRAINER BATTLE			Arcade Star Dahlia		TR_FLAG_710
+0x0817	TRAINER BATTLE			Castle Valet Darach		TR_FLAG_711
+0x0818	TRAINER BATTLE			Leader Falkner 2		TR_FLAG_712
+0x0819	TRAINER BATTLE			Leader Bugsy 2		TR_FLAG_713
+0x081A	TRAINER BATTLE			Leader Whitney 2		TR_FLAG_714
+0x081B	TRAINER BATTLE			Leader Morty 2		TR_FLAG_715
+0x081C	TRAINER BATTLE			Leader Pryce 2		TR_FLAG_716
+0x081D	TRAINER BATTLE			Leader Jasmine 2		TR_FLAG_717
+0x081E	TRAINER BATTLE			Leader Chuck 2		TR_FLAG_718
+0x081F	TRAINER BATTLE			Leader Clair 2		TR_FLAG_719
+0x0820	TRAINER BATTLE			Leader Brock 2		TR_FLAG_720
+0x0821	TRAINER BATTLE			Leader Misty 2		TR_FLAG_721
+0x0822	TRAINER BATTLE			Leader Lt. Surge 2		TR_FLAG_722
+0x0823	TRAINER BATTLE			Leader Erika 2		TR_FLAG_723
+0x0824	TRAINER BATTLE			Leader Janine 2		TR_FLAG_724
+0x0825	TRAINER BATTLE			Leader Sabrina 2		TR_FLAG_725
+0x0826	TRAINER BATTLE			Leader Blaine 2		TR_FLAG_726
+0x0827	TRAINER BATTLE			Leader Blue 2		TR_FLAG_727
+0x0828	TRAINER BATTLE			Beauty Charlotte		TR_FLAG_728
+0x0829	TRAINER BATTLE			Young Couple Duff and Eda		TR_FLAG_729
+0x082A	TRAINER BATTLE			Double Team Thom and Kae		TR_FLAG_730
+0x082B	TRAINER BATTLE			Hiker Devin		TR_FLAG_731
+0x082C	TRAINER BATTLE			Camper Grant		TR_FLAG_732
+0x082D	TRAINER BATTLE			Champion Lance 3		TR_FLAG_733
+0x082E	TRAINER BATTLE			Leader Clair 3		TR_FLAG_734
+0x082F	TRAINER BATTLE			Partner Rival 1		TR_FLAG_735
+0x0830	TRAINER BATTLE			Partner Rival 2		TR_FLAG_736
+0x0831	TRAINER BATTLE			Partner Rival 3		TR_FLAG_737
+0x0832	TRAINER BATTLE					TR_FLAG_738
+0x0833	TRAINER BATTLE					TR_FLAG_739
+0x0834	TRAINER BATTLE					TR_FLAG_740
+0x0835	TRAINER BATTLE					TR_FLAG_741
+0x0836	TRAINER BATTLE					TR_FLAG_742
+0x0837	TRAINER BATTLE					TR_FLAG_743
+0x0838	TRAINER BATTLE					TR_FLAG_744
+0x0839	TRAINER BATTLE					TR_FLAG_745
+0x083A	TRAINER BATTLE					TR_FLAG_746
+0x083B	TRAINER BATTLE					TR_FLAG_747
+0x083C	TRAINER BATTLE					TR_FLAG_748
+0x083D	TRAINER BATTLE					TR_FLAG_749
+0x083E	TRAINER BATTLE					TR_FLAG_750
+0x083F	TRAINER BATTLE					TR_FLAG_751
+0x0840	TRAINER BATTLE					TR_FLAG_752
+0x0841	TRAINER BATTLE					TR_FLAG_753
+0x0842	TRAINER BATTLE					TR_FLAG_754
+0x0843	TRAINER BATTLE					TR_FLAG_755
+0x0844	TRAINER BATTLE					TR_FLAG_756
+0x0845	TRAINER BATTLE					TR_FLAG_757
+0x0846	TRAINER BATTLE					TR_FLAG_758
+0x0847	TRAINER BATTLE					TR_FLAG_759
+0x0848	TRAINER BATTLE					TR_FLAG_760
+0x0849	TRAINER BATTLE					TR_FLAG_761
+0x084A	TRAINER BATTLE					TR_FLAG_762
+0x084B	TRAINER BATTLE					TR_FLAG_763
+0x084C	TRAINER BATTLE					TR_FLAG_764
+0x084D	TRAINER BATTLE					TR_FLAG_765
+0x084E	TRAINER BATTLE					TR_FLAG_766
+0x084F	TRAINER BATTLE					TR_FLAG_767
+0x0850	TRAINER BATTLE					TR_FLAG_768
+0x0851	TRAINER BATTLE					TR_FLAG_769
+0x0852	TRAINER BATTLE					TR_FLAG_770
+0x0853	TRAINER BATTLE					TR_FLAG_771
+0x0854	TRAINER BATTLE					TR_FLAG_772
+0x0855	TRAINER BATTLE					TR_FLAG_773
+0x0856	TRAINER BATTLE					TR_FLAG_774
+0x0857	TRAINER BATTLE					TR_FLAG_775
+0x0858	TRAINER BATTLE					TR_FLAG_776
+0x0859	TRAINER BATTLE					TR_FLAG_777
+0x085A	TRAINER BATTLE					TR_FLAG_778
+0x085B	TRAINER BATTLE					TR_FLAG_779
+0x085C	TRAINER BATTLE					TR_FLAG_780
+0x085D	TRAINER BATTLE					TR_FLAG_781
+0x085E	TRAINER BATTLE					TR_FLAG_782
+0x085F	TRAINER BATTLE					TR_FLAG_783
+0x0860	TRAINER BATTLE					TR_FLAG_784
+0x0861	TRAINER BATTLE					TR_FLAG_785
+0x0862	TRAINER BATTLE					TR_FLAG_786
+0x0863	TRAINER BATTLE					TR_FLAG_787
+0x0864	TRAINER BATTLE					TR_FLAG_788
+0x0865	TRAINER BATTLE					TR_FLAG_789
+0x0866	TRAINER BATTLE					TR_FLAG_790
+0x0867	TRAINER BATTLE					TR_FLAG_791
+0x0868	TRAINER BATTLE					TR_FLAG_792
+0x0869	TRAINER BATTLE					TR_FLAG_793
+0x086A	TRAINER BATTLE					TR_FLAG_794
+0x086B	TRAINER BATTLE					TR_FLAG_795
+0x086C	TRAINER BATTLE					TR_FLAG_796
+0x086D	TRAINER BATTLE					TR_FLAG_797
+0x086E	TRAINER BATTLE					TR_FLAG_798
+0x086F	TRAINER BATTLE					TR_FLAG_799
+0x0870	TRAINER BATTLE					TR_FLAG_800
+0x0871	TRAINER BATTLE					TR_FLAG_801
+0x0872	TRAINER BATTLE					TR_FLAG_802
+0x0873	TRAINER BATTLE					TR_FLAG_803
+0x0874	TRAINER BATTLE					TR_FLAG_804
+0x0875	TRAINER BATTLE					TR_FLAG_805
+0x0876	TRAINER BATTLE					TR_FLAG_806
+0x0877	TRAINER BATTLE					TR_FLAG_807
+0x0878	TRAINER BATTLE					TR_FLAG_808
+0x0879	TRAINER BATTLE					TR_FLAG_809
+0x087A	TRAINER BATTLE					TR_FLAG_810
+0x087B	TRAINER BATTLE					TR_FLAG_811
+0x087C	TRAINER BATTLE					TR_FLAG_812
+0x087D	TRAINER BATTLE					TR_FLAG_813
+0x087E	TRAINER BATTLE					TR_FLAG_814
+0x087F	TRAINER BATTLE					TR_FLAG_815
+0x0880	TRAINER BATTLE					TR_FLAG_816
+0x0881	TRAINER BATTLE					TR_FLAG_817
+0x0882	TRAINER BATTLE					TR_FLAG_818
+0x0883	TRAINER BATTLE					TR_FLAG_819
+0x0884	TRAINER BATTLE					TR_FLAG_820
+0x0885	TRAINER BATTLE					TR_FLAG_821
+0x0886	TRAINER BATTLE					TR_FLAG_822
+0x0887	TRAINER BATTLE					TR_FLAG_823
+0x0888	TRAINER BATTLE					TR_FLAG_824
+0x0889	TRAINER BATTLE					TR_FLAG_825
+0x088A	TRAINER BATTLE					TR_FLAG_826
+0x088B	TRAINER BATTLE					TR_FLAG_827
+0x088C	TRAINER BATTLE					TR_FLAG_828
+0x088D	TRAINER BATTLE					TR_FLAG_829
+0x088E	TRAINER BATTLE					TR_FLAG_830
+0x088F	TRAINER BATTLE					TR_FLAG_831
+0x0890	TRAINER BATTLE					TR_FLAG_832
+0x0891	TRAINER BATTLE					TR_FLAG_833
+0x0892	TRAINER BATTLE					TR_FLAG_834
+0x0893	TRAINER BATTLE					TR_FLAG_835
+0x0894	TRAINER BATTLE					TR_FLAG_836
+0x0895	TRAINER BATTLE					TR_FLAG_837
+0x0896	TRAINER BATTLE					TR_FLAG_838
+0x0897	TRAINER BATTLE					TR_FLAG_839
+0x0898	TRAINER BATTLE					TR_FLAG_840
+0x0899	TRAINER BATTLE					TR_FLAG_841
+0x089A	TRAINER BATTLE					TR_FLAG_842
+0x089B	TRAINER BATTLE					TR_FLAG_843
+0x089C	TRAINER BATTLE					TR_FLAG_844
+0x089D	TRAINER BATTLE					TR_FLAG_845
+0x089E	TRAINER BATTLE					TR_FLAG_846
+0x089F	TRAINER BATTLE					TR_FLAG_847
+0x08A0	TRAINER BATTLE					TR_FLAG_848
+0x08A1	TRAINER BATTLE					TR_FLAG_849
+0x08A2	TRAINER BATTLE					TR_FLAG_850
+0x08A3	TRAINER BATTLE					TR_FLAG_851
+0x08A4	TRAINER BATTLE					TR_FLAG_852
+0x08A5	TRAINER BATTLE					TR_FLAG_853
+0x08A6	TRAINER BATTLE					TR_FLAG_854
+0x08A7	TRAINER BATTLE					TR_FLAG_855
+0x08A8	TRAINER BATTLE					TR_FLAG_856
+0x08A9	TRAINER BATTLE					TR_FLAG_857
+0x08AA	TRAINER BATTLE					TR_FLAG_858
+0x08AB	TRAINER BATTLE					TR_FLAG_859
+0x08AC	TRAINER BATTLE					TR_FLAG_860
+0x08AD	TRAINER BATTLE					TR_FLAG_861
+0x08AE	TRAINER BATTLE					TR_FLAG_862
+0x08AF	TRAINER BATTLE					TR_FLAG_863
+0x08B0	TRAINER BATTLE					TR_FLAG_864
+0x08B1	TRAINER BATTLE					TR_FLAG_865
+0x08B2	TRAINER BATTLE					TR_FLAG_866
+0x08B3	TRAINER BATTLE					TR_FLAG_867
+0x08B4	TRAINER BATTLE					TR_FLAG_868
+0x08B5	TRAINER BATTLE					TR_FLAG_869
+0x08B6	TRAINER BATTLE					TR_FLAG_870
+0x08B7	TRAINER BATTLE					TR_FLAG_871
+0x08B8	TRAINER BATTLE					TR_FLAG_872
+0x08B9	TRAINER BATTLE					TR_FLAG_873
+0x08BA	TRAINER BATTLE					TR_FLAG_874
+0x08BB	TRAINER BATTLE					TR_FLAG_875
+0x08BC	TRAINER BATTLE					TR_FLAG_876
+0x08BD	TRAINER BATTLE					TR_FLAG_877
+0x08BE	TRAINER BATTLE					TR_FLAG_878
+0x08BF	TRAINER BATTLE					TR_FLAG_879
+0x08C0	TRAINER BATTLE					TR_FLAG_880
+0x08C1	TRAINER BATTLE					TR_FLAG_881
+0x08C2	TRAINER BATTLE					TR_FLAG_882
+0x08C3	TRAINER BATTLE					TR_FLAG_883
+0x08C4	TRAINER BATTLE					TR_FLAG_884
+0x08C5	TRAINER BATTLE					TR_FLAG_885
+0x08C6	TRAINER BATTLE					TR_FLAG_886
+0x08C7	TRAINER BATTLE					TR_FLAG_887
+0x08C8	TRAINER BATTLE					TR_FLAG_888
+0x08C9	TRAINER BATTLE					TR_FLAG_889
+0x08CA	TRAINER BATTLE					TR_FLAG_890
+0x08CB	TRAINER BATTLE					TR_FLAG_891
+0x08CC	TRAINER BATTLE					TR_FLAG_892
+0x08CD	TRAINER BATTLE					TR_FLAG_893
+0x08CE	TRAINER BATTLE					TR_FLAG_894
+0x08CF	TRAINER BATTLE					TR_FLAG_895
+0x08D0	TRAINER BATTLE					TR_FLAG_896
+0x08D1	TRAINER BATTLE					TR_FLAG_897
+0x08D2	TRAINER BATTLE					TR_FLAG_898
+0x08D3	TRAINER BATTLE					TR_FLAG_899
+0x08D4	TRAINER BATTLE					TR_FLAG_900
+0x08D5	TRAINER BATTLE					TR_FLAG_901
+0x08D6	TRAINER BATTLE					TR_FLAG_902
+0x08D7	TRAINER BATTLE					TR_FLAG_903
+0x08D8	TRAINER BATTLE					TR_FLAG_904
+0x08D9	TRAINER BATTLE					TR_FLAG_905
+0x08DA	TRAINER BATTLE					TR_FLAG_906
+0x08DB	TRAINER BATTLE					TR_FLAG_907
+0x08DC	TRAINER BATTLE					TR_FLAG_908
+0x08DD	TRAINER BATTLE					TR_FLAG_909
+0x08DE	TRAINER BATTLE					TR_FLAG_910
+0x08DF	TRAINER BATTLE					TR_FLAG_911
+0x08E0	TRAINER BATTLE					TR_FLAG_912
+0x08E1	TRAINER BATTLE					TR_FLAG_913
+0x08E2	TRAINER BATTLE					TR_FLAG_914
+0x08E3	TRAINER BATTLE					TR_FLAG_915
+0x08E4	TRAINER BATTLE					TR_FLAG_916
+0x08E5	TRAINER BATTLE					TR_FLAG_917
+0x08E6	TRAINER BATTLE					TR_FLAG_918
+0x08E7	TRAINER BATTLE					TR_FLAG_919
+0x08E8	TRAINER BATTLE					TR_FLAG_920
+0x08E9	TRAINER BATTLE					TR_FLAG_921
+0x08EA	TRAINER BATTLE					TR_FLAG_922
+0x08EB	TRAINER BATTLE					TR_FLAG_923
+0x08EC	TRAINER BATTLE					TR_FLAG_924
+0x08ED	TRAINER BATTLE					TR_FLAG_925
+0x08EE	TRAINER BATTLE					TR_FLAG_926
+0x08EF	TRAINER BATTLE					TR_FLAG_927
+0x08F0	TRAINER BATTLE					TR_FLAG_928
+0x08F1	TRAINER BATTLE					TR_FLAG_929
+0x08F2	TRAINER BATTLE					TR_FLAG_930
+0x08F3	TRAINER BATTLE					TR_FLAG_931
+0x08F4	TRAINER BATTLE					TR_FLAG_932
+0x08F5	TRAINER BATTLE					TR_FLAG_933
+0x08F6	TRAINER BATTLE					TR_FLAG_934
+0x08F7	TRAINER BATTLE					TR_FLAG_935
+0x08F8	TRAINER BATTLE					TR_FLAG_936
+0x08F9	TRAINER BATTLE					TR_FLAG_937
+0x08FA	TRAINER BATTLE					TR_FLAG_938
+0x08FB	TRAINER BATTLE					TR_FLAG_939
+0x08FC	TRAINER BATTLE					TR_FLAG_940
+0x08FD	TRAINER BATTLE					TR_FLAG_941
+0x08FE	TRAINER BATTLE					TR_FLAG_942
+0x08FF	TRAINER BATTLE					TR_FLAG_943
+0x0900	TRAINER BATTLE					TR_FLAG_944
+0x0901	TRAINER BATTLE					TR_FLAG_945
+0x0902	TRAINER BATTLE					TR_FLAG_946
+0x0903	TRAINER BATTLE					TR_FLAG_947
+0x0904	TRAINER BATTLE					TR_FLAG_948
+0x0905	TRAINER BATTLE					TR_FLAG_949
+0x0906	TRAINER BATTLE					TR_FLAG_950
+0x0907	TRAINER BATTLE					TR_FLAG_951
+0x0908	TRAINER BATTLE					TR_FLAG_952
+0x0909	TRAINER BATTLE					TR_FLAG_953
+0x090A	TRAINER BATTLE					TR_FLAG_954
+0x090B	TRAINER BATTLE					TR_FLAG_955
+0x090C	TRAINER BATTLE					TR_FLAG_956
+0x090D	TRAINER BATTLE					TR_FLAG_957
+0x090E	TRAINER BATTLE					TR_FLAG_958
+0x090F	TRAINER BATTLE					TR_FLAG_959
+0x0910	TRAINER BATTLE					TR_FLAG_960
+0x0911	TRAINER BATTLE					TR_FLAG_961
+0x0912	TRAINER BATTLE					TR_FLAG_962
+0x0913	TRAINER BATTLE					TR_FLAG_963
+0x0914	TRAINER BATTLE					TR_FLAG_964
+0x0915	TRAINER BATTLE					TR_FLAG_965
+0x0916	TRAINER BATTLE					TR_FLAG_966
+0x0917	TRAINER BATTLE					TR_FLAG_967
+0x0918	TRAINER BATTLE					TR_FLAG_968
+0x0919	TRAINER BATTLE					TR_FLAG_969
+0x091A	TRAINER BATTLE					TR_FLAG_970
+0x091B	TRAINER BATTLE					TR_FLAG_971
+0x091C	TRAINER BATTLE					TR_FLAG_972
+0x091D	TRAINER BATTLE					TR_FLAG_973
+0x091E	TRAINER BATTLE					TR_FLAG_974
+0x091F	TRAINER BATTLE					TR_FLAG_975
+0x0920	TRAINER BATTLE					TR_FLAG_976
+0x0921	TRAINER BATTLE					TR_FLAG_977
+0x0922	TRAINER BATTLE					TR_FLAG_978
+0x0923	TRAINER BATTLE					TR_FLAG_979
 0x0924	TRAINER BATTLE					
 0x0925	TRAINER BATTLE					
 0x0926	TRAINER BATTLE					
@@ -2402,7 +2403,7 @@
 0x0961						
 0x0962						
 0x0963						
-0x0964	STORY EVENT			Entered Hall of Fame (Trainer Card Upgrade)		
+0x0964	STORY EVENT			Entered Hall of Fame (Trainer Card Upgrade)		SYS_FLAG_GAME_CLEAR
 0x0965						
 0x0966						
 0x0967						
@@ -2910,3 +2911,376 @@
 0x0B5D						
 0x0B5E						
 0x0B5F						
+						
+						
+						
+						
+//	Event Work					
+0x0000						LOCALWORK0
+0x0001						LOCALWORK1
+0x0002						LOCALWORK2
+0x0003						LOCALWORK3
+0x0004						LOCALWORK4
+0x0005						LOCALWORK5
+0x0006						LOCALWORK6
+0x0007						LOCALWORK7
+0x0008						LOCALWORK8
+0x0009						LOCALWORK9
+0x000A						LOCALWORK10
+0x000B						LOCALWORK11
+0x000C						LOCALWORK12
+0x000D						LOCALWORK13
+0x000E						LOCALWORK14
+0x000F						LOCALWORK15
+0x0010						LOCALWORK16
+0x0011						LOCALWORK17
+0x0012						LOCALWORK18
+0x0013						LOCALWORK19
+0x0014						LOCALWORK20
+0x0015						LOCALWORK21
+0x0016						LOCALWORK22
+0x0017						LOCALWORK23
+0x0018						LOCALWORK24
+0x0019						LOCALWORK25
+0x001A						LOCALWORK26
+0x001B						LOCALWORK27
+0x001C						LOCALWORK28
+0x001D						LOCALWORK29
+0x001E						LOCALWORK30
+0x001F						LOCALWORK31
+0x0020						OBJCHRWORK0
+0x0021						OBJCHRWORK1
+0x0022						OBJCHRWORK2
+0x0023						OBJCHRWORK3
+0x0024						OBJCHRWORK4
+0x0025						OBJCHRWORK5
+0x0026						OBJCHRWORK6
+0x0027						OBJCHRWORK7
+0x0028						OBJCHRWORK8
+0x0029						OBJCHRWORK9
+0x002A						OBJCHRWORK10
+0x002B						OBJCHRWORK11
+0x002C						OBJCHRWORK12
+0x002D						OBJCHRWORK13
+0x002E						OBJCHRWORK14
+0x002F						OBJCHRWORK15
+0x0030				First Partner	0:Not Chosen,152:Chikorita,155:Cyndaquil,158:Totodile	
+0x0031						
+0x0032						
+0x0033						
+0x0034						
+0x0035						
+0x0036						
+0x0037						
+0x0038						
+0x0039						
+0x003A						
+0x003B						
+0x003C						
+0x003D						
+0x003E						
+0x003F						
+0x0040						
+0x0041						
+0x0042						
+0x0043				Enigma Stone	0:Not Activated,1778:Activated	
+0x0044						
+0x0045				Raikou Status	0:Pending,1:Caught,2:Fainted/Can Respawn	
+0x0046				Entei Status	0:Pending,1:Caught,2:Fainted/Can Respawn	
+0x0047				Roaming Latias Status (HG)	0:Pending,1:Caught,2:Fainted/Can Respawn	
+0x0048				Roaming Latios Status (SS)	0:Pending,1:Caught,2:Fainted/Can Respawn	
+0x0049						
+0x004A						
+0x004B						
+0x004C						
+0x004D						
+0x004E						
+0x004F						
+0x0050						
+0x0051						
+0x0052						
+0x0053						
+0x0054						
+0x0055						
+0x0056						
+0x0057						
+0x0058						
+0x0059						
+0x005A						
+0x005B						
+0x005C						
+0x005D						
+0x005E						
+0x005F						
+0x0060						
+0x0061						
+0x0062						
+0x0063						
+0x0064						
+0x0065						
+0x0066						
+0x0067						
+0x0068						
+0x0069						
+0x006A						
+0x006B						
+0x006C						
+0x006D						
+0x006E						
+0x006F						
+0x0070						
+0x0071						
+0x0072						
+0x0073						
+0x0074				Togepi Gift	0:Not Activated,1:Activated,2:Pending,3:Obtained,4:Completed	
+0x0075						
+0x0076						
+0x0077						
+0x0078						
+0x0079						
+0x007A						
+0x007B						
+0x007C						
+0x007D						
+0x007E						
+0x007F						
+0x0080						
+0x0081						
+0x0082						
+0x0083						
+0x0084						
+0x0085						
+0x0086						
+0x0087						
+0x0088						
+0x0089						
+0x008A						
+0x008B						
+0x008C						
+0x008D						
+0x008E						
+0x008F						
+0x0090						
+0x0091						
+0x0092						
+0x0093						
+0x0094				Total Week Siblings Met	0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7	
+0x0095						
+0x0096						
+0x0097				Ace Trainer Sisters (Route 34)	0:Not Battled,1:Defeated Irene and Jenn,2:Power Herb Pending,3:Defeated Kate/Got Power Herb	
+0x0098						
+0x0099						
+0x009A						
+0x009B						
+0x009C						
+0x009D						
+0x009E						
+0x009F						
+0x00A0						
+0x00A1				Beasts (Burned Tower)	0:Appeared,1:Roaming/Fled	
+0x00A2						
+0x00A3						
+0x00A4						
+0x00A5						
+0x00A6						
+0x00A7						
+0x00A8						
+0x00A9						
+0x00AA						
+0x00AB						
+0x00AC						
+0x00AD						
+0x00AE						
+0x00AF						
+0x00B0						
+0x00B1						
+0x00B2						
+0x00B3						
+0x00B4						
+0x00B5						
+0x00B6						
+0x00B7						
+0x00B8						
+0x00B9						
+0x00BA						
+0x00BB						
+0x00BC						
+0x00BD						
+0x00BE						
+0x00BF						
+0x00C0						
+0x00C1						
+0x00C2						
+0x00C3						
+0x00C4						
+0x00C5						
+0x00C6						
+0x00C7						
+0x00C8						
+0x00C9						
+0x00CA						
+0x00CB						
+0x00CC						
+0x00CD						
+0x00CE						
+0x00CF						
+0x00D0						
+0x00D1						
+0x00D2						
+0x00D3						
+0x00D4						
+0x00D5						
+0x00D6						
+0x00D7						
+0x00D8						
+0x00D9						
+0x00DA						
+0x00DB						
+0x00DC						
+0x00DD						
+0x00DE						
+0x00DF						
+0x00E0						
+0x00E1						
+0x00E2						
+0x00E3						
+0x00E4						
+0x00E5						
+0x00E6						
+0x00E7						
+0x00E8						
+0x00E9						
+0x00EA						
+0x00EB						
+0x00EC						
+0x00ED						
+0x00EE						
+0x00EF						
+0x00F0						
+0x00F1						
+0x00F2						
+0x00F3						
+0x00F4						
+0x00F5						
+0x00F6						
+0x00F7						
+0x00F8						
+0x00F9				Embedded Tower	0:Haven't Received Kanto Starter,1:Obtained Kanto Starter,2:Obtained Orb,3:Kyogre/Groudon Activated,4:Kyogre/Groudon Disappeared,6:Rayquaza Activated,7:Rayquaza Caught,9:Rayquaza Disappeared	
+0x00FA						
+0x00FB				Sinjoh Ruins	1:Not entered,4:Teleported (1st),5:Went Outside,6:Cynthia talkable (cabin),7:Cynthia talkable (stage),8:Before Choosing Legendary,10:Obtained First Legendary,13:Teleported (2nd),14:Obtained Second Legendary	
+0x00FC						
+0x00FD				Hoenn Starters	0:Not Activated,1:Activated	
+0x00FE				Celebi Event	0:Not Activated,5:Completed	
+0x00FF						
+0x0100						
+0x0101						
+0x0102				Teleportable (2nd) Arceus	1:Hall of Origin,2:Fateful Encounter	
+0x0103				Sinnoh Legendary (1st)	1:Dialga,2:Palkia,3:Giratina	
+0x0104						
+0x0105						
+0x0106						
+0x0107						
+0x0108						
+0x0109						
+0x010A						
+0x010B						
+0x010C						
+0x010D						
+0x010E						
+0x010F						
+0x0110						
+0x0111						
+0x0112						
+0x0113						
+0x0114				Mail Quest	0:Not Activated,1:Received Spearow with Mail,2:Delivered Mail on Route 31 (Bag Full),3:Delivered Mail on Route 31,5:Webster gave HP Up (Completed)	
+0x0115						
+0x0116						
+0x0117						
+0x0118						
+0x0119						
+0x011A						
+0x011B						
+0x011C						
+0x011D						
+0x011E						
+0x011F						
+0x0120						
+0x0121						
+0x0122						
+0x0123				Catching Show Best Score		
+0x0124						
+0x0125						
+0x0126						
+0x0127						
+0x0128						
+0x0129						
+0x012A						
+0x012B				Spiky-eared Pichu (Ilex Forest)	0:Not appeared,1:Pending,2:Disappeared	
+0x012C						
+0x012D						
+0x012E						
+0x012F						
+0x0130				Steven Stone Status	0:Clefairy Doll pending,1:Will meet in Vermilion (Lati@s Pending),2:Met (Lati@s Roamed),3:Asks to choose Hoenn Starter,4:Gave Hoenn Starter,5:Talked to at Pewter Museum,6:Wants to trade at Silph Co.,7:Traded for Beldum	
+0x0131				Kanto Starters	0:Not Activated,1:Activated,2:Pending,3:Bulbasaur,4:Squirtle,5:Charmander,6:Completed	
+0x0132						
+0x0133						
+0x0134						
+0x0135						
+0x0136						
+0x0137						
+0x0138						
+0x0139						
+0x013A				Blue Card Points	0:0,1:1,2:2,3:3,4:4,5:5,6:6,7:7,8:8,9:9,10:10,11:11,12:12,13:13,14:14,15:15,16:16,17:17,18:18,19:19,20:20,21:21,22:22,23:23,24:24,25:25,26:26,27:27,28:28,29:29	
+0x013B						
+0x013C						
+0x013D						
+0x013E						
+0x013F						
+0x0140						
+0x0141						
+0x0142						
+0x0143						
+0x0144						
+0x0145						
+0x0146						
+0x0147						
+0x0148						
+0x0149						
+0x014A						
+0x014B						
+0x014C						
+0x014D						
+0x014E						
+0x014F						
+0x0150						
+0x0151						
+0x0152						
+0x0153						
+0x0154						
+0x0155						
+0x0156						
+0x0157						
+0x0158						
+0x0159						
+0x015A						
+0x015B						
+0x015C						
+0x015D						
+0x015E						
+0x015F						
+0x0160						
+0x0161						
+0x0162						
+0x0163						
+0x0164						
+0x0165						
+0x0166						
+0x0167						
+0x0168						
+0x0169						
+0x016A						
+0x016B						
+0x016C						
+0x016D						
+0x016E						
+0x016F						

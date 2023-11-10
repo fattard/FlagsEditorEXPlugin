@@ -3679,7 +3679,7 @@
 						
 						
 						
-//	Trainer Flags					SCBlock_F018C4AC
+//	Trainer Flags					SCBlock_F018C4AC (All) SCBlock_28E475DE (v2.0.2+)
 0x005A0EE08DA261A8	TRAINER BATTLE			Youngster Elian		area01_trainer_tanpan
 0xD22E10449EA85BF0	TRAINER BATTLE			Zahira the Student		area01_trainer_sch_infant_f
 0xF86C7831E776C2AF	TRAINER BATTLE			Carlota the Student		area01_trainer_sch_girl

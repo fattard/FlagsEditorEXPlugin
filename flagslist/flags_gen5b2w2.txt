@@ -215,7 +215,7 @@
 0x00D5						
 0x00D6						
 0x00D7						
-0x00D8	GIFT	Desert Resort		Soft Sand from man in black		
+0x00D8	ITEM GIFT	Desert Resort		Soft Sand from man in black		
 0x00D9						
 0x00DA						
 0x00DB						
@@ -249,7 +249,7 @@
 0x00F7						
 0x00F8						
 0x00F9						
-0x00FA	GIFT			Purchased Magikarp		
+0x00FA	PKMN GIFT			Purchased Magikarp		
 0x00FB						
 0x00FC						
 0x00FD						
@@ -288,13 +288,13 @@
 0x011E						
 0x011F						
 0x0120						
-0x0121	GIFT			Received N's Zorua		
+0x0121	PKMN GIFT			Received N's Zorua		
 0x0122						
 0x0123						
 0x0124						
 0x0125						
 0x0126						
-0x0127	GIFT	Undella Town	PokéCenter	Prism Scale from man		
+0x0127	ITEM GIFT	Undella Town	PokéCenter	Prism Scale from man		
 0x0128						
 0x0129						
 0x012A						
@@ -383,7 +383,7 @@
 0x017D						
 0x017E						
 0x017F						
-0x0180	GIFT	Route 11		Favored Mail from woman in trailer		
+0x0180	ITEM GIFT	Route 11		Favored Mail from woman in trailer		
 0x0181						
 0x0182						
 0x0183						
@@ -393,7 +393,7 @@
 0x0187						
 0x0188						
 0x0189						
-0x018A	GIFT			Received Eevee Gift		
+0x018A	PKMN GIFT			Received Eevee Gift		
 0x018B						
 0x018C						
 0x018D						
@@ -413,7 +413,7 @@
 0x019B						
 0x019C	IN-GAME TRADE			Traded for Petilil/Cottonee on Route 4		
 0x019D						
-0x019E	GIFT	Undella Town		HM06 (Dive) from Hugh		
+0x019E	ITEM GIFT	Undella Town		HM06 (Dive) from Hugh		
 0x019F						
 0x01A0						
 0x01A1						
@@ -425,7 +425,7 @@
 0x01A7						
 0x01A8						
 0x01A9						
-0x01AA	GIFT			Received Deerling Gift		
+0x01AA	PKMN GIFT			Received Deerling Gift		
 0x01AB						
 0x01AC						
 0x01AD						
@@ -436,7 +436,7 @@
 0x01B2	TRAINER BATTLE			Battled Lass Diana 2nd Time		
 0x01B3						
 0x01B4						
-0x01B5	GIFT			Received Happiny Egg Gift		
+0x01B5	PKMN GIFT			Received Happiny Egg Gift		
 0x01B6						
 0x01B7						
 0x01B8						
@@ -444,10 +444,10 @@
 0x01BA						
 0x01BB						
 0x01BC						
-0x01BD	GIFT			Chose Cover/Plume Fossil from Lenora		
+0x01BD	ITEM GIFT			Chose Cover/Plume Fossil from Lenora		
 0x01BE						
 0x01BF						
-0x01C0	GIFT	PWT	Exterior	Rocky Helmet from worker		
+0x01C0	ITEM GIFT	PWT	Exterior	Rocky Helmet from worker		
 0x01C1						
 0x01C2						
 0x01C3						
@@ -851,7 +851,7 @@
 0x0351						
 0x0352						
 0x0353						
-0x0354	GIFT	Castelia City	Battle Company (1F)	Exp. Share from President		
+0x0354	ITEM GIFT	Castelia City	Battle Company (1F)	Exp. Share from President		
 0x0355						
 0x0356						
 0x0357						
@@ -966,7 +966,7 @@
 0x03C4						
 0x03C5						
 0x03C6						
-0x03C7	GIFT	Lostlorn Forest		TM95 (Snarl) from Backpacker		
+0x03C7	ITEM GIFT	Lostlorn Forest		TM95 (Snarl) from Backpacker		
 0x03C8						
 0x03C9						
 0x03CA						
@@ -995,7 +995,7 @@
 0x03E1						
 0x03E2						
 0x03E3						
-0x03E4	GIFT			Benga with Shiny Gible/Dratini Gift disappeared from Alder's house		
+0x03E4	PKMN GIFT			Benga with Shiny Gible/Dratini Gift disappeared from Alder's house		
 0x03E5						
 0x03E6						
 0x03E7						
@@ -3446,7 +3446,7 @@
 0x0177						
 0x0178						
 0x0179						
-0x017A	GIFT			Fossil Available to Claim	99:Root Fossil (Lileep),100:Claw Fossil (Anorith),101:Helix Fossil (Omanyte),102:Dome Fossil (Kabuto),103:Old Amber (Aerodactyl),104:Armor Fossil (Shieldon),105:Skull Fossil (Cranidos),572:Cover Fossil (Tirtouga),573:Plume Fossil (Archen)	
+0x017A	ITEM GIFT			Fossil Available to Claim	99:Root Fossil (Lileep),100:Claw Fossil (Anorith),101:Helix Fossil (Omanyte),102:Dome Fossil (Kabuto),103:Old Amber (Aerodactyl),104:Armor Fossil (Shieldon),105:Skull Fossil (Cranidos),572:Cover Fossil (Tirtouga),573:Plume Fossil (Archen)	
 0x017B						
 0x017C						
 0x017D						
@@ -3460,7 +3460,7 @@
 0x0185						
 0x0186						
 0x0187						
-0x0188	SIDE EVENT			Yancy/Curtis	0:Not met,1:Called via Dropped Item,2:Met in-person after 10 calls	
+0x0188	SIDE EVENT	Nimbasa City		Yancy/Curtis	0:Not met,1:Called via Dropped Item,2:Met in-person after 10 calls	
 0x0189						
 0x018A						
 0x018B						
