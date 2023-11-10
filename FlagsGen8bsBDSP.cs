@@ -68,10 +68,12 @@ namespace FlagsEditorEXPlugin
         {
             switch (flagType)
             {
+#if DEBUG
                 case EventFlagType.FieldItem:
                 case EventFlagType.HiddenItem:
                 case EventFlagType.TrainerBattle:
                     return true;
+#endif
 
                 default:
                     return false;

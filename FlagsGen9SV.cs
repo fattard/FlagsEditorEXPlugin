@@ -196,6 +196,7 @@ namespace FlagsEditorEXPlugin
         {
             switch (flagType)
             {
+#if DEBUG
                 case EventFlagType.FieldItem:
                 //case FlagType.HiddenItem:
                 case EventFlagType.TrainerBattle:
@@ -204,6 +205,7 @@ namespace FlagsEditorEXPlugin
                 case EventFlagType.StaticBattle:
                 case EventFlagType.Gift:
                     return true;
+#endif
 
                 default:
                     return false;

@@ -32,27 +32,30 @@ namespace FlagsEditorEXPlugin
                 s_flagsList_res = ReadResFile("flags_gen7blgpe.txt");
             }
 
-            AssembleList(s_flagsList_res, 0, "Event Flags", (m_savFile as IEventFlagArray).GetEventFlags());
-
-            // AssembleWorkList<int>
-            m_eventWorkList.Clear();
-            for (uint i = 0; i < m_eventWorkData.CountWork; i++)
+            var workValues = new int[m_eventWorkData.CountWork];
+            for (int i = 0; i < workValues.Length; i++)
             {
-                var workDetail = new WorkDetail(i, EventFlagType._Unknown, "", "", "");
-                workDetail.Value = Convert.ToInt64(m_eventWorkData.GetWork((int)workDetail.WorkIdx));
-                m_eventWorkList.Add(workDetail);
+                workValues[i] = m_eventWorkData.GetWork(i);
             }
+
+            int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
+            int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
+
+            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), 0, "Event Flags", (m_savFile as IEventFlagArray).GetEventFlags());
+            AssembleWorkList(s_flagsList_res.Substring(idxEventWorkSection), workValues);
         }
 
         public override bool SupportsBulkEditingFlags(EventFlagType flagType)
         {
             switch (flagType)
             {
+#if DEBUG
                 case EventFlagType.FieldItem:
                 case EventFlagType.HiddenItem:
                 case EventFlagType.TrainerBattle:
                 case EventFlagType.InGameTrade:
                     return true;
+#endif
 
                 default:
                     return false;

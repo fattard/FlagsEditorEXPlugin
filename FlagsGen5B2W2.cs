@@ -32,7 +32,6 @@ namespace FlagsEditorEXPlugin
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
-
             AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), 0, "Event Flags", (m_savFile as IEventFlagArray).GetEventFlags());
             AssembleWorkList(s_flagsList_res.Substring(idxEventWorkSection), (m_savFile as IEventWorkArray<ushort>).GetAllEventWork());
         }
@@ -41,10 +40,12 @@ namespace FlagsEditorEXPlugin
         {
             switch (flagType)
             {
+#if DEBUG
                 case EventFlagType.FieldItem:
                 case EventFlagType.HiddenItem:
                 case EventFlagType.TrainerBattle:
                     return true;
+#endif
 
                 default:
                     return false;
