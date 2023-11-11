@@ -329,7 +329,11 @@ namespace FlagsEditorEXPlugin
 
                 for (int i = 0; i < flagsList.Count; ++i)
                 {
-                    sb.AppendFormat("FLAG_0x{0:X4} {1}\t{2}\r\n", flagsList[i].FlagIdx, flagsList[i].IsSet,
+                    string fmt = flagsList[i].FlagIdx > (ulong)(uint.MaxValue) ?
+                        "FLAG_0x{0:X16} {1}\t{2}\r\n" :
+                        "FLAG_0x{0:X4} {1}\t{2}\r\n";
+
+                    sb.AppendFormat(fmt, flagsList[i].FlagIdx, flagsList[i].IsSet,
                         flagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : flagsList[i].ToString());
                 }
 
@@ -342,7 +346,11 @@ namespace FlagsEditorEXPlugin
 
                 for (int i = 0; i < m_eventWorkList.Count; ++i)
                 {
-                    sb.AppendFormat("WORK_0x{0:X4} => {1,5}\t{2}\r\n", i, m_eventWorkList[i].Value,
+                    string fmt = m_eventWorkList[i].WorkIdx > (ulong)(uint.MaxValue) ?
+                        "WORK_0x{0:X16} => {1,5}\t{2}\r\n" :
+                        "WORK_0x{0:X4} => {1,5}\t{2}\r\n";
+
+                    sb.AppendFormat(fmt, m_eventWorkList[i].WorkIdx, m_eventWorkList[i].Value,
                         m_eventWorkList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_eventWorkList[i].ToString());
                 }
             }
