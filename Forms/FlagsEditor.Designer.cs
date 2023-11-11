@@ -215,10 +215,10 @@ namespace FlagsEditorEXPlugin.Forms
             // dgv_id
             // 
             this.dgv_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_id.HeaderText = "Internal Name";
+            this.dgv_id.HeaderText = "Identifier";
             this.dgv_id.Name = "dgv_id";
             this.dgv_id.ReadOnly = true;
-            this.dgv_id.Width = 98;
+            this.dgv_id.Width = 72;
             // 
             // dgv_location
             // 

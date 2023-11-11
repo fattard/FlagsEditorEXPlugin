@@ -55,6 +55,22 @@ namespace FlagsEditorEXPlugin.Forms
             berryTreesChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.BerryTree);
             collectablesChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.Collectable);
 
+            bool anyChecked =
+                collectablesChk.Enabled ||
+                berryTreesChk.Enabled ||
+                flySpotsChk.Enabled ||
+                specialItemsChk.Enabled ||
+                sideEventsChk.Enabled ||
+                inGameTradesChk.Enabled ||
+                staticEncounterChk.Enabled ||
+                trainerBattlesChk.Enabled ||
+                pkmnGiftsChk.Enabled ||
+                itemGiftsChk.Enabled ||
+                hiddenItemsChk.Enabled ||
+                fieldItemsChk.Enabled;
+
+            markFlagsBtn.Enabled = unmarkFlagsBtn.Enabled = anyChecked;
+
             #endregion Bulk Edit Tab
 
             #region Special Edit Tab
@@ -80,8 +96,17 @@ namespace FlagsEditorEXPlugin.Forms
 
                 tabPage4.Controls.Add(newBtn);
             }
+            if (specialEditableEvents.Length == 0)
+            {
+                tabControl1.Controls.Remove(tabPage4);
+            }
 
             #endregion Special Edit Tab
+
+            #region Misc Edit Tab
+            //TODO:
+            tabControl1.Controls.Remove(tabPage5);
+            #endregion Misc Edit Tab
         }
 
         private void rawFlagsEditBtn_Click(object sender, EventArgs e)

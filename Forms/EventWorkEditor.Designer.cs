@@ -34,12 +34,12 @@ namespace FlagsEditorEXPlugin.Forms
             this.cancelBtn = new System.Windows.Forms.Button();
             this.saveBtn = new System.Windows.Forms.Button();
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dgv_txtDesc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_location = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgv_ref = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_location = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_txtDesc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_validValues = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.dgv_rawValue = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -102,8 +102,8 @@ namespace FlagsEditorEXPlugin.Forms
             this.dgv_id,
             this.dgv_location,
             this.dgv_txtDesc,
-            this.Column1,
-            this.Column2});
+            this.dgv_validValues,
+            this.dgv_rawValue});
             this.dataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.dataGridView.Location = new System.Drawing.Point(12, 12);
             this.dataGridView.MultiSelect = false;
@@ -113,28 +113,21 @@ namespace FlagsEditorEXPlugin.Forms
             this.dataGridView.Size = new System.Drawing.Size(800, 389);
             this.dataGridView.TabIndex = 16;
             // 
-            // Column2
+            // dgv_ref
             // 
-            this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Column2.HeaderText = "Raw Value";
-            this.Column2.Name = "Column2";
+            this.dgv_ref.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dgv_ref.HeaderText = "Ref";
+            this.dgv_ref.Name = "dgv_ref";
+            this.dgv_ref.ReadOnly = true;
+            this.dgv_ref.Width = 49;
             // 
-            // Column1
+            // dgv_id
             // 
-            this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Column1.HeaderText = "Valid Values";
-            this.Column1.Items.AddRange(new object[] {
-            "Custom"});
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 71;
-            // 
-            // dgv_txtDesc
-            // 
-            this.dgv_txtDesc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_txtDesc.HeaderText = "Description";
-            this.dgv_txtDesc.Name = "dgv_txtDesc";
-            this.dgv_txtDesc.ReadOnly = true;
-            this.dgv_txtDesc.Width = 85;
+            this.dgv_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dgv_id.HeaderText = "Identifier";
+            this.dgv_id.Name = "dgv_id";
+            this.dgv_id.ReadOnly = true;
+            this.dgv_id.Width = 72;
             // 
             // dgv_location
             // 
@@ -144,21 +137,28 @@ namespace FlagsEditorEXPlugin.Forms
             this.dgv_location.ReadOnly = true;
             this.dgv_location.Width = 73;
             // 
-            // dgv_id
+            // dgv_txtDesc
             // 
-            this.dgv_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_id.HeaderText = "Internal Name";
-            this.dgv_id.Name = "dgv_id";
-            this.dgv_id.ReadOnly = true;
-            this.dgv_id.Width = 98;
+            this.dgv_txtDesc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dgv_txtDesc.HeaderText = "Description";
+            this.dgv_txtDesc.Name = "dgv_txtDesc";
+            this.dgv_txtDesc.ReadOnly = true;
+            this.dgv_txtDesc.Width = 85;
             // 
-            // dgv_ref
+            // dgv_validValues
             // 
-            this.dgv_ref.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_ref.HeaderText = "Ref";
-            this.dgv_ref.Name = "dgv_ref";
-            this.dgv_ref.ReadOnly = true;
-            this.dgv_ref.Width = 49;
+            this.dgv_validValues.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dgv_validValues.HeaderText = "Valid Values";
+            this.dgv_validValues.Items.AddRange(new object[] {
+            "Custom"});
+            this.dgv_validValues.Name = "dgv_validValues";
+            this.dgv_validValues.Width = 71;
+            // 
+            // dgv_rawValue
+            // 
+            this.dgv_rawValue.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.dgv_rawValue.HeaderText = "Raw Value";
+            this.dgv_rawValue.Name = "dgv_rawValue";
             // 
             // EventWorkEditor
             // 
@@ -192,7 +192,7 @@ namespace FlagsEditorEXPlugin.Forms
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_id;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_location;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_txtDesc;
-        private System.Windows.Forms.DataGridViewComboBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewComboBoxColumn dgv_validValues;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgv_rawValue;
     }
 }
