@@ -29,34 +29,87 @@ namespace FlagsEditorEXPlugin
                 s_flagsList_res = ReadResFile("flags_gen8swsh.txt");
             }
 
-            AssembleList(s_flagsList_res, 0, "", null);
+            int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
+            int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
+
+            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), 0, "Event Flags", null);
+            AssembleWorkList<uint>(s_flagsList_res.Substring(idxEventWorkSection), null);
         }
 
         protected override void AssembleList(string flagsList_res, int sourceIdx, string sourceName, bool[] flagValues)
         {
             var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
-            m_flagsGroupsList.Clear();
 
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
             {
-                var fGroup = new FlagsGroup(sourceIdx, sourceName);
+                FlagsGroup flagsGroup = new FlagsGroup(sourceIdx, sourceName);
+
                 string s = reader.ReadLine();
+
+                // Skip header
+                if (s.StartsWith("//"))
+                {
+                    s = reader.ReadLine();
+                }
+
                 do
                 {
                     if (!string.IsNullOrWhiteSpace(s))
                     {
+                        // End of section
+                        if (s.StartsWith("//"))
+                        {
+                            break;
+                        }
+
                         var flagDetail = new FlagDetail(s);
                         flagDetail.IsSet = (savEventBlocks.GetBlockSafe((uint)flagDetail.FlagIdx).Type == SCTypeCode.Bool2);
-                        fGroup.Flags.Add(flagDetail);
+                        flagDetail.SourceIdx = sourceIdx;
+                        flagsGroup.Flags.Add(flagDetail);
                     }
 
                     s = reader.ReadLine();
 
                 } while (s != null);
                 
-                m_flagsGroupsList.Add(fGroup);
+                m_flagsGroupsList.Add(flagsGroup);
             }
 
+        }
+
+        protected override void AssembleWorkList<T>(string workList_res, T[] eventWorkValues)
+        {
+            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+
+            using (System.IO.StringReader reader = new System.IO.StringReader(workList_res))
+            {
+                string s = reader.ReadLine();
+
+                // Skip header
+                if (s.StartsWith("//"))
+                {
+                    s = reader.ReadLine();
+                }
+
+                do
+                {
+                    if (!string.IsNullOrWhiteSpace(s))
+                    {
+                        // End of section
+                        if (s.StartsWith("//"))
+                        {
+                            break;
+                        }
+
+                        var workDetail = new WorkDetail(s);
+                        workDetail.Value = Convert.ToInt64(savEventBlocks.GetBlockSafe((uint)workDetail.WorkIdx).GetValue());
+                        m_eventWorkList.Add(workDetail);
+                    }
+
+                    s = reader.ReadLine();
+
+                } while (s != null);
+            }
         }
 
         public override bool SupportsBulkEditingFlags(EventFlagType flagType)
@@ -110,21 +163,6 @@ namespace FlagsEditorEXPlugin
         public override void SyncEditedEventWork()
         {
 
-        }
-
-        public override void DumpAllFlags()
-        {
-            StringBuilder sb = new StringBuilder(512 * 1024);
-
-            var flagsList = m_flagsGroupsList[0].Flags;
-
-            for (int i = 0; i < flagsList.Count; ++i)
-            {
-                sb.AppendFormat("FLAG_0x{0:X8} {1}\t{2}\r\n", flagsList[i].FlagIdx, flagsList[i].IsSet,
-                    flagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : flagsList[i].ToString());
-            }
-
-            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
         }
     }
 }
