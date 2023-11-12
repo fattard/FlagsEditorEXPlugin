@@ -132,12 +132,6 @@ namespace FlagsEditorEXPlugin
                             }
                         }
                         break;
-
-
-                    //TEMP: dump flags only
-                    case GameVersion.PLA:
-                        menuEntry_EditFlags.Enabled = false;
-                        break;
                 }
 
 #if DEBUG

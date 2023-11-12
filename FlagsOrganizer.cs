@@ -544,7 +544,7 @@ namespace FlagsEditorEXPlugin
 
 
                 case GameVersion.PLA:
-                    flagsOrganizer = new DummyOrgBlockFlags();
+                    flagsOrganizer = new FlagsGen8LA();
                     break;
 
                 default:
