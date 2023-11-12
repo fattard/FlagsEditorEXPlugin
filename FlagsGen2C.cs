@@ -111,12 +111,43 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedFlags(int sourceIdx)
         {
+            var flagHelper = (m_savFile as IEventFlagArray);
 
+            foreach (var fGroup in m_flagsGroupsList)
+            {
+                if (fGroup.SourceIdx == sourceIdx)
+                {
+                    switch (fGroup.SourceIdx)
+                    {
+                        case 0: // Event Flags
+                            foreach (var f in fGroup.Flags)
+                            {
+                                flagHelper.SetEventFlag((int)f.FlagIdx, f.IsSet);
+                            }
+                            break;
+
+                        case 1: // Trade Flags
+                            foreach (var f in fGroup.Flags)
+                            {
+                                int fIdx = (int)f.FlagIdx;
+                                m_savFile.SetFlag((int)FlagOffsets.CompletedInGameTradeFlags + (fIdx >> 3), fIdx & 7, f.IsSet);
+                            }
+                            break;
+                    }
+
+                    break;
+                }
+            }
         }
 
         public override void SyncEditedEventWork()
         {
+            var eventWorkHelper = (m_savFile as IEventWorkArray<byte>);
 
+            foreach (var w in m_eventWorkList)
+            {
+                eventWorkHelper.SetWork((int)w.WorkIdx, (byte)w.Value);
+            }
         }
     }
 }
