@@ -63,9 +63,12 @@ namespace FlagsEditorEXPlugin
                         }
 
                         var flagDetail = new FlagDetail(s);
-                        flagDetail.IsSet = (savEventBlocks.GetBlockSafe((uint)flagDetail.FlagIdx).Type == SCTypeCode.Bool2);
-                        flagDetail.SourceIdx = sourceIdx;
-                        flagsGroup.Flags.Add(flagDetail);
+                        if (savEventBlocks.HasBlock((uint)flagDetail.FlagIdx))
+                        {
+                            flagDetail.IsSet = (savEventBlocks.GetBlockSafe((uint)flagDetail.FlagIdx).Type == SCTypeCode.Bool2);
+                            flagDetail.SourceIdx = sourceIdx;
+                            flagsGroup.Flags.Add(flagDetail);
+                        }
                     }
 
                     s = reader.ReadLine();
@@ -102,8 +105,11 @@ namespace FlagsEditorEXPlugin
                         }
 
                         var workDetail = new WorkDetail(s);
-                        workDetail.Value = Convert.ToInt64(savEventBlocks.GetBlockSafe((uint)workDetail.WorkIdx).GetValue());
-                        m_eventWorkList.Add(workDetail);
+                        if (savEventBlocks.HasBlock((uint)workDetail.WorkIdx))
+                        {
+                            workDetail.Value = Convert.ToInt64(savEventBlocks.GetBlockSafe((uint)workDetail.WorkIdx).GetValue());
+                            m_eventWorkList.Add(workDetail);
+                        }
                     }
 
                     s = reader.ReadLine();
@@ -157,12 +163,35 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedFlags(int sourceIdx)
         {
+            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
 
+            foreach (var fGroup in m_flagsGroupsList)
+            {
+                if (fGroup.SourceIdx == sourceIdx)
+                {
+                    switch (fGroup.SourceIdx)
+                    {
+                        case 0: // Event Flags
+                            foreach (var f in fGroup.Flags)
+                            {
+                                savEventBlocks.GetBlockSafe((uint)f.FlagIdx).ChangeBooleanType(f.IsSet ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
+                            }
+                            break;
+                    }
+
+                    break;
+                }
+            }
         }
 
         public override void SyncEditedEventWork()
         {
+            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
 
+            foreach (var w in m_eventWorkList)
+            {
+                savEventBlocks.GetBlockSafe((uint)w.WorkIdx).SetValue((uint)w.Value);
+            }
         }
     }
 }
