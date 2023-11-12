@@ -31,7 +31,6 @@ namespace FlagsEditorEXPlugin
                     break;
 
                 case "STATIC BATTLE":
-                case "STATIONARY_BATTLE":
                     flagType = FlagsOrganizer.EventFlagType.StaticBattle;
                     break;
 
@@ -39,7 +38,6 @@ namespace FlagsEditorEXPlugin
                     flagType = FlagsOrganizer.EventFlagType.InGameTrade;
                     break;
 
-                case "GIFT":
                 case "ITEM GIFT":
                     flagType = FlagsOrganizer.EventFlagType.ItemGift;
                     break;
@@ -162,92 +160,4 @@ namespace FlagsEditorEXPlugin
             return flagTypeTxt;
         }
     }
-
-
-
-    class DummyOrgFlags : FlagsOrganizer
-    {
-        protected override void InitFlagsData(SaveFile savFile, string resData)
-        {
-            m_savFile = savFile;
-            bool[] savEventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
-            m_flagsGroupsList.Clear();
-            var fGroup = new FlagsGroup(0, "");
-
-            for (int i = 0; i < savEventFlags.Length; ++i)
-            {
-                fGroup.Flags.Add(new FlagDetail((uint)i, source: 0, EventFlagType._Unknown, "", "", "") { IsSet = savEventFlags[i] });
-            }
-
-            m_flagsGroupsList.Add(fGroup);
-        }
-
-        public override void BulkMarkFlags(EventFlagType flagType) { }
-
-        public override void BulkUnmarkFlags(EventFlagType flagType) { }
-
-        public override bool SupportsBulkEditingFlags(EventFlagType flagType) { return false; }
-
-        public override void SyncEditedFlags(int sourceIdx) { }
-
-        public override void SyncEditedEventWork() { }
-    }
-
-
-    class DummyOrgBlockFlags : FlagsOrganizer
-    {
-        List<SCBlock> m_blockEventFlags;
-
-        protected override void InitFlagsData(SaveFile savFile, string resData)
-        {
-            m_savFile = savFile;
-
-            m_blockEventFlags = new List<SCBlock>(5000);
-            foreach (var b in (m_savFile as ISCBlockArray).AllBlocks)
-            {
-                // Filter only bool blocks
-                if (b.Type == SCTypeCode.Bool1 || b.Type == SCTypeCode.Bool2)
-                {
-                    m_blockEventFlags.Add(b);
-                }
-            }
-
-            m_flagsGroupsList.Clear();
-            var fGroup = new FlagsGroup(0, "");
-
-            for (int i = 0; i < m_blockEventFlags.Count; ++i)
-            {
-                var b = m_blockEventFlags[i];
-                fGroup.Flags.Add(new FlagDetail(b.Key, source: 0, EventFlagType._Unknown, "", "", "") { IsSet = b.Type == SCTypeCode.Bool2 });
-            }
-
-            m_flagsGroupsList.Add(fGroup);
-        }
-
-        public override void DumpAllFlags()
-        {
-            StringBuilder sb = new StringBuilder(512 * 1024);
-
-            var flagsList = m_flagsGroupsList[0].Flags;
-            
-            for (int i = 0; i < flagsList.Count; ++i)
-            {
-                sb.AppendFormat("FLAG_0x{0:X8} {1}\t{2}\r\n", flagsList[i].FlagIdx, flagsList[i].IsSet,
-                    flagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : flagsList[i].ToString());
-            }
-
-            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
-        }
-
-        public override void BulkMarkFlags(EventFlagType flagType) { }
-
-        public override void BulkUnmarkFlags(EventFlagType flagType) { }
-
-        public override bool SupportsBulkEditingFlags(EventFlagType flagType) { return false; }
-
-        public override void SyncEditedFlags(int sourceIdx) { }
-
-        public override void SyncEditedEventWork() { }
-    }
-
 }

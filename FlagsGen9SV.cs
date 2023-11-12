@@ -234,7 +234,7 @@ namespace FlagsEditorEXPlugin
                 case EventFlagType.SideEvent:
                 case EventFlagType.InGameTrade:
                 case EventFlagType.StaticBattle:
-                case EventFlagType.Gift:
+                case EventFlagType.ItemGift:
                     return true;
 #endif
 
@@ -313,7 +313,7 @@ namespace FlagsEditorEXPlugin
                     }
                 }
 
-                else if (flagType == EventFlagType.SideEvent || flagType == EventFlagType.InGameTrade || flagType == EventFlagType.Gift)
+                else if (flagType == EventFlagType.SideEvent || flagType == EventFlagType.InGameTrade || flagType == EventFlagType.ItemGift)
                 {
                     foreach (var f in m_flagsGroupsList[Src_EventFlags].Flags)
                     {

@@ -31,9 +31,6 @@ namespace FlagsEditorEXPlugin
 
             _Unused,
             _Separator,
-
-            //TODO: remove
-            Gift = ItemGift,
         }
 
 
@@ -270,47 +267,34 @@ namespace FlagsEditorEXPlugin
 
         protected virtual void AssembleWorkList<T>(string workList_res, T[] eventWorkValues) where T: unmanaged
         {
-            //TODO: temp for those that still have no resources file
-            if (workList_res == null)
+            using (System.IO.StringReader reader = new System.IO.StringReader(workList_res))
             {
-                for (uint i = 0; i < eventWorkValues.Length; i++)
+                string s = reader.ReadLine();
+
+                // Skip header
+                if (s.StartsWith("//"))
                 {
-                    var workDetail = new WorkDetail(i, EventFlagType._Unknown, "", "", "");
-                    workDetail.Value = Convert.ToInt64(eventWorkValues[workDetail.WorkIdx]);
-                    m_eventWorkList.Add(workDetail);
+                    s = reader.ReadLine();
                 }
-            }
-            else
-            {
-                using (System.IO.StringReader reader = new System.IO.StringReader(workList_res))
+
+                do
                 {
-                    string s = reader.ReadLine();
-
-                    // Skip header
-                    if (s.StartsWith("//"))
+                    if (!string.IsNullOrWhiteSpace(s))
                     {
-                        s = reader.ReadLine();
-                    }
-
-                    do
-                    {
-                        if (!string.IsNullOrWhiteSpace(s))
+                        // End of section
+                        if (s.StartsWith("//"))
                         {
-                            // End of section
-                            if (s.StartsWith("//"))
-                            {
-                                break;
-                            }
-
-                            var workDetail = new WorkDetail(s);
-                            workDetail.Value = Convert.ToInt64(eventWorkValues[workDetail.WorkIdx]);
-                            m_eventWorkList.Add(workDetail);
+                            break;
                         }
 
-                        s = reader.ReadLine();
+                        var workDetail = new WorkDetail(s);
+                        workDetail.Value = Convert.ToInt64(eventWorkValues[workDetail.WorkIdx]);
+                        m_eventWorkList.Add(workDetail);
+                    }
 
-                    } while (s != null);
-                }
+                    s = reader.ReadLine();
+
+                } while (s != null);
             }
         }
 
@@ -388,7 +372,7 @@ namespace FlagsEditorEXPlugin
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
-            // Try off-res first
+            // Try outside file first
             var offResPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location), resName);
             if (!System.IO.File.Exists(offResPath))
             {
