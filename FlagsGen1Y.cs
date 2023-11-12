@@ -333,9 +333,17 @@ namespace FlagsEditorEXPlugin
 
                 case 4: // Rocket Hideout events
                     {
-                        idx = 0x83; // HS_ROCKET_HIDEOUT_B4F_GIOVANNI
+                        idx = 0x85; // HS_ROCKET_HIDEOUT_B4F_GIOVANNI
                         m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x6A2; // EVENT_BEAT_ROCKET_HIDEOUT_4_TRAINER_0 (Jessie & James)
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x6A3; // EVENT_BEAT_ROCKET_HIDEOUT_4_TRAINER_1 (evt)
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                         idx = 0x6A7; // EVENT_BEAT_ROCKET_HIDEOUT_GIOVANNI
                         m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
@@ -394,6 +402,10 @@ namespace FlagsEditorEXPlugin
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
 
                         idx = 0x397; // EVENT_SILPH_CO_RECEPTIONIST_AT_DESK
+                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                        idx = 0x784; // EVENT_BEAT_SILPH_CO_11F_TRAINER_0 (Jessie & James)
                         m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
@@ -536,6 +548,8 @@ namespace FlagsEditorEXPlugin
                 {
                     0x07, // HS_CERULEAN_ROCKET
                     0x31, // HS_VIRIDIAN_GYM_GIOVANNI
+                    0xBC, // HS_SILPH_CO_11F_JAMES
+                    0xBE, // HS_SILPH_CO_11F_JESSIE
                 };
 
                 foreach (var idx in idxArr)
