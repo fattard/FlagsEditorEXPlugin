@@ -329,8 +329,10 @@ namespace FlagsEditorEXPlugin
 
                 for (int i = 0; i < flagsList.Count; ++i)
                 {
-                    string fmt = flagsList[i].FlagIdx > (ulong)(uint.MaxValue) ?
+                    string fmt = flagsList[i].FlagIdx > (ulong)(ushort.MaxValue) ?
+                        flagsList[i].FlagIdx > (ulong)(uint.MaxValue) ?
                         "FLAG_0x{0:X16} {1}\t{2}\r\n" :
+                        "FLAG_0x{0:X8} {1}\t{2}\r\n" :
                         "FLAG_0x{0:X4} {1}\t{2}\r\n";
 
                     sb.AppendFormat(fmt, flagsList[i].FlagIdx, flagsList[i].IsSet,
@@ -346,8 +348,10 @@ namespace FlagsEditorEXPlugin
 
                 for (int i = 0; i < m_eventWorkList.Count; ++i)
                 {
-                    string fmt = m_eventWorkList[i].WorkIdx > (ulong)(uint.MaxValue) ?
+                    string fmt = m_eventWorkList[i].WorkIdx > (ulong)(ushort.MaxValue) ?
+                        m_eventWorkList[i].WorkIdx > (ulong)(uint.MaxValue) ? 
                         "WORK_0x{0:X16} => {1,5}\t{2}\r\n" :
+                        "WORK_0x{0:X8} => {1,5}\t{2}\r\n" :
                         "WORK_0x{0:X4} => {1,5}\t{2}\r\n";
 
                     sb.AppendFormat(fmt, m_eventWorkList[i].WorkIdx, m_eventWorkList[i].Value,
