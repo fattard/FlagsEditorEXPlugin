@@ -91,12 +91,33 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedFlags(int sourceIdx)
         {
+            var flagHelper = (m_savFile as IEventFlagArray);
 
+            foreach (var fGroup in m_flagsGroupsList)
+            {
+                if (fGroup.SourceIdx == sourceIdx)
+                {
+                    switch (fGroup.SourceIdx)
+                    {
+                        case 0: // Event Flags
+                            foreach (var f in fGroup.Flags)
+                            {
+                                flagHelper.SetEventFlag((int)f.FlagIdx, f.IsSet);
+                            }
+                            break;
+                    }
+
+                    break;
+                }
+            }
         }
 
         public override void SyncEditedEventWork()
         {
-
+            foreach (var w in m_eventWorkList)
+            {
+                m_eventWorkData.SetWork((int)w.WorkIdx, (int)w.Value);
+            }
         }
     }
 }
