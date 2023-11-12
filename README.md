@@ -15,10 +15,10 @@ The exported file will contains the name *flags_dump_VERSION.txt* that will be c
 This action opens the main window of the plugin.  
 All sorts of Flags and Event Work data can be edited through several tabs, that will open dedicated editors, and basic filters.  
 
-![image](https://github.com/fattard/FlagsEditorEXPlugin/assets/1159052/4744321a-2a3d-4fd5-8fb1-b1470dae12db)
-![image](https://github.com/fattard/FlagsEditorEXPlugin/assets/1159052/2ce9b392-c2f9-4493-ad43-bce499025b74)
-![image](https://github.com/fattard/FlagsEditorEXPlugin/assets/1159052/62f9cf05-3378-46cd-ac4c-d61192aa8caa)
-![image](https://github.com/fattard/FlagsEditorEXPlugin/assets/1159052/c502576d-993e-4912-918b-bdb29bcc70c4)
+![image](https://github.com/fattard/FlagsEditorEXPlugin/assets/1159052/bdc96090-d506-49b6-9c21-3283a999a0bf)
+![image](https://github.com/fattard/FlagsEditorEXPlugin/assets/1159052/5d7ccace-e6de-4a54-9a08-f39d2458c1ee)
+![image](https://github.com/fattard/FlagsEditorEXPlugin/assets/1159052/5aff3825-be2f-4f3d-aee2-489a599eb354)
+![image](https://github.com/fattard/FlagsEditorEXPlugin/assets/1159052/640c5696-6939-4ba6-8d7a-23d40264bc68)
 
 After finishing editing, export your save data from the base application.
 
