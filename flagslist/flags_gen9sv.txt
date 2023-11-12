@@ -4873,7 +4873,6 @@
 0xAE72B792	SIDE EVENT			Removed Ting-Lu Stake 6		FEVT_SUB_014_KUI_06_RELEASE
 0xAB74A785	SIDE EVENT			Removed Ting-Lu Stake 7		FEVT_SUB_014_KUI_07_RELEASE
 0x32E24C38	SIDE EVENT			Removed Ting-Lu Stake 8		FEVT_SUB_014_KUI_08_RELEASE
-0xB836D2B5	EVENT			KStakesRemovedTingLu		
 0xF1CFFA8E	SIDE EVENT			Removed Chien-Pao Stake 1		FEVT_SUB_015_KUI_01_RELEASE
 0x4C7DC4BB	SIDE EVENT			Removed Chien-Pao Stake 2		FEVT_SUB_015_KUI_02_RELEASE
 0xAE0F19B0	SIDE EVENT			Removed Chien-Pao Stake 3		FEVT_SUB_015_KUI_03_RELEASE
@@ -4882,7 +4881,6 @@
 0x5C55EE7F	SIDE EVENT			Removed Chien-Pao Stake 6		FEVT_SUB_015_KUI_06_RELEASE
 0xFFEB3B14	SIDE EVENT			Removed Chien-Pao Stake 7		FEVT_SUB_015_KUI_07_RELEASE
 0xDAD07F09	SIDE EVENT			Removed Chien-Pao Stake 8		FEVT_SUB_015_KUI_08_RELEASE
-0x25A71ADC	EVENT			KStakesRemovedChienPao		
 0xA3B68F79	SIDE EVENT			Removed Wo-Chien Stake 1		FEVT_SUB_016_KUI_01_RELEASE
 0x4CB308C8	SIDE EVENT			Removed Wo-Chien Stake 2		FEVT_SUB_016_KUI_02_RELEASE
 0xF6FC8073	SIDE EVENT			Removed Wo-Chien Stake 3		FEVT_SUB_016_KUI_03_RELEASE
@@ -4891,7 +4889,6 @@
 0x27CB724C	SIDE EVENT			Removed Wo-Chien Stake 6		FEVT_SUB_016_KUI_06_RELEASE
 0x0470BDF7	SIDE EVENT			Removed Wo-Chien Stake 7		FEVT_SUB_016_KUI_07_RELEASE
 0x59A600BE	SIDE EVENT			Removed Wo-Chien Stake 8		FEVT_SUB_016_KUI_08_RELEASE
-0x9C7D6B7B	EVENT			KStakesRemovedWoChien		
 0x6F341C9C	SIDE EVENT			Removed Chi-Yu Stake 1		FEVT_SUB_017_KUI_01_RELEASE
 0x7077C7AD	SIDE EVENT			Removed Chi-Yu Stake 2		FEVT_SUB_017_KUI_02_RELEASE
 0xD9072D1A	SIDE EVENT			Removed Chi-Yu Stake 3		FEVT_SUB_017_KUI_03_RELEASE
@@ -4900,7 +4897,6 @@
 0x6714A749	SIDE EVENT			Removed Chi-Yu Stake 6		FEVT_SUB_017_KUI_06_RELEASE
 0xC83DEFF6	SIDE EVENT			Removed Chi-Yu Stake 7		FEVT_SUB_017_KUI_07_RELEASE
 0xCA415ABF	SIDE EVENT			Removed Chi-Yu Stake 8		FEVT_SUB_017_KUI_08_RELEASE
-0xAE752C6A	EVENT			KStakesRemovedChiYu		
 0x987B8A24	STATIC BATTLE	Area Zero		Capture wild Koraidon / Miraidon		FEVT_SUB_018_CAPTURED
 0x2F9CC37D	EVENT			Has SaveData for LGPE		FEVT_SUB_028_HAVE_BELUGA_SAVE_DATA
 0xC4B1323E	EVENT			Has SaveData for BDSP		FEVT_SUB_028_HAVE_DELPHIS_SAVE_DATA
@@ -5068,9 +5064,6 @@
 0xCE0977F2				KOgreOustinCanReceiveRewardEasy		OniballoonSave_isCanReceiveRewardEasy
 0x84E725C7				KOgreOustinCanReceiveRewardNormal		OniballoonSave_isCanReceiveRewardNormal
 0x176CD6C9				KOgreOustinCanReceiveRewardHard		OniballoonSave_isCanReceiveRewardHard
-0x52F7FB36				KOgreOustinHighScoreEasy		OniballoonSave_bestScoreEasy
-0xC887C363				KOgreOustinHighScoreNormal		OniballoonSave_bestScoreNormal
-0x24AD643D				KOgreOustinHighScoreHard		OniballoonSave_bestScoreHard
 0xB5757519				KOgreOustinPlayedEasy		OniballoonSave_isPlayedEasy
 0x299B1DB8				KOgreOustinPlayedNormal		OniballoonSave_isPlayedNormal
 0xAB32F81A				KOgreOustinPlayedHard		OniballoonSave_isPlayedHard
