@@ -70,8 +70,8 @@ namespace FlagsEditorEXPlugin.Forms
             if (!isSyncingCells)
             {
                 var cells = dataGridView.Rows[e.RowIndex].Cells;
-                int idx = (int)(cells[0].Value as UInt64?).Value;
-                var w = m_editableEventWorkList[idx];
+                var idx = (cells[0].Value as UInt64?).Value;
+                var w = m_editableEventWorkList.Find(element => (element.WorkIdx == idx));
 
                 isSyncingCells = true;
 
@@ -128,9 +128,9 @@ namespace FlagsEditorEXPlugin.Forms
                     continue;
                 }
 
-                dataGridView.Rows.Add(new object[] { w.WorkIdx, w.InternalName, w.LocationName, w.DetailMsg, "Custom", w.Value });
+                int i = dataGridView.Rows.Add(new object[] { w.WorkIdx, w.InternalName, w.LocationName, w.DetailMsg, "Custom", w.Value });
 
-                var row = dataGridView.Rows[dataGridView.Rows.Count - 1];
+                var row = dataGridView.Rows[i];
 
                 List<String> validValuesList = new List<string>(w.ValidValues.Values);
                 validValuesList.Insert(0, "");

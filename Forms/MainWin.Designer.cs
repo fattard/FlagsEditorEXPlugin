@@ -208,6 +208,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.markFlagsBtn.TabIndex = 13;
             this.markFlagsBtn.Text = "Bulk Set Selected";
             this.markFlagsBtn.UseVisualStyleBackColor = true;
+            this.markFlagsBtn.Click += new System.EventHandler(this.markFlagsBtn_Click);
             // 
             // groupBox3
             // 

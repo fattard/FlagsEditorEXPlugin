@@ -56,16 +56,10 @@ namespace FlagsEditorEXPlugin.Forms
 
         private void setAllBtn_Click(object sender, EventArgs e)
         {
-            bool skipUnused = filterUnusedChk.Checked;
-
-            foreach (var f in m_editableFlagsList)
+            for (int i = 0; i < dataGridView.RowCount; i++)
             {
-                if (f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused && skipUnused)
-                {
-                    continue;
-                }
-
-                f.IsSet = true;
+                var idx = (dataGridView.Rows[i].Cells[1].Value as UInt64?).Value;
+                m_editableFlagsList.Find(f => (f.FlagIdx == idx)).IsSet = true;
             }
 
             RefreshDataGrid();
@@ -74,16 +68,10 @@ namespace FlagsEditorEXPlugin.Forms
 
         private void unsetAllBtn_Click(object sender, EventArgs e)
         {
-            bool skipUnused = filterUnusedChk.Checked;
-
-            foreach (var f in m_editableFlagsList)
+            for (int i = 0; i < dataGridView.RowCount; i++)
             {
-                if (f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused && skipUnused)
-                {
-                    continue;
-                }
-
-                f.IsSet = false;
+                var idx = (dataGridView.Rows[i].Cells[1].Value as UInt64?).Value;
+                m_editableFlagsList.Find(f => (f.FlagIdx == idx)).IsSet = false;
             }
 
             RefreshDataGrid();
@@ -133,8 +121,8 @@ namespace FlagsEditorEXPlugin.Forms
 
         private void dataGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
-            int idx = (int)(dataGridView.Rows[e.RowIndex].Cells[1].Value as UInt64?).Value;
-            m_editableFlagsList[idx].IsSet = (dataGridView.Rows[e.RowIndex].Cells[0].Value as Boolean?).Value;
+            var idx = (dataGridView.Rows[e.RowIndex].Cells[1].Value as UInt64?).Value;
+            m_editableFlagsList.Find(f => (f.FlagIdx == idx)).IsSet = (dataGridView.Rows[e.RowIndex].Cells[0].Value as Boolean?).Value;
         }
 
 
@@ -194,7 +182,7 @@ namespace FlagsEditorEXPlugin.Forms
             int totalSet = 0;
             int totalUnset = 0;
 
-            for (int i = 0; i < dataGridView.Rows.Count; i++)
+            for (int i = 0; i < dataGridView.RowCount; i++)
             {
                 if ((dataGridView.Rows[i].Cells[0].Value as Boolean?).Value)
                 {
