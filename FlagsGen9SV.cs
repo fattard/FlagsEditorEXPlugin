@@ -13,8 +13,26 @@ namespace FlagsEditorEXPlugin
 
         const int Src_EventFlags = 0;
         const int Src_FieldItemFlags = 1;
-        const int Src_TrainerFlags = 2;
-        const int Src_HiddenItemFlags = 3;
+        const int Src_HiddenItemFlags = 2;
+        const int Src_TrainerFlags = 3;
+
+        readonly uint[] HiddenItemsBlockKeys = new uint[]
+        {
+                // Paldea
+                0x6DAB304B, // ~ South Province
+                0x6EAB31DE, // ~ West Province
+                0x6FAB3371, // ~ North Province
+                0x6CAB2EB8, // ~ East Province
+
+                // Area Zero
+                0x9A7A41AB,
+                0x9B7A433E,
+                0x9C7A44D1,
+
+                // DLC1
+                0x917A3380,
+                0xA07A4B1D,
+        };
 
         protected override void InitFlagsData(SaveFile savFile, string resData)
         {
@@ -36,11 +54,13 @@ namespace FlagsEditorEXPlugin
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxFieldItemFlagsSection = s_flagsList_res.IndexOf("//\tField Item Flags");
+            int idxHiddenItemsFlagsSection = s_flagsList_res.IndexOf("//\tHidden Item Flags");
             int idxTrainerFlagsSection = s_flagsList_res.IndexOf("//\tTrainer Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
             AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), Src_EventFlags, "Event Flags", null);
             AssembleList(s_flagsList_res.Substring(idxFieldItemFlagsSection), Src_FieldItemFlags, "Field Item Flags", null);
+            AssembleList(s_flagsList_res.Substring(idxHiddenItemsFlagsSection), Src_HiddenItemFlags, "Hidden Item Flags", null);
             AssembleList(s_flagsList_res.Substring(idxTrainerFlagsSection), Src_TrainerFlags, "Regular Trainer Flags", null);
 
             AssembleWorkList<uint>(s_flagsList_res.Substring(idxEventWorkSection), null);
@@ -92,6 +112,54 @@ namespace FlagsEditorEXPlugin
                                     if (listOfStatuses == null)
                                     {
                                         listOfStatuses = RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0x2482AD60).Data, emptyKey: 0x0000000000000000);
+                                    }
+
+                                    var flagDetail = new FlagDetail(s);
+                                    if (listOfStatuses.ContainsKey(flagDetail.FlagIdx))
+                                    {
+                                        flagDetail.IsSet = listOfStatuses[flagDetail.FlagIdx];
+                                        flagDetail.SourceIdx = sourceIdx;
+                                        flagsGroup.Flags.Add(flagDetail);
+                                    }
+                                }
+                                break;
+
+                            case Src_HiddenItemFlags:
+                                {
+                                    if (listOfStatuses == null)
+                                    {
+                                        listOfStatuses = new Dictionary<ulong, bool>(10 * 1024);
+
+                                        for (int k = 0; k < HiddenItemsBlockKeys.Length; k++)
+                                        {
+                                            // Skip DLC1 on older saves
+                                            if (k > 6 && (m_savFile as SAV9SV).SaveRevision < 1)
+                                            {
+                                                continue;
+                                            }
+
+                                            // Skip DLC2 on older saves
+                                            if (k > 8 && (m_savFile as SAV9SV).SaveRevision < 2)
+                                            {
+                                                continue;
+                                            }
+
+                                            var data = savEventBlocks.GetBlockSafe(HiddenItemsBlockKeys[k]).Data;
+                                            int offsetAdjust = (int)k << 12;
+
+                                            for (int i = 0; i < data.Length; i++)
+                                            {
+                                                listOfStatuses.Add((ulong)(i + offsetAdjust), data[i] == 0);
+                                            }
+                                        }
+
+                                        /*StringBuilder sb = new StringBuilder();
+                                        foreach (var _ in listOfStatuses)
+                                        {
+                                            sb.AppendFormat("0x{0:X4}\n", _.Key);
+                                        }
+
+                                        System.IO.File.WriteAllText("_idx.txt", sb.ToString());*/
                                     }
 
                                     var flagDetail = new FlagDetail(s);
@@ -227,14 +295,17 @@ namespace FlagsEditorEXPlugin
         {
             switch (flagType)
             {
-#if DEBUG
                 case EventFlagType.FieldItem:
-                //case FlagType.HiddenItem:
                 case EventFlagType.TrainerBattle:
-                case EventFlagType.SideEvent:
-                case EventFlagType.InGameTrade:
-                case EventFlagType.StaticBattle:
+                    return true;
+
+#if DEBUG
+                case EventFlagType.HiddenItem:
                 case EventFlagType.ItemGift:
+                case EventFlagType.PkmnGift:
+                case EventFlagType.StaticBattle:
+                case EventFlagType.InGameTrade:
+                case EventFlagType.SideEvent:
                     return true;
 #endif
 
@@ -260,81 +331,68 @@ namespace FlagsEditorEXPlugin
                 var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
                 byte[] bdata;
 
-                if (flagType == EventFlagType.FieldItem)
+                switch (flagType)
                 {
-                    bdata = savEventBlocks.GetBlockSafe(0x2482AD60).Data;
-                    using (var ms = new System.IO.MemoryStream(bdata))
-                    {
-                        using (var writer = new System.IO.BinaryWriter(ms))
+                    case EventFlagType.FieldItem:
                         {
                             foreach (var f in m_flagsGroupsList[Src_FieldItemFlags].Flags)
                             {
-                                if (ms.Position < ms.Length)
+                                if (f.FlagTypeVal == flagType)
                                 {
-                                    if (f.FlagTypeVal == flagType)
-                                    {
-                                        f.IsSet = value;
-                                        writer.Write(f.FlagIdx);
-                                        writer.Write(value ? (ulong)1 : (ulong)0);
-                                    }
+                                    f.IsSet = value;
                                 }
                             }
+
+                            SyncEditedFlags(Src_FieldItemFlags);
                         }
-                    }
-                }
-                
-                else if (flagType == EventFlagType.TrainerBattle)
-                {
-                    bdata = savEventBlocks.GetBlockSafe(0xF018C4AC).Data;
-                    using (var ms = new System.IO.MemoryStream(bdata))
-                    {
-                        using (var writer = new System.IO.BinaryWriter(ms))
+                        break;
+
+                    case EventFlagType.HiddenItem:
+                        {
+                            foreach (var f in m_flagsGroupsList[Src_HiddenItemFlags].Flags)
+                            {
+                                if (f.FlagTypeVal == flagType)
+                                {
+                                    f.IsSet = value;
+                                }
+                            }
+
+                            SyncEditedFlags(Src_HiddenItemFlags);
+                        }
+                        break;
+
+                    case EventFlagType.TrainerBattle:
                         {
                             foreach (var f in m_flagsGroupsList[Src_TrainerFlags].Flags)
                             {
-                                if (ms.Position < ms.Length)
+                                if (f.FlagTypeVal == flagType)
                                 {
-                                    if (f.FlagTypeVal == flagType)
-                                    {
-                                        f.IsSet = value;
-                                        writer.Write(value ? f.FlagIdx : 0xCBF29CE484222645);
-                                        writer.Write(value ? (ulong)1 : (ulong)0);
-                                    }
+                                    f.IsSet = value;
                                 }
                             }
 
-                            // fill blanks
-                            while (ms.Position < ms.Length)
-                            {
-                                writer.Write(0xCBF29CE484222645);
-                                writer.Write((ulong)0);
-                            }
+                            SyncEditedFlags(Src_TrainerFlags);
                         }
-                    }
-                }
+                        break;
 
-                else if (flagType == EventFlagType.SideEvent || flagType == EventFlagType.InGameTrade || flagType == EventFlagType.ItemGift)
-                {
-                    foreach (var f in m_flagsGroupsList[Src_EventFlags].Flags)
-                    {
-                        if (f.FlagTypeVal == flagType)
+                    case EventFlagType.ItemGift:
+                    case EventFlagType.PkmnGift:
+                    case EventFlagType.StaticBattle:
+                    case EventFlagType.InGameTrade:
+                    case EventFlagType.SideEvent:
                         {
-                            f.IsSet = value;
-                            savEventBlocks.GetBlockSafe((uint)f.FlagIdx).ChangeBooleanType(value ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
+                            foreach (var f in m_flagsGroupsList[Src_EventFlags].Flags)
+                            {
+                                if (f.FlagTypeVal == flagType)
+                                {
+                                    f.IsSet = value;
+                                }
+                            }
+
+                            SyncEditedFlags(Src_EventFlags);
                         }
-                    }
+                        break;
                 }
-
-                /*var blocks = (m_savFile as ISCBlockArray).Accessor;
-
-                foreach (var f in m_eventFlagsList)
-                {
-                    if (f.FlagTypeVal == flagType)
-                    {
-                        f.IsSet = value;
-                        blocks.GetBlockSafe((uint)f.FlagIdx).ChangeBooleanType(value ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
-                    }
-                }*/
             }
         }
 
@@ -371,6 +429,22 @@ namespace FlagsEditorEXPlugin
                                             }
                                         }
                                     }
+                                }
+                            }
+                            break;
+
+                        case Src_HiddenItemFlags:
+                            {
+                                List<byte[]> tBlocks = new List<byte[]>(HiddenItemsBlockKeys.Length);
+                                foreach (var _ in HiddenItemsBlockKeys)
+                                    tBlocks.Add(savEventBlocks.GetBlockSafe(_).Data);
+
+                                foreach (var f in fGroup.Flags)
+                                {
+                                    int k = (int)(f.FlagIdx >> 12);
+
+                                    var data = tBlocks[k];
+                                    data[(int)(f.FlagIdx & 1023)] = f.IsSet ? (byte)0 : (byte)0x80;
                                 }
                             }
                             break;
