@@ -57,6 +57,35 @@ namespace FlagsEditorEXPlugin.Forms
         {
             RefreshDataGrid();
         }
+
+        private void filterBySearchChk_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!filterBySearchChk.Checked || (filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text)))
+            {
+                RefreshDataGrid();
+            }
+            else
+            {
+                filterBySearchChk.Checked = false;
+            }
+        }
+
+        private void searchTermBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (!filterBySearchChk.Checked)
+                {
+                    filterBySearchChk.Checked = true;
+                }
+                // Force event if already checked
+                else
+                {
+                    filterBySearchChk_CheckedChanged(sender, new EventArgs());
+                }
+            }
+        }
+
         private void dataGridView_CurrentCellDirtyStateChanged(object sender, EventArgs e)
         {
             if (dataGridView.IsCurrentCellDirty)
@@ -120,10 +149,18 @@ namespace FlagsEditorEXPlugin.Forms
             GC.Collect();
 
             bool skipUnused = filterUnusedChk.Checked;
+            bool filterBySearch = filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text);
+
+            string searchTerm = searchTermBox.Text.ToUpperInvariant();
 
             foreach (var w in m_editableEventWorkList)
             {
                 if (w.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused && skipUnused)
+                {
+                    continue;
+                }
+
+                if (filterBySearch && !w.ToString().ToUpperInvariant().Contains(searchTerm))
                 {
                     continue;
                 }

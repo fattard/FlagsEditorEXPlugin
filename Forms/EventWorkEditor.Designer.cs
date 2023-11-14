@@ -40,6 +40,8 @@ namespace FlagsEditorEXPlugin.Forms
             this.dgv_txtDesc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgv_validValues = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.dgv_rawValue = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.searchTermBox = new System.Windows.Forms.TextBox();
+            this.filterBySearchChk = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -160,11 +162,32 @@ namespace FlagsEditorEXPlugin.Forms
             this.dgv_rawValue.HeaderText = "Raw Value";
             this.dgv_rawValue.Name = "dgv_rawValue";
             // 
+            // searchTermBox
+            // 
+            this.searchTermBox.Location = new System.Drawing.Point(425, 436);
+            this.searchTermBox.Name = "searchTermBox";
+            this.searchTermBox.Size = new System.Drawing.Size(215, 20);
+            this.searchTermBox.TabIndex = 18;
+            this.searchTermBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.searchTermBox_KeyDown);
+            // 
+            // filterBySearchChk
+            // 
+            this.filterBySearchChk.AutoSize = true;
+            this.filterBySearchChk.Location = new System.Drawing.Point(425, 413);
+            this.filterBySearchChk.Name = "filterBySearchChk";
+            this.filterBySearchChk.Size = new System.Drawing.Size(120, 17);
+            this.filterBySearchChk.TabIndex = 17;
+            this.filterBySearchChk.Text = "Filter by search term";
+            this.filterBySearchChk.UseVisualStyleBackColor = true;
+            this.filterBySearchChk.CheckedChanged += new System.EventHandler(this.filterBySearchChk_CheckedChanged);
+            // 
             // EventWorkEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(824, 468);
+            this.Controls.Add(this.searchTermBox);
+            this.Controls.Add(this.filterBySearchChk);
             this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.filterUnusedChk);
             this.Controls.Add(this.restoreBtn);
@@ -194,5 +217,7 @@ namespace FlagsEditorEXPlugin.Forms
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_txtDesc;
         private System.Windows.Forms.DataGridViewComboBoxColumn dgv_validValues;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_rawValue;
+        private System.Windows.Forms.TextBox searchTermBox;
+        private System.Windows.Forms.CheckBox filterBySearchChk;
     }
 }

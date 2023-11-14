@@ -100,6 +100,35 @@ namespace FlagsEditorEXPlugin.Forms
             RefreshCounters();
         }
 
+        private void filterBySearchChk_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!filterBySearchChk.Checked || (filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text)))
+            {
+                RefreshDataGrid();
+                RefreshCounters();
+            }
+            else
+            {
+                filterBySearchChk.Checked = false;
+            }
+        }
+
+        private void searchTermBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                if (!filterBySearchChk.Checked)
+                {
+                    filterBySearchChk.Checked = true;
+                }
+                // Force event if already checked
+                else
+                {
+                    filterBySearchChk_CheckedChanged(sender, new EventArgs());
+                }
+            }
+        }
+
         private void showOnlyUnsetChk_CheckedChanged(object sender, EventArgs e)
         {
             if (showOnlyUnsetChk.Checked)
@@ -150,6 +179,9 @@ namespace FlagsEditorEXPlugin.Forms
             bool skipUnused = filterUnusedChk.Checked;
             bool skipSet = showOnlyUnsetChk.Checked;
             bool skipUnset = showOnlySetChk.Checked;
+            bool filterBySearch = filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text);
+
+            string searchTerm = searchTermBox.Text.ToUpperInvariant();
 
             foreach (var f in m_editableFlagsList)
             {
@@ -168,6 +200,11 @@ namespace FlagsEditorEXPlugin.Forms
                 }
 
                 if (m_filter != FlagsOrganizer.EventFlagType._Unknown && f.FlagTypeVal != m_filter)
+                {
+                    continue;
+                }
+
+                if (filterBySearch && !f.ToString().ToUpperInvariant().Contains(searchTerm))
                 {
                     continue;
                 }

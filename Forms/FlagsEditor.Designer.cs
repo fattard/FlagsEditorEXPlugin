@@ -30,6 +30,11 @@ namespace FlagsEditorEXPlugin.Forms
         private void InitializeComponent()
         {
             this.dataGridView = new System.Windows.Forms.DataGridView();
+            this.dgv_val = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.dgv_ref = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_location = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgv_txtDesc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.saveBtn = new System.Windows.Forms.Button();
             this.cancelBtn = new System.Windows.Forms.Button();
             this.setAllBtn = new System.Windows.Forms.Button();
@@ -42,11 +47,8 @@ namespace FlagsEditorEXPlugin.Forms
             this.filterUnusedChk = new System.Windows.Forms.CheckBox();
             this.showOnlySetChk = new System.Windows.Forms.CheckBox();
             this.showOnlyUnsetChk = new System.Windows.Forms.CheckBox();
-            this.dgv_val = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.dgv_ref = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_location = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_txtDesc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.filterBySearchChk = new System.Windows.Forms.CheckBox();
+            this.searchTermBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -75,6 +77,45 @@ namespace FlagsEditorEXPlugin.Forms
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView.Size = new System.Drawing.Size(800, 357);
             this.dataGridView.TabIndex = 0;
+            // 
+            // dgv_val
+            // 
+            this.dgv_val.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dgv_val.HeaderText = "Value";
+            this.dgv_val.Name = "dgv_val";
+            this.dgv_val.Width = 40;
+            // 
+            // dgv_ref
+            // 
+            this.dgv_ref.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dgv_ref.HeaderText = "Ref";
+            this.dgv_ref.Name = "dgv_ref";
+            this.dgv_ref.ReadOnly = true;
+            this.dgv_ref.Width = 49;
+            // 
+            // dgv_id
+            // 
+            this.dgv_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dgv_id.HeaderText = "Identifier";
+            this.dgv_id.Name = "dgv_id";
+            this.dgv_id.ReadOnly = true;
+            this.dgv_id.Width = 72;
+            // 
+            // dgv_location
+            // 
+            this.dgv_location.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dgv_location.HeaderText = "Location";
+            this.dgv_location.Name = "dgv_location";
+            this.dgv_location.ReadOnly = true;
+            this.dgv_location.Width = 73;
+            // 
+            // dgv_txtDesc
+            // 
+            this.dgv_txtDesc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.dgv_txtDesc.HeaderText = "Description";
+            this.dgv_txtDesc.Name = "dgv_txtDesc";
+            this.dgv_txtDesc.ReadOnly = true;
+            this.dgv_txtDesc.Width = 85;
             // 
             // saveBtn
             // 
@@ -197,50 +238,32 @@ namespace FlagsEditorEXPlugin.Forms
             this.showOnlyUnsetChk.UseVisualStyleBackColor = true;
             this.showOnlyUnsetChk.CheckedChanged += new System.EventHandler(this.showOnlyUnsetChk_CheckedChanged);
             // 
-            // dgv_val
+            // filterBySearchChk
             // 
-            this.dgv_val.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_val.HeaderText = "Value";
-            this.dgv_val.Name = "dgv_val";
-            this.dgv_val.Width = 40;
+            this.filterBySearchChk.AutoSize = true;
+            this.filterBySearchChk.Location = new System.Drawing.Point(425, 384);
+            this.filterBySearchChk.Name = "filterBySearchChk";
+            this.filterBySearchChk.Size = new System.Drawing.Size(120, 17);
+            this.filterBySearchChk.TabIndex = 13;
+            this.filterBySearchChk.Text = "Filter by search term";
+            this.filterBySearchChk.UseVisualStyleBackColor = true;
+            this.filterBySearchChk.CheckedChanged += new System.EventHandler(this.filterBySearchChk_CheckedChanged);
             // 
-            // dgv_ref
+            // searchTermBox
             // 
-            this.dgv_ref.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_ref.HeaderText = "Ref";
-            this.dgv_ref.Name = "dgv_ref";
-            this.dgv_ref.ReadOnly = true;
-            this.dgv_ref.Width = 49;
-            // 
-            // dgv_id
-            // 
-            this.dgv_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_id.HeaderText = "Identifier";
-            this.dgv_id.Name = "dgv_id";
-            this.dgv_id.ReadOnly = true;
-            this.dgv_id.Width = 72;
-            // 
-            // dgv_location
-            // 
-            this.dgv_location.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_location.HeaderText = "Location";
-            this.dgv_location.Name = "dgv_location";
-            this.dgv_location.ReadOnly = true;
-            this.dgv_location.Width = 73;
-            // 
-            // dgv_txtDesc
-            // 
-            this.dgv_txtDesc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_txtDesc.HeaderText = "Description";
-            this.dgv_txtDesc.Name = "dgv_txtDesc";
-            this.dgv_txtDesc.ReadOnly = true;
-            this.dgv_txtDesc.Width = 85;
+            this.searchTermBox.Location = new System.Drawing.Point(425, 407);
+            this.searchTermBox.Name = "searchTermBox";
+            this.searchTermBox.Size = new System.Drawing.Size(215, 20);
+            this.searchTermBox.TabIndex = 14;
+            this.searchTermBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.searchTermBox_KeyDown);
             // 
             // FlagsEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(824, 468);
+            this.Controls.Add(this.searchTermBox);
+            this.Controls.Add(this.filterBySearchChk);
             this.Controls.Add(this.showOnlyUnsetChk);
             this.Controls.Add(this.showOnlySetChk);
             this.Controls.Add(this.filterUnusedChk);
@@ -286,5 +309,7 @@ namespace FlagsEditorEXPlugin.Forms
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_id;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_location;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgv_txtDesc;
+        private System.Windows.Forms.CheckBox filterBySearchChk;
+        private System.Windows.Forms.TextBox searchTermBox;
     }
 }
