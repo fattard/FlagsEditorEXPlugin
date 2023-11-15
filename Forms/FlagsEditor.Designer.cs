@@ -125,7 +125,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.saveBtn.TabIndex = 1;
             this.saveBtn.Text = "Save";
             this.saveBtn.UseVisualStyleBackColor = true;
-            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
+            this.saveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
             // 
             // cancelBtn
             // 
@@ -135,7 +135,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.cancelBtn.TabIndex = 2;
             this.cancelBtn.Text = "Cancel";
             this.cancelBtn.UseVisualStyleBackColor = true;
-            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // setAllBtn
             // 
@@ -145,7 +145,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.setAllBtn.TabIndex = 3;
             this.setAllBtn.Text = "Set All";
             this.setAllBtn.UseVisualStyleBackColor = true;
-            this.setAllBtn.Click += new System.EventHandler(this.setAllBtn_Click);
+            this.setAllBtn.Click += new System.EventHandler(this.SetAllBtn_Click);
             // 
             // unsetAllBtn
             // 
@@ -155,7 +155,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.unsetAllBtn.TabIndex = 4;
             this.unsetAllBtn.Text = "Unset All";
             this.unsetAllBtn.UseVisualStyleBackColor = true;
-            this.unsetAllBtn.Click += new System.EventHandler(this.unsetAllBtn_Click);
+            this.unsetAllBtn.Click += new System.EventHandler(this.UnsetAllBtn_Click);
             // 
             // restoreBtn
             // 
@@ -165,7 +165,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.restoreBtn.TabIndex = 5;
             this.restoreBtn.Text = "Restore State";
             this.restoreBtn.UseVisualStyleBackColor = true;
-            this.restoreBtn.Click += new System.EventHandler(this.restoreBtn_Click);
+            this.restoreBtn.Click += new System.EventHandler(this.RestoreBtn_Click);
             // 
             // totalSetLabel
             // 
@@ -214,7 +214,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.filterUnusedChk.TabIndex = 10;
             this.filterUnusedChk.Text = "Hide Unused";
             this.filterUnusedChk.UseVisualStyleBackColor = true;
-            this.filterUnusedChk.CheckedChanged += new System.EventHandler(this.filterUnusedChk_CheckedChanged);
+            this.filterUnusedChk.CheckedChanged += new System.EventHandler(this.FilterUnusedChk_CheckedChanged);
             // 
             // showOnlySetChk
             // 
@@ -225,7 +225,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.showOnlySetChk.TabIndex = 11;
             this.showOnlySetChk.Text = "Show only set";
             this.showOnlySetChk.UseVisualStyleBackColor = true;
-            this.showOnlySetChk.CheckedChanged += new System.EventHandler(this.showOnlySetChk_CheckedChanged);
+            this.showOnlySetChk.CheckedChanged += new System.EventHandler(this.ShowOnlySetChk_CheckedChanged);
             // 
             // showOnlyUnsetChk
             // 
@@ -236,7 +236,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.showOnlyUnsetChk.TabIndex = 12;
             this.showOnlyUnsetChk.Text = "Show only unset";
             this.showOnlyUnsetChk.UseVisualStyleBackColor = true;
-            this.showOnlyUnsetChk.CheckedChanged += new System.EventHandler(this.showOnlyUnsetChk_CheckedChanged);
+            this.showOnlyUnsetChk.CheckedChanged += new System.EventHandler(this.ShowOnlyUnsetChk_CheckedChanged);
             // 
             // filterBySearchChk
             // 
@@ -247,7 +247,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.filterBySearchChk.TabIndex = 13;
             this.filterBySearchChk.Text = "Filter by search term";
             this.filterBySearchChk.UseVisualStyleBackColor = true;
-            this.filterBySearchChk.CheckedChanged += new System.EventHandler(this.filterBySearchChk_CheckedChanged);
+            this.filterBySearchChk.CheckedChanged += new System.EventHandler(this.FilterBySearchChk_CheckedChanged);
             // 
             // searchTermBox
             // 
@@ -255,7 +255,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.searchTermBox.Name = "searchTermBox";
             this.searchTermBox.Size = new System.Drawing.Size(215, 20);
             this.searchTermBox.TabIndex = 14;
-            this.searchTermBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.searchTermBox_KeyDown);
+            this.searchTermBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SearchTermBox_KeyDown);
             // 
             // FlagsEditor
             // 

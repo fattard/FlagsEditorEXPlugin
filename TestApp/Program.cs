@@ -36,26 +36,22 @@ namespace FlagsEditorEX_App
 
             if (SAV != null)
             {
-                var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SAV, resData: null);
-
-                if (flagsOrganizer == null)
-                {
-                    throw new FormatException("Unsupported SAV format: " + SAV.Version);
-                }
-
+                var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SAV, resData: null) ?? throw new FormatException("Unsupported SAV format: " + SAV.Version);
                 var form = new MainWin(flagsOrganizer);
-                form.KeyDown += new KeyEventHandler(Form_KeyDown);
+                form.KeyDown += Form_KeyDown;
                 form.KeyPreview = true;
                 Application.Run(form);
             }
         }
 
-        private static void Form_KeyDown(object sender, KeyEventArgs e)
+        private static void Form_KeyDown(object? sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.D)
             {
+#pragma warning disable CS8604 // Possible null reference argument.
                 var organizer = FlagsOrganizer.OrganizeFlags(SAV, resData: null);
-                organizer.DumpAllFlags();
+#pragma warning restore CS8604 // Possible null reference argument.
+                organizer?.DumpAllFlags();
             }
         }
     }

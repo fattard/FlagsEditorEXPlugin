@@ -106,7 +106,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.rawFlagsEditBtn.TabIndex = 1;
             this.rawFlagsEditBtn.Text = "Edit...";
             this.rawFlagsEditBtn.UseVisualStyleBackColor = true;
-            this.rawFlagsEditBtn.Click += new System.EventHandler(this.rawFlagsEditBtn_Click);
+            this.rawFlagsEditBtn.Click += new System.EventHandler(this.RawFlagsEditBtn_Click);
             // 
             // groupBox2
             // 
@@ -175,7 +175,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.eventWorkEditBtn.TabIndex = 0;
             this.eventWorkEditBtn.Text = "Edit...";
             this.eventWorkEditBtn.UseVisualStyleBackColor = true;
-            this.eventWorkEditBtn.Click += new System.EventHandler(this.eventWorkEditBtn_Click);
+            this.eventWorkEditBtn.Click += new System.EventHandler(this.EventWorkEditBtn_Click);
             // 
             // tabPage2
             // 
@@ -198,7 +198,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.unmarkFlagsBtn.TabIndex = 14;
             this.unmarkFlagsBtn.Text = "Bulk Unset Selected";
             this.unmarkFlagsBtn.UseVisualStyleBackColor = true;
-            this.unmarkFlagsBtn.Click += new System.EventHandler(this.unmarkFlagsBtn_Click);
+            this.unmarkFlagsBtn.Click += new System.EventHandler(this.UnmarkFlagsBtn_Click);
             // 
             // markFlagsBtn
             // 
@@ -208,7 +208,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.markFlagsBtn.TabIndex = 13;
             this.markFlagsBtn.Text = "Bulk Set Selected";
             this.markFlagsBtn.UseVisualStyleBackColor = true;
-            this.markFlagsBtn.Click += new System.EventHandler(this.markFlagsBtn_Click);
+            this.markFlagsBtn.Click += new System.EventHandler(this.MarkFlagsBtn_Click);
             // 
             // groupBox3
             // 

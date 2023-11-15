@@ -12,11 +12,11 @@ namespace FlagsEditorEXPlugin.Forms
 {
     public partial class FlagsEditor : Form
     {
-        List<FlagsOrganizer.FlagDetail> m_flagsList;
-        List<FlagsOrganizer.FlagDetail> m_editableFlagsList;
-        FlagsOrganizer m_organizer;
-        FlagsOrganizer.FlagsGroup m_curFlagsGroup;
-        FlagsOrganizer.EventFlagType m_filter;
+        readonly List<FlagsOrganizer.FlagDetail> m_flagsList;
+        readonly List<FlagsOrganizer.FlagDetail> m_editableFlagsList;
+        readonly FlagsOrganizer m_organizer;
+        readonly FlagsOrganizer.FlagsGroup m_curFlagsGroup;
+        readonly FlagsOrganizer.EventFlagType m_filter;
 
 
         public FlagsEditor(FlagsOrganizer flagsOrganizer, FlagsOrganizer.FlagsGroup flagsGroup, FlagsOrganizer.EventFlagType filter)
@@ -31,13 +31,13 @@ namespace FlagsEditorEXPlugin.Forms
 
             this.Text = $"Flags Editor - {m_curFlagsGroup.SourceName}";
 
-            dataGridView.CurrentCellDirtyStateChanged += dataGridView_CurrentCellDirtyStateChanged;
-            dataGridView.CellValueChanged += dataGridView_CellValueChanged;
+            dataGridView.CurrentCellDirtyStateChanged += DataGridView_CurrentCellDirtyStateChanged;
+            dataGridView.CellValueChanged += DataGridView_CellValueChanged;
 
             RestoreData();
         }
 
-        private void saveBtn_Click(object sender, EventArgs e)
+        private void SaveBtn_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < m_editableFlagsList.Count; i++)
             {
@@ -49,47 +49,51 @@ namespace FlagsEditorEXPlugin.Forms
             Close();
         }
 
-        private void cancelBtn_Click(object sender, EventArgs e)
+        private void CancelBtn_Click(object sender, EventArgs e)
         {
             Close();
         }
 
-        private void setAllBtn_Click(object sender, EventArgs e)
+        private void SetAllBtn_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < dataGridView.RowCount; i++)
             {
-                var idx = (dataGridView.Rows[i].Cells[1].Value as UInt64?).Value;
-                m_editableFlagsList.Find(f => (f.FlagIdx == idx)).IsSet = true;
+                var idx = ((ulong?)dataGridView.Rows[i].Cells[1].Value).Value;
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
+                m_editableFlagsList.Find(f => f.FlagIdx == idx).IsSet = true;
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
             }
 
             RefreshDataGrid();
             RefreshCounters();
         }
 
-        private void unsetAllBtn_Click(object sender, EventArgs e)
+        private void UnsetAllBtn_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < dataGridView.RowCount; i++)
             {
-                var idx = (dataGridView.Rows[i].Cells[1].Value as UInt64?).Value;
-                m_editableFlagsList.Find(f => (f.FlagIdx == idx)).IsSet = false;
+                var idx = ((ulong?)dataGridView.Rows[i].Cells[1].Value).Value;
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
+                m_editableFlagsList.Find(f => f.FlagIdx == idx).IsSet = false;
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
             }
 
             RefreshDataGrid();
             RefreshCounters();
         }
 
-        private void restoreBtn_Click(object sender, EventArgs e)
+        private void RestoreBtn_Click(object sender, EventArgs e)
         {
             RestoreData();
         }
 
-        private void filterUnusedChk_CheckedChanged(object sender, EventArgs e)
+        private void FilterUnusedChk_CheckedChanged(object sender, EventArgs e)
         {
             RefreshDataGrid();
             RefreshCounters();
         }
 
-        private void showOnlySetChk_CheckedChanged(object sender, EventArgs e)
+        private void ShowOnlySetChk_CheckedChanged(object sender, EventArgs e)
         {
             if (showOnlySetChk.Checked)
             {
@@ -100,7 +104,7 @@ namespace FlagsEditorEXPlugin.Forms
             RefreshCounters();
         }
 
-        private void filterBySearchChk_CheckedChanged(object sender, EventArgs e)
+        private void FilterBySearchChk_CheckedChanged(object sender, EventArgs e)
         {
             if (!filterBySearchChk.Checked || (filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text)))
             {
@@ -113,7 +117,7 @@ namespace FlagsEditorEXPlugin.Forms
             }
         }
 
-        private void searchTermBox_KeyDown(object sender, KeyEventArgs e)
+        private void SearchTermBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
@@ -124,12 +128,12 @@ namespace FlagsEditorEXPlugin.Forms
                 // Force event if already checked
                 else
                 {
-                    filterBySearchChk_CheckedChanged(sender, new EventArgs());
+                    FilterBySearchChk_CheckedChanged(sender, new EventArgs());
                 }
             }
         }
 
-        private void showOnlyUnsetChk_CheckedChanged(object sender, EventArgs e)
+        private void ShowOnlyUnsetChk_CheckedChanged(object sender, EventArgs e)
         {
             if (showOnlyUnsetChk.Checked)
             {
@@ -140,7 +144,7 @@ namespace FlagsEditorEXPlugin.Forms
             RefreshCounters();
         }
 
-        private void dataGridView_CurrentCellDirtyStateChanged(object sender, EventArgs e)
+        private void DataGridView_CurrentCellDirtyStateChanged(object? sender, EventArgs e)
         {
             if (dataGridView.IsCurrentCellDirty)
             {
@@ -148,10 +152,12 @@ namespace FlagsEditorEXPlugin.Forms
             }
         }
 
-        private void dataGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        private void DataGridView_CellValueChanged(object? sender, DataGridViewCellEventArgs e)
         {
-            var idx = (dataGridView.Rows[e.RowIndex].Cells[1].Value as UInt64?).Value;
-            m_editableFlagsList.Find(f => (f.FlagIdx == idx)).IsSet = (dataGridView.Rows[e.RowIndex].Cells[0].Value as Boolean?).Value;
+            var idx = ((ulong?)dataGridView.Rows[e.RowIndex].Cells[1].Value).Value;
+#pragma warning disable CS8602 // Dereference of a possibly null reference.
+            m_editableFlagsList.Find(f => f.FlagIdx == idx).IsSet = ((bool?)dataGridView.Rows[e.RowIndex].Cells[0].Value).Value;
+#pragma warning restore CS8602 // Dereference of a possibly null reference.
         }
 
 
@@ -179,6 +185,7 @@ namespace FlagsEditorEXPlugin.Forms
             bool skipUnused = filterUnusedChk.Checked;
             bool skipSet = showOnlyUnsetChk.Checked;
             bool skipUnset = showOnlySetChk.Checked;
+            bool useCategoryFilter = (m_filter != FlagsOrganizer.EventFlagType._Unknown);
             bool filterBySearch = filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text);
 
             string searchTerm = searchTermBox.Text.ToUpperInvariant();
@@ -187,28 +194,24 @@ namespace FlagsEditorEXPlugin.Forms
             {
                 searchIdx = FlagsOrganizer.ParseDecOrHex(searchTermBox.Text);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 searchIdx = null;
             }
 
             foreach (var f in m_editableFlagsList)
             {
-                if (f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused && skipUnused)
+                if (skipUnused && f.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused)
                 {
                     continue;
                 }
 
-                if (f.IsSet && skipSet)
-                {
-                    continue;
-                }
-                if (!f.IsSet && skipUnset)
+                if ((skipSet && f.IsSet) || (skipUnset && !f.IsSet))
                 {
                     continue;
                 }
 
-                if (m_filter != FlagsOrganizer.EventFlagType._Unknown && f.FlagTypeVal != m_filter)
+                if (useCategoryFilter && f.FlagTypeVal != m_filter)
                 {
                     continue;
                 }
@@ -230,7 +233,7 @@ namespace FlagsEditorEXPlugin.Forms
 
             for (int i = 0; i < dataGridView.RowCount; i++)
             {
-                if ((dataGridView.Rows[i].Cells[0].Value as Boolean?).Value)
+                if (((bool?)dataGridView.Rows[i].Cells[0].Value).Value)
                 {
                     totalSet++;
                 }

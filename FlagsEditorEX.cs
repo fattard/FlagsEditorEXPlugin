@@ -10,65 +10,53 @@ namespace FlagsEditorEXPlugin
         public string NameEditFlags => "Edit flags...";
         public string NameDumpAllFlags => "Dump all Flags";
         public int Priority => 100; // Loading order, lowest is first.
-        public ISaveFileProvider SaveFileEditor { get; private set; } = null;
+        public ISaveFileProvider SaveFileEditor { get; private set; }
 
-        private ToolStripMenuItem ctrl;
+        private ToolStripMenuItem? ctrl;
 
-        private ToolStripMenuItem menuEntry_EditFlags;
-        private ToolStripMenuItem menuEntry_DumpAllFlags;
+        private ToolStripMenuItem? menuEntry_EditFlags;
+        private ToolStripMenuItem? menuEntry_DumpAllFlags;
 
         public void Initialize(params object[] args)
         {
             SaveFileEditor = (ISaveFileProvider)Array.Find(args, z => z is ISaveFileProvider);
-            var menu = (ToolStrip)Array.Find(args, z => z is ToolStrip);
+            var menu = (ToolStrip?)Array.Find(args, z => z is ToolStrip);
             LoadMenuStrip(menu);
         }
 
-        private void LoadMenuStrip(ToolStrip menuStrip)
+        private void LoadMenuStrip(ToolStrip? menuStrip)
         {
-            var items = menuStrip.Items;
-            var tools = (ToolStripDropDownItem)items.Find("Menu_Tools", false)[0];
+            var items = menuStrip?.Items;
+            var tools = (ToolStripDropDownItem?)items?.Find("Menu_Tools", false)[0];
             AddPluginControl(tools);
         }
 
-        private void AddPluginControl(ToolStripDropDownItem tools)
+        private void AddPluginControl(ToolStripDropDownItem? tools)
         {
             ctrl = new ToolStripMenuItem(Name);
             ctrl.Enabled = false;
-            tools.DropDownItems.Add(ctrl);
+            tools?.DropDownItems.Add(ctrl);
 
             menuEntry_DumpAllFlags = new ToolStripMenuItem(NameDumpAllFlags);
             menuEntry_DumpAllFlags.Enabled = false;
-            menuEntry_DumpAllFlags.Click += new EventHandler(DumpAllFlags_UIEvt);
+            menuEntry_DumpAllFlags.Click += DumpAllFlags_UIEvt;
             ctrl.DropDownItems.Add(menuEntry_DumpAllFlags);
 
             menuEntry_EditFlags = new ToolStripMenuItem(NameEditFlags);
             menuEntry_EditFlags.Enabled = false;
-            menuEntry_EditFlags.Click += new EventHandler(EditFlags_UIEvt);
+            menuEntry_EditFlags.Click += EditFlags_UIEvt;
             ctrl.DropDownItems.Add(menuEntry_EditFlags);
         }
 
-        private void DumpAllFlags_UIEvt(object sender, EventArgs e)
+        private void DumpAllFlags_UIEvt(object? sender, EventArgs e)
         {
-            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV, resData: null);
-
-            if (flagsOrganizer == null)
-            {
-                throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
-            }
-
+            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV, resData: null) ?? throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
             flagsOrganizer.DumpAllFlags();
         }
 
-        private void EditFlags_UIEvt(object sender, EventArgs e)
+        private void EditFlags_UIEvt(object? sender, EventArgs e)
         {
-            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV, resData: null);
-
-            if (flagsOrganizer == null)
-            {
-                throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
-            }
-
+            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV, resData: null) ?? throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
             var form = new Forms.MainWin(flagsOrganizer);
             form.ShowDialog();
         }
@@ -138,7 +126,7 @@ namespace FlagsEditorEXPlugin
                 // Quick dump all flags on load during DEBUG
                 if (ctrl.Enabled)
                 {
-                    DumpAllFlags_UIEvt(null, null);
+                    DumpAllFlags_UIEvt(null, new EventArgs());
                 }
 #endif
 

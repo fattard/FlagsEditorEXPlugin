@@ -56,7 +56,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.filterUnusedChk.TabIndex = 15;
             this.filterUnusedChk.Text = "Hide Unused";
             this.filterUnusedChk.UseVisualStyleBackColor = true;
-            this.filterUnusedChk.CheckedChanged += new System.EventHandler(this.filterUnusedChk_CheckedChanged);
+            this.filterUnusedChk.CheckedChanged += new System.EventHandler(this.FilterUnusedChk_CheckedChanged);
             // 
             // restoreBtn
             // 
@@ -66,7 +66,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.restoreBtn.TabIndex = 14;
             this.restoreBtn.Text = "Restore State";
             this.restoreBtn.UseVisualStyleBackColor = true;
-            this.restoreBtn.Click += new System.EventHandler(this.restoreBtn_Click);
+            this.restoreBtn.Click += new System.EventHandler(this.RestoreBtn_Click);
             // 
             // cancelBtn
             // 
@@ -76,7 +76,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.cancelBtn.TabIndex = 13;
             this.cancelBtn.Text = "Cancel";
             this.cancelBtn.UseVisualStyleBackColor = true;
-            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
+            this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
             // 
             // saveBtn
             // 
@@ -86,7 +86,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.saveBtn.TabIndex = 12;
             this.saveBtn.Text = "Save";
             this.saveBtn.UseVisualStyleBackColor = true;
-            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
+            this.saveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
             // 
             // dataGridView
             // 
@@ -168,7 +168,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.searchTermBox.Name = "searchTermBox";
             this.searchTermBox.Size = new System.Drawing.Size(215, 20);
             this.searchTermBox.TabIndex = 18;
-            this.searchTermBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.searchTermBox_KeyDown);
+            this.searchTermBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SearchTermBox_KeyDown);
             // 
             // filterBySearchChk
             // 
@@ -179,7 +179,7 @@ namespace FlagsEditorEXPlugin.Forms
             this.filterBySearchChk.TabIndex = 17;
             this.filterBySearchChk.Text = "Filter by search term";
             this.filterBySearchChk.UseVisualStyleBackColor = true;
-            this.filterBySearchChk.CheckedChanged += new System.EventHandler(this.filterBySearchChk_CheckedChanged);
+            this.filterBySearchChk.CheckedChanged += new System.EventHandler(this.FilterBySearchChk_CheckedChanged);
             // 
             // EventWorkEditor
             // 

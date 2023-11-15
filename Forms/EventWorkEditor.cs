@@ -12,9 +12,9 @@ namespace FlagsEditorEXPlugin.Forms
 {
     public partial class EventWorkEditor : Form
     {
-        List<FlagsOrganizer.WorkDetail> m_eventWorkList;
-        List<FlagsOrganizer.WorkDetail> m_editableEventWorkList;
-        FlagsOrganizer m_organizer;
+        readonly List<FlagsOrganizer.WorkDetail> m_eventWorkList;
+        readonly List<FlagsOrganizer.WorkDetail> m_editableEventWorkList;
+        readonly FlagsOrganizer m_organizer;
         bool isSyncingCells;
 
         public EventWorkEditor(FlagsOrganizer flagsOrganizer)
@@ -25,13 +25,13 @@ namespace FlagsEditorEXPlugin.Forms
 
             InitializeComponent();
 
-            dataGridView.CurrentCellDirtyStateChanged += dataGridView_CurrentCellDirtyStateChanged;
-            dataGridView.CellValueChanged += dataGridView_CellValueChanged;
+            dataGridView.CurrentCellDirtyStateChanged += DataGridView_CurrentCellDirtyStateChanged;
+            dataGridView.CellValueChanged += DataGridView_CellValueChanged;
 
             RestoreData();
         }
 
-        private void saveBtn_Click(object sender, EventArgs e)
+        private void SaveBtn_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < m_editableEventWorkList.Count; i++)
             {
@@ -43,22 +43,13 @@ namespace FlagsEditorEXPlugin.Forms
             Close();
         }
 
-        private void cancelBtn_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
+        private void CancelBtn_Click(object sender, EventArgs e) => Close();
 
-        private void restoreBtn_Click(object sender, EventArgs e)
-        {
-            RestoreData();
-        }
+        private void RestoreBtn_Click(object sender, EventArgs e) => RestoreData();
 
-        private void filterUnusedChk_CheckedChanged(object sender, EventArgs e)
-        {
-            RefreshDataGrid();
-        }
+        private void FilterUnusedChk_CheckedChanged(object sender, EventArgs e) => RefreshDataGrid();
 
-        private void filterBySearchChk_CheckedChanged(object sender, EventArgs e)
+        private void FilterBySearchChk_CheckedChanged(object sender, EventArgs e)
         {
             if (!filterBySearchChk.Checked || (filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text)))
             {
@@ -70,7 +61,7 @@ namespace FlagsEditorEXPlugin.Forms
             }
         }
 
-        private void searchTermBox_KeyDown(object sender, KeyEventArgs e)
+        private void SearchTermBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
@@ -81,12 +72,12 @@ namespace FlagsEditorEXPlugin.Forms
                 // Force event if already checked
                 else
                 {
-                    filterBySearchChk_CheckedChanged(sender, new EventArgs());
+                    FilterBySearchChk_CheckedChanged(sender, new EventArgs());
                 }
             }
         }
 
-        private void dataGridView_CurrentCellDirtyStateChanged(object sender, EventArgs e)
+        private void DataGridView_CurrentCellDirtyStateChanged(object? sender, EventArgs e)
         {
             if (dataGridView.IsCurrentCellDirty)
             {
@@ -94,19 +85,20 @@ namespace FlagsEditorEXPlugin.Forms
             }
         }
 
-        private void dataGridView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        private void DataGridView_CellValueChanged(object? sender, DataGridViewCellEventArgs e)
         {
             if (!isSyncingCells)
             {
                 var cells = dataGridView.Rows[e.RowIndex].Cells;
-                var idx = (cells[0].Value as UInt64?).Value;
-                var w = m_editableEventWorkList.Find(element => (element.WorkIdx == idx));
+                var idx = ((ulong?)(cells[0].Value)).Value;
+
+                var w = m_editableEventWorkList.Find(element => element.WorkIdx == idx);
 
                 isSyncingCells = true;
 
                 if (e.ColumnIndex == 4) // Combobox
                 {
-                    var strVal = cells[4].Value as string;
+                    var strVal = (string)cells[4].Value;
                     w.Value = w.ValidValues.ContainsValue(strVal) ? w.ValidValues.FirstOrDefault(x => x.Value == strVal).Key : 0;
                     cells[5].Value = w.Value;
                 }
@@ -122,7 +114,7 @@ namespace FlagsEditorEXPlugin.Forms
                     }
                 }
 
-                cells[4].Value = w.ValidValues.ContainsKey(w.Value) ? w.ValidValues[w.Value] : "";
+                cells[4].Value = w.ValidValues.TryGetValue(w.Value, out string? value) ? value : "";
 
                 isSyncingCells = false;
             }
@@ -157,19 +149,19 @@ namespace FlagsEditorEXPlugin.Forms
             {
                 searchIdx = FlagsOrganizer.ParseDecOrHex(searchTermBox.Text);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 searchIdx = null;
             }
 
             foreach (var w in m_editableEventWorkList)
             {
-                if (w.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused && skipUnused)
+                if (skipUnused && w.FlagTypeVal == FlagsOrganizer.EventFlagType._Unused)
                 {
                     continue;
                 }
 
-                if (filterBySearch && ((!searchIdx.HasValue || searchIdx.Value != w.WorkIdx)  && !w.ToString().ToUpperInvariant().Contains(searchTerm)))
+                if (filterBySearch && ((!searchIdx.HasValue || searchIdx.Value != w.WorkIdx) && !w.ToString().ToUpperInvariant().Contains(searchTerm)))
                 {
                     continue;
                 }
@@ -178,15 +170,15 @@ namespace FlagsEditorEXPlugin.Forms
 
                 var row = dataGridView.Rows[i];
 
-                List<String> validValuesList = new List<string>(w.ValidValues.Values);
+                var validValuesList = new List<string>(w.ValidValues.Values);
                 validValuesList.Insert(0, "");
 
-                row.Cells[4] = new DataGridViewComboBoxCell() { DataSource = validValuesList, Value = w.ValidValues.ContainsKey(w.Value) ? w.ValidValues[w.Value] : "" };
+                row.Cells[4] = new DataGridViewComboBoxCell() { DataSource = validValuesList, Value = w.ValidValues.TryGetValue(w.Value, out string? value) ? value : "" };
                 
                 // Disable if no known valid values available
                 if (w.ValidValues.Count == 0)
                 {
-                    (row.Cells[4] as DataGridViewComboBoxCell).DisplayStyle = DataGridViewComboBoxDisplayStyle.Nothing;
+                    ((DataGridViewComboBoxCell)row.Cells[4]).DisplayStyle = DataGridViewComboBoxDisplayStyle.Nothing;
                     row.Cells[4].ReadOnly = true;
                 }
             }

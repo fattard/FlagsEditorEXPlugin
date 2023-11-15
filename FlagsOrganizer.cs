@@ -442,9 +442,9 @@ namespace FlagsEditorEXPlugin
 
 
 
-        public static FlagsOrganizer OrganizeFlags(SaveFile savFile, string resData)
+        public static FlagsOrganizer? OrganizeFlags(SaveFile savFile, string? resData)
         {
-            FlagsOrganizer flagsOrganizer = null;
+            FlagsOrganizer? flagsOrganizer = null;
 
             switch (savFile.Version)
             {

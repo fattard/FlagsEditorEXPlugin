@@ -12,7 +12,7 @@ namespace FlagsEditorEXPlugin.Forms
 {
     public partial class MainWin : Form
     {
-        FlagsOrganizer m_organizer;
+        readonly FlagsOrganizer m_organizer;
 
         public MainWin(FlagsOrganizer flagsOrganizer)
         {
@@ -89,7 +89,7 @@ namespace FlagsEditorEXPlugin.Forms
                 //newBtn.TabIndex = 1;
                 newBtn.Text = evt.Name;
                 newBtn.UseVisualStyleBackColor = true;
-                newBtn.Click += (object sender, EventArgs e) =>
+                newBtn.Click += (object? sender, EventArgs e) =>
                 {
                     m_organizer.ProcessSpecialEventEdit(evt);
                 };
@@ -109,14 +109,14 @@ namespace FlagsEditorEXPlugin.Forms
             #endregion Misc Edit Tab
         }
 
-        private void rawFlagsEditBtn_Click(object sender, EventArgs e)
+        private void RawFlagsEditBtn_Click(object sender, EventArgs e)
         {
             foreach (var fGroup in m_organizer.FlagsGroups)
             {
-                if (fGroup.SourceName == (flagsGroupCombo.SelectedItem as string))
+                if (fGroup.SourceName == ((string)flagsGroupCombo.SelectedItem))
                 {
                     var filter = FlagsOrganizer.EventFlagType._Unknown;
-                    filter = filter.Parse(flagsCategoryCombo.SelectedItem as string);
+                    filter = filter.Parse((string)flagsCategoryCombo.SelectedItem);
 
                     var form = new FlagsEditor(m_organizer, fGroup, filter);
                     form.ShowDialog();
@@ -125,13 +125,13 @@ namespace FlagsEditorEXPlugin.Forms
             }
         }
 
-        private void eventWorkEditBtn_Click(object sender, EventArgs e)
+        private void EventWorkEditBtn_Click(object sender, EventArgs e)
         {
             var form = new EventWorkEditor(m_organizer);
             form.ShowDialog();
         }
 
-        private void markFlagsBtn_Click(object sender, EventArgs e)
+        private void MarkFlagsBtn_Click(object sender, EventArgs e)
         {
             if (fieldItemsChk.Checked)
                 m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.FieldItem);
@@ -172,7 +172,7 @@ namespace FlagsEditorEXPlugin.Forms
             var result = MessageBox.Show("Operation done", "Bulk Edit", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        private void unmarkFlagsBtn_Click(object sender, EventArgs e)
+        private void UnmarkFlagsBtn_Click(object sender, EventArgs e)
         {
             if (fieldItemsChk.Checked)
                 m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.FieldItem);
