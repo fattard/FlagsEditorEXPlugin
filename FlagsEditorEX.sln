@@ -1,20 +1,28 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlagsEditorEX", "FlagsEditorEX.csproj", "{0897D1E6-9A0D-4AE0-A8A0-8DF58B722189}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlagsEditorEX_App", "TestApp\FlagsEditorEX_App.csproj", "{67F3C5F0-C291-4D75-8A72-DEACD02DDE53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		TestApp|Any CPU = TestApp|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0897D1E6-9A0D-4AE0-A8A0-8DF58B722189}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0897D1E6-9A0D-4AE0-A8A0-8DF58B722189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0897D1E6-9A0D-4AE0-A8A0-8DF58B722189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0897D1E6-9A0D-4AE0-A8A0-8DF58B722189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0897D1E6-9A0D-4AE0-A8A0-8DF58B722189}.TestApp|Any CPU.ActiveCfg = TestApp|Any CPU
+		{0897D1E6-9A0D-4AE0-A8A0-8DF58B722189}.TestApp|Any CPU.Build.0 = TestApp|Any CPU
+		{67F3C5F0-C291-4D75-8A72-DEACD02DDE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F3C5F0-C291-4D75-8A72-DEACD02DDE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F3C5F0-C291-4D75-8A72-DEACD02DDE53}.TestApp|Any CPU.ActiveCfg = TestApp|Any CPU
+		{67F3C5F0-C291-4D75-8A72-DEACD02DDE53}.TestApp|Any CPU.Build.0 = TestApp|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
