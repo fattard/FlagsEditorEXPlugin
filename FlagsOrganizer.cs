@@ -80,17 +80,38 @@ namespace FlagsEditorEXPlugin
 
             public override string ToString()
             {
-                string msg = string.IsNullOrEmpty(DetailMsg) ? InternalName : DetailMsg;
-
-                if (string.IsNullOrEmpty(LocationName))
+                StringBuilder sb = new StringBuilder(128);
+                const string sep = " - ";
+                if (!string.IsNullOrEmpty(InternalName))
                 {
-                    return string.Format("{0} - {1}", FlagTypeTxt, msg);
+                    sb.Append(InternalName);
+                }
+                if (!string.IsNullOrEmpty(FlagTypeTxt))
+                {
+                    if (sb.Length > 0)
+                    {
+                        sb.Append(sep);
+                    }
+                    sb.Append(FlagTypeTxt);
+                }
+                if (!string.IsNullOrEmpty(LocationName))
+                {
+                    if (sb.Length > 0)
+                    {
+                        sb.Append(sep);
+                    }
+                    sb.Append(LocationName);
+                }
+                if (!string.IsNullOrEmpty(DetailMsg))
+                {
+                    if (sb.Length > 0)
+                    {
+                        sb.Append(sep);
+                    }
+                    sb.Append(DetailMsg);
                 }
 
-                else
-                {
-                    return string.Format("{0} - {1} - {2}", FlagTypeTxt, LocationName, msg);
-                }
+                return sb.ToString();
             }
         }
 
@@ -182,17 +203,42 @@ namespace FlagsEditorEXPlugin
 
             public override string ToString()
             {
-                string msg = string.IsNullOrEmpty(DetailMsg) ? InternalName : DetailMsg;
-
-                if (string.IsNullOrEmpty(LocationName))
+                StringBuilder sb = new StringBuilder(128);
+                const string sep = " - ";
+                if (!string.IsNullOrEmpty(InternalName))
                 {
-                    return string.Format("{0} - {1}{2}", FlagTypeTxt, msg, ((ValidValues.Count > 0 && ValidValues.ContainsKey(Value)) ? " => " + ValidValues[Value] : ""));
+                    sb.Append(InternalName);
+                }
+                if (!string.IsNullOrEmpty(FlagTypeTxt))
+                {
+                    if (sb.Length > 0)
+                    {
+                        sb.Append(sep);
+                    }
+                    sb.Append(FlagTypeTxt);
+                }
+                if (!string.IsNullOrEmpty(LocationName))
+                {
+                    if (sb.Length > 0)
+                    {
+                        sb.Append(sep);
+                    }
+                    sb.Append(LocationName);
+                }
+                if (!string.IsNullOrEmpty(DetailMsg))
+                {
+                    if (sb.Length > 0)
+                    {
+                        sb.Append(sep);
+                    }
+                    sb.Append(DetailMsg);
+                }
+                if (ValidValues.Count > 0 && ValidValues.ContainsKey(Value))
+                {
+                    sb.Append($" => {ValidValues[Value]}");
                 }
 
-                else
-                {
-                    return string.Format("{0} - {1} - {2}{3}", FlagTypeTxt, LocationName, msg, ((ValidValues.Count > 0 && ValidValues.ContainsKey(Value)) ? " => " + ValidValues[Value] : ""));
-                }
+                return sb.ToString();
             }
         }
 
