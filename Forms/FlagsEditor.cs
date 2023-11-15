@@ -182,6 +182,15 @@ namespace FlagsEditorEXPlugin.Forms
             bool filterBySearch = filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text);
 
             string searchTerm = searchTermBox.Text.ToUpperInvariant();
+            ulong? searchIdx;
+            try
+            {
+                searchIdx = FlagsOrganizer.ParseDecOrHex(searchTermBox.Text);
+            }
+            catch (Exception ex)
+            {
+                searchIdx = null;
+            }
 
             foreach (var f in m_editableFlagsList)
             {
@@ -204,7 +213,7 @@ namespace FlagsEditorEXPlugin.Forms
                     continue;
                 }
 
-                if (filterBySearch && !f.ToString().ToUpperInvariant().Contains(searchTerm))
+                if (filterBySearch && ((!searchIdx.HasValue || searchIdx.Value != f.FlagIdx)  && !f.ToString().ToUpperInvariant().Contains(searchTerm)))
                 {
                     continue;
                 }

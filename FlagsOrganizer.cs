@@ -404,7 +404,7 @@ namespace FlagsEditorEXPlugin
 
         #endregion
         
-        protected static ulong ParseDecOrHex(string str)
+        public static ulong ParseDecOrHex(string str)
         {
             if (str.StartsWith("0x"))
                 return Convert.ToUInt64(str, 16);
