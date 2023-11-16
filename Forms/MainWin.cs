@@ -133,84 +133,92 @@ namespace FlagsEditorEXPlugin.Forms
 
         private void MarkFlagsBtn_Click(object sender, EventArgs e)
         {
-            if (fieldItemsChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.FieldItem);
+            var result = MessageBox.Show("This operation cannot be undone.\nAre you sure?", "Bulk Edit", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                if (fieldItemsChk.Checked)
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.FieldItem);
 
-            if (hiddenItemsChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.HiddenItem);
+                if (hiddenItemsChk.Checked)
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.HiddenItem);
 
-            if (specialItemsChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.SpecialItem);
+                if (specialItemsChk.Checked)
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.SpecialItem);
 
-            if (itemGiftsChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.ItemGift);
+                if (itemGiftsChk.Checked)
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.ItemGift);
 
-            if (pkmnGiftsChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.PkmnGift);
+                if (pkmnGiftsChk.Checked)
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.PkmnGift);
 
-            if (trainerBattlesChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.TrainerBattle);
+                if (trainerBattlesChk.Checked)
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.TrainerBattle);
 
-            if (staticEncounterChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.StaticBattle);
+                if (staticEncounterChk.Checked)
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.StaticBattle);
 
-            if (inGameTradesChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.InGameTrade);
+                if (inGameTradesChk.Checked)
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.InGameTrade);
 
-            if (sideEventsChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.SideEvent);
+                if (sideEventsChk.Checked)
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.SideEvent);
 
-            if (flySpotsChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.FlySpot);
+                if (flySpotsChk.Checked)
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.FlySpot);
 
-            if (berryTreesChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.BerryTree);
+                if (berryTreesChk.Checked)
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.BerryTree);
 
-            if (collectablesChk.Checked)
-                m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.Collectable);
+                if (collectablesChk.Checked)
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.Collectable);
 
-            var result = MessageBox.Show("Operation done", "Bulk Edit", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Operation done", "Bulk Edit", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void UnmarkFlagsBtn_Click(object sender, EventArgs e)
         {
-            if (fieldItemsChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.FieldItem);
+            var result = MessageBox.Show("This operation cannot be undone.\nAre you sure?", "Bulk Edit", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (result == DialogResult.Yes)
+            {
+                if (fieldItemsChk.Checked)
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.FieldItem);
 
-            if (hiddenItemsChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.HiddenItem);
+                if (hiddenItemsChk.Checked)
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.HiddenItem);
 
-            if (specialItemsChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.SpecialItem);
+                if (specialItemsChk.Checked)
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.SpecialItem);
 
-            if (itemGiftsChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.ItemGift);
+                if (itemGiftsChk.Checked)
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.ItemGift);
 
-            if (pkmnGiftsChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.PkmnGift);
+                if (pkmnGiftsChk.Checked)
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.PkmnGift);
 
-            if (trainerBattlesChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.TrainerBattle);
+                if (trainerBattlesChk.Checked)
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.TrainerBattle);
 
-            if (staticEncounterChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.StaticBattle);
+                if (staticEncounterChk.Checked)
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.StaticBattle);
 
-            if (inGameTradesChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.InGameTrade);
+                if (inGameTradesChk.Checked)
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.InGameTrade);
 
-            if (sideEventsChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.SideEvent);
+                if (sideEventsChk.Checked)
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.SideEvent);
 
-            if (flySpotsChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.FlySpot);
+                if (flySpotsChk.Checked)
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.FlySpot);
 
-            if (berryTreesChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.BerryTree);
+                if (berryTreesChk.Checked)
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.BerryTree);
 
-            if (collectablesChk.Checked)
-                m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.Collectable);
+                if (collectablesChk.Checked)
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.Collectable);
 
-            var result = MessageBox.Show("Operation done", "Bulk Edit", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Operation done", "Bulk Edit", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }

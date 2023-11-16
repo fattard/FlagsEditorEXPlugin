@@ -99,7 +99,7 @@ namespace FlagsEditorEXPlugin
 
                     default:
                         {
-                            var dialogResult = System.Windows.Forms.MessageBox.Show("Do your save data comes from Jap Blue version,\ninstead of a Jap Red/Green version?", "Jap Gen1 Save File Selection", System.Windows.Forms.MessageBoxButtons.YesNo, System.Windows.Forms.MessageBoxIcon.Question);
+                            var dialogResult = System.Windows.Forms.MessageBox.Show("Do your save file comes from Jap Blue version,\ninstead of a Jap Red/Green version?", "Jap Gen1 Save File Detected", System.Windows.Forms.MessageBoxButtons.YesNo, System.Windows.Forms.MessageBoxIcon.Question);
                             if (dialogResult == System.Windows.Forms.DialogResult.Yes)
                             {
                                 gameVer = GameVer_JapBlue;
