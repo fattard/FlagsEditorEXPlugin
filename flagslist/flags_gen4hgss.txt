@@ -361,7 +361,7 @@
 0x0167	IN-GAME TRADE			Traded with Steven		
 0x0168						
 0x0169						
-0x016A	STATIC BATTLE			Caught Red Gyarados		
+0x016A	STATIC ENCOUNTER			Caught Red Gyarados		
 0x016B						
 0x016C						
 0x016D						
@@ -449,7 +449,7 @@
 0x01BF						
 0x01C0						
 0x01C1						
-0x01C2	STATIC BATTLE			Route 36 Sudowoodo Disappeared		
+0x01C2	STATIC ENCOUNTER			Route 36 Sudowoodo Disappeared		
 0x01C3						
 0x01C4						
 0x01C5						
@@ -482,7 +482,7 @@
 0x01E0						
 0x01E1						
 0x01E2						
-0x01E3	STATIC BATTLE			Red Gyarados Disappeared		
+0x01E3	STATIC ENCOUNTER			Red Gyarados Disappeared		
 0x01E4						
 0x01E5						
 0x01E6						
@@ -500,9 +500,9 @@
 0x01F2						
 0x01F3						
 0x01F4						
-0x01F5	STATIC BATTLE			Team Rocket HQ Electrode (1) Disappeared		
-0x01F6	STATIC BATTLE			Team Rocket HQ Electrode (2) Disappeared		
-0x01F7	STATIC BATTLE			Team Rocket HQ Electrode (3) Disappeared		
+0x01F5	STATIC ENCOUNTER			Team Rocket HQ Electrode (1) Disappeared		
+0x01F6	STATIC ENCOUNTER			Team Rocket HQ Electrode (2) Disappeared		
+0x01F7	STATIC ENCOUNTER			Team Rocket HQ Electrode (3) Disappeared		
 0x01F8						
 0x01F9						
 0x01FA						
@@ -577,8 +577,8 @@
 0x023F						
 0x0240						
 0x0241						
-0x0242	STATIC BATTLE			Ho-Oh Disappeared		
-0x0243	STATIC BATTLE			Lugia Disappeared		
+0x0242	STATIC ENCOUNTER			Ho-Oh Disappeared		
+0x0243	STATIC ENCOUNTER			Lugia Disappeared		
 0x0244						
 0x0245						
 0x0246						
@@ -608,7 +608,7 @@
 0x025E						
 0x025F	EVENT			Red (Mt. Silver) Disappeared		
 0x0260						
-0x0261	STATIC BATTLE			Sleeping Snorlax Disappeared		
+0x0261	STATIC ENCOUNTER			Sleeping Snorlax Disappeared		
 0x0262						
 0x0263						
 0x0264						
@@ -662,7 +662,7 @@
 0x0294						
 0x0295						
 0x0296						
-0x0297	STATIC BATTLE			Zapdos Disappeared		
+0x0297	STATIC ENCOUNTER			Zapdos Disappeared		
 0x0298						
 0x0299						
 0x029A						
@@ -672,7 +672,7 @@
 0x029E						
 0x029F						
 0x02A0						
-0x02A1	STATIC BATTLE			Suicune (Route 25) Disappeared		
+0x02A1	STATIC ENCOUNTER			Suicune (Route 25) Disappeared		
 0x02A2						
 0x02A3						
 0x02A4						
@@ -720,8 +720,8 @@
 0x02CE						
 0x02CF						
 0x02D0						
-0x02D1	STATIC BATTLE			Kyogre/Groudon Disappeared		
-0x02D2	STATIC BATTLE			Rayquaza Disappeared		
+0x02D1	STATIC ENCOUNTER			Kyogre/Groudon Disappeared		
+0x02D2	STATIC ENCOUNTER			Rayquaza Disappeared		
 0x02D3						
 0x02D4						
 0x02D5						
@@ -772,15 +772,15 @@
 0x0302						
 0x0303						
 0x0304						
-0x0305	STATIC BATTLE			Mewtwo Disappeared		
-0x0306	STATIC BATTLE			Articuno Disappeared		
-0x0307	STATIC BATTLE			Moltres Disappeared		
+0x0305	STATIC ENCOUNTER			Mewtwo Disappeared		
+0x0306	STATIC ENCOUNTER			Articuno Disappeared		
+0x0307	STATIC ENCOUNTER			Moltres Disappeared		
 0x0308						
 0x0309						
 0x030A						
 0x030B						
 0x030C						
-0x030D	STATIC BATTLE			Latias/Latios (Pewter City) Disappeared		
+0x030D	STATIC ENCOUNTER			Latias/Latios (Pewter City) Disappeared		
 0x030E	SIDE EVENT			Suicune (Back to Burned Tower) Disappeared		
 0x030F						
 0x0310						
@@ -2743,7 +2743,7 @@
 0x0AB5						
 0x0AB6						
 0x0AB7						
-0x0AB8	STATIC BATTLE			Friday Lapras Disappeared		
+0x0AB8	STATIC ENCOUNTER			Friday Lapras Disappeared		
 0x0AB9						
 0x0ABA						
 0x0ABB						

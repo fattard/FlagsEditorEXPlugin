@@ -43,11 +43,11 @@
 0x1B	FIELD ITEM	Route 2		HP Up item ball disappeared		HS_ROUTE_2_ITEM_2
 0x1C	FIELD ITEM	Route 4		TM04 (Whirlwind) item ball disappeared		HS_ROUTE_4_ITEM
 0x1D	FIELD ITEM	Route 9		TM30 (Teleport) item ball disappeared		HS_ROUTE_9_ITEM
-0x1E	STATIC BATTLE	Route 12		Snorlax sprite disappeared		HS_ROUTE_12_SNORLAX
+0x1E	STATIC ENCOUNTER	Route 12		Snorlax sprite disappeared		HS_ROUTE_12_SNORLAX
 0x1F	FIELD ITEM	Route 12		TM16 (Pay Day) item ball disappeared		HS_ROUTE_12_ITEM_1
 0x20	FIELD ITEM	Route 12		Iron item ball disappeared		HS_ROUTE_12_ITEM_2
 0x21	FIELD ITEM	Route 15		TM20 (Rage) item ball disappeared		HS_ROUTE_15_ITEM
-0x22	STATIC BATTLE	Route 16		Snorlax sprite disappeared		HS_ROUTE_16_SNORLAX
+0x22	STATIC ENCOUNTER	Route 16		Snorlax sprite disappeared		HS_ROUTE_16_SNORLAX
 0x23	EVENT	Route 22		Rival sprite disappeared		HS_ROUTE_22_RIVAL_1
 0x24	EVENT	Route 22		Rival sprite disappeared		HS_ROUTE_22_RIVAL_2
 0x25	EVENT	Route 24		Nugget bridge guy sprite disappeared		HS_NUGGET_BRIDGE_GUY
@@ -90,21 +90,21 @@
 0x4A	PKMN GIFT	Saffron City	Dojo	Item ball with Hitmonlee disappeared		HS_FIGHTING_DOJO_GIFT_1
 0x4B	PKMN GIFT	Saffron City	Dojo	Item ball with Hitmonchan disappeared		HS_FIGHTING_DOJO_GIFT_2
 0x4C	EVENT					HS_SILPH_CO_1F_RECEPTIONIST
-0x4D	STATIC BATTLE	Power Plant		Voltorb sprite disappeared		HS_VOLTORB_1
-0x4E	STATIC BATTLE	Power Plant		Voltorb sprite disappeared		HS_VOLTORB_2
-0x4F	STATIC BATTLE	Power Plant		Voltorb sprite disappeared		HS_VOLTORB_3
-0x50	STATIC BATTLE	Power Plant		Electrode sprite disappeared		HS_ELECTRODE_1
-0x51	STATIC BATTLE	Power Plant		Voltorb sprite disappeared		HS_VOLTORB_4
-0x52	STATIC BATTLE	Power Plant		Voltorb sprite disappeared		HS_VOLTORB_5
-0x53	STATIC BATTLE	Power Plant		Electrode sprite disappeared		HS_ELECTRODE_2
-0x54	STATIC BATTLE	Power Plant		Voltorb sprite disappeared		HS_VOLTORB_6
-0x55	STATIC BATTLE	Power Plant		Zapdos sprite disappeared		HS_ZAPDOS
+0x4D	STATIC ENCOUNTER	Power Plant		Voltorb sprite disappeared		HS_VOLTORB_1
+0x4E	STATIC ENCOUNTER	Power Plant		Voltorb sprite disappeared		HS_VOLTORB_2
+0x4F	STATIC ENCOUNTER	Power Plant		Voltorb sprite disappeared		HS_VOLTORB_3
+0x50	STATIC ENCOUNTER	Power Plant		Electrode sprite disappeared		HS_ELECTRODE_1
+0x51	STATIC ENCOUNTER	Power Plant		Voltorb sprite disappeared		HS_VOLTORB_4
+0x52	STATIC ENCOUNTER	Power Plant		Voltorb sprite disappeared		HS_VOLTORB_5
+0x53	STATIC ENCOUNTER	Power Plant		Electrode sprite disappeared		HS_ELECTRODE_2
+0x54	STATIC ENCOUNTER	Power Plant		Voltorb sprite disappeared		HS_VOLTORB_6
+0x55	STATIC ENCOUNTER	Power Plant		Zapdos sprite disappeared		HS_ZAPDOS
 0x56	FIELD ITEM	Power Plant		Carbos item ball disappeared		HS_POWER_PLANT_ITEM_1
 0x57	FIELD ITEM	Power Plant		HP Up item ball disappeared		HS_POWER_PLANT_ITEM_2
 0x58	FIELD ITEM	Power Plant		Rare Candy item ball disappeared		HS_POWER_PLANT_ITEM_3
 0x59	FIELD ITEM	Power Plant		TM25 (Thunder) item ball disappeared		HS_POWER_PLANT_ITEM_4
 0x5A	FIELD ITEM	Power Plant		TM33 (Reflect) item ball disappeared		HS_POWER_PLANT_ITEM_5
-0x5B	STATIC BATTLE	Victory Road	2F	Moltres sprite disappeared		HS_MOLTRES
+0x5B	STATIC ENCOUNTER	Victory Road	2F	Moltres sprite disappeared		HS_MOLTRES
 0x5C	FIELD ITEM	Victory Road	2F	TM17 (Submission) item ball disappeared		HS_VICTORY_ROAD_2F_ITEM_1
 0x5D	FIELD ITEM	Victory Road	2F	Full Heal item ball disappeared		HS_VICTORY_ROAD_2F_ITEM_2
 0x5E	FIELD ITEM	Victory Road	2F	TM05 (Mega Kick) item ball disappeared		HS_VICTORY_ROAD_2F_ITEM_3
@@ -228,7 +228,7 @@
 0xD4	FIELD ITEM	Cerulean Cave	2F	Ultra Ball item ball disappeared		HS_CERULEAN_CAVE_2F_ITEM_2
 0xD5	FIELD ITEM	Cerulean Cave	2F	Max Revive item ball disappeared		HS_CERULEAN_CAVE_2F_ITEM_3
 0xD6	FIELD ITEM	Cerulean Cave	2F	Full Restore item ball disappeared		HS_CERULEAN_CAVE_2F_ITEM_4
-0xD7	STATIC BATTLE	Cerulean Cave	B1F	Mewtwo sprite disappeared		HS_MEWTWO
+0xD7	STATIC ENCOUNTER	Cerulean Cave	B1F	Mewtwo sprite disappeared		HS_MEWTWO
 0xD8	FIELD ITEM	Cerulean Cave	B1F	Ultra Ball item ball disappeared		HS_CERULEAN_CAVE_B1F_ITEM_1
 0xD9	FIELD ITEM	Cerulean Cave	B1F	Ultra Ball item ball disappeared		HS_CERULEAN_CAVE_B1F_ITEM_2
 0xDA	FIELD ITEM	Cerulean Cave	B1F	Max Revive item ball disappeared		HS_CERULEAN_CAVE_B1F_ITEM_3
@@ -248,7 +248,7 @@
 0xE8	EVENT					HS_SEAFOAM_ISLANDS_B3F_BOULDER_4
 0xE9	EVENT					HS_SEAFOAM_ISLANDS_B4F_BOULDER_1
 0xEA	EVENT					HS_SEAFOAM_ISLANDS_B4F_BOULDER_2
-0xEB	STATIC BATTLE	Seafoam Islands	B4F	Articuno sprite disappeared		HS_ARTICUNO
+0xEB	STATIC ENCOUNTER	Seafoam Islands	B4F	Articuno sprite disappeared		HS_ARTICUNO
 0xEC	EVENT					HS_DAISY_SITTING_COPY
 0xED	EVENT					HS_DAISY_WALKING_COPY
 0xEE	EVENT					HS_TOWN_MAP_COPY
@@ -1588,15 +1588,15 @@
 0x45E	TRAINER BATTLE	Rock Tunnel	1F	Battled Jr. Trainer♀ (Dana)		EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_5
 0x45F	TRAINER BATTLE	Rock Tunnel	1F	Battled Jr. Trainer♀ (Ariana)		EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_6
 0x460	_UNUSED					
-0x461	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb		EVENT_BEAT_POWER_PLANT_VOLTORB_0
-0x462	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb		EVENT_BEAT_POWER_PLANT_VOLTORB_1
-0x463	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb		EVENT_BEAT_POWER_PLANT_VOLTORB_2
-0x464	STATIC BATTLE	Power Plant		Captured/Defeated Electrode		EVENT_BEAT_POWER_PLANT_VOLTORB_3
-0x465	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb		EVENT_BEAT_POWER_PLANT_VOLTORB_4
-0x466	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb		EVENT_BEAT_POWER_PLANT_VOLTORB_5
-0x467	STATIC BATTLE	Power Plant		Captured/Defeated Electrode		EVENT_BEAT_POWER_PLANT_VOLTORB_6
-0x468	STATIC BATTLE	Power Plant		Captured/Defeated Voltorb		EVENT_BEAT_POWER_PLANT_VOLTORB_7
-0x469	STATIC BATTLE	Power Plant		Captured/Defeated Zapdos		EVENT_BEAT_ZAPDOS
+0x461	STATIC ENCOUNTER	Power Plant		Captured/Defeated Voltorb		EVENT_BEAT_POWER_PLANT_VOLTORB_0
+0x462	STATIC ENCOUNTER	Power Plant		Captured/Defeated Voltorb		EVENT_BEAT_POWER_PLANT_VOLTORB_1
+0x463	STATIC ENCOUNTER	Power Plant		Captured/Defeated Voltorb		EVENT_BEAT_POWER_PLANT_VOLTORB_2
+0x464	STATIC ENCOUNTER	Power Plant		Captured/Defeated Electrode		EVENT_BEAT_POWER_PLANT_VOLTORB_3
+0x465	STATIC ENCOUNTER	Power Plant		Captured/Defeated Voltorb		EVENT_BEAT_POWER_PLANT_VOLTORB_4
+0x466	STATIC ENCOUNTER	Power Plant		Captured/Defeated Voltorb		EVENT_BEAT_POWER_PLANT_VOLTORB_5
+0x467	STATIC ENCOUNTER	Power Plant		Captured/Defeated Electrode		EVENT_BEAT_POWER_PLANT_VOLTORB_6
+0x468	STATIC ENCOUNTER	Power Plant		Captured/Defeated Voltorb		EVENT_BEAT_POWER_PLANT_VOLTORB_7
+0x469	STATIC ENCOUNTER	Power Plant		Captured/Defeated Zapdos		EVENT_BEAT_ZAPDOS
 0x46A	_UNUSED					
 0x46B	_UNUSED					
 0x46C	_UNUSED					
@@ -1634,7 +1634,7 @@
 0x48C	_UNUSED					
 0x48D	_UNUSED					
 0x48E	EVENT					EVENT_FIGHT_ROUTE12_SNORLAX
-0x48F	STATIC BATTLE	Route 12		Captured/Defeated Snorlax		EVENT_BEAT_ROUTE12_SNORLAX
+0x48F	STATIC ENCOUNTER	Route 12		Captured/Defeated Snorlax		EVENT_BEAT_ROUTE12_SNORLAX
 0x490	_UNUSED					
 0x491	TRAINER BATTLE	Route 13		Battled Bird Keeper (Sebastian)		EVENT_BEAT_ROUTE_13_TRAINER_0
 0x492	TRAINER BATTLE	Route 13		Battled Jr. Trainer♀ (Susie)		EVENT_BEAT_ROUTE_13_TRAINER_1
@@ -1692,7 +1692,7 @@
 0x4C6	TRAINER BATTLE	Route 16		Battled Biker (Ruben)		EVENT_BEAT_ROUTE_16_TRAINER_5
 0x4C7	_UNUSED					
 0x4C8	EVENT					EVENT_FIGHT_ROUTE16_SNORLAX
-0x4C9	STATIC BATTLE	Route 16		Captured/Defeated Snorlax		EVENT_BEAT_ROUTE16_SNORLAX
+0x4C9	STATIC ENCOUNTER	Route 16		Captured/Defeated Snorlax		EVENT_BEAT_ROUTE16_SNORLAX
 0x4CA	_UNUSED					
 0x4CB	_UNUSED					
 0x4CC	_UNUSED					
@@ -1809,7 +1809,7 @@
 0x53B	TRAINER BATTLE	Victory Road	2F	Battled Tamer (Vincent)		EVENT_BEAT_VICTORY_ROAD_2_TRAINER_2
 0x53C	TRAINER BATTLE	Victory Road	2F	Battled PokéManiac (Dawson)		EVENT_BEAT_VICTORY_ROAD_2_TRAINER_3
 0x53D	TRAINER BATTLE	Victory Road	2F	Battled Juggler (Gregory)		EVENT_BEAT_VICTORY_ROAD_2_TRAINER_4
-0x53E	STATIC BATTLE	Victory Road	2F	Captured/Defeated Moltres		EVENT_BEAT_MOLTRES
+0x53E	STATIC ENCOUNTER	Victory Road	2F	Captured/Defeated Moltres		EVENT_BEAT_MOLTRES
 0x53F	EVENT					EVENT_VICTORY_ROAD_2_BOULDER_ON_SWITCH2
 0x540	ITEM GIFT	Route 24		Received Nugget for defeating all trainers on the bridge		EVENT_GOT_NUGGET
 0x541	TRAINER BATTLE	Route 24		Battled Team Rocket Grunt		EVENT_BEAT_ROUTE24_ROCKET
@@ -2708,7 +2708,7 @@
 0x8BE	_UNUSED					
 0x8BF	_UNUSED					
 0x8C0	_UNUSED					
-0x8C1	STATIC BATTLE	Cerulean Cave	B1F	Captured/Defeated Mewtwo		EVENT_BEAT_MEWTWO
+0x8C1	STATIC ENCOUNTER	Cerulean Cave	B1F	Captured/Defeated Mewtwo		EVENT_BEAT_MEWTWO
 0x8C2	_UNUSED					
 0x8C3	_UNUSED					
 0x8C4	_UNUSED					
@@ -2989,7 +2989,7 @@
 0x9D7	_UNUSED					
 0x9D8	_UNUSED					
 0x9D9	_UNUSED					
-0x9DA	STATIC BATTLE	Seafoam Islands	B4F	Captured/Defeated Articuno		EVENT_BEAT_ARTICUNO
+0x9DA	STATIC ENCOUNTER	Seafoam Islands	B4F	Captured/Defeated Articuno		EVENT_BEAT_ARTICUNO
 0x9DB	_UNUSED					
 0x9DC	_UNUSED					
 0x9DD	_UNUSED					

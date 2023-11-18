@@ -209,8 +209,8 @@
 0x00CF						
 0x00D0						
 0x00D1						
-0x00D2	STATIC BATTLE			Zygarde Captured		
-0x00D3	STATIC BATTLE			Mewtwo Captured		
+0x00D2	STATIC ENCOUNTER			Zygarde Captured		
+0x00D3	STATIC ENCOUNTER			Mewtwo Captured		
 0x00D4						
 0x00D5						
 0x00D6						
@@ -320,7 +320,7 @@
 0x013E						
 0x013F	STORY EVENT			Claimed Kanto Starter from Sycamore		
 0x0140	IN-GAME TRADE			Traded with Diantha		
-0x0141	STATIC BATTLE			Snorlax Captured		
+0x0141	STATIC ENCOUNTER			Snorlax Captured		
 0x0142						
 0x0143						
 0x0144						

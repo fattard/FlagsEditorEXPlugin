@@ -648,9 +648,9 @@
 0x0286						
 0x0287						
 0x0288						
-0x0289	STATIC BATTLE			Cobalion Disappeared		
-0x028A	STATIC BATTLE			Terrakion Disappeared		
-0x028B	STATIC BATTLE			Virizion Disappeared		
+0x0289	STATIC ENCOUNTER			Cobalion Disappeared		
+0x028A	STATIC ENCOUNTER			Terrakion Disappeared		
+0x028B	STATIC ENCOUNTER			Virizion Disappeared		
 0x028C	EVENT			Obstacle (Victory Road) Cleared		
 0x028D	EVENT			Obstacle (Pinwheel Forest) Cleared		
 0x028E						
@@ -662,11 +662,11 @@
 0x0294						
 0x0295	STORY EVENT			Reshiram/Zekrom (N's Castle) Disappeared		
 0x0296						
-0x0297	STATIC BATTLE			Darmanitan (middle-left) disappeared from Desert Resort		
-0x0298	STATIC BATTLE			Darmanitan (bottom-left) disappeared from Desert Resort		
-0x0299	STATIC BATTLE			Darmanitan (top-left) disappeared from Desert Resort		
-0x029A	STATIC BATTLE			Darmanitan (middle-right) disappeared from Desert Resort		
-0x029B	STATIC BATTLE			Darmanitan (top-right) disappeared from Desert Resort		
+0x0297	STATIC ENCOUNTER			Darmanitan (middle-left) disappeared from Desert Resort		
+0x0298	STATIC ENCOUNTER			Darmanitan (bottom-left) disappeared from Desert Resort		
+0x0299	STATIC ENCOUNTER			Darmanitan (top-left) disappeared from Desert Resort		
+0x029A	STATIC ENCOUNTER			Darmanitan (middle-right) disappeared from Desert Resort		
+0x029B	STATIC ENCOUNTER			Darmanitan (top-right) disappeared from Desert Resort		
 0x029C						
 0x029D	EVENT			Team Plasma Guide (Pokemon League Pokemon Center) Disappeared		
 0x029E						
@@ -765,13 +765,13 @@
 0x02FB						
 0x02FC						
 0x02FD						
-0x02FE	STATIC BATTLE			Reshiram/Zekrom (Dragonspiral Tower) Disappeared		
-0x02FF	STATIC BATTLE	Route 6		Capture/Defeat Foongus		
-0x0300	STATIC BATTLE	Route 6		Capture/Defeat Foongus		
-0x0301	STATIC BATTLE	Route 10		Capture/Defeat Amoongus		
-0x0302	STATIC BATTLE	Route 10		Capture/Defeat Amoongus		
-0x0303	STATIC BATTLE	Route 10		Capture/Defeat Foongus		
-0x0304	STATIC BATTLE	Route 10		Capture/Defeat Foongus		
+0x02FE	STATIC ENCOUNTER			Reshiram/Zekrom (Dragonspiral Tower) Disappeared		
+0x02FF	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus		
+0x0300	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus		
+0x0301	STATIC ENCOUNTER	Route 10		Capture/Defeat Amoongus		
+0x0302	STATIC ENCOUNTER	Route 10		Capture/Defeat Amoongus		
+0x0303	STATIC ENCOUNTER	Route 10		Capture/Defeat Foongus		
+0x0304	STATIC ENCOUNTER	Route 10		Capture/Defeat Foongus		
 0x0305						
 0x0306						
 0x0307						
@@ -800,7 +800,7 @@
 0x031E						
 0x031F						
 0x0320						
-0x0321	STATIC BATTLE			Kyurem Disappeared		
+0x0321	STATIC ENCOUNTER			Kyurem Disappeared		
 0x0322						
 0x0323						
 0x0324						
@@ -809,7 +809,7 @@
 0x0327						
 0x0328						
 0x0329						
-0x032A	STATIC BATTLE			Volcarona Disappeared		
+0x032A	STATIC ENCOUNTER			Volcarona Disappeared		
 0x032B						
 0x032C						
 0x032D						

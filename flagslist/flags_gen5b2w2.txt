@@ -299,9 +299,9 @@
 0x0129						
 0x012A						
 0x012B						
-0x012C	STATIC BATTLE			Virizion (Rematch, Level +20)		
+0x012C	STATIC ENCOUNTER			Virizion (Rematch, Level +20)		
 0x012D						
-0x012E	STATIC BATTLE			Cobalion (Rematch, Level +20)		
+0x012E	STATIC ENCOUNTER			Cobalion (Rematch, Level +20)		
 0x012F						
 0x0130						
 0x0131						
@@ -328,7 +328,7 @@
 0x0146						
 0x0147						
 0x0148						
-0x0149	STATIC BATTLE			Terrakion (Rematch, Level +20)		
+0x0149	STATIC ENCOUNTER			Terrakion (Rematch, Level +20)		
 0x014A						
 0x014B						
 0x014C						
@@ -666,7 +666,7 @@
 0x0298						
 0x0299						
 0x029A						
-0x029B	STATIC BATTLE			Reshiram/Zekrom Disappeared		
+0x029B	STATIC ENCOUNTER			Reshiram/Zekrom Disappeared		
 0x029C						
 0x029D						
 0x029E						
@@ -800,8 +800,8 @@
 0x031E						
 0x031F						
 0x0320						
-0x0321	STATIC BATTLE			Virizion Disappeared		
-0x0322	STATIC BATTLE			Cobalion Disappeared		
+0x0321	STATIC ENCOUNTER			Virizion Disappeared		
+0x0322	STATIC ENCOUNTER			Cobalion Disappeared		
 0x0323						
 0x0324						
 0x0325						
@@ -809,7 +809,7 @@
 0x0327						
 0x0328						
 0x0329						
-0x032A	STATIC BATTLE			Terrakion Disappeared		
+0x032A	STATIC ENCOUNTER			Terrakion Disappeared		
 0x032B						
 0x032C						
 0x032D						
@@ -896,10 +896,10 @@
 0x037E						
 0x037F						
 0x0380						
-0x0381	STATIC BATTLE			Cresselia Disappeared		
+0x0381	STATIC ENCOUNTER			Cresselia Disappeared		
 0x0382						
 0x0383	SIDE EVENT	Strange House		Lunar Wing		
-0x0384	STATIC BATTLE			Heatran Disappeared		
+0x0384	STATIC ENCOUNTER			Heatran Disappeared		
 0x0385						
 0x0386						
 0x0387						
@@ -917,35 +917,35 @@
 0x0393						
 0x0394						
 0x0395						
-0x0396	STATIC BATTLE			Uxie Disappeared		
-0x0397	STATIC BATTLE			Mesprit Disappeared		
-0x0398	STATIC BATTLE			Azelf Disappeared		
-0x0399	STATIC BATTLE			Regice Disappeared		
-0x039A	STATIC BATTLE			Regirock Disappeared		
-0x039B	STATIC BATTLE			Registeel Disappeared		
-0x039C	STATIC BATTLE			Regigigas Disappeared		
+0x0396	STATIC ENCOUNTER			Uxie Disappeared		
+0x0397	STATIC ENCOUNTER			Mesprit Disappeared		
+0x0398	STATIC ENCOUNTER			Azelf Disappeared		
+0x0399	STATIC ENCOUNTER			Regice Disappeared		
+0x039A	STATIC ENCOUNTER			Regirock Disappeared		
+0x039B	STATIC ENCOUNTER			Registeel Disappeared		
+0x039C	STATIC ENCOUNTER			Regigigas Disappeared		
 0x039D						
 0x039E						
 0x039F						
 0x03A0						
-0x03A1	STATIC BATTLE	Route 6		Capture/Defeat Foongus		
+0x03A1	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus		
 0x03A2						
-0x03A3	STATIC BATTLE	Route 6		Capture/Defeat Foongus		
+0x03A3	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus		
 0x03A4						
 0x03A5						
-0x03A6	STATIC BATTLE	Route 11		Capture/Defeat Amoonguss		
-0x03A7	STATIC BATTLE	Route 11		Capture/Defeat Amoonguss		
-0x03A8	STATIC BATTLE	Route 22		Capture/Defeat Amoonguss		
-0x03A9	STATIC BATTLE	Route 22		Capture/Defeat Amoonguss		
+0x03A6	STATIC ENCOUNTER	Route 11		Capture/Defeat Amoonguss		
+0x03A7	STATIC ENCOUNTER	Route 11		Capture/Defeat Amoonguss		
+0x03A8	STATIC ENCOUNTER	Route 22		Capture/Defeat Amoonguss		
+0x03A9	STATIC ENCOUNTER	Route 22		Capture/Defeat Amoonguss		
 0x03AA						
 0x03AB						
-0x03AC	STATIC BATTLE	Route 23		Capture/Defeat Amoonguss		
+0x03AC	STATIC ENCOUNTER	Route 23		Capture/Defeat Amoonguss		
 0x03AD						
 0x03AE						
 0x03AF						
 0x03B0						
 0x03B1						
-0x03B2	STATIC BATTLE			Shiny Haxorus in Nature Preserve disappeared		
+0x03B2	STATIC ENCOUNTER			Shiny Haxorus in Nature Preserve disappeared		
 0x03B3						
 0x03B4						
 0x03B5						
@@ -1003,7 +1003,7 @@
 0x03E9						
 0x03EA						
 0x03EB						
-0x03EC	STATIC BATTLE			Kyurem Disappeared		
+0x03EC	STATIC ENCOUNTER			Kyurem Disappeared		
 0x03ED						
 0x03EE						
 0x03EF						
@@ -2773,8 +2773,8 @@
 0x0AD3						
 0x0AD4						
 0x0AD5						
-0x0AD6	STATIC BATTLE			Weekly Mandibuzz/Braviary on Route 4 disappeared		
-0x0AD7	STATIC BATTLE			Weekly Jellicent in Undella Bay disappeared		
+0x0AD6	STATIC ENCOUNTER			Weekly Mandibuzz/Braviary on Route 4 disappeared		
+0x0AD7	STATIC ENCOUNTER			Weekly Jellicent in Undella Bay disappeared		
 0x0AD8						
 0x0AD9						
 0x0ADA						

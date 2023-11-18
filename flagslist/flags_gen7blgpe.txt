@@ -1081,10 +1081,10 @@
 0x0437	HIDDEN ITEM	Power Plant		Voltorb Candy		r010r0101_HideItem_2
 0x0438	HIDDEN ITEM	Power Plant		Voltorb Candy		r010r0101_HideItem_3
 0x0439	EVENT	Power Plant		Capture/Defeat Zapdos		r010r0101_pm0145_thunder
-0x043A	STATIC BATTLE	Power Plant		Capture/Defeat Electrode		r010r0101_marumain_01
-0x043B	STATIC BATTLE	Power Plant		Capture/Defeat Electrode		r010r0101_marumain_02
-0x043C	STATIC BATTLE	Power Plant		Capture/Defeat Electrode		r010r0101_marumain_03
-0x043D	STATIC BATTLE	Power Plant		Capture/Defeat Electrode		r010r0101_marumain_04
+0x043A	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode		r010r0101_marumain_01
+0x043B	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode		r010r0101_marumain_02
+0x043C	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode		r010r0101_marumain_03
+0x043D	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode		r010r0101_marumain_04
 0x043E	HIDDEN ITEM	Power Plant				r010r0101_PartnerStop
 0x043F	HIDDEN ITEM	Power Plant				r010r0101_PartnerStop_0
 0x0440	HIDDEN ITEM	Power Plant				r010r0101_PartnerStop_1
@@ -2237,13 +2237,13 @@
 0x08BB						FE_SUB_45_TOWN004_BALL
 0x08BC						FE_SUB_46_CLEAR
 0x08BD	EVENT	Victory Road	2F	Played battle animation intro		FE_SUB_47_DEMO_END
-0x08BE	STATIC BATTLE	Victory Road	2F	Capture Moltres		FE_SUB_47_CLEAR
+0x08BE	STATIC ENCOUNTER	Victory Road	2F	Capture Moltres		FE_SUB_47_CLEAR
 0x08BF	EVENT	Power Plant		Played battle animation intro		FE_SUB_48_DEMO_END
-0x08C0	STATIC BATTLE	Power Plant		Capture Zapdos		FE_SUB_48_CLEAR
+0x08C0	STATIC ENCOUNTER	Power Plant		Capture Zapdos		FE_SUB_48_CLEAR
 0x08C1	EVENT	Seafoam Islands	B4F	Played battle animation intro		FE_SUB_49_DEMO_END
-0x08C2	STATIC BATTLE	Seafoam Islands	B4F	Capture Articuno		FE_SUB_49_CLEAR
+0x08C2	STATIC ENCOUNTER	Seafoam Islands	B4F	Capture Articuno		FE_SUB_49_CLEAR
 0x08C3	EVENT	Cerulean Cave	B1F	Played battle animation intro		FE_SUB_50_DEMO_DEND
-0x08C4	STATIC BATTLE	Cerulean Cave	B1F	Capture Mewtwo		FE_SUB_50_CLEAR
+0x08C4	STATIC ENCOUNTER	Cerulean Cave	B1F	Capture Mewtwo		FE_SUB_50_CLEAR
 0x08C5						FE_SUB_51_CLEAR
 0x08C6	ITEM GIFT	Route 15	Gate	Assistant Set from Oak's assistant		FE_SUB_52_CLEAR
 0x08C7	ITEM GIFT	Saffron City		Officer Set from officer		FE_SUB_53_CLEAR
@@ -2367,8 +2367,8 @@
 0x093D						FE_SUB_89_CLEAR
 0x093E						FE_SUB_89_KNOWN_FOLLOWING
 0x093F	IN-GAME TRADE					FE_FIELD_TRADE_FIRST_08
-0x0940	STATIC BATTLE	Route 12				FE_CAPTURE_KABIGON_ROAD012
-0x0941	STATIC BATTLE	Route 16				FE_CAPTURE_KABIGON_ROAD016
+0x0940	STATIC ENCOUNTER	Route 12				FE_CAPTURE_KABIGON_ROAD012
+0x0941	STATIC ENCOUNTER	Route 16				FE_CAPTURE_KABIGON_ROAD016
 0x0942						FE_COMMON_01
 0x0943						FE_COMMON_02
 0x0944						FE_COMMON_03
