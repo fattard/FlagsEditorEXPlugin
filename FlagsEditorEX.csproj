@@ -52,6 +52,8 @@
     <EmbeddedResource Include="flagslist\flags_gen8la.txt" />
     <EmbeddedResource Include="flagslist\flags_gen8swsh.txt" />
     <EmbeddedResource Include="flagslist\flags_gen9sv.txt" />
+    <EmbeddedResource Include="localization\lang_br.txt" />
+    <EmbeddedResource Include="localization\lang_en.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="PKHeX.Core">
