@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace FlagsEditorEXPlugin.Forms
+﻿namespace FlagsEditorEXPlugin.Forms
 {
     public partial class EventWorkEditor : Form
     {
@@ -174,7 +164,7 @@ namespace FlagsEditorEXPlugin.Forms
                 validValuesList.Insert(0, "");
 
                 row.Cells[4] = new DataGridViewComboBoxCell() { DataSource = validValuesList, Value = w.ValidValues.TryGetValue(w.Value, out string? value) ? value : "" };
-                
+
                 // Disable if no known valid values available
                 if (w.ValidValues.Count == 0)
                 {

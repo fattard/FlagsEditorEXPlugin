@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace FlagsEditorEXPlugin.Forms
+﻿namespace FlagsEditorEXPlugin.Forms
 {
     public partial class FlagsEditor : Form
     {
@@ -210,7 +200,7 @@ namespace FlagsEditorEXPlugin.Forms
                     continue;
                 }
 
-                if (filterBySearch && ((!searchIdx.HasValue || searchIdx.Value != f.FlagIdx)  && !f.ToString().ToUpperInvariant().Contains(searchTerm)))
+                if (filterBySearch && ((!searchIdx.HasValue || searchIdx.Value != f.FlagIdx) && !f.ToString().ToUpperInvariant().Contains(searchTerm)))
                 {
                     continue;
                 }

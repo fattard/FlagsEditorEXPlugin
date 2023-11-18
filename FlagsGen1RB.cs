@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PKHeX.Core;
-
-namespace FlagsEditorEXPlugin
+﻿namespace FlagsEditorEXPlugin
 {
     internal class FlagsGen1RB : FlagsOrganizer
     {
@@ -272,7 +265,6 @@ namespace FlagsEditorEXPlugin
                 AssembleList(s_flagsList_res[idxTradesSection..], Src_TradeFlags, "Trade Flags", completedInGameTradeFlags);
             }
 
-            
             AssembleList(s_flagsList_res[idxFlySpotSection..], Src_FlySpotFlags, "Fly Spot Flags", flySpotFlags);
             AssembleList(s_flagsList_res[idxBadgesSection..], Src_BadgesFlags, "Badges Flags", badgeFlags);
             AssembleList(s_flagsList_res[idxMisc_wd728_Section..], Src_Misc_wd728, "Misc-wd728 Flags", miscFlags_wd728);
@@ -283,16 +275,16 @@ namespace FlagsEditorEXPlugin
 
         public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
         {
-                EventFlagType.FieldItem or 
-                EventFlagType.HiddenItem or
-                EventFlagType.TrainerBattle or
-                EventFlagType.StaticBattle or
-                EventFlagType.InGameTrade or
-                EventFlagType.ItemGift or
-                EventFlagType.PkmnGift or
-                EventFlagType.FlySpot
-                    => true,
-                _ => false
+            EventFlagType.FieldItem or
+            EventFlagType.HiddenItem or
+            EventFlagType.TrainerBattle or
+            EventFlagType.StaticBattle or
+            EventFlagType.InGameTrade or
+            EventFlagType.ItemGift or
+            EventFlagType.PkmnGift or
+            EventFlagType.FlySpot
+                => true,
+            _ => false
         };
 
 
@@ -562,7 +554,7 @@ namespace FlagsEditorEXPlugin
                 m_flagsGroupsList[Src_HiddenItemFlags],
                 m_flagsGroupsList[Src_HiddenCoinsFlags]
             };
-            
+
             foreach (var fGroup in flagGroups)
             {
                 foreach (var f in fGroup.Flags)

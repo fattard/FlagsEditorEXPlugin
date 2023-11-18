@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PKHeX.Core;
-
-namespace FlagsEditorEXPlugin
+﻿namespace FlagsEditorEXPlugin
 {
 
     public abstract class FlagsOrganizer
@@ -316,7 +309,7 @@ namespace FlagsEditorEXPlugin
         }
 
 
-        protected virtual void AssembleWorkList<T>(string workList_res, T[] eventWorkValues) where T: unmanaged
+        protected virtual void AssembleWorkList<T>(string workList_res, T[] eventWorkValues) where T : unmanaged
         {
             using (System.IO.StringReader reader = new System.IO.StringReader(workList_res))
             {
@@ -389,7 +382,7 @@ namespace FlagsEditorEXPlugin
                 for (int i = 0; i < m_eventWorkList.Count; ++i)
                 {
                     string fmt = m_eventWorkList[i].WorkIdx > (ushort.MaxValue) ?
-                        m_eventWorkList[i].WorkIdx > (uint.MaxValue) ? 
+                        m_eventWorkList[i].WorkIdx > (uint.MaxValue) ?
                         "WORK_0x{0:X16} => {1,5}\t{2}\r\n" :
                         "WORK_0x{0:X8} => {1,5}\t{2}\r\n" :
                         "WORK_0x{0:X4} => {1,5}\t{2}\r\n";
@@ -413,7 +406,7 @@ namespace FlagsEditorEXPlugin
         public abstract void SyncEditedEventWork();
 
         #endregion
-        
+
         public static ulong ParseDecOrHex(string str)
         {
             if (str.StartsWith("0x"))

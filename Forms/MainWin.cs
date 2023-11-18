@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace FlagsEditorEXPlugin.Forms
+﻿namespace FlagsEditorEXPlugin.Forms
 {
     public partial class MainWin : Form
     {
@@ -21,7 +11,7 @@ namespace FlagsEditorEXPlugin.Forms
             InitializeComponent();
 
             #region Raw Flags Edit Tab
-            
+
             foreach (var fGroup in m_organizer.FlagsGroups)
             {
                 flagsGroupCombo.Items.Add(fGroup.SourceName);

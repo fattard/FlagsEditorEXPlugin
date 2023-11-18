@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PKHeX.Core;
-
-namespace FlagsEditorEXPlugin
+﻿namespace FlagsEditorEXPlugin
 {
     internal class FlagsGen7bGPGE : FlagsOrganizer
     {
@@ -16,7 +9,7 @@ namespace FlagsEditorEXPlugin
         protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
             m_savFile = savFile;
-            m_eventWorkData =  ((SAV7b)m_savFile).EventWork;
+            m_eventWorkData = ((SAV7b)m_savFile).EventWork;
 
 #if DEBUG
             // Force refresh

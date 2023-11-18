@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using PKHeX.Core;
-
-namespace FlagsEditorEXPlugin
+﻿namespace FlagsEditorEXPlugin
 {
     internal class FlagsGen4DP : FlagsOrganizer
     {

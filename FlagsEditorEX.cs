@@ -1,8 +1,4 @@
-﻿using PKHeX.Core;
-using System;
-using System.Windows.Forms;
-
-namespace FlagsEditorEXPlugin
+﻿namespace FlagsEditorEXPlugin
 {
     public class FlagsEditorEX : IPlugin
     {
@@ -33,7 +29,7 @@ namespace FlagsEditorEXPlugin
             AddPluginControl(tools);
         }
 
-        
+
         private void AddPluginControl(ToolStripDropDownItem tools)
         {
             ctrl = new ToolStripMenuItem(Name);
