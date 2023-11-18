@@ -455,146 +455,123 @@
 
         public static FlagsOrganizer CreateFlagsOrganizer(SaveFile savFile, string? resData)
         {
-            FlagsOrganizer? flagsOrganizer = null;
-
-            switch (savFile.Version)
+            FlagsOrganizer? flagsOrganizer = savFile.Version switch
             {
-                case GameVersion.Any:
-                case GameVersion.RBY:
-                case GameVersion.StadiumJ:
-                case GameVersion.Stadium:
-                case GameVersion.Stadium2:
-                case GameVersion.RSBOX:
-                case GameVersion.COLO:
-                case GameVersion.XD:
-                case GameVersion.CXD:
-                case GameVersion.BATREV:
-                case GameVersion.ORASDEMO:
-                case GameVersion.GO:
-                case GameVersion.Unknown:
-                case GameVersion.Invalid:
-                    break; // unsupported format
+                GameVersion.Any or
+                GameVersion.RBY or
+                GameVersion.StadiumJ or
+                GameVersion.Stadium or
+                GameVersion.Stadium2 or
+                GameVersion.RSBOX or
+                GameVersion.COLO or
+                GameVersion.XD or
+                GameVersion.CXD or
+                GameVersion.BATREV or
+                GameVersion.ORASDEMO or
+                GameVersion.GO or
+                GameVersion.Unknown or
+                GameVersion.Invalid
+                    // unsupported format
+                    => null,
 
-                case GameVersion.RD:
-                case GameVersion.GN:
-                case GameVersion.RB:
-                    flagsOrganizer = new FlagsGen1RB();
-                    break;
+                GameVersion.RD or
+                GameVersion.GN or
+                GameVersion.BU or
+                GameVersion.RB
+                    => new FlagsGen1RB(),
 
-                case GameVersion.YW:
-                    flagsOrganizer = new FlagsGen1Y();
-                    break;
+                GameVersion.YW
+                    => new FlagsGen1Y(),
 
-                case GameVersion.GD:
-                case GameVersion.SI:
-                case GameVersion.GS:
-                    flagsOrganizer = new FlagsGen2GS();
-                    break;
+                GameVersion.GD or
+                GameVersion.SI or
+                GameVersion.GS
+                    => new FlagsGen2GS(),
 
-                case GameVersion.C:
-                    flagsOrganizer = new FlagsGen2C();
-                    break;
+                GameVersion.C
+                    => new FlagsGen2C(),
 
-                case GameVersion.R:
-                case GameVersion.S:
-                case GameVersion.RS:
-                    flagsOrganizer = new FlagsGen3RS();
-                    break;
+                GameVersion.R or
+                GameVersion.S or
+                GameVersion.RS
+                    => new FlagsGen3RS(),
 
-                case GameVersion.FR:
-                case GameVersion.LG:
-                case GameVersion.FRLG:
-                    flagsOrganizer = new FlagsGen3FRLG();
-                    break;
+                GameVersion.FR or
+                GameVersion.LG or
+                GameVersion.FRLG
+                    => new FlagsGen3FRLG(),
 
-                case GameVersion.E:
-                    flagsOrganizer = new FlagsGen3E();
-                    break;
+                GameVersion.E
+                    => new FlagsGen3E(),
 
-                case GameVersion.D:
-                case GameVersion.P:
-                case GameVersion.DP:
-                    flagsOrganizer = new FlagsGen4DP();
-                    break;
+                GameVersion.D or
+                GameVersion.P or
+                GameVersion.DP
+                    => new FlagsGen4DP(),
 
-                case GameVersion.Pt:
-                    flagsOrganizer = new FlagsGen4Pt();
-                    break;
+                GameVersion.Pt
+                    => new FlagsGen4Pt(),
 
-                case GameVersion.HG:
-                case GameVersion.SS:
-                case GameVersion.HGSS:
-                    flagsOrganizer = new FlagsGen4HGSS();
-                    break;
+                GameVersion.HG or
+                GameVersion.SS or
+                GameVersion.HGSS
+                    => new FlagsGen4HGSS(),
 
-                case GameVersion.B:
-                case GameVersion.W:
-                case GameVersion.BW:
-                    flagsOrganizer = new FlagsGen5BW();
-                    break;
+                GameVersion.B or
+                GameVersion.W or
+                GameVersion.BW
+                    => new FlagsGen5BW(),
 
-                case GameVersion.B2:
-                case GameVersion.W2:
-                case GameVersion.B2W2:
-                    flagsOrganizer = new FlagsGen5B2W2();
-                    break;
+                GameVersion.B2 or
+                GameVersion.W2 or
+                GameVersion.B2W2
+                    => new FlagsGen5B2W2(),
 
-                case GameVersion.X:
-                case GameVersion.Y:
-                case GameVersion.XY:
-                    flagsOrganizer = new FlagsGen6XY();
-                    break;
+                GameVersion.X or
+                GameVersion.Y or
+                GameVersion.XY
+                    => new FlagsGen6XY(),
 
-                case GameVersion.OR:
-                case GameVersion.AS:
-                case GameVersion.ORAS:
-                    flagsOrganizer = new FlagsGen6ORAS();
-                    break;
+                GameVersion.OR or
+                GameVersion.AS or
+                GameVersion.ORAS
+                    => new FlagsGen6ORAS(),
 
-                case GameVersion.SN:
-                case GameVersion.MN:
-                case GameVersion.SM:
-                    flagsOrganizer = new FlagsGen7SM();
-                    break;
+                GameVersion.SN or
+                GameVersion.MN or
+                GameVersion.SM
+                    => new FlagsGen7SM(),
 
-                case GameVersion.US:
-                case GameVersion.UM:
-                case GameVersion.USUM:
-                    flagsOrganizer = new FlagsGen7USUM();
-                    break;
+                GameVersion.US or
+                GameVersion.UM or
+                GameVersion.USUM
+                    => new FlagsGen7USUM(),
 
-                case GameVersion.GP:
-                case GameVersion.GE:
-                case GameVersion.GG:
-                    flagsOrganizer = new FlagsGen7bGPGE();
-                    break;
+                GameVersion.GP or
+                GameVersion.GE or
+                GameVersion.GG
+                    => new FlagsGen7bGPGE(),
 
-                case GameVersion.BD:
-                case GameVersion.SP:
-                case GameVersion.BDSP:
-                    flagsOrganizer = new FlagsGen8bsBDSP();
-                    break;
+                GameVersion.SW or
+                GameVersion.SH or
+                GameVersion.SWSH
+                    => new FlagsGen8SWSH(),
 
-                case GameVersion.SW:
-                case GameVersion.SH:
-                case GameVersion.SWSH:
-                    flagsOrganizer = new FlagsGen8SWSH();
-                    break;
+                GameVersion.BD or
+                GameVersion.SP or
+                GameVersion.BDSP
+                    => new FlagsGen8bsBDSP(),
 
-                case GameVersion.SL:
-                case GameVersion.VL:
-                case GameVersion.SV:
-                    flagsOrganizer = new FlagsGen9SV();
-                    break;
+                GameVersion.PLA
+                    => new FlagsGen8LA(),
 
+                GameVersion.SL or
+                GameVersion.VL or
+                GameVersion.SV
+                    => new FlagsGen9SV(),
 
-                case GameVersion.PLA:
-                    flagsOrganizer = new FlagsGen8LA();
-                    break;
-
-                default:
-                    break;
-            }
+                _ => null
+            };
 
             if (flagsOrganizer is null)
             {

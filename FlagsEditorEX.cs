@@ -75,49 +75,36 @@
                 return;
             }
 
-            switch (savData.Version)
-            {
-                case GameVersion.Any:
-                case GameVersion.RBY:
-                case GameVersion.StadiumJ:
-                case GameVersion.Stadium:
-                case GameVersion.Stadium2:
-                case GameVersion.RSBOX:
-                case GameVersion.COLO:
-                case GameVersion.XD:
-                case GameVersion.CXD:
-                case GameVersion.BATREV:
-                case GameVersion.ORASDEMO:
-                case GameVersion.GO:
-                case GameVersion.Unknown:
-                case GameVersion.Invalid:
-                    ctrl.Enabled = false;
-                    break;
 
+            ctrl.Enabled = savData.Version switch
+            {
+                GameVersion.Any or
+                GameVersion.RBY or
+                GameVersion.StadiumJ or
+                GameVersion.Stadium or
+                GameVersion.Stadium2 or
+                GameVersion.RSBOX or
+                GameVersion.COLO or
+                GameVersion.XD or
+                GameVersion.CXD or
+                GameVersion.BATREV or
+                GameVersion.ORASDEMO or
+                GameVersion.GO or
+                GameVersion.Unknown or
+                GameVersion.Invalid
+                    => false,
 
                 // Check for AS Demo
-                case GameVersion.AS:
-                    {
-                        if (savData is SAV6AODemo)
-                        {
-                            ctrl.Enabled = false;
-                        }
-                    }
-                    break;
-
+                GameVersion.AS
+                    => savData is not SAV6AODemo,
 
                 // Check for SN Demo
-                case GameVersion.SN:
-                    {
-                        var sav7 = (SAV7SM)savData;
-                        if (sav7.BoxLayout.BoxesUnlocked == 8 && string.IsNullOrWhiteSpace(sav7.BoxLayout.GetBoxName(10)))
-                        {
-                            // Can't have a renamed box which is locked - must be Demo
-                            ctrl.Enabled = false;
-                        }
-                    }
-                    break;
-            }
+                GameVersion.SN
+                    // Can't have a renamed box which is locked in non-demo version
+                    => !(((SAV7SM)savData).BoxLayout.BoxesUnlocked == 8 && string.IsNullOrWhiteSpace(((SAV7SM)savData).BoxLayout.GetBoxName(10))),
+
+                _ => false
+            };
 
 #if DEBUG
             // Quick dump all flags on load during DEBUG
