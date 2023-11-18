@@ -21,22 +21,19 @@ namespace FlagsEditorEX_App
 
             string[] args = Environment.GetCommandLineArgs();
 
-            if (args.Length > 0)
+            foreach (string path in args)
             {
-                foreach (string path in args)
+                var other = FileUtil.GetSupportedFile(path, SAV);
+                if (other is SaveFile s)
                 {
-                    var other = FileUtil.GetSupportedFile(path, SAV);
-                    if (other is SaveFile s)
-                    {
-                        s.Metadata.SetExtraInfo(path);
-                        SAV = s;
-                    }
+                    s.Metadata.SetExtraInfo(path);
+                    SAV = s;
                 }
             }
 
-            if (SAV != null)
+            if (SAV is not null)
             {
-                var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SAV, resData: null) ?? throw new FormatException("Unsupported SAV format: " + SAV.Version);
+                var flagsOrganizer = FlagsOrganizer.CreateFlagsOrganizer(SAV, resData: null);
                 var form = new MainWin(flagsOrganizer);
                 form.KeyDown += Form_KeyDown;
                 form.KeyPreview = true;
@@ -48,10 +45,7 @@ namespace FlagsEditorEX_App
         {
             if (e.KeyCode == Keys.D)
             {
-#pragma warning disable CS8604 // Possible null reference argument.
-                var organizer = FlagsOrganizer.OrganizeFlags(SAV, resData: null);
-#pragma warning restore CS8604 // Possible null reference argument.
-                organizer?.DumpAllFlags();
+                FlagsOrganizer.CreateFlagsOrganizer(SAV!, resData: null).DumpAllFlags();
             }
         }
     }

@@ -173,7 +173,7 @@ namespace FlagsEditorEXPlugin
                         int sep = t.IndexOf(':');
                         if (sep > 0)
                         {
-                            ValidValues.Add(Convert.ToInt64(t.Substring(0, sep)), t.Substring(sep + 1));
+                            ValidValues.Add(ParseDecOrHexSigned(t[..sep]), t[(sep + 1)..]);
                         }
                     }
                 }
@@ -233,9 +233,9 @@ namespace FlagsEditorEXPlugin
                     }
                     sb.Append(DetailMsg);
                 }
-                if (ValidValues.Count > 0 && ValidValues.ContainsKey(Value))
+                if (ValidValues.Count > 0 && ValidValues.TryGetValue(Value, out string? value))
                 {
-                    sb.Append($" => {ValidValues[Value]}");
+                    sb.Append($" => {value}");
                 }
 
                 return sb.ToString();
@@ -257,7 +257,7 @@ namespace FlagsEditorEXPlugin
         }
 
 
-        protected SaveFile m_savFile;
+        protected SaveFile? m_savFile;
 
         protected List<FlagsGroup> m_flagsGroupsList = new List<FlagsGroup>(10);
         protected List<WorkDetail> m_eventWorkList = new List<WorkDetail>(4096);
@@ -265,7 +265,7 @@ namespace FlagsEditorEXPlugin
         public List<FlagsGroup> FlagsGroups => m_flagsGroupsList;
         public List<WorkDetail> EventWorkList => m_eventWorkList;
 
-        protected virtual void InitFlagsData(SaveFile savFile, string resData)
+        protected virtual void InitFlagsData(SaveFile savFile, string? resData)
         {
             m_savFile = savFile;
             m_flagsGroupsList.Clear();
@@ -278,7 +278,12 @@ namespace FlagsEditorEXPlugin
             {
                 FlagsGroup flagsGroup = new FlagsGroup(sourceIdx, sourceName);
 
-                string s = reader.ReadLine();
+                string? s = reader.ReadLine();
+
+                if (s is null)
+                {
+                    return;
+                }
 
                 // Skip header
                 if (s.StartsWith("//"))
@@ -304,7 +309,7 @@ namespace FlagsEditorEXPlugin
 
                     s = reader.ReadLine();
 
-                } while (s != null);
+                } while (s is not null);
 
                 m_flagsGroupsList.Add(flagsGroup);
             }
@@ -315,7 +320,12 @@ namespace FlagsEditorEXPlugin
         {
             using (System.IO.StringReader reader = new System.IO.StringReader(workList_res))
             {
-                string s = reader.ReadLine();
+                string? s = reader.ReadLine();
+
+                if (s is null)
+                {
+                    return;
+                }
 
                 // Skip header
                 if (s.StartsWith("//"))
@@ -340,7 +350,7 @@ namespace FlagsEditorEXPlugin
 
                     s = reader.ReadLine();
 
-                } while (s != null);
+                } while (s is not null);
             }
         }
 
@@ -359,8 +369,8 @@ namespace FlagsEditorEXPlugin
 
                 for (int i = 0; i < flagsList.Count; ++i)
                 {
-                    string fmt = flagsList[i].FlagIdx > (ulong)(ushort.MaxValue) ?
-                        flagsList[i].FlagIdx > (ulong)(uint.MaxValue) ?
+                    string fmt = flagsList[i].FlagIdx > (ushort.MaxValue) ?
+                        flagsList[i].FlagIdx > (uint.MaxValue) ?
                         "FLAG_0x{0:X16} {1}\t{2}\r\n" :
                         "FLAG_0x{0:X8} {1}\t{2}\r\n" :
                         "FLAG_0x{0:X4} {1}\t{2}\r\n";
@@ -378,8 +388,8 @@ namespace FlagsEditorEXPlugin
 
                 for (int i = 0; i < m_eventWorkList.Count; ++i)
                 {
-                    string fmt = m_eventWorkList[i].WorkIdx > (ulong)(ushort.MaxValue) ?
-                        m_eventWorkList[i].WorkIdx > (ulong)(uint.MaxValue) ? 
+                    string fmt = m_eventWorkList[i].WorkIdx > (ushort.MaxValue) ?
+                        m_eventWorkList[i].WorkIdx > (uint.MaxValue) ? 
                         "WORK_0x{0:X16} => {1,5}\t{2}\r\n" :
                         "WORK_0x{0:X8} => {1,5}\t{2}\r\n" :
                         "WORK_0x{0:X4} => {1,5}\t{2}\r\n";
@@ -389,10 +399,10 @@ namespace FlagsEditorEXPlugin
                 }
             }
 
-            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile.Version), sb.ToString());
+            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile!.Version), sb.ToString());
         }
 
-        public virtual SpecialEditableEventInfo[] GetSpecialEditableEvents() { return new SpecialEditableEventInfo[0]; }
+        public virtual SpecialEditableEventInfo[] GetSpecialEditableEvents() { return Array.Empty<SpecialEditableEventInfo>(); }
 
         public virtual void ProcessSpecialEventEdit(SpecialEditableEventInfo eventInfo) { }
 
@@ -412,21 +422,29 @@ namespace FlagsEditorEXPlugin
             return Convert.ToUInt64(str);
         }
 
+        public static long ParseDecOrHexSigned(string str)
+        {
+            if (str.StartsWith("0x"))
+                return Convert.ToInt64(str, 16);
+
+            return Convert.ToInt64(str);
+        }
+
         protected static string ReadResFile(string resName)
         {
-            string contentTxt = null;
+            string? contentTxt = null;
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
             // Try outside file first
-            var offResPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location), resName);
+            var offResPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location)!, resName);
             if (!System.IO.File.Exists(offResPath))
             {
                 resName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resName));
 
                 using (var stream = assembly.GetManifestResourceStream(resName))
                 {
-                    using (var reader = new System.IO.StreamReader(stream))
+                    using (var reader = new System.IO.StreamReader(stream!))
                     {
                         contentTxt = reader.ReadToEnd();
                     }
@@ -442,7 +460,7 @@ namespace FlagsEditorEXPlugin
 
 
 
-        public static FlagsOrganizer? OrganizeFlags(SaveFile savFile, string? resData)
+        public static FlagsOrganizer CreateFlagsOrganizer(SaveFile savFile, string? resData)
         {
             FlagsOrganizer? flagsOrganizer = null;
 
@@ -585,10 +603,12 @@ namespace FlagsEditorEXPlugin
                     break;
             }
 
-            if (flagsOrganizer != null)
+            if (flagsOrganizer is null)
             {
-                flagsOrganizer.InitFlagsData(savFile, resData);
+                throw new FormatException($"Unsupported SAV format: {savFile.Version}");
             }
+
+            flagsOrganizer.InitFlagsData(savFile, resData);
 
             return flagsOrganizer;
         }

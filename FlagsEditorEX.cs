@@ -7,10 +7,12 @@ namespace FlagsEditorEXPlugin
     public class FlagsEditorEX : IPlugin
     {
         public string Name => "Flags Editor EX";
-        public string NameEditFlags => "Edit flags...";
-        public string NameDumpAllFlags => "Dump all Flags";
+        private string NameEditFlags => "Edit flags...";
+        private string NameDumpAllFlags => "Dump all Flags";
         public int Priority => 100; // Loading order, lowest is first.
+#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         public ISaveFileProvider SaveFileEditor { get; private set; }
+#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
 
         private ToolStripMenuItem? ctrl;
 
@@ -19,23 +21,24 @@ namespace FlagsEditorEXPlugin
 
         public void Initialize(params object[] args)
         {
-            SaveFileEditor = (ISaveFileProvider)Array.Find(args, z => z is ISaveFileProvider);
-            var menu = (ToolStrip?)Array.Find(args, z => z is ToolStrip);
+            SaveFileEditor = (ISaveFileProvider)Array.Find(args, z => z is ISaveFileProvider)!;
+            var menu = (ToolStrip)Array.Find(args, z => z is ToolStrip)!;
             LoadMenuStrip(menu);
         }
 
-        private void LoadMenuStrip(ToolStrip? menuStrip)
+        private void LoadMenuStrip(ToolStrip menuStrip)
         {
-            var items = menuStrip?.Items;
-            var tools = (ToolStripDropDownItem?)items?.Find("Menu_Tools", false)[0];
+            var items = menuStrip.Items;
+            var tools = (ToolStripDropDownItem)items.Find("Menu_Tools", false)[0];
             AddPluginControl(tools);
         }
 
-        private void AddPluginControl(ToolStripDropDownItem? tools)
+        
+        private void AddPluginControl(ToolStripDropDownItem tools)
         {
             ctrl = new ToolStripMenuItem(Name);
             ctrl.Enabled = false;
-            tools?.DropDownItems.Add(ctrl);
+            tools.DropDownItems.Add(ctrl);
 
             menuEntry_DumpAllFlags = new ToolStripMenuItem(NameDumpAllFlags);
             menuEntry_DumpAllFlags.Enabled = false;
@@ -50,87 +53,83 @@ namespace FlagsEditorEXPlugin
 
         private void DumpAllFlags_UIEvt(object? sender, EventArgs e)
         {
-            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV, resData: null) ?? throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
+            var flagsOrganizer = FlagsOrganizer.CreateFlagsOrganizer(SaveFileEditor.SAV, resData: null);
             flagsOrganizer.DumpAllFlags();
         }
 
         private void EditFlags_UIEvt(object? sender, EventArgs e)
         {
-            var flagsOrganizer = FlagsOrganizer.OrganizeFlags(SaveFileEditor.SAV, resData: null) ?? throw new FormatException("Unsupported SAV format: " + SaveFileEditor.SAV.Version);
+            var flagsOrganizer = FlagsOrganizer.CreateFlagsOrganizer(SaveFileEditor.SAV, resData: null);
             var form = new Forms.MainWin(flagsOrganizer);
             form.ShowDialog();
         }
 
         public void NotifySaveLoaded()
         {
-            if (ctrl != null)
+            ctrl!.Enabled = true;
+            menuEntry_DumpAllFlags!.Enabled = true;
+            menuEntry_EditFlags!.Enabled = true;
+
+            var savData = SaveFileEditor.SAV;
+
+            // Prevent usage if state is not Exportable
+            if (!savData.State.Exportable)
             {
-                ctrl.Enabled = true;
-                menuEntry_DumpAllFlags.Enabled = true;
-                menuEntry_EditFlags.Enabled = true;
+                ctrl.Enabled = false;
+                return;
+            }
 
-                var savData = SaveFileEditor.SAV;
-
-                // Prevent usage if state is not Exportable
-                if (!savData.State.Exportable)
-                {
+            switch (savData.Version)
+            {
+                case GameVersion.Any:
+                case GameVersion.RBY:
+                case GameVersion.StadiumJ:
+                case GameVersion.Stadium:
+                case GameVersion.Stadium2:
+                case GameVersion.RSBOX:
+                case GameVersion.COLO:
+                case GameVersion.XD:
+                case GameVersion.CXD:
+                case GameVersion.BATREV:
+                case GameVersion.ORASDEMO:
+                case GameVersion.GO:
+                case GameVersion.Unknown:
+                case GameVersion.Invalid:
                     ctrl.Enabled = false;
-                    return;
-                }
-
-                switch (savData.Version)
-                {
-                    case GameVersion.Any:
-                    case GameVersion.RBY:
-                    case GameVersion.StadiumJ:
-                    case GameVersion.Stadium:
-                    case GameVersion.Stadium2:
-                    case GameVersion.RSBOX:
-                    case GameVersion.COLO:
-                    case GameVersion.XD:
-                    case GameVersion.CXD:
-                    case GameVersion.BATREV:
-                    case GameVersion.ORASDEMO:
-                    case GameVersion.GO:
-                    case GameVersion.Unknown:
-                    case GameVersion.Invalid:
-                        ctrl.Enabled = false;
-                        break;
+                    break;
 
 
-                    // Check for AS Demo
-                    case GameVersion.AS:
+                // Check for AS Demo
+                case GameVersion.AS:
+                    {
+                        if (savData is SAV6AODemo)
                         {
-                            if (savData is SAV6AODemo)
-                            {
-                                ctrl.Enabled = false;
-                            }
+                            ctrl.Enabled = false;
                         }
-                        break;
+                    }
+                    break;
 
 
-                    // Check for SN Demo
-                    case GameVersion.SN:
+                // Check for SN Demo
+                case GameVersion.SN:
+                    {
+                        var sav7 = (SAV7SM)savData;
+                        if (sav7.BoxLayout.BoxesUnlocked == 8 && string.IsNullOrWhiteSpace(sav7.BoxLayout.GetBoxName(10)))
                         {
-                            var sav7 = (savData as SAV7SM);
-                            if (sav7.BoxLayout.BoxesUnlocked == 8 && string.IsNullOrWhiteSpace(sav7.BoxLayout.GetBoxName(10)))
-                            {
-                                // Can't have a renamed box which is locked - must be Demo
-                                ctrl.Enabled = false;
-                            }
+                            // Can't have a renamed box which is locked - must be Demo
+                            ctrl.Enabled = false;
                         }
-                        break;
-                }
+                    }
+                    break;
+            }
 
 #if DEBUG
-                // Quick dump all flags on load during DEBUG
-                if (ctrl.Enabled)
-                {
-                    DumpAllFlags_UIEvt(null, new EventArgs());
-                }
-#endif
-
+            // Quick dump all flags on load during DEBUG
+            if (ctrl.Enabled)
+            {
+                DumpAllFlags_UIEvt(null, new EventArgs());
             }
+#endif
         }
 
         public bool TryLoadFile(string filePath)

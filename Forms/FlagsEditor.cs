@@ -59,9 +59,7 @@ namespace FlagsEditorEXPlugin.Forms
             for (int i = 0; i < dataGridView.RowCount; i++)
             {
                 var idx = ((ulong?)dataGridView.Rows[i].Cells[1].Value).Value;
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
-                m_editableFlagsList.Find(f => f.FlagIdx == idx).IsSet = true;
-#pragma warning restore CS8602 // Dereference of a possibly null reference.
+                m_editableFlagsList.Find(f => f.FlagIdx == idx)!.IsSet = true;
             }
 
             RefreshDataGrid();
@@ -73,9 +71,7 @@ namespace FlagsEditorEXPlugin.Forms
             for (int i = 0; i < dataGridView.RowCount; i++)
             {
                 var idx = ((ulong?)dataGridView.Rows[i].Cells[1].Value).Value;
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
-                m_editableFlagsList.Find(f => f.FlagIdx == idx).IsSet = false;
-#pragma warning restore CS8602 // Dereference of a possibly null reference.
+                m_editableFlagsList.Find(f => f.FlagIdx == idx)!.IsSet = false;
             }
 
             RefreshDataGrid();
@@ -155,9 +151,7 @@ namespace FlagsEditorEXPlugin.Forms
         private void DataGridView_CellValueChanged(object? sender, DataGridViewCellEventArgs e)
         {
             var idx = ((ulong?)dataGridView.Rows[e.RowIndex].Cells[1].Value).Value;
-#pragma warning disable CS8602 // Dereference of a possibly null reference.
-            m_editableFlagsList.Find(f => f.FlagIdx == idx).IsSet = ((bool?)dataGridView.Rows[e.RowIndex].Cells[0].Value).Value;
-#pragma warning restore CS8602 // Dereference of a possibly null reference.
+            m_editableFlagsList.Find(f => f.FlagIdx == idx)!.IsSet = ((bool?)dataGridView.Rows[e.RowIndex].Cells[0].Value).Value;
         }
 
 

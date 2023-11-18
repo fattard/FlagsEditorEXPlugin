@@ -99,22 +99,22 @@ namespace FlagsEditorEXPlugin.Forms
                 if (e.ColumnIndex == 4) // Combobox
                 {
                     var strVal = (string)cells[4].Value;
-                    w.Value = w.ValidValues.ContainsValue(strVal) ? w.ValidValues.FirstOrDefault(x => x.Value == strVal).Key : 0;
+                    w!.Value = w!.ValidValues.ContainsValue(strVal) ? w.ValidValues.FirstOrDefault(x => x.Value == strVal).Key : 0;
                     cells[5].Value = w.Value;
                 }
                 else if (e.ColumnIndex == 5) // Text
                 {
                     if (long.TryParse(cells[5].Value as string, out long v))
                     {
-                        w.Value = v;
+                        w!.Value = v;
                     }
                     else
                     {
-                        cells[5].Value = w.Value;
+                        cells[5].Value = w!.Value;
                     }
                 }
 
-                cells[4].Value = w.ValidValues.TryGetValue(w.Value, out string? value) ? value : "";
+                cells[4].Value = w!.ValidValues.TryGetValue(w!.Value, out string? value) ? value : "";
 
                 isSyncingCells = false;
             }
