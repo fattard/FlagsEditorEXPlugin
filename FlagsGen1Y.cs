@@ -198,7 +198,7 @@
             EventFlagType.FieldItem or
             EventFlagType.HiddenItem or
             EventFlagType.TrainerBattle or
-            EventFlagType.StaticBattle or
+            EventFlagType.StaticEncounter or
             EventFlagType.InGameTrade or
             EventFlagType.ItemGift or
             EventFlagType.PkmnGift or
@@ -434,8 +434,8 @@
                         BulkEdit_Trainers(value);
                         break;
 
-                    case EventFlagType.StaticBattle:
-                        BulkEdit_StaticBattle(value);
+                    case EventFlagType.StaticEncounter:
+                        BulkEdit_StaticEncounter(value);
                         break;
 
                     case EventFlagType.InGameTrade:
@@ -660,7 +660,7 @@
             }
         }
 
-        void BulkEdit_StaticBattle(bool value)
+        void BulkEdit_StaticEncounter(bool value)
         {
             var flagGroups = new FlagsGroup[]
             {
@@ -672,7 +672,7 @@
             {
                 foreach (var f in fGroup.Flags)
                 {
-                    if (f.FlagTypeVal == EventFlagType.StaticBattle)
+                    if (f.FlagTypeVal == EventFlagType.StaticEncounter)
                     {
                         f.IsSet = value;
                     }

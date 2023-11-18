@@ -9,7 +9,7 @@
             "HIDDEN ITEM" => FlagsOrganizer.EventFlagType.HiddenItem,
             "SPECIAL ITEM" => FlagsOrganizer.EventFlagType.SpecialItem,
             "TRAINER BATTLE" => FlagsOrganizer.EventFlagType.TrainerBattle,
-            "STATIC BATTLE" => FlagsOrganizer.EventFlagType.StaticBattle,
+            "STATIC ENCOUNTER" => FlagsOrganizer.EventFlagType.StaticEncounter,
             "IN-GAME TRADE" => FlagsOrganizer.EventFlagType.InGameTrade,
             "ITEM GIFT" => FlagsOrganizer.EventFlagType.ItemGift,
             "PKMN GIFT" => FlagsOrganizer.EventFlagType.PkmnGift,
@@ -30,7 +30,7 @@
             FlagsOrganizer.EventFlagType.HiddenItem => "HIDDEN ITEM",
             FlagsOrganizer.EventFlagType.SpecialItem => "SPECIAL ITEM",
             FlagsOrganizer.EventFlagType.TrainerBattle => "TRAINER BATTLE",
-            FlagsOrganizer.EventFlagType.StaticBattle => "STATIC BATTLE",
+            FlagsOrganizer.EventFlagType.StaticEncounter => "STATIC ENCOUNTER",
             FlagsOrganizer.EventFlagType.InGameTrade => "IN-GAME TRADE",
             FlagsOrganizer.EventFlagType.ItemGift => "ITEM GIFT",
             FlagsOrganizer.EventFlagType.PkmnGift => "PKMN GIFT",
@@ -43,5 +43,10 @@
             FlagsOrganizer.EventFlagType._Unused => "_UNUSED",
             _ => "",
         };
+
+        public static string AsLocalizedText(this FlagsOrganizer.EventFlagType flagType)
+        {
+            return LocalizedStrings.Find($"EventFlagType.{flagType}", flagType.ToString());
+        }
     }
 }

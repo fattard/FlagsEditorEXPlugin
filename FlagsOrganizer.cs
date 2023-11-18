@@ -11,7 +11,7 @@
             HiddenItem,
             SpecialItem,
             TrainerBattle,
-            StaticBattle,
+            StaticEncounter,
             InGameTrade,
             ItemGift,
             PkmnGift,

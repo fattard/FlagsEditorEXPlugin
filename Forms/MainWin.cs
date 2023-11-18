@@ -22,7 +22,7 @@
             flagsCategoryCombo.Items.Add(LocalizedStrings.Find("MainWin.flagsCategoryComboAll", "- All -"));
             for (FlagsOrganizer.EventFlagType i = (FlagsOrganizer.EventFlagType._Unknown) + 1; i < FlagsOrganizer.EventFlagType._Unused; i++)
             {
-                flagsCategoryCombo.Items.Add(i.AsText());
+                flagsCategoryCombo.Items.Add(i.AsLocalizedText());
             }
 
 
@@ -39,7 +39,7 @@
             itemGiftsChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.ItemGift);
             pkmnGiftsChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.PkmnGift);
             trainerBattlesChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.TrainerBattle);
-            staticEncounterChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.StaticBattle);
+            staticEncounterChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.StaticEncounter);
             inGameTradesChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.InGameTrade);
             sideEventsChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.SideEvent);
             specialItemsChk.Enabled = m_organizer.SupportsBulkEditingFlags(FlagsOrganizer.EventFlagType.GeneralEvent);
@@ -108,8 +108,7 @@
             {
                 if (fGroup.SourceName == ((string)flagsGroupCombo.SelectedItem))
                 {
-                    var filter = FlagsOrganizer.EventFlagType._Unknown;
-                    filter = filter.Parse((string)flagsCategoryCombo.SelectedItem);
+                    var filter = (FlagsOrganizer.EventFlagType)flagsCategoryCombo.SelectedIndex;
 
                     var form = new FlagsEditor(m_organizer, fGroup, filter);
                     form.ShowDialog();
@@ -149,7 +148,7 @@
                     m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.TrainerBattle);
 
                 if (staticEncounterChk.Checked)
-                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.StaticBattle);
+                    m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.StaticEncounter);
 
                 if (inGameTradesChk.Checked)
                     m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.InGameTrade);
@@ -196,7 +195,7 @@
                     m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.TrainerBattle);
 
                 if (staticEncounterChk.Checked)
-                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.StaticBattle);
+                    m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.StaticEncounter);
 
                 if (inGameTradesChk.Checked)
                     m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.InGameTrade);

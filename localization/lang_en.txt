@@ -1,3 +1,19 @@
+EventFlagType.FieldItem=Field Item
+EventFlagType.HiddenItem=Hidden Item
+EventFlagType.SpecialItem=Special Item
+EventFlagType.TrainerBattle=Trainer Battle
+EventFlagType.StaticEncounter=Static Encounter
+EventFlagType.InGameTrade=In-Game Trade
+EventFlagType.ItemGift=Item Gift
+EventFlagType.PkmnGift=PKMN Gift
+EventFlagType.GeneralEvent=Event
+EventFlagType.SideEvent=Side Event
+EventFlagType.StoryEvent=Story Event
+EventFlagType.FlySpot=Fly Spot
+EventFlagType.BerryTree=Berry Tree
+EventFlagType.Collectable=Collectable
+EventFlagType._Unused=UNUSED
+
 FlagsEditorEX.menuEntry_EditFlags=Edit flags...
 FlagsEditorEX.menuEntry_DumpAllFlags=Dump all Flags
 
@@ -50,8 +66,8 @@ MainWin.hiddenItemsChk=Hidden Items
 MainWin.specialItemsChk=Special Items
 MainWin.itemGiftsChk=Item Gifts
 MainWin.pkmnGiftsChk=PKMN Gifts
-MainWin.trainerBattlesChk=Trainers
-MainWin.staticEncounterChk=Static Battles
+MainWin.trainerBattlesChk=Trainer Battles
+MainWin.staticEncounterChk=Static Encounters
 MainWin.inGameTradesChk=In-Game Trades
 MainWin.sideEventsChk=Side Events
 MainWin.flySpotsChk=Fly Spots

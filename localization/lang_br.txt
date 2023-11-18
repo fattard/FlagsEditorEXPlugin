@@ -1,3 +1,19 @@
+EventFlagType.FieldItem=Item do Chão
+EventFlagType.HiddenItem=Item Escondido
+EventFlagType.SpecialItem=Item Especial
+EventFlagType.TrainerBattle=Luta com Treinador
+EventFlagType.StaticEncounter=Encontro Estático
+EventFlagType.InGameTrade=Troca Interna
+EventFlagType.ItemGift=Item Presenteado
+EventFlagType.PkmnGift=PKMN Presenteado
+EventFlagType.GeneralEvent=Evento
+EventFlagType.SideEvent=Evento Secundário
+EventFlagType.StoryEvent=Evento da Estória
+EventFlagType.FlySpot=Ponto de Fly
+EventFlagType.BerryTree=Árvore de Berry
+EventFlagType.Collectable=Colecionável
+EventFlagType._Unused=NÃO USADO
+
 FlagsEditorEX.menuEntry_EditFlags=Editar flags...
 FlagsEditorEX.menuEntry_DumpAllFlags=Fazer Dump de todas as Flags
 
@@ -50,7 +66,7 @@ MainWin.hiddenItemsChk=Itens Escondidos
 MainWin.specialItemsChk=Itens Especiais
 MainWin.itemGiftsChk=Itens Presenteados
 MainWin.pkmnGiftsChk=PKMN Presenteados
-MainWin.trainerBattlesChk=Trainadores
+MainWin.trainerBattlesChk=Luta com Treinadores
 MainWin.staticEncounterChk=Encontros Estáticos
 MainWin.inGameTradesChk=Trocas Internas
 MainWin.sideEventsChk=Eventos Secundários

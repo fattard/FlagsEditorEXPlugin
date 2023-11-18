@@ -297,7 +297,7 @@
             EventFlagType.HiddenItem or
             EventFlagType.ItemGift or
             EventFlagType.PkmnGift or
-            EventFlagType.StaticBattle or
+            EventFlagType.StaticEncounter or
             EventFlagType.InGameTrade or
             EventFlagType.SideEvent
                 => true,
@@ -368,7 +368,7 @@
 
                     case EventFlagType.ItemGift:
                     case EventFlagType.PkmnGift:
-                    case EventFlagType.StaticBattle:
+                    case EventFlagType.StaticEncounter:
                     case EventFlagType.InGameTrade:
                     case EventFlagType.SideEvent:
                     case EventFlagType.FlySpot:
