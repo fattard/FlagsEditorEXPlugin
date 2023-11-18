@@ -9,6 +9,8 @@
             m_organizer = flagsOrganizer;
 
             InitializeComponent();
+            LocalizedStrings.LocalizeForm(this);
+            this.warnLabel.Text = this.warnLabel.Text.Replace("|", "\r\n");
 
             #region Raw Flags Edit Tab
 
@@ -17,7 +19,7 @@
                 flagsGroupCombo.Items.Add(fGroup.SourceName);
             }
 
-            flagsCategoryCombo.Items.Add("- All -");
+            flagsCategoryCombo.Items.Add(LocalizedStrings.Find("MainWin.flagsCategoryComboAll", "- All -"));
             for (FlagsOrganizer.EventFlagType i = (FlagsOrganizer.EventFlagType._Unknown) + 1; i < FlagsOrganizer.EventFlagType._Unused; i++)
             {
                 flagsCategoryCombo.Items.Add(i.AsText());
@@ -72,10 +74,10 @@
 
                 var newBtn = new Button
                 {
-                    Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right,
-                    Location = new System.Drawing.Point(i < 16 ? 2 : (200 + 8), 2 + ((i % 16) * 27)),
+                    Anchor = AnchorStyles.Top | AnchorStyles.Left,
+                    Location = new System.Drawing.Point(i < 16 ? 20 : 274, 2 + ((i % 16) * 27)),
                     Name = "specialEvtBtn_" + evt.Index,
-                    Size = new System.Drawing.Size(200, 23),
+                    Size = new System.Drawing.Size(210, 23),
                     //newBtn.TabIndex = 1;
                     Text = evt.Name,
                     UseVisualStyleBackColor = true
@@ -124,7 +126,8 @@
 
         private void MarkFlagsBtn_Click(object sender, EventArgs e)
         {
-            var result = MessageBox.Show("This operation cannot be undone.\nAre you sure?", "Bulk Edit", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            var result = MessageBox.Show(LocalizedStrings.Find("MainWin.BulkOperation_msg", "This operation cannot be undone.|Are you sure?").Replace("|", "\r\n"),
+                LocalizedStrings.Find("MainWin.BulkOperation_caption", "Bulk Edit"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
                 if (fieldItemsChk.Checked)
@@ -163,13 +166,15 @@
                 if (collectablesChk.Checked)
                     m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.Collectable);
 
-                MessageBox.Show("Operation done", "Bulk Edit", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(LocalizedStrings.Find("MainWin.BulkOperationDone_msg", "Operation done"),
+                    LocalizedStrings.Find("MainWin.BulkOperation_caption", "Bulk Edit"), MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
         private void UnmarkFlagsBtn_Click(object sender, EventArgs e)
         {
-            var result = MessageBox.Show("This operation cannot be undone.\nAre you sure?", "Bulk Edit", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            var result = MessageBox.Show(LocalizedStrings.Find("MainWin.BulkOperation_msg", "This operation cannot be undone.|Are you sure?").Replace("|", "\r\n"),
+                LocalizedStrings.Find("MainWin.BulkOperation_caption", "Bulk Edit"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
                 if (fieldItemsChk.Checked)
@@ -208,7 +213,8 @@
                 if (collectablesChk.Checked)
                     m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.Collectable);
 
-                MessageBox.Show("Operation done", "Bulk Edit", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(LocalizedStrings.Find("MainWin.BulkOperationDone_msg", "Operation done"),
+                    LocalizedStrings.Find("MainWin.BulkOperation_caption", "Bulk Edit"), MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }

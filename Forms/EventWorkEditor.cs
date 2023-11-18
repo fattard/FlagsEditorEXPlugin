@@ -14,6 +14,7 @@
             m_editableEventWorkList = new List<FlagsOrganizer.WorkDetail>(m_eventWorkList.Count);
 
             InitializeComponent();
+            LocalizedStrings.LocalizeForm(this);
 
             dataGridView.CurrentCellDirtyStateChanged += DataGridView_CurrentCellDirtyStateChanged;
             dataGridView.CellValueChanged += DataGridView_CellValueChanged;

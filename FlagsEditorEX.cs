@@ -3,8 +3,6 @@
     public class FlagsEditorEX : IPlugin
     {
         public string Name => "Flags Editor EX";
-        private string NameEditFlags => "Edit flags...";
-        private string NameDumpAllFlags => "Dump all Flags";
         public int Priority => 100; // Loading order, lowest is first.
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         public ISaveFileProvider SaveFileEditor { get; private set; }
@@ -17,6 +15,7 @@
 
         public void Initialize(params object[] args)
         {
+            LocalizedStrings.Initialize(GameInfo.CurrentLanguage);
             SaveFileEditor = (ISaveFileProvider)Array.Find(args, z => z is ISaveFileProvider)!;
             var menu = (ToolStrip)Array.Find(args, z => z is ToolStrip)!;
             LoadMenuStrip(menu);
@@ -36,12 +35,12 @@
             ctrl.Enabled = false;
             tools.DropDownItems.Add(ctrl);
 
-            menuEntry_DumpAllFlags = new ToolStripMenuItem(NameDumpAllFlags);
+            menuEntry_DumpAllFlags = new ToolStripMenuItem(LocalizedStrings.Find("FlagsEditorEX.menuEntry_DumpAllFlags", "Dump all Flags"));
             menuEntry_DumpAllFlags.Enabled = false;
             menuEntry_DumpAllFlags.Click += DumpAllFlags_UIEvt;
             ctrl.DropDownItems.Add(menuEntry_DumpAllFlags);
 
-            menuEntry_EditFlags = new ToolStripMenuItem(NameEditFlags);
+            menuEntry_EditFlags = new ToolStripMenuItem(LocalizedStrings.Find("FlagsEditorEX.menuEntry_EditFlags", "Edit flags..."));
             menuEntry_EditFlags.Enabled = false;
             menuEntry_EditFlags.Click += EditFlags_UIEvt;
             ctrl.DropDownItems.Add(menuEntry_EditFlags);
@@ -74,7 +73,6 @@
                 ctrl.Enabled = false;
                 return;
             }
-
 
             ctrl.Enabled = savData.Version switch
             {

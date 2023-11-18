@@ -18,8 +18,9 @@
             m_editableFlagsList = new List<FlagsOrganizer.FlagDetail>(m_flagsList.Count);
 
             InitializeComponent();
+            LocalizedStrings.LocalizeForm(this);
 
-            this.Text = $"Flags Editor - {m_curFlagsGroup.SourceName}";
+            this.Text += $" - {m_curFlagsGroup.SourceName}";
 
             dataGridView.CurrentCellDirtyStateChanged += DataGridView_CurrentCellDirtyStateChanged;
             dataGridView.CellValueChanged += DataGridView_CellValueChanged;

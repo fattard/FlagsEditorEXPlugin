@@ -29,264 +29,271 @@ namespace FlagsEditorEXPlugin.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.dgv_val = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.dgv_ref = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_location = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_txtDesc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.saveBtn = new System.Windows.Forms.Button();
-            this.cancelBtn = new System.Windows.Forms.Button();
-            this.setAllBtn = new System.Windows.Forms.Button();
-            this.unsetAllBtn = new System.Windows.Forms.Button();
-            this.restoreBtn = new System.Windows.Forms.Button();
-            this.totalSetLabel = new System.Windows.Forms.Label();
-            this.totalUnsetLabel = new System.Windows.Forms.Label();
-            this.numUnsetTxt = new System.Windows.Forms.Label();
-            this.numSetTxt = new System.Windows.Forms.Label();
-            this.filterUnusedChk = new System.Windows.Forms.CheckBox();
-            this.showOnlySetChk = new System.Windows.Forms.CheckBox();
-            this.showOnlyUnsetChk = new System.Windows.Forms.CheckBox();
-            this.filterBySearchChk = new System.Windows.Forms.CheckBox();
-            this.searchTermBox = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
-            this.SuspendLayout();
+            dataGridView = new DataGridView();
+            dgv_val = new DataGridViewCheckBoxColumn();
+            dgv_ref = new DataGridViewTextBoxColumn();
+            dgv_id = new DataGridViewTextBoxColumn();
+            dgv_location = new DataGridViewTextBoxColumn();
+            dgv_txtDesc = new DataGridViewTextBoxColumn();
+            saveBtn = new Button();
+            cancelBtn = new Button();
+            setAllBtn = new Button();
+            unsetAllBtn = new Button();
+            restoreBtn = new Button();
+            totalSetLabel = new Label();
+            totalUnsetLabel = new Label();
+            numUnsetTxt = new Label();
+            numSetTxt = new Label();
+            filterUnusedChk = new CheckBox();
+            showOnlySetChk = new CheckBox();
+            showOnlyUnsetChk = new CheckBox();
+            filterBySearchChk = new CheckBox();
+            searchTermBox = new TextBox();
+            ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
+            SuspendLayout();
             // 
             // dataGridView
             // 
-            this.dataGridView.AllowUserToAddRows = false;
-            this.dataGridView.AllowUserToDeleteRows = false;
-            this.dataGridView.AllowUserToResizeColumns = false;
-            this.dataGridView.AllowUserToResizeRows = false;
-            this.dataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView.BackgroundColor = System.Drawing.SystemColors.ControlDark;
-            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dgv_val,
-            this.dgv_ref,
-            this.dgv_id,
-            this.dgv_location,
-            this.dgv_txtDesc});
-            this.dataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
-            this.dataGridView.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView.MultiSelect = false;
-            this.dataGridView.Name = "dataGridView";
-            this.dataGridView.RowHeadersVisible = false;
-            this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView.Size = new System.Drawing.Size(800, 357);
-            this.dataGridView.TabIndex = 0;
+            dataGridView.AllowUserToAddRows = false;
+            dataGridView.AllowUserToDeleteRows = false;
+            dataGridView.AllowUserToResizeColumns = false;
+            dataGridView.AllowUserToResizeRows = false;
+            dataGridView.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView.Columns.AddRange(new DataGridViewColumn[] { dgv_val, dgv_ref, dgv_id, dgv_location, dgv_txtDesc });
+            dataGridView.EditMode = DataGridViewEditMode.EditOnEnter;
+            dataGridView.Location = new Point(14, 14);
+            dataGridView.Margin = new Padding(4, 3, 4, 3);
+            dataGridView.MultiSelect = false;
+            dataGridView.Name = "dataGridView";
+            dataGridView.RowHeadersVisible = false;
+            dataGridView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView.Size = new Size(933, 412);
+            dataGridView.TabIndex = 0;
             // 
             // dgv_val
             // 
-            this.dgv_val.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_val.HeaderText = "Value";
-            this.dgv_val.Name = "dgv_val";
-            this.dgv_val.Width = 40;
+            dgv_val.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_val.HeaderText = "Value";
+            dgv_val.Name = "dgv_val";
+            dgv_val.Width = 41;
             // 
             // dgv_ref
             // 
-            this.dgv_ref.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_ref.HeaderText = "Ref";
-            this.dgv_ref.Name = "dgv_ref";
-            this.dgv_ref.ReadOnly = true;
-            this.dgv_ref.Width = 49;
+            dgv_ref.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_ref.HeaderText = "Ref";
+            dgv_ref.Name = "dgv_ref";
+            dgv_ref.ReadOnly = true;
+            dgv_ref.Width = 49;
             // 
             // dgv_id
             // 
-            this.dgv_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_id.HeaderText = "Identifier";
-            this.dgv_id.Name = "dgv_id";
-            this.dgv_id.ReadOnly = true;
-            this.dgv_id.Width = 72;
+            dgv_id.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_id.HeaderText = "Identifier";
+            dgv_id.Name = "dgv_id";
+            dgv_id.ReadOnly = true;
+            dgv_id.Width = 79;
             // 
             // dgv_location
             // 
-            this.dgv_location.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_location.HeaderText = "Location";
-            this.dgv_location.Name = "dgv_location";
-            this.dgv_location.ReadOnly = true;
-            this.dgv_location.Width = 73;
+            dgv_location.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_location.HeaderText = "Location";
+            dgv_location.Name = "dgv_location";
+            dgv_location.ReadOnly = true;
+            dgv_location.Width = 78;
             // 
             // dgv_txtDesc
             // 
-            this.dgv_txtDesc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_txtDesc.HeaderText = "Description";
-            this.dgv_txtDesc.Name = "dgv_txtDesc";
-            this.dgv_txtDesc.ReadOnly = true;
-            this.dgv_txtDesc.Width = 85;
+            dgv_txtDesc.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_txtDesc.HeaderText = "Description";
+            dgv_txtDesc.Name = "dgv_txtDesc";
+            dgv_txtDesc.ReadOnly = true;
+            dgv_txtDesc.Width = 92;
             // 
             // saveBtn
             // 
-            this.saveBtn.Location = new System.Drawing.Point(718, 381);
-            this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(94, 23);
-            this.saveBtn.TabIndex = 1;
-            this.saveBtn.Text = "Save";
-            this.saveBtn.UseVisualStyleBackColor = true;
-            this.saveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
+            saveBtn.Location = new Point(838, 440);
+            saveBtn.Margin = new Padding(4, 3, 4, 3);
+            saveBtn.Name = "saveBtn";
+            saveBtn.Size = new Size(110, 27);
+            saveBtn.TabIndex = 1;
+            saveBtn.Text = "Save";
+            saveBtn.UseVisualStyleBackColor = true;
+            saveBtn.Click += SaveBtn_Click;
             // 
             // cancelBtn
             // 
-            this.cancelBtn.Location = new System.Drawing.Point(718, 410);
-            this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(94, 23);
-            this.cancelBtn.TabIndex = 2;
-            this.cancelBtn.Text = "Cancel";
-            this.cancelBtn.UseVisualStyleBackColor = true;
-            this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
+            cancelBtn.Location = new Point(838, 473);
+            cancelBtn.Margin = new Padding(4, 3, 4, 3);
+            cancelBtn.Name = "cancelBtn";
+            cancelBtn.Size = new Size(110, 27);
+            cancelBtn.TabIndex = 2;
+            cancelBtn.Text = "Cancel";
+            cancelBtn.UseVisualStyleBackColor = true;
+            cancelBtn.Click += CancelBtn_Click;
             // 
             // setAllBtn
             // 
-            this.setAllBtn.Location = new System.Drawing.Point(137, 380);
-            this.setAllBtn.Name = "setAllBtn";
-            this.setAllBtn.Size = new System.Drawing.Size(94, 23);
-            this.setAllBtn.TabIndex = 3;
-            this.setAllBtn.Text = "Set All";
-            this.setAllBtn.UseVisualStyleBackColor = true;
-            this.setAllBtn.Click += new System.EventHandler(this.SetAllBtn_Click);
+            setAllBtn.Location = new Point(198, 438);
+            setAllBtn.Margin = new Padding(4, 3, 4, 3);
+            setAllBtn.Name = "setAllBtn";
+            setAllBtn.Size = new Size(110, 27);
+            setAllBtn.TabIndex = 3;
+            setAllBtn.Text = "Set All";
+            setAllBtn.UseVisualStyleBackColor = true;
+            setAllBtn.Click += SetAllBtn_Click;
             // 
             // unsetAllBtn
             // 
-            this.unsetAllBtn.Location = new System.Drawing.Point(137, 409);
-            this.unsetAllBtn.Name = "unsetAllBtn";
-            this.unsetAllBtn.Size = new System.Drawing.Size(94, 23);
-            this.unsetAllBtn.TabIndex = 4;
-            this.unsetAllBtn.Text = "Unset All";
-            this.unsetAllBtn.UseVisualStyleBackColor = true;
-            this.unsetAllBtn.Click += new System.EventHandler(this.UnsetAllBtn_Click);
+            unsetAllBtn.Location = new Point(198, 472);
+            unsetAllBtn.Margin = new Padding(4, 3, 4, 3);
+            unsetAllBtn.Name = "unsetAllBtn";
+            unsetAllBtn.Size = new Size(110, 27);
+            unsetAllBtn.TabIndex = 4;
+            unsetAllBtn.Text = "Unset All";
+            unsetAllBtn.UseVisualStyleBackColor = true;
+            unsetAllBtn.Click += UnsetAllBtn_Click;
             // 
             // restoreBtn
             // 
-            this.restoreBtn.Location = new System.Drawing.Point(137, 438);
-            this.restoreBtn.Name = "restoreBtn";
-            this.restoreBtn.Size = new System.Drawing.Size(94, 23);
-            this.restoreBtn.TabIndex = 5;
-            this.restoreBtn.Text = "Restore State";
-            this.restoreBtn.UseVisualStyleBackColor = true;
-            this.restoreBtn.Click += new System.EventHandler(this.RestoreBtn_Click);
+            restoreBtn.Location = new Point(198, 505);
+            restoreBtn.Margin = new Padding(4, 3, 4, 3);
+            restoreBtn.Name = "restoreBtn";
+            restoreBtn.Size = new Size(110, 27);
+            restoreBtn.TabIndex = 5;
+            restoreBtn.Text = "Restore State";
+            restoreBtn.UseVisualStyleBackColor = true;
+            restoreBtn.Click += RestoreBtn_Click;
             // 
             // totalSetLabel
             // 
-            this.totalSetLabel.AutoSize = true;
-            this.totalSetLabel.Location = new System.Drawing.Point(12, 385);
-            this.totalSetLabel.Name = "totalSetLabel";
-            this.totalSetLabel.Size = new System.Drawing.Size(53, 13);
-            this.totalSetLabel.TabIndex = 6;
-            this.totalSetLabel.Text = "Total Set:";
+            totalSetLabel.AutoSize = true;
+            totalSetLabel.Location = new Point(14, 444);
+            totalSetLabel.Margin = new Padding(4, 0, 4, 0);
+            totalSetLabel.Name = "totalSetLabel";
+            totalSetLabel.Size = new Size(54, 15);
+            totalSetLabel.TabIndex = 6;
+            totalSetLabel.Text = "Total Set:";
             // 
             // totalUnsetLabel
             // 
-            this.totalUnsetLabel.AutoSize = true;
-            this.totalUnsetLabel.Location = new System.Drawing.Point(12, 414);
-            this.totalUnsetLabel.Name = "totalUnsetLabel";
-            this.totalUnsetLabel.Size = new System.Drawing.Size(65, 13);
-            this.totalUnsetLabel.TabIndex = 7;
-            this.totalUnsetLabel.Text = "Total Unset:";
+            totalUnsetLabel.AutoSize = true;
+            totalUnsetLabel.Location = new Point(14, 478);
+            totalUnsetLabel.Margin = new Padding(4, 0, 4, 0);
+            totalUnsetLabel.Name = "totalUnsetLabel";
+            totalUnsetLabel.Size = new Size(68, 15);
+            totalUnsetLabel.TabIndex = 7;
+            totalUnsetLabel.Text = "Total Unset:";
             // 
             // numUnsetTxt
             // 
-            this.numUnsetTxt.AutoSize = true;
-            this.numUnsetTxt.Location = new System.Drawing.Point(83, 415);
-            this.numUnsetTxt.Name = "numUnsetTxt";
-            this.numUnsetTxt.Size = new System.Drawing.Size(48, 13);
-            this.numUnsetTxt.TabIndex = 8;
-            this.numUnsetTxt.Text = "000/000";
+            numUnsetTxt.AutoSize = true;
+            numUnsetTxt.Location = new Point(135, 479);
+            numUnsetTxt.Margin = new Padding(4, 0, 4, 0);
+            numUnsetTxt.Name = "numUnsetTxt";
+            numUnsetTxt.Size = new Size(48, 15);
+            numUnsetTxt.TabIndex = 8;
+            numUnsetTxt.Text = "000/000";
             // 
             // numSetTxt
             // 
-            this.numSetTxt.AutoSize = true;
-            this.numSetTxt.Location = new System.Drawing.Point(83, 385);
-            this.numSetTxt.Name = "numSetTxt";
-            this.numSetTxt.Size = new System.Drawing.Size(48, 13);
-            this.numSetTxt.TabIndex = 9;
-            this.numSetTxt.Text = "000/000";
+            numSetTxt.AutoSize = true;
+            numSetTxt.Location = new Point(135, 444);
+            numSetTxt.Margin = new Padding(4, 0, 4, 0);
+            numSetTxt.Name = "numSetTxt";
+            numSetTxt.Size = new Size(48, 15);
+            numSetTxt.TabIndex = 9;
+            numSetTxt.Text = "000/000";
             // 
             // filterUnusedChk
             // 
-            this.filterUnusedChk.AutoSize = true;
-            this.filterUnusedChk.Checked = true;
-            this.filterUnusedChk.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.filterUnusedChk.Location = new System.Drawing.Point(15, 442);
-            this.filterUnusedChk.Name = "filterUnusedChk";
-            this.filterUnusedChk.Size = new System.Drawing.Size(88, 17);
-            this.filterUnusedChk.TabIndex = 10;
-            this.filterUnusedChk.Text = "Hide Unused";
-            this.filterUnusedChk.UseVisualStyleBackColor = true;
-            this.filterUnusedChk.CheckedChanged += new System.EventHandler(this.FilterUnusedChk_CheckedChanged);
+            filterUnusedChk.AutoSize = true;
+            filterUnusedChk.Checked = true;
+            filterUnusedChk.CheckState = CheckState.Checked;
+            filterUnusedChk.Location = new Point(18, 510);
+            filterUnusedChk.Margin = new Padding(4, 3, 4, 3);
+            filterUnusedChk.Name = "filterUnusedChk";
+            filterUnusedChk.Size = new Size(94, 19);
+            filterUnusedChk.TabIndex = 10;
+            filterUnusedChk.Text = "Hide Unused";
+            filterUnusedChk.UseVisualStyleBackColor = true;
+            filterUnusedChk.CheckedChanged += FilterUnusedChk_CheckedChanged;
             // 
             // showOnlySetChk
             // 
-            this.showOnlySetChk.AutoSize = true;
-            this.showOnlySetChk.Location = new System.Drawing.Point(238, 385);
-            this.showOnlySetChk.Name = "showOnlySetChk";
-            this.showOnlySetChk.Size = new System.Drawing.Size(92, 17);
-            this.showOnlySetChk.TabIndex = 11;
-            this.showOnlySetChk.Text = "Show only set";
-            this.showOnlySetChk.UseVisualStyleBackColor = true;
-            this.showOnlySetChk.CheckedChanged += new System.EventHandler(this.ShowOnlySetChk_CheckedChanged);
+            showOnlySetChk.AutoSize = true;
+            showOnlySetChk.Location = new Point(316, 444);
+            showOnlySetChk.Margin = new Padding(4, 3, 4, 3);
+            showOnlySetChk.Name = "showOnlySetChk";
+            showOnlySetChk.Size = new Size(99, 19);
+            showOnlySetChk.TabIndex = 11;
+            showOnlySetChk.Text = "Show only set";
+            showOnlySetChk.UseVisualStyleBackColor = true;
+            showOnlySetChk.CheckedChanged += ShowOnlySetChk_CheckedChanged;
             // 
             // showOnlyUnsetChk
             // 
-            this.showOnlyUnsetChk.AutoSize = true;
-            this.showOnlyUnsetChk.Location = new System.Drawing.Point(238, 414);
-            this.showOnlyUnsetChk.Name = "showOnlyUnsetChk";
-            this.showOnlyUnsetChk.Size = new System.Drawing.Size(104, 17);
-            this.showOnlyUnsetChk.TabIndex = 12;
-            this.showOnlyUnsetChk.Text = "Show only unset";
-            this.showOnlyUnsetChk.UseVisualStyleBackColor = true;
-            this.showOnlyUnsetChk.CheckedChanged += new System.EventHandler(this.ShowOnlyUnsetChk_CheckedChanged);
+            showOnlyUnsetChk.AutoSize = true;
+            showOnlyUnsetChk.Location = new Point(316, 478);
+            showOnlyUnsetChk.Margin = new Padding(4, 3, 4, 3);
+            showOnlyUnsetChk.Name = "showOnlyUnsetChk";
+            showOnlyUnsetChk.Size = new Size(113, 19);
+            showOnlyUnsetChk.TabIndex = 12;
+            showOnlyUnsetChk.Text = "Show only unset";
+            showOnlyUnsetChk.UseVisualStyleBackColor = true;
+            showOnlyUnsetChk.CheckedChanged += ShowOnlyUnsetChk_CheckedChanged;
             // 
             // filterBySearchChk
             // 
-            this.filterBySearchChk.AutoSize = true;
-            this.filterBySearchChk.Location = new System.Drawing.Point(425, 384);
-            this.filterBySearchChk.Name = "filterBySearchChk";
-            this.filterBySearchChk.Size = new System.Drawing.Size(120, 17);
-            this.filterBySearchChk.TabIndex = 13;
-            this.filterBySearchChk.Text = "Filter by search term";
-            this.filterBySearchChk.UseVisualStyleBackColor = true;
-            this.filterBySearchChk.CheckedChanged += new System.EventHandler(this.FilterBySearchChk_CheckedChanged);
+            filterBySearchChk.AutoSize = true;
+            filterBySearchChk.Location = new Point(545, 443);
+            filterBySearchChk.Margin = new Padding(4, 3, 4, 3);
+            filterBySearchChk.Name = "filterBySearchChk";
+            filterBySearchChk.Size = new Size(133, 19);
+            filterBySearchChk.TabIndex = 13;
+            filterBySearchChk.Text = "Filter by search term";
+            filterBySearchChk.UseVisualStyleBackColor = true;
+            filterBySearchChk.CheckedChanged += FilterBySearchChk_CheckedChanged;
             // 
             // searchTermBox
             // 
-            this.searchTermBox.Location = new System.Drawing.Point(425, 407);
-            this.searchTermBox.Name = "searchTermBox";
-            this.searchTermBox.Size = new System.Drawing.Size(215, 20);
-            this.searchTermBox.TabIndex = 14;
-            this.searchTermBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SearchTermBox_KeyDown);
+            searchTermBox.Location = new Point(545, 470);
+            searchTermBox.Margin = new Padding(4, 3, 4, 3);
+            searchTermBox.Name = "searchTermBox";
+            searchTermBox.Size = new Size(250, 23);
+            searchTermBox.TabIndex = 14;
+            searchTermBox.KeyDown += SearchTermBox_KeyDown;
             // 
             // FlagsEditor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(824, 468);
-            this.Controls.Add(this.searchTermBox);
-            this.Controls.Add(this.filterBySearchChk);
-            this.Controls.Add(this.showOnlyUnsetChk);
-            this.Controls.Add(this.showOnlySetChk);
-            this.Controls.Add(this.filterUnusedChk);
-            this.Controls.Add(this.numSetTxt);
-            this.Controls.Add(this.numUnsetTxt);
-            this.Controls.Add(this.totalUnsetLabel);
-            this.Controls.Add(this.totalSetLabel);
-            this.Controls.Add(this.restoreBtn);
-            this.Controls.Add(this.unsetAllBtn);
-            this.Controls.Add(this.setAllBtn);
-            this.Controls.Add(this.cancelBtn);
-            this.Controls.Add(this.saveBtn);
-            this.Controls.Add(this.dataGridView);
-            this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(840, 507);
-            this.MinimumSize = new System.Drawing.Size(840, 507);
-            this.Name = "FlagsEditor";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Flags Editor";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(961, 540);
+            Controls.Add(searchTermBox);
+            Controls.Add(filterBySearchChk);
+            Controls.Add(showOnlyUnsetChk);
+            Controls.Add(showOnlySetChk);
+            Controls.Add(filterUnusedChk);
+            Controls.Add(numSetTxt);
+            Controls.Add(numUnsetTxt);
+            Controls.Add(totalUnsetLabel);
+            Controls.Add(totalSetLabel);
+            Controls.Add(restoreBtn);
+            Controls.Add(unsetAllBtn);
+            Controls.Add(setAllBtn);
+            Controls.Add(cancelBtn);
+            Controls.Add(saveBtn);
+            Controls.Add(dataGridView);
+            Margin = new Padding(4, 3, 4, 3);
+            MaximizeBox = false;
+            MaximumSize = new Size(977, 579);
+            MinimumSize = new Size(977, 579);
+            Name = "FlagsEditor";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Flags Editor";
+            ((System.ComponentModel.ISupportInitialize)dataGridView).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

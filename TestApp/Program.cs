@@ -28,10 +28,13 @@ namespace FlagsEditorEX_App
 
             if (SAV is not null)
             {
+                //LocalizedStrings.Initialize(GameInfo.CurrentLanguage);
+                LocalizedStrings.Initialize("br");
                 var flagsOrganizer = FlagsOrganizer.CreateFlagsOrganizer(SAV, resData: null);
                 var form = new MainWin(flagsOrganizer);
                 form.KeyDown += Form_KeyDown;
                 form.KeyPreview = true;
+                form.StartPosition = FormStartPosition.CenterScreen;
                 Application.Run(form);
             }
         }

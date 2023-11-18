@@ -29,179 +29,176 @@ namespace FlagsEditorEXPlugin.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.filterUnusedChk = new System.Windows.Forms.CheckBox();
-            this.restoreBtn = new System.Windows.Forms.Button();
-            this.cancelBtn = new System.Windows.Forms.Button();
-            this.saveBtn = new System.Windows.Forms.Button();
-            this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.dgv_ref = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_id = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_location = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_txtDesc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgv_validValues = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dgv_rawValue = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.searchTermBox = new System.Windows.Forms.TextBox();
-            this.filterBySearchChk = new System.Windows.Forms.CheckBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
-            this.SuspendLayout();
+            filterUnusedChk = new CheckBox();
+            restoreBtn = new Button();
+            cancelBtn = new Button();
+            saveBtn = new Button();
+            dataGridView = new DataGridView();
+            dgv_ref = new DataGridViewTextBoxColumn();
+            dgv_id = new DataGridViewTextBoxColumn();
+            dgv_location = new DataGridViewTextBoxColumn();
+            dgv_txtDesc = new DataGridViewTextBoxColumn();
+            dgv_validValues = new DataGridViewComboBoxColumn();
+            dgv_rawValue = new DataGridViewTextBoxColumn();
+            searchTermBox = new TextBox();
+            filterBySearchChk = new CheckBox();
+            ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
+            SuspendLayout();
             // 
             // filterUnusedChk
             // 
-            this.filterUnusedChk.AutoSize = true;
-            this.filterUnusedChk.Checked = true;
-            this.filterUnusedChk.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.filterUnusedChk.Location = new System.Drawing.Point(15, 440);
-            this.filterUnusedChk.Name = "filterUnusedChk";
-            this.filterUnusedChk.Size = new System.Drawing.Size(88, 17);
-            this.filterUnusedChk.TabIndex = 15;
-            this.filterUnusedChk.Text = "Hide Unused";
-            this.filterUnusedChk.UseVisualStyleBackColor = true;
-            this.filterUnusedChk.CheckedChanged += new System.EventHandler(this.FilterUnusedChk_CheckedChanged);
+            filterUnusedChk.AutoSize = true;
+            filterUnusedChk.Checked = true;
+            filterUnusedChk.CheckState = CheckState.Checked;
+            filterUnusedChk.Location = new Point(18, 508);
+            filterUnusedChk.Margin = new Padding(4, 3, 4, 3);
+            filterUnusedChk.Name = "filterUnusedChk";
+            filterUnusedChk.Size = new Size(94, 19);
+            filterUnusedChk.TabIndex = 15;
+            filterUnusedChk.Text = "Hide Unused";
+            filterUnusedChk.UseVisualStyleBackColor = true;
+            filterUnusedChk.CheckedChanged += FilterUnusedChk_CheckedChanged;
             // 
             // restoreBtn
             // 
-            this.restoreBtn.Location = new System.Drawing.Point(137, 436);
-            this.restoreBtn.Name = "restoreBtn";
-            this.restoreBtn.Size = new System.Drawing.Size(94, 23);
-            this.restoreBtn.TabIndex = 14;
-            this.restoreBtn.Text = "Restore State";
-            this.restoreBtn.UseVisualStyleBackColor = true;
-            this.restoreBtn.Click += new System.EventHandler(this.RestoreBtn_Click);
+            restoreBtn.Location = new Point(198, 503);
+            restoreBtn.Margin = new Padding(4, 3, 4, 3);
+            restoreBtn.Name = "restoreBtn";
+            restoreBtn.Size = new Size(110, 27);
+            restoreBtn.TabIndex = 14;
+            restoreBtn.Text = "Restore State";
+            restoreBtn.UseVisualStyleBackColor = true;
+            restoreBtn.Click += RestoreBtn_Click;
             // 
             // cancelBtn
             // 
-            this.cancelBtn.Location = new System.Drawing.Point(718, 436);
-            this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(94, 23);
-            this.cancelBtn.TabIndex = 13;
-            this.cancelBtn.Text = "Cancel";
-            this.cancelBtn.UseVisualStyleBackColor = true;
-            this.cancelBtn.Click += new System.EventHandler(this.CancelBtn_Click);
+            cancelBtn.Location = new Point(838, 503);
+            cancelBtn.Margin = new Padding(4, 3, 4, 3);
+            cancelBtn.Name = "cancelBtn";
+            cancelBtn.Size = new Size(110, 27);
+            cancelBtn.TabIndex = 13;
+            cancelBtn.Text = "Cancel";
+            cancelBtn.UseVisualStyleBackColor = true;
+            cancelBtn.Click += CancelBtn_Click;
             // 
             // saveBtn
             // 
-            this.saveBtn.Location = new System.Drawing.Point(718, 407);
-            this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(94, 23);
-            this.saveBtn.TabIndex = 12;
-            this.saveBtn.Text = "Save";
-            this.saveBtn.UseVisualStyleBackColor = true;
-            this.saveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
+            saveBtn.Location = new Point(838, 470);
+            saveBtn.Margin = new Padding(4, 3, 4, 3);
+            saveBtn.Name = "saveBtn";
+            saveBtn.Size = new Size(110, 27);
+            saveBtn.TabIndex = 12;
+            saveBtn.Text = "Save";
+            saveBtn.UseVisualStyleBackColor = true;
+            saveBtn.Click += SaveBtn_Click;
             // 
             // dataGridView
             // 
-            this.dataGridView.AllowUserToAddRows = false;
-            this.dataGridView.AllowUserToDeleteRows = false;
-            this.dataGridView.AllowUserToResizeColumns = false;
-            this.dataGridView.AllowUserToResizeRows = false;
-            this.dataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView.BackgroundColor = System.Drawing.SystemColors.ControlDark;
-            this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dgv_ref,
-            this.dgv_id,
-            this.dgv_location,
-            this.dgv_txtDesc,
-            this.dgv_validValues,
-            this.dgv_rawValue});
-            this.dataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
-            this.dataGridView.Location = new System.Drawing.Point(12, 12);
-            this.dataGridView.MultiSelect = false;
-            this.dataGridView.Name = "dataGridView";
-            this.dataGridView.RowHeadersVisible = false;
-            this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView.Size = new System.Drawing.Size(800, 389);
-            this.dataGridView.TabIndex = 16;
+            dataGridView.AllowUserToAddRows = false;
+            dataGridView.AllowUserToDeleteRows = false;
+            dataGridView.AllowUserToResizeColumns = false;
+            dataGridView.AllowUserToResizeRows = false;
+            dataGridView.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView.Columns.AddRange(new DataGridViewColumn[] { dgv_ref, dgv_id, dgv_location, dgv_txtDesc, dgv_validValues, dgv_rawValue });
+            dataGridView.EditMode = DataGridViewEditMode.EditOnEnter;
+            dataGridView.Location = new Point(14, 14);
+            dataGridView.Margin = new Padding(4, 3, 4, 3);
+            dataGridView.MultiSelect = false;
+            dataGridView.Name = "dataGridView";
+            dataGridView.RowHeadersVisible = false;
+            dataGridView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView.Size = new Size(933, 449);
+            dataGridView.TabIndex = 16;
             // 
             // dgv_ref
             // 
-            this.dgv_ref.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_ref.HeaderText = "Ref";
-            this.dgv_ref.Name = "dgv_ref";
-            this.dgv_ref.ReadOnly = true;
-            this.dgv_ref.Width = 49;
+            dgv_ref.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_ref.HeaderText = "Ref";
+            dgv_ref.Name = "dgv_ref";
+            dgv_ref.ReadOnly = true;
+            dgv_ref.Width = 49;
             // 
             // dgv_id
             // 
-            this.dgv_id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_id.HeaderText = "Identifier";
-            this.dgv_id.Name = "dgv_id";
-            this.dgv_id.ReadOnly = true;
-            this.dgv_id.Width = 72;
+            dgv_id.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_id.HeaderText = "Identifier";
+            dgv_id.Name = "dgv_id";
+            dgv_id.ReadOnly = true;
+            dgv_id.Width = 79;
             // 
             // dgv_location
             // 
-            this.dgv_location.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_location.HeaderText = "Location";
-            this.dgv_location.Name = "dgv_location";
-            this.dgv_location.ReadOnly = true;
-            this.dgv_location.Width = 73;
+            dgv_location.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_location.HeaderText = "Location";
+            dgv_location.Name = "dgv_location";
+            dgv_location.ReadOnly = true;
+            dgv_location.Width = 78;
             // 
             // dgv_txtDesc
             // 
-            this.dgv_txtDesc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_txtDesc.HeaderText = "Description";
-            this.dgv_txtDesc.Name = "dgv_txtDesc";
-            this.dgv_txtDesc.ReadOnly = true;
-            this.dgv_txtDesc.Width = 85;
+            dgv_txtDesc.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_txtDesc.HeaderText = "Description";
+            dgv_txtDesc.Name = "dgv_txtDesc";
+            dgv_txtDesc.ReadOnly = true;
+            dgv_txtDesc.Width = 92;
             // 
             // dgv_validValues
             // 
-            this.dgv_validValues.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.dgv_validValues.HeaderText = "Valid Values";
-            this.dgv_validValues.Items.AddRange(new object[] {
-            "Custom"});
-            this.dgv_validValues.Name = "dgv_validValues";
-            this.dgv_validValues.Width = 71;
+            dgv_validValues.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_validValues.HeaderText = "Valid Values";
+            dgv_validValues.Items.AddRange(new object[] { "Custom" });
+            dgv_validValues.Name = "dgv_validValues";
+            dgv_validValues.Width = 74;
             // 
             // dgv_rawValue
             // 
-            this.dgv_rawValue.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.dgv_rawValue.HeaderText = "Raw Value";
-            this.dgv_rawValue.Name = "dgv_rawValue";
+            dgv_rawValue.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            dgv_rawValue.HeaderText = "Raw Value";
+            dgv_rawValue.Name = "dgv_rawValue";
             // 
             // searchTermBox
             // 
-            this.searchTermBox.Location = new System.Drawing.Point(425, 436);
-            this.searchTermBox.Name = "searchTermBox";
-            this.searchTermBox.Size = new System.Drawing.Size(215, 20);
-            this.searchTermBox.TabIndex = 18;
-            this.searchTermBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SearchTermBox_KeyDown);
+            searchTermBox.Location = new Point(545, 503);
+            searchTermBox.Margin = new Padding(4, 3, 4, 3);
+            searchTermBox.Name = "searchTermBox";
+            searchTermBox.Size = new Size(250, 23);
+            searchTermBox.TabIndex = 18;
+            searchTermBox.KeyDown += SearchTermBox_KeyDown;
             // 
             // filterBySearchChk
             // 
-            this.filterBySearchChk.AutoSize = true;
-            this.filterBySearchChk.Location = new System.Drawing.Point(425, 413);
-            this.filterBySearchChk.Name = "filterBySearchChk";
-            this.filterBySearchChk.Size = new System.Drawing.Size(120, 17);
-            this.filterBySearchChk.TabIndex = 17;
-            this.filterBySearchChk.Text = "Filter by search term";
-            this.filterBySearchChk.UseVisualStyleBackColor = true;
-            this.filterBySearchChk.CheckedChanged += new System.EventHandler(this.FilterBySearchChk_CheckedChanged);
+            filterBySearchChk.AutoSize = true;
+            filterBySearchChk.Location = new Point(545, 477);
+            filterBySearchChk.Margin = new Padding(4, 3, 4, 3);
+            filterBySearchChk.Name = "filterBySearchChk";
+            filterBySearchChk.Size = new Size(133, 19);
+            filterBySearchChk.TabIndex = 17;
+            filterBySearchChk.Text = "Filter by search term";
+            filterBySearchChk.UseVisualStyleBackColor = true;
+            filterBySearchChk.CheckedChanged += FilterBySearchChk_CheckedChanged;
             // 
             // EventWorkEditor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(824, 468);
-            this.Controls.Add(this.searchTermBox);
-            this.Controls.Add(this.filterBySearchChk);
-            this.Controls.Add(this.dataGridView);
-            this.Controls.Add(this.filterUnusedChk);
-            this.Controls.Add(this.restoreBtn);
-            this.Controls.Add(this.cancelBtn);
-            this.Controls.Add(this.saveBtn);
-            this.MaximumSize = new System.Drawing.Size(840, 507);
-            this.MinimumSize = new System.Drawing.Size(840, 507);
-            this.Name = "EventWorkEditor";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Event Work Editor";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(961, 540);
+            Controls.Add(searchTermBox);
+            Controls.Add(filterBySearchChk);
+            Controls.Add(dataGridView);
+            Controls.Add(filterUnusedChk);
+            Controls.Add(restoreBtn);
+            Controls.Add(cancelBtn);
+            Controls.Add(saveBtn);
+            Margin = new Padding(4, 3, 4, 3);
+            MaximumSize = new Size(977, 579);
+            MinimumSize = new Size(977, 579);
+            Name = "EventWorkEditor";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "Event Work Editor";
+            ((System.ComponentModel.ISupportInitialize)dataGridView).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
