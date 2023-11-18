@@ -9,28 +9,21 @@ namespace FlagsEditorEXPlugin
 {
     internal class FlagsGen7bGPGE : FlagsOrganizer
     {
-        static string s_flagsList_res = null;
+        static string? s_flagsList_res = null;
 
-        EventWork7b m_eventWorkData;
+        EventWork7b? m_eventWorkData;
 
-        protected override void InitFlagsData(SaveFile savFile, string resData)
+        protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
             m_savFile = savFile;
-            m_eventWorkData = (m_savFile as SAV7b).EventWork;
+            m_eventWorkData =  ((SAV7b)m_savFile).EventWork;
 
 #if DEBUG
             // Force refresh
             s_flagsList_res = null;
 #endif
 
-            if (resData != null)
-            {
-                s_flagsList_res = resData;
-            }
-            if (s_flagsList_res == null)
-            {
-                s_flagsList_res = ReadResFile("flags_gen7blgpe.txt");
-            }
+            s_flagsList_res = resData ?? s_flagsList_res ?? ReadResFile("flags_gen7blgpe.txt");
 
             var workValues = new int[m_eventWorkData.CountWork];
             for (int i = 0; i < workValues.Length; i++)
@@ -41,26 +34,21 @@ namespace FlagsEditorEXPlugin
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), 0, "Event Flags", (m_savFile as IEventFlagArray).GetEventFlags());
-            AssembleWorkList(s_flagsList_res.Substring(idxEventWorkSection), workValues);
+            AssembleList(s_flagsList_res[idxEventFlagsSection..], 0, "Event Flags", ((IEventFlagArray)m_savFile!).GetEventFlags());
+            AssembleWorkList(s_flagsList_res[idxEventWorkSection..], workValues);
         }
 
-        public override bool SupportsBulkEditingFlags(EventFlagType flagType)
+        public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
         {
-            switch (flagType)
-            {
 #if DEBUG
-                case EventFlagType.FieldItem:
-                case EventFlagType.HiddenItem:
-                case EventFlagType.TrainerBattle:
-                case EventFlagType.InGameTrade:
-                    return true;
+            EventFlagType.FieldItem or
+            EventFlagType.HiddenItem or
+            EventFlagType.TrainerBattle or
+            EventFlagType.InGameTrade
+                => true,
 #endif
-
-                default:
-                    return false;
-            }
-        }
+            _ => false
+        };
 
         public override void BulkMarkFlags(EventFlagType flagType)
         {
@@ -76,7 +64,7 @@ namespace FlagsEditorEXPlugin
         {
             if (SupportsBulkEditingFlags(flagType))
             {
-                var flagHelper = (m_savFile as IEventFlagArray);
+                var flagHelper = (IEventFlagArray)m_savFile!;
 
                 foreach (var f in m_flagsGroupsList[0].Flags)
                 {
@@ -91,7 +79,7 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedFlags(int sourceIdx)
         {
-            var flagHelper = (m_savFile as IEventFlagArray);
+            var flagHelper = (IEventFlagArray)m_savFile!;
 
             foreach (var fGroup in m_flagsGroupsList)
             {
@@ -116,7 +104,7 @@ namespace FlagsEditorEXPlugin
         {
             foreach (var w in m_eventWorkList)
             {
-                m_eventWorkData.SetWork((int)w.WorkIdx, (int)w.Value);
+                m_eventWorkData!.SetWork((int)w.WorkIdx, (int)w.Value);
             }
         }
     }

@@ -9,9 +9,9 @@ namespace FlagsEditorEXPlugin
 {
     internal class FlagsGen6XY : FlagsOrganizer
     {
-        static string s_flagsList_res = null;
+        static string? s_flagsList_res = null;
 
-        protected override void InitFlagsData(SaveFile savFile, string resData)
+        protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
             m_savFile = savFile;
 
@@ -20,37 +20,25 @@ namespace FlagsEditorEXPlugin
             s_flagsList_res = null;
 #endif
 
-            if (resData != null)
-            {
-                s_flagsList_res = resData;
-            }
-            if (s_flagsList_res == null)
-            {
-                s_flagsList_res = ReadResFile("flags_gen6xy.txt");
-            }
+            s_flagsList_res = resData ?? s_flagsList_res ?? ReadResFile("flags_gen6xy.txt");
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), 0, "Event Flags", (m_savFile as IEventFlagArray).GetEventFlags());
-            AssembleWorkList(s_flagsList_res.Substring(idxEventWorkSection), (m_savFile as IEventWorkArray<ushort>).GetAllEventWork());
+            AssembleList(s_flagsList_res[idxEventFlagsSection..], 0, "Event Flags", ((IEventFlagArray)m_savFile!).GetEventFlags());
+            AssembleWorkList(s_flagsList_res[idxEventWorkSection..], ((IEventWorkArray<ushort>)m_savFile!).GetAllEventWork());
         }
 
-        public override bool SupportsBulkEditingFlags(EventFlagType flagType)
+        public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
         {
-            switch (flagType)
-            {
 #if DEBUG
-                case EventFlagType.FieldItem:
-                case EventFlagType.HiddenItem:
-                case EventFlagType.TrainerBattle:
-                    return true;
+            EventFlagType.FieldItem or
+            EventFlagType.HiddenItem or
+            EventFlagType.TrainerBattle
+                => true,
 #endif
-
-                default:
-                    return false;
-            }
-        }
+            _ => false
+        };
 
         public override void BulkMarkFlags(EventFlagType flagType)
         {
@@ -66,7 +54,7 @@ namespace FlagsEditorEXPlugin
         {
             if (SupportsBulkEditingFlags(flagType))
             {
-                var flagHelper = (m_savFile as IEventFlagArray);
+                var flagHelper = (IEventFlagArray)m_savFile!;
 
                 foreach (var f in m_flagsGroupsList[0].Flags)
                 {
@@ -81,7 +69,7 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedFlags(int sourceIdx)
         {
-            var flagHelper = (m_savFile as IEventFlagArray);
+            var flagHelper = (IEventFlagArray)m_savFile!;
 
             foreach (var fGroup in m_flagsGroupsList)
             {
@@ -104,7 +92,7 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedEventWork()
         {
-            var eventWorkHelper = (m_savFile as IEventWorkArray<ushort>);
+            var eventWorkHelper = (IEventWorkArray<ushort>)m_savFile!;
 
             foreach (var w in m_eventWorkList)
             {

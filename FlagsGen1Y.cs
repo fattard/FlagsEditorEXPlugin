@@ -9,7 +9,7 @@ namespace FlagsEditorEXPlugin
 {
     internal class FlagsGen1Y : FlagsOrganizer
     {
-        static string s_flagsList_res = null;
+        static string? s_flagsList_res = null;
 
         enum FlagOffsets_INTL
         {
@@ -59,14 +59,13 @@ namespace FlagsEditorEXPlugin
         const int Src_BadgesFlags = 6;
         const int Src_Misc_wd728 = 7;
         const int Src_Misc_wd72e = 8;
-        const int Src_WorkArea = 9;
 
 
-        protected override void InitFlagsData(SaveFile savFile, string resData)
+        protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
             m_savFile = savFile;
 
-            var savFile_SAV1 = (m_savFile as SAV1);
+            var savFile_SAV1 = (SAV1)m_savFile;
 
             if (savFile_SAV1.Japanese)
             {
@@ -160,7 +159,7 @@ namespace FlagsEditorEXPlugin
             bool[] miscFlags_wd72e = result;
 
             // wEventFlags
-            bool[] eventFlags = (m_savFile as IEventFlagArray).GetEventFlags();
+            bool[] eventFlags = ((IEventFlagArray)m_savFile!).GetEventFlags();
 
             // wGameProgressFlags
             var workValues = new byte[0xC8];
@@ -174,14 +173,7 @@ namespace FlagsEditorEXPlugin
             s_flagsList_res = null;
 #endif
 
-            if (resData != null)
-            {
-                s_flagsList_res = resData;
-            }
-            if (s_flagsList_res == null)
-            {
-                s_flagsList_res = ReadResFile("flags_gen1y.txt");
-            }
+            s_flagsList_res = resData ?? s_flagsList_res ?? ReadResFile("flags_gen1y.txt");
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxHideShowSection = s_flagsList_res.IndexOf("//\tHide-Show Flags");
@@ -194,37 +186,33 @@ namespace FlagsEditorEXPlugin
             int idxMisc_wd72e_Section = s_flagsList_res.IndexOf("//\tMisc-wd72e");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), Src_EventFlags, "Event Flags", eventFlags);
-            AssembleList(s_flagsList_res.Substring(idxHideShowSection), Src_HideShowFlags, "Hide-Show Flags", missableObjectFlags);
-            AssembleList(s_flagsList_res.Substring(idxHiddenItemsSection), Src_HiddenItemFlags, "Hidden Items Flags", obtainedHiddenItemsFlags);
-            AssembleList(s_flagsList_res.Substring(idxHiddenCoinsSection), Src_HiddenCoinsFlags, "Hidden Coins Flags", obtainedHiddenCoinsFlags);
-            AssembleList(s_flagsList_res.Substring(idxTradesSection), Src_TradeFlags, "Trade Flags", completedInGameTradeFlags);
-            AssembleList(s_flagsList_res.Substring(idxFlySpotSection), Src_FlySpotFlags, "Fly Spot Flags", flySpotFlags);
-            AssembleList(s_flagsList_res.Substring(idxBadgesSection), Src_BadgesFlags, "Badges Flags", badgeFlags);
-            AssembleList(s_flagsList_res.Substring(idxMisc_wd728_Section), Src_Misc_wd728, "Misc-wd728 Flags", miscFlags_wd728);
-            AssembleList(s_flagsList_res.Substring(idxMisc_wd72e_Section), Src_Misc_wd72e, "Misc-wd72e Flags", miscFlags_wd72e);
+            AssembleList(s_flagsList_res[idxEventFlagsSection..], Src_EventFlags, "Event Flags", eventFlags);
+            AssembleList(s_flagsList_res[idxHideShowSection..], Src_HideShowFlags, "Hide-Show Flags", missableObjectFlags);
+            AssembleList(s_flagsList_res[idxHiddenItemsSection..], Src_HiddenItemFlags, "Hidden Items Flags", obtainedHiddenItemsFlags);
+            AssembleList(s_flagsList_res[idxHiddenCoinsSection..], Src_HiddenCoinsFlags, "Hidden Coins Flags", obtainedHiddenCoinsFlags);
+            AssembleList(s_flagsList_res[idxTradesSection..], Src_TradeFlags, "Trade Flags", completedInGameTradeFlags);
+            AssembleList(s_flagsList_res[idxFlySpotSection..], Src_FlySpotFlags, "Fly Spot Flags", flySpotFlags);
+            AssembleList(s_flagsList_res[idxBadgesSection..], Src_BadgesFlags, "Badges Flags", badgeFlags);
+            AssembleList(s_flagsList_res[idxMisc_wd728_Section..], Src_Misc_wd728, "Misc-wd728 Flags", miscFlags_wd728);
+            AssembleList(s_flagsList_res[idxMisc_wd72e_Section..], Src_Misc_wd72e, "Misc-wd72e Flags", miscFlags_wd72e);
 
-            AssembleWorkList(s_flagsList_res.Substring(idxEventWorkSection), workValues);
+            AssembleWorkList(s_flagsList_res[idxEventWorkSection..], workValues);
+            //AssembleWorkList(s_flagsList_res[idxEventWorkSection..], (EventWorkArray<byte>)m_savFile!.GetAllEventWork());
         }
 
-        public override bool SupportsBulkEditingFlags(EventFlagType flagType)
+        public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
         {
-            switch (flagType)
-            {
-                case EventFlagType.FieldItem:
-                case EventFlagType.HiddenItem:
-                case EventFlagType.TrainerBattle:
-                case EventFlagType.StaticBattle:
-                case EventFlagType.InGameTrade:
-                case EventFlagType.ItemGift:
-                case EventFlagType.PkmnGift:
-                case EventFlagType.FlySpot:
-                    return true;
-
-                default:
-                    return false;
-            }
-        }
+            EventFlagType.FieldItem or
+            EventFlagType.HiddenItem or
+            EventFlagType.TrainerBattle or
+            EventFlagType.StaticBattle or
+            EventFlagType.InGameTrade or
+            EventFlagType.ItemGift or
+            EventFlagType.PkmnGift or
+            EventFlagType.FlySpot
+                => true,
+            _ => false
+        };
 
 
         public override SpecialEditableEventInfo[] GetSpecialEditableEvents()
@@ -245,26 +233,26 @@ namespace FlagsEditorEXPlugin
 
         public override void ProcessSpecialEventEdit(SpecialEditableEventInfo eventInfo)
         {
-            int idx = 0;
+            int idx;
 
             switch (eventInfo.Index)
             {
                 case 0: // Fossils Choice
                     {
                         idx = 0x6F; // HS_MT_MOON_B2F_FOSSIL_1
-                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
 
                         idx = 0x70; // HS_MT_MOON_B2F_FOSSIL_2
-                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
 
                         idx = 0x578; // EVENT_GOT_DOME_FOSSIL
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                         idx = 0x57F; // EVENT_GOT_HELIX_FOSSIL
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                     }
                     break;
@@ -272,23 +260,23 @@ namespace FlagsEditorEXPlugin
                 case 1: // Dojo Choice
                     {
                         idx = 0x4A; // HS_FIGHTING_DOJO_GIFT_1
-                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
 
                         idx = 0x4B; // HS_FIGHTING_DOJO_GIFT_2
-                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
 
                         idx = 0x350; // EVENT_DEFEATED_FIGHTING_DOJO
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                         idx = 0x356; // EVENT_GOT_HITMONLEE
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                         idx = 0x357; // EVENT_GOT_HITMONCHAN
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                     }
                     break;
@@ -296,25 +284,25 @@ namespace FlagsEditorEXPlugin
                 case 2: // Bill events
                     {
                         idx = 0x61; // HS_BILL_POKEMON
-                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
 
                         idx = 0x62; // HS_BILL_1
-                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                        m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
 
                         idx = 0x63; // HS_BILL_2
-                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                        m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
 
                         idx = 0x550; // EVENT_MET_BILL
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                         // EVENT_USED_CELL_SEPARATOR_ON_BILL .. EVENT_LEFT_BILLS_HOUSE_AFTER_HELPING
                         for (idx = 0x55B; idx <= 0x55F; idx++)
                         {
-                            m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                            m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                             m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                         }
                     }
@@ -325,7 +313,7 @@ namespace FlagsEditorEXPlugin
                         // EVENT_GOT_HM01 .. EVENT_WALKED_OUT_OF_DOCK
                         for (idx = 0x5E0; idx <= 0x5E5; idx++)
                         {
-                            m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                            m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                             m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                         }
                     }
@@ -334,19 +322,19 @@ namespace FlagsEditorEXPlugin
                 case 4: // Rocket Hideout events
                     {
                         idx = 0x85; // HS_ROCKET_HIDEOUT_B4F_GIOVANNI
-                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
 
                         idx = 0x6A2; // EVENT_BEAT_ROCKET_HIDEOUT_4_TRAINER_0 (Jessie & James)
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                         idx = 0x6A3; // EVENT_BEAT_ROCKET_HIDEOUT_4_TRAINER_1 (evt)
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                         idx = 0x6A7; // EVENT_BEAT_ROCKET_HIDEOUT_GIOVANNI
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                     }
                     break;
@@ -356,31 +344,31 @@ namespace FlagsEditorEXPlugin
                         // HS_POKEMON_TOWER_7F_JESSIE .. HS_POKEMON_TOWER_7F_MR_FUJI
                         for (idx = 0x41; idx <= 0x43; idx++)
                         {
-                            m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                            m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
                             m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
                         }
 
                         idx = 0x44; // HS_MR_FUJIS_HOUSE_MR_FUJI
-                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                        m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
 
                         idx = 0x10F; // EVENT_BEAT_GHOST_MAROWAK
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                         // EVENT_BEAT_POKEMONTOWER_7_TRAINER_0 .. EVENT_BEAT_POKEMONTOWER_7_TRAINER_1
                         for (idx = 0x111; idx <= 0x112; idx++)
                         {
-                            m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                            m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                             m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                         }
 
                         idx = 0x117; // EVENT_RESCUED_MR_FUJI_2
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                         idx = 0x4CF; // EVENT_RESCUED_MR_FUJI
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                     }
                     break;
@@ -392,25 +380,25 @@ namespace FlagsEditorEXPlugin
                         {
                             if (m_flagsGroupsList[Src_HideShowFlags].Flags[idx].FlagTypeVal == EventFlagType.GeneralEvent)
                             {
-                                m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
+                                m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, false);
                                 m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = false;
                             }
                         }
 
                         idx = 0x4C; // HS_SILPH_CO_1F_RECEPTIONIST
-                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                        m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
 
                         idx = 0x397; // EVENT_SILPH_CO_RECEPTIONIST_AT_DESK
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                         idx = 0x784; // EVENT_BEAT_SILPH_CO_11F_TRAINER_0 (Jessie & James)
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                         idx = 0x78F; // EVENT_BEAT_SILPH_CO_GIOVANNI
-                        m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                        m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                     }
                     break;
@@ -418,7 +406,7 @@ namespace FlagsEditorEXPlugin
                 case 7: // Unblock Cerulean Cave
                     {
                         idx = 0x09; // HS_CERULEAN_CAVE_GUY
-                        m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                        m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
                         m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
                     }
                     break;
@@ -554,7 +542,7 @@ namespace FlagsEditorEXPlugin
 
                 foreach (var idx in idxArr)
                 {
-                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
                     m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
                 }
             }
@@ -562,7 +550,7 @@ namespace FlagsEditorEXPlugin
             // Fix Rival event flags
             {
                 int idx = 0x0EE; // EVENT_POKEMON_TOWER_RIVAL_ON_LEFT
-                m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
                 m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
 
                 idx = 0x75; // wSSAnne2FCurScript
@@ -575,31 +563,31 @@ namespace FlagsEditorEXPlugin
                 if (!hasBoulderBadge)
                 {
                     idx = 0x520; // EVENT_1ST_ROUTE22_RIVAL_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, !value);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, !value);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = !value;
 
                     idx = 0x525; // EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
 
                     idx = 0x23; // HS_ROUTE_22_RIVAL_1
-                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
                     m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
 
                     idx = 0x521; // EVENT_2ND_ROUTE22_RIVAL_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                     idx = 0x526; // EVENT_BEAT_ROUTE22_RIVAL_2ND_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                     idx = 0x24; // HS_ROUTE_22_RIVAL_2
-                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                    m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
                     m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
 
                     idx = 0x527; // EVENT_ROUTE22_RIVAL_WANTS_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, !value);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, !value);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = !value;
 
                     idx = 0x1A; // wRoute22CurScript
@@ -610,31 +598,31 @@ namespace FlagsEditorEXPlugin
                 else if (hasEarthBadge)
                 {
                     idx = 0x520; // EVENT_1ST_ROUTE22_RIVAL_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                     idx = 0x525; // EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
 
                     idx = 0x23; // HS_ROUTE_22_RIVAL_1
-                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                    m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
                     m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
 
                     idx = 0x521; // EVENT_2ND_ROUTE22_RIVAL_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, !value);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, !value);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = !value;
 
                     idx = 0x526; // EVENT_BEAT_ROUTE22_RIVAL_2ND_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
 
                     idx = 0x24; // HS_ROUTE_22_RIVAL_2
-                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
                     m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
 
                     idx = 0x527; // EVENT_ROUTE22_RIVAL_WANTS_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, !value);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, !value);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = !value;
 
                     idx = 0x1A; // wRoute22CurScript
@@ -645,31 +633,31 @@ namespace FlagsEditorEXPlugin
                 else
                 {
                     idx = 0x520; // EVENT_1ST_ROUTE22_RIVAL_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                     idx = 0x525; // EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
 
                     idx = 0x23; // HS_ROUTE_22_RIVAL_1
-                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                    m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
                     m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
 
                     idx = 0x521; // EVENT_2ND_ROUTE22_RIVAL_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                     idx = 0x526; // EVENT_BEAT_ROUTE22_RIVAL_2ND_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                     idx = 0x24; // HS_ROUTE_22_RIVAL_2
-                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
+                    m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, true);
                     m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = true;
 
                     idx = 0x527; // EVENT_ROUTE22_RIVAL_WANTS_BATTLE
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, false);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
 
                     idx = 0x1A; // wRoute22CurScript
@@ -758,7 +746,7 @@ namespace FlagsEditorEXPlugin
 
                 foreach (var idx in idxArr)
                 {
-                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
                     m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
                 }
             }
@@ -766,15 +754,15 @@ namespace FlagsEditorEXPlugin
             // Fix Bill event flags
             {
                 int idx = 0x55F; // EVENT_LEFT_BILLS_HOUSE_AFTER_HELPING
-                m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
                 m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
 
                 idx = 0x62; // HS_BILL_1
-                m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
                 m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
 
                 idx = 0x63; // HS_BILL_2
-                m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, !value);
+                m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, !value);
                 m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = !value;
             }
 
@@ -783,15 +771,15 @@ namespace FlagsEditorEXPlugin
                 if (m_flagsGroupsList[Src_EventFlags].Flags[0x025].IsSet) // EVENT_GOT_POKEDEX
                 {
                     int idx = 0x01A; // EVENT_DAISY_WALKING
-                    m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
 
                     idx = 0x28; // HS_DAISY_SITTING
-                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                    m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
                     m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
 
                     idx = 0x29; // HS_DAISY_WALKING
-                    m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, !value);
+                    m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, !value);
                     m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = !value;
                 }
             }
@@ -822,7 +810,7 @@ namespace FlagsEditorEXPlugin
             // Fix Bulbasaur HS flag
             {
                 int idx = 0x34; // HS_CERULEAN_BULBASAUR
-                m_savFile.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
+                m_savFile!.SetFlag(MissableObjectFlagsOffset + (idx >> 3), idx & 7, value);
                 m_flagsGroupsList[Src_HideShowFlags].Flags[idx].IsSet = value;
             }
 
@@ -830,7 +818,7 @@ namespace FlagsEditorEXPlugin
             //TODO: Fix choice of Hitmonlee / Hitmonchan, only one should be allowed
             {
                 int idx = 0x350; // EVENT_DEFEATED_FIGHTING_DOJO
-                m_savFile.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
+                m_savFile!.SetFlag(EventFlagsOffset + (idx >> 3), idx & 7, value);
                 m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
             }
         }
@@ -906,7 +894,7 @@ namespace FlagsEditorEXPlugin
                     foreach (var f in fGroup.Flags)
                     {
                         int idx = (int)f.FlagIdx;
-                        m_savFile.SetFlag(_offset + (idx >> 3), idx & 7, f.IsSet);
+                        m_savFile!.SetFlag(_offset + (idx >> 3), idx & 7, f.IsSet);
                     }
 
                     break;
@@ -918,8 +906,15 @@ namespace FlagsEditorEXPlugin
         {
             for (int i = 0; i < m_eventWorkList.Count; i++)
             {
-                m_savFile.Data[GameProgressWorkOffset + i] = (byte)m_eventWorkList[i].Value;
+                m_savFile!.Data[GameProgressWorkOffset + i] = (byte)m_eventWorkList[i].Value;
             }
+
+            /*var eventWorkHelper = (IEventWorkArray<byte>)m_savFile!;
+
+            foreach (var w in m_eventWorkList)
+            {
+                eventWorkHelper.SetWork((int)w.WorkIdx, (byte)w.Value);
+            }*/
         }
     }
 }

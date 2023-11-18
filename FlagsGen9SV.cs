@@ -9,7 +9,7 @@ namespace FlagsEditorEXPlugin
 {
     internal class FlagsGen9SV : FlagsOrganizer
     {
-        static string s_flagsList_res = null;
+        static string? s_flagsList_res = null;
 
         const int Src_EventFlags = 0;
         const int Src_FieldItemFlags = 1;
@@ -34,7 +34,7 @@ namespace FlagsEditorEXPlugin
                 0xA07A4B1D,
         };
 
-        protected override void InitFlagsData(SaveFile savFile, string resData)
+        protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
             m_savFile = savFile;
 
@@ -43,14 +43,7 @@ namespace FlagsEditorEXPlugin
             s_flagsList_res = null;
 #endif
 
-            if (resData != null)
-            {
-                s_flagsList_res = resData;
-            }
-            if (s_flagsList_res == null)
-            {
-                s_flagsList_res = ReadResFile("flags_gen9sv.txt");
-            }
+            s_flagsList_res = resData ?? s_flagsList_res ?? ReadResFile("flags_gen9sv.txt");
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxFieldItemFlagsSection = s_flagsList_res.IndexOf("//\tField Item Flags");
@@ -58,24 +51,29 @@ namespace FlagsEditorEXPlugin
             int idxTrainerFlagsSection = s_flagsList_res.IndexOf("//\tTrainer Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), Src_EventFlags, "Event Flags", null);
-            AssembleList(s_flagsList_res.Substring(idxFieldItemFlagsSection), Src_FieldItemFlags, "Field Item Flags", null);
-            AssembleList(s_flagsList_res.Substring(idxHiddenItemsFlagsSection), Src_HiddenItemFlags, "Hidden Item Flags", null);
-            AssembleList(s_flagsList_res.Substring(idxTrainerFlagsSection), Src_TrainerFlags, "Regular Trainer Flags", null);
+            AssembleList(s_flagsList_res[idxEventFlagsSection..], Src_EventFlags, "Event Flags", Array.Empty<bool>());
+            AssembleList(s_flagsList_res[idxFieldItemFlagsSection..], Src_FieldItemFlags, "Field Item Flags", Array.Empty<bool>());
+            AssembleList(s_flagsList_res[idxHiddenItemsFlagsSection..], Src_HiddenItemFlags, "Hidden Item Flags", Array.Empty<bool>());
+            AssembleList(s_flagsList_res[idxTrainerFlagsSection..], Src_TrainerFlags, "Regular Trainer Flags", Array.Empty<bool>());
 
-            AssembleWorkList<uint>(s_flagsList_res.Substring(idxEventWorkSection), null);
+            AssembleWorkList(s_flagsList_res[idxEventWorkSection..], Array.Empty<uint>());
         }
 
         protected override void AssembleList(string flagsList_res, int sourceIdx, string sourceName, bool[] flagValues)
         {
-            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
             {
                 FlagsGroup flagsGroup = new FlagsGroup(sourceIdx, sourceName);
-                Dictionary<ulong, bool> listOfStatuses = null;
+                Dictionary<ulong, bool>? listOfStatuses = null;
 
-                string s = reader.ReadLine();
+                string? s = reader.ReadLine();
+
+                if (s is null)
+                {
+                    return;
+                }
 
                 // Skip header
                 if (s.StartsWith("//"))
@@ -109,15 +107,15 @@ namespace FlagsEditorEXPlugin
 
                             case Src_FieldItemFlags:
                                 {
-                                    if (listOfStatuses == null)
+                                    if (listOfStatuses is null)
                                     {
                                         listOfStatuses = RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0x2482AD60).Data, emptyKey: 0x0000000000000000);
                                     }
 
                                     var flagDetail = new FlagDetail(s);
-                                    if (listOfStatuses.ContainsKey(flagDetail.FlagIdx))
+                                    if (listOfStatuses.TryGetValue(flagDetail.FlagIdx, out bool value))
                                     {
-                                        flagDetail.IsSet = listOfStatuses[flagDetail.FlagIdx];
+                                        flagDetail.IsSet = value;
                                         flagDetail.SourceIdx = sourceIdx;
                                         flagsGroup.Flags.Add(flagDetail);
                                     }
@@ -126,20 +124,20 @@ namespace FlagsEditorEXPlugin
 
                             case Src_HiddenItemFlags:
                                 {
-                                    if (listOfStatuses == null)
+                                    if (listOfStatuses is null)
                                     {
                                         listOfStatuses = new Dictionary<ulong, bool>(10 * 1024);
 
                                         for (int k = 0; k < HiddenItemsBlockKeys.Length; k++)
                                         {
                                             // Skip DLC1 on older saves
-                                            if (k > 6 && (m_savFile as SAV9SV).SaveRevision < 1)
+                                            if (k > 6 && ((SAV9SV)m_savFile).SaveRevision < 1)
                                             {
                                                 continue;
                                             }
 
                                             // Skip DLC2 on older saves
-                                            if (k > 8 && (m_savFile as SAV9SV).SaveRevision < 2)
+                                            if (k > 8 && ((SAV9SV)m_savFile).SaveRevision < 2)
                                             {
                                                 continue;
                                             }
@@ -163,9 +161,9 @@ namespace FlagsEditorEXPlugin
                                     }
 
                                     var flagDetail = new FlagDetail(s);
-                                    if (listOfStatuses.ContainsKey(flagDetail.FlagIdx))
+                                    if (listOfStatuses.TryGetValue(flagDetail.FlagIdx, out bool value))
                                     {
-                                        flagDetail.IsSet = listOfStatuses[flagDetail.FlagIdx];
+                                        flagDetail.IsSet = value;
                                         flagDetail.SourceIdx = sourceIdx;
                                         flagsGroup.Flags.Add(flagDetail);
                                     }
@@ -174,7 +172,7 @@ namespace FlagsEditorEXPlugin
 
                             case Src_TrainerFlags:
                                 {
-                                    if (listOfStatuses == null)
+                                    if (listOfStatuses is null)
                                     {
                                         listOfStatuses = new Dictionary<ulong, bool>(1000);
 
@@ -192,9 +190,9 @@ namespace FlagsEditorEXPlugin
                                     var flagDetail = new FlagDetail(s);
                                     if (flagDetail.FlagTypeVal == EventFlagType.TrainerBattle)
                                     {
-                                        if (listOfStatuses.ContainsKey(flagDetail.FlagIdx))
+                                        if (listOfStatuses.TryGetValue(flagDetail.FlagIdx, out bool value))
                                         {
-                                            flagDetail.IsSet = listOfStatuses[flagDetail.FlagIdx];
+                                            flagDetail.IsSet = value;
                                         }
 
                                         flagDetail.SourceIdx = sourceIdx;
@@ -215,11 +213,16 @@ namespace FlagsEditorEXPlugin
 
         protected override void AssembleWorkList<T>(string workList_res, T[] eventWorkValues)
         {
-            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
             using (System.IO.StringReader reader = new System.IO.StringReader(workList_res))
             {
-                string s = reader.ReadLine();
+                string? s = reader.ReadLine();
+
+                if (s is null)
+                {
+                    return;
+                }
 
                 // Skip header
                 if (s.StartsWith("//"))
@@ -291,28 +294,23 @@ namespace FlagsEditorEXPlugin
             return blocksStatus;
         }
 
-        public override bool SupportsBulkEditingFlags(EventFlagType flagType)
+        public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
         {
-            switch (flagType)
-            {
-                case EventFlagType.FieldItem:
-                case EventFlagType.TrainerBattle:
-                    return true;
-
+            EventFlagType.FieldItem or
+            EventFlagType.TrainerBattle or
+            EventFlagType.FlySpot
+                => true,
 #if DEBUG
-                case EventFlagType.HiddenItem:
-                case EventFlagType.ItemGift:
-                case EventFlagType.PkmnGift:
-                case EventFlagType.StaticBattle:
-                case EventFlagType.InGameTrade:
-                case EventFlagType.SideEvent:
-                    return true;
+            EventFlagType.HiddenItem or
+            EventFlagType.ItemGift or
+            EventFlagType.PkmnGift or
+            EventFlagType.StaticBattle or
+            EventFlagType.InGameTrade or
+            EventFlagType.SideEvent
+                => true,
 #endif
-
-                default:
-                    return false;
-            }
-        }
+            _ => false
+        };
 
         public override void BulkMarkFlags(EventFlagType flagType)
         {
@@ -328,8 +326,8 @@ namespace FlagsEditorEXPlugin
         {
             if (SupportsBulkEditingFlags(flagType))
             {
-                var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
-                byte[] bdata;
+                //var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
+                //byte[] bdata;
 
                 switch (flagType)
                 {
@@ -380,6 +378,7 @@ namespace FlagsEditorEXPlugin
                     case EventFlagType.StaticBattle:
                     case EventFlagType.InGameTrade:
                     case EventFlagType.SideEvent:
+                    case EventFlagType.FlySpot:
                         {
                             foreach (var f in m_flagsGroupsList[Src_EventFlags].Flags)
                             {
@@ -398,7 +397,7 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedFlags(int sourceIdx)
         {
-            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
             foreach (var fGroup in m_flagsGroupsList)
             {
@@ -502,7 +501,7 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedEventWork()
         {
-            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
             foreach (var w in m_eventWorkList)
             {

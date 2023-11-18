@@ -9,9 +9,9 @@ namespace FlagsEditorEXPlugin
 {
     internal class FlagsGen8LA : FlagsOrganizer
     {
-        static string s_flagsList_res = null;
+        static string? s_flagsList_res = null;
 
-        protected override void InitFlagsData(SaveFile savFile, string resData)
+        protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
             m_savFile = savFile;
 
@@ -20,31 +20,29 @@ namespace FlagsEditorEXPlugin
             s_flagsList_res = null;
 #endif
 
-            if (resData != null)
-            {
-                s_flagsList_res = resData;
-            }
-            if (s_flagsList_res == null)
-            {
-                s_flagsList_res = ReadResFile("flags_gen8la.txt");
-            }
+            s_flagsList_res = resData ?? s_flagsList_res ?? ReadResFile("flags_gen8la.txt");
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), 0, "Event Flags", null);
-            AssembleWorkList<uint>(s_flagsList_res.Substring(idxEventWorkSection), null);
+            AssembleList(s_flagsList_res[idxEventFlagsSection..], 0, "Event Flags", Array.Empty<bool>());
+            AssembleWorkList(s_flagsList_res[idxEventWorkSection..], Array.Empty<uint>());
         }
 
         protected override void AssembleList(string flagsList_res, int sourceIdx, string sourceName, bool[] flagValues)
         {
-            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
             {
                 FlagsGroup flagsGroup = new FlagsGroup(sourceIdx, sourceName);
 
-                string s = reader.ReadLine();
+                string? s = reader.ReadLine();
+
+                if (s is null)
+                {
+                    return;
+                }
 
                 // Skip header
                 if (s.StartsWith("//"))
@@ -82,11 +80,16 @@ namespace FlagsEditorEXPlugin
 
         protected override void AssembleWorkList<T>(string workList_res, T[] eventWorkValues)
         {
-            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
             using (System.IO.StringReader reader = new System.IO.StringReader(workList_res))
             {
-                string s = reader.ReadLine();
+                string? s = reader.ReadLine();
+
+                if (s is null)
+                {
+                    return;
+                }
 
                 // Skip header
                 if (s.StartsWith("//"))
@@ -118,14 +121,10 @@ namespace FlagsEditorEXPlugin
             }
         }
 
-        public override bool SupportsBulkEditingFlags(EventFlagType flagType)
+        public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
         {
-            switch (flagType)
-            {
-                default:
-                    return false;
-            }
-        }
+            _ => false
+        };
 
         public override void BulkMarkFlags(EventFlagType flagType)
         {
@@ -141,7 +140,7 @@ namespace FlagsEditorEXPlugin
         {
             if (SupportsBulkEditingFlags(flagType))
             {
-                var blocks = (m_savFile as ISCBlockArray).Accessor;
+                var blocks = ((ISCBlockArray)m_savFile!).Accessor;
 
                 foreach (var f in m_flagsGroupsList[0].Flags)
                 {
@@ -156,7 +155,7 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedFlags(int sourceIdx)
         {
-            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
             foreach (var fGroup in m_flagsGroupsList)
             {
@@ -179,7 +178,7 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedEventWork()
         {
-            var savEventBlocks = (m_savFile as ISCBlockArray).Accessor;
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
             foreach (var w in m_eventWorkList)
             {

@@ -9,14 +9,14 @@ namespace FlagsEditorEXPlugin
 {
     internal class FlagsGen2GS : FlagsOrganizer
     {
-        static string s_flagsList_res = null;
+        static string? s_flagsList_res = null;
 
         enum FlagOffsets
         {
             CompletedInGameTradeFlags = 0x24ED
         }
 
-        protected override void InitFlagsData(SaveFile savFile, string resData)
+        protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
             m_savFile = savFile;
 
@@ -33,42 +33,30 @@ namespace FlagsEditorEXPlugin
             s_flagsList_res = null;
 #endif
 
-            if (resData != null)
-            {
-                s_flagsList_res = resData;
-            }
-            if (s_flagsList_res == null)
-            {
-                s_flagsList_res = ReadResFile("flags_gen2gs.txt");
-            }
+            s_flagsList_res = resData ?? s_flagsList_res ?? ReadResFile("flags_gen2gs.txt");
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxTradeFlagsSection = s_flagsList_res.IndexOf("//\tTrade Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
 
-            AssembleList(s_flagsList_res.Substring(idxEventFlagsSection), 0, "Event Flags", (m_savFile as IEventFlagArray).GetEventFlags());
-            AssembleList(s_flagsList_res.Substring(idxTradeFlagsSection), 1, "Trade Flags", completedInGameTradeFlags);
+            AssembleList(s_flagsList_res[idxEventFlagsSection..], 0, "Event Flags", ((IEventFlagArray)m_savFile!).GetEventFlags());
+            AssembleList(s_flagsList_res[idxTradeFlagsSection..], 1, "Trade Flags", completedInGameTradeFlags);
 
-            AssembleWorkList(s_flagsList_res.Substring(idxEventWorkSection), (m_savFile as IEventWorkArray<byte>).GetAllEventWork());
+            AssembleWorkList(s_flagsList_res[idxEventWorkSection..], ((IEventWorkArray<byte>)m_savFile!).GetAllEventWork());
         }
 
-        public override bool SupportsBulkEditingFlags(EventFlagType flagType)
+        public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
         {
-            switch (flagType)
-            {
 #if DEBUG
-                case EventFlagType.FieldItem:
-                case EventFlagType.HiddenItem:
-                case EventFlagType.TrainerBattle:
-                case EventFlagType.InGameTrade:
-                    return true;
+            EventFlagType.FieldItem or
+            EventFlagType.HiddenItem or
+            EventFlagType.TrainerBattle or
+            EventFlagType.InGameTrade
+                => true,
 #endif
-
-                default:
-                    return false;
-            }
-        }
+            _ => false
+        };
 
         public override void BulkMarkFlags(EventFlagType flagType)
         {
@@ -84,7 +72,7 @@ namespace FlagsEditorEXPlugin
         {
             if (SupportsBulkEditingFlags(flagType))
             {
-                var flagHelper = (m_savFile as IEventFlagArray);
+                var flagHelper = (IEventFlagArray)m_savFile!;
 
                 foreach (var f in m_flagsGroupsList[0].Flags)
                 {
@@ -101,7 +89,7 @@ namespace FlagsEditorEXPlugin
                                 break;
 
                             case 1: // TradeFlags
-                                m_savFile.SetFlag((int)FlagOffsets.CompletedInGameTradeFlags + (fIdx >> 3), fIdx & 7, value);
+                                m_savFile!.SetFlag((int)FlagOffsets.CompletedInGameTradeFlags + (fIdx >> 3), fIdx & 7, value);
                                 break;
                         }
                     }
@@ -111,7 +99,7 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedFlags(int sourceIdx)
         {
-            var flagHelper = (m_savFile as IEventFlagArray);
+            var flagHelper = (IEventFlagArray)m_savFile!;
 
             foreach (var fGroup in m_flagsGroupsList)
             {
@@ -130,7 +118,7 @@ namespace FlagsEditorEXPlugin
                             foreach (var f in fGroup.Flags)
                             {
                                 int fIdx = (int)f.FlagIdx;
-                                m_savFile.SetFlag((int)FlagOffsets.CompletedInGameTradeFlags + (fIdx >> 3), fIdx & 7, f.IsSet);
+                                m_savFile!.SetFlag((int)FlagOffsets.CompletedInGameTradeFlags + (fIdx >> 3), fIdx & 7, f.IsSet);
                             }
                             break;
                     }
@@ -142,7 +130,7 @@ namespace FlagsEditorEXPlugin
 
         public override void SyncEditedEventWork()
         {
-            var eventWorkHelper = (m_savFile as IEventWorkArray<byte>);
+            var eventWorkHelper = (IEventWorkArray<byte>)m_savFile!;
 
             foreach (var w in m_eventWorkList)
             {
