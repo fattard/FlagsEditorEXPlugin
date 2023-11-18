@@ -80,15 +80,16 @@ namespace FlagsEditorEXPlugin.Forms
             {
                 var evt = specialEditableEvents[i];
 
-                var newBtn = new System.Windows.Forms.Button();
-                newBtn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-            | System.Windows.Forms.AnchorStyles.Right)));
-                newBtn.Location = new System.Drawing.Point(i < 16 ? 2 : (200 + 8),  2 + ((i%16) * 27));
-                newBtn.Name = "specialEvtBtn_" + evt.Index;
-                newBtn.Size = new System.Drawing.Size(200, 23);
-                //newBtn.TabIndex = 1;
-                newBtn.Text = evt.Name;
-                newBtn.UseVisualStyleBackColor = true;
+                var newBtn = new Button
+                {
+                    Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right,
+                    Location = new System.Drawing.Point(i < 16 ? 2 : (200 + 8), 2 + ((i % 16) * 27)),
+                    Name = "specialEvtBtn_" + evt.Index,
+                    Size = new System.Drawing.Size(200, 23),
+                    //newBtn.TabIndex = 1;
+                    Text = evt.Name,
+                    UseVisualStyleBackColor = true
+                };
                 newBtn.Click += (object? sender, EventArgs e) =>
                 {
                     m_organizer.ProcessSpecialEventEdit(evt);
