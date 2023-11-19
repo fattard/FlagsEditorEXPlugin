@@ -16,7 +16,7 @@
             s_flagsList_res = null;
 #endif
 
-            s_flagsList_res = resData ?? s_flagsList_res ?? ReadResFile("flags_gen7blgpe.txt");
+            s_flagsList_res = resData ?? s_flagsList_res ?? ReadFlagsResFile("flags_gen7blgpe");
 
             var workValues = new int[m_eventWorkData.CountWork];
             for (int i = 0; i < workValues.Length; i++)

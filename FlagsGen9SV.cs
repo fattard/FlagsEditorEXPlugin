@@ -36,7 +36,7 @@
             s_flagsList_res = null;
 #endif
 
-            s_flagsList_res = resData ?? s_flagsList_res ?? ReadResFile("flags_gen9sv.txt");
+            s_flagsList_res = resData ?? s_flagsList_res ?? ReadFlagsResFile("flags_gen9sv");
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxFieldItemFlagsSection = s_flagsList_res.IndexOf("//\tField Item Flags");

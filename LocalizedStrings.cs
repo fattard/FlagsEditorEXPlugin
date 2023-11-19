@@ -11,7 +11,7 @@
             {
                 s_localizedStrings.Clear();
 
-                var res = ReadResFile($"lang_{langCode}.txt");
+                var res = ReadLangResFile(langCode);
 
                 using (System.IO.StringReader reader = new System.IO.StringReader(res))
                 {
@@ -105,11 +105,13 @@
             return controlsList;
         }
 
-        static string ReadResFile(string resName)
+        static string ReadLangResFile(string langCode)
         {
             string? contentTxt = null;
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
+
+            string resName = $"lang_{langCode}.txt";
 
             // Try outside file first
             var offResPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location)!, resName);
@@ -122,7 +124,7 @@
                 catch (InvalidOperationException)
                 {
                     // Sanity Fallback
-                    return ReadResFile("lang_en.txt");
+                    return ReadLangResFile("en");
                 }
 
                 using (var stream = assembly.GetManifestResourceStream(resName))

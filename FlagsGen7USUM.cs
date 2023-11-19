@@ -13,7 +13,7 @@
             s_flagsList_res = null;
 #endif
 
-            s_flagsList_res = resData ?? s_flagsList_res ?? ReadResFile("flags_gen7usum.txt");
+            s_flagsList_res = resData ?? s_flagsList_res ?? ReadFlagsResFile("flags_gen7usum");
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");

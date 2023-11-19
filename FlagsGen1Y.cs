@@ -166,7 +166,7 @@
             s_flagsList_res = null;
 #endif
 
-            s_flagsList_res = resData ?? s_flagsList_res ?? ReadResFile("flags_gen1y.txt");
+            s_flagsList_res = resData ?? s_flagsList_res ?? ReadFlagsResFile("flags_gen1y");
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxHideShowSection = s_flagsList_res.IndexOf("//\tHide-Show Flags");

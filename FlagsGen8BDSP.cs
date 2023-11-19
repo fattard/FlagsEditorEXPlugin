@@ -1,6 +1,6 @@
 ﻿namespace FlagsEditorEXPlugin
 {
-    internal class FlagsGen8bsBDSP : FlagsOrganizer
+    internal class FlagsGen8BDSP : FlagsOrganizer
     {
         static string? s_flagsList_res = null;
 
@@ -22,7 +22,7 @@
             s_flagsList_res = null;
 #endif
 
-            s_flagsList_res = resData ?? s_flagsList_res ?? ReadResFile("flags_gen8bsbdsp.txt");
+            s_flagsList_res = resData ?? s_flagsList_res ?? ReadFlagsResFile("flags_gen8bdsp");
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxSysFlagsSection = s_flagsList_res.IndexOf("//\tSys Flags");

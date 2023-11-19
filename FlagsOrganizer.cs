@@ -423,19 +423,34 @@
             return Convert.ToInt64(str);
         }
 
-        protected static string ReadResFile(string resName)
+        protected static string ReadFlagsResFile(string resName, string? langCode = null)
         {
             string? contentTxt = null;
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
+            if (langCode is null)
+            {
+                langCode = GameInfo.CurrentLanguage;
+            }
+
+            string resFileName = $"{resName}_{langCode}.txt";
+
             // Try outside file first
-            var offResPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location)!, resName);
+            var offResPath = System.IO.Path.Combine(System.IO.Path.GetDirectoryName(assembly.Location)!, resFileName);
             if (!System.IO.File.Exists(offResPath))
             {
-                resName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resName));
+                try
+                {
+                    resFileName = assembly.GetManifestResourceNames().Single(str => str.EndsWith(resFileName));
+                }
+                catch (InvalidOperationException)
+                {
+                    // Load default language
+                    return ReadFlagsResFile(resName, "en");
+                }
 
-                using (var stream = assembly.GetManifestResourceStream(resName))
+                using (var stream = assembly.GetManifestResourceStream(resFileName))
                 {
                     using (var reader = new System.IO.StreamReader(stream!))
                     {
@@ -560,7 +575,7 @@
                 GameVersion.BD or
                 GameVersion.SP or
                 GameVersion.BDSP
-                    => new FlagsGen8bsBDSP(),
+                    => new FlagsGen8BDSP(),
 
                 GameVersion.PLA
                     => new FlagsGen8LA(),

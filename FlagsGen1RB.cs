@@ -205,18 +205,18 @@
             s_flagsList_res = null;
 #endif
 
-            s_flagsList_res = resData ?? s_flagsList_res ?? ReadResFile("flags_gen1rb.txt");
+            s_flagsList_res = resData ?? s_flagsList_res ?? ReadFlagsResFile("flags_gen1rb");
 
             string? flagsList_res_jp_blue = null;
             if (gameVer == GameVer_JapBlue)
             {
-                flagsList_res_jp_blue = ReadResFile("flags_gen1jbu.txt");
+                flagsList_res_jp_blue = ReadFlagsResFile("flags_gen1jbu");
             }
 
             string? flagsList_res_jp_redgreen = null;
             if (gameVer == GameVer_JapRedGreen)
             {
-                flagsList_res_jp_redgreen = ReadResFile("flags_gen1jgn.txt");
+                flagsList_res_jp_redgreen = ReadFlagsResFile("flags_gen1jgn");
             }
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
