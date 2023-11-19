@@ -1,6 +1,4 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace FlagsEditorEXPlugin.Forms
+﻿namespace FlagsEditorEXPlugin.Forms
 {
     public partial class DailyHiddenItemsEditorSV : Form
     {
