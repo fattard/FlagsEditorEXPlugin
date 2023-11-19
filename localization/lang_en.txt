@@ -87,7 +87,6 @@ DailyHiddenItemsEditorSV.setAllBtn=Set All to
 DailyHiddenItemsEditorSV.selectBlockLabel=Select block source
 DailyHiddenItemsEditorSV.dgv_ref=Ref
 DailyHiddenItemsEditorSV.dgv_location=Location
-DailyHiddenItemsEditorSV.dgv_complement=Complement
 DailyHiddenItemsEditorSV.dgv_item=Hidden Item
 
 SpecialEditsGen1.specialEvtBtn_1=Reset Fossils choice

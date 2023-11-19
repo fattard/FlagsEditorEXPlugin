@@ -87,7 +87,6 @@ DailyHiddenItemsEditorSV.setAllBtn=Mudar todos para
 DailyHiddenItemsEditorSV.selectBlockLabel=Selecione fonte do bloco
 DailyHiddenItemsEditorSV.dgv_ref=Ref
 DailyHiddenItemsEditorSV.dgv_location=Local
-DailyHiddenItemsEditorSV.dgv_complement=Complemento
 DailyHiddenItemsEditorSV.dgv_item=Item Escondido
 
 SpecialEditsGen1.specialEvtBtn_1=Resetar escolha de Fósseis
