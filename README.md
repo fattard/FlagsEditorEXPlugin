@@ -2,6 +2,12 @@
 This is a [PKHeX](https://github.com/kwsch/PKHeX) plugin for advanced users.
 It allows you to edit all sorts of Flags and Event Work data from save files.
 
+## Setup Instructions
+- Download the plugin from the latest release [here](https://github.com/fattard/FlagsEditorEXPlugin/releases/latest).
+- Extract and unblock them in Windows' Properties Menu.
+- Put them in the *plugins* folder that is in the same directory as the PKHeX program path.
+- Check for more instructions examples if you have trouble: [Manually Installing PKHeX Plugins](https://github.com/architdate/PKHeX-Plugins/wiki/Installing-PKHeX-Plugins#manual-installation-or-installing-older-releases).
+
 ## Actions
 
 ### Dump all Flags
@@ -40,6 +46,52 @@ All mainline games are supported (limited descriptions for many of them)
 - Scarlet / Violet
 
 ## Contributing
+
+### Localized content
+
+The UI localization files follows the same format as the PKHeX localization resources, with a key=value pair by the '=' character.  
+The files are located at the [_localization_](/localization) folder.
+
+It detects the same language as the main PKHeX application is currently using.
+
+I've included an additional language file for pt-BR language, altough not supported, that I use to make room for labels in the UI, as this language is as bad in UI space constraints as Spanish or German.  
+It could also be used as a given example on how the localization for the UI works.
+
+The following table has the languages that are open to contribution
+| Key | Language            | Contributors   |
+|-----|---------------------|----------------|
+| de  | German              |                |
+| en  | English             | Me             |
+| es  | Spanish             |                |
+| fr  | French              |                |
+| it  | Italian             |                |
+| ja  | Japanese            |                |
+| ko  | Korean              |                |
+| zh  | Simplified Chinese  |                |
+| zh2 | Traditional Chinese |                |
+
+The flags resources database can also be localized, but it is not recommended at this moment due to constantly changes to those resources.
+
+Those files are simple _tsv_ text files located at  [_flagslist_](/flagslist) folder.
+
+The header of the files, with some examples:
+| Raw Idx | Event Type | Location     | Complement | Text Description                             | Valid Values                    | Internal Name           |
+|---------|------------|--------------|------------|----------------------------------------------|---------------------------------|-------------------------|
+| 0x0008  | ITEM GIFT  | Violet City  | Gym        | Received TM31 (Mud Slap) from Leader Falkner |                                 | EVENT_GOT_TM31_MUD_SLAP |
+| 0x0034  |            | Victory Road | 1F         | Rival state                                  | 0:Will battle you,1:Disappeared | wVictoryRoadSceneID     |
+
+The following columns should **NOT** be modified, as they are part of internal logic
+- Raw Idx
+- Event Type
+- Internal Name
+
+The localizable columns are:
+- Location (the major location for this event flag, like a town name, city, dungeon)
+- Complement (some useful complement like floor number, or name of a place like a house of someone)
+- Text description (the description of the purpose of the flag)
+- Valid Values (only used for Event Work flags, they are key:value pair by the character ':' and each entry is separated by ',')
+
+### New discovered flags
 
 The event flags are being researched little by little.  
 As the flags gets documented and descriptions are created, they will be embedded into the next version of the plugin.
