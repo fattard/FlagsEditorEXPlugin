@@ -34,13 +34,12 @@
             cancelBtn = new Button();
             saveBtn = new Button();
             dataGridView = new DataGridView();
-            dgv_ref = new DataGridViewTextBoxColumn();
-            dgv_location = new DataGridViewTextBoxColumn();
-            dgv_complement = new DataGridViewTextBoxColumn();
-            dgv_item = new DataGridViewComboBoxColumn();
             blockSourceCombo = new ComboBox();
             selectBlockLabel = new Label();
             itemIIndexSelectionCombo = new ComboBox();
+            dgv_ref = new DataGridViewTextBoxColumn();
+            dgv_location = new DataGridViewTextBoxColumn();
+            dgv_item = new DataGridViewComboBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
             SuspendLayout();
             // 
@@ -108,7 +107,7 @@
             dataGridView.AllowUserToResizeRows = false;
             dataGridView.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView.Columns.AddRange(new DataGridViewColumn[] { dgv_ref, dgv_location, dgv_complement, dgv_item });
+            dataGridView.Columns.AddRange(new DataGridViewColumn[] { dgv_ref, dgv_location, dgv_item });
             dataGridView.EditMode = DataGridViewEditMode.EditOnEnter;
             dataGridView.Location = new Point(13, 46);
             dataGridView.Margin = new Padding(4, 3, 4, 3);
@@ -118,39 +117,6 @@
             dataGridView.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView.Size = new Size(933, 415);
             dataGridView.TabIndex = 15;
-            // 
-            // dgv_ref
-            // 
-            dgv_ref.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            dgv_ref.HeaderText = "Ref";
-            dgv_ref.Name = "dgv_ref";
-            dgv_ref.ReadOnly = true;
-            dgv_ref.Width = 49;
-            // 
-            // dgv_location
-            // 
-            dgv_location.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            dgv_location.HeaderText = "Location";
-            dgv_location.Name = "dgv_location";
-            dgv_location.ReadOnly = true;
-            dgv_location.Width = 78;
-            // 
-            // dgv_complement
-            // 
-            dgv_complement.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            dgv_complement.HeaderText = "Complement";
-            dgv_complement.Name = "dgv_complement";
-            dgv_complement.ReadOnly = true;
-            dgv_complement.Width = 102;
-            // 
-            // dgv_item
-            // 
-            dgv_item.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
-            dgv_item.HeaderText = "Hidden Item";
-            dgv_item.Items.AddRange(new object[] { "Custom" });
-            dgv_item.MaxDropDownItems = 100;
-            dgv_item.Name = "dgv_item";
-            dgv_item.Width = 79;
             // 
             // blockSourceCombo
             // 
@@ -181,6 +147,31 @@
             itemIIndexSelectionCombo.Size = new Size(250, 23);
             itemIIndexSelectionCombo.TabIndex = 27;
             itemIIndexSelectionCombo.SelectedIndexChanged += ItemIIndexSelectionCombo_SelectedIndexChanged;
+            // 
+            // dgv_ref
+            // 
+            dgv_ref.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_ref.HeaderText = "Ref";
+            dgv_ref.Name = "dgv_ref";
+            dgv_ref.ReadOnly = true;
+            dgv_ref.Width = 49;
+            // 
+            // dgv_location
+            // 
+            dgv_location.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_location.HeaderText = "Location";
+            dgv_location.Name = "dgv_location";
+            dgv_location.ReadOnly = true;
+            dgv_location.Width = 78;
+            // 
+            // dgv_item
+            // 
+            dgv_item.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dgv_item.HeaderText = "Hidden Item";
+            dgv_item.Items.AddRange(new object[] { "Custom" });
+            dgv_item.MaxDropDownItems = 100;
+            dgv_item.Name = "dgv_item";
+            dgv_item.Width = 79;
             // 
             // DailyHiddenItemsEditorSV
             // 
@@ -218,7 +209,6 @@
         private ComboBox itemIIndexSelectionCombo;
         private DataGridViewTextBoxColumn dgv_ref;
         private DataGridViewTextBoxColumn dgv_location;
-        private DataGridViewTextBoxColumn dgv_complement;
         private DataGridViewComboBoxColumn dgv_item;
     }
 }

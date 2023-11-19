@@ -101,7 +101,7 @@
                     // Can't have a renamed box which is locked in non-demo version
                     => !(((SAV7SM)savData).BoxLayout.BoxesUnlocked == 8 && string.IsNullOrWhiteSpace(((SAV7SM)savData).BoxLayout.GetBoxName(10))),
 
-                _ => false
+                _ => true
             };
 
 #if DEBUG

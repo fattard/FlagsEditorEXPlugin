@@ -124,7 +124,7 @@
             {
                 var cells = dataGridView.Rows[e.RowIndex].Cells;
                 var idx = ((uint?)(cells[0].Value)).Value;
-                var strVal = (string)cells[3].Value;
+                var strVal = (string)cells[2].Value;
                 byte data = m_itemsIndexesList.First(x => x.Value == strVal).Key;
                 m_editableBlocks[m_indexToKeys[m_curSelectedBlockIdx]][idx - 1] = data;
             }
@@ -166,7 +166,7 @@
                         continue;
                     }
 
-                    int i = dataGridView.Rows.Add(new object[] { refNum++, "", "", "Custom" });
+                    int i = dataGridView.Rows.Add(new object[] { refNum++, "", "Custom" });
 
                     bool exists = m_itemsIndexesList.TryGetValue(data, out string? item_name);
 
@@ -176,7 +176,7 @@
                         m_itemsIndexesList.Add(data, item_name);
                     }
 
-                    dataGridView.Rows[i].Cells[3] = new DataGridViewComboBoxCell() { DataSource = m_itemsIndexesList.Values.ToList(), Value = item_name };
+                    dataGridView.Rows[i].Cells[2] = new DataGridViewComboBoxCell() { DataSource = m_itemsIndexesList.Values.ToList(), Value = item_name };
                 }
 
                 {
