@@ -46,7 +46,7 @@
 
             AssembleList(s_flagsList_res[idxEventFlagsSection..], Src_EventFlags, "Event Flags", Array.Empty<bool>());
             AssembleList(s_flagsList_res[idxFieldItemFlagsSection..], Src_FieldItemFlags, "Field Item Flags", Array.Empty<bool>());
-            AssembleList(s_flagsList_res[idxHiddenItemsFlagsSection..], Src_HiddenItemFlags, "Hidden Item Flags", Array.Empty<bool>());
+            //AssembleList(s_flagsList_res[idxHiddenItemsFlagsSection..], Src_HiddenItemFlags, "Hidden Item Flags", Array.Empty<bool>());
             AssembleList(s_flagsList_res[idxTrainerFlagsSection..], Src_TrainerFlags, "Regular Trainer Flags", Array.Empty<bool>());
 
             AssembleWorkList(s_flagsList_res[idxEventWorkSection..], Array.Empty<uint>());
@@ -290,11 +290,11 @@
         public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
         {
             EventFlagType.FieldItem or
+            EventFlagType.HiddenItem or
             EventFlagType.TrainerBattle or
             EventFlagType.FlySpot
                 => true,
 #if DEBUG
-            EventFlagType.HiddenItem or
             EventFlagType.ItemGift or
             EventFlagType.PkmnGift or
             EventFlagType.StaticEncounter or
@@ -340,7 +340,7 @@
 
                     case EventFlagType.HiddenItem:
                         {
-                            foreach (var f in m_flagsGroupsList[Src_HiddenItemFlags].Flags)
+                            /*foreach (var f in m_flagsGroupsList[Src_HiddenItemFlags].Flags)
                             {
                                 if (f.FlagTypeVal == flagType)
                                 {
@@ -348,7 +348,30 @@
                                 }
                             }
 
-                            SyncEditedFlags(Src_HiddenItemFlags);
+                            SyncEditedFlags(Src_HiddenItemFlags);*/
+
+                            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
+
+                            for (int k = 0; k < HiddenItemsBlockKeys.Length; k++)
+                            {
+                                // Skip DLC1 on older saves
+                                if (k > 6 && ((SAV9SV)m_savFile!).SaveRevision < 1)
+                                {
+                                    continue;
+                                }
+
+                                // Skip DLC2 on older saves
+                                if (k > 8 && ((SAV9SV)m_savFile!).SaveRevision < 2)
+                                {
+                                    continue;
+                                }
+
+                                var data = savEventBlocks.GetBlockSafe(HiddenItemsBlockKeys[k]).Data;
+                                if (data.Length > 0)
+                                {
+                                    Array.Fill<byte>(data, value ? (byte)0x00 : (byte)0x80);
+                                }
+                            }
                         }
                         break;
 
@@ -386,6 +409,15 @@
                         break;
                 }
             }
+        }
+
+        public override EditableEventInfo[] GetMiscEditableEvents()
+        {
+            int idx = 0;
+            return new EditableEventInfo[]
+            {
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"MiscEditsSV.miscEvtBtn_{idx}", "Daily Hidden Items Editor"), typeof(Forms.DailyHiddenItemsEditorSV)),
+            };
         }
 
         public override void SyncEditedFlags(int sourceIdx)
@@ -501,5 +533,50 @@
                 savEventBlocks.GetBlockSafe((uint)w.WorkIdx).SetValue((int)w.Value);
             }
         }
+
+        public void SyncEditedHiddenItems(Dictionary<ulong, byte[]> editedBlocks)
+        {
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
+
+            foreach (var b in editedBlocks)
+            {
+                var data = savEventBlocks.GetBlockSafe((uint)b.Key).Data;
+                Array.Copy(b.Value, data, data.Length);
+            }
+        }
+
+        public Dictionary<ulong, byte[]> GetHiddenItemBlocksCopy()
+        {
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
+
+            Dictionary<ulong, byte[]> tBlocks = new Dictionary<ulong, byte[]>(HiddenItemsBlockKeys.Length);
+
+            for (int k = 0; k < HiddenItemsBlockKeys.Length; k++)
+            {
+                // Skip DLC1 on older saves
+                if (k > 6 && ((SAV9SV)m_savFile).SaveRevision < 1)
+                {
+                    continue;
+                }
+
+                // Skip DLC2 on older saves
+                if (k > 8 && ((SAV9SV)m_savFile).SaveRevision < 2)
+                {
+                    continue;
+                }
+
+                var data = savEventBlocks.GetBlockSafe(HiddenItemsBlockKeys[k]).Data;
+                if (data.Length > 0)
+                {
+                    byte[] dataCopy = new byte[data.Length];
+                    Array.Copy(data, dataCopy, data.Length);
+
+                    tBlocks.Add(HiddenItemsBlockKeys[k], dataCopy);
+                }
+            }
+
+            return tBlocks;
+        }
+
     }
 }

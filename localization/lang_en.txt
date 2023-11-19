@@ -78,6 +78,18 @@ MainWin.BulkOperation_caption=Bulk Edit
 MainWin.BulkOperation_msg=This operation cannot be undone.|Are you sure?
 MainWin.BulkOperationDone_msg=Operation done
 
+DailyHiddenItemsEditorSV.TitleName=Daily Hidden Items Editor
+DailyHiddenItemsEditorSV.filterByItemChk=Filter by item
+DailyHiddenItemsEditorSV.restoreBtn=Restore State
+DailyHiddenItemsEditorSV.saveBtn=Save
+DailyHiddenItemsEditorSV.cancelBtn=Cancel
+DailyHiddenItemsEditorSV.setAllBtn=Set All to
+DailyHiddenItemsEditorSV.selectBlockLabel=Select block source
+DailyHiddenItemsEditorSV.dgv_ref=Ref
+DailyHiddenItemsEditorSV.dgv_location=Location
+DailyHiddenItemsEditorSV.dgv_complement=Complement
+DailyHiddenItemsEditorSV.dgv_item=Hidden Item
+
 SpecialEditsGen1.specialEvtBtn_1=Reset Fossils choice
 SpecialEditsGen1.specialEvtBtn_2=Reset Dojo choice
 SpecialEditsGen1.specialEvtBtn_3=Reset Bill events
@@ -86,3 +98,5 @@ SpecialEditsGen1.specialEvtBtn_5=Reset Rocket Hideout events
 SpecialEditsGen1.specialEvtBtn_6=Reset Pokémon Tower events
 SpecialEditsGen1.specialEvtBtn_7=Reset Silph Co. events
 SpecialEditsGen1.specialEvtBtn_8=Unblock Cerulean Cave
+
+MiscEditsSV.miscEvtBtn_1=Daily Hidden Items Editor
