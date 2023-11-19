@@ -79,7 +79,7 @@
                     Name = "specialEvtBtn_" + evt.Index,
                     Size = new System.Drawing.Size(210, 23),
                     //newBtn.TabIndex = 1;
-                    Text = evt.Name,
+                    Text = evt.Label,
                     UseVisualStyleBackColor = true
                 };
                 newBtn.Click += (object? sender, EventArgs e) =>
@@ -97,8 +97,35 @@
             #endregion Special Edit Tab
 
             #region Misc Edit Tab
-            //TODO:
-            tabControl1.Controls.Remove(tabPage5);
+
+            var miscEditableEvents = m_organizer.GetMiscEditableEvents();
+            for (int i = 0; i < miscEditableEvents.Length; i++)
+            {
+                var evt = miscEditableEvents[i];
+
+                var newBtn = new Button
+                {
+                    Anchor = AnchorStyles.Top | AnchorStyles.Left,
+                    Location = new System.Drawing.Point(i < 16 ? 20 : 274, 2 + ((i % 16) * 27)),
+                    Name = "miscEvtBtn_" + evt.Index,
+                    Size = new System.Drawing.Size(210, 23),
+                    //newBtn.TabIndex = 1;
+                    Text = evt.Label,
+                    UseVisualStyleBackColor = true
+                };
+                newBtn.Click += (object? sender, EventArgs e) =>
+                {
+                    Form newEditorForm = (Form)Activator.CreateInstance(evt.EditorClassType!, m_organizer)!;
+                    newEditorForm.ShowDialog();
+                };
+
+                tabPage5.Controls.Add(newBtn);
+            }
+            if (miscEditableEvents.Length == 0)
+            {
+                tabControl1.Controls.Remove(tabPage5);
+            }
+
             #endregion Misc Edit Tab
         }
 

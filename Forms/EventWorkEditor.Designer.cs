@@ -34,14 +34,14 @@ namespace FlagsEditorEXPlugin.Forms
             cancelBtn = new Button();
             saveBtn = new Button();
             dataGridView = new DataGridView();
+            searchTermBox = new TextBox();
+            filterBySearchChk = new CheckBox();
             dgv_ref = new DataGridViewTextBoxColumn();
             dgv_id = new DataGridViewTextBoxColumn();
             dgv_location = new DataGridViewTextBoxColumn();
             dgv_txtDesc = new DataGridViewTextBoxColumn();
             dgv_validValues = new DataGridViewComboBoxColumn();
             dgv_rawValue = new DataGridViewTextBoxColumn();
-            searchTermBox = new TextBox();
-            filterBySearchChk = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
             SuspendLayout();
             // 
@@ -111,6 +111,27 @@ namespace FlagsEditorEXPlugin.Forms
             dataGridView.Size = new Size(933, 449);
             dataGridView.TabIndex = 16;
             // 
+            // searchTermBox
+            // 
+            searchTermBox.Location = new Point(545, 503);
+            searchTermBox.Margin = new Padding(4, 3, 4, 3);
+            searchTermBox.Name = "searchTermBox";
+            searchTermBox.Size = new Size(250, 23);
+            searchTermBox.TabIndex = 18;
+            searchTermBox.KeyDown += SearchTermBox_KeyDown;
+            // 
+            // filterBySearchChk
+            // 
+            filterBySearchChk.AutoSize = true;
+            filterBySearchChk.Location = new Point(545, 477);
+            filterBySearchChk.Margin = new Padding(4, 3, 4, 3);
+            filterBySearchChk.Name = "filterBySearchChk";
+            filterBySearchChk.Size = new Size(133, 19);
+            filterBySearchChk.TabIndex = 17;
+            filterBySearchChk.Text = "Filter by search term";
+            filterBySearchChk.UseVisualStyleBackColor = true;
+            filterBySearchChk.CheckedChanged += FilterBySearchChk_CheckedChanged;
+            // 
             // dgv_ref
             // 
             dgv_ref.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
@@ -148,6 +169,7 @@ namespace FlagsEditorEXPlugin.Forms
             dgv_validValues.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
             dgv_validValues.HeaderText = "Valid Values";
             dgv_validValues.Items.AddRange(new object[] { "Custom" });
+            dgv_validValues.MaxDropDownItems = 100;
             dgv_validValues.Name = "dgv_validValues";
             dgv_validValues.Width = 74;
             // 
@@ -156,27 +178,6 @@ namespace FlagsEditorEXPlugin.Forms
             dgv_rawValue.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
             dgv_rawValue.HeaderText = "Raw Value";
             dgv_rawValue.Name = "dgv_rawValue";
-            // 
-            // searchTermBox
-            // 
-            searchTermBox.Location = new Point(545, 503);
-            searchTermBox.Margin = new Padding(4, 3, 4, 3);
-            searchTermBox.Name = "searchTermBox";
-            searchTermBox.Size = new Size(250, 23);
-            searchTermBox.TabIndex = 18;
-            searchTermBox.KeyDown += SearchTermBox_KeyDown;
-            // 
-            // filterBySearchChk
-            // 
-            filterBySearchChk.AutoSize = true;
-            filterBySearchChk.Location = new Point(545, 477);
-            filterBySearchChk.Margin = new Padding(4, 3, 4, 3);
-            filterBySearchChk.Name = "filterBySearchChk";
-            filterBySearchChk.Size = new Size(133, 19);
-            filterBySearchChk.TabIndex = 17;
-            filterBySearchChk.Text = "Filter by search term";
-            filterBySearchChk.UseVisualStyleBackColor = true;
-            filterBySearchChk.CheckedChanged += FilterBySearchChk_CheckedChanged;
             // 
             // EventWorkEditor
             // 
@@ -208,13 +209,13 @@ namespace FlagsEditorEXPlugin.Forms
         private System.Windows.Forms.Button cancelBtn;
         private System.Windows.Forms.Button saveBtn;
         private System.Windows.Forms.DataGridView dataGridView;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgv_ref;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgv_id;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgv_location;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgv_txtDesc;
-        private System.Windows.Forms.DataGridViewComboBoxColumn dgv_validValues;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dgv_rawValue;
         private System.Windows.Forms.TextBox searchTermBox;
         private System.Windows.Forms.CheckBox filterBySearchChk;
+        private DataGridViewTextBoxColumn dgv_ref;
+        private DataGridViewTextBoxColumn dgv_id;
+        private DataGridViewTextBoxColumn dgv_location;
+        private DataGridViewTextBoxColumn dgv_txtDesc;
+        private DataGridViewComboBoxColumn dgv_validValues;
+        private DataGridViewTextBoxColumn dgv_rawValue;
     }
 }

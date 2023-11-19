@@ -235,16 +235,25 @@
             }
         }
 
-        public class SpecialEditableEventInfo
+        public class EditableEventInfo
         {
             public int Index { get; private set; }
-            public string Name { get; private set; }
+            public string Label { get; private set; }
+            public Type? EditorClassType { get; private set; }
             public bool IsAvailable { get; set; }
 
-            public SpecialEditableEventInfo(int index, string name, bool isAvailable = true)
+            public EditableEventInfo(int index, string label, bool isAvailable = true)
             {
                 Index = index;
-                Name = name;
+                Label = label;
+                IsAvailable = isAvailable;
+            }
+
+            public EditableEventInfo(int index, string label, Type editorClassType, bool isAvailable = true)
+            {
+                Index = index;
+                Label = label;
+                EditorClassType = editorClassType;
                 IsAvailable = isAvailable;
             }
         }
@@ -395,9 +404,11 @@
             System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile!.Version), sb.ToString());
         }
 
-        public virtual SpecialEditableEventInfo[] GetSpecialEditableEvents() { return Array.Empty<SpecialEditableEventInfo>(); }
+        public virtual EditableEventInfo[] GetSpecialEditableEvents() { return Array.Empty<EditableEventInfo>(); }
 
-        public virtual void ProcessSpecialEventEdit(SpecialEditableEventInfo eventInfo) { }
+        public virtual EditableEventInfo[] GetMiscEditableEvents() { return Array.Empty<EditableEventInfo>(); }
+
+        public virtual void ProcessSpecialEventEdit(EditableEventInfo eventInfo) { }
 
         public abstract void BulkMarkFlags(EventFlagType flagType);
         public abstract void BulkUnmarkFlags(EventFlagType flagType);

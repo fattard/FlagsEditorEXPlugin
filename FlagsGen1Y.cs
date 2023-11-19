@@ -208,23 +208,23 @@
         };
 
 
-        public override SpecialEditableEventInfo[] GetSpecialEditableEvents()
+        public override EditableEventInfo[] GetSpecialEditableEvents()
         {
             int idx = 0;
-            return new SpecialEditableEventInfo[]
+            return new EditableEventInfo[]
             {
-                new SpecialEditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Fossils choice")),
-                new SpecialEditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Dojo choice")),
-                new SpecialEditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Bill events")),
-                new SpecialEditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset S.S. Anne events")),
-                new SpecialEditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Rocket Hideout events")),
-                new SpecialEditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Pokémon Tower events")),
-                new SpecialEditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Silph Co. events")),
-                new SpecialEditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Unblock Cerulean Cave")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Fossils choice")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Dojo choice")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Bill events")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset S.S. Anne events")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Rocket Hideout events")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Pokémon Tower events")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Silph Co. events")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Unblock Cerulean Cave")),
             };
         }
 
-        public override void ProcessSpecialEventEdit(SpecialEditableEventInfo eventInfo)
+        public override void ProcessSpecialEventEdit(EditableEventInfo eventInfo)
         {
             int idx;
 
