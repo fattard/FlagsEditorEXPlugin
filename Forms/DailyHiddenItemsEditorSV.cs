@@ -59,6 +59,7 @@
 
             dataGridView.CurrentCellDirtyStateChanged += DataGridView_CurrentCellDirtyStateChanged;
             dataGridView.CellValueChanged += DataGridView_CellValueChanged;
+            dataGridView.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
 
             RestoreData();
         }
@@ -149,14 +150,11 @@
                 isSyncingCells = true;
                 this.SuspendLayout();
 
-                dataGridView.Rows.Clear();
-                dataGridView.Refresh();
-
-                GC.Collect();
-
                 bool filterByItem = filterByItemChk.Checked;
                 byte filteredItemId = m_itemsIndexesList.First(x => x.Value == (string)itemIIndexSelectionCombo.SelectedItem!).Key;
                 uint refNum = 1;
+
+                List<DataGridViewRow> rowsToAdd = new List<DataGridViewRow>();
 
                 foreach (var data in m_editableBlocks[m_indexToKeys[m_curSelectedBlockIdx]])
                 {
@@ -166,18 +164,26 @@
                         continue;
                     }
 
-                    int i = dataGridView.Rows.Add(new object[] { refNum++, "", "Custom" });
-
                     bool exists = m_itemsIndexesList.TryGetValue(data, out string? item_name);
-
                     if (!exists)
                     {
                         item_name = $"0x{data.ToString("X2")}";
                         m_itemsIndexesList.Add(data, item_name);
                     }
 
-                    dataGridView.Rows[i].Cells[2] = new DataGridViewComboBoxCell() { DataSource = m_itemsIndexesList.Values.ToList(), Value = item_name };
+                    var curRow = new DataGridViewRow();
+                    curRow.CreateCells(dataGridView);
+                    curRow.Cells[0].Value = refNum++;
+                    curRow.Cells[1].Value = string.Empty;
+                    curRow.Cells[2] = new DataGridViewComboBoxCell() { DataSource = m_itemsIndexesList.Values.ToList(), Value = item_name };
+
+                    rowsToAdd.Add(curRow);
                 }
+
+                dataGridView.Rows.Clear();
+                dataGridView.Refresh();
+
+                dataGridView.Rows.AddRange(rowsToAdd.ToArray());
 
                 {
                     int oldIdx = itemIIndexSelectionCombo.SelectedIndex;

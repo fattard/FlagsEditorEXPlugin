@@ -24,6 +24,7 @@
 
             dataGridView.CurrentCellDirtyStateChanged += DataGridView_CurrentCellDirtyStateChanged;
             dataGridView.CellValueChanged += DataGridView_CellValueChanged;
+            dataGridView.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
 
             RestoreData();
         }
@@ -162,16 +163,15 @@
 
         private void RefreshDataGrid()
         {
-            dataGridView.Rows.Clear();
-            dataGridView.Refresh();
-
-            GC.Collect();
+            this.SuspendLayout();
 
             bool skipUnused = filterUnusedChk.Checked;
             bool skipSet = showOnlyUnsetChk.Checked;
             bool skipUnset = showOnlySetChk.Checked;
             bool useCategoryFilter = (m_filter != FlagsOrganizer.EventFlagType._Unknown);
             bool filterBySearch = filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text);
+
+            List<DataGridViewRow> rowsToAdd = new List<DataGridViewRow>();
 
             string searchTerm = searchTermBox.Text.ToUpperInvariant();
             ulong? searchIdx;
@@ -206,8 +206,23 @@
                     continue;
                 }
 
-                dataGridView.Rows.Add(new object[] { f.IsSet, f.FlagIdx, f.InternalName, f.LocationName, f.DetailMsg });
+                var curRow = new DataGridViewRow();
+                curRow.CreateCells(dataGridView);
+                curRow.Cells[0].Value = f.IsSet;
+                curRow.Cells[1].Value = f.FlagIdx;
+                curRow.Cells[2].Value = f.InternalName;
+                curRow.Cells[3].Value = f.LocationName;
+                curRow.Cells[4].Value = f.DetailMsg;
+
+                rowsToAdd.Add(curRow);
             }
+
+            dataGridView.Rows.Clear();
+            dataGridView.Refresh();
+
+            dataGridView.Rows.AddRange(rowsToAdd.ToArray());
+
+            this.ResumeLayout(false);
         }
 
         private void RefreshCounters()

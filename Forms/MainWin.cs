@@ -117,6 +117,7 @@
                 {
                     Form newEditorForm = (Form)Activator.CreateInstance(evt.EditorClassType!, m_organizer)!;
                     newEditorForm.ShowDialog();
+                    GC.Collect();
                 };
 
                 tabPage5.Controls.Add(newBtn);
@@ -139,6 +140,7 @@
 
                     var form = new FlagsEditor(m_organizer, fGroup, filter);
                     form.ShowDialog();
+                    GC.Collect();
                     break;
                 }
             }
@@ -148,6 +150,7 @@
         {
             var form = new EventWorkEditor(m_organizer);
             form.ShowDialog();
+            GC.Collect();
         }
 
         private void MarkFlagsBtn_Click(object sender, EventArgs e)

@@ -18,6 +18,7 @@
 
             dataGridView.CurrentCellDirtyStateChanged += DataGridView_CurrentCellDirtyStateChanged;
             dataGridView.CellValueChanged += DataGridView_CellValueChanged;
+            dataGridView.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
 
             RestoreData();
         }
@@ -126,13 +127,12 @@
 
         private void RefreshDataGrid()
         {
-            dataGridView.Rows.Clear();
-            dataGridView.Refresh();
-
-            GC.Collect();
+            this.SuspendLayout();
 
             bool skipUnused = filterUnusedChk.Checked;
             bool filterBySearch = filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text);
+
+            List<DataGridViewRow> rowsToAdd = new List<DataGridViewRow>();
 
             string searchTerm = searchTermBox.Text.ToUpperInvariant();
             ulong? searchIdx;
@@ -157,22 +157,34 @@
                     continue;
                 }
 
-                int i = dataGridView.Rows.Add(new object[] { w.WorkIdx, w.InternalName, w.LocationName, w.DetailMsg, "Custom", w.Value });
-
-                var row = dataGridView.Rows[i];
-
                 var validValuesList = new List<string>(w.ValidValues.Values);
                 validValuesList.Insert(0, "");
 
-                row.Cells[4] = new DataGridViewComboBoxCell() { DataSource = validValuesList, Value = w.ValidValues.TryGetValue(w.Value, out string? value) ? value : "" };
+                var curRow = new DataGridViewRow();
+                curRow.CreateCells(dataGridView);
+                curRow.Cells[0].Value = w.WorkIdx;
+                curRow.Cells[1].Value = w.InternalName;
+                curRow.Cells[2].Value = w.LocationName;
+                curRow.Cells[3].Value = w.DetailMsg;
+                curRow.Cells[4] = new DataGridViewComboBoxCell() { DataSource = validValuesList, Value = w.ValidValues.TryGetValue(w.Value, out string? value) ? value : "" };
+                curRow.Cells[5].Value = w.Value;
 
                 // Disable if no known valid values available
                 if (w.ValidValues.Count == 0)
                 {
-                    ((DataGridViewComboBoxCell)row.Cells[4]).DisplayStyle = DataGridViewComboBoxDisplayStyle.Nothing;
-                    row.Cells[4].ReadOnly = true;
+                    ((DataGridViewComboBoxCell)curRow.Cells[4]).DisplayStyle = DataGridViewComboBoxDisplayStyle.Nothing;
+                    curRow.Cells[4].ReadOnly = true;
                 }
+
+                rowsToAdd.Add(curRow);
             }
+
+            dataGridView.Rows.Clear();
+            dataGridView.Refresh();
+
+            dataGridView.Rows.AddRange(rowsToAdd.ToArray());
+
+            this.ResumeLayout(false);
         }
     }
 }
