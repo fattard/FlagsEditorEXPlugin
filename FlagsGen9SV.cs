@@ -27,6 +27,9 @@
                 0xA07A4B1D,
         };
 
+        List<FlagDetail> m_unavailableFlagBlocks = new List<FlagDetail>();
+        List<WorkDetail> m_unavailableWorkBlocks = new List<WorkDetail>();
+
         protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
             m_savFile = savFile;
@@ -95,6 +98,11 @@
                                         flagDetail.SourceIdx = sourceIdx;
                                         flagsGroup.Flags.Add(flagDetail);
                                     }
+                                    else
+                                    {
+                                        m_unavailableFlagBlocks.Add(flagDetail);
+                                    }
+
                                 }
                                 break;
 
@@ -239,6 +247,10 @@
                             workDetail.Value = Convert.ToInt64(savEventBlocks.GetBlockSafe((uint)workDetail.WorkIdx).GetValue());
                             m_eventWorkList.Add(workDetail);
                         }
+                        else
+                        {
+                            m_unavailableWorkBlocks.Add(workDetail);
+                        }
                     }
 
                     s = reader.ReadLine();
@@ -286,6 +298,53 @@
 
             return blocksStatus;
         }
+
+#if DEBUG
+        public override void DumpAllFlags()
+        {
+            base.DumpAllFlags();
+
+            StringBuilder sb = new StringBuilder(512 * 1024);
+
+            if (m_unavailableFlagBlocks.Count > 0)
+            {
+                sb.Append($"{"Event Flags"}\r\n");
+
+                for (int i = 0; i < m_unavailableFlagBlocks.Count; ++i)
+                {
+                    string fmt = m_unavailableFlagBlocks[i].FlagIdx > (ushort.MaxValue) ?
+                        m_unavailableFlagBlocks[i].FlagIdx > (uint.MaxValue) ?
+                        "FLAG_0x{0:X16} {1}\t{2}\r\n" :
+                        "FLAG_0x{0:X8} {1}\t{2}\r\n" :
+                        "FLAG_0x{0:X4} {1}\t{2}\r\n";
+
+                    sb.AppendFormat(fmt, m_unavailableFlagBlocks[i].FlagIdx, m_unavailableFlagBlocks[i].IsSet,
+                        m_unavailableFlagBlocks[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_unavailableFlagBlocks[i].ToString());
+                }
+
+                sb.Append("\r\n\r\n");
+            }
+
+            if (m_unavailableWorkBlocks.Count > 0)
+            {
+                sb.Append($"{"Event Work"}\r\n");
+
+                for (int i = 0; i < m_unavailableWorkBlocks.Count; ++i)
+                {
+                    string fmt = m_unavailableWorkBlocks[i].WorkIdx > (ushort.MaxValue) ?
+                        m_unavailableWorkBlocks[i].WorkIdx > (uint.MaxValue) ?
+                        "WORK_0x{0:X16} => {1,5}\t{2}\r\n" :
+                        "WORK_0x{0:X8} => {1,5}\t{2}\r\n" :
+                        "WORK_0x{0:X4} => {1,5}\t{2}\r\n";
+
+                    sb.AppendFormat(fmt, m_unavailableWorkBlocks[i].WorkIdx, m_unavailableWorkBlocks[i].Value,
+                        m_unavailableWorkBlocks[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_unavailableWorkBlocks[i].ToString());
+                }
+            }
+
+            System.IO.File.WriteAllText(string.Format("unavailable_flags_dump_{0}.txt", m_savFile!.Version), sb.ToString());
+        }
+#endif
 
         public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
         {
