@@ -91,8 +91,9 @@
 
                     default:
                         {
-                            var dialogResult = System.Windows.Forms.MessageBox.Show("Do your save file comes from Jap Blue version,\ninstead of a Jap Red/Green version?", "Jap Gen1 Save File Detected", System.Windows.Forms.MessageBoxButtons.YesNo, System.Windows.Forms.MessageBoxIcon.Question);
-                            if (dialogResult == System.Windows.Forms.DialogResult.Yes)
+                            var dialogResult = MessageBox.Show(LocalizedStrings.Find("FlagsGen1RB.JapSavDetection_msg", "Do your save file comes from Jap Blue version,|instead of a Jap Red/Green version?").Replace("|", "\r\n"),
+                                LocalizedStrings.Find("FlagsGen1RB.JapSavDetection_caption", "Jap Gen1 Save File Detected"), MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                            if (dialogResult == DialogResult.Yes)
                             {
                                 gameVer = GameVer_JapBlue;
                             }

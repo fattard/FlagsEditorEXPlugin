@@ -17,6 +17,9 @@ EventFlagType._Unused=UNUSED
 FlagsEditorEX.menuEntry_EditFlags=Edit flags...
 FlagsEditorEX.menuEntry_DumpAllFlags=Dump all Flags
 
+FlagsGen1RB.JapSavDetection_msg=Do your save file comes from Jap Blue version,|instead of a Jap Red/Green version?
+FlagsGen1RB.JapSavDetection_caption=Jap Gen1 Save File Detected
+
 EventWorkEditor.TitleName=Event Work Editor
 EventWorkEditor.filterUnusedChk=Hide Unused
 EventWorkEditor.restoreBtn=Restore State
