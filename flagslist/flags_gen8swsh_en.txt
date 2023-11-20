@@ -4248,6 +4248,77 @@
 0x71B061E78444467D						z_pl0103_STAR_HOP
 0xC94717E9AE9A45DC						z_pl0103_STAR_POPRA
 0xBE4E56AFB5DA835E						z_d0903_ADVENTURER_GIRL
+0x046CA1C6						
+0x063ACBB0						
+0x073ACD43						
+0x086EE81F						
+0x093AD069						
+0x0C86BC02						
+0x14F9ABC4						
+0x16F9AEEA						
+0x17F9B07D						
+0x1BC810D4						
+0x1C51C318						
+0x1DC813FA						
+0x1EC8158D						
+0x22C47F80						
+0x24C482A6						
+0x25C48439						
+0x2E16AD04						
+0x42AEB828						
+0x43AEB9BB						
+0x45AEBCE1						
+0x497D1D38						
+0x4A7D1ECB						
+0x4A915CF4						
+0x4B915E87						
+0x4C7D21F1						
+0x4D9161AD						
+0x62CF1DEC						
+0x63CF1F7F						
+0x64CF2112						
+0x65CE8B38						
+0x874C44C7						
+0x884C465A						
+0x894C47ED						
+0x8E48B373						
+0x8F48B506						
+0x9048B699						
+0x914B64B0						
+0x951244D7						
+0xA2ED445C						
+0xAFF0B03C						
+0xB0F0B1CF						
+0xB1889918						
+0xB1F0B362						
+0xC41D9790						
+0xC61D9AB6						
+0xC71D9C49						
+0xC8611171						
+0xD82A85C8						
+0xD92A875B						
+0xDA2A88EE						
+0xDCA77A43						
+0xDDA77BD6						
+0xDEA77D69						
+0xE4DD316C						
+0xE6DD3492						
+0xE7306137						
+0xE7DD3625						
+0xE83062CA						
+0xE930645D						
+0xF0C8A6A4						
+0xF0E23994						
+0xF0E23B47						
+0xF1C8A837						
+0xF239D433						
+0xF239EA4A						
+0xF23CEF6F						
+0xF370E259						
+0xF3C8AB5D						
+0xF8459FD8						
+0xF945A16B						
+0xFA45A2FE						
 						
 						
 						
@@ -4609,3 +4680,141 @@
 0x7B4DC9317B022344						SYS_WORK_FREEZER_WAIT_MODE
 0x722778AC93868FC6						SYS_WORK_FIRE_FIRST
 0x48FBCA6D4FD773E2						SYS_WORK_THUNDER_FIRST
+0x034B256C				KSparringGrassPartySlot2EC		
+0x03C550C3				KSparringSteelPartySlot3EC		
+0x044B26FF				KSparringGrassPartySlot1EC		
+0x04C55256				KSparringSteelPartySlot2EC		
+0x05C553E9				KSparringSteelPartySlot1EC		
+0x064B2A25				KSparringGrassPartySlot3EC		
+0x0B90EFF8						
+0x0BFDEBA1				KGameLanguage		
+0x0D477836				KBattleTowerDoublesVictory		
+0x0D591902						
+0x0E591A95						
+0x0F591C28						
+0x10591DBB						
+0x11591F4E						
+0x125920E1						
+0x12C96CFC				KSparringGhostPartySlot3EC		
+0x13592274						
+0x14592407						
+0x14C97022				KSparringGhostPartySlot1EC		
+0x151AE138				KSparringPoisonPartySlot3EC		
+0x1559259A						
+0x15C971B5				KSparringGhostPartySlot2EC		
+0x1659272D						
+0x171AE45E				KSparringPoisonPartySlot1EC		
+0x181AE5F1				KSparringPoisonPartySlot2EC		
+0x1A961810				KSparringDragonPartySlot2EC		
+0x1B9619A3				KSparringDragonPartySlot1EC		
+0x1BE94648				KSparringWaterPartySlot3EC		
+0x1D482A63				KVolumePokemonCries		
+0x1D961CC9				KSparringDragonPartySlot3EC		
+0x1DE9496E				KSparringWaterPartySlot1EC		
+0x1EE94B01				KSparringWaterPartySlot2EC		
+0x1F637658				KSparringFirePartySlot1EC		
+0x206377EB				KSparringFirePartySlot2EC		
+0x2163797E				KSparringFirePartySlot3EC		
+0x2575BD5B						
+0x26A1BEDE				KOptionGiveNicknames		
+0x2846B7DB				KOptionCameraVertical		
+0x29036436						
+0x2FC2FD50				KSparringElectricPartySlot1EC		
+0x30C2FEE3				KSparringElectricPartySlot2EC		
+0x31C30076				KSparringElectricPartySlot3EC		
+0x33068788						
+0x3B23B1E2				KOptionCasualControls		
+0x4192B91C				KSparringFlyingPartySlot2EC		
+0x4292BAAF				KSparringFlyingPartySlot1EC		
+0x436CAF2B				KBattleTowerSinglesVictory		
+0x4492BDD5				KSparringFlyingPartySlot3EC		
+0x4BC891F4						
+0x54D5CDC4				KSparringRockPartySlot1EC		
+0x55D5CF57				KSparringRockPartySlot2EC		
+0x56D5D0EA				KSparringRockPartySlot3EC		
+0x5ECE9F76						
+0x5FCEA109						
+0x62A0A180				KSparringFightingPartySlot1EC		
+0x62F05895				KVolumeSoundEffects		
+0x63A0A313				KSparringFightingPartySlot2EC		
+0x64A0A4A6				KSparringFightingPartySlot3EC		
+0x64CEA8E8						
+0x65CEAA7B						
+0x66CEAC0E						
+0x67CEADA1						
+0x68CEAF34						
+0x69CEB0C7						
+0x6ACEB25A						
+0x6BCEB3ED						
+0x765468C3				KOptionBattleStyle		
+0x79151C13						
+0x79C56A5C				KOptionUseGyroscope		
+0x7A7A3480				KSparringBugPartySlot2EC		
+0x7A9EF7D9				KRecordBattleVersion		
+0x7B7A3613				KSparringBugPartySlot1EC		
+0x7D249649				KOptionCameraHorizontal		
+0x7D7A3939				KSparringBugPartySlot3EC		
+0x7F4B4B10				KMaxLairEndlessStreak		
+0x85FDF16A						
+0x865605E6						
+0x87560779						
+0x876D7A3B				KSparringPsychicPartySlot3EC		
+0x886D7BCE				KSparringPsychicPartySlot2EC		
+0x896D7D61				KSparringPsychicPartySlot1EC		
+0x8A4C1426						
+0x8A4C178C						
+0x8A4C193F						
+0x8A4C1CA5						
+0x8C560F58						
+0x8D5610EB						
+0x8E56127E						
+0x8F561411						
+0x905615A4						
+0x91561737						
+0x925618CA						
+0x92EB0306				KOptionTextSpeed		
+0x93561A5D						
+0x97D712D3						
+0x982972C2						
+0x9C781AE2				KOptionShowMoves		
+0xA1F76014				KSparringDarkPartySlot1EC		
+0xA2F761A7				KSparringDarkPartySlot2EC		
+0xA3F7633A				KSparringDarkPartySlot3EC		
+0xA7301FBD						
+0xA9B04C50						
+0xB027F396				KOptionAutoSave		
+0xB1C7C436				KOptionSendToBoxes		
+0xB8495C0F				KSparringGroundPartySlot3EC		
+0xB9495DA2				KSparringGroundPartySlot2EC		
+0xB9C0ECFC				KRecordCramorantRobo		
+0xBA495F35				KSparringGroundPartySlot1EC		
+0xBF17C11F				KSparringFairyPartySlot3EC		
+0xC017C2B2				KSparringFairyPartySlot2EC		
+0xC117C445				KSparringFairyPartySlot1EC		
+0xCA8A8CEE				KOptionShowNicknames		
+0xCCC153CD				KOptionBattleEffects		
+0xCF5BC550				KSparringStreakDark		
+0xD05BC6E3				KSparringStreakFairy		
+0xD15BC876				KSparringStreakIce		
+0xD25BCA09				KSparringStreakDragon		
+0xD25E08A0				KSparringStreakFire		
+0xD35BCB9C				KSparringStreakElectric		
+0xD35E0A33				KSparringStreakSteel		
+0xD45BCD2F				KSparringStreakPsychic		
+0xD55BCEC2				KSparringStreakWater		
+0xD65BD055				KSparringStreakGrass		
+0xDA5E1538				KSparringStreakFighting		
+0xDB5E16CB				KSparringStreakNormal		
+0xDC5E185E				KSparringStreakPoison		
+0xDD5E19F1				KSparringStreakFlying		
+0xDE5E1B84				KSparringStreakRock		
+0xDF5E1D17				KSparringStreakGround		
+0xE05E1EAA				KSparringStreakGhost		
+0xE15E203D				KSparringStreakBug		
+0xE75196AB				KSparringNormalPartySlot3EC		
+0xE851983E				KSparringNormalPartySlot2EC		
+0xE95199D1				KSparringNormalPartySlot1EC		
+0xEDCE8E4C				KSparringIcePartySlot3EC		
+0xEFCE9172				KSparringIcePartySlot1EC		
+0xF0CE9305				KSparringIcePartySlot2EC		
+0xF8154AC9				KVolumeBackgroundMusic		
