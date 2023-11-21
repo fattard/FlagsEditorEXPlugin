@@ -34,12 +34,12 @@
             cancelBtn = new Button();
             saveBtn = new Button();
             dataGridView = new DataGridView();
-            blockSourceCombo = new ComboBox();
-            selectBlockLabel = new Label();
-            itemIIndexSelectionCombo = new ComboBox();
             dgv_ref = new DataGridViewTextBoxColumn();
             dgv_location = new DataGridViewTextBoxColumn();
             dgv_item = new DataGridViewComboBoxColumn();
+            blockSourceCombo = new ComboBox();
+            selectBlockLabel = new Label();
+            itemIIndexSelectionCombo = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
             SuspendLayout();
             // 
@@ -118,36 +118,6 @@
             dataGridView.Size = new Size(933, 415);
             dataGridView.TabIndex = 15;
             // 
-            // blockSourceCombo
-            // 
-            blockSourceCombo.DropDownStyle = ComboBoxStyle.DropDownList;
-            blockSourceCombo.FormattingEnabled = true;
-            blockSourceCombo.Location = new Point(301, 12);
-            blockSourceCombo.Name = "blockSourceCombo";
-            blockSourceCombo.Size = new Size(277, 23);
-            blockSourceCombo.TabIndex = 25;
-            blockSourceCombo.SelectedIndexChanged += BlockSourceCombo_SelectedIndexChanged;
-            // 
-            // selectBlockLabel
-            // 
-            selectBlockLabel.AutoSize = true;
-            selectBlockLabel.Location = new Point(187, 15);
-            selectBlockLabel.Name = "selectBlockLabel";
-            selectBlockLabel.Size = new Size(108, 15);
-            selectBlockLabel.TabIndex = 26;
-            selectBlockLabel.Text = "Select block source";
-            selectBlockLabel.TextAlign = ContentAlignment.TopRight;
-            // 
-            // itemIIndexSelectionCombo
-            // 
-            itemIIndexSelectionCombo.DropDownStyle = ComboBoxStyle.DropDownList;
-            itemIIndexSelectionCombo.FormattingEnabled = true;
-            itemIIndexSelectionCombo.Location = new Point(543, 503);
-            itemIIndexSelectionCombo.Name = "itemIIndexSelectionCombo";
-            itemIIndexSelectionCombo.Size = new Size(250, 23);
-            itemIIndexSelectionCombo.TabIndex = 27;
-            itemIIndexSelectionCombo.SelectedIndexChanged += ItemIIndexSelectionCombo_SelectedIndexChanged;
-            // 
             // dgv_ref
             // 
             dgv_ref.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
@@ -172,6 +142,35 @@
             dgv_item.MaxDropDownItems = 100;
             dgv_item.Name = "dgv_item";
             dgv_item.Width = 79;
+            // 
+            // blockSourceCombo
+            // 
+            blockSourceCombo.DropDownStyle = ComboBoxStyle.DropDownList;
+            blockSourceCombo.FormattingEnabled = true;
+            blockSourceCombo.Location = new Point(301, 12);
+            blockSourceCombo.Name = "blockSourceCombo";
+            blockSourceCombo.Size = new Size(277, 23);
+            blockSourceCombo.TabIndex = 25;
+            blockSourceCombo.SelectedIndexChanged += BlockSourceCombo_SelectedIndexChanged;
+            // 
+            // selectBlockLabel
+            // 
+            selectBlockLabel.Location = new Point(107, 15);
+            selectBlockLabel.Name = "selectBlockLabel";
+            selectBlockLabel.Size = new Size(188, 15);
+            selectBlockLabel.TabIndex = 26;
+            selectBlockLabel.Text = "Select block source";
+            selectBlockLabel.TextAlign = ContentAlignment.TopRight;
+            // 
+            // itemIIndexSelectionCombo
+            // 
+            itemIIndexSelectionCombo.DropDownStyle = ComboBoxStyle.DropDownList;
+            itemIIndexSelectionCombo.FormattingEnabled = true;
+            itemIIndexSelectionCombo.Location = new Point(543, 503);
+            itemIIndexSelectionCombo.Name = "itemIIndexSelectionCombo";
+            itemIIndexSelectionCombo.Size = new Size(250, 23);
+            itemIIndexSelectionCombo.TabIndex = 27;
+            itemIIndexSelectionCombo.SelectedIndexChanged += ItemIIndexSelectionCombo_SelectedIndexChanged;
             // 
             // DailyHiddenItemsEditorSV
             // 
