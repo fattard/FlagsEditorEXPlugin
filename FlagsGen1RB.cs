@@ -544,7 +544,7 @@
                     }
                 }
 
-                SyncEditedFlags(fGroup.SourceIdx);
+                SyncEditedFlags(fGroup);
             }
         }
 
@@ -566,7 +566,7 @@
                     }
                 }
 
-                SyncEditedFlags(fGroup.SourceIdx);
+                SyncEditedFlags(fGroup);
             }
         }
 
@@ -588,7 +588,7 @@
                     }
                 }
 
-                SyncEditedFlags(fGroup.SourceIdx);
+                SyncEditedFlags(fGroup);
             }
 
             // Fix simple HS flags
@@ -745,7 +745,7 @@
                     }
                 }
 
-                SyncEditedFlags(fGroup.SourceIdx);
+                SyncEditedFlags(fGroup);
             }
         }
 
@@ -766,7 +766,7 @@
                     }
                 }
 
-                SyncEditedFlags(fGroup.SourceIdx);
+                SyncEditedFlags(fGroup);
             }
         }
 
@@ -789,7 +789,7 @@
                     }
                 }
 
-                SyncEditedFlags(fGroup.SourceIdx);
+                SyncEditedFlags(fGroup);
             }
 
             // Fix simple HS flags
@@ -864,7 +864,7 @@
                     }
                 }
 
-                SyncEditedFlags(fGroup.SourceIdx);
+                SyncEditedFlags(fGroup);
             }
 
             // Fix Karate Master flag
@@ -893,65 +893,57 @@
                     }
                 }
 
-                SyncEditedFlags(fGroup.SourceIdx);
+                SyncEditedFlags(fGroup);
             }
         }
 
-        public override void SyncEditedFlags(int sourceIdx)
+        public override void SyncEditedFlags(FlagsGroup fGroup)
         {
-            foreach (var fGroup in m_flagsGroupsList)
+            int _offset = 0;
+
+            switch (fGroup.SourceIdx)
             {
-                if (fGroup.SourceIdx == sourceIdx)
-                {
-                    int _offset = 0;
-
-                    switch (fGroup.SourceIdx)
-                    {
-                        case Src_EventFlags:
-                            _offset = EventFlagsOffset;
-                            break;
-
-                        case Src_HideShowFlags:
-                            _offset = MissableObjectFlagsOffset;
-                            break;
-
-                        case Src_HiddenItemFlags:
-                            _offset = ObtainedHiddenItemsOffset;
-                            break;
-
-                        case Src_HiddenCoinsFlags:
-                            _offset = ObtainedHiddenCoinsOffset;
-                            break;
-
-                        case Src_TradeFlags:
-                            _offset = CompletedInGameTradeFlagsOffset;
-                            break;
-
-                        case Src_FlySpotFlags:
-                            _offset = FlySpotFlagsOffset;
-                            break;
-
-                        case Src_BadgesFlags:
-                            _offset = BadgeFlagsOffset;
-                            break;
-
-                        case Src_Misc_wd728:
-                            _offset = RodFlagsOffset;
-                            break;
-
-                        case Src_Misc_wd72e:
-                            _offset = LaprasFlagOffset;
-                            break;
-                    }
-
-                    foreach (var f in fGroup.Flags)
-                    {
-                        int idx = (int)f.FlagIdx;
-                        m_savFile!.SetFlag(_offset + (idx >> 3), idx & 7, f.IsSet);
-                    }
-
+                case Src_EventFlags:
+                    _offset = EventFlagsOffset;
                     break;
-                }
+
+                case Src_HideShowFlags:
+                    _offset = MissableObjectFlagsOffset;
+                    break;
+
+                case Src_HiddenItemFlags:
+                    _offset = ObtainedHiddenItemsOffset;
+                    break;
+
+                case Src_HiddenCoinsFlags:
+                    _offset = ObtainedHiddenCoinsOffset;
+                    break;
+
+                case Src_TradeFlags:
+                    _offset = CompletedInGameTradeFlagsOffset;
+                    break;
+
+                case Src_FlySpotFlags:
+                    _offset = FlySpotFlagsOffset;
+                    break;
+
+                case Src_BadgesFlags:
+                    _offset = BadgeFlagsOffset;
+                    break;
+
+                case Src_Misc_wd728:
+                    _offset = RodFlagsOffset;
+                    break;
+
+                case Src_Misc_wd72e:
+                    _offset = LaprasFlagOffset;
+                    break;
+            }
+
+            foreach (var f in fGroup.Flags)
+            {
+                int idx = (int)f.FlagIdx;
+                m_savFile!.SetFlag(_offset + (idx >> 3), idx & 7, f.IsSet);
             }
         }
 

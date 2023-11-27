@@ -36,7 +36,7 @@
                 m_flagsList[i].IsSet = m_editableFlagsList[i].IsSet;
             }
 
-            m_organizer.SyncEditedFlags(m_curFlagsGroup.SourceIdx);
+            m_organizer.SyncEditedFlags(m_curFlagsGroup);
 
             Close();
         }

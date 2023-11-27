@@ -255,14 +255,14 @@
 
         bool GetSysFlag(int idx)
         {
-            var entry = m_sysFlagsTbl[idx];
-            return m_savFile!.GetFlag(entry.offset + (entry.flagIdx >> 3), entry.flagIdx & 7);
+            var (offset, flagIdx) = m_sysFlagsTbl[idx];
+            return m_savFile!.GetFlag(offset + (flagIdx >> 3), flagIdx & 7);
         }
 
         void SetSysFlag(int idx, bool value)
         {
-            var entry = m_sysFlagsTbl[idx];
-            m_savFile!.SetFlag(entry.offset + (entry.flagIdx >> 3), entry.flagIdx & 7, value);
+            var (offset, flagIdx) = m_sysFlagsTbl[idx];
+            m_savFile!.SetFlag(offset + (flagIdx >> 3), flagIdx & 7, value);
         }
 
         public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
@@ -333,50 +333,42 @@
             }
         }
 
-        public override void SyncEditedFlags(int sourceIdx)
+        public override void SyncEditedFlags(FlagsGroup fGroup)
         {
             var flagHelper = (IEventFlagArray)m_savFile!;
 
-            foreach (var fGroup in m_flagsGroupsList)
+            switch (fGroup.SourceIdx)
             {
-                if (fGroup.SourceIdx == sourceIdx)
-                {
-                    switch (fGroup.SourceIdx)
+                case Src_EventFlags:
+                    foreach (var f in fGroup.Flags)
                     {
-                        case Src_EventFlags:
-                            foreach (var f in fGroup.Flags)
-                            {
-                                flagHelper.SetEventFlag((int)f.FlagIdx, f.IsSet);
-                            }
-                            break;
-
-                        case Src_TradeFlags:
-                            foreach (var f in fGroup.Flags)
-                            {
-                                int fIdx = (int)f.FlagIdx;
-                                m_savFile!.SetFlag(TradeFlagsOffset + (fIdx >> 3), fIdx & 7, f.IsSet);
-                            }
-                            break;
-
-                        case Src_BerryTreeFlags:
-                            foreach (var f in fGroup.Flags)
-                            {
-                                int fIdx = (int)f.FlagIdx;
-                                m_savFile!.SetFlag(BerryTreeFlagsOffset + (fIdx >> 3), fIdx & 7, f.IsSet);
-                            }
-                            break;
-
-                        case Src_SysFlags:
-                            foreach (var f in fGroup.Flags)
-                            {
-                                int fIdx = (int)f.FlagIdx;
-                                SetSysFlag(fIdx, f.IsSet);
-                            }
-                            break;
+                        flagHelper.SetEventFlag((int)f.FlagIdx, f.IsSet);
                     }
-
                     break;
-                }
+
+                case Src_TradeFlags:
+                    foreach (var f in fGroup.Flags)
+                    {
+                        int fIdx = (int)f.FlagIdx;
+                        m_savFile!.SetFlag(TradeFlagsOffset + (fIdx >> 3), fIdx & 7, f.IsSet);
+                    }
+                    break;
+
+                case Src_BerryTreeFlags:
+                    foreach (var f in fGroup.Flags)
+                    {
+                        int fIdx = (int)f.FlagIdx;
+                        m_savFile!.SetFlag(BerryTreeFlagsOffset + (fIdx >> 3), fIdx & 7, f.IsSet);
+                    }
+                    break;
+
+                case Src_SysFlags:
+                    foreach (var f in fGroup.Flags)
+                    {
+                        int fIdx = (int)f.FlagIdx;
+                        SetSysFlag(fIdx, f.IsSet);
+                    }
+                    break;
             }
         }
 

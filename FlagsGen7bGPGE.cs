@@ -70,26 +70,18 @@
             }
         }
 
-        public override void SyncEditedFlags(int sourceIdx)
+        public override void SyncEditedFlags(FlagsGroup fGroup)
         {
             var flagHelper = (IEventFlagArray)m_savFile!;
 
-            foreach (var fGroup in m_flagsGroupsList)
+            switch (fGroup.SourceIdx)
             {
-                if (fGroup.SourceIdx == sourceIdx)
-                {
-                    switch (fGroup.SourceIdx)
+                case 0: // Event Flags
+                    foreach (var f in fGroup.Flags)
                     {
-                        case 0: // Event Flags
-                            foreach (var f in fGroup.Flags)
-                            {
-                                flagHelper.SetEventFlag((int)f.FlagIdx, f.IsSet);
-                            }
-                            break;
+                        flagHelper.SetEventFlag((int)f.FlagIdx, f.IsSet);
                     }
-
                     break;
-                }
             }
         }
 

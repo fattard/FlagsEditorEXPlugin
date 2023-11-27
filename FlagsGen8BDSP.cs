@@ -102,38 +102,30 @@
             }
         }
 
-        public override void SyncEditedFlags(int sourceIdx)
+        public override void SyncEditedFlags(FlagsGroup fGroup)
         {
-            foreach (var fGroup in m_flagsGroupsList)
+            switch (fGroup.SourceIdx)
             {
-                if (fGroup.SourceIdx == sourceIdx)
-                {
-                    switch (fGroup.SourceIdx)
+                case Src_EventFlags:
+                    foreach (var f in fGroup.Flags)
                     {
-                        case Src_EventFlags:
-                            foreach (var f in fGroup.Flags)
-                            {
-                                m_flagWork!.SetFlag((int)f.FlagIdx, f.IsSet);
-                            }
-                            break;
-
-                        case Src_SysFlags:
-                            foreach (var f in fGroup.Flags)
-                            {
-                                m_flagWork!.SetSystemFlag((int)f.FlagIdx, f.IsSet);
-                            }
-                            break;
-
-                        case Src_TrainerFlags:
-                            foreach (var f in fGroup.Flags)
-                            {
-                                m_battleTrainerStatus!.SetIsWin((int)f.FlagIdx, f.IsSet);
-                            }
-                            break;
+                        m_flagWork!.SetFlag((int)f.FlagIdx, f.IsSet);
                     }
-
                     break;
-                }
+
+                case Src_SysFlags:
+                    foreach (var f in fGroup.Flags)
+                    {
+                        m_flagWork!.SetSystemFlag((int)f.FlagIdx, f.IsSet);
+                    }
+                    break;
+
+                case Src_TrainerFlags:
+                    foreach (var f in fGroup.Flags)
+                    {
+                        m_battleTrainerStatus!.SetIsWin((int)f.FlagIdx, f.IsSet);
+                    }
+                    break;
             }
         }
 

@@ -146,26 +146,18 @@
             }
         }
 
-        public override void SyncEditedFlags(int sourceIdx)
+        public override void SyncEditedFlags(FlagsGroup fGroup)
         {
             var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
-            foreach (var fGroup in m_flagsGroupsList)
+            switch (fGroup.SourceIdx)
             {
-                if (fGroup.SourceIdx == sourceIdx)
-                {
-                    switch (fGroup.SourceIdx)
+                case 0: // Event Flags
+                    foreach (var f in fGroup.Flags)
                     {
-                        case 0: // Event Flags
-                            foreach (var f in fGroup.Flags)
-                            {
-                                savEventBlocks.GetBlockSafe((uint)f.FlagIdx).ChangeBooleanType(f.IsSet ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
-                            }
-                            break;
+                        savEventBlocks.GetBlockSafe((uint)f.FlagIdx).ChangeBooleanType(f.IsSet ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
                     }
-
                     break;
-                }
             }
         }
 

@@ -27,8 +27,8 @@
                 0xA07A4B1D,
         };
 
-        List<FlagDetail> m_unavailableFlagBlocks = new List<FlagDetail>();
-        List<WorkDetail> m_unavailableWorkBlocks = new List<WorkDetail>();
+        readonly List<FlagDetail> m_unavailableFlagBlocks = new List<FlagDetail>();
+        readonly List<WorkDetail> m_unavailableWorkBlocks = new List<WorkDetail>();
 
         protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
@@ -393,7 +393,7 @@
                                 }
                             }
 
-                            SyncEditedFlags(Src_FieldItemFlags);
+                            SyncEditedFlags(m_flagsGroupsList[Src_FieldItemFlags]);
                         }
                         break;
 
@@ -407,7 +407,7 @@
                                 }
                             }
 
-                            SyncEditedFlags(Src_HiddenItemFlags);*/
+                            SyncEditedFlags(m_flagsGroupsList[Src_HiddenItemFlags]);*/
 
                             var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
@@ -444,7 +444,7 @@
                                 }
                             }
 
-                            SyncEditedFlags(Src_TrainerFlags);
+                            SyncEditedFlags(m_flagsGroupsList[Src_TrainerFlags]);
                         }
                         break;
 
@@ -463,7 +463,7 @@
                                 }
                             }
 
-                            SyncEditedFlags(Src_EventFlags);
+                            SyncEditedFlags(m_flagsGroupsList[Src_EventFlags]);
                         }
                         break;
                 }
@@ -479,107 +479,99 @@
             };
         }
 
-        public override void SyncEditedFlags(int sourceIdx)
+        public override void SyncEditedFlags(FlagsGroup fGroup)
         {
             var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
-            foreach (var fGroup in m_flagsGroupsList)
+            switch (fGroup.SourceIdx)
             {
-                if (fGroup.SourceIdx == sourceIdx)
-                {
-                    switch (fGroup.SourceIdx)
+                case Src_EventFlags:
+                    foreach (var f in fGroup.Flags)
                     {
-                        case Src_EventFlags:
-                            foreach (var f in fGroup.Flags)
-                            {
-                                savEventBlocks.GetBlockSafe((uint)f.FlagIdx).ChangeBooleanType(f.IsSet ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
-                            }
-                            break;
+                        savEventBlocks.GetBlockSafe((uint)f.FlagIdx).ChangeBooleanType(f.IsSet ? SCTypeCode.Bool2 : SCTypeCode.Bool1);
+                    }
+                    break;
 
-                        case Src_FieldItemFlags:
+                case Src_FieldItemFlags:
+                    {
+                        var bdata = savEventBlocks.GetBlockSafe(0x2482AD60).Data;
+                        using (var ms = new System.IO.MemoryStream(bdata))
+                        {
+                            using (var writer = new System.IO.BinaryWriter(ms))
                             {
-                                var bdata = savEventBlocks.GetBlockSafe(0x2482AD60).Data;
-                                using (var ms = new System.IO.MemoryStream(bdata))
-                                {
-                                    using (var writer = new System.IO.BinaryWriter(ms))
-                                    {
-                                        foreach (var f in fGroup.Flags)
-                                        {
-                                            if (ms.Position < ms.Length)
-                                            {
-                                                writer.Write(f.FlagIdx);
-                                                writer.Write(f.IsSet ? (ulong)1 : (ulong)0);
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                            break;
-
-                        case Src_HiddenItemFlags:
-                            {
-                                List<byte[]> tBlocks = new List<byte[]>(HiddenItemsBlockKeys.Length);
-                                foreach (var _ in HiddenItemsBlockKeys)
-                                    tBlocks.Add(savEventBlocks.GetBlockSafe(_).Data);
-
                                 foreach (var f in fGroup.Flags)
                                 {
-                                    int k = (int)(f.FlagIdx >> 12);
-
-                                    var data = tBlocks[k];
-                                    data[(int)(f.FlagIdx & 1023)] = f.IsSet ? (byte)0 : (byte)0x80;
-                                }
-                            }
-                            break;
-
-                        case Src_TrainerFlags:
-                            {
-                                var bdata1 = savEventBlocks.GetBlockSafe(0xF018C4AC).Data;
-                                var bdata2 = savEventBlocks.GetBlockSafe(0x28E475DE).Data;
-
-                                using (var ms1 = new System.IO.MemoryStream(bdata1))
-                                using (var ms2 = new System.IO.MemoryStream(bdata2))
-                                {
-                                    using (var writer1 = new System.IO.BinaryWriter(ms1))
-                                    using (var writer2 = new System.IO.BinaryWriter(ms2))
+                                    if (ms.Position < ms.Length)
                                     {
-                                        foreach (var f in fGroup.Flags)
-                                        {
-                                            if (f.IsSet)
-                                            {
-                                                if (ms1.Position < ms1.Length)
-                                                {
-                                                    writer1.Write(f.FlagIdx);
-                                                    writer1.Write(f.IsSet ? (ulong)1 : (ulong)0);
-                                                }
-                                                else if (ms2.Position < ms2.Length)
-                                                {
-                                                    writer2.Write(f.FlagIdx);
-                                                    writer2.Write(f.IsSet ? (ulong)1 : (ulong)0);
-                                                }
-                                            }
-                                        }
-
-                                        // fill blanks
-                                        while (ms1.Position < ms1.Length)
-                                        {
-                                            writer1.Write(0xCBF29CE484222645);
-                                            writer1.Write((ulong)0);
-                                        }
-                                        while (ms2.Position < ms2.Length)
-                                        {
-                                            writer2.Write(0xCBF29CE484222645);
-                                            writer2.Write((ulong)0);
-                                        }
-
+                                        writer.Write(f.FlagIdx);
+                                        writer.Write(f.IsSet ? (ulong)1 : (ulong)0);
                                     }
                                 }
                             }
-                            break;
+                        }
                     }
-
                     break;
-                }
+
+                case Src_HiddenItemFlags:
+                    {
+                        List<byte[]> tBlocks = new List<byte[]>(HiddenItemsBlockKeys.Length);
+                        foreach (var _ in HiddenItemsBlockKeys)
+                            tBlocks.Add(savEventBlocks.GetBlockSafe(_).Data);
+
+                        foreach (var f in fGroup.Flags)
+                        {
+                            int k = (int)(f.FlagIdx >> 12);
+
+                            var data = tBlocks[k];
+                            data[(int)(f.FlagIdx & 1023)] = f.IsSet ? (byte)0 : (byte)0x80;
+                        }
+                    }
+                    break;
+
+                case Src_TrainerFlags:
+                    {
+                        var bdata1 = savEventBlocks.GetBlockSafe(0xF018C4AC).Data;
+                        var bdata2 = savEventBlocks.GetBlockSafe(0x28E475DE).Data;
+
+                        using (var ms1 = new System.IO.MemoryStream(bdata1))
+                        using (var ms2 = new System.IO.MemoryStream(bdata2))
+                        {
+                            using (var writer1 = new System.IO.BinaryWriter(ms1))
+                            using (var writer2 = new System.IO.BinaryWriter(ms2))
+                            {
+                                foreach (var f in fGroup.Flags)
+                                {
+                                    if (f.IsSet)
+                                    {
+                                        if (ms1.Position < ms1.Length)
+                                        {
+                                            writer1.Write(f.FlagIdx);
+                                            writer1.Write(f.IsSet ? (ulong)1 : (ulong)0);
+                                        }
+                                        else if (ms2.Position < ms2.Length)
+                                        {
+                                            writer2.Write(f.FlagIdx);
+                                            writer2.Write(f.IsSet ? (ulong)1 : (ulong)0);
+                                        }
+                                    }
+                                }
+
+                                // fill blanks
+                                while (ms1.Position < ms1.Length)
+                                {
+                                    writer1.Write(0xCBF29CE484222645);
+                                    writer1.Write((ulong)0);
+                                }
+                                while (ms2.Position < ms2.Length)
+                                {
+                                    writer2.Write(0xCBF29CE484222645);
+                                    writer2.Write((ulong)0);
+                                }
+
+                            }
+                        }
+                    }
+                    break;
             }
         }
 

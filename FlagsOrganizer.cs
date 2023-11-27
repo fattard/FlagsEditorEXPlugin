@@ -413,7 +413,7 @@
         public abstract void BulkMarkFlags(EventFlagType flagType);
         public abstract void BulkUnmarkFlags(EventFlagType flagType);
         public abstract bool SupportsBulkEditingFlags(EventFlagType flagType);
-        public abstract void SyncEditedFlags(int sourceIdx);
+        public abstract void SyncEditedFlags(FlagsGroup fGroup);
         public abstract void SyncEditedEventWork();
 
         #endregion
