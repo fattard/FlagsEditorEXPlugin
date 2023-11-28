@@ -77,7 +77,6 @@
             ctrl.Enabled = savData.Version switch
             {
                 GameVersion.Any or
-                GameVersion.RBY or
                 GameVersion.StadiumJ or
                 GameVersion.Stadium or
                 GameVersion.Stadium2 or

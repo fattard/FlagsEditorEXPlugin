@@ -484,7 +484,6 @@
             FlagsOrganizer? flagsOrganizer = savFile.Version switch
             {
                 GameVersion.Any or
-                GameVersion.RBY or
                 GameVersion.StadiumJ or
                 GameVersion.Stadium or
                 GameVersion.Stadium2 or
@@ -503,7 +502,9 @@
                 GameVersion.RD or
                 GameVersion.GN or
                 GameVersion.BU or
-                GameVersion.RB
+                GameVersion.RB or
+                GameVersion.RBY
+
                     => new FlagsGen1RB(),
 
                 GameVersion.YW
