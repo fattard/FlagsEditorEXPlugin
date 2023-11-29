@@ -29,7 +29,7 @@
 0x001B	EVENT					EVENT_GOT_CYNDAQUIL_FROM_ELM
 0x001C	EVENT					EVENT_GOT_TOTODILE_FROM_ELM
 0x001D	EVENT					EVENT_GOT_CHIKORITA_FROM_ELM
-0x001E	ITEM GIFT	Route 30	Mr. Pokémon's House	Received Mystery Egg from Mr. Pokémon		EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
+0x001E	STORY EVENT	Route 30	Mr. Pokémon's House	Received Mystery Egg from Mr. Pokémon		EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
 0x001F	STORY EVENT	New Bark Town	Elm's Lab	Delivered Mystery Egg to Elm		EVENT_GAVE_MYSTERY_EGG_TO_ELM
 0x0020	EVENT					EVENT_JASMINE_RETURNED_TO_GYM
 0x0021	STORY EVENT	Goldenrod Radio Tower		Cleared Radio Tower takeover event		EVENT_CLEARED_RADIO_TOWER
@@ -40,7 +40,7 @@
 0x0026	EVENT					EVENT_REFUSED_TO_HELP_LANCE_AT_LAKE_OF_RAGE
 0x0027	ITEM GIFT	Route 30	House	Received Berry from guy		EVENT_GOT_BERRY_FROM_ROUTE_30_HOUSE
 0x0028	EVENT					EVENT_MADE_WHITNEY_CRY
-0x0029	EVENT					EVENT_HERDED_FARFETCHD
+0x0029	STORY EVENT	Ilex Forest		Herded the Farfetch'd		EVENT_HERDED_FARFETCHD
 0x002A	STATIC ENCOUNTER	Route 36		Captured/Defeated Sudowoodo		EVENT_FOUGHT_SUDOWOODO
 0x002B	STORY EVENT	Slowpoke Well		Cleared Team Rocket in Slowpoke Well event		EVENT_CLEARED_SLOWPOKE_WELL
 0x002C	EVENT					EVENT_REFUSED_TO_TAKE_EGG_FROM_ELMS_AIDE
@@ -73,7 +73,7 @@
 0x0047	ITEM GIFT	Goldenrod Radio Tower	3F	Received TM11 (Sunny Day) from woman		EVENT_GOT_SUNNY_DAY_FROM_RADIO_TOWER
 0x0048	ITEM GIFT	Goldenrod Radio Tower	4F	Received Pink Bow from Mary		EVENT_GOT_PINK_BOW_FROM_MARY
 0x0049	EVENT					EVENT_USED_BASEMENT_KEY
-0x004A	ITEM GIFT	Goldenrod Tunnel	Warehouse	Received Card Key from Radio Director		EVENT_RECEIVED_CARD_KEY
+0x004A	STORY EVENT	Goldenrod Tunnel	Warehouse	Received Card Key from Radio Director		EVENT_RECEIVED_CARD_KEY
 0x004B	ITEM GIFT	Route 36		Received TM08 (Rock Smash) from man		EVENT_GOT_TM08_ROCK_SMASH
 0x004C	EVENT					EVENT_LANCE_HEALED_YOU_IN_TEAM_ROCKET_BASE
 0x004D	ITEM GIFT	Cherrygrove City		Received Mystic Water from man on islet		EVENT_GOT_MYSTIC_WATER_IN_CHERRYGROVE
@@ -112,15 +112,15 @@
 0x006E	EVENT					EVENT_MET_MONICA_OF_MONDAY
 0x006F	ITEM GIFT	Route 40		Received Sharp Beak from Monica (Monday)		EVENT_GOT_SHARP_BEAK_FROM_MONICA
 0x0070	ITEM GIFT	Route 34		Received Soft Sand from Kate		EVENT_GOT_SOFT_SAND_FROM_KATE
-0x0071	ITEM GIFT	S.S. Aqua		Received Metal Coat from grandpa		EVENT_GOT_METAL_COAT_FROM_GRANDPA_ON_SS_AQUA
+0x0071	STORY EVENT	S.S. Aqua		Received Metal Coat from grandpa		EVENT_GOT_METAL_COAT_FROM_GRANDPA_ON_SS_AQUA
 0x0072	ITEM GIFT	Dark Cave		Received Black Glasses from man		EVENT_GOT_BLACKGLASSES_IN_DARK_CAVE
 0x0073	ITEM GIFT	Slowpoke Well	B2F	Received King's Rock from man		EVENT_GOT_KINGS_ROCK_IN_SLOWPOKE_WELL
 0x0074	ITEM GIFT	Route 28	House	Received TM47 (Steel Wing) from celebrity		EVENT_GOT_TM47_STEEL_WING
 0x0075	ITEM GIFT	Route 27	House by Tohjo Falls	Received TM37 (Sandstorm) from woman		EVENT_GOT_TM37_SANDSTORM
 0x0076	EVENT					EVENT_FIRST_TIME_BANKING_WITH_MOM
 0x0077	EVENT					EVENT_TOLD_ELM_ABOUT_TOGEPI_OVER_THE_PHONE
-0x0078	ITEM GIFT	Goldenrod Radio Tower (G) / Pewter City (S)		Received Rainbow Wing		EVENT_GOT_RAINBOW_WING
-0x0079	ITEM GIFT	Pewter City (G) / Goldenrod Radio Tower (S)		Received Silver Wing		EVENT_GOT_SILVER_WING
+0x0078	STORY EVENT	Goldenrod Radio Tower (G) / Pewter City (S)		Received Rainbow Wing		EVENT_GOT_RAINBOW_WING
+0x0079	STORY EVENT	Pewter City (G) / Goldenrod Radio Tower (S)		Received Silver Wing		EVENT_GOT_SILVER_WING
 0x007A	ITEM GIFT	Route 34	Gate	Received TM12 (Sweet Scent) from woman		EVENT_GOT_TM12_SWEET_SCENT
 0x007B	SIDE EVENT	Ecruteak City	Burned Tower	Released the Beasts		EVENT_RELEASED_THE_BEASTS
 0x007C	ITEM GIFT	New Bark Town	Elm's Lab	Received Master Ball from Elm		EVENT_GOT_MASTER_BALL_FROM_ELM
@@ -199,15 +199,15 @@
 0x00C5	_UNUSED					
 0x00C6	_UNUSED					
 0x00C7	_UNUSED					
-0x00C8	ITEM GIFT	Route 25		Received Nugget from Cooltrainer Kevin		EVENT_GOT_NUGGET_FROM_GUY
+0x00C8	ITEM GIFT	Route 2	House	Received Nugget from guy		EVENT_GOT_NUGGET_FROM_GUY
 0x00C9	EVENT					EVENT_RETURNED_MACHINE_PART
 0x00CA	EVENT					EVENT_MET_MANAGER_AT_POWER_PLANT
 0x00CB	EVENT					EVENT_MET_ROCKET_GRUNT_AT_CERULEAN_GYM
 0x00CC	SIDE EVENT	Pallet Town	Red's House	Met Red's mom		EVENT_MET_REDS_MOM
-0x00CD	STORY EVENT	Power Plant		Restore power to Kanto		EVENT_RESTORED_POWER_TO_KANTO
+0x00CD	STORY EVENT	Power Plant		Restored power to Kanto		EVENT_RESTORED_POWER_TO_KANTO
 0x00CE	ITEM GIFT	Celadon City	Game Corner	Received 18 coins from gambler		EVENT_GOT_COINS_FROM_GAMBLER_AT_CELADON
 0x00CF	EVENT					EVENT_MET_COPYCAT_FOUND_OUT_ABOUT_LOST_ITEM
-0x00D0	EVENT					EVENT_RETURNED_LOST_ITEM_TO_COPYCAT
+0x00D0	SIDE EVENT	Saffron City	Copycat's House	Returned Lost Item to Copycat		EVENT_RETURNED_LOST_ITEM_TO_COPYCAT
 0x00D1	ITEM GIFT	Saffron City	Copycat's House	Received Pass from Copycat		EVENT_GOT_PASS_FROM_COPYCAT
 0x00D2	ITEM GIFT	Vermilion City	Fan Club	Received Lost Item fom man		EVENT_GOT_LOST_ITEM_FROM_FAN_CLUB
 0x00D3	EVENT					EVENT_LISTENED_TO_FAN_CLUB_PRESIDENT_BUT_BAG_WAS_FULL
@@ -671,10 +671,10 @@
 0x029D	EVENT					EVENT_ERIN_ASKED_FOR_PHONE_NUMBER
 0x029E	EVENT					EVENT_ERIN_READY_FOR_REMATCH
 0x029F	_UNUSED					
-0x02A0	SIDE EVENT	Ruins of Alph		Solved Ho-Oh puzzle		EVENT_SOLVED_HO_OH_PUZZLE
-0x02A1	SIDE EVENT	Ruins of Alph		Solved Kabuto puzzle		EVENT_SOLVED_KABUTO_PUZZLE
-0x02A2	SIDE EVENT	Ruins of Alph		Solved Omanyte puzzle		EVENT_SOLVED_OMANYTE_PUZZLE
-0x02A3	SIDE EVENT	Ruins of Alph		Solved Aerodactyl puzzle		EVENT_SOLVED_AERODACTYL_PUZZLE
+0x02A0	SIDE EVENT	Ruins of Alph	Ho-Oh Chamber	Solved Ho-Oh puzzle		EVENT_SOLVED_HO_OH_PUZZLE
+0x02A1	SIDE EVENT	Ruins of Alph	Kabuto Chamber	Solved Kabuto puzzle		EVENT_SOLVED_KABUTO_PUZZLE
+0x02A2	SIDE EVENT	Ruins of Alph	Omanyte Chamber	Solved Omanyte puzzle		EVENT_SOLVED_OMANYTE_PUZZLE
+0x02A3	SIDE EVENT	Ruins of Alph	Aerodactyl Chamber	Solved Aerodactyl puzzle		EVENT_SOLVED_AERODACTYL_PUZZLE
 0x02A4	COLLECTABLE			DECO_BED_1		EVENT_DECO_BED_1
 0x02A5	COLLECTABLE			DECO_BED_2		EVENT_DECO_BED_2
 0x02A6	COLLECTABLE			DECO_BED_3		EVENT_DECO_BED_3
@@ -792,7 +792,7 @@
 0x0316	EVENT					EVENT_CONTEST_OFFICER_HAS_BERRY
 0x0317	STATIC ENCOUNTER	Tin Tower	Top	Captured/Defeated Ho-Oh		EVENT_FOUGHT_HO_OH
 0x0318	STATIC ENCOUNTER	Whirl Islands	B2F (Inner Cave)	Captured/Defeated Lugia		EVENT_FOUGHT_LUGIA
-0x0319	EVENT					EVENT_BEAT_RIVAL_IN_MT_MOON
+0x0319	TRAINER BATTLE	Mt. Moon		Battled Rival		EVENT_BEAT_RIVAL_IN_MT_MOON
 0x031A	EVENT					EVENT_MET_BILLS_GRANDPA
 0x031B	EVENT					EVENT_SHOWED_LICKITUNG_TO_BILLS_GRANDPA
 0x031C	EVENT					EVENT_SHOWED_ODDISH_TO_BILLS_GRANDPA
@@ -1759,9 +1759,9 @@
 0x06DD	EVENT					EVENT_TEAM_ROCKET_BASE_B2F_EXECUTIVE
 0x06DE	EVENT					EVENT_TEAM_ROCKET_BASE_B2F_GRUNT_WITH_EXECUTIVE
 0x06DF	EVENT					EVENT_TEAM_ROCKET_BASE_B2F_DRAGONITE
-0x06E0	STATIC ENCOUNTER	Team Rocket HQ	B2F	Captured/Defeated Electrode		EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_1
-0x06E1	STATIC ENCOUNTER	Team Rocket HQ	B2F	Captured/Defeated Electrode		EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_2
-0x06E2	STATIC ENCOUNTER	Team Rocket HQ	B2F	Captured/Defeated Electrode		EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3
+0x06E0	STATIC ENCOUNTER	Team Rocket HQ	B2F	Electrode sprite disappeared		EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_1
+0x06E1	STATIC ENCOUNTER	Team Rocket HQ	B2F	Electrode sprite disappeared		EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_2
+0x06E2	STATIC ENCOUNTER	Team Rocket HQ	B2F	Electrode sprite disappeared		EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3
 0x06E3	EVENT					EVENT_BLACKTHORN_CITY_SUPER_NERD_BLOCKS_GYM
 0x06E4	EVENT					EVENT_BLACKTHORN_CITY_SUPER_NERD_DOES_NOT_BLOCK_GYM
 0x06E5	EVENT					EVENT_DAY_CARE_MAN_IN_DAY_CARE
@@ -1783,7 +1783,7 @@
 0x06F5	EVENT					EVENT_CHARCOAL_KILN_FARFETCH_D
 0x06F6	EVENT					EVENT_CHARCOAL_KILN_APPRENTICE
 0x06F7	EVENT					EVENT_CHARCOAL_KILN_BOSS
-0x06F8	EVENT					EVENT_ROUTE_36_SUDOWOODO
+0x06F8	STATIC ENCOUNTER	Route 36		Sudowoodo sprite disappeared		EVENT_ROUTE_36_SUDOWOODO
 0x06F9	EVENT					EVENT_AZALEA_TOWN_SLOWPOKES
 0x06FA	EVENT					EVENT_AZALEA_TOWN_SLOWPOKETAIL_ROCKET
 0x06FB	EVENT					EVENT_SLOWPOKE_WELL_SLOWPOKES
@@ -1851,8 +1851,8 @@
 0x0739	EVENT					EVENT_FAST_SHIP_PASSENGERS_FIRST_TRIP
 0x073A	EVENT					EVENT_FAST_SHIP_PASSENGERS_EASTBOUND
 0x073B	EVENT					EVENT_FAST_SHIP_PASSENGERS_WESTBOUND
-0x073C	EVENT					EVENT_TIN_TOWER_ROOF_HO_OH
-0x073D	EVENT					EVENT_WHIRL_ISLAND_LUGIA_CHAMBER_LUGIA
+0x073C	STATIC ENCOUNTER	Tin Tower	Top	Ho-Oh sprite disappeared		EVENT_TIN_TOWER_ROOF_HO_OH
+0x073D	STATIC ENCOUNTER	Whirl Islands	B2F (Inner Cave)	Lugia sprite disappeared		EVENT_WHIRL_ISLAND_LUGIA_CHAMBER_LUGIA
 0x073E	EVENT					EVENT_KURTS_HOUSE_KURT_1
 0x073F	EVENT					EVENT_KURTS_HOUSE_KURT_2
 0x0740	EVENT					EVENT_SLOWPOKE_WELL_KURT
@@ -1870,9 +1870,9 @@
 0x074C	EVENT					EVENT_BLACKTHORN_CITY_GRAMPS_BLOCKS_DRAGONS_DEN
 0x074D	EVENT					EVENT_BLACKTHORN_CITY_GRAMPS_NOT_BLOCKING_DRAGONS_DEN
 0x074E	EVENT					EVENT_RUINS_OF_ALPH_KABUTO_CHAMBER_RECEPTIONIST
-0x074F	EVENT					EVENT_OPENED_MT_SILVER
+0x074F	STORY EVENT	Pallet Town	Oak's Lab	Allowed access to Mt. Silver		EVENT_OPENED_MT_SILVER
 0x0750	STATIC ENCOUNTER	Vermilion City		Captured/Defeated Snorlax		EVENT_FOUGHT_SNORLAX
-0x0751	STATIC ENCOUNTER	Lake of Rage		Captured/Defeated Red Gyarados		EVENT_LAKE_OF_RAGE_RED_GYARADOS
+0x0751	STATIC ENCOUNTER	Lake of Rage		Red Gyarados sprite disappeared		EVENT_LAKE_OF_RAGE_RED_GYARADOS
 0x0752	EVENT					EVENT_GOLDENROD_UNDERGROUND_GRANNY
 0x0753	EVENT					EVENT_GOLDENROD_UNDERGROUND_GRAMPS
 0x0754	EVENT					EVENT_GOLDENROD_UNDERGROUND_OLDER_HAIRCUT_BROTHER
@@ -1887,7 +1887,7 @@
 0x075D	EVENT					EVENT_BLACKTHORN_CITY_SANTOS_OF_SATURDAY
 0x075E	EVENT					EVENT_ROUTE_40_MONICA_OF_MONDAY
 0x075F	EVENT					EVENT_LANCES_ROOM_OAK_AND_MARY
-0x0760	EVENT					EVENT_UNION_CAVE_B2F_LAPRAS
+0x0760	STATIC ENCOUNTER	Union Cave	B2F	Lapras sprite disappeared		EVENT_UNION_CAVE_B2F_LAPRAS
 0x0761	EVENT					EVENT_TEAM_ROCKET_DISBANDED
 0x0762	EVENT					EVENT_RED_IN_MT_SILVER
 0x0763	EVENT					EVENT_GOLDENROD_DEPT_STORE_5F_HAPPINESS_EVENT_LADY
@@ -1899,11 +1899,11 @@
 0x0769	_UNUSED					
 0x076A	_UNUSED					
 0x076B	_UNUSED					
-0x076C	EVENT					EVENT_ROUTE_24_ROCKET
+0x076C	EVENT	Route 24		Team Rocket thief sprite disappeared		EVENT_ROUTE_24_ROCKET
 0x076D	EVENT					EVENT_CERULEAN_GYM_ROCKET
 0x076E	EVENT					EVENT_ROUTE_25_MISTY_BOYFRIEND
 0x076F	EVENT					EVENT_TRAINERS_IN_CERULEAN_GYM
-0x0770	EVENT					EVENT_VERMILION_CITY_SNORLAX
+0x0770	STATIC ENCOUNTER	Vermilion City		Snorlax sprite disappeared		EVENT_VERMILION_CITY_SNORLAX
 0x0771	EVENT					EVENT_ROUTE_5_6_POKEFAN_M_BLOCKS_UNDERGROUND_PATH
 0x0772	EVENT					EVENT_SAFFRON_TRAIN_STATION_POPULATION
 0x0773	EVENT					EVENT_COPYCATS_HOUSE_2F_DOLL
@@ -2004,17 +2004,17 @@
 						
 						
 //	Sys Flags					EngineFlags
-0x00	EVENT					ENGINE_RADIO_CARD
-0x01	EVENT					ENGINE_MAP_CARD
-0x02	EVENT					ENGINE_PHONE_CARD
-0x03	EVENT					ENGINE_EXPN_CARD
-0x04	EVENT					ENGINE_POKEGEAR
+0x00	SIDE EVENT	Goldenrod Radio Tower	1F	Received the Radio card for the PokéGear from woman		ENGINE_RADIO_CARD
+0x01	SIDE EVENT	Cherrygrove City		Received the Map card for the PokéGear from guide man		ENGINE_MAP_CARD
+0x02	STORY EVENT	New Bark Town	Player's House	Received the Phone card for the PokéGear from Mom		ENGINE_PHONE_CARD
+0x03	SIDE EVENT	Lavender Radio Tower	1F	Received the Radio Expansion card for the PokéGear from the manager		ENGINE_EXPN_CARD
+0x04	STORY EVENT	New Bark Town	Player's House	Received the PokéGear from Mom		ENGINE_POKEGEAR
 0x05	EVENT					ENGINE_DAY_CARE_MAN_HAS_EGG
 0x06	EVENT					ENGINE_DAY_CARE_MAN_HAS_MON
 0x07	EVENT					ENGINE_DAY_CARE_LADY_HAS_MON
 0x08	EVENT					ENGINE_MOM_SAVING_MONEY
 0x09	EVENT					ENGINE_MOM_ACTIVE
-0x0A	EVENT					ENGINE_UNUSED_TWO_DAY_TIMER_ON
+0x0A	_UNUSED					ENGINE_UNUSED_TWO_DAY_TIMER_ON
 0x0B	STORY EVENT	Route 30	Mr. Pokémon's House	Received Pokédex from Prof. Oak		ENGINE_POKEDEX
 0x0C	SIDE EVENT	Ruins of Alph		Unlocked Unown Dex		ENGINE_UNOWN_DEX
 0x0D	SIDE EVENT			Caught PokéRus for the first time		ENGINE_CAUGHT_POKERUS
@@ -2036,7 +2036,7 @@
 0x1D	STORY EVENT	Ecruteak City	Gym	Earned the Fog Badge		ENGINE_FOGBADGE
 0x1E	STORY EVENT	Olivine City	Gym	Earned the Mineral Badge		ENGINE_MINERALBADGE
 0x1F	STORY EVENT	Cianwood City	Gym	Earned the Storm Badge		ENGINE_STORMBADGE
-0x20	STORY EVENT	Mahohany Town	Gym	Earned the Glacier Badge		ENGINE_GLACIERBADGE
+0x20	STORY EVENT	Mahogany Town	Gym	Earned the Glacier Badge		ENGINE_GLACIERBADGE
 0x21	STORY EVENT	Blackthorn City	Gym	Earned the Rising Badge		ENGINE_RISINGBADGE
 0x22	STORY EVENT	Pewter City	Gym	Earned the Boulder Badge		ENGINE_BOULDERBADGE
 0x23	STORY EVENT	Cerulean City	Gym	Earned the Cascade Badge		ENGINE_CASCADEBADGE
@@ -2081,7 +2081,7 @@
 0x4A	FLY SPOT	Blackthorn City		Unlocked Blackthorn City fly spot		ENGINE_FLYPOINT_BLACKTHORN
 0x4B	FLY SPOT	Mt. Silver		Unlocked Mt. Silver fly spot		ENGINE_FLYPOINT_SILVER_CAVE
 0x4C	_UNUSED					ENGINE_FLYPOINT_UNUSED
-0x4D	EVENT					ENGINE_LUCKY_NUMBER_SHOW
+0x4D	EVENT	Goldenrod Radio Tower	1F	[Daily] Participated in the Lucky Number Show		ENGINE_LUCKY_NUMBER_SHOW
 0x4E	_UNUSED					ENGINE_4E
 0x4F	EVENT					ENGINE_KURT_MAKING_BALLS
 0x50	EVENT					ENGINE_DAILY_BUG_CONTEST
@@ -2090,11 +2090,11 @@
 0x53	EVENT					ENGINE_ALL_FRUIT_TREES
 0x54	EVENT					ENGINE_GOT_SHUCKIE_TODAY
 0x55	EVENT					ENGINE_GOLDENROD_UNDERGROUND_MERCHANT_CLOSED
-0x56	EVENT					ENGINE_FOUGHT_IN_TRAINER_HALL_TODAY
+0x56	TRAINER BATTLE	Viridian City	Trainer Hall	[Daily] Battled the Trainer Hall trainer		ENGINE_FOUGHT_IN_TRAINER_HALL_TODAY
 0x57	EVENT					ENGINE_MT_MOON_SQUARE_CLEFAIRY
-0x58	EVENT	Union Cave				ENGINE_UNION_CAVE_LAPRAS
+0x58	STATIC ENCOUNTER	Union Cave	B2F	[Friday] Captured/Defeated Lapras		ENGINE_UNION_CAVE_LAPRAS
 0x59	EVENT					ENGINE_GOLDENROD_UNDERGROUND_GOT_HAIRCUT
-0x5A	EVENT					ENGINE_GOLDENROD_DEPT_STORE_TM27_RETURN
+0x5A	ITEM GIFT	Goldenrod Department Store	5F	[Sunday] Received TM27 (Return) / TM21 (Frustration)		ENGINE_GOLDENROD_DEPT_STORE_TM27_RETURN
 0x5B	EVENT					ENGINE_DAISYS_GROOMING
 0x5C	EVENT					ENGINE_INDIGO_PLATEAU_RIVAL_FIGHT
 						
@@ -2175,12 +2175,12 @@
 0x0015				Elm Lab Event	0:Start of game,1:Asked to choose Starter (Can't leave Lab),2:Normal,3:Officer Appeared (Asks for Rival's name),5:Aide will give Potion,6:Aide will give 5 Poké Balls	wElmsLabSceneID
 0x0016				Mom	0:Start of game,1:Gave and explained PokéGear	wPlayersHouse1FSceneID
 0x0017				Dude (Route 29)	0:Normal,1:Will ask to show Capture Tutorial	wRoute29SceneID
-0x0018				Rival (Cherrygrove City)	0:Disappeared,1:Will battle you	wCherrygroveCitySceneID
+0x0018		Cherrygrove City		State	0:Normal,1:Rival will battle you	wCherrygroveCitySceneID
 0x0019				Mr. Pokémon's House	0:Not Entered,1:Entered (Met Mr. Pokémon and Oak)	wMrPokemonsHouseSceneID
 0x001A				Route 32 Story Event	0:Dude blocks further access,1:Allowed further access (Accepted Egg from Aide),2:Encountered SlowpokeTail seller	wRoute32SceneID
 0x001B						wRoute35NationalParkGateSceneID
 0x001C						wRoute36NationalParkGateSceneID
-0x001D				Rival (Azalea Town)	0:Disappeared,1:Will battle you	wAzaleaTownSceneID
+0x001D		Azalea Town		State	0:Normal,1:Rival will battle you	wAzaleaTownSceneID
 0x001E				Lass Bridget	0:Normal,1:Will inform you made Whitney cry	wGoldenrodGymSceneID
 0x001F						wGoldenrodMagnetTrainStationSceneID
 0x0020				Rival (Olivine City)	0:Not Encountered,1:Encountered	wOlivineCitySceneID
@@ -2189,9 +2189,9 @@
 0x0023				Ecruteak PokéCenter	0:Not Entered,1:Entered (Met Bill)	wEcruteakPokecenter1FSceneID
 0x0024				RageCandyBar Man	0:Blocks Route 44 access,1:Disappeared (Can access Route 44)	wMahoganyTownSceneID
 0x0025				Route 43 Gate	0:Rocket Grunts appeared (Payment required),1:Paid Rocket Grunts/Grunts disappeared	wRoute43GateSceneID
-0x0026				Rival (Mt. Moon)	0:Will battle you,1:Disappeared	wMountMoonSceneID
+0x0026		Mt. Moon		State	0:Rival will battle you,1:Normal	wMountMoonSceneID
 0x0027				Rival (Sprout Tower)	0:Not Encountered,1:Encountered	wSproutTower3FSceneID
-0x0028				Burned Tower Story Event	0:Not Entered/Will battle Rival,1:Defeated Rival,2:Defeated Firebreather Dick	wBurnedTower1FSceneID
+0x0028		Burned Tower	1F	State	0:Rival will battle you,1:Battled Rival,2:Battled Firebreather Dick	wBurnedTower1FSceneID
 0x0029				Legendary Beasts (Burned Tower)	0:Not Awakened,1:Awakened/Fled	wBurnedTowerB1FSceneID
 0x002A				Radio Tower 5F Story Event	0:Will battle imposter Director,1:Defeated disguised Rocket Executive,2:Defeated main Rocket Executive in studio room	wRadioTower5FSceneID
 0x002B						wRuinsOfAlphOutsideSceneID
@@ -2201,9 +2201,9 @@
 0x002F						wTeamRocketBaseB1FSceneID
 0x0030				Hideout B2F Story Event	0:Not Accessed,1:Lance healed your party/Will battle Rocket Executive,2:Lance wants you to battle Electrode (Can't leave transmitter room),3:Transmitter deactivated	wTeamRocketBaseB2FSceneID
 0x0031				Hideout B3F Story Event	0:Not Accessed,1:Lance explained passwords,2:Encountered Rival,3:Defeated Rocket Executive	wTeamRocketBaseB3FSceneID
-0x0032				Rival (Underground)	0:Will battle you,1:Disappeared	wGoldenrodUndergroundSwitchRoomEntrancesSceneID
+0x0032		Goldenrod Tunnel		State	0:Rival will battle you,1:Normal	wGoldenrodUndergroundSwitchRoomEntrancesSceneID
 0x0033	_UNUSED					wSilverCaveRoom3SceneID
-0x0034				Rival (Victory Road)	0:Will battle you,1:Disappeared	wVictoryRoadSceneID
+0x0034		Victory Road		State	0:Rival will battle you,1:Normal	wVictoryRoadSceneID
 0x0035	_UNUSED					wDragonsDenB1FSceneID
 0x0036						wOlivinePortSceneID
 0x0037						wVermilionPortSceneID

@@ -6,6 +6,7 @@
 
         enum FlagOffsets_INTL
         {
+            VariableSprites = 0x23BC,
             StatusFlags = 0x23DA,
             StatusFlags2 = 0x23DB,
             MomSavingMoney = 0x23E2,
@@ -32,6 +33,7 @@
             PlayerGender = 0x3E3D,
         }
 
+        int VariableSpritesOffset;
         int StatusFlagsOffset;
         int StatusFlags2Offset;
         int MomSavingMoneyOffset;
@@ -79,6 +81,7 @@
             }
             else*/
             {
+                VariableSpritesOffset = (int)FlagOffsets_INTL.VariableSprites;
                 StatusFlagsOffset = (int)FlagOffsets_INTL.StatusFlags;
                 StatusFlags2Offset = (int)FlagOffsets_INTL.StatusFlags2;
                 MomSavingMoneyOffset = (int)FlagOffsets_INTL.MomSavingMoney;
@@ -363,7 +366,6 @@
 
         public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
         {
-#if DEBUG
             EventFlagType.FieldItem or
             EventFlagType.HiddenItem or
             EventFlagType.TrainerBattle or
@@ -375,7 +377,6 @@
             EventFlagType.BerryTree or
             EventFlagType.Collectable
                 => true,
-#endif
             _ => false
         };
 
@@ -393,40 +394,368 @@
         {
             if (SupportsBulkEditingFlags(flagType))
             {
-                var flagHelper = (IEventFlagArray)m_savFile!;
-
-                foreach (var fGroup in m_flagsGroupsList)
+                switch (flagType)
                 {
-                    foreach (var f in fGroup.Flags)
-                    {
-                        if (f.FlagTypeVal == flagType)
-                        {
-                            int fIdx = (int)f.FlagIdx;
+                    case EventFlagType.FieldItem:
+                        BulkEdit_FieldItem(value);
+                        break;
 
-                            f.IsSet = value;
+                    case EventFlagType.HiddenItem:
+                        BulkEdit_HiddenItems(value);
+                        break;
 
-                            switch (f.SourceIdx)
-                            {
-                                case Src_EventFlags:
-                                    flagHelper.SetEventFlag(fIdx, value);
-                                    break;
+                    case EventFlagType.TrainerBattle:
+                        BulkEdit_Trainers(value);
+                        break;
 
-                                case Src_TradeFlags:
-                                    m_savFile!.SetFlag(TradeFlagsOffset + (fIdx >> 3), fIdx & 7, value);
-                                    break;
+                    case EventFlagType.StaticEncounter:
+                        BulkEdit_StaticEncounter(value);
+                        break;
 
-                                case Src_BerryTreeFlags:
-                                    m_savFile!.SetFlag(BerryTreeFlagsOffset + (fIdx >> 3), fIdx & 7, value);
-                                    break;
+                    case EventFlagType.InGameTrade:
+                        BulkEdit_Trades(value);
+                        break;
 
-                                case Src_SysFlags:
-                                    SetSysFlag(fIdx, value);
-                                    break;
-                            }
-                        }
-                    }
+                    case EventFlagType.ItemGift:
+                        BulkEdit_ItemGift(value);
+                        break;
+
+                    case EventFlagType.PkmnGift:
+                        BulkEdit_PkmnGift(value);
+                        break;
+
+                    case EventFlagType.FlySpot:
+                        BulkEdit_FlySpot(value);
+                        break;
+
+                    case EventFlagType.BerryTree:
+                        BulkEdit_BerryTrees(value);
+                        break;
+
+                    case EventFlagType.Collectable:
+                        BulkEdit_Collectables(value);
+                        break;
+
                 }
             }
+        }
+
+        void BulkEdit_FieldItem(bool value)
+        {
+            var fGroup = m_flagsGroupsList[Src_EventFlags];
+
+            foreach (var f in fGroup.Flags)
+            {
+                if (f.FlagTypeVal == EventFlagType.FieldItem)
+                {
+                    f.IsSet = value;
+                }
+            }
+
+            SyncEditedFlags(fGroup);
+        }
+
+        void BulkEdit_HiddenItems(bool value)
+        {
+            var fGroup = m_flagsGroupsList[Src_EventFlags];
+
+            foreach (var f in fGroup.Flags)
+            {
+                if (f.FlagTypeVal == EventFlagType.HiddenItem)
+                {
+                    f.IsSet = value;
+                }
+            }
+
+            SyncEditedFlags(fGroup);
+        }
+
+        void BulkEdit_Trainers(bool value)
+        {
+            var flagGroups = new FlagsGroup[]
+            {
+                m_flagsGroupsList[Src_EventFlags],
+                m_flagsGroupsList[Src_SysFlags],
+            };
+
+            foreach (var fGroup in flagGroups)
+            {
+                foreach (var f in fGroup.Flags)
+                {
+                    if (f.FlagTypeVal == EventFlagType.TrainerBattle)
+                    {
+                        f.IsSet = value;
+                    }
+                }
+
+                SyncEditedFlags(fGroup);
+            }
+
+            // Fix Rival event flags
+            {
+                var flagHelper = (IEventFlagArray)m_savFile!;
+                var eventWorkHelper = (IEventWorkArray<byte>)m_savFile!;
+
+                int idx = 0x18; // wCherrygroveCitySceneID
+                m_eventWorkList[idx].Value = value ? 0 : 1;
+                eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
+
+                idx = 0x1E; // wAzaleaTownSceneID
+                m_eventWorkList[idx].Value = value ? 0 : 1;
+                eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
+
+                idx = 0x35; // wBurnedTower1FSceneID
+                m_eventWorkList[idx].Value = value ? 2 : 1;
+                eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
+                idx = 0x6C5; // EVENT_RIVAL_BURNED_TOWER
+                flagHelper.SetEventFlag(idx, false);
+                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                idx = 0x43; // wGoldenrodUndergroundSwitchRoomEntrancesSceneID
+                m_eventWorkList[idx].Value = value ? 1 : 0;
+                eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
+                
+                idx = 0x45; // wVictoryRoadSceneID
+                m_eventWorkList[idx].Value = value ? 1 : 0;
+                eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
+                
+                idx = 0x32; // wMountMoonSceneID
+                m_eventWorkList[idx].Value = value ? 1 : 0;
+                eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
+                idx = 0x77A; // EVENT_MT_MOON_RIVAL
+                flagHelper.SetEventFlag(idx, false);
+                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+            }
+
+            // Fix Team Rocket thief at Route 24
+            if (m_flagsGroupsList[Src_EventFlags].Flags[0xCB].IsSet) // EVENT_MET_ROCKET_GRUNT_AT_CERULEAN_GYM
+            {
+                var flagHelper = (IEventFlagArray)m_savFile!;
+
+                int idx = 0x76C; // EVENT_ROUTE_24_ROCKET
+                flagHelper.SetEventFlag(idx, value);
+                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
+            }
+        }
+
+        void BulkEdit_StaticEncounter(bool value)
+        {
+            var flagGroups = new FlagsGroup[]
+            {
+                m_flagsGroupsList[Src_EventFlags],
+                m_flagsGroupsList[Src_SysFlags],
+            };
+
+            foreach (var fGroup in flagGroups)
+            {
+                foreach (var f in fGroup.Flags)
+                {
+                    if (f.FlagTypeVal == EventFlagType.StaticEncounter)
+                    {
+                        f.IsSet = value;
+                    }
+                }
+
+                SyncEditedFlags(fGroup);
+            }
+
+            // Fix Sudowoodo variablesprite
+            {
+                // variablesprite SPRITE_WEIRD_TREE = value ? SPRITE_TWIN : SPRITE_SUDOWOODO
+                m_savFile!.Data[VariableSpritesOffset + 4] = value ? (byte)0x26 : (byte)0x52;
+            }
+
+            // Fix Suicune encounter
+            {
+                var eventWorkHelper = (IEventWorkArray<byte>)m_savFile!;
+
+                int idx = 0x35; // wTinTower1FSceneID
+                m_eventWorkList[idx].Value = value ? 1 : 0;
+                eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
+            }
+        }
+
+        void BulkEdit_Trades(bool value)
+        {
+            var fGroup = m_flagsGroupsList[Src_TradeFlags];
+
+            foreach (var f in fGroup.Flags)
+            {
+                if (f.FlagTypeVal == EventFlagType.InGameTrade)
+                {
+                    f.IsSet = value;
+                }
+            }
+
+            SyncEditedFlags(fGroup);
+        }
+
+        void BulkEdit_ItemGift(bool value)
+        {
+            var flagGroups = new FlagsGroup[]
+            {
+                m_flagsGroupsList[Src_EventFlags],
+                m_flagsGroupsList[Src_SysFlags],
+            };
+
+            foreach (var fGroup in flagGroups)
+            {
+                foreach (var f in fGroup.Flags)
+                {
+                    if (f.FlagTypeVal == EventFlagType.ItemGift)
+                    {
+                        f.IsSet = value;
+                    }
+                }
+
+                SyncEditedFlags(fGroup);
+            }
+
+            // Fix some flags so it can be gifted again
+            {
+                var flagHelper = (IEventFlagArray)m_savFile!;
+                int idx;
+
+                if (!value)
+                {
+                    if (m_flagsGroupsList[Src_EventFlags].Flags[0x29].IsSet) // EVENT_HERDED_FARFETCHD
+                    {
+                        idx = 0x6F4; // EVENT_ILEX_FOREST_CHARCOAL_MASTER
+                        flagHelper.SetEventFlag(idx, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                    }
+
+                    if (m_flagsGroupsList[Src_EventFlags].Flags[0x22].IsSet) // EVENT_CLEARED_ROCKET_HIDEOUT
+                    {
+                        idx = 0x6E2; // EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3
+                        flagHelper.SetEventFlag(idx, false);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                    }
+                }
+
+                int[] npc_ids =
+                {
+                    0x7D, // ENGINE_BEVERLY_HAS_NUGGET
+                    0x7E, // ENGINE_JOSE_HAS_STAR_PIECE
+                    0x7F, // ENGINE_WADE_HAS_ITEM (default: Berry)
+                    0x80, // ENGINE_GINA_HAS_LEAF_STONE
+                    0x81, // ENGINE_ALAN_HAS_FIRE_STONE
+                    0x82, // ENGINE_DANA_HAS_THUNDERSTONE
+                    0x83, // ENGINE_DEREK_HAS_NUGGET
+                    0x84, // ENGINE_TULLY_HAS_WATER_STONE
+                    0x85, // ENGINE_TIFFANY_HAS_PINK_BOW
+                    0x86, // ENGINE_WILTON_HAS_ITEM (default: Ultra Ball)
+                };
+
+                foreach (var npc_idx in npc_ids)
+                {
+                    SetSysFlag(npc_idx, !value);
+                    m_flagsGroupsList[Src_SysFlags].Flags[npc_idx].IsSet = !value;
+                }
+
+                npc_ids = new int[]
+                {
+                    0x337, // EVENT_HUEY_PROTEIN
+                    0x338, // EVENT_JOEY_HP_UP
+                    0x339, // EVENT_VANCE_CARBOS (default: Berry)
+                    0x33A, // EVENT_PARRY_IRON
+                    0x33B, // EVENT_ERIN_CALCIUM
+                };
+
+                foreach (var npc_idx in npc_ids)
+                {
+                    SetSysFlag(npc_idx, !value);
+                    m_flagsGroupsList[Src_EventFlags].Flags[npc_idx].IsSet = !value;
+                }
+            }
+        }
+
+        void BulkEdit_PkmnGift(bool value)
+        {
+            var fGroup = m_flagsGroupsList[Src_EventFlags];
+
+            foreach (var f in fGroup.Flags)
+            {
+                if (f.FlagTypeVal == EventFlagType.PkmnGift)
+                {
+                    f.IsSet = value;
+                }
+            }
+
+            SyncEditedFlags(fGroup);
+
+            // Fix some flags so it can be gifted again
+            {
+                var flagHelper = (IEventFlagArray)m_savFile!;
+
+                int idx = 0x700; // EVENT_ELMS_AIDE_IN_VIOLET_POKEMON_CENTER
+                flagHelper.SetEventFlag(idx, false);
+                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                if (!value)
+                {
+                    idx = 0x46; // EVENT_MANIA_TOOK_SHUCKIE_OR_LET_YOU_KEEP_HIM
+                    flagHelper.SetEventFlag(idx, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                    idx = 0x51; // EVENT_GAVE_KENYA
+                    flagHelper.SetEventFlag(idx, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
+                    idx = 0x52; // EVENT_GOT_HP_UP_FROM_RANDY
+                    flagHelper.SetEventFlag(idx, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                    
+                    idx = 0xC1; // EVENT_ANSWERED_DRAGON_MASTER_QUIZ_WRONG
+                    flagHelper.SetEventFlag(idx, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                }
+            }
+        }
+
+        void BulkEdit_FlySpot(bool value)
+        {
+            var fGroup = m_flagsGroupsList[Src_SysFlags];
+
+            foreach (var f in fGroup.Flags)
+            {
+                if (f.FlagTypeVal == EventFlagType.FlySpot)
+                {
+                    f.IsSet = value;
+                }
+            }
+
+            SyncEditedFlags(fGroup);
+        }
+
+        void BulkEdit_BerryTrees(bool value)
+        {
+            var fGroup = m_flagsGroupsList[Src_BerryTreeFlags];
+
+            foreach (var f in fGroup.Flags)
+            {
+                if (f.FlagTypeVal == EventFlagType.BerryTree)
+                {
+                    f.IsSet = value;
+                }
+            }
+
+            SyncEditedFlags(fGroup);
+        }
+
+        void BulkEdit_Collectables(bool value)
+        {
+            var fGroup = m_flagsGroupsList[Src_EventFlags];
+
+            foreach (var f in fGroup.Flags)
+            {
+                if (f.FlagTypeVal == EventFlagType.Collectable)
+                {
+                    f.IsSet = value;
+                }
+            }
+
+            SyncEditedFlags(fGroup);
         }
 
         public override void SyncEditedFlags(FlagsGroup fGroup)
@@ -439,6 +768,13 @@
                     foreach (var f in fGroup.Flags)
                     {
                         flagHelper.SetEventFlag((int)f.FlagIdx, f.IsSet);
+                    }
+                    break;
+
+                case Src_SysFlags:
+                    foreach (var f in fGroup.Flags)
+                    {
+                        SetSysFlag((int)f.FlagIdx, f.IsSet);
                     }
                     break;
 
@@ -455,14 +791,6 @@
                     {
                         int fIdx = (int)f.FlagIdx;
                         m_savFile!.SetFlag(BerryTreeFlagsOffset + (fIdx >> 3), fIdx & 7, f.IsSet);
-                    }
-                    break;
-
-                case Src_SysFlags:
-                    foreach (var f in fGroup.Flags)
-                    {
-                        int fIdx = (int)f.FlagIdx;
-                        SetSysFlag(fIdx, f.IsSet);
                     }
                     break;
             }
