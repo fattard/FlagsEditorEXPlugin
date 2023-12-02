@@ -508,8 +508,8 @@
                 m_eventWorkList[idx].Value = value ? 2 : 1;
                 eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
                 idx = 0x6C5; // EVENT_RIVAL_BURNED_TOWER
-                flagHelper.SetEventFlag(idx, false);
-                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                flagHelper.SetEventFlag(idx, value);
+                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
 
                 idx = 0x43; // wGoldenrodUndergroundSwitchRoomEntrancesSceneID
                 m_eventWorkList[idx].Value = value ? 1 : 0;
@@ -523,8 +523,8 @@
                 m_eventWorkList[idx].Value = value ? 1 : 0;
                 eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
                 idx = 0x77A; // EVENT_MT_MOON_RIVAL
-                flagHelper.SetEventFlag(idx, false);
-                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                flagHelper.SetEventFlag(idx, value);
+                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
             }
 
             // Fix Team Rocket thief at Route 24
@@ -569,7 +569,7 @@
             {
                 var eventWorkHelper = (IEventWorkArray<byte>)m_savFile!;
 
-                int idx = 0x35; // wTinTower1FSceneID
+                int idx = 0x34; // wTinTower1FSceneID
                 m_eventWorkList[idx].Value = value ? 1 : 0;
                 eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
             }
@@ -631,6 +631,10 @@
                         flagHelper.SetEventFlag(idx, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                     }
+
+                    idx = 0x558; // EVENT_BEAT_COOLTRAINERM_KEVIN
+                    flagHelper.SetEventFlag(idx, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                 }
 
                 int[] npc_ids =
@@ -657,14 +661,14 @@
                 {
                     0x337, // EVENT_HUEY_PROTEIN
                     0x338, // EVENT_JOEY_HP_UP
-                    0x339, // EVENT_VANCE_CARBOS (default: Berry)
+                    0x339, // EVENT_VANCE_CARBOS
                     0x33A, // EVENT_PARRY_IRON
                     0x33B, // EVENT_ERIN_CALCIUM
                 };
 
                 foreach (var npc_idx in npc_ids)
                 {
-                    SetSysFlag(npc_idx, !value);
+                    flagHelper.SetEventFlag(npc_idx, false);
                     m_flagsGroupsList[Src_EventFlags].Flags[npc_idx].IsSet = !value;
                 }
             }
@@ -688,12 +692,12 @@
             {
                 var flagHelper = (IEventFlagArray)m_savFile!;
 
-                int idx = 0x700; // EVENT_ELMS_AIDE_IN_VIOLET_POKEMON_CENTER
-                flagHelper.SetEventFlag(idx, false);
-                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
-
                 if (!value)
                 {
+                    int idx = 0x700; // EVENT_ELMS_AIDE_IN_VIOLET_POKEMON_CENTER
+                    flagHelper.SetEventFlag(idx, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
                     idx = 0x46; // EVENT_MANIA_TOOK_SHUCKIE_OR_LET_YOU_KEEP_HIM
                     flagHelper.SetEventFlag(idx, false);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;

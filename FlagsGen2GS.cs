@@ -412,8 +412,8 @@
                 m_eventWorkList[idx].Value = value ? 1 : 0;
                 eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
                 idx = 0x6C5; // EVENT_RIVAL_BURNED_TOWER
-                flagHelper.SetEventFlag(idx, false);
-                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                flagHelper.SetEventFlag(idx, value);
+                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
 
                 idx = 0x32; // wGoldenrodUndergroundSwitchRoomEntrancesSceneID
                 m_eventWorkList[idx].Value = value ? 1 : 0;
@@ -427,8 +427,8 @@
                 m_eventWorkList[idx].Value = value ? 1 : 0;
                 eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
                 idx = 0x77A; // EVENT_MT_MOON_RIVAL
-                flagHelper.SetEventFlag(idx, false);
-                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+                flagHelper.SetEventFlag(idx, value);
+                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = value;
             }
 
             // Fix Team Rocket thief at Route 24
@@ -509,22 +509,27 @@
             // Fix some flags so it can be gifted again
             {
                 var flagHelper = (IEventFlagArray)m_savFile!;
+                int idx;
 
                 if (!value)
                 {
                     if (m_flagsGroupsList[Src_EventFlags].Flags[0x29].IsSet) // EVENT_HERDED_FARFETCHD
                     {
-                        int idx = 0x6F4; // EVENT_ILEX_FOREST_CHARCOAL_MASTER
+                        idx = 0x6F4; // EVENT_ILEX_FOREST_CHARCOAL_MASTER
                         flagHelper.SetEventFlag(idx, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                     }
 
                     if (m_flagsGroupsList[Src_EventFlags].Flags[0x22].IsSet) // EVENT_CLEARED_ROCKET_HIDEOUT
                     {
-                        int idx = 0x6E2; // EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3
+                        idx = 0x6E2; // EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3
                         flagHelper.SetEventFlag(idx, false);
                         m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                     }
+
+                    idx = 0x558; // EVENT_BEAT_COOLTRAINERM_KEVIN
+                    flagHelper.SetEventFlag(idx, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
                 }
             }
         }
@@ -547,12 +552,12 @@
             {
                 var flagHelper = (IEventFlagArray)m_savFile!;
 
-                int idx = 0x700; // EVENT_ELMS_AIDE_IN_VIOLET_POKEMON_CENTER
-                flagHelper.SetEventFlag(idx, false);
-                m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
-
                 if (!value)
                 {
+                    int idx = 0x700; // EVENT_ELMS_AIDE_IN_VIOLET_POKEMON_CENTER
+                    flagHelper.SetEventFlag(idx, false);
+                    m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
+
                     idx = 0x46; // EVENT_MANIA_TOOK_SHUCKIE_OR_LET_YOU_KEEP_HIM
                     flagHelper.SetEventFlag(idx, false);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
