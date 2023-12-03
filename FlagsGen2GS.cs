@@ -284,6 +284,231 @@
             _ => false
         };
 
+        public override EditableEventInfo[] GetSpecialEditableEvents()
+        {
+            int idx = 0;
+            return new EditableEventInfo[]
+            {
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Reset Slowpoke Well events")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Reset Lake of Rage events")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Reset Radio Tower events")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Reset S.S. Aqua first trip events")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Reset Legendary Beasts events")),
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Unblock Mt. Silver access")),
+            };
+        }
+
+        public override void ProcessSpecialEventEdit(EditableEventInfo eventInfo)
+        {
+            int idx;
+            var flagHelper = (IEventFlagArray)m_savFile!;
+            var eventWorkHelper = (IEventWorkArray<byte>)m_savFile!;
+
+            switch (eventInfo.Index)
+            {
+                case 0: // Slowpoke Well / Ilex Forest
+                    {
+                        int[] evt_ids =
+                        {
+                            0x2B, // EVENT_CLEARED_SLOWPOKE_WELL
+                            0x6FB, // EVENT_SLOWPOKE_WELL_SLOWPOKES
+                            0x6FC, // EVENT_SLOWPOKE_WELL_ROCKETS
+                            0x740, // EVENT_SLOWPOKE_WELL_KURT
+
+                            0x29, // EVENT_HERDED_FARFETCHD
+                            0x10, // EVENT_GOT_HM01_CUT
+                            0x6E9, // EVENT_ILEX_FOREST_FARFETCHD_1
+                        };
+
+                        foreach (var evt in evt_ids)
+                        {
+                            flagHelper.SetEventFlag(evt, false);
+                            m_flagsGroupsList[Src_EventFlags].Flags[evt].IsSet = false;
+                        }
+                    }
+                    break;
+
+                case 1: // Lake of Rage / Team Rocket HQ
+                    {
+                        int[] evt_ids =
+                        {
+                            0x751, // EVENT_LAKE_OF_RAGE_RED_GYARADOS
+
+                            0x22, // EVENT_CLEARED_ROCKET_HIDEOUT
+                            0x4C, // EVENT_LANCE_HEALED_YOU_IN_TEAM_ROCKET_BASE
+                            0x60, // EVENT_DECIDED_TO_HELP_LANCE
+                            0x2E2, // EVENT_UNCOVERED_STAIRCASE_IN_MAHOGANY_MART
+                            0x2E3, // EVENT_TURNED_OFF_SECURITY_CAMERAS
+                            0x2E4, // EVENT_SECURITY_CAMERA_1
+                            0x2E5, // EVENT_SECURITY_CAMERA_2
+                            0x2E6, // EVENT_SECURITY_CAMERA_3
+                            0x2E7, // EVENT_SECURITY_CAMERA_4
+                            0x2E8, // EVENT_SECURITY_CAMERA_5
+                            0x2E9, // EVENT_EXPLODING_TRAP_1
+                            0x2EA, // EVENT_EXPLODING_TRAP_2
+                            0x2EB, // EVENT_EXPLODING_TRAP_3
+                            0x2EC, // EVENT_EXPLODING_TRAP_4
+                            0x2ED, // EVENT_EXPLODING_TRAP_5
+                            0x2EE, // EVENT_EXPLODING_TRAP_6
+                            0x2EF, // EVENT_EXPLODING_TRAP_7
+                            0x2F0, // EVENT_EXPLODING_TRAP_8
+                            0x2F1, // EVENT_EXPLODING_TRAP_9
+                            0x2F2, // EVENT_EXPLODING_TRAP_10
+                            0x2F3, // EVENT_EXPLODING_TRAP_11
+                            0x2F4, // EVENT_EXPLODING_TRAP_12
+                            0x2F5, // EVENT_EXPLODING_TRAP_13
+                            0x2F6, // EVENT_EXPLODING_TRAP_14
+                            0x2F7, // EVENT_EXPLODING_TRAP_15
+                            0x2F8, // EVENT_EXPLODING_TRAP_16
+                            0x2F9, // EVENT_EXPLODING_TRAP_17
+                            0x2FA, // EVENT_EXPLODING_TRAP_18
+                            0x2FB, // EVENT_EXPLODING_TRAP_19
+                            0x2FC, // EVENT_EXPLODING_TRAP_20
+                            0x2FD, // EVENT_EXPLODING_TRAP_21
+                            0x2FE, // EVENT_EXPLODING_TRAP_22
+                            0x2FF, // EVENT_LEARNED_HAIL_GIOVANNI
+                            0x300, // EVENT_OPENED_DOOR_TO_ROCKET_HIDEOUT_TRANSMITTER
+                            0x301, // EVENT_LEARNED_SLOWPOKETAIL
+                            0x302, // EVENT_LEARNED_RATICATE_TAIL
+                            0x303, // EVENT_OPENED_DOOR_TO_GIOVANNIS_OFFICE
+                            0x6D6, // EVENT_TEAM_ROCKET_BASE_B2F_LANCE
+                            0x6D7, // EVENT_TEAM_ROCKET_BASE_B3F_LANCE_PASSWORDS
+                            0x6DA, // EVENT_TEAM_ROCKET_BASE_POPULATION
+                            0x6DB, // EVENT_TEAM_ROCKET_BASE_B3F_EXECUTIVE
+                            0x6DC, // EVENT_ROUTE_43_GATE_ROCKETS
+                            0x6E0, // EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_1
+                            0x6E1, // EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_2
+                            0x6E2, // EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3
+                        };
+
+                        foreach (var evt in evt_ids)
+                        {
+                            flagHelper.SetEventFlag(evt, false);
+                            m_flagsGroupsList[Src_EventFlags].Flags[evt].IsSet = false;
+                        }
+
+                        idx = 0x0E; // ENGINE_ROCKET_SIGNAL_ON_CH20
+                        SetSysFlag(idx, true);
+                        m_flagsGroupsList[Src_SysFlags].Flags[idx].IsSet = true;
+
+                        idx = 0x16; // ENGINE_ROCKETS_IN_MAHOGANY
+                        SetSysFlag(idx, true);
+                        m_flagsGroupsList[Src_SysFlags].Flags[idx].IsSet = true;
+
+                        idx = 0x30; // wTeamRocketBaseB2FSceneID
+                        eventWorkHelper.SetWork(idx, 0);
+
+                        idx = 0x31; // wTeamRocketBaseB3FSceneID
+                        eventWorkHelper.SetWork(idx, 0);
+                    }
+                    break;
+
+                case 2: // Radio Tower takeover events
+                    {
+                        int[] evt_ids =
+                        {
+                            0x21, // EVENT_CLEARED_RADIO_TOWER
+                            0x25, // EVENT_USED_THE_CARD_KEY_IN_THE_RADIO_TOWER
+                            0x49, // EVENT_USED_BASEMENT_KEY
+                            0x4A, // EVENT_RECEIVED_CARD_KEY
+                            0x6CC, // EVENT_GOLDENROD_CITY_ROCKET_SCOUT
+                            0x6CD, // EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
+                            0x6CE, // EVENT_RADIO_TOWER_ROCKET_TAKEOVER
+                        };
+
+                        foreach (var evt in evt_ids)
+                        {
+                            flagHelper.SetEventFlag(evt, false);
+                            m_flagsGroupsList[Src_EventFlags].Flags[evt].IsSet = false;
+                        }
+
+                        idx = 0x6CF; // EVENT_GOLDENROD_CITY_CIVILIANS
+                        flagHelper.SetEventFlag(idx, true);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = true;
+
+                        idx = 0x6D0; // EVENT_RADIO_TOWER_CIVILIANS_AFTER
+                        flagHelper.SetEventFlag(idx, true);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = true;
+
+                        idx = 0x307; // EVENT_GOLDENROD_UNDERGROUND_WAREHOUSE_BLOCKED_OFF
+                        flagHelper.SetEventFlag(idx, true);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = true;
+
+                        idx = 0x12; // ENGINE_ROCKETS_IN_RADIO_TOWER
+                        SetSysFlag(idx, true);
+                        m_flagsGroupsList[Src_SysFlags].Flags[idx].IsSet = true;
+
+                        idx = 0x2A; // wRadioTower5FSceneID
+                        eventWorkHelper.SetWork(idx, 0);
+                    }
+                    break;
+
+                case 3: // S.S. Aqua first trip
+                    {
+                        int[] evt_ids =
+                        {
+                            0x30, // EVENT_FAST_SHIP_FIRST_TIME
+                            0x31, // EVENT_FAST_SHIP_HAS_ARRIVED
+                            0x32, // EVENT_FAST_SHIP_FOUND_GIRL
+                            0x33, // EVENT_FAST_SHIP_LAZY_SAILOR
+                            0x34, // EVENT_FAST_SHIP_INFORMED_ABOUT_LAZY_SAILOR
+                            0x71, // EVENT_GOT_METAL_COAT_FROM_GRANDPA_ON_SS_AQUA
+                            0x730, // EVENT_FAST_SHIP_CABINS_SE_SSE_GENTLEMAN
+                            0x732, // EVENT_FAST_SHIP_CABINS_SE_SSE_CAPTAINS_CABIN_TWIN_2
+                            0x739, // EVENT_FAST_SHIP_PASSENGERS_FIRST_TRIP
+                        };
+
+                        foreach (var evt in evt_ids)
+                        {
+                            flagHelper.SetEventFlag(evt, false);
+                            m_flagsGroupsList[Src_EventFlags].Flags[evt].IsSet = false;
+                        }
+
+                        idx = 0x73A; // EVENT_FAST_SHIP_PASSENGERS_EASTBOUND
+                        flagHelper.SetEventFlag(idx, true);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = true;
+
+                        idx = 0x73B; // EVENT_FAST_SHIP_PASSENGERS_WESTBOUND
+                        flagHelper.SetEventFlag(idx, true);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = true;
+
+                        idx = 0x38; // wFastShip1FSceneID
+                        eventWorkHelper.SetWork(idx, 2);
+
+                        idx = 0x39; // wFastShipB1FSceneID
+                        eventWorkHelper.SetWork(idx, 0);
+                    }
+                    break;
+
+                case 4: // Legendary Beasts events
+                    {
+                        int[] evt_ids =
+                        {
+                            0x7B, // EVENT_RELEASED_THE_BEASTS
+                            0x74B, // EVENT_BURNED_TOWER_B1F_BEASTS_2
+                        };
+
+                        foreach (var evt in evt_ids)
+                        {
+                            flagHelper.SetEventFlag(evt, false);
+                            m_flagsGroupsList[Src_EventFlags].Flags[evt].IsSet = false;
+                        }
+
+                        idx = 0x29; // wBurnedTowerB1FSceneID
+                        eventWorkHelper.SetWork(idx, 0);
+                    }
+                    break;
+
+                case 5: // Unblock Mt. Silver access
+                    {
+                        idx = 0x74F; // EVENT_OPENED_MT_SILVER
+                        flagHelper.SetEventFlag(idx, true);
+                        m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = true;
+                    }
+                    break;
+            }
+        }
+
         public override void BulkMarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: true);
