@@ -77,7 +77,7 @@ MainWin.flySpotsChk=Pontos de Fly
 MainWin.berryTreesChk=Árvores de Frutos
 MainWin.collectablesChk=Colecionáveis
 MainWin.warnLabel=Modificar inadvertidamente valores de flags pode causar|softlock, crashes, e perda permanente dos seus dados.|Recomenda-se fortemente criar backups do arquivo de Save.
-MainWin.BulkOperation_caption=Editar em lote
+MainWin.BulkOperation_caption=Edições não desfazíveis
 MainWin.BulkOperation_msg=Esta operação não poderá ser desfeita.|Tem certeza?
 MainWin.BulkOperationDone_msg=Operação concluída
 
@@ -100,5 +100,15 @@ SpecialEditsGen1.specialEvtBtn_5=Resetar eventos do Rocket Hideout
 SpecialEditsGen1.specialEvtBtn_6=Resetar eventos da Pokémon Tower
 SpecialEditsGen1.specialEvtBtn_7=Resetar eventos da Silph Co.
 SpecialEditsGen1.specialEvtBtn_8=Desbloquear Cerulean Cave
+
+SpecialEditsGen2.specialEvtBtn_1=Resetar eventos do Slowpoke Well
+SpecialEditsGen2.specialEvtBtn_2=Resetar eventos do Lake of Rage
+SpecialEditsGen2.specialEvtBtn_3=Resetar eventos da Radio Tower
+SpecialEditsGen2.specialEvtBtn_4=Resetar eventos da viagem inicial do S.S. Aqua
+SpecialEditsGen2.specialEvtBtn_5=Resetar eventos das Legendary Beasts
+SpecialEditsGen2.specialEvtBtn_6=Desbloquear acesso ao Mt. Silver
+
+SpecialEditsGen2.specialEvtBtn_7=Desbloquear escadaria da Tin Tower
+SpecialEditsGen2.specialEvtBtn_8=Resetar evento do Celebi
 
 MiscEditsSV.miscEvtBtn_1=Editor de Itens Escondidos Diários

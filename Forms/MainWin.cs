@@ -1,4 +1,6 @@
-﻿namespace FlagsEditorEXPlugin.Forms
+﻿using System.Windows.Forms.VisualStyles;
+
+namespace FlagsEditorEXPlugin.Forms
 {
     public partial class MainWin : Form
     {
@@ -84,7 +86,16 @@
                 };
                 newBtn.Click += (object? sender, EventArgs e) =>
                 {
-                    m_organizer.ProcessSpecialEventEdit(evt);
+                    var result = MessageBox.Show(LocalizedStrings.Find("MainWin.BulkOperation_msg", "This operation cannot be undone.|Are you sure?").Replace("|", "\r\n"),
+                        LocalizedStrings.Find("MainWin.BulkOperation_caption", "Not Undoable Edits"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                    if (result == DialogResult.Yes)
+                    {
+                        m_organizer.ProcessSpecialEventEdit(evt);
+
+                        MessageBox.Show(LocalizedStrings.Find("MainWin.BulkOperationDone_msg", "Operation done"),
+                            LocalizedStrings.Find("MainWin.BulkOperation_caption", "Not Undoable Edits"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
                 };
 
                 tabPage4.Controls.Add(newBtn);
@@ -156,7 +167,7 @@
         private void MarkFlagsBtn_Click(object sender, EventArgs e)
         {
             var result = MessageBox.Show(LocalizedStrings.Find("MainWin.BulkOperation_msg", "This operation cannot be undone.|Are you sure?").Replace("|", "\r\n"),
-                LocalizedStrings.Find("MainWin.BulkOperation_caption", "Bulk Edit"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                LocalizedStrings.Find("MainWin.BulkOperation_caption", "Not Undoable Edits"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
                 if (fieldItemsChk.Checked)
@@ -196,14 +207,14 @@
                     m_organizer.BulkMarkFlags(FlagsOrganizer.EventFlagType.Collectable);
 
                 MessageBox.Show(LocalizedStrings.Find("MainWin.BulkOperationDone_msg", "Operation done"),
-                    LocalizedStrings.Find("MainWin.BulkOperation_caption", "Bulk Edit"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LocalizedStrings.Find("MainWin.BulkOperation_caption", "Not Undoable Edits"), MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
         private void UnmarkFlagsBtn_Click(object sender, EventArgs e)
         {
             var result = MessageBox.Show(LocalizedStrings.Find("MainWin.BulkOperation_msg", "This operation cannot be undone.|Are you sure?").Replace("|", "\r\n"),
-                LocalizedStrings.Find("MainWin.BulkOperation_caption", "Bulk Edit"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                LocalizedStrings.Find("MainWin.BulkOperation_caption", "Not Undoable Edits"), MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
                 if (fieldItemsChk.Checked)
@@ -243,7 +254,7 @@
                     m_organizer.BulkUnmarkFlags(FlagsOrganizer.EventFlagType.Collectable);
 
                 MessageBox.Show(LocalizedStrings.Find("MainWin.BulkOperationDone_msg", "Operation done"),
-                    LocalizedStrings.Find("MainWin.BulkOperation_caption", "Bulk Edit"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LocalizedStrings.Find("MainWin.BulkOperation_caption", "Not Undoable Edits"), MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }

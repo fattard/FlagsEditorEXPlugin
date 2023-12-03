@@ -77,7 +77,7 @@ MainWin.flySpotsChk=Fly Spots
 MainWin.berryTreesChk=Berry Trees
 MainWin.collectablesChk=Collectables
 MainWin.warnLabel=Changing the flags values may cause softlock,|crashes, and permanent data loss.|Save file backups is strongly recommended.
-MainWin.BulkOperation_caption=Bulk Edit
+MainWin.BulkOperation_caption=Not Undoable Edits
 MainWin.BulkOperation_msg=This operation cannot be undone.|Are you sure?
 MainWin.BulkOperationDone_msg=Operation done
 
@@ -100,5 +100,15 @@ SpecialEditsGen1.specialEvtBtn_5=Reset Rocket Hideout events
 SpecialEditsGen1.specialEvtBtn_6=Reset Pokémon Tower events
 SpecialEditsGen1.specialEvtBtn_7=Reset Silph Co. events
 SpecialEditsGen1.specialEvtBtn_8=Unblock Cerulean Cave
+
+SpecialEditsGen2.specialEvtBtn_1=Reset Slowpoke Well events
+SpecialEditsGen2.specialEvtBtn_2=Reset Lake of Rage events
+SpecialEditsGen2.specialEvtBtn_3=Reset Radio Tower events
+SpecialEditsGen2.specialEvtBtn_4=Reset S.S. Aqua first trip events
+SpecialEditsGen2.specialEvtBtn_5=Reset Legendary Beasts events
+SpecialEditsGen2.specialEvtBtn_6=Unblock Mt. Silver access
+
+SpecialEditsGen2.specialEvtBtn_7=Unblock Tin Tower stairs
+SpecialEditsGen2.specialEvtBtn_8=Reset Celebi event
 
 MiscEditsSV.miscEvtBtn_1=Daily Hidden Items Editor

@@ -400,6 +400,7 @@
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Reset S.S. Aqua first trip events")),
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Reset Legendary Beasts events")),
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Unblock Mt. Silver access")),
+
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Unblock Tin Tower stairs")),
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Reset Celebi event")),
             };
