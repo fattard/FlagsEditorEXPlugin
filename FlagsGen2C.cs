@@ -809,11 +809,11 @@
                 idx = 0x43; // wGoldenrodUndergroundSwitchRoomEntrancesSceneID
                 m_eventWorkList[idx].Value = value ? 1 : 0;
                 eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
-                
+
                 idx = 0x45; // wVictoryRoadSceneID
                 m_eventWorkList[idx].Value = value ? 1 : 0;
                 eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
-                
+
                 idx = 0x32; // wMountMoonSceneID
                 m_eventWorkList[idx].Value = value ? 1 : 0;
                 eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
@@ -1004,7 +1004,7 @@
                     idx = 0x52; // EVENT_GOT_HP_UP_FROM_RANDY
                     flagHelper.SetEventFlag(idx, false);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;
-                    
+
                     idx = 0xC1; // EVENT_ANSWERED_DRAGON_MASTER_QUIZ_WRONG
                     flagHelper.SetEventFlag(idx, false);
                     m_flagsGroupsList[Src_EventFlags].Flags[idx].IsSet = false;

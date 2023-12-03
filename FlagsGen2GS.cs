@@ -643,11 +643,11 @@
                 idx = 0x32; // wGoldenrodUndergroundSwitchRoomEntrancesSceneID
                 m_eventWorkList[idx].Value = value ? 1 : 0;
                 eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
-                
+
                 idx = 0x34; // wVictoryRoadSceneID
                 m_eventWorkList[idx].Value = value ? 1 : 0;
                 eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);
-                
+
                 idx = 0x26; // wMountMoonSceneID
                 m_eventWorkList[idx].Value = value ? 1 : 0;
                 eventWorkHelper.SetWork(idx, (byte)m_eventWorkList[idx].Value);

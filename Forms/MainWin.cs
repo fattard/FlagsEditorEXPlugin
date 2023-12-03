@@ -1,6 +1,4 @@
-﻿using System.Windows.Forms.VisualStyles;
-
-namespace FlagsEditorEXPlugin.Forms
+﻿namespace FlagsEditorEXPlugin.Forms
 {
     public partial class MainWin : Form
     {
