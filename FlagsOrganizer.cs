@@ -379,6 +379,14 @@
 
                     sb.AppendFormat(fmt, flagsList[i].FlagIdx, flagsList[i].IsSet,
                         flagsList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : flagsList[i].ToString());
+
+#if DEBUG
+                    if (flagsList[i].FlagTypeVal == EventFlagType._Unused && flagsList[i].IsSet)
+                    {
+                        MessageBox.Show($"[{fGroup.SourceName}] FLAG_0x{flagsList[i].FlagIdx:X4} is set,\nbut it should be unused.",
+                            "Unused warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+#endif
                 }
 
                 sb.Append("\r\n\r\n");
@@ -398,6 +406,14 @@
 
                     sb.AppendFormat(fmt, m_eventWorkList[i].WorkIdx, m_eventWorkList[i].Value,
                         m_eventWorkList[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_eventWorkList[i].ToString());
+
+#if DEBUG
+                    if (m_eventWorkList[i].FlagTypeVal == EventFlagType._Unused && m_eventWorkList[i].Value != 0)
+                    {
+                        MessageBox.Show($"WORK_0x{m_eventWorkList[i].WorkIdx:X4} has a value of {m_eventWorkList[i].Value},\nbut it should be unused.",
+                            "Unused warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+#endif
                 }
             }
 
