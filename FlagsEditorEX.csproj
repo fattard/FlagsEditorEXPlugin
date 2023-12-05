@@ -56,9 +56,7 @@
     <EmbeddedResource Include="localization\lang_en.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="PKHeX.Core">
-      <HintPath>refs\PKHeX.Core.dll</HintPath>
-    </Reference>
+    <PackageReference Include="PKHeX.Core" Version="23.10.11" />
   </ItemGroup>
   <ItemGroup>
     <Using Include="PKHeX.Core" />
