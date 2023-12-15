@@ -112,7 +112,7 @@
 0x006E	EVENT					EVENT_MET_MONICA_OF_MONDAY
 0x006F	ITEM GIFT	Route 40		Received Sharp Beak from Monica (Monday)		EVENT_GOT_SHARP_BEAK_FROM_MONICA
 0x0070	ITEM GIFT	Route 34		Received Soft Sand from Kate		EVENT_GOT_SOFT_SAND_FROM_KATE
-0x0071	STORY EVENT	S.S. Aqua		Received Metal Coat from grandpa		EVENT_GOT_METAL_COAT_FROM_GRANDPA_ON_SS_AQUA
+0x0071	STORY EVENT	S.S. Aqua	First Trip	Received Metal Coat from grandpa		EVENT_GOT_METAL_COAT_FROM_GRANDPA_ON_SS_AQUA
 0x0072	ITEM GIFT	Dark Cave		Received Black Glasses from man		EVENT_GOT_BLACKGLASSES_IN_DARK_CAVE
 0x0073	ITEM GIFT	Slowpoke Well	B2F	Received King's Rock from man		EVENT_GOT_KINGS_ROCK_IN_SLOWPOKE_WELL
 0x0074	ITEM GIFT	Route 28	House	Received TM47 (Steel Wing) from celebrity		EVENT_GOT_TM47_STEEL_WING
@@ -235,7 +235,7 @@
 0x00E9	HIDDEN ITEM	Rock Tunnel	B1F	Found Max Potion		EVENT_ROCK_TUNNEL_B1F_HIDDEN_MAX_POTION
 0x00EA	HIDDEN ITEM	Olivine City		Found Protein		EVENT_OLIVINE_PORT_HIDDEN_PROTEIN
 0x00EB	HIDDEN ITEM	Vermilion City		Found Iron		EVENT_VERMILION_PORT_HIDDEN_IRON
-0x00EC	HIDDEN ITEM	Mt. Moon	Square	Found Moon Stone		EVENT_MOUNT_MOON_SQUARE_HIDDEN_MOON_STONE
+0x00EC	HIDDEN ITEM	Mt. Moon	Square	[Monday Night] Found Moon Stone		EVENT_MOUNT_MOON_SQUARE_HIDDEN_MOON_STONE
 0x00ED	HIDDEN ITEM	Route 2		Found Max Ether		EVENT_ROUTE_2_HIDDEN_MAX_ETHER
 0x00EE	HIDDEN ITEM	Route 2		Found Full Heal		EVENT_ROUTE_2_HIDDEN_FULL_HEAL
 0x00EF	HIDDEN ITEM	Route 2		Found Full Restore		EVENT_ROUTE_2_HIDDEN_FULL_RESTORE
@@ -1077,7 +1077,7 @@
 0x0433	TRAINER BATTLE	Route 8		Battled Biker Dwayne		EVENT_BEAT_BIKER_DWAYNE
 0x0434	TRAINER BATTLE	Route 8		Battled Biker Harris		EVENT_BEAT_BIKER_HARRIS
 0x0435	TRAINER BATTLE	Route 8		Battled Biker Zeke		EVENT_BEAT_BIKER_ZEKE
-0x0436	TRAINER BATTLE	Route 18		Battled Biker Charles		EVENT_BEAT_BIKER_CHARLES
+0x0436	TRAINER BATTLE	Route 17		Battled Biker Charles		EVENT_BEAT_BIKER_CHARLES
 0x0437	TRAINER BATTLE	Route 17		Battled Biker Riley		EVENT_BEAT_BIKER_RILEY
 0x0438	TRAINER BATTLE	Route 17		Battled Biker Joel		EVENT_BEAT_BIKER_JOEL
 0x0439	TRAINER BATTLE	Route 17		Battled Biker Glenn		EVENT_BEAT_BIKER_GLENN
@@ -1172,7 +1172,7 @@
 0x0492	_UNUSED					EVENT_BEAT_PICNICKER_ERIN3
 0x0493	TRAINER BATTLE	S.S. Aqua	Westbound	Battled Guitarist Clyde		EVENT_BEAT_GUITARIST_CLYDE
 0x0494	TRAINER BATTLE	Vermilion City	Gym	Battled Guitarist Vincent		EVENT_BEAT_GUITARIST_VINCENT
-0x0495	TRAINER BATTLE	Route 25		Battled Juggler Irwin		EVENT_BEAT_JUGGLER_IRWIN
+0x0495	TRAINER BATTLE	Route 35		Battled Juggler Irwin		EVENT_BEAT_JUGGLER_IRWIN
 0x0496	TRAINER BATTLE	S.S. Aqua	First Trip	Battled Juggler Fritz		EVENT_BEAT_JUGGLER_FRITZ
 0x0497	TRAINER BATTLE	Vermilion City	Gym	Battled Juggler Horton		EVENT_BEAT_JUGGLER_HORTON
 0x0498	_UNUSED					EVENT_BEAT_JUGGLER_IRWIN2
@@ -1201,7 +1201,7 @@
 0x04AF	_UNUSED					EVENT_BEAT_BEAUTY_JULIE
 0x04B0	_UNUSED					EVENT_BEAT_BEAUTY_JACLYN
 0x04B1	_UNUSED					EVENT_BEAT_BEAUTY_BRENDA
-0x04B2	TRAINER BATTLE	S.S. Aqua		Battled Beauty Cassie		EVENT_BEAT_BEAUTY_CASSIE
+0x04B2	TRAINER BATTLE	S.S. Aqua	Eastbound	Battled Beauty Cassie		EVENT_BEAT_BEAUTY_CASSIE
 0x04B3	_UNUSED					EVENT_BEAT_BEAUTY_CAROLINE
 0x04B4	_UNUSED					EVENT_BEAT_BEAUTY_CARLENE
 0x04B5	_UNUSED					EVENT_BEAT_BEAUTY_JESSICA
@@ -1226,7 +1226,7 @@
 0x04C8	TRAINER BATTLE	Celadon City	Gym	Battled Leader Erika		EVENT_BEAT_ERIKA
 0x04C9	TRAINER BATTLE	Fuchsia City	Gym	Battled Leader Janine		EVENT_BEAT_JANINE
 0x04CA	TRAINER BATTLE	Saffron City	Gym	Battled Leader Sabrina		EVENT_BEAT_SABRINA
-0x04CB	TRAINER BATTLE	Cinnabar Island	Gym	Battled Leader Blaine		EVENT_BEAT_BLAINE
+0x04CB	TRAINER BATTLE	Seafoam Islands	Cinnabar Gym	Battled Leader Blaine		EVENT_BEAT_BLAINE
 0x04CC	TRAINER BATTLE	Viridian City	Gym	Battled Leader Blue		EVENT_BEAT_BLUE
 0x04CD	TRAINER BATTLE	National Park		Battled Pokéfan♂ William		EVENT_BEAT_POKEFANM_WILLIAM
 0x04CE	TRAINER BATTLE	Route 39		Battled Pokéfan♂ Derek		EVENT_BEAT_POKEFANM_DEREK
@@ -1604,7 +1604,7 @@
 0x0642	EVENT					EVENT_CHIKORITA_POKEBALL_IN_ELMS_LAB
 0x0643	FIELD ITEM	Violet City		PP Up item ball disappeared		EVENT_VIOLET_CITY_PP_UP
 0x0644	FIELD ITEM	Violet City		Rare Candy item ball disappeared		EVENT_VIOLET_CITY_RARE_CANDY
-0x0645	FIELD ITEM	Lake of Rage		Max Ether Rare item ball disappeared		EVENT_LAKE_OF_RAGE_MAX_ETHER
+0x0645	FIELD ITEM	Lake of Rage		Max Ether item ball disappeared		EVENT_LAKE_OF_RAGE_MAX_ETHER
 0x0646	FIELD ITEM	Lake of Rage		TM43 (Detect) item ball disappeared		EVENT_LAKE_OF_RAGE_TM_DETECT
 0x0647	FIELD ITEM	Sprout Tower	1F	Paralyze Heal item ball disappeared		EVENT_SPROUT_TOWER_1F_PARLYZ_HEAL
 0x0648	FIELD ITEM	Sprout Tower	2F	X Defense item ball disappeared		EVENT_SPROUT_TOWER_2F_X_DEFEND
@@ -1659,7 +1659,7 @@
 0x0679	FIELD ITEM	Goldenrod Tunnel	Warehouse	Max Ether item ball disappeared		EVENT_GOLDENROD_UNDERGROUND_WAREHOUSE_MAX_ETHER
 0x067A	FIELD ITEM	Goldenrod Tunnel	Warehouse	TM35 (Sleep Talk) item ball disappeared		EVENT_GOLDENROD_UNDERGROUND_WAREHOUSE_TM_SLEEP_TALK
 0x067B	FIELD ITEM	Mt. Mortar	1F Outside	Ether item ball disappeared		EVENT_MOUNT_MORTAR_1F_OUTSIDE_ETHER
-0x067C	FIELD ITEM	Mt. Mortar	1F Outside	Revive item ball disappeared		EVENT_MOUNT_MORTAR_1F_OUTSIDE_REVIVE
+0x067C	FIELD ITEM	Mt. Mortar	1F Outside	Guard Spec. item ball disappeared		EVENT_MOUNT_MORTAR_1F_OUTSIDE_GUARD_SPEC
 0x067D	FIELD ITEM	Mt. Mortar	1F Inside	Escape Rope item ball disappeared		EVENT_MOUNT_MORTAR_1F_INSIDE_ESCAPE_ROPE
 0x067E	FIELD ITEM	Mt. Mortar	1F Inside	Max Revive item ball disappeared		EVENT_MOUNT_MORTAR_1F_INSIDE_MAX_REVIVE
 0x067F	FIELD ITEM	Mt. Mortar	1F Inside	Hyper Potion item ball disappeared		EVENT_MOUNT_MORTAR_1F_INSIDE_HYPER_POTION
@@ -2044,7 +2044,7 @@
 0x25	STORY EVENT	Celadon City	Gym	Earned the Rainbow Badge		ENGINE_RAINBOWBADGE
 0x26	STORY EVENT	Fuchsia City	Gym	Earned the Soul Badge		ENGINE_SOULBADGE
 0x27	STORY EVENT	Saffron City	Gym	Earned the Marsh Badge		ENGINE_MARSHBADGE
-0x28	STORY EVENT	Cinnabar Island	Gym	Earned the Volcano Badge		ENGINE_VOLCANOBADGE
+0x28	STORY EVENT	Seafoam Islands	Cinnabar Gym	Earned the Volcano Badge		ENGINE_VOLCANOBADGE
 0x29	STORY EVENT	Viridian City	Gym	Earned the Earth Badge		ENGINE_EARTHBADGE
 0x2A	SIDE EVENT	Ruins of Alph		Unlocked Unowns A to K spanws		ENGINE_UNLOCKED_UNOWNS_A_TO_K
 0x2B	SIDE EVENT	Ruins of Alph		Unlocked Unowns L to R spanws		ENGINE_UNLOCKED_UNOWNS_L_TO_R
@@ -2102,7 +2102,7 @@
 						
 						
 //	Trade Flags					wTradeFlags
-0x00	IN-GAME TRADE	Goldenrod Department Store	1F	Traded Drowzee for Machop (MUSCLE)		NPC_TRADE_MIKE
+0x00	IN-GAME TRADE	Goldenrod Department Store	5F	Traded Drowzee for Machop (MUSCLE)		NPC_TRADE_MIKE
 0x01	IN-GAME TRADE	Violet City	House	Traded Bellsprout for Onix (ROCKY)		NPC_TRADE_KYLE
 0x02	IN-GAME TRADE	Olivine City	House	Traded Krabby for Voltorb (VOLTY)		NPC_TRADE_TIM
 0x03	IN-GAME TRADE	Blackthorn City	House	Traded Dragonair♀ for Rhydon (DON)		NPC_TRADE_EMY
@@ -2115,37 +2115,36 @@
 						
 						
 //	Berry Trees Flags					wFruitTreeFlags
-0x00	_UNUSED					
-0x01	BERRY TREE	Route 29		[Daily] Collected Berry from Berry Tree		FRUITTREE_ROUTE_29
-0x02	BERRY TREE	Route 30		[Daily] Collected Berry from Berry Tree		FRUITTREE_ROUTE_30_1
-0x03	BERRY TREE	Route 38		[Daily] Collected Berry from Berry Tree		FRUITTREE_ROUTE_38
-0x04	BERRY TREE	Route 46		[Daily] Collected Berry from Berry Tree		FRUITTREE_ROUTE_46_1
-0x05	BERRY TREE	Route 30		[Daily] Collected PsnCureBerry from Berry Tree		FRUITTREE_ROUTE_30_2
-0x06	BERRY TREE	Route 33		[Daily] Collected PsnCureBerry from Berry Tree		FRUITTREE_ROUTE_33
-0x07	BERRY TREE	Route 31		[Daily] Collected Bitter Berry from Berry Tree		FRUITTREE_ROUTE_31
-0x08	BERRY TREE	Route 43		[Daily] Collected Bitter Berry from Berry Tree		FRUITTREE_ROUTE_43
-0x09	BERRY TREE	Violet City		[Daily] Collected PrzCureBerry from Berry Tree		FRUITTREE_VIOLET_CITY
-0x0A	BERRY TREE	Route 46		[Daily] Collected PrzCureBerry from Berry Tree		FRUITTREE_ROUTE_46_2
-0x0B	BERRY TREE	Route 35		[Daily] Collected MysteryBerry from Berry Tree		FRUITTREE_ROUTE_35
-0x0C	BERRY TREE	Route 45		[Daily] Collected MysteryBerry from Berry Tree		FRUITTREE_ROUTE_45
-0x0D	BERRY TREE	Route 36		[Daily] Collected Ice Berry from Berry Tree		FRUITTREE_ROUTE_36
-0x0E	BERRY TREE	Route 26		[Daily] Collected Ice Berry from Berry Tree		FRUITTREE_ROUTE_26
-0x0F	BERRY TREE	Route 39		[Daily] Collected Mint Berry from Berry Tree		FRUITTREE_ROUTE_39
-0x10	BERRY TREE	Route 44		[Daily] Collected Burnt Berry from Berry Tree		FRUITTREE_ROUTE_44
-0x11	BERRY TREE	Route 37		[Daily] Collected Red Apricorn from Berry Tree		FRUITTREE_ROUTE_37_1
-0x12	BERRY TREE	Route 37		[Daily] Collected Blue Apricorn from Berry Tree		FRUITTREE_ROUTE_37_2
-0x13	BERRY TREE	Route 37		[Daily] Collected Black Apricorn from Berry Tree		FRUITTREE_ROUTE_37_3
-0x14	BERRY TREE	Azalea Town		[Daily] Collected White Apricorn from Berry Tree		FRUITTREE_AZALEA_TOWN
-0x15	BERRY TREE	Route 42		[Daily] Collected Pink Apricorn from Berry Tree		FRUITTREE_ROUTE_42_1
-0x16	BERRY TREE	Route 42		[Daily] Collected Green Apricorn from Berry Tree		FRUITTREE_ROUTE_42_2
-0x17	BERRY TREE	Route 42		[Daily] Collected Yellow Apricorn from Berry Tree		FRUITTREE_ROUTE_42_3
-0x18	BERRY TREE	Route 11		[Daily] Collected Berry from Berry Tree		FRUITTREE_ROUTE_11
-0x19	BERRY TREE	Route 2		[Daily] Collected PsnCureBerry from Berry Tree		FRUITTREE_ROUTE_2
-0x1A	BERRY TREE	Route 1		[Daily] Collected Bitter Berry from Berry Tree		FRUITTREE_ROUTE_1
-0x1B	BERRY TREE	Route 8		[Daily] Collected PrzCureBerry from Berry Tree		FRUITTREE_ROUTE_8
-0x1C	BERRY TREE	Pewter City		[Daily] Collected Ice Berry from Berry Tree		FRUITTREE_PEWTER_CITY_1
-0x1D	BERRY TREE	Pewter City		[Daily] Collected Mint Berry from Berry Tree		FRUITTREE_PEWTER_CITY_2
-0x1E	BERRY TREE	Fuchsia City		[Daily] Collected Burnt Berry from Berry Tree		FRUITTREE_FUCHSIA_CITY
+0x00	BERRY TREE	Route 29		[Daily] Collected Berry from Berry Tree		FRUITTREE_ROUTE_29
+0x01	BERRY TREE	Route 30		[Daily] Collected Berry from Berry Tree		FRUITTREE_ROUTE_30_1
+0x02	BERRY TREE	Route 38		[Daily] Collected Berry from Berry Tree		FRUITTREE_ROUTE_38
+0x03	BERRY TREE	Route 46		[Daily] Collected Berry from Berry Tree		FRUITTREE_ROUTE_46_1
+0x04	BERRY TREE	Route 30		[Daily] Collected PsnCureBerry from Berry Tree		FRUITTREE_ROUTE_30_2
+0x05	BERRY TREE	Route 33		[Daily] Collected PsnCureBerry from Berry Tree		FRUITTREE_ROUTE_33
+0x06	BERRY TREE	Route 31		[Daily] Collected Bitter Berry from Berry Tree		FRUITTREE_ROUTE_31
+0x07	BERRY TREE	Route 43		[Daily] Collected Bitter Berry from Berry Tree		FRUITTREE_ROUTE_43
+0x08	BERRY TREE	Violet City		[Daily] Collected PrzCureBerry from Berry Tree		FRUITTREE_VIOLET_CITY
+0x09	BERRY TREE	Route 46		[Daily] Collected PrzCureBerry from Berry Tree		FRUITTREE_ROUTE_46_2
+0x0A	BERRY TREE	Route 35		[Daily] Collected MysteryBerry from Berry Tree		FRUITTREE_ROUTE_35
+0x0B	BERRY TREE	Route 45		[Daily] Collected MysteryBerry from Berry Tree		FRUITTREE_ROUTE_45
+0x0C	BERRY TREE	Route 36		[Daily] Collected Ice Berry from Berry Tree		FRUITTREE_ROUTE_36
+0x0D	BERRY TREE	Route 26		[Daily] Collected Ice Berry from Berry Tree		FRUITTREE_ROUTE_26
+0x0E	BERRY TREE	Route 39		[Daily] Collected Mint Berry from Berry Tree		FRUITTREE_ROUTE_39
+0x0F	BERRY TREE	Route 44		[Daily] Collected Burnt Berry from Berry Tree		FRUITTREE_ROUTE_44
+0x10	BERRY TREE	Route 37		[Daily] Collected Red Apricorn from Berry Tree		FRUITTREE_ROUTE_37_1
+0x11	BERRY TREE	Route 37		[Daily] Collected Blue Apricorn from Berry Tree		FRUITTREE_ROUTE_37_2
+0x12	BERRY TREE	Route 37		[Daily] Collected Black Apricorn from Berry Tree		FRUITTREE_ROUTE_37_3
+0x13	BERRY TREE	Azalea Town		[Daily] Collected White Apricorn from Berry Tree		FRUITTREE_AZALEA_TOWN
+0x14	BERRY TREE	Route 42		[Daily] Collected Pink Apricorn from Berry Tree		FRUITTREE_ROUTE_42_1
+0x15	BERRY TREE	Route 42		[Daily] Collected Green Apricorn from Berry Tree		FRUITTREE_ROUTE_42_2
+0x16	BERRY TREE	Route 42		[Daily] Collected Yellow Apricorn from Berry Tree		FRUITTREE_ROUTE_42_3
+0x17	BERRY TREE	Route 11		[Daily] Collected Berry from Berry Tree		FRUITTREE_ROUTE_11
+0x18	BERRY TREE	Route 2		[Daily] Collected PsnCureBerry from Berry Tree		FRUITTREE_ROUTE_2
+0x19	BERRY TREE	Route 1		[Daily] Collected Bitter Berry from Berry Tree		FRUITTREE_ROUTE_1
+0x1A	BERRY TREE	Route 8		[Daily] Collected PrzCureBerry from Berry Tree		FRUITTREE_ROUTE_8
+0x1B	BERRY TREE	Pewter City		[Daily] Collected Ice Berry from Berry Tree		FRUITTREE_PEWTER_CITY_1
+0x1C	BERRY TREE	Pewter City		[Daily] Collected Mint Berry from Berry Tree		FRUITTREE_PEWTER_CITY_2
+0x1D	BERRY TREE	Fuchsia City		[Daily] Collected Burnt Berry from Berry Tree		FRUITTREE_FUCHSIA_CITY
 						
 						
 						
