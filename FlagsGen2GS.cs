@@ -27,6 +27,29 @@
             DayCareLady = 0x2ADF,
         }
 
+        enum FlagOffsets_JAP
+        {
+            VariableSprites = 0x239E,
+            StatusFlags = 0x23BA,
+            StatusFlags2 = 0x23BB,
+            MomSavingMoney = 0x23C2,
+            JohtoBadges = 0x23C5,
+            KantoBadges = 0x23C6,
+            PokegearFlags = 0x24C5,
+            TradeFlags = 0x24CE,
+            EventFlags = 0x2600,
+            BikeFlags = 0x275B,
+            DailyFlags1 = 0x2784,
+            DailyFlags2 = 0x2785,
+            FruitTreeFlags = 0x278D,
+            UnusedTwoDayTimerOn = 0x279F,
+            LuckyNumberShowFlag = 0x2803,
+            VisitedSpawns = 0x280A,
+            UnlockedUnowns = 0x2A28,
+            DayCareMan = 0x2A2A,
+            DayCareLady = 0x2A57,
+        }
+
         int VariableSpritesOffset;
         int StatusFlagsOffset;
         int StatusFlags2Offset;
@@ -60,14 +83,33 @@
 
             var savFile_SAV2 = (SAV2)m_savFile;
 
-            /*if (savFile_SAV2.Japanese)
+            if (savFile_SAV2.Japanese)
             {
+                VariableSpritesOffset = (int)FlagOffsets_JAP.VariableSprites;
+                StatusFlagsOffset = (int)FlagOffsets_JAP.StatusFlags;
+                StatusFlags2Offset = (int)FlagOffsets_JAP.StatusFlags2;
+                MomSavingMoneyOffset = (int)FlagOffsets_JAP.MomSavingMoney;
+                JohtoBadgesOffset = (int)FlagOffsets_JAP.JohtoBadges;
+                KantoBadgesOffset = (int)FlagOffsets_JAP.KantoBadges;
+                PokegearFlagsOffset = (int)FlagOffsets_JAP.PokegearFlags;
+                TradeFlagsOffset = (int)FlagOffsets_JAP.TradeFlags;
+                EventFlagsOffset = (int)FlagOffsets_JAP.EventFlags;
+                BikeFlagsOffset = (int)FlagOffsets_JAP.BikeFlags;
+                DailyFlags1Offset = (int)FlagOffsets_JAP.DailyFlags1;
+                DailyFlags2Offset = (int)FlagOffsets_JAP.DailyFlags2;
+                BerryTreeFlagsOffset = (int)FlagOffsets_JAP.FruitTreeFlags;
+                UnusedTwoDayTimerOnOffset = (int)FlagOffsets_JAP.UnusedTwoDayTimerOn;
+                LuckyNumberShowFlagOffset = (int)FlagOffsets_JAP.LuckyNumberShowFlag;
+                VisitedSpawnsOffset = (int)FlagOffsets_JAP.VisitedSpawns;
+                UnlockedUnownsOffset = (int)FlagOffsets_JAP.UnlockedUnowns;
+                DayCareManOffset = (int)FlagOffsets_JAP.DayCareMan;
+                DayCareLadyOffset = (int)FlagOffsets_JAP.DayCareLady;
             }
-            else if (savFile_SAV2.Korean)
+            /*else if (savFile_SAV2.Korean)
             {
 
-            }
-            else*/
+            }*/
+            else
             {
                 VariableSpritesOffset = (int)FlagOffsets_INTL.VariableSprites;
                 StatusFlagsOffset = (int)FlagOffsets_INTL.StatusFlags;
