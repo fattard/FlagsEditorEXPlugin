@@ -54,7 +54,7 @@
             DailyFlags2 = 0x2762,
             SwarmFlags = 0x2763,
             FruitTreeFlags = 0x276A,
-            UnusedTwoDayTimerOn = 0x277C,
+            UnusedTwoDayTimerOn = 0x277C, // ?
             DailyRematchFlags = 0x278F,
             DailyPhoneItemFlags = 0x2793,
             DailyPhoneTimeOfDayFlags = 0x2797,

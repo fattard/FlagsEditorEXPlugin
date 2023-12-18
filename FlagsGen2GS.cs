@@ -42,12 +42,35 @@
             DailyFlags1 = 0x2784,
             DailyFlags2 = 0x2785,
             FruitTreeFlags = 0x278D,
-            UnusedTwoDayTimerOn = 0x279F,
+            UnusedTwoDayTimerOn = 0x279F, // ?
             LuckyNumberShowFlag = 0x2803,
             VisitedSpawns = 0x280A,
             UnlockedUnowns = 0x2A28,
             DayCareMan = 0x2A2A,
             DayCareLady = 0x2A57,
+        }
+
+        enum FlagOffsets_KOR
+        {
+            VariableSprites = 0x23B7,
+            StatusFlags = 0x23D1,
+            StatusFlags2 = 0x23D2,
+            MomSavingMoney = 0x23D9,
+            JohtoBadges = 0x23DC,
+            KantoBadges = 0x23DD,
+            PokegearFlags = 0x24DC,
+            TradeFlags = 0x24E5,
+            EventFlags = 0x25F7,
+            BikeFlags = 0x27EF,
+            DailyFlags1 = 0x2818,
+            DailyFlags2 = 0x2819,
+            FruitTreeFlags = 0x2821,
+            UnusedTwoDayTimerOn = 0x282F, // ?
+            LuckyNumberShowFlag = 0x2893,
+            VisitedSpawns = 0x289A,
+            UnlockedUnowns = 0x2AE8,
+            DayCareMan = 0x2AEA,
+            DayCareLady = 0x2B21,
         }
 
         int VariableSpritesOffset;
@@ -105,10 +128,28 @@
                 DayCareManOffset = (int)FlagOffsets_JAP.DayCareMan;
                 DayCareLadyOffset = (int)FlagOffsets_JAP.DayCareLady;
             }
-            /*else if (savFile_SAV2.Korean)
+            else if (savFile_SAV2.Korean)
             {
-
-            }*/
+                VariableSpritesOffset = (int)FlagOffsets_KOR.VariableSprites;
+                StatusFlagsOffset = (int)FlagOffsets_KOR.StatusFlags;
+                StatusFlags2Offset = (int)FlagOffsets_KOR.StatusFlags2;
+                MomSavingMoneyOffset = (int)FlagOffsets_KOR.MomSavingMoney;
+                JohtoBadgesOffset = (int)FlagOffsets_KOR.JohtoBadges;
+                KantoBadgesOffset = (int)FlagOffsets_KOR.KantoBadges;
+                PokegearFlagsOffset = (int)FlagOffsets_KOR.PokegearFlags;
+                TradeFlagsOffset = (int)FlagOffsets_KOR.TradeFlags;
+                EventFlagsOffset = (int)FlagOffsets_KOR.EventFlags;
+                BikeFlagsOffset = (int)FlagOffsets_KOR.BikeFlags;
+                DailyFlags1Offset = (int)FlagOffsets_KOR.DailyFlags1;
+                DailyFlags2Offset = (int)FlagOffsets_KOR.DailyFlags2;
+                BerryTreeFlagsOffset = (int)FlagOffsets_KOR.FruitTreeFlags;
+                UnusedTwoDayTimerOnOffset = (int)FlagOffsets_KOR.UnusedTwoDayTimerOn;
+                LuckyNumberShowFlagOffset = (int)FlagOffsets_KOR.LuckyNumberShowFlag;
+                VisitedSpawnsOffset = (int)FlagOffsets_KOR.VisitedSpawns;
+                UnlockedUnownsOffset = (int)FlagOffsets_KOR.UnlockedUnowns;
+                DayCareManOffset = (int)FlagOffsets_KOR.DayCareMan;
+                DayCareLadyOffset = (int)FlagOffsets_KOR.DayCareLady;
+            }
             else
             {
                 VariableSpritesOffset = (int)FlagOffsets_INTL.VariableSprites;
