@@ -25,6 +25,13 @@
                 // DLC1
                 0x917A3380,
                 0xA07A4B1D,
+
+                // DLC2
+                0x1381BBEB,
+                0x1281BA58,
+                0x257F99AA,
+                0x1E7F8EA5, // ~ Area Zero Depths
+
         };
 
         readonly List<FlagDetail> m_unavailableFlagBlocks = new List<FlagDetail>();
@@ -111,6 +118,9 @@
                                     if (listOfStatuses is null)
                                     {
                                         listOfStatuses = RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0x2482AD60).Data, emptyKey: 0x0000000000000000);
+#if DEBUG
+                                        DumpListOfStatuses("kFieldItems_status.txt", listOfStatuses);
+#endif
                                     }
 
                                     var flagDetail = new FlagDetail(s);
@@ -186,6 +196,10 @@
                                             listOfStatuses.Add(_.Key, _.Value);
                                         foreach (var _ in trStatuses2)
                                             listOfStatuses.Add(_.Key, _.Value);
+
+#if DEBUG
+                                        DumpListOfStatuses("KDefeatedTrainers_status.txt", listOfStatuses);
+#endif
                                     }
 
                                     var flagDetail = new FlagDetail(s);
@@ -343,6 +357,17 @@
             }
 
             System.IO.File.WriteAllText(string.Format("unavailable_flags_dump_{0}.txt", m_savFile!.Version), sb.ToString());
+        }
+
+        void DumpListOfStatuses(string filePath, Dictionary<ulong, bool> listOfStatuses)
+        {
+            StringBuilder sb = new StringBuilder(512 * 1024);
+            foreach (var v in listOfStatuses)
+            {
+                sb.AppendFormat("0x{0:X16}\t{1}\r\n", v.Key, v.Value);
+            }
+
+            System.IO.File.WriteAllText($"{filePath}", sb.ToString());
         }
 #endif
 
