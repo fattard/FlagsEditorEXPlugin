@@ -36,7 +36,7 @@ After finishing editing, export your save data from the base application.
 All mainline games are supported (limited descriptions for many of them)
 
 - Red / Blue / Yellow (International and Japanese versions)
-- Gold / Silver / Crystal (International versions only)
+- Gold / Silver / Crystal (International, Japanese and Korean versions)
 - Ruby / Sapphire / Emerald / FireRed / LeafGreen
 - Diamond / Pearl / Platinum / HeartGold / Soul Silver
 - Black / White / Black 2 / White 2
