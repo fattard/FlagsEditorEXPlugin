@@ -27,8 +27,8 @@
                 0xA07A4B1D,
 
                 // DLC2
-                0x1381BBEB,
                 0x1281BA58,
+                0x1381BBEB,
                 0x257F99AA,
                 0x1E7F8EA5, // ~ Area Zero Depths
 

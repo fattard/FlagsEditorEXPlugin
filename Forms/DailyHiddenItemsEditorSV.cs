@@ -301,6 +301,13 @@
                     0x917A3380 => LocalizedStrings.Find("DailyHiddenItemsEditorSV.blockDlC1_1", "Kitakami 1"),
                     0xA07A4B1D => LocalizedStrings.Find("DailyHiddenItemsEditorSV.blockDLC1_2", "Kitakami 2"),
 
+                    // DLC2
+                    0x1281BA58 => LocalizedStrings.Find("DailyHiddenItemsEditorSV.blockDlC2_1", "Terarium 1"),
+                    0x1381BBEB => LocalizedStrings.Find("DailyHiddenItemsEditorSV.blockDlC2_2", "Terarium 2"),
+                    0x257F99AA => LocalizedStrings.Find("DailyHiddenItemsEditorSV.blockDlC2_3", "Terarium 3"),
+
+                    0x1E7F8EA5 => LocalizedStrings.Find("DailyHiddenItemsEditorSV.blockDlC2_AreaZeroDepths", "Area Zero Depths"),
+
                     _ => $"??? {block.Key}"
                 });
                 m_indexToKeys[blockSourceCombo.Items.Count - 1] = block.Key;
