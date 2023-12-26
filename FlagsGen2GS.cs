@@ -65,7 +65,7 @@
             DailyFlags1 = 0x2818,
             DailyFlags2 = 0x2819,
             FruitTreeFlags = 0x2821,
-            UnusedTwoDayTimerOn = 0x282F, // ?
+            UnusedTwoDayTimerOn = 0x2833, // ?
             LuckyNumberShowFlag = 0x2893,
             VisitedSpawns = 0x289A,
             UnlockedUnowns = 0x2AE8,

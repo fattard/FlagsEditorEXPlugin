@@ -166,7 +166,7 @@
                         int sep = t.IndexOf(':');
                         if (sep > 0)
                         {
-                            ValidValues.Add(ParseDecOrHexSigned(t[..sep]), t[(sep + 1)..]);
+                            ValidValues.Add(ParseDecOrHexSigned(t[..sep].Trim()), t[(sep + 1)..].Trim());
                         }
                     }
                 }
@@ -360,7 +360,7 @@
 
         #region Actions
 
-        public virtual void DumpAllFlags()
+        public virtual string DumpAllFlags()
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
 
@@ -417,7 +417,7 @@
                 }
             }
 
-            System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", m_savFile!.Version), sb.ToString());
+            return sb.ToString();
         }
 
         public virtual EditableEventInfo[] GetSpecialEditableEvents() { return Array.Empty<EditableEventInfo>(); }
@@ -456,10 +456,7 @@
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
-            if (langCode is null)
-            {
-                langCode = GameInfo.CurrentLanguage;
-            }
+            langCode ??= GameInfo.CurrentLanguage;
 
             string resFileName = $"{resName}_{langCode}.txt";
 

@@ -48,8 +48,17 @@
 
         private void DumpAllFlags_UIEvt(object? sender, EventArgs e)
         {
-            var flagsOrganizer = FlagsOrganizer.CreateFlagsOrganizer(SaveFileEditor.SAV, resData: null);
-            flagsOrganizer.DumpAllFlags();
+            SaveFileDialog saveFileDialog = new SaveFileDialog()
+            {
+                Filter = "Text File|*.txt",
+                FileName = string.Format("flags_dump_{0}.txt", SaveFileEditor.SAV.Version),
+            };
+            var result = saveFileDialog.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                var flagsOrganizer = FlagsOrganizer.CreateFlagsOrganizer(SaveFileEditor.SAV, resData: null);
+                System.IO.File.WriteAllText(saveFileDialog.FileName, flagsOrganizer.DumpAllFlags());
+            }
         }
 
         private void EditFlags_UIEvt(object? sender, EventArgs e)
@@ -108,7 +117,8 @@
             // Quick dump all flags on load during DEBUG
             if (ctrl.Enabled)
             {
-                DumpAllFlags_UIEvt(null, new EventArgs());
+                var flagsOrganizer = FlagsOrganizer.CreateFlagsOrganizer(SaveFileEditor.SAV, resData: null);
+                System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", SaveFileEditor.SAV.Version), flagsOrganizer.DumpAllFlags());
             }
 #endif
         }

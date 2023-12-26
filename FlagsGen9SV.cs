@@ -185,7 +185,7 @@
                                 {
                                     if (listOfStatuses is null)
                                     {
-                                        listOfStatuses = new Dictionary<ulong, bool>(1000);
+                                        listOfStatuses = new Dictionary<ulong, bool>(400);
 
                                         // Trainer statuses tracker (base+)
                                         var trStatuses = RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0xF018C4AC).Data, emptyKey: 0xCBF29CE484222645);
@@ -314,10 +314,8 @@
         }
 
 #if DEBUG
-        public override void DumpAllFlags()
+        public override string DumpAllFlags()
         {
-            base.DumpAllFlags();
-
             StringBuilder sb = new StringBuilder(512 * 1024);
 
             if (m_unavailableFlagBlocks.Count > 0)
@@ -357,6 +355,8 @@
             }
 
             System.IO.File.WriteAllText(string.Format("unavailable_flags_dump_{0}.txt", m_savFile!.Version), sb.ToString());
+
+            return base.DumpAllFlags();
         }
 
         void DumpListOfStatuses(string filePath, Dictionary<ulong, bool> listOfStatuses)

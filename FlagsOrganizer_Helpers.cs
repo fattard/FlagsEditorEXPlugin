@@ -3,7 +3,7 @@
 
     static class EventFlagTypeExtensions
     {
-        public static FlagsOrganizer.EventFlagType Parse(this FlagsOrganizer.EventFlagType flagType, string txt) => txt switch
+        public static FlagsOrganizer.EventFlagType Parse(this FlagsOrganizer.EventFlagType _, string txt) => txt switch
         {
             "FIELD ITEM" => FlagsOrganizer.EventFlagType.FieldItem,
             "HIDDEN ITEM" => FlagsOrganizer.EventFlagType.HiddenItem,
