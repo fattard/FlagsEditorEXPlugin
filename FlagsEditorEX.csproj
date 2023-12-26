@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <OutputType>Library</OutputType>
     <RootNamespace>FlagsEditorEXPlugin</RootNamespace>
     <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
@@ -21,11 +21,8 @@
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Remove="refs\**" />
     <Compile Remove="TestApp\**" />
-    <EmbeddedResource Remove="refs\**" />
     <EmbeddedResource Remove="TestApp\**" />
-    <None Remove="refs\**" />
     <None Remove="TestApp\**" />
   </ItemGroup>
   <ItemGroup>
@@ -56,7 +53,7 @@
     <EmbeddedResource Include="localization\lang_en.txt" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="PKHeX.Core" Version="23.10.11" />
+    <PackageReference Include="PKHeX.Core" Version="23.12.22" />
   </ItemGroup>
   <ItemGroup>
     <Using Include="PKHeX.Core" />
