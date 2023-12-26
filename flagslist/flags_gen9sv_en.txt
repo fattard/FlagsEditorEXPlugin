@@ -4367,361 +4367,361 @@
 						
 //	Trainer Flags					SCBlock_F018C4AC (All)         SCBlock_28E475DE (v2.0.2+)
 0xA1AECF4560BB141B	_UNUSED					00_test_data
-0x737AC9ECAF4A5305	TRAINER BATTLE			Janitor Ruben		area01_trainer_cleaning
-0x2708A28C92617CC8	TRAINER BATTLE			Courier Iker		area01_trainer_deliverer
-0xEB8283ACB02DC340	TRAINER BATTLE			Black Belt Alejandro		area01_trainer_karate
-0x0EE039019ED2020D	TRAINER BATTLE			Hiker Lucia		area01_trainer_mountain
-0x5A5B8BBAAC553205	TRAINER BATTLE			Hiker Paula		area01_trainer_mountain_1
-0xA94CCE5FF984DD71	TRAINER BATTLE			Student Axel		area01_trainer_sch_boy
-0xF86C7831E776C2AF	TRAINER BATTLE			Student Carlota		area01_trainer_sch_girl
-0xD22E10449EA85BF0	TRAINER BATTLE			Student Zahira		area01_trainer_sch_infant_f
-0xD22E1B449EA86EA1	TRAINER BATTLE			Student Pere		area01_trainer_sch_infant_m
-0x005A0EE08DA261A8	TRAINER BATTLE			Youngster Elian		area01_trainer_tanpan
-0xE04BD3D26FCD624C	TRAINER BATTLE			Youngster Luka		area01_trainer_tanpan_1
+0x737AC9ECAF4A5305	TRAINER BATTLE			Battled Janitor Ruben		area01_trainer_cleaning
+0x2708A28C92617CC8	TRAINER BATTLE			Battled Courier Iker		area01_trainer_deliverer
+0xEB8283ACB02DC340	TRAINER BATTLE			Battled Black Belt Alejandro		area01_trainer_karate
+0x0EE039019ED2020D	TRAINER BATTLE			Battled Hiker Lucia		area01_trainer_mountain
+0x5A5B8BBAAC553205	TRAINER BATTLE			Battled Hiker Paula		area01_trainer_mountain_1
+0xA94CCE5FF984DD71	TRAINER BATTLE			Battled Student Axel		area01_trainer_sch_boy
+0xF86C7831E776C2AF	TRAINER BATTLE			Battled Student Carlota		area01_trainer_sch_girl
+0xD22E10449EA85BF0	TRAINER BATTLE			Battled Student Zahira		area01_trainer_sch_infant_f
+0xD22E1B449EA86EA1	TRAINER BATTLE			Battled Student Pere		area01_trainer_sch_infant_m
+0x005A0EE08DA261A8	TRAINER BATTLE			Battled Youngster Elian		area01_trainer_tanpan
+0xE04BD3D26FCD624C	TRAINER BATTLE			Battled Youngster Luka		area01_trainer_tanpan_1
 0xADAB8D4A501F14F8	_UNUSED					area01_trainer_waiter
 0x6CC937831E625C38	_UNUSED					area01_trainer_waitress
-0xA1AB91335DDD5278	TRAINER BATTLE			Worker Alberto		area01_trainer_worker
+0xA1AB91335DDD5278	TRAINER BATTLE			Battled Worker Alberto		area01_trainer_worker
 0x25AF6E6C2F5F5FC7	_UNUSED					area15_trainer_sch_young_f_1
-0xFD58763466D1898F	TRAINER BATTLE			Student Jaxon		area03_trainer_sch_boy
-0xD42529B9A376688E	TRAINER BATTLE			Cabbie Paco		area03_trainer_taxidriver
-0x9D2FF2A7AFA2AB5A	TRAINER BATTLE			Backpacker Alex		area04_trainer_backpacker
-0xE27D508050037FB3	TRAINER BATTLE			Office Worker David		area04_trainer_businessman
-0xEA308486EAD6140F	TRAINER BATTLE			Office Worker Sergio		area04_trainer_businessman_1
-0xBE43D466F4154257	TRAINER BATTLE			Cook Angelines		area04_trainer_chef
-0x6B3CB219661E3D43	TRAINER BATTLE			Courier Angel		area04_trainer_deliverer
+0xFD58763466D1898F	TRAINER BATTLE			Battled Student Jaxon		area03_trainer_sch_boy
+0xD42529B9A376688E	TRAINER BATTLE			Battled Cabbie Paco		area03_trainer_taxidriver
+0x9D2FF2A7AFA2AB5A	TRAINER BATTLE			Battled Backpacker Alex		area04_trainer_backpacker
+0xE27D508050037FB3	TRAINER BATTLE			Battled Office Worker David		area04_trainer_businessman
+0xEA308486EAD6140F	TRAINER BATTLE			Battled Office Worker Sergio		area04_trainer_businessman_1
+0xBE43D466F4154257	TRAINER BATTLE			Battled Cook Angelines		area04_trainer_chef
+0x6B3CB219661E3D43	TRAINER BATTLE			Battled Courier Angel		area04_trainer_deliverer
 0x268510DAA53FBA5F	_UNUSED					area04_trainer_deliverer_1
 0xE4D3BAB8486821A5	_UNUSED					area04_trainer_karate
-0x0BF4097B3C443023	TRAINER BATTLE			Poké Maniac Simon		area04_trainer_mania
+0x0BF4097B3C443023	TRAINER BATTLE			Battled Poké Maniac Simon		area04_trainer_mania
 0x18F1A42C24C7A516	_UNUSED					area04_trainer_sch_boy
-0x6F7CA32C443506EA	TRAINER BATTLE			Student Noa		area04_trainer_sch_girl
+0x6F7CA32C443506EA	TRAINER BATTLE			Battled Student Noa		area04_trainer_sch_girl
 0xF7CABDABE41D124D	_UNUSED					area04_trainer_sch_infant_f
-0xF7CAB2ABE41CFF9C	TRAINER BATTLE			Student Alessandro		area04_trainer_sch_infant_m
+0xF7CAB2ABE41CFF9C	TRAINER BATTLE			Battled Student Alessandro		area04_trainer_sch_infant_m
 0x8C9BF8DAD09311F8	_UNUSED					area04_trainer_sch_middle_f
 0x92583C23F383389C	_UNUSED					area04_trainer_sch_middle_f_1
-0x8C9BF3DAD0930979	TRAINER BATTLE			Student Raul		area04_trainer_sch_middle_m
+0x8C9BF3DAD0930979	TRAINER BATTLE			Battled Student Raul		area04_trainer_sch_middle_m
 0x6701EB23DAF545F9	_UNUSED					area04_trainer_sch_middle_m_1
 0xD2F37FFB3F8B8B35	_UNUSED					area04_trainer_sch_senior_f
-0xD2F384FB3F8B93B4	TRAINER BATTLE			Student Manuel		area04_trainer_sch_senior_m
+0xD2F384FB3F8B93B4	TRAINER BATTLE			Battled Student Manuel		area04_trainer_sch_senior_m
 0xACCA542700A66569	_UNUSED					area04_trainer_sch_young_f
-0xACCA592700A66DE8	TRAINER BATTLE			Student Carlos		area04_trainer_sch_young_m
-0x0D722C70C4620441	TRAINER BATTLE			Youngster Roi		area04_trainer_tanpan
-0xD79069F66594F2F1	TRAINER BATTLE			Youngster Aday		area04_trainer_tanpan_1
+0xACCA592700A66DE8	TRAINER BATTLE			Battled Student Carlos		area04_trainer_sch_young_m
+0x0D722C70C4620441	TRAINER BATTLE			Battled Youngster Roi		area04_trainer_tanpan
+0xD79069F66594F2F1	TRAINER BATTLE			Battled Youngster Aday		area04_trainer_tanpan_1
 0xD1C5C0E910A80FA9	_UNUSED					area04_trainer_waiter
-0x8533BBEB5CD01689	TRAINER BATTLE			Waitress Alba		area04_trainer_waitress
-0x4F837CDFF2A01873	TRAINER BATTLE			Backpacker Jaime		area05_trainer_backpacker
+0x8533BBEB5CD01689	TRAINER BATTLE			Battled Waitress Alba		area04_trainer_waitress
+0x4F837CDFF2A01873	TRAINER BATTLE			Battled Backpacker Jaime		area05_trainer_backpacker
 0x5FAF3242016B364F	_UNUSED					area05_trainer_backpacker_1
 0x0C33BE5FFEA66FA4	_UNUSED					area05_trainer_deliverer
 0xF367CA7A3DE9D010	_UNUSED					area05_trainer_deliverer_1
-0x45B8D795E5E98FB4	TRAINER BATTLE			Black Belt Iago		area05_trainer_karate
+0x45B8D795E5E98FB4	TRAINER BATTLE			Battled Black Belt Iago		area05_trainer_karate
 0x8008EEB30CDB8720	_UNUSED					area05_trainer_karate_1
-0x8008F1B30CDB8C39	TRAINER BATTLE			Black Belt Armando		area05_trainer_karate_2
-0x703C73D8BC2CFA94	TRAINER BATTLE			Poké Maniac Matias		area05_trainer_mania
-0x939D8CC362184391	TRAINER BATTLE			Hiker Carla		area05_trainer_mountain
+0x8008F1B30CDB8C39	TRAINER BATTLE			Battled Black Belt Armando		area05_trainer_karate_2
+0x703C73D8BC2CFA94	TRAINER BATTLE			Battled Poké Maniac Matias		area05_trainer_mania
+0x939D8CC362184391	TRAINER BATTLE			Battled Hiker Carla		area05_trainer_mountain
 0xE801D476C19ED941	_UNUSED					area05_trainer_mountain_1
 0xE801D176C19ED428	_UNUSED					area05_trainer_mountain_2
 0x6C71508231E5299D	_UNUSED					area05_trainer_sch_boy
 0x2C5E94112CE5756B	_UNUSED					area05_trainer_sch_girl
 0xD582DCE0A8808EAC	_UNUSED					area05_trainer_sch_infant_f
 0xD582E7E0A880A15D	_UNUSED					area05_trainer_sch_infant_m
-0x9054AEF6B0793461	TRAINER BATTLE			Student Patricia		area05_trainer_sch_middle_f
-0x9054A3F6B07921B0	TRAINER BATTLE			Student Pascal		area05_trainer_sch_middle_m
-0xEB48B0F4A6A5AFEE	TRAINER BATTLE			Student Isona		area05_trainer_sch_young_f
+0x9054AEF6B0793461	TRAINER BATTLE			Battled Student Patricia		area05_trainer_sch_middle_f
+0x9054A3F6B07921B0	TRAINER BATTLE			Battled Student Pascal		area05_trainer_sch_middle_m
+0xEB48B0F4A6A5AFEE	TRAINER BATTLE			Battled Student Isona		area05_trainer_sch_young_f
 0x988A493EFAB56636	_UNUSED					area05_trainer_sch_young_f_1
-0xEB48A7F4A6A5A0A3	TRAINER BATTLE			Student Marc		area05_trainer_sch_young_m
+0xEB48A7F4A6A5A0A3	TRAINER BATTLE			Battled Student Marc		area05_trainer_sch_young_m
 0x4C925C3ED03DEC7F	_UNUSED					area05_trainer_sch_young_m_1
-0x7257C23C0DE58524	TRAINER BATTLE			Youngster Julen		area05_trainer_tanpan
+0x7257C23C0DE58524	TRAINER BATTLE			Battled Youngster Julen		area05_trainer_tanpan
 0xA961ABBBCA14C6A9	_UNUSED					area05_trainer_tanpan_2
-0xC86B68C743089700	TRAINER BATTLE			Backpacker Pau		area06_trainer_backpacker
-0x5B17C76B89575E54	TRAINER BATTLE		cave	Backpacker Aitor		area06_trainer_backpacker_1
-0xE206A9B1844ED3A1	TRAINER BATTLE		cave	Courier Joel		area06_trainer_deliverer
-0x535DE35DBE964A91	TRAINER BATTLE			Courier Izan		area06_trainer_deliverer_1
-0x39EEB8D84432278F	TRAINER BATTLE		cave	Dragon Tamer Tamara		area06_trainer_dragontamer
+0xC86B68C743089700	TRAINER BATTLE			Battled Backpacker Pau		area06_trainer_backpacker
+0x5B17C76B89575E54	TRAINER BATTLE		cave	Battled Backpacker Aitor		area06_trainer_backpacker_1
+0xE206A9B1844ED3A1	TRAINER BATTLE		cave	Battled Courier Joel		area06_trainer_deliverer
+0x535DE35DBE964A91	TRAINER BATTLE			Battled Courier Izan		area06_trainer_deliverer_1
+0x39EEB8D84432278F	TRAINER BATTLE		cave	Battled Dragon Tamer Tamara		area06_trainer_dragontamer
 0xDA20987FB4F58073	_UNUSED					area06_trainer_dragontamer_1
-0xE334DBE8B1AC032B	TRAINER BATTLE			Black Belt Jacobo		area06_trainer_karate
-0x38B26636ADEE818A	TRAINER BATTLE			Hiker Rocio		area06_trainer_mountain
-0x9EDC03D95BFC8D3A	TRAINER BATTLE		cave	Hiker Daniela		area06_trainer_mountain_1
-0xF1E31CB6F7A9C5E3	TRAINER BATTLE		cave	Scientist Domingo		area06_trainer_researcher
-0x1293FBBC084A65DC	TRAINER BATTLE			Student Andres		area06_trainer_sch_boy
-0xFE5E5E0C16F38478	TRAINER BATTLE		cave	Student Alexis		area06_trainer_sch_boy_1
-0x2B8726AB4F6F25E4	TRAINER BATTLE		cave	Student Eloisa		area06_trainer_sch_girl
+0xE334DBE8B1AC032B	TRAINER BATTLE			Battled Black Belt Jacobo		area06_trainer_karate
+0x38B26636ADEE818A	TRAINER BATTLE			Battled Hiker Rocio		area06_trainer_mountain
+0x9EDC03D95BFC8D3A	TRAINER BATTLE		cave	Battled Hiker Daniela		area06_trainer_mountain_1
+0xF1E31CB6F7A9C5E3	TRAINER BATTLE		cave	Battled Scientist Domingo		area06_trainer_researcher
+0x1293FBBC084A65DC	TRAINER BATTLE			Battled Student Andres		area06_trainer_sch_boy
+0xFE5E5E0C16F38478	TRAINER BATTLE		cave	Battled Student Alexis		area06_trainer_sch_boy_1
+0x2B8726AB4F6F25E4	TRAINER BATTLE		cave	Battled Student Eloisa		area06_trainer_sch_girl
 0xAF9B3DAFBC984BFB	_UNUSED					area06_trainer_sch_infant_f
-0xAF9B36AFBC984016	TRAINER BATTLE			Student Paul		area06_trainer_sch_infant_m
-0x5FA0D809ED93440B	TRAINER BATTLE		cave	Student Yolanda		area06_trainer_sch_young_f
-0x5FA0D109ED933826	TRAINER BATTLE			Student Alan		area06_trainer_sch_young_m
-0xEB4FD3C55537BB27	TRAINER BATTLE		cave	Youngster Adan		area06_trainer_tanpan
+0xAF9B36AFBC984016	TRAINER BATTLE			Battled Student Paul		area06_trainer_sch_infant_m
+0x5FA0D809ED93440B	TRAINER BATTLE		cave	Battled Student Yolanda		area06_trainer_sch_young_f
+0x5FA0D109ED933826	TRAINER BATTLE			Battled Student Alan		area06_trainer_sch_young_m
+0xEB4FD3C55537BB27	TRAINER BATTLE		cave	Battled Youngster Adan		area06_trainer_tanpan
 0x628189308EF02B0F	_UNUSED					area06_trainer_worker
-0xE8F7D666317E8FF3	TRAINER BATTLE			Worker Eric		area06_trainer_worker_1
-0xC912FF321088C407	TRAINER BATTLE			Janitor Ricard		area07_trainer_cleaning
+0xE8F7D666317E8FF3	TRAINER BATTLE			Battled Worker Eric		area06_trainer_worker_1
+0xC912FF321088C407	TRAINER BATTLE			Battled Janitor Ricard		area07_trainer_cleaning
 0x72C83E96F836435A	_UNUSED					area07_trainer_deliverer
-0x80CAD8EEA0083972	TRAINER BATTLE			Black Belt Antoni		area07_trainer_karate
-0x2304532F5E5DBBF2	TRAINER BATTLE			Black Belt Roman		area07_trainer_karate_1
-0x9CC65E1F921A8162	TRAINER BATTLE			Poké Maniac Federico		area07_trainer_mania
-0xD0AF72D0E951ACE2	TRAINER BATTLE			Poké Maniac Iban		area07_trainer_mania_1
-0xD3D259315BABE7AD	TRAINER BATTLE			Model Ainhoa		area07_trainer_model
+0x80CAD8EEA0083972	TRAINER BATTLE			Battled Black Belt Antoni		area07_trainer_karate
+0x2304532F5E5DBBF2	TRAINER BATTLE			Battled Black Belt Roman		area07_trainer_karate_1
+0x9CC65E1F921A8162	TRAINER BATTLE			Battled Poké Maniac Federico		area07_trainer_mania
+0xD0AF72D0E951ACE2	TRAINER BATTLE			Battled Poké Maniac Iban		area07_trainer_mania_1
+0xD3D259315BABE7AD	TRAINER BATTLE			Battled Model Ainhoa		area07_trainer_model
 0x828472C26A7E26DB	_UNUSED					area07_trainer_mountain
-0xF562638D37638A67	TRAINER BATTLE			Hiker Marina		area07_trainer_mountain_1
-0xF562648D37638C1A	TRAINER BATTLE			Hiker Nerea		area07_trainer_mountain_2
+0xF562638D37638A67	TRAINER BATTLE			Battled Hiker Marina		area07_trainer_mountain_1
+0xF562648D37638C1A	TRAINER BATTLE			Battled Hiker Nerea		area07_trainer_mountain_2
 0x20C1A56D1BE1AA77	_UNUSED					area07_trainer_sch_boy_1
-0x80D468CE96730C1A	TRAINER BATTLE			Student Elia		area07_trainer_sch_child_f
-0x80D45FCE9672FCCF	TRAINER BATTLE			Student Alain		area07_trainer_sch_child_m
+0x80D468CE96730C1A	TRAINER BATTLE			Battled Student Elia		area07_trainer_sch_child_f
+0x80D45FCE9672FCCF	TRAINER BATTLE			Battled Student Alain		area07_trainer_sch_child_m
 0x2985064E736007B5	_UNUSED					area07_trainer_sch_girl
-0x0267C69EB139DF5D	TRAINER BATTLE			Student Vega		area07_trainer_sch_girl_1
-0x4F9929BD73B95278	TRAINER BATTLE			Student Lorena		area07_trainer_sch_young_f
-0xB0364D6780D50D1C	TRAINER BATTLE			Student Adriana		area07_trainer_sch_young_f_1
-0x4F9924BD73B949F9	TRAINER BATTLE			Student Rodrigo		area07_trainer_sch_young_m
+0x0267C69EB139DF5D	TRAINER BATTLE			Battled Student Vega		area07_trainer_sch_girl_1
+0x4F9929BD73B95278	TRAINER BATTLE			Battled Student Lorena		area07_trainer_sch_young_f
+0xB0364D6780D50D1C	TRAINER BATTLE			Battled Student Adriana		area07_trainer_sch_young_f_1
+0x4F9924BD73B949F9	TRAINER BATTLE			Battled Student Rodrigo		area07_trainer_sch_young_m
 0xEF218A1759D6CA7A	_UNUSED					area07_trainer_waiter
-0xEED7A4913094F252	TRAINER BATTLE			Waitress Sofia		area07_trainer_waitress
-0x2271B2EF35D1F79E	TRAINER BATTLE			Worker Marius		area07_trainer_worker
-0xFE6AF03FE4390854	TRAINER BATTLE			Artist Laura		area08_trainer_artist
-0x43FE1B0C2F59B780	TRAINER BATTLE			Artist Irene		area08_trainer_artist_1
-0xEAF8BF92F44CCFC6	TRAINER BATTLE			Backpacker Samuel		area08_trainer_backpacker
-0x553C593BA070EAC7	TRAINER BATTLE			Office Worker Severino		area08_trainer_businessman
-0x99822BB2A74AAD9B	TRAINER BATTLE			Office Worker Adrian		area08_trainer_businessman_1
+0xEED7A4913094F252	TRAINER BATTLE			Battled Waitress Sofia		area07_trainer_waitress
+0x2271B2EF35D1F79E	TRAINER BATTLE			Battled Worker Marius		area07_trainer_worker
+0xFE6AF03FE4390854	TRAINER BATTLE			Battled Artist Laura		area08_trainer_artist
+0x43FE1B0C2F59B780	TRAINER BATTLE			Battled Artist Irene		area08_trainer_artist_1
+0xEAF8BF92F44CCFC6	TRAINER BATTLE			Battled Backpacker Samuel		area08_trainer_backpacker
+0x553C593BA070EAC7	TRAINER BATTLE			Battled Office Worker Severino		area08_trainer_businessman
+0x99822BB2A74AAD9B	TRAINER BATTLE			Battled Office Worker Adrian		area08_trainer_businessman_1
 0xF893CD4D7FF5C8A9	_UNUSED					area08_trainer_karate
-0x835AFF54A2DC560F	TRAINER BATTLE			Poké Maniac Arnau		area08_trainer_mania
-0xB011ECA7F5A82D98	TRAINER BATTLE			Model Andrea		area08_trainer_model
-0x41122136CEEB3FAE	TRAINER BATTLE			Musician Noelia		area08_trainer_musician
-0x3D15BE183D424076	TRAINER BATTLE			Musician Alicia		area08_trainer_musician_1
+0x835AFF54A2DC560F	TRAINER BATTLE			Battled Poké Maniac Arnau		area08_trainer_mania
+0xB011ECA7F5A82D98	TRAINER BATTLE			Battled Model Andrea		area08_trainer_model
+0x41122136CEEB3FAE	TRAINER BATTLE			Battled Musician Noelia		area08_trainer_musician
+0x3D15BE183D424076	TRAINER BATTLE			Battled Musician Alicia		area08_trainer_musician_1
 0xAD8636513B368802	_UNUSED					area08_trainer_sch_boy
-0x8CB76DF0E7609DC2	TRAINER BATTLE			Student Rayan		area08_trainer_sch_boy_1
-0x96C3C3EED3801D16	TRAINER BATTLE			Student Martina		area08_trainer_sch_girl
-0xA77B12CAB40EBB8E	TRAINER BATTLE			Student Nora		area08_trainer_sch_girl_1
-0x0880BD763B4A9A09	TRAINER BATTLE			Student Amaia		area08_trainer_sch_infant_f
-0x0880C2763B4AA288	TRAINER BATTLE			Student Benjamin		area08_trainer_sch_infant_m
-0xA613BCE063D86C0C	TRAINER BATTLE			Student Cristina		area08_trainer_sch_middle_f
+0x8CB76DF0E7609DC2	TRAINER BATTLE			Battled Student Rayan		area08_trainer_sch_boy_1
+0x96C3C3EED3801D16	TRAINER BATTLE			Battled Student Martina		area08_trainer_sch_girl
+0xA77B12CAB40EBB8E	TRAINER BATTLE			Battled Student Nora		area08_trainer_sch_girl_1
+0x0880BD763B4A9A09	TRAINER BATTLE			Battled Student Amaia		area08_trainer_sch_infant_f
+0x0880C2763B4AA288	TRAINER BATTLE			Battled Student Benjamin		area08_trainer_sch_infant_m
+0xA613BCE063D86C0C	TRAINER BATTLE			Battled Student Cristina		area08_trainer_sch_middle_f
 0xA613C7E063D87EBD	_UNUSED					area08_trainer_sch_middle_m
 0xAD2EC9BAC9F1423D	_UNUSED					area08_trainer_sch_young_f
-0xB46DC0DDCA44DAF5	TRAINER BATTLE			Student Clara		area08_trainer_sch_young_f_1
+0xB46DC0DDCA44DAF5	TRAINER BATTLE			Battled Student Clara		area08_trainer_sch_young_f_1
 0xAD2EBEBAC9F12F8C	_UNUSED					area08_trainer_sch_young_m
-0x559901DD94AF11A8	TRAINER BATTLE			Student Miguel		area08_trainer_sch_young_m_1
+0x559901DD94AF11A8	TRAINER BATTLE			Battled Student Miguel		area08_trainer_sch_young_m_1
 0x11E74958E4010A5D	_UNUSED					area08_trainer_tanpan
 0x0EC9166B840E46D5	_UNUSED					area08_trainer_tanpan_1
 0x6B36727744295341	_UNUSED					area09_trainer_artist
-0xACBAB239BD13D146	TRAINER BATTLE			Backpacker Asier		area09_trainer_backpacker_2
-0xACBAB339BD13D2F9	TRAINER BATTLE			Backpacker Mateo		area09_trainer_backpacker_3
-0xACBAB439BD13D4AC	TRAINER BATTLE			Backpacker Kevin		area09_trainer_backpacker_4
-0x33C89EA5A23E6FFD	TRAINER BATTLE			Courier Ahmed		area09_trainer_deliverer_2
-0x33C89DA5A23E6E4A	TRAINER BATTLE			Courier Adam		area09_trainer_deliverer_3
-0x13BD593EB2BDE426	TRAINER BATTLE			Dragon Tamer Alejandra		area09_trainer_dragontamer
-0x0A0F0E4C8496FFB2	TRAINER BATTLE			Black Belt Esteban		area09_trainer_karate_3
-0x0A0F094C8496F733	TRAINER BATTLE			Black Belt Jon		area09_trainer_karate_4
+0xACBAB239BD13D146	TRAINER BATTLE			Battled Backpacker Asier		area09_trainer_backpacker_2
+0xACBAB339BD13D2F9	TRAINER BATTLE			Battled Backpacker Mateo		area09_trainer_backpacker_3
+0xACBAB439BD13D4AC	TRAINER BATTLE			Battled Backpacker Kevin		area09_trainer_backpacker_4
+0x33C89EA5A23E6FFD	TRAINER BATTLE			Battled Courier Ahmed		area09_trainer_deliverer_2
+0x33C89DA5A23E6E4A	TRAINER BATTLE			Battled Courier Adam		area09_trainer_deliverer_3
+0x13BD593EB2BDE426	TRAINER BATTLE			Battled Dragon Tamer Alejandra		area09_trainer_dragontamer
+0x0A0F0E4C8496FFB2	TRAINER BATTLE			Battled Black Belt Esteban		area09_trainer_karate_3
+0x0A0F094C8496F733	TRAINER BATTLE			Battled Black Belt Jon		area09_trainer_karate_4
 0x44C1DD55D0FC6BD4	_UNUSED					area09_trainer_mania_1
-0xD2BD91F7BFD4F0BB	TRAINER BATTLE			Model Candina		area09_trainer_model
+0xD2BD91F7BFD4F0BB	TRAINER BATTLE			Battled Model Candina		area09_trainer_model
 0x2DE061573E71D057	_UNUSED					area09_trainer_mountain_3
-0x020213D442FEFF53	TRAINER BATTLE			Musician Mireia		area09_trainer_musician
-0x0EDDCBF76BC72678	TRAINER BATTLE			Scientist Felipe		area09_trainer_researcher
-0x70F99FC02608011C	TRAINER BATTLE			Scientist Nicolas		area09_trainer_researcher_1
+0x020213D442FEFF53	TRAINER BATTLE			Battled Musician Mireia		area09_trainer_musician
+0x0EDDCBF76BC72678	TRAINER BATTLE			Battled Scientist Felipe		area09_trainer_researcher
+0x70F99FC02608011C	TRAINER BATTLE			Battled Scientist Nicolas		area09_trainer_researcher_1
 0x61C47421E7755239	_UNUSED					area09_trainer_sch_boy_1
-0x61C47121E7754D20	TRAINER BATTLE			Student Leo		area09_trainer_sch_boy_2
-0xC5D9EF65198541FB	TRAINER BATTLE			Student Maya		area09_trainer_sch_girl_1
-0xC5D9F065198543AE	TRAINER BATTLE			Student Maren		area09_trainer_sch_girl_2
+0x61C47121E7754D20	TRAINER BATTLE			Battled Student Leo		area09_trainer_sch_boy_2
+0xC5D9EF65198541FB	TRAINER BATTLE			Battled Student Maya		area09_trainer_sch_girl_1
+0xC5D9F065198543AE	TRAINER BATTLE			Battled Student Maren		area09_trainer_sch_girl_2
 0xFCDD2602AC45DE4C	_UNUSED					area09_trainer_sch_infant_f_1
-0xFCDD2902AC45E365	TRAINER BATTLE			Student Yasmin		area09_trainer_sch_infant_f_2
-0xD187550293B8C529	TRAINER BATTLE			Student Neizan		area09_trainer_sch_infant_m_1
-0xD3EB41436BA95FCD	TRAINER BATTLE			Student Elena		area09_trainer_sch_middle_f_1
-0xD3EB3E436BA95AB4	TRAINER BATTLE			Student Nuria		area09_trainer_sch_middle_f_2
+0xFCDD2902AC45E365	TRAINER BATTLE			Battled Student Yasmin		area09_trainer_sch_infant_f_2
+0xD187550293B8C529	TRAINER BATTLE			Battled Student Neizan		area09_trainer_sch_infant_m_1
+0xD3EB41436BA95FCD	TRAINER BATTLE			Battled Student Elena		area09_trainer_sch_middle_f_1
+0xD3EB3E436BA95AB4	TRAINER BATTLE			Battled Student Nuria		area09_trainer_sch_middle_f_2
 0xFF41724384371C10	_UNUSED					area09_trainer_sch_middle_m_1
-0xFF41754384372129	TRAINER BATTLE			Student Alfredo		area09_trainer_sch_middle_m_2
+0xFF41754384372129	TRAINER BATTLE			Battled Student Alfredo		area09_trainer_sch_middle_m_2
 0xFF41744384371F76	_UNUSED					area09_trainer_sch_middle_m_3
 0xA8807B3B1531B144	_UNUSED					area09_trainer_sch_senior_f
-0xC030FBA4D7363170	TRAINER BATTLE			Student Isabel		area09_trainer_sch_senior_f_1
+0xC030FBA4D7363170	TRAINER BATTLE			Battled Student Isabel		area09_trainer_sch_senior_f_1
 0xA880763B1531A8C5	_UNUSED					area09_trainer_sch_senior_m
-0x94DACAA4BEA8752D	TRAINER BATTLE			Student Enrique		area09_trainer_sch_senior_m_1
-0xDDA3E0DAF9208D4F	TRAINER BATTLE			Student Aroa		area09_trainer_sch_young_f_2
-0x1BD705DB1CCCD2EE	TRAINER BATTLE			Student Yeray		area09_trainer_sch_young_m_2
-0xB48D3AF1EE9DEBB4	TRAINER BATTLE			Youngster Tristan		area09_trainer_tanpan_1
-0xB48D3CF1EE9DEF1A	TRAINER BATTLE			Youngster Hernan		area09_trainer_tanpan_3
-0x27F21D1E3E229A1C	TRAINER BATTLE			Cabbie Oriol		area09_trainer_taxidriver
+0x94DACAA4BEA8752D	TRAINER BATTLE			Battled Student Enrique		area09_trainer_sch_senior_m_1
+0xDDA3E0DAF9208D4F	TRAINER BATTLE			Battled Student Aroa		area09_trainer_sch_young_f_2
+0x1BD705DB1CCCD2EE	TRAINER BATTLE			Battled Student Yeray		area09_trainer_sch_young_m_2
+0xB48D3AF1EE9DEBB4	TRAINER BATTLE			Battled Youngster Tristan		area09_trainer_tanpan_1
+0xB48D3CF1EE9DEF1A	TRAINER BATTLE			Battled Youngster Hernan		area09_trainer_tanpan_3
+0x27F21D1E3E229A1C	TRAINER BATTLE			Battled Cabbie Oriol		area09_trainer_taxidriver
 0x72DDBEC67F23B9AF	_UNUSED					area10_trainer_artist
 0x9F752B6A6D16BB05	_UNUSED					area10_trainer_backpacker
 0x06CBF9F41778B5ED	_UNUSED					area10_trainer_backpacker_1
 0xF4C08A4FF0FA1E32	_UNUSED					area10_trainer_businessman
 0x49FD41EEE2EC1CFE	_UNUSED					area10_trainer_deliverer
 0x665567EA80267494	_UNUSED					area10_trainer_dragontamer
-0xD5CFFE6E5D2F8FDE	TRAINER BATTLE			Black Belt Fabio		area10_trainer_karate
-0x4B788BAD37DF0B66	TRAINER BATTLE			Black Belt Elias		area10_trainer_karate_1
-0x5B4AC2981A6D9BD6	TRAINER BATTLE			Poké Maniac Gregorio		area10_trainer_mania
+0xD5CFFE6E5D2F8FDE	TRAINER BATTLE			Battled Black Belt Fabio		area10_trainer_karate
+0x4B788BAD37DF0B66	TRAINER BATTLE			Battled Black Belt Elias		area10_trainer_karate_1
+0x5B4AC2981A6D9BD6	TRAINER BATTLE			Battled Poké Maniac Gregorio		area10_trainer_mania
 0xED4A03A6A38AB3CE	_UNUSED					area10_trainer_mania_1
-0x6DCBFD7CC1F4975D	TRAINER BATTLE			Musician Claudia		area10_trainer_musician
+0x6DCBFD7CC1F4975D	TRAINER BATTLE			Battled Musician Claudia		area10_trainer_musician
 0xB5CEA4B458D8A5DA	_UNUSED					area10_trainer_researcher
-0xE60ECA5BA0811E0A	TRAINER BATTLE			Scientist Renardo		area10_trainer_researcher_1
-0x4B2E802E16A38987	TRAINER BATTLE			Student Raquel		area10_trainer_sch_middle_f
-0x4B2E792E16A37DA2	TRAINER BATTLE			Student Luis		area10_trainer_sch_middle_m
-0xFFFB2D3DF1BD4214	TRAINER BATTLE			Student Belen		area10_trainer_sch_young_f
-0xFFFB283DF1BD3995	TRAINER BATTLE			Student Ismael		area10_trainer_sch_young_m
-0xB03151B7B7930E4E	TRAINER BATTLE			Youngster Beltran		area10_trainer_tanpan
-0xA093C0E16C0352E9	TRAINER BATTLE			Cook Valentina		area11_trainer_chef
-0xF02A17760889EA85	TRAINER BATTLE			Courier Joaquin		area11_trainer_deliverer
-0x413892E005CFDA1B	TRAINER BATTLE			Dragon Tamer Virginia		area11_trainer_dragontamer
-0x4435832CB149A2A5	TRAINER BATTLE			Poké Maniac Mikel		area11_trainer_mania
-0x9F1D6B50FE340A96	TRAINER BATTLE			Hiker Fatima		area11_trainer_mountain
-0x5D3EF11643ABB717	TRAINER BATTLE			Scientist Juan		area11_trainer_researcher
-0xA9725FFBD4A56C24	TRAINER BATTLE			Student Yassin		area11_trainer_sch_child_m
-0x791B6EE1A1853B5F	TRAINER BATTLE			Student Aurora		area11_trainer_sch_infant_f
-0x8BBD5D295501AC07	TRAINER BATTLE			Student Abril		area11_trainer_sch_young_f
-0x8BBD56295501A022	TRAINER BATTLE			Student Ricardo		area11_trainer_sch_young_m
-0x7874DA024F8B6E22	TRAINER BATTLE			Student Leandro		area11_trainer_sch_young_m_1
-0xF54020B1E530C583	TRAINER BATTLE			Waiter Jan		area11_trainer_waiter
-0xA0F094BB294201F3	TRAINER BATTLE			Waitress Aina		area11_trainer_waitress
-0x18BABE18FB585650	TRAINER BATTLE			Office Worker Ivan		area12_trainer_businessman
-0x3D2158904192C224	TRAINER BATTLE			Office Worker Daniel		area12_trainer_businessman_1
-0xEF56AC38AAD81A35	TRAINER BATTLE			Janitor Tomas		area12_trainer_cleaning
-0x94D3D7BC97894078	TRAINER BATTLE			Courier Alfonso		area12_trainer_deliverer
-0x48881520870125B3	TRAINER BATTLE			Model Salma		area12_trainer_model
-0x1B357C1D6C731F3D	TRAINER BATTLE			Hiker Mar		area12_trainer_mountain
-0xFD810DC6B2083FF5	TRAINER BATTLE			Hiker Estela		area12_trainer_mountain_1
-0x620A10AEAAD344EB	TRAINER BATTLE			Musician Sheila		area12_trainer_musician
-0x81D9AAE6111A8F40	TRAINER BATTLE			Scientist Isaac		area12_trainer_researcher
-0xB3FD24E893F534BF	TRAINER BATTLE			Student Coral		area12_trainer_sch_girl
-0xF6501AB235C3B06C	TRAINER BATTLE			Student Emilio		area12_trainer_sch_middle_m
-0x3F765CA5FDAC591C	TRAINER BATTLE			Student Maria		area12_trainer_sch_senior_f
-0x3F7667A5FDAC6BCD	TRAINER BATTLE			Student Vicente		area12_trainer_sch_senior_m
-0x59376DE11EFC4B88	TRAINER BATTLE			Waiter Ander		area12_trainer_waiter
-0x0A39A7DA883C0088	TRAINER BATTLE			Waitress Elsa		area12_trainer_waitress
-0x38289F6C0C0BB777	TRAINER BATTLE			Courier Pol		area13_trainer_deliverer
-0xF8703581B674F58A	TRAINER BATTLE			Student Unai		area13_trainer_sch_boy
-0x908BFB4BF7041AEE	TRAINER BATTLE			Student Malak		area13_trainer_sch_girl
+0xE60ECA5BA0811E0A	TRAINER BATTLE			Battled Scientist Renardo		area10_trainer_researcher_1
+0x4B2E802E16A38987	TRAINER BATTLE			Battled Student Raquel		area10_trainer_sch_middle_f
+0x4B2E792E16A37DA2	TRAINER BATTLE			Battled Student Luis		area10_trainer_sch_middle_m
+0xFFFB2D3DF1BD4214	TRAINER BATTLE			Battled Student Belen		area10_trainer_sch_young_f
+0xFFFB283DF1BD3995	TRAINER BATTLE			Battled Student Ismael		area10_trainer_sch_young_m
+0xB03151B7B7930E4E	TRAINER BATTLE			Battled Youngster Beltran		area10_trainer_tanpan
+0xA093C0E16C0352E9	TRAINER BATTLE			Battled Cook Valentina		area11_trainer_chef
+0xF02A17760889EA85	TRAINER BATTLE			Battled Courier Joaquin		area11_trainer_deliverer
+0x413892E005CFDA1B	TRAINER BATTLE			Battled Dragon Tamer Virginia		area11_trainer_dragontamer
+0x4435832CB149A2A5	TRAINER BATTLE			Battled Poké Maniac Mikel		area11_trainer_mania
+0x9F1D6B50FE340A96	TRAINER BATTLE			Battled Hiker Fatima		area11_trainer_mountain
+0x5D3EF11643ABB717	TRAINER BATTLE			Battled Scientist Juan		area11_trainer_researcher
+0xA9725FFBD4A56C24	TRAINER BATTLE			Battled Student Yassin		area11_trainer_sch_child_m
+0x791B6EE1A1853B5F	TRAINER BATTLE			Battled Student Aurora		area11_trainer_sch_infant_f
+0x8BBD5D295501AC07	TRAINER BATTLE			Battled Student Abril		area11_trainer_sch_young_f
+0x8BBD56295501A022	TRAINER BATTLE			Battled Student Ricardo		area11_trainer_sch_young_m
+0x7874DA024F8B6E22	TRAINER BATTLE			Battled Student Leandro		area11_trainer_sch_young_m_1
+0xF54020B1E530C583	TRAINER BATTLE			Battled Waiter Jan		area11_trainer_waiter
+0xA0F094BB294201F3	TRAINER BATTLE			Battled Waitress Aina		area11_trainer_waitress
+0x18BABE18FB585650	TRAINER BATTLE			Battled Office Worker Ivan		area12_trainer_businessman
+0x3D2158904192C224	TRAINER BATTLE			Battled Office Worker Daniel		area12_trainer_businessman_1
+0xEF56AC38AAD81A35	TRAINER BATTLE			Battled Janitor Tomas		area12_trainer_cleaning
+0x94D3D7BC97894078	TRAINER BATTLE			Battled Courier Alfonso		area12_trainer_deliverer
+0x48881520870125B3	TRAINER BATTLE			Battled Model Salma		area12_trainer_model
+0x1B357C1D6C731F3D	TRAINER BATTLE			Battled Hiker Mar		area12_trainer_mountain
+0xFD810DC6B2083FF5	TRAINER BATTLE			Battled Hiker Estela		area12_trainer_mountain_1
+0x620A10AEAAD344EB	TRAINER BATTLE			Battled Musician Sheila		area12_trainer_musician
+0x81D9AAE6111A8F40	TRAINER BATTLE			Battled Scientist Isaac		area12_trainer_researcher
+0xB3FD24E893F534BF	TRAINER BATTLE			Battled Student Coral		area12_trainer_sch_girl
+0xF6501AB235C3B06C	TRAINER BATTLE			Battled Student Emilio		area12_trainer_sch_middle_m
+0x3F765CA5FDAC591C	TRAINER BATTLE			Battled Student Maria		area12_trainer_sch_senior_f
+0x3F7667A5FDAC6BCD	TRAINER BATTLE			Battled Student Vicente		area12_trainer_sch_senior_m
+0x59376DE11EFC4B88	TRAINER BATTLE			Battled Waiter Ander		area12_trainer_waiter
+0x0A39A7DA883C0088	TRAINER BATTLE			Battled Waitress Elsa		area12_trainer_waitress
+0x38289F6C0C0BB777	TRAINER BATTLE			Battled Courier Pol		area13_trainer_deliverer
+0xF8703581B674F58A	TRAINER BATTLE			Battled Student Unai		area13_trainer_sch_boy
+0x908BFB4BF7041AEE	TRAINER BATTLE			Battled Student Malak		area13_trainer_sch_girl
 0x61A6A366458B55E1	_UNUSED					area14_trainer_backpacker
-0x32C42B225BD45251	TRAINER BATTLE			Backpacker Lander		area14_trainer_backpacker_1
-0x9488172078044E98	TRAINER BATTLE			Dragon Tamer Eva		area14_trainer_dragontamer
-0x4846A7A7A818F5FC	TRAINER BATTLE			Dragon Tamer Marta		area14_trainer_dragontamer_1
-0xBAEDA94DD9607A22	TRAINER BATTLE			Black Belt Herminio		area14_trainer_karate
+0x32C42B225BD45251	TRAINER BATTLE			Battled Backpacker Lander		area14_trainer_backpacker_1
+0x9488172078044E98	TRAINER BATTLE			Battled Dragon Tamer Eva		area14_trainer_dragontamer
+0x4846A7A7A818F5FC	TRAINER BATTLE			Battled Dragon Tamer Marta		area14_trainer_dragontamer_1
+0xBAEDA94DD9607A22	TRAINER BATTLE			Battled Black Belt Herminio		area14_trainer_karate
 0xE01094F9520A5822	_UNUSED					area14_trainer_karate_1
-0xD62F4AC15E45FDF2	TRAINER BATTLE			Poké Maniac Dario		area14_trainer_mania
+0xD62F4AC15E45FDF2	TRAINER BATTLE			Battled Poké Maniac Dario		area14_trainer_mania
 0xAE78E91C247FB472	_UNUSED					area14_trainer_mania_1
-0xE4C81290BD8DEB8B	TRAINER BATTLE			Hiker Angela		area14_trainer_mountain
-0x8115155F0B7F7117	TRAINER BATTLE			Hiker Celia		area14_trainer_mountain_1
+0xE4C81290BD8DEB8B	TRAINER BATTLE			Battled Hiker Angela		area14_trainer_mountain
+0x8115155F0B7F7117	TRAINER BATTLE			Battled Hiker Celia		area14_trainer_mountain_1
 0x09A517027DF3E5E9	_UNUSED					area14_trainer_musician
-0xFB8595FD3C2C7F69	TRAINER BATTLE			Musician Lidia		area14_trainer_musician_1
-0x57AF9E0361BD8C4A	TRAINER BATTLE			Student Lea		area14_trainer_sch_infant_f
+0xFB8595FD3C2C7F69	TRAINER BATTLE			Battled Musician Lidia		area14_trainer_musician_1
+0x57AF9E0361BD8C4A	TRAINER BATTLE			Battled Student Lea		area14_trainer_sch_infant_f
 0x57AF950361BD7CFF	_UNUSED					area14_trainer_sch_infant_m
 0x0F3EAD97343814FB	_UNUSED					area14_trainer_sch_middle_f
-0xF64A91F54090A0C7	TRAINER BATTLE			Student Veronica		area14_trainer_sch_middle_f_1
-0x0F3EA69734380916	TRAINER BATTLE			Student Ernesto		area14_trainer_sch_middle_m
-0xBB7D6EF51FC7878E	TRAINER BATTLE			Student Lorenzo		area14_trainer_sch_middle_m_1
+0xF64A91F54090A0C7	TRAINER BATTLE			Battled Student Veronica		area14_trainer_sch_middle_f_1
+0x0F3EA69734380916	TRAINER BATTLE			Battled Student Ernesto		area14_trainer_sch_middle_m
+0xBB7D6EF51FC7878E	TRAINER BATTLE			Battled Student Lorenzo		area14_trainer_sch_middle_m_1
 0xC4EFAD10E589AC12	_UNUSED					area14_trainer_sch_senior_f
 0xC4EFB410E589B7F7	_UNUSED					area14_trainer_sch_senior_m
-0xF2E7223B29C99728	TRAINER BATTLE			Student Esther		area14_trainer_sch_young_f
-0x37937E1AA18573CC	TRAINER BATTLE			Student Aitana		area14_trainer_sch_young_f_1
-0x3793811AA18578E5	TRAINER BATTLE			Student Judith		area14_trainer_sch_young_f_2
+0xF2E7223B29C99728	TRAINER BATTLE			Battled Student Esther		area14_trainer_sch_young_f
+0x37937E1AA18573CC	TRAINER BATTLE			Battled Student Aitana		area14_trainer_sch_young_f_1
+0x3793811AA18578E5	TRAINER BATTLE			Battled Student Judith		area14_trainer_sch_young_f_2
 0xF2E71D3B29C98EA9	_UNUSED					area14_trainer_sch_young_m
 0x0C3DAD1A88F85AA9	_UNUSED					area14_trainer_sch_young_m_1
-0x0C3DAA1A88F85590	TRAINER BATTLE			Student Gerard		area14_trainer_sch_young_m_2
+0x0C3DAA1A88F85590	TRAINER BATTLE			Battled Student Gerard		area14_trainer_sch_young_m_2
 0xF8CD503E479E522E	_UNUSED					area14_trainer_worker
-0x93B1D7B78057B6F6	TRAINER BATTLE			Worker Oliver		area14_trainer_worker_1
-0x93B1D6B78057B543	TRAINER BATTLE			Worker Efren		area14_trainer_worker_2
+0x93B1D7B78057B6F6	TRAINER BATTLE			Battled Worker Oliver		area14_trainer_worker_1
+0x93B1D6B78057B543	TRAINER BATTLE			Battled Worker Efren		area14_trainer_worker_2
 0x93B1D5B78057B390	_UNUSED					area14_trainer_worker_3
-0x93B1DCB78057BF75	TRAINER BATTLE		tunnel	Worker Cristobal		area14_trainer_worker_4
+0x93B1DCB78057BF75	TRAINER BATTLE		tunnel	Battled Worker Cristobal		area14_trainer_worker_4
 0xE874C5A1C69D3E30	_UNUSED					area15_trainer_backpacker
 0xB362F040BA698644	_UNUSED					area15_trainer_backpacker_1
 0xBBC3FACBA4A1C1FD	_UNUSED					area15_trainer_businessman
-0x8769C3DC4FDEFC35	TRAINER BATTLE			Office Worker Mario		area15_trainer_businessman_1
-0xB97410C8591D3F0D	TRAINER BATTLE			Cook Eleonor		area15_trainer_chef
-0xF0DA99BD1616AA9A	TRAINER BATTLE			Janitor Salvador		area15_trainer_cleaning
+0x8769C3DC4FDEFC35	TRAINER BATTLE			Battled Office Worker Mario		area15_trainer_businessman_1
+0xB97410C8591D3F0D	TRAINER BATTLE			Battled Cook Eleonor		area15_trainer_chef
+0xF0DA99BD1616AA9A	TRAINER BATTLE			Battled Janitor Salvador		area15_trainer_cleaning
 0x2BAC09AF32AF987F	_UNUSED					area15_trainer_dragontamer
-0x5D7EFD600243A3A3	TRAINER BATTLE			Dragon Tamer Laia		area15_trainer_dragontamer_1
+0x5D7EFD600243A3A3	TRAINER BATTLE			Battled Dragon Tamer Laia		area15_trainer_dragontamer_1
 0xD6A5921599C54B6B	_UNUSED					area15_trainer_sch_infant_f
 0xD6A58B1599C53F86	_UNUSED					area15_trainer_sch_infant_m
 0x542E3EF38ED05A9F	_UNUSED					area15_trainer_worker
-0xF373CA30E544E8BF	TRAINER BATTLE			Student Xavier		area15_trainer_sch_middle_m
+0xF373CA30E544E8BF	TRAINER BATTLE			Battled Student Xavier		area15_trainer_sch_middle_m
 0x702781DDCD06D94F	_UNUSED					area15_trainer_sch_senior_f
-0x47E344609AB1A3B3	TRAINER BATTLE			Student Mercedes		area15_trainer_sch_senior_f_1
+0x47E344609AB1A3B3	TRAINER BATTLE			Battled Student Mercedes		area15_trainer_sch_senior_f_1
 0x70278ADDCD06E89A	_UNUSED					area15_trainer_sch_senior_m
-0x9740D160C80BA34A	TRAINER BATTLE			Student Jorge		area15_trainer_sch_senior_m_1
+0x9740D160C80BA34A	TRAINER BATTLE			Battled Student Jorge		area15_trainer_sch_senior_m_1
 0xF6FC8906A6BFBBFB	_UNUSED					area15_trainer_sch_young_f
-0x25AF6E6C2F5F5FC7	TRAINER BATTLE			Student Petra		area15_trainer_sch_young_f_1
-0xF6FC8206A6BFB016	TRAINER BATTLE			Student Valentin		area15_trainer_sch_young_m
-0xEAE24B6C0E96468E	TRAINER BATTLE			Student Felix		area15_trainer_sch_young_m_1
+0x25AF6E6C2F5F5FC7	TRAINER BATTLE			Battled Student Petra		area15_trainer_sch_young_f_1
+0xF6FC8206A6BFB016	TRAINER BATTLE			Battled Student Valentin		area15_trainer_sch_young_m
+0xEAE24B6C0E96468E	TRAINER BATTLE			Battled Student Felix		area15_trainer_sch_young_m_1
 0xCBF458820F258CE3	_UNUSED					area15_trainer_taxidriver
-0xA1E8578DD245EE3F	TRAINER BATTLE			Cabbie Pablo		area15_trainer_taxidriver_1
-0xCC0AD8BC12B401CF	TRAINER BATTLE			Waiter Saul		area15_trainer_waiter
-0x1EF4BF7CAD356BDF	TRAINER BATTLE			Waitress Isabella		area15_trainer_waitress
-0x542E3EF38ED05A9F	TRAINER BATTLE			Worker Abel		area15_trainer_worker
-0x0F89DB4555571C03	TRAINER BATTLE			Worker Javier		area15_trainer_worker_1
-0xC1AF08941E7B26E3	TRAINER BATTLE			Backpacker Jonathan		area16_trainer_backpacker
-0xD06EACB66289983F	TRAINER BATTLE			Backpacker Arturo		area16_trainer_backpacker_1
-0x9356034D2EBB2574	TRAINER BATTLE			Office Worker Cristian		area16_trainer_businessman
-0xD39CD3C164E2CF22	TRAINER BATTLE			Dragon Tamer Rebeca		area16_trainer_dragontamer_1
-0x4D3F864A221FEE1C	TRAINER BATTLE			Student Lina		area16_trainer_sch_infant_f
-0x4D3F914A222000CD	TRAINER BATTLE			Student Anas		area16_trainer_sch_infant_m
-0xB07A64DBBA9AC6F1	TRAINER BATTLE			Student Monica		area16_trainer_sch_middle_f
-0x7D64358FD89576A0	TRAINER BATTLE			Student Rosario		area16_trainer_sch_senior_f
-0x7D64408FD8958951	TRAINER BATTLE			Student Ramon		area16_trainer_sch_senior_m
-0x6358E644BF4BC25E	TRAINER BATTLE			Student Beatriz		area16_trainer_sch_young_f
-0xEB66D9CE00EEF098	TRAINER BATTLE			Cabbie Omar		area16_trainer_taxidriver
-0x3A6E06BFBCE33290	TRAINER BATTLE			Artist Carolina		area17_trainer_artist
-0x17C5DBF91C0E5CE4	TRAINER BATTLE			Artist Tania		area17_trainer_artist_1
-0x00B2964BEF0B22F3	TRAINER BATTLE			Courier Andre		area17_trainer_deliverer
-0x7C4BFE366DDF64CF	TRAINER BATTLE			Courier Martin		area17_trainer_deliverer_1
-0x708047F00F8CE719	TRAINER BATTLE			Dragon Tamer Luisa		area17_trainer_dragontamer
-0x2E2D37563D2FCC59	TRAINER BATTLE			Dragon Tamer Anna		area17_trainer_dragontamer_1
-0xDB5BB041EDAA4095	TRAINER BATTLE			Black Belt Sayid		area17_trainer_karate
-0x67ABD8A1894B2E7D	TRAINER BATTLE			Black Belt Roger		area17_trainer_karate_1
+0xA1E8578DD245EE3F	TRAINER BATTLE			Battled Cabbie Pablo		area15_trainer_taxidriver_1
+0xCC0AD8BC12B401CF	TRAINER BATTLE			Battled Waiter Saul		area15_trainer_waiter
+0x1EF4BF7CAD356BDF	TRAINER BATTLE			Battled Waitress Isabella		area15_trainer_waitress
+0x542E3EF38ED05A9F	TRAINER BATTLE			Battled Worker Abel		area15_trainer_worker
+0x0F89DB4555571C03	TRAINER BATTLE			Battled Worker Javier		area15_trainer_worker_1
+0xC1AF08941E7B26E3	TRAINER BATTLE			Battled Backpacker Jonathan		area16_trainer_backpacker
+0xD06EACB66289983F	TRAINER BATTLE			Battled Backpacker Arturo		area16_trainer_backpacker_1
+0x9356034D2EBB2574	TRAINER BATTLE			Battled Office Worker Cristian		area16_trainer_businessman
+0xD39CD3C164E2CF22	TRAINER BATTLE			Battled Dragon Tamer Rebeca		area16_trainer_dragontamer_1
+0x4D3F864A221FEE1C	TRAINER BATTLE			Battled Student Lina		area16_trainer_sch_infant_f
+0x4D3F914A222000CD	TRAINER BATTLE			Battled Student Anas		area16_trainer_sch_infant_m
+0xB07A64DBBA9AC6F1	TRAINER BATTLE			Battled Student Monica		area16_trainer_sch_middle_f
+0x7D64358FD89576A0	TRAINER BATTLE			Battled Student Rosario		area16_trainer_sch_senior_f
+0x7D64408FD8958951	TRAINER BATTLE			Battled Student Ramon		area16_trainer_sch_senior_m
+0x6358E644BF4BC25E	TRAINER BATTLE			Battled Student Beatriz		area16_trainer_sch_young_f
+0xEB66D9CE00EEF098	TRAINER BATTLE			Battled Cabbie Omar		area16_trainer_taxidriver
+0x3A6E06BFBCE33290	TRAINER BATTLE			Battled Artist Carolina		area17_trainer_artist
+0x17C5DBF91C0E5CE4	TRAINER BATTLE			Battled Artist Tania		area17_trainer_artist_1
+0x00B2964BEF0B22F3	TRAINER BATTLE			Battled Courier Andre		area17_trainer_deliverer
+0x7C4BFE366DDF64CF	TRAINER BATTLE			Battled Courier Martin		area17_trainer_deliverer_1
+0x708047F00F8CE719	TRAINER BATTLE			Battled Dragon Tamer Luisa		area17_trainer_dragontamer
+0x2E2D37563D2FCC59	TRAINER BATTLE			Battled Dragon Tamer Anna		area17_trainer_dragontamer_1
+0xDB5BB041EDAA4095	TRAINER BATTLE			Battled Black Belt Sayid		area17_trainer_karate
+0x67ABD8A1894B2E7D	TRAINER BATTLE			Battled Black Belt Roger		area17_trainer_karate_1
 0x8383A1F58765D533	_UNUSED			Poké Maniac Youssef		area17_trainer_mania
-0x63BBA47D83855094	TRAINER BATTLE		cave	Hiker Helena		area17_trainer_mountain_1
-0x63BBA77D838555AD	TRAINER BATTLE		cave	Hiker Leire		area17_trainer_mountain_2
-0x63BBA67D838553FA	TRAINER BATTLE			Hiker Nancy		area17_trainer_mountain_3
-0x48A3F7BD15036772	TRAINER BATTLE			Musician Sara		area17_trainer_musician
-0x870C3DF1306219F2	TRAINER BATTLE			Musician Julia		area17_trainer_musician_1
-0x8E0AEA60F4E918C6	TRAINER BATTLE			Student Teo		area17_trainer_sch_boy
-0x6BED31841B56483E	TRAINER BATTLE			Student Max		area17_trainer_sch_boy_1
-0xC81E4C6954686C87	TRAINER BATTLE		cave	Student Triana		area17_trainer_sch_child_f
-0xC81E4569546860A2	TRAINER BATTLE			Student Mark		area17_trainer_sch_child_m
-0x28D3E987D4B1C2A2	TRAINER BATTLE			Student Denis		area17_trainer_sch_child_m_1
-0x877C5EE9EA29053A	TRAINER BATTLE			Student Alma		area17_trainer_sch_girl
-0x213DBF6AEB2485AA	TRAINER BATTLE			Student Jana		area17_trainer_sch_girl_1
-0x100DD56BAA460908	TRAINER BATTLE		cave	Student Sandra		area17_trainer_sch_middle_f
-0x850AB3C6722DBD6C	TRAINER BATTLE			Student Silvia		area17_trainer_sch_middle_f_1
-0x100DD06BAA460089	TRAINER BATTLE		cave	Student Mihai		area17_trainer_sch_middle_m
-0x59B462C6599FCAC9	TRAINER BATTLE			Student Abraham		area17_trainer_sch_middle_m_1
-0x13318F14DBB4A5D0	TRAINER BATTLE			Cook Irma		area18_trainer_chef
-0x412B460B78B0D1CC	TRAINER BATTLE			Dragon Tamer Leticia		area18_trainer_dragontamer
-0x9146A562812C4E51	TRAINER BATTLE			Model Yaiza		area18_trainer_model
-0x96F9C06EDFCF32DF	TRAINER BATTLE			Hiker Luna		area18_trainer_mountain
-0x42C0FDB2506AD11F	TRAINER BATTLE			Student Natalia		area18_trainer_sch_middle_f
-0x0C28B1839A3C6856	TRAINER BATTLE			Student Dolores		area18_trainer_sch_senior_f
-0x0C28B8839A3C743B	TRAINER BATTLE			Student Jose		area18_trainer_sch_senior_m
-0x4AB55970C41FB38D	TRAINER BATTLE			Student Aimar		area18_trainer_sch_young_m
-0xA76C28E850ADB966	TRAINER BATTLE			Cabbie Oscar		area18_trainer_taxidriver
-0xBB0A70604C82F87C	TRAINER BATTLE			Backpacker Nil		area19_trainer_backpacker
-0x2E58BD4A53467358	TRAINER BATTLE			Backpacker Markel		area19_trainer_backpacker_1
-0x08FD4E8E55E532CD	TRAINER BATTLE			Courier Xabier		area19_trainer_deliverer
-0x9432B3C062B0AC45	TRAINER BATTLE			Courier Edgar		area19_trainer_deliverer_1
-0xB81750D527E476F3	TRAINER BATTLE			Dragon Tamer Elisabet		area19_trainer_dragontamer
-0xB72CEF274DDDA0DF	TRAINER BATTLE			Black Belt Sebastian		area19_trainer_karate
-0x3C03F4123ED087C3	TRAINER BATTLE			Black Belt Marcos		area19_trainer_karate_1
-0x58B6D6BEA44DCE9E	TRAINER BATTLE			Hiker Manuela		area19_trainer_mountain
-0xC0C64C1EC4215FFF	TRAINER BATTLE			Scientist Roberto		area19_trainer_researcher
-0xB878B219C0631723	TRAINER BATTLE			Scientist Ignacio		area19_trainer_researcher_1
-0xD56990398BC41693	TRAINER BATTLE			Student Eduardo		area19_trainer_sch_middle_m
-0x0090ED3C86CAFAEF	TRAINER BATTLE			Student Valeria		area19_trainer_sch_young_f
-0x0090F63C86CB0A3A	TRAINER BATTLE			Student Vidal		area19_trainer_sch_young_m
-0x614873EEC4AF8B5E	TRAINER BATTLE			Artist Desiree		area20_trainer_artist
-0xA1BB3463C205CA69	TRAINER BATTLE			Poké Maniac Jordi		area20_trainer_mania
-0x06D6CB2D4D81E4F4	TRAINER BATTLE			Musician Tatiana		area20_trainer_musician
-0x5FDB24771704D316	TRAINER BATTLE			Office Worker Ester		area20_trainer_ol
-0xD5EAF2BC64F873C3	TRAINER BATTLE			Student Jimena		area20_trainer_sch_young_f
-0xD5EAFBBC64F8830E	TRAINER BATTLE			Student Stefan		area20_trainer_sch_young_m
-0x06285CC632E34659	TRAINER BATTLE			Backpacker Julio		area21_trainer_backpacker
-0xD71A8500B4FBFC90	TRAINER BATTLE			Dragon Tamer Paloma		area21_trainer_dragontamer
-0x5E57A0906724B6E4	TRAINER BATTLE			Dragon Tamer Gema		area21_trainer_dragontamer_1
-0x5E57A3906724BBFD	TRAINER BATTLE			Dragon Tamer Diana		area21_trainer_dragontamer_2
-0xB2389875CDBC212A	TRAINER BATTLE			Poké Maniac Guillermo		area21_trainer_mania
-0xF65B6A56B2BCE773	TRAINER BATTLE			Hiker Yanira		area21_trainer_mountain
-0x5CBE52D7DE97BE6B	TRAINER BATTLE			Office Worker Susana		area21_trainer_ol
-0x332E31C262F5C383	TRAINER BATTLE			Student Aleix		area21_trainer_sch_boy
-0x8748862450A483BD	TRAINER BATTLE			Student Naia		area21_trainer_sch_girl
-0x2EC8C56F8B4463BF	TRAINER BATTLE			Student Pedro		area21_trainer_sch_senior_m
-0x78FA2F84A355BD10	TRAINER BATTLE			Student Victoria		area21_trainer_sch_young_f
-0x1DA6ECBE0F874C98	TRAINER BATTLE			Artist Blanca		area22_trainer_artist
-0xA21C2EAA89CF4CAF	TRAINER BATTLE			Cook Lola		area22_trainer_chef
-0x996749854C0CAB1D	TRAINER BATTLE			Black Belt Fernando		area22_trainer_karate
-0x0FEB2DF6F58596CC	TRAINER BATTLE			Model Alexia		area22_trainer_model
-0xBCB9957978BC359A	TRAINER BATTLE			Student Ali		area22_trainer_sch_child_m
-0x26141EF3EDD646FD	TRAINER BATTLE			Student Ana Maria		area22_trainer_sch_senior_f
-0xBE62B19A8B3CACE6	TRAINER BATTLE			Model Naiara		area24_trainer_model
-0xB42A0867B83187EE	TRAINER BATTLE			Poké Maniac Jaume		area25_trainer_mania
-0xCCB4147D8C083217	TRAINER BATTLE			Office Worker Yago		area26_trainer_businessman
+0x63BBA47D83855094	TRAINER BATTLE		cave	Battled Hiker Helena		area17_trainer_mountain_1
+0x63BBA77D838555AD	TRAINER BATTLE		cave	Battled Hiker Leire		area17_trainer_mountain_2
+0x63BBA67D838553FA	TRAINER BATTLE			Battled Hiker Nancy		area17_trainer_mountain_3
+0x48A3F7BD15036772	TRAINER BATTLE			Battled Musician Sara		area17_trainer_musician
+0x870C3DF1306219F2	TRAINER BATTLE			Battled Musician Julia		area17_trainer_musician_1
+0x8E0AEA60F4E918C6	TRAINER BATTLE			Battled Student Teo		area17_trainer_sch_boy
+0x6BED31841B56483E	TRAINER BATTLE			Battled Student Max		area17_trainer_sch_boy_1
+0xC81E4C6954686C87	TRAINER BATTLE		cave	Battled Student Triana		area17_trainer_sch_child_f
+0xC81E4569546860A2	TRAINER BATTLE			Battled Student Mark		area17_trainer_sch_child_m
+0x28D3E987D4B1C2A2	TRAINER BATTLE			Battled Student Denis		area17_trainer_sch_child_m_1
+0x877C5EE9EA29053A	TRAINER BATTLE			Battled Student Alma		area17_trainer_sch_girl
+0x213DBF6AEB2485AA	TRAINER BATTLE			Battled Student Jana		area17_trainer_sch_girl_1
+0x100DD56BAA460908	TRAINER BATTLE		cave	Battled Student Sandra		area17_trainer_sch_middle_f
+0x850AB3C6722DBD6C	TRAINER BATTLE			Battled Student Silvia		area17_trainer_sch_middle_f_1
+0x100DD06BAA460089	TRAINER BATTLE		cave	Battled Student Mihai		area17_trainer_sch_middle_m
+0x59B462C6599FCAC9	TRAINER BATTLE			Battled Student Abraham		area17_trainer_sch_middle_m_1
+0x13318F14DBB4A5D0	TRAINER BATTLE			Battled Cook Irma		area18_trainer_chef
+0x412B460B78B0D1CC	TRAINER BATTLE			Battled Dragon Tamer Leticia		area18_trainer_dragontamer
+0x9146A562812C4E51	TRAINER BATTLE			Battled Model Yaiza		area18_trainer_model
+0x96F9C06EDFCF32DF	TRAINER BATTLE			Battled Hiker Luna		area18_trainer_mountain
+0x42C0FDB2506AD11F	TRAINER BATTLE			Battled Student Natalia		area18_trainer_sch_middle_f
+0x0C28B1839A3C6856	TRAINER BATTLE			Battled Student Dolores		area18_trainer_sch_senior_f
+0x0C28B8839A3C743B	TRAINER BATTLE			Battled Student Jose		area18_trainer_sch_senior_m
+0x4AB55970C41FB38D	TRAINER BATTLE			Battled Student Aimar		area18_trainer_sch_young_m
+0xA76C28E850ADB966	TRAINER BATTLE			Battled Cabbie Oscar		area18_trainer_taxidriver
+0xBB0A70604C82F87C	TRAINER BATTLE			Battled Backpacker Nil		area19_trainer_backpacker
+0x2E58BD4A53467358	TRAINER BATTLE			Battled Backpacker Markel		area19_trainer_backpacker_1
+0x08FD4E8E55E532CD	TRAINER BATTLE			Battled Courier Xabier		area19_trainer_deliverer
+0x9432B3C062B0AC45	TRAINER BATTLE			Battled Courier Edgar		area19_trainer_deliverer_1
+0xB81750D527E476F3	TRAINER BATTLE			Battled Dragon Tamer Elisabet		area19_trainer_dragontamer
+0xB72CEF274DDDA0DF	TRAINER BATTLE			Battled Black Belt Sebastian		area19_trainer_karate
+0x3C03F4123ED087C3	TRAINER BATTLE			Battled Black Belt Marcos		area19_trainer_karate_1
+0x58B6D6BEA44DCE9E	TRAINER BATTLE			Battled Hiker Manuela		area19_trainer_mountain
+0xC0C64C1EC4215FFF	TRAINER BATTLE			Battled Scientist Roberto		area19_trainer_researcher
+0xB878B219C0631723	TRAINER BATTLE			Battled Scientist Ignacio		area19_trainer_researcher_1
+0xD56990398BC41693	TRAINER BATTLE			Battled Student Eduardo		area19_trainer_sch_middle_m
+0x0090ED3C86CAFAEF	TRAINER BATTLE			Battled Student Valeria		area19_trainer_sch_young_f
+0x0090F63C86CB0A3A	TRAINER BATTLE			Battled Student Vidal		area19_trainer_sch_young_m
+0x614873EEC4AF8B5E	TRAINER BATTLE			Battled Artist Desiree		area20_trainer_artist
+0xA1BB3463C205CA69	TRAINER BATTLE			Battled Poké Maniac Jordi		area20_trainer_mania
+0x06D6CB2D4D81E4F4	TRAINER BATTLE			Battled Musician Tatiana		area20_trainer_musician
+0x5FDB24771704D316	TRAINER BATTLE			Battled Office Worker Ester		area20_trainer_ol
+0xD5EAF2BC64F873C3	TRAINER BATTLE			Battled Student Jimena		area20_trainer_sch_young_f
+0xD5EAFBBC64F8830E	TRAINER BATTLE			Battled Student Stefan		area20_trainer_sch_young_m
+0x06285CC632E34659	TRAINER BATTLE			Battled Backpacker Julio		area21_trainer_backpacker
+0xD71A8500B4FBFC90	TRAINER BATTLE			Battled Dragon Tamer Paloma		area21_trainer_dragontamer
+0x5E57A0906724B6E4	TRAINER BATTLE			Battled Dragon Tamer Gema		area21_trainer_dragontamer_1
+0x5E57A3906724BBFD	TRAINER BATTLE			Battled Dragon Tamer Diana		area21_trainer_dragontamer_2
+0xB2389875CDBC212A	TRAINER BATTLE			Battled Poké Maniac Guillermo		area21_trainer_mania
+0xF65B6A56B2BCE773	TRAINER BATTLE			Battled Hiker Yanira		area21_trainer_mountain
+0x5CBE52D7DE97BE6B	TRAINER BATTLE			Battled Office Worker Susana		area21_trainer_ol
+0x332E31C262F5C383	TRAINER BATTLE			Battled Student Aleix		area21_trainer_sch_boy
+0x8748862450A483BD	TRAINER BATTLE			Battled Student Naia		area21_trainer_sch_girl
+0x2EC8C56F8B4463BF	TRAINER BATTLE			Battled Student Pedro		area21_trainer_sch_senior_m
+0x78FA2F84A355BD10	TRAINER BATTLE			Battled Student Victoria		area21_trainer_sch_young_f
+0x1DA6ECBE0F874C98	TRAINER BATTLE			Battled Artist Blanca		area22_trainer_artist
+0xA21C2EAA89CF4CAF	TRAINER BATTLE			Battled Cook Lola		area22_trainer_chef
+0x996749854C0CAB1D	TRAINER BATTLE			Battled Black Belt Fernando		area22_trainer_karate
+0x0FEB2DF6F58596CC	TRAINER BATTLE			Battled Model Alexia		area22_trainer_model
+0xBCB9957978BC359A	TRAINER BATTLE			Battled Student Ali		area22_trainer_sch_child_m
+0x26141EF3EDD646FD	TRAINER BATTLE			Battled Student Ana Maria		area22_trainer_sch_senior_f
+0xBE62B19A8B3CACE6	TRAINER BATTLE			Battled Model Naiara		area24_trainer_model
+0xB42A0867B83187EE	TRAINER BATTLE			Battled Poké Maniac Jaume		area25_trainer_mania
+0xCCB4147D8C083217	TRAINER BATTLE			Battled Office Worker Yago		area26_trainer_businessman
 0xF3DCB81EBBC970F5	EVENT			Team Star Penny		botan_01
 0xF3DCB51EBBC96BDC	EVENT			Pokémon Trainer Penny		botan_02
 0xA534CA748A2CA773	EVENT			Team Star Penny		botan_multi
@@ -4784,9 +4784,9 @@
 0xFC35E523444329A1	_UNUSED					gym_mushi_03
 0x86CEFDC1FF86BA75	EVENT			Gym Leader Katy		gym_mushi_leader_01
 0x86CEFAC1FF86B55C	EVENT			Gym Leader Katy		gym_mushi_leader_02
-0x9959A65BE0CA5364	TRAINER BATTLE			Student Santiago		gym_normal_01
-0x9959A95BE0CA587D	TRAINER BATTLE			Student Gisela		gym_normal_02
-0x9959A85BE0CA56CA	TRAINER BATTLE			Student Adara		gym_normal_03
+0x9959A65BE0CA5364	TRAINER BATTLE			Battled Student Santiago		gym_normal_01
+0x9959A95BE0CA587D	TRAINER BATTLE			Battled Student Gisela		gym_normal_02
+0x9959A85BE0CA56CA	TRAINER BATTLE			Battled Student Adara		gym_normal_03
 0x2F896DBAC448EE04	EVENT			Gym Leader Larry		gym_normal_leader_01
 0x2F8970BAC448F31D	EVENT			Gym Leader Larry		gym_normal_leader_02
 0x7957D3F9E82CB271	EVENT			Instructor Dendra		kihada_01
@@ -4895,61 +4895,61 @@
 0x42790FAB22C27B6C	EVENT			Instructor Saguaro		sawaro_01
 0x3DB4E21A3A2E9925	EVENT			Instructor Salvatore		seizi_01
 0x6DDFE02CE67AA144	_UNUSED					strong_01
-0x9607621ACB384962	TRAINER BATTLE			Festival Boy Kazuaki		area01_dlc1_trainer_j_child_m
+0x9607621ACB384962	TRAINER BATTLE			Battled Festival Boy Kazuaki		area01_dlc1_trainer_j_child_m
 0xD4C08F84080AAB30	EVENT			Festival Boy Kazuaki		area01_dlc1_trainer_j_child_m_strong
-0x68F1F2D5FCF65F4C	TRAINER BATTLE			Festival Boy Makoto		area01_dlc1_trainer_j_infant_m
+0x68F1F2D5FCF65F4C	TRAINER BATTLE			Battled Festival Boy Makoto		area01_dlc1_trainer_j_infant_m
 0x1480274E0763F8AE	EVENT			Festival Boy Makoto		area01_dlc1_trainer_j_infant_m_strong
-0xE3ECF05CD681ED02	TRAINER BATTLE			Festival Girl Mayu		area01_dlc1_trainer_j_youth_f
+0xE3ECF05CD681ED02	TRAINER BATTLE			Battled Festival Girl Mayu		area01_dlc1_trainer_j_youth_f
 0x11D83C9817807F90	EVENT			Festival Girl Mayu		area01_dlc1_trainer_j_youth_f_strong
-0x7EEA23673B61C96D	TRAINER BATTLE			Ruffian Shinsaku		area01_dlc1_trainer_scary_m
+0x7EEA23673B61C96D	TRAINER BATTLE			Battled Ruffian Shinsaku		area01_dlc1_trainer_scary_m
 0x58248E153E0320F9	EVENT			Ruffian Shinsaku		area01_dlc1_trainer_scary_m_strong
-0x76626835094A3E85	TRAINER BATTLE			Festival Boy Tatsurou		area02_dlc1_trainer_j_child_m
+0x76626835094A3E85	TRAINER BATTLE			Battled Festival Boy Tatsurou		area02_dlc1_trainer_j_child_m
 0x3A10ACC9425660B1	EVENT			Festival Boy Tatsurou		area02_dlc1_trainer_j_child_m_strong
-0xCA0D06B5F561EED1	TRAINER BATTLE			Festival Boy Kousei		area02_dlc1_trainer_j_infant_m
+0xCA0D06B5F561EED1	TRAINER BATTLE			Battled Festival Boy Kousei		area02_dlc1_trainer_j_infant_m
 0x9E5A3D82251DE05D	EVENT			Festival Boy Kousei		area02_dlc1_trainer_j_infant_m_strong
-0x4FB649C22E2C753D	TRAINER BATTLE			Festival Girl Minami		area02_dlc1_trainer_j_youth_f
+0x4FB649C22E2C753D	TRAINER BATTLE			Battled Festival Girl Minami		area02_dlc1_trainer_j_youth_f
 0x1AC133E9F2194CE9	EVENT			Festival Girl Minami		area02_dlc1_trainer_j_youth_f_strong
-0x223F21EA19AF8F6B	TRAINER BATTLE			Delinquent Kaya		area02_dlc1_trainer_scary_f
+0x223F21EA19AF8F6B	TRAINER BATTLE			Battled Delinquent Kaya		area02_dlc1_trainer_scary_f
 0x6EEDBC4B2971BCC3	EVENT			Delinquent Kaya		area02_dlc1_trainer_scary_f_strong
-0x5BADFFA3E7812837	TRAINER BATTLE			Delinquent Kaname		area02_dlc1_trainer_scary_f_1
+0x5BADFFA3E7812837	TRAINER BATTLE			Battled Delinquent Kaname		area02_dlc1_trainer_scary_f_1
 0x9BEB429276AA816F	EVENT			Delinquent Kaname		area02_dlc1_trainer_scary_f_1_strong
-0xFD624033700DFBBC	TRAINER BATTLE			Backpacker Kosuke		area03_dlc1_trainer_backpacker
+0xFD624033700DFBBC	TRAINER BATTLE			Battled Backpacker Kosuke		area03_dlc1_trainer_backpacker
 0x5876A358E5D261BE	EVENT			Backpacker Kosuke		area03_dlc1_trainer_backpacker_strong
-0x1147A154A518F50D	TRAINER BATTLE			Courier Tomo		area03_dlc1_trainer_deliverer
+0x1147A154A518F50D	TRAINER BATTLE			Battled Courier Tomo		area03_dlc1_trainer_deliverer
 0x64F3A28806BC4D59	EVENT			Courier Tomo		area03_dlc1_trainer_deliverer_strong
-0x729A30D0454B8540	TRAINER BATTLE			Festival Boy Kensaku		area03_dlc1_trainer_j_child_m
+0x729A30D0454B8540	TRAINER BATTLE			Battled Festival Boy Kensaku		area03_dlc1_trainer_j_child_m
 0x74E1CBBB46027A22	EVENT			Festival Boy Kensaku		area03_dlc1_trainer_j_child_m_strong
-0x854E67E4068D548E	TRAINER BATTLE			Festival Boy Minato		area03_dlc1_trainer_j_infant_m
+0x854E67E4068D548E	TRAINER BATTLE			Battled Festival Boy Minato		area03_dlc1_trainer_j_infant_m
 0xFFBC54001E3166DC	EVENT			Festival Boy Minato		area03_dlc1_trainer_j_infant_m_strong
-0x38DA46B6C8AE6734	TRAINER BATTLE			Festival Girl Shizune		area03_dlc1_trainer_j_youth_f
+0x38DA46B6C8AE6734	TRAINER BATTLE			Battled Festival Girl Shizune		area03_dlc1_trainer_j_youth_f
 0x20850BC02E7170B6	EVENT			Festival Girl Shizune		area03_dlc1_trainer_j_youth_f_strong
-0x5C9E1CA1572272C6	TRAINER BATTLE			Delinquent Rio		area03_dlc1_trainer_scary_f
+0x5C9E1CA1572272C6	TRAINER BATTLE			Battled Delinquent Rio		area03_dlc1_trainer_scary_f
 0x7AAD1169554F3554	EVENT			Delinquent Rio		area03_dlc1_trainer_scary_f_strong
-0x5C9E23A157227EAB	TRAINER BATTLE			Ruffian Kento		area03_dlc1_trainer_scary_m
+0x5C9E23A157227EAB	TRAINER BATTLE			Battled Ruffian Kento		area03_dlc1_trainer_scary_m
 0xE599B0146EFA4B03	EVENT			Ruffian Kento		area03_dlc1_trainer_scary_m_strong
-0x5151D9333EE199AB	TRAINER BATTLE			Hiker Miyu		area04_dlc1_trainer_mountain
+0x5151D9333EE199AB	TRAINER BATTLE			Battled Hiker Miyu		area04_dlc1_trainer_mountain
 0xDCDABC0EB49C6403	EVENT			Hiker Miyu		area04_dlc1_trainer_mountain_strong
-0x65A2E6FCC81523A4	TRAINER BATTLE			Festival Boy Yoshiaki		area07_dlc1_trainer_j_child_m
+0x65A2E6FCC81523A4	TRAINER BATTLE			Battled Festival Boy Yoshiaki		area07_dlc1_trainer_j_child_m
 0x20AD36766B7BF406	EVENT			Festival Boy Yoshiaki		area07_dlc1_trainer_j_child_m_strong
-0xAF485E7F485A192A	TRAINER BATTLE			Festival Boy Kazuki		area07_dlc1_trainer_j_infant_m
+0xAF485E7F485A192A	TRAINER BATTLE			Battled Festival Boy Kazuki		area07_dlc1_trainer_j_infant_m
 0x433D574E6D670318	EVENT			Festival Boy Kazuki		area07_dlc1_trainer_j_infant_m_strong
-0xE55519DE3711A8E0	TRAINER BATTLE			Festival Girl Yoshino		area07_dlc1_trainer_j_youth_f
+0xE55519DE3711A8E0	TRAINER BATTLE			Battled Festival Girl Yoshino		area07_dlc1_trainer_j_youth_f
 0xFFA8F7EE0353D002	EVENT			Festival Girl Yoshino		area07_dlc1_trainer_j_youth_f_strong
-0xDBA230869F67B7C9	TRAINER BATTLE			Poké Maniac Yoshiyuki		area07_dlc1_trainer_mania
+0xDBA230869F67B7C9	TRAINER BATTLE			Battled Poké Maniac Yoshiyuki		area07_dlc1_trainer_mania
 0xA0DB3E4F498C4475	EVENT			Poké Maniac Yoshiyuki		area07_dlc1_trainer_mania_strong
-0xF6E96709440BC022	TRAINER BATTLE			Delinquent Mutsumi		area07_dlc1_trainer_scary_f
+0xF6E96709440BC022	TRAINER BATTLE			Battled Delinquent Mutsumi		area07_dlc1_trainer_scary_f
 0x82DC43A1563BECF0	EVENT			Delinquent Mutsumi		area07_dlc1_trainer_scary_f_strong
-0xF6E96E09440BCC07	TRAINER BATTLE			Ruffian Mikiya		area07_dlc1_trainer_scary_m
+0xF6E96E09440BCC07	TRAINER BATTLE			Battled Ruffian Mikiya		area07_dlc1_trainer_scary_m
 0x906D081C659674DF	EVENT			Ruffian Mikiya		area07_dlc1_trainer_scary_m_strong
-0x35166158FEBD547A	TRAINER BATTLE			Office Worker Kazuhiro		area08_dlc1_trainer_businessman
+0x35166158FEBD547A	TRAINER BATTLE			Battled Office Worker Kazuhiro		area08_dlc1_trainer_businessman
 0x882633ED9AE439C8	EVENT			Office Worker Kazuhiro		area08_dlc1_trainer_businessman_strong
-0xACE2C24F3CFBFC49	TRAINER BATTLE			Dragon Tamer Airi		area09_dlc1_trainer_dragontamer
+0xACE2C24F3CFBFC49	TRAINER BATTLE			Battled Dragon Tamer Airi		area09_dlc1_trainer_dragontamer
 0xDCBABE12AD13DDF5	EVENT			Dragon Tamer Airi		area09_dlc1_trainer_dragontamer_strong
-0x2131B9B56E416570	TRAINER BATTLE			Festival Boy Satoru		area10_dlc1_trainer_j_child_m
+0x2131B9B56E416570	TRAINER BATTLE			Battled Festival Boy Satoru		area10_dlc1_trainer_j_child_m
 0xCBCD79A3147159B2	EVENT			Festival Boy Satoru		area10_dlc1_trainer_j_child_m_strong
-0x48C764BC82083244	TRAINER BATTLE			Festival Girl Nanami		area10_dlc1_trainer_j_youth_f
+0x48C764BC82083244	TRAINER BATTLE			Battled Festival Girl Nanami		area10_dlc1_trainer_j_youth_f
 0xBB615E9448286166	EVENT			Festival Girl Nanami		area10_dlc1_trainer_j_youth_f_strong
-0xBA91591C20A4696F	TRAINER BATTLE			Black Belt Hokuto		area10_dlc1_trainer_karate
+0xBA91591C20A4696F	TRAINER BATTLE			Battled Black Belt Hokuto		area10_dlc1_trainer_karate
 0x144D42B4E13E9E67	EVENT			Black Belt Hokuto		area10_dlc1_trainer_karate_strong
 0x97C488CBA362852D	EVENT			Pokémon Trainer Kieran		brother_01_01
 0x0BE6818334FC74B9	EVENT			Pokémon Trainer Kieran		brother_01_01_strong
@@ -4975,74 +4975,74 @@
 0xAA132CDA9AAF5F09	EVENT			Pokémon Trainer Carmine		sister_muruchi_01_strong
 0x609CE834FD6B2BE1	EVENT			Pokémon Trainer Carmine		sister_onitaizi
 0x29EEDA26EC0F638D	EVENT			Pokémon Trainer Carmine		sister_onitaizi_strong
-0x1008BD0469965E1A	TRAINER BATTLE			Kitakami Ogre Clan Masamune		sp_trainer_01
-0x1008BC0469965C67	TRAINER BATTLE			Kitakami Ogre Clan Hasebe		sp_trainer_02
-0x1008BB0469965AB4	TRAINER BATTLE			Kitakami Ogre Clan Raikiri		sp_trainer_03
-0x1008BA0469965901	TRAINER BATTLE			Kitakami Ogre Clan Kunitsuna		sp_trainer_04
-0x1008B9046996574E	TRAINER BATTLE			Kitakami Ogre Clan Kanemitsu		sp_trainer_05
-0x1008B8046996559B	TRAINER BATTLE			Kitakami Ogre Clan Munechika		sp_trainer_06
-0x1008B704699653E8	TRAINER BATTLE			Kitakami Ogre Clan Kotetsu		sp_trainer_07
+0x1008BD0469965E1A	TRAINER BATTLE			Battled Kitakami Ogre Clan Masamune		sp_trainer_01
+0x1008BC0469965C67	TRAINER BATTLE			Battled Kitakami Ogre Clan Hasebe		sp_trainer_02
+0x1008BB0469965AB4	TRAINER BATTLE			Battled Kitakami Ogre Clan Raikiri		sp_trainer_03
+0x1008BA0469965901	TRAINER BATTLE			Battled Kitakami Ogre Clan Kunitsuna		sp_trainer_04
+0x1008B9046996574E	TRAINER BATTLE			Battled Kitakami Ogre Clan Kanemitsu		sp_trainer_05
+0x1008B8046996559B	TRAINER BATTLE			Battled Kitakami Ogre Clan Munechika		sp_trainer_06
+0x1008B704699653E8	TRAINER BATTLE			Battled Kitakami Ogre Clan Kotetsu		sp_trainer_07
 0x8ED16CF64ABCD04C	EVENT			Kitakami Ogre Clan Muramasa		sp_trainer_boss
-0xB2792F9E41931BA4	TRAINER BATTLE			Student Imani		area01_dlc2_trainer_b_adult_f
-0x5AF5A8A42A555C10	TRAINER BATTLE			Student Riley		area01_dlc2_trainer_b_adult_f_1
-0x5AF5ABA42A556129	TRAINER BATTLE			League Club Sophie		area01_dlc2_trainer_b_adult_f_2
-0xB2792A9E41931325	TRAINER BATTLE			Student Michael		area01_dlc2_trainer_b_adult_m
-0x2F9F77A411C79FCD	TRAINER BATTLE			Student Tsukasa		area01_dlc2_trainer_b_adult_m_1
-0x2F9F74A411C79AB4	TRAINER BATTLE			Student Armin		area01_dlc2_trainer_b_adult_m_2
-0x3B21FFC3FB658DBF	TRAINER BATTLE			Student Yuchen		area01_dlc2_trainer_b_youth_f
-0xBDEBE6196BD13F63	TRAINER BATTLE			Student Sarah		area01_dlc2_trainer_b_youth_f_1
-0xBDEBE7196BD14116	TRAINER BATTLE			Student Chloe		area01_dlc2_trainer_b_youth_f_2
-0xBDEBE8196BD142C9	TRAINER BATTLE			Student Kanade		area01_dlc2_trainer_b_youth_f_3
-0x3B2208C3FB659D0A	TRAINER BATTLE			Student Darius		area01_dlc2_trainer_b_youth_m
-0x0C6FF319987274BA	TRAINER BATTLE			League Club Kashif		area01_dlc2_trainer_b_youth_m_1
-0x0C6FF21998727307	TRAINER BATTLE			Student Yoshiki		area01_dlc2_trainer_b_youth_m_2
-0x0C6FF11998727154	TRAINER BATTLE			Student Kev		area01_dlc2_trainer_b_youth_m_3
-0xB698295A7FAC2967	TRAINER BATTLE			Student Yun Hee		area02_dlc2_trainer_b_adult_f
-0x91D31F0C6D8F287B	TRAINER BATTLE			Student Daria		area02_dlc2_trainer_b_adult_f_1
-0x91D3200C6D8F2A2E	TRAINER BATTLE			Student Marika		area02_dlc2_trainer_b_adult_f_2
-0x91D3210C6D8F2BE1	TRAINER BATTLE			Student Annie		area02_dlc2_trainer_b_adult_f_3
-0xB698225A7FAC1D82	TRAINER BATTLE			Student Leo		area02_dlc2_trainer_b_adult_m
-0x5705FC0C4CC60F42	TRAINER BATTLE			League Club Mikkel		area02_dlc2_trainer_b_adult_m_1
-0x5705FB0C4CC60D8F	TRAINER BATTLE			Student Pietro		area02_dlc2_trainer_b_adult_m_2
-0x5705FA0C4CC60BDC	TRAINER BATTLE			League Club Ian		area02_dlc2_trainer_b_adult_m_3
-0x11FDD03007DF11D4	TRAINER BATTLE			Student Lila		area02_dlc2_trainer_b_youth_f
-0xA73F2F6A325DBD00	TRAINER BATTLE			Student Alyssa		area02_dlc2_trainer_b_youth_f_1
-0xA73F326A325DC219	TRAINER BATTLE			Student Cia		area02_dlc2_trainer_b_youth_f_2
-0xA73F316A325DC066	TRAINER BATTLE			League Club Mana		area02_dlc2_trainer_b_youth_f_3
-0x11FDCB3007DF0955	TRAINER BATTLE			Student Max		area02_dlc2_trainer_b_youth_m
-0x7BE8FE6A19D000BD	TRAINER BATTLE			Student Kaz		area02_dlc2_trainer_b_youth_m_1
-0x7BE8FB6A19CFFBA4	TRAINER BATTLE			League Club Satoru		area02_dlc2_trainer_b_youth_m_2
-0x7BE8FC6A19CFFD57	TRAINER BATTLE			Student Nicholo		area02_dlc2_trainer_b_youth_m_3
-0xC0B09C6FFF818E56	TRAINER BATTLE			League Club Ramona		area03_dlc2_trainer_b_adult_f
-0xF8932182E8C40A4E	TRAINER BATTLE			Student Chun		area03_dlc2_trainer_b_adult_f_1
-0xF8932082E8C4089B	TRAINER BATTLE			Student Seori		area03_dlc2_trainer_b_adult_f_2
-0xC0B0A36FFF819A3B	TRAINER BATTLE			Student Wayne		area03_dlc2_trainer_b_adult_m
-0x36C644830C704C87	TRAINER BATTLE			League Club Danyo		area03_dlc2_trainer_b_adult_m_1
-0x36C645830C704E3A	TRAINER BATTLE			League Club Tsubasa		area03_dlc2_trainer_b_adult_m_2
-0x36C646830C704FED	TRAINER BATTLE			Student Yama		area03_dlc2_trainer_b_adult_m_3
-0x5139AE1F6F063DAD	TRAINER BATTLE			Student Anne		area03_dlc2_trainer_b_youth_f
-0xBA65DD87CCD131E5	TRAINER BATTLE			League Club Dana		area03_dlc2_trainer_b_youth_f_1
-0xBA65DA87CCD12CCC	TRAINER BATTLE			Student Fiona		area03_dlc2_trainer_b_youth_f_2
-0x5139A31F6F062AFC	TRAINER BATTLE			Student Harry		area03_dlc2_trainer_b_youth_m
-0x59049E87951109D8	TRAINER BATTLE			League Club John		area03_dlc2_trainer_b_youth_m_1
-0x5904A18795110EF1	TRAINER BATTLE			Student Art		area03_dlc2_trainer_b_youth_m_2
-0x208793B591A020D1	TRAINER BATTLE			Student Eve		area04_dlc2_trainer_b_adult_f
-0xC3BE9075909F7401	TRAINER BATTLE			Student Apinya		area04_dlc2_trainer_b_adult_f_1
-0xC3BE8D75909F6EE8	TRAINER BATTLE			Student Rebeccah		area04_dlc2_trainer_b_adult_f_2
-0xC3BE8E75909F709B	TRAINER BATTLE			League Club Cecelia		area04_dlc2_trainer_b_adult_f_3
-0xC3BE9375909F791A	TRAINER BATTLE			League Club Cindy		area04_dlc2_trainer_b_adult_f_4
-0x208788B591A00E20	TRAINER BATTLE			Student Rayford		area04_dlc2_trainer_b_adult_m
-0x669CD1755C7B3F34	TRAINER BATTLE			League Club Sam		area04_dlc2_trainer_b_adult_m_1
-0x669CD4755C7B444D	TRAINER BATTLE			Student Alex		area04_dlc2_trainer_b_adult_m_2
-0x669CD3755C7B429A	TRAINER BATTLE			League Club Hank		area04_dlc2_trainer_b_adult_m_3
-0xA45048BB47E2F602	TRAINER BATTLE			Student Marci		area04_dlc2_trainer_b_youth_f
-0x64108382B0883BC2	TRAINER BATTLE			Student Cathy		area04_dlc2_trainer_b_youth_f_1
-0x64108282B0883A0F	TRAINER BATTLE			Student Elli		area04_dlc2_trainer_b_youth_f_2
-0x64108182B088385C	TRAINER BATTLE			League Club Fleur		area04_dlc2_trainer_b_youth_f_3
-0xA4504FBB47E301E7	TRAINER BATTLE			League Club Theo		area04_dlc2_trainer_b_youth_m
-0x9EDDA682D15154FB	TRAINER BATTLE			Student Soran		area04_dlc2_trainer_b_youth_m_1
-0x9EDDA782D15156AE	TRAINER BATTLE			Student Joseph		area04_dlc2_trainer_b_youth_m_2
-0x9EDDA882D1515861	TRAINER BATTLE			Student Anthony		area04_dlc2_trainer_b_youth_m_3
+0xB2792F9E41931BA4	TRAINER BATTLE			Battled Student Imani		area01_dlc2_trainer_b_adult_f
+0x5AF5A8A42A555C10	TRAINER BATTLE			Battled Student Riley		area01_dlc2_trainer_b_adult_f_1
+0x5AF5ABA42A556129	TRAINER BATTLE			Battled League Club Sophie		area01_dlc2_trainer_b_adult_f_2
+0xB2792A9E41931325	TRAINER BATTLE			Battled Student Michael		area01_dlc2_trainer_b_adult_m
+0x2F9F77A411C79FCD	TRAINER BATTLE			Battled Student Tsukasa		area01_dlc2_trainer_b_adult_m_1
+0x2F9F74A411C79AB4	TRAINER BATTLE			Battled Student Armin		area01_dlc2_trainer_b_adult_m_2
+0x3B21FFC3FB658DBF	TRAINER BATTLE			Battled Student Yuchen		area01_dlc2_trainer_b_youth_f
+0xBDEBE6196BD13F63	TRAINER BATTLE			Battled Student Sarah		area01_dlc2_trainer_b_youth_f_1
+0xBDEBE7196BD14116	TRAINER BATTLE			Battled Student Chloe		area01_dlc2_trainer_b_youth_f_2
+0xBDEBE8196BD142C9	TRAINER BATTLE			Battled Student Kanade		area01_dlc2_trainer_b_youth_f_3
+0x3B2208C3FB659D0A	TRAINER BATTLE			Battled Student Darius		area01_dlc2_trainer_b_youth_m
+0x0C6FF319987274BA	TRAINER BATTLE			Battled League Club Kashif		area01_dlc2_trainer_b_youth_m_1
+0x0C6FF21998727307	TRAINER BATTLE			Battled Student Yoshiki		area01_dlc2_trainer_b_youth_m_2
+0x0C6FF11998727154	TRAINER BATTLE			Battled Student Kev		area01_dlc2_trainer_b_youth_m_3
+0xB698295A7FAC2967	TRAINER BATTLE			Battled Student Yun Hee		area02_dlc2_trainer_b_adult_f
+0x91D31F0C6D8F287B	TRAINER BATTLE			Battled Student Daria		area02_dlc2_trainer_b_adult_f_1
+0x91D3200C6D8F2A2E	TRAINER BATTLE			Battled Student Marika		area02_dlc2_trainer_b_adult_f_2
+0x91D3210C6D8F2BE1	TRAINER BATTLE			Battled Student Annie		area02_dlc2_trainer_b_adult_f_3
+0xB698225A7FAC1D82	TRAINER BATTLE			Battled Student Leo		area02_dlc2_trainer_b_adult_m
+0x5705FC0C4CC60F42	TRAINER BATTLE			Battled League Club Mikkel		area02_dlc2_trainer_b_adult_m_1
+0x5705FB0C4CC60D8F	TRAINER BATTLE			Battled Student Pietro		area02_dlc2_trainer_b_adult_m_2
+0x5705FA0C4CC60BDC	TRAINER BATTLE			Battled League Club Ian		area02_dlc2_trainer_b_adult_m_3
+0x11FDD03007DF11D4	TRAINER BATTLE			Battled Student Lila		area02_dlc2_trainer_b_youth_f
+0xA73F2F6A325DBD00	TRAINER BATTLE			Battled Student Alyssa		area02_dlc2_trainer_b_youth_f_1
+0xA73F326A325DC219	TRAINER BATTLE			Battled Student Cia		area02_dlc2_trainer_b_youth_f_2
+0xA73F316A325DC066	TRAINER BATTLE			Battled League Club Mana		area02_dlc2_trainer_b_youth_f_3
+0x11FDCB3007DF0955	TRAINER BATTLE			Battled Student Max		area02_dlc2_trainer_b_youth_m
+0x7BE8FE6A19D000BD	TRAINER BATTLE			Battled Student Kaz		area02_dlc2_trainer_b_youth_m_1
+0x7BE8FB6A19CFFBA4	TRAINER BATTLE			Battled League Club Satoru		area02_dlc2_trainer_b_youth_m_2
+0x7BE8FC6A19CFFD57	TRAINER BATTLE			Battled Student Nicholo		area02_dlc2_trainer_b_youth_m_3
+0xC0B09C6FFF818E56	TRAINER BATTLE			Battled League Club Ramona		area03_dlc2_trainer_b_adult_f
+0xF8932182E8C40A4E	TRAINER BATTLE			Battled Student Chun		area03_dlc2_trainer_b_adult_f_1
+0xF8932082E8C4089B	TRAINER BATTLE			Battled Student Seori		area03_dlc2_trainer_b_adult_f_2
+0xC0B0A36FFF819A3B	TRAINER BATTLE			Battled Student Wayne		area03_dlc2_trainer_b_adult_m
+0x36C644830C704C87	TRAINER BATTLE			Battled League Club Danyo		area03_dlc2_trainer_b_adult_m_1
+0x36C645830C704E3A	TRAINER BATTLE			Battled League Club Tsubasa		area03_dlc2_trainer_b_adult_m_2
+0x36C646830C704FED	TRAINER BATTLE			Battled Student Yama		area03_dlc2_trainer_b_adult_m_3
+0x5139AE1F6F063DAD	TRAINER BATTLE			Battled Student Anne		area03_dlc2_trainer_b_youth_f
+0xBA65DD87CCD131E5	TRAINER BATTLE			Battled League Club Dana		area03_dlc2_trainer_b_youth_f_1
+0xBA65DA87CCD12CCC	TRAINER BATTLE			Battled Student Fiona		area03_dlc2_trainer_b_youth_f_2
+0x5139A31F6F062AFC	TRAINER BATTLE			Battled Student Harry		area03_dlc2_trainer_b_youth_m
+0x59049E87951109D8	TRAINER BATTLE			Battled League Club John		area03_dlc2_trainer_b_youth_m_1
+0x5904A18795110EF1	TRAINER BATTLE			Battled Student Art		area03_dlc2_trainer_b_youth_m_2
+0x208793B591A020D1	TRAINER BATTLE			Battled Student Eve		area04_dlc2_trainer_b_adult_f
+0xC3BE9075909F7401	TRAINER BATTLE			Battled Student Apinya		area04_dlc2_trainer_b_adult_f_1
+0xC3BE8D75909F6EE8	TRAINER BATTLE			Battled Student Rebeccah		area04_dlc2_trainer_b_adult_f_2
+0xC3BE8E75909F709B	TRAINER BATTLE			Battled League Club Cecelia		area04_dlc2_trainer_b_adult_f_3
+0xC3BE9375909F791A	TRAINER BATTLE			Battled League Club Cindy		area04_dlc2_trainer_b_adult_f_4
+0x208788B591A00E20	TRAINER BATTLE			Battled Student Rayford		area04_dlc2_trainer_b_adult_m
+0x669CD1755C7B3F34	TRAINER BATTLE			Battled League Club Sam		area04_dlc2_trainer_b_adult_m_1
+0x669CD4755C7B444D	TRAINER BATTLE			Battled Student Alex		area04_dlc2_trainer_b_adult_m_2
+0x669CD3755C7B429A	TRAINER BATTLE			Battled League Club Hank		area04_dlc2_trainer_b_adult_m_3
+0xA45048BB47E2F602	TRAINER BATTLE			Battled Student Marci		area04_dlc2_trainer_b_youth_f
+0x64108382B0883BC2	TRAINER BATTLE			Battled Student Cathy		area04_dlc2_trainer_b_youth_f_1
+0x64108282B0883A0F	TRAINER BATTLE			Battled Student Elli		area04_dlc2_trainer_b_youth_f_2
+0x64108182B088385C	TRAINER BATTLE			Battled League Club Fleur		area04_dlc2_trainer_b_youth_f_3
+0xA4504FBB47E301E7	TRAINER BATTLE			Battled League Club Theo		area04_dlc2_trainer_b_youth_m
+0x9EDDA682D15154FB	TRAINER BATTLE			Battled Student Soran		area04_dlc2_trainer_b_youth_m_1
+0x9EDDA782D15156AE	TRAINER BATTLE			Battled Student Joseph		area04_dlc2_trainer_b_youth_m_2
+0x9EDDA882D1515861	TRAINER BATTLE			Battled Student Anthony		area04_dlc2_trainer_b_youth_m_3
 0xA22552475799E02E				Pokémon Trainer Penny		botan_02_01
 0x94421963B3212ACD				Pokémon Trainer Penny		botan_schoolwars
 0x3E8FC8B25C115EBA				BB League Champion Kieran		brother_02_01
@@ -5125,108 +5125,108 @@
 						
 						
 //	Event Flags					
-0xEB597C90	FLY SPOT	Cabo Poco		Unlock Your House fly spot		FSYS_YMAP_FLY_01
-0xEB5981A9	FLY SPOT	Poco Path		Unlock Poco Path Lighthouse fly spot		FSYS_YMAP_FLY_02
-0xEB597FF6	FLY SPOT	Mesagoza		Unlock Naranja / Uva Academy fly spot		FSYS_YMAP_FLY_03
-0xEB59850F	FLY SPOT	South Province (Area Two)		Unlock South Province (Area Two) Watchtower fly spot		FSYS_YMAP_FLY_04
-0xEB59835C	FLY SPOT	South Province (Area Four)		Unlock South Province (Area Four) Watchtower fly spot		FSYS_YMAP_FLY_05
+0xEB597C90	FLY SPOT	Cabo Poco		Unlocked Your House fly spot		FSYS_YMAP_FLY_01
+0xEB5981A9	FLY SPOT	Poco Path		Unlocked Poco Path Lighthouse fly spot		FSYS_YMAP_FLY_02
+0xEB597FF6	FLY SPOT	Mesagoza		Unlocked Naranja / Uva Academy fly spot		FSYS_YMAP_FLY_03
+0xEB59850F	FLY SPOT	South Province (Area Two)		Unlocked South Province (Area Two) Watchtower fly spot		FSYS_YMAP_FLY_04
+0xEB59835C	FLY SPOT	South Province (Area Four)		Unlocked South Province (Area Four) Watchtower fly spot		FSYS_YMAP_FLY_05
 0xEB598875	_UNUSED					FSYS_YMAP_FLY_06
-0xEB5986C2	FLY SPOT	West Province (Area One)		Unlock West Province (Area One) Watchtower fly spot		FSYS_YMAP_FLY_07
-0xEB598BDB	FLY SPOT	Asado Desert		Unlock Asado Desert Watchtower fly spot		FSYS_YMAP_FLY_08
-0xEB598A28	FLY SPOT	West Province (Area Two)		Unlock Porto Marinada Lighthouse fly spot		FSYS_YMAP_FLY_09
-0xEB569B1A	FLY SPOT	Casseroya Lake		Unlock Casseroya Lake Watchtower No. 1 fly spot		FSYS_YMAP_FLY_10
-0xEB569CCD	FLY SPOT	Casseroya Lake		Unlock Casseroya Lake Watchtower No. 2 fly spot		FSYS_YMAP_FLY_11
-0xEB5697B4	FLY SPOT	Great Crater of Paldea		Unlock Zero Gate fly spot		FSYS_YMAP_FLY_12
-0xEB569967	FLY SPOT	Casseroya Lake		Unlock Casseroya Lake Watchtower No. 3 fly spot		FSYS_YMAP_FLY_13
-0xEB56944E	FLY SPOT	South Province (Area Five)		Unlock South Province (Area Five) Watchtower fly spot		FSYS_YMAP_FLY_14
-0xEB569601	FLY SPOT	South Province (Area Three)		Unlock South Province (Area Three) Watchtower fly spot		FSYS_YMAP_FLY_15
-0xEB5690E8	FLY SPOT	East Province (Area One)		Unlock East Province (Area One) Watchtower fly spot		FSYS_YMAP_FLY_16
-0xEB56929B	FLY SPOT	East Province (Area Two)		Unlock Levincia Lighthouse fly spot		FSYS_YMAP_FLY_17
-0xEB568D82	FLY SPOT	East Province (Area Three)		Unlock East Province (Area Three) Watchtower fly spot		FSYS_YMAP_FLY_18
-0xEB568F35	FLY SPOT	Glaseado Mountain		Unlock Glaseado Mountain Watchtower fly spot		FSYS_YMAP_FLY_19
-0xEB538191	FLY SPOT	North Province (Area Three)		Unlock North Province (Area Three) Lighthouse fly spot		FSYS_YMAP_FLY_20
-0xEB537FDE	FLY SPOT	North Province (Area One)		Unlock North Province (Area One) Watchtower fly spot		FSYS_YMAP_FLY_21
-0xEB537E2B	FLY SPOT	South Province (Area Two)		Unlock Grand Olive Orchard fly spot		FSYS_YMAP_FLY_22
-0xEB537C78	FLY SPOT	South Province (Area Six)		Unlock Leaking Tower of Paldea fly spot		FSYS_YMAP_FLY_23
-0xEB53885D	FLY SPOT	South Province (Area Five)		Unlock Secluded Beach fly spot		FSYS_YMAP_FLY_24
-0xEB5386AA	FLY SPOT	West Province (Area Two)		Unlock Colonnade Hollow fly spot		FSYS_YMAP_FLY_25
-0xEB5384F7	FLY SPOT	East Province (Area Three)		Unlock Million Volt Skyline fly spot		FSYS_YMAP_FLY_26
-0xEB538344	FLY SPOT	Casseroya Lake		Unlock Casseroya Falls fly spot		FSYS_YMAP_FLY_27
-0xEB5373F9	FLY SPOT	Casseroya Lake		Unlock Gracia Stones fly spot		FSYS_YMAP_FLY_28
-0xEB537246	FLY SPOT	Glaseado Mountain		Unlock Glaseado's Grasp fly spot		FSYS_YMAP_FLY_29
-0xEB506808	FLY SPOT	Glaseado Mountain		Unlock Paldea's Highest Peak fly spot		FSYS_YMAP_FLY_30
-0xEB5069BB	FLY SPOT	North Province (Area Two)		Unlock Fury Falls fly spot		FSYS_YMAP_FLY_31
-0xEB506B6E	FLY SPOT	South Province (Area Three)		Unlock Mesagoze (East Gate) fly spot		FSYS_YMAP_FLY_32
-0xEB506D21	FLY SPOT	South Province (Area Two)		Unlock Mesagoza (West Gate) fly spot		FSYS_YMAP_FLY_33
-0xEB506ED4	FLY SPOT	Casseroya Lake		Unlock Casseroya Lake (Islet) fly spot		FSYS_YMAP_FLY_34
-0xEB507087	FLY SPOT	East Province (Area Three)		Unlock East Province (Area Three) Rest Stop fly spot		FSYS_YMAP_FLY_35
-0x1530B53C	FLY SPOT	North Province (Area Two)		Unlock Firescourge Shrine fly spot		FSYS_YMAP_FLY_MAGATAMA
-0x4103198E	FLY SPOT	South Province (Area One)		Unlock Grasswither Shrine fly spot		FSYS_YMAP_FLY_MOKKAN
-0x9DDEC36C	FLY SPOT	West Province (Area One)		Unlock Icerend Shrine fly spot		FSYS_YMAP_FLY_TSURUGI
-0x1EB92B72	FLY SPOT	Socarrat Trail		Unlock Groundblight Shrine fly spot		FSYS_YMAP_FLY_UTSUWA
-0xB6119AE9	FLY SPOT	Los Platos		Unlock Los Platos (East) fly spot		FSYS_YMAP_POKECEN_02
-0xB6119936	FLY SPOT	South Province (Area One)		Unlock Mesagoza (South) fly spot		FSYS_YMAP_POKECEN_03
-0xB6119E4F	FLY SPOT	Mesagoza		Unlock Mesagoza (West) fly spot		FSYS_YMAP_POKECEN_04
-0xB6119C9C	FLY SPOT	Mesagoza		Unlock Mesagoza (East) fly spot		FSYS_YMAP_POKECEN_05
-0xB611A1B5	FLY SPOT	South Province (Area Two)		Unlock South Province (Area Two) fly spot		FSYS_YMAP_POKECEN_06
-0xB611A002	FLY SPOT	Cortondo		Unlock Cortondo (East) fly spot		FSYS_YMAP_POKECEN_07
-0xB611A51B	FLY SPOT	Cortondo		Unlock Cortondo (West) fly spot		FSYS_YMAP_POKECEN_08
-0xB611A368	FLY SPOT	West Province (Area One)		Unlock West Province (Area One) - Central fly spot		FSYS_YMAP_POKECEN_09
-0xB60EB45A	FLY SPOT	Alfornada		Unlock Alfornada fly spot		FSYS_YMAP_POKECEN_10
-0xB60EB60D	FLY SPOT	West Province (Area One)		Unlock West Province (Area One) - North fly spot		FSYS_YMAP_POKECEN_11
-0xB60EB0F4	FLY SPOT	Cascarrafa		Unlock Cascarrafa (West) fly spot		FSYS_YMAP_POKECEN_12
-0xB60EB2A7	FLY SPOT	Cascarrafa		Unlock Cascarrafa (North) fly spot		FSYS_YMAP_POKECEN_13
-0xB60EAD8E	FLY SPOT	West Province (Area Two)		Unlock Porto Marinada fly spot		FSYS_YMAP_POKECEN_14
-0xB60EAF41	FLY SPOT	Medali		Unlock Medali (West) fly spot		FSYS_YMAP_POKECEN_15
-0xB60EAA28	FLY SPOT	South Province (Area Three)		Unlock South Province (Area Three) fly spot		FSYS_YMAP_POKECEN_16
-0xB60EABDB	FLY SPOT	South Province (Area Five)		Unlock South Province (Area Five) fly spot		FSYS_YMAP_POKECEN_17
-0xB60EA6C2	FLY SPOT	Artazon		Unlock Artazon (East) fly spot		FSYS_YMAP_POKECEN_18
-0xB60EA875	FLY SPOT	Artazon		Unlock Artazon (West) fly spot		FSYS_YMAP_POKECEN_19
-0xB60B9AD1	FLY SPOT	East Province (Area One)		Unlock East Province (Area One) fly spot		FSYS_YMAP_POKECEN_20
-0xB60B991E	FLY SPOT	East Province (Area Two)		Unlock East Province (Area Two) fly spot		FSYS_YMAP_POKECEN_21
-0xB60B976B	FLY SPOT	Levincia		Unlock Levincia (South) fly spot		FSYS_YMAP_POKECEN_22
-0xB60B95B8	FLY SPOT	Levincia		Unlock Levincia (North) fly spot		FSYS_YMAP_POKECEN_23
-0xB60BA19D	FLY SPOT	East Province (Area Three)		Unlock East Province (Area Three) fly spot		FSYS_YMAP_POKECEN_24
-0xB60B9FEA	FLY SPOT	Zapapico		Unlock Zapapico (East) fly spot		FSYS_YMAP_POKECEN_25
-0xB60B9E37	FLY SPOT	Zapapico		Unlock Zapapico (West) fly spot		FSYS_YMAP_POKECEN_26
-0xB60B9C84	FLY SPOT	Dalizapa Passage		Unlock Dalizapa Passage fly spot		FSYS_YMAP_POKECEN_27
-0xB60B8D39	FLY SPOT	Montenevera		Unlock Montenevera fly spot		FSYS_YMAP_POKECEN_28
-0xB60B8B86	FLY SPOT	North Province (Area One)		Unlock North Province (Area One) fly spot		FSYS_YMAP_POKECEN_29
-0xB6088148	FLY SPOT	North Province (Area Two)		Unlock North Province (Area Two) fly spot		FSYS_YMAP_POKECEN_30
-0xB60882FB	FLY SPOT	Pokémon League		Unlock Pokémon League fly spot		FSYS_YMAP_POKECEN_31
-0xB60884AE	FLY SPOT	Glaseado Mountain		Unlock Glaseado Mountain fly spot		FSYS_YMAP_POKECEN_32
-0xB6088661	FLY SPOT	Glaseado Mountain		Unlock Glaseado Gym fly spot		FSYS_YMAP_POKECEN_33
-0xB6088814	FLY SPOT	Medali		Unlock Medali (East) fly spot		FSYS_YMAP_POKECEN_34
-0xB60889C7	FLY SPOT	North Province (Area Three)		Unlock North Province (Area Three) fly spot		FSYS_YMAP_POKECEN_35
-0x7DFB08F3	FLY SPOT					FSYS_YMAP_FLY_SU1_AREA10
-0xA92B960F	FLY SPOT					FSYS_YMAP_FLY_SU1_BUSSTOP
-0x477F8C2D	FLY SPOT					FSYS_YMAP_FLY_SU1_CENTER01
-0xF94F91E7	FLY SPOT					FSYS_YMAP_FLY_SU1_PLAZA
-0xB59008C4	FLY SPOT					FSYS_YMAP_FLY_SU1_SPOT01
-0xB5900DDD	FLY SPOT					FSYS_YMAP_FLY_SU1_SPOT02
-0xB5900C2A	FLY SPOT					FSYS_YMAP_FLY_SU1_SPOT03
-0xB59003AB	FLY SPOT					FSYS_YMAP_FLY_SU1_SPOT04
-0xB59001F8	FLY SPOT					FSYS_YMAP_FLY_SU1_SPOT05
-0xB5900711	FLY SPOT					FSYS_YMAP_FLY_SU1_SPOT06
-0x69284BE7						FSYS_YMAP_SU1MAP_CHANGE
-0x5BB15E3B	FLY SPOT					FSYS_YMAP_FLY_SU2_DRAGON
-0x08C9673E	FLY SPOT					FSYS_YMAP_FLY_SU2_ENTRANCE
-0x8FB3DFED	FLY SPOT					FSYS_YMAP_FLY_SU2_FAIRY
-0x24F34372	FLY SPOT					FSYS_YMAP_FLY_SU2_HAGANE
-0x0CEEA16F	FLY SPOT					FSYS_YMAP_FLY_SU2_HONOO
-0x5E3A36DB	FLY SPOT					FSYS_YMAP_FLY_SU2_SPOT01
-0x5E3A388E	FLY SPOT					FSYS_YMAP_FLY_SU2_SPOT02
-0x5E3A3A41	FLY SPOT					FSYS_YMAP_FLY_SU2_SPOT03
-0x5E3A3BF4	FLY SPOT					FSYS_YMAP_FLY_SU2_SPOT04
-0x5E3A3DA7	FLY SPOT					FSYS_YMAP_FLY_SU2_SPOT05
-0x5E3A3F5A	FLY SPOT					FSYS_YMAP_FLY_SU2_SPOT06
-0x5E3A410D	FLY SPOT					FSYS_YMAP_FLY_SU2_SPOT07
-0x5E3A2790	FLY SPOT					FSYS_YMAP_FLY_SU2_SPOT08
-0x5E3A2943	FLY SPOT					FSYS_YMAP_FLY_SU2_SPOT09
-0x5E3C7531	FLY SPOT					FSYS_YMAP_FLY_SU2_SPOT10
-0x5E3C737E	FLY SPOT					FSYS_YMAP_FLY_SU2_SPOT11
-0x6B58E1A5	FLY SPOT					FSYS_YMAP_POKECEN_SU02
-0xD0906C85						FSYS_YMAP_S2_MAPCHANGE_ENABLE
+0xEB5986C2	FLY SPOT	West Province (Area One)		Unlocked West Province (Area One) Watchtower fly spot		FSYS_YMAP_FLY_07
+0xEB598BDB	FLY SPOT	Asado Desert		Unlocked Asado Desert Watchtower fly spot		FSYS_YMAP_FLY_08
+0xEB598A28	FLY SPOT	West Province (Area Two)		Unlocked Porto Marinada Lighthouse fly spot		FSYS_YMAP_FLY_09
+0xEB569B1A	FLY SPOT	Casseroya Lake		Unlocked Casseroya Lake Watchtower No. 1 fly spot		FSYS_YMAP_FLY_10
+0xEB569CCD	FLY SPOT	Casseroya Lake		Unlocked Casseroya Lake Watchtower No. 2 fly spot		FSYS_YMAP_FLY_11
+0xEB5697B4	FLY SPOT	Great Crater of Paldea		Unlocked Zero Gate fly spot		FSYS_YMAP_FLY_12
+0xEB569967	FLY SPOT	Casseroya Lake		Unlocked Casseroya Lake Watchtower No. 3 fly spot		FSYS_YMAP_FLY_13
+0xEB56944E	FLY SPOT	South Province (Area Five)		Unlocked South Province (Area Five) Watchtower fly spot		FSYS_YMAP_FLY_14
+0xEB569601	FLY SPOT	South Province (Area Three)		Unlocked South Province (Area Three) Watchtower fly spot		FSYS_YMAP_FLY_15
+0xEB5690E8	FLY SPOT	East Province (Area One)		Unlocked East Province (Area One) Watchtower fly spot		FSYS_YMAP_FLY_16
+0xEB56929B	FLY SPOT	East Province (Area Two)		Unlocked Levincia Lighthouse fly spot		FSYS_YMAP_FLY_17
+0xEB568D82	FLY SPOT	East Province (Area Three)		Unlocked East Province (Area Three) Watchtower fly spot		FSYS_YMAP_FLY_18
+0xEB568F35	FLY SPOT	Glaseado Mountain		Unlocked Glaseado Mountain Watchtower fly spot		FSYS_YMAP_FLY_19
+0xEB538191	FLY SPOT	North Province (Area Three)		Unlocked North Province (Area Three) Lighthouse fly spot		FSYS_YMAP_FLY_20
+0xEB537FDE	FLY SPOT	North Province (Area One)		Unlocked North Province (Area One) Watchtower fly spot		FSYS_YMAP_FLY_21
+0xEB537E2B	FLY SPOT	South Province (Area Two)		Unlocked Grand Olive Orchard fly spot		FSYS_YMAP_FLY_22
+0xEB537C78	FLY SPOT	South Province (Area Six)		Unlocked Leaking Tower of Paldea fly spot		FSYS_YMAP_FLY_23
+0xEB53885D	FLY SPOT	South Province (Area Five)		Unlocked Secluded Beach fly spot		FSYS_YMAP_FLY_24
+0xEB5386AA	FLY SPOT	West Province (Area Two)		Unlocked Colonnade Hollow fly spot		FSYS_YMAP_FLY_25
+0xEB5384F7	FLY SPOT	East Province (Area Three)		Unlocked Million Volt Skyline fly spot		FSYS_YMAP_FLY_26
+0xEB538344	FLY SPOT	Casseroya Lake		Unlocked Casseroya Falls fly spot		FSYS_YMAP_FLY_27
+0xEB5373F9	FLY SPOT	Casseroya Lake		Unlocked Gracia Stones fly spot		FSYS_YMAP_FLY_28
+0xEB537246	FLY SPOT	Glaseado Mountain		Unlocked Glaseado's Grasp fly spot		FSYS_YMAP_FLY_29
+0xEB506808	FLY SPOT	Glaseado Mountain		Unlocked Paldea's Highest Peak fly spot		FSYS_YMAP_FLY_30
+0xEB5069BB	FLY SPOT	North Province (Area Two)		Unlocked Fury Falls fly spot		FSYS_YMAP_FLY_31
+0xEB506B6E	FLY SPOT	South Province (Area Three)		Unlocked Mesagoze (East Gate) fly spot		FSYS_YMAP_FLY_32
+0xEB506D21	FLY SPOT	South Province (Area Two)		Unlocked Mesagoza (West Gate) fly spot		FSYS_YMAP_FLY_33
+0xEB506ED4	FLY SPOT	Casseroya Lake		Unlocked Casseroya Lake (Islet) fly spot		FSYS_YMAP_FLY_34
+0xEB507087	FLY SPOT	East Province (Area Three)		Unlocked East Province (Area Three) Rest Stop fly spot		FSYS_YMAP_FLY_35
+0x1530B53C	FLY SPOT	North Province (Area Two)		Unlocked Firescourge Shrine fly spot		FSYS_YMAP_FLY_MAGATAMA
+0x4103198E	FLY SPOT	South Province (Area One)		Unlocked Grasswither Shrine fly spot		FSYS_YMAP_FLY_MOKKAN
+0x9DDEC36C	FLY SPOT	West Province (Area One)		Unlocked Icerend Shrine fly spot		FSYS_YMAP_FLY_TSURUGI
+0x1EB92B72	FLY SPOT	Socarrat Trail		Unlocked Groundblight Shrine fly spot		FSYS_YMAP_FLY_UTSUWA
+0xB6119AE9	FLY SPOT	Los Platos		Unlocked Los Platos (East) fly spot		FSYS_YMAP_POKECEN_02
+0xB6119936	FLY SPOT	South Province (Area One)		Unlocked Mesagoza (South) fly spot		FSYS_YMAP_POKECEN_03
+0xB6119E4F	FLY SPOT	Mesagoza		Unlocked Mesagoza (West) fly spot		FSYS_YMAP_POKECEN_04
+0xB6119C9C	FLY SPOT	Mesagoza		Unlocked Mesagoza (East) fly spot		FSYS_YMAP_POKECEN_05
+0xB611A1B5	FLY SPOT	South Province (Area Two)		Unlocked South Province (Area Two) fly spot		FSYS_YMAP_POKECEN_06
+0xB611A002	FLY SPOT	Cortondo		Unlocked Cortondo (East) fly spot		FSYS_YMAP_POKECEN_07
+0xB611A51B	FLY SPOT	Cortondo		Unlocked Cortondo (West) fly spot		FSYS_YMAP_POKECEN_08
+0xB611A368	FLY SPOT	West Province (Area One)		Unlocked West Province (Area One) - Central fly spot		FSYS_YMAP_POKECEN_09
+0xB60EB45A	FLY SPOT	Alfornada		Unlocked Alfornada fly spot		FSYS_YMAP_POKECEN_10
+0xB60EB60D	FLY SPOT	West Province (Area One)		Unlocked West Province (Area One) - North fly spot		FSYS_YMAP_POKECEN_11
+0xB60EB0F4	FLY SPOT	Cascarrafa		Unlocked Cascarrafa (West) fly spot		FSYS_YMAP_POKECEN_12
+0xB60EB2A7	FLY SPOT	Cascarrafa		Unlocked Cascarrafa (North) fly spot		FSYS_YMAP_POKECEN_13
+0xB60EAD8E	FLY SPOT	West Province (Area Two)		Unlocked Porto Marinada fly spot		FSYS_YMAP_POKECEN_14
+0xB60EAF41	FLY SPOT	Medali		Unlocked Medali (West) fly spot		FSYS_YMAP_POKECEN_15
+0xB60EAA28	FLY SPOT	South Province (Area Three)		Unlocked South Province (Area Three) fly spot		FSYS_YMAP_POKECEN_16
+0xB60EABDB	FLY SPOT	South Province (Area Five)		Unlocked South Province (Area Five) fly spot		FSYS_YMAP_POKECEN_17
+0xB60EA6C2	FLY SPOT	Artazon		Unlocked Artazon (East) fly spot		FSYS_YMAP_POKECEN_18
+0xB60EA875	FLY SPOT	Artazon		Unlocked Artazon (West) fly spot		FSYS_YMAP_POKECEN_19
+0xB60B9AD1	FLY SPOT	East Province (Area One)		Unlocked East Province (Area One) fly spot		FSYS_YMAP_POKECEN_20
+0xB60B991E	FLY SPOT	East Province (Area Two)		Unlocked East Province (Area Two) fly spot		FSYS_YMAP_POKECEN_21
+0xB60B976B	FLY SPOT	Levincia		Unlocked Levincia (South) fly spot		FSYS_YMAP_POKECEN_22
+0xB60B95B8	FLY SPOT	Levincia		Unlocked Levincia (North) fly spot		FSYS_YMAP_POKECEN_23
+0xB60BA19D	FLY SPOT	East Province (Area Three)		Unlocked East Province (Area Three) fly spot		FSYS_YMAP_POKECEN_24
+0xB60B9FEA	FLY SPOT	Zapapico		Unlocked Zapapico (East) fly spot		FSYS_YMAP_POKECEN_25
+0xB60B9E37	FLY SPOT	Zapapico		Unlocked Zapapico (West) fly spot		FSYS_YMAP_POKECEN_26
+0xB60B9C84	FLY SPOT	Dalizapa Passage		Unlocked Dalizapa Passage fly spot		FSYS_YMAP_POKECEN_27
+0xB60B8D39	FLY SPOT	Montenevera		Unlocked Montenevera fly spot		FSYS_YMAP_POKECEN_28
+0xB60B8B86	FLY SPOT	North Province (Area One)		Unlocked North Province (Area One) fly spot		FSYS_YMAP_POKECEN_29
+0xB6088148	FLY SPOT	North Province (Area Two)		Unlocked North Province (Area Two) fly spot		FSYS_YMAP_POKECEN_30
+0xB60882FB	FLY SPOT	Pokémon League		Unlocked Pokémon League fly spot		FSYS_YMAP_POKECEN_31
+0xB60884AE	FLY SPOT	Glaseado Mountain		Unlocked Glaseado Mountain fly spot		FSYS_YMAP_POKECEN_32
+0xB6088661	FLY SPOT	Glaseado Mountain		Unlocked Glaseado Gym fly spot		FSYS_YMAP_POKECEN_33
+0xB6088814	FLY SPOT	Medali		Unlocked Medali (East) fly spot		FSYS_YMAP_POKECEN_34
+0xB60889C7	FLY SPOT	North Province (Area Three)		Unlocked North Province (Area Three) fly spot		FSYS_YMAP_POKECEN_35
+0x7DFB08F3	FLY SPOT	Paradise Barrens		Unlocked Paradise Barrens fly spot		FSYS_YMAP_FLY_SU1_AREA10
+0xA92B960F	FLY SPOT	Kitakami Road		Unlocked Bus Stop fly spot		FSYS_YMAP_FLY_SU1_BUSSTOP
+0x477F8C2D	FLY SPOT	Kitakami Hall		Unlocked Kitakami Hall fly spot		FSYS_YMAP_FLY_SU1_CENTER01
+0xF94F91E7	FLY SPOT	Loyalty Plaza		Unlocked Loyalty Plaza fly spot		FSYS_YMAP_FLY_SU1_PLAZA
+0xB59008C4	FLY SPOT	Infernal Pass		Unlocked Infernal Pass fly spot		FSYS_YMAP_FLY_SU1_SPOT01
+0xB5900DDD	FLY SPOT	Oni Mountain Summit	Crystal Pool	Unlocked Crystal Pool fly spot		FSYS_YMAP_FLY_SU1_SPOT02
+0xB5900C2A	FLY SPOT	Mossfell Confluence		Unlocked Mossfell Confluence fly spot		FSYS_YMAP_FLY_SU1_SPOT03
+0xB59003AB	FLY SPOT	Wistful Fields		Unlocked Wisteria Pond fly spot		FSYS_YMAP_FLY_SU1_SPOT04
+0xB59001F8	FLY SPOT	Fellhorn Gorge		Unlocked Fallen Horn fly spot		FSYS_YMAP_FLY_SU1_SPOT05
+0xB5900711	FLY SPOT	Kitakami Wilds		Unlocked Gracious Stones fly spot		FSYS_YMAP_FLY_SU1_SPOT06
+0x69284BE7	EVENT					FSYS_YMAP_SU1MAP_CHANGE
+0x08C9673E	FLY SPOT	Blueberry Academy		Unlocked Entrance fly spot		FSYS_YMAP_FLY_SU2_ENTRANCE
+0x0CEEA16F	FLY SPOT	Terarium	Savanna Plaza	Unlocked Savanna Plaza fly spot		FSYS_YMAP_FLY_SU2_HONOO
+0x8FB3DFED	FLY SPOT	Terarium	Coastal Plaza	Unlocked Costal Plaza fly spot		FSYS_YMAP_FLY_SU2_FAIRY
+0x5BB15E3B	FLY SPOT	Terarium	Polar Plaza	Unlocked Polar Plaza fly spot		FSYS_YMAP_FLY_SU2_DRAGON
+0x24F34372	FLY SPOT	Terarium	Canyon Plaza	Unlocked Canyon Plaza fly spot		FSYS_YMAP_FLY_SU2_HAGANE
+0x6B58E1A5	FLY SPOT	Terarium	Central Plaza	Unlocked Central Plaza fly spot		FSYS_YMAP_POKECEN_SU02
+0x5E3A36DB	FLY SPOT	Terarium	Savanna Biome	Unlocked Savanna Rest Area 1 fly spot		FSYS_YMAP_FLY_SU2_SPOT01
+0x5E3A388E	FLY SPOT	Terarium	Savanna Biome	Unlocked Savanna Outdoor Classroom fly spot		FSYS_YMAP_FLY_SU2_SPOT02
+0x5E3A3A41	FLY SPOT	Terarium	Savanna Biome	Unlocked Savanna Rest Area 2 fly spot		FSYS_YMAP_FLY_SU2_SPOT03
+0x5E3A3BF4	FLY SPOT	Terarium	Coastal Biome	Unlocked Coastal Rest Area fly spot		FSYS_YMAP_FLY_SU2_SPOT04
+0x5E3A3DA7	FLY SPOT	Terarium	Coastal Biome	Unlocked Coastal Outdoor Classroom fly spot		FSYS_YMAP_FLY_SU2_SPOT05
+0x5E3A3F5A	FLY SPOT	Terarium	Polar Biome	Unlocked Polar Outdoor Classroom 1 fly spot		FSYS_YMAP_FLY_SU2_SPOT06
+0x5E3A410D	FLY SPOT	Terarium	Polar Biome	Unlocked Polar Rest Area fly spot		FSYS_YMAP_FLY_SU2_SPOT07
+0x5E3A2790	FLY SPOT	Terarium	Polar Biome	Unlocked Polar Outdoor Classroom 2 fly spot		FSYS_YMAP_FLY_SU2_SPOT08
+0x5E3A2943	FLY SPOT	Terarium	Canyon Biome	Unlocked Canyon Rest Area fly spot		FSYS_YMAP_FLY_SU2_SPOT09
+0x5E3C7531	FLY SPOT	Terarium	Canyon Biome	Unlocked Canyon Outdoor Classroom fly spot		FSYS_YMAP_FLY_SU2_SPOT10
+0x5E3C737E	FLY SPOT	Terarium	Chargestone Cavern	Unlocked Chargestone Cavern fly spot		FSYS_YMAP_FLY_SU2_SPOT11
+0xD0906C85	EVENT					FSYS_YMAP_S2_MAPCHANGE_ENABLE
 0x1EE90D7F						FSYS_YMAP_SCENARIO_DAN_AKU
 0x6D2CE931						FSYS_YMAP_SCENARIO_DAN_DOKU
 0xFDC82445						FSYS_YMAP_SCENARIO_DAN_FAIRY
@@ -5626,64 +5626,64 @@
 0xF7D7A1BA	SIDE EVENT			Unlocked recipe for TM169 (Draco Meteor)		FSYS_UI_WAZA_MACHINE_RELEASE_169
 0xF7D47C4C	SIDE EVENT			Unlocked recipe for TM170 (Steel Beam)		FSYS_UI_WAZA_MACHINE_RELEASE_170
 0xF7D47DFF	SIDE EVENT			Unlocked recipe for TM171 (Tera Blast)		FSYS_UI_WAZA_MACHINE_RELEASE_171
-0xF7D47FB2	SIDE EVENT			KCanCraftTM172		FSYS_UI_WAZA_MACHINE_RELEASE_172
-0xF7D48165	SIDE EVENT			KCanCraftTM173		FSYS_UI_WAZA_MACHINE_RELEASE_173
-0xF7D47580	SIDE EVENT			KCanCraftTM174		FSYS_UI_WAZA_MACHINE_RELEASE_174
-0xF7D47733	SIDE EVENT			KCanCraftTM175		FSYS_UI_WAZA_MACHINE_RELEASE_175
-0xF7D478E6	SIDE EVENT			KCanCraftTM176		FSYS_UI_WAZA_MACHINE_RELEASE_176
-0xF7D47A99	SIDE EVENT			KCanCraftTM177		FSYS_UI_WAZA_MACHINE_RELEASE_177
-0xF7D489E4	SIDE EVENT			KCanCraftTM178		FSYS_UI_WAZA_MACHINE_RELEASE_178
-0xF7D48B97	SIDE EVENT			KCanCraftTM179		FSYS_UI_WAZA_MACHINE_RELEASE_179
-0xF7BAB63B	SIDE EVENT			KCanCraftTM180		FSYS_UI_WAZA_MACHINE_RELEASE_180
-0xF7BAB488	SIDE EVENT			KCanCraftTM181		FSYS_UI_WAZA_MACHINE_RELEASE_181
-0xF7BAB9A1	SIDE EVENT			KCanCraftTM182		FSYS_UI_WAZA_MACHINE_RELEASE_182
-0xF7BAB7EE	SIDE EVENT			KCanCraftTM183		FSYS_UI_WAZA_MACHINE_RELEASE_183
-0xF7BABD07	SIDE EVENT			KCanCraftTM184		FSYS_UI_WAZA_MACHINE_RELEASE_184
-0xF7BABB54	SIDE EVENT			KCanCraftTM185		FSYS_UI_WAZA_MACHINE_RELEASE_185
-0xF7BAC06D	SIDE EVENT			KCanCraftTM186		FSYS_UI_WAZA_MACHINE_RELEASE_186
-0xF7BABEBA	SIDE EVENT			KCanCraftTM187		FSYS_UI_WAZA_MACHINE_RELEASE_187
-0xF7BAA8A3	SIDE EVENT			KCanCraftTM188		FSYS_UI_WAZA_MACHINE_RELEASE_188
-0xF7BAA6F0	SIDE EVENT			KCanCraftTM189		FSYS_UI_WAZA_MACHINE_RELEASE_189
-0xF7B79CB2	SIDE EVENT			KCanCraftTM190		FSYS_UI_WAZA_MACHINE_RELEASE_190
-0xF7B79E65	SIDE EVENT			KCanCraftTM191		FSYS_UI_WAZA_MACHINE_RELEASE_191
-0xF7B7994C	SIDE EVENT			KCanCraftTM192		FSYS_UI_WAZA_MACHINE_RELEASE_192
-0xF7B79AFF	SIDE EVENT			KCanCraftTM193		FSYS_UI_WAZA_MACHINE_RELEASE_193
-0xF7B795E6	SIDE EVENT			KCanCraftTM194		FSYS_UI_WAZA_MACHINE_RELEASE_194
-0xF7B79799	SIDE EVENT			KCanCraftTM195		FSYS_UI_WAZA_MACHINE_RELEASE_195
-0xF7B79280	SIDE EVENT			KCanCraftTM196		FSYS_UI_WAZA_MACHINE_RELEASE_196
-0xF7B79433	SIDE EVENT			KCanCraftTM197		FSYS_UI_WAZA_MACHINE_RELEASE_197
-0xF7B7AA4A	SIDE EVENT			KCanCraftTM198		FSYS_UI_WAZA_MACHINE_RELEASE_198
-0xF7B7ABFD	SIDE EVENT			KCanCraftTM199		FSYS_UI_WAZA_MACHINE_RELEASE_199
-0xFBA50B8E	SIDE EVENT			KCanCraftTM200		FSYS_UI_WAZA_MACHINE_RELEASE_200
-0xFBA50D41	SIDE EVENT			KCanCraftTM201		FSYS_UI_WAZA_MACHINE_RELEASE_201
-0xFBA50828	SIDE EVENT			KCanCraftTM202		FSYS_UI_WAZA_MACHINE_RELEASE_202
-0xFBA509DB	SIDE EVENT			KCanCraftTM203		FSYS_UI_WAZA_MACHINE_RELEASE_203
-0xFBA5125A	SIDE EVENT			KCanCraftTM204		FSYS_UI_WAZA_MACHINE_RELEASE_204
-0xFBA5140D	SIDE EVENT			KCanCraftTM205		FSYS_UI_WAZA_MACHINE_RELEASE_205
-0xFBA50EF4	SIDE EVENT			KCanCraftTM206		FSYS_UI_WAZA_MACHINE_RELEASE_206
-0xFBA510A7	SIDE EVENT			KCanCraftTM207		FSYS_UI_WAZA_MACHINE_RELEASE_207
-0xFBA4FDF6	SIDE EVENT			KCanCraftTM208		FSYS_UI_WAZA_MACHINE_RELEASE_208
-0xFBA4FFA9	SIDE EVENT			KCanCraftTM209		FSYS_UI_WAZA_MACHINE_RELEASE_209
-0xFBA74B97	SIDE EVENT			KCanCraftTM210		FSYS_UI_WAZA_MACHINE_RELEASE_210
-0xFBA749E4	SIDE EVENT			KCanCraftTM211		FSYS_UI_WAZA_MACHINE_RELEASE_211
-0xFBA74EFD	SIDE EVENT			KCanCraftTM212		FSYS_UI_WAZA_MACHINE_RELEASE_212
-0xFBA74D4A	SIDE EVENT			KCanCraftTM213		FSYS_UI_WAZA_MACHINE_RELEASE_213
-0xFBA744CB	SIDE EVENT			KCanCraftTM214		FSYS_UI_WAZA_MACHINE_RELEASE_214
-0xFBA74318	SIDE EVENT			KCanCraftTM215		FSYS_UI_WAZA_MACHINE_RELEASE_215
-0xFBA74831	SIDE EVENT			KCanCraftTM216		FSYS_UI_WAZA_MACHINE_RELEASE_216
-0xFBA7467E	SIDE EVENT			KCanCraftTM217		FSYS_UI_WAZA_MACHINE_RELEASE_217
-0xFBA73DFF	SIDE EVENT			KCanCraftTM218		FSYS_UI_WAZA_MACHINE_RELEASE_218
-0xFBA73C4C	SIDE EVENT			KCanCraftTM219		FSYS_UI_WAZA_MACHINE_RELEASE_219
-0xFB9ED87C	SIDE EVENT			KCanCraftTM220		FSYS_UI_WAZA_MACHINE_RELEASE_220
-0xFB9EDA2F	SIDE EVENT			KCanCraftTM221		FSYS_UI_WAZA_MACHINE_RELEASE_221
-0xFB9EDBE2	SIDE EVENT			KCanCraftTM222		FSYS_UI_WAZA_MACHINE_RELEASE_222
-0xFB9EDD95	SIDE EVENT			KCanCraftTM223		FSYS_UI_WAZA_MACHINE_RELEASE_223
-0xFB9ED1B0	SIDE EVENT			KCanCraftTM224		FSYS_UI_WAZA_MACHINE_RELEASE_224
-0xFB9ED363	SIDE EVENT			KCanCraftTM225		FSYS_UI_WAZA_MACHINE_RELEASE_225
-0xFB9ED516	SIDE EVENT			KCanCraftTM226		FSYS_UI_WAZA_MACHINE_RELEASE_226
-0xFB9ED6C9	SIDE EVENT			KCanCraftTM227		FSYS_UI_WAZA_MACHINE_RELEASE_227
-0xFB9EE614	SIDE EVENT			KCanCraftTM228		FSYS_UI_WAZA_MACHINE_RELEASE_228
-0xFB9EE7C7	SIDE EVENT			KCanCraftTM229		FSYS_UI_WAZA_MACHINE_RELEASE_229
+0xF7D47FB2	SIDE EVENT			Unlocked recipe for TM172 (Roar)		FSYS_UI_WAZA_MACHINE_RELEASE_172
+0xF7D48165	SIDE EVENT			Unlocked recipe for TM173 (Charge)		FSYS_UI_WAZA_MACHINE_RELEASE_173
+0xF7D47580	SIDE EVENT			Unlocked recipe for TM174 (Haze)		FSYS_UI_WAZA_MACHINE_RELEASE_174
+0xF7D47733	SIDE EVENT			Unlocked recipe for TM175 (Toxic)		FSYS_UI_WAZA_MACHINE_RELEASE_175
+0xF7D478E6	SIDE EVENT			Unlocked recipe for TM176 (Sand Tomb)		FSYS_UI_WAZA_MACHINE_RELEASE_176
+0xF7D47A99	SIDE EVENT			Unlocked recipe for TM177 (Spite)		FSYS_UI_WAZA_MACHINE_RELEASE_177
+0xF7D489E4	SIDE EVENT			Unlocked recipe for TM178 (Gravity)		FSYS_UI_WAZA_MACHINE_RELEASE_178
+0xF7D48B97	SIDE EVENT			Unlocked recipe for TM179 (Smack Down)		FSYS_UI_WAZA_MACHINE_RELEASE_179
+0xF7BAB63B	SIDE EVENT			Unlocked recipe for TM180 (Gyro Ball)		FSYS_UI_WAZA_MACHINE_RELEASE_180
+0xF7BAB488	SIDE EVENT			Unlocked recipe for TM181 (Knock Off)		FSYS_UI_WAZA_MACHINE_RELEASE_181
+0xF7BAB9A1	SIDE EVENT			Unlocked recipe for TM182 (Bug Bite)		FSYS_UI_WAZA_MACHINE_RELEASE_182
+0xF7BAB7EE	SIDE EVENT			Unlocked recipe for TM183 (Super Fang)		FSYS_UI_WAZA_MACHINE_RELEASE_183
+0xF7BABD07	SIDE EVENT			Unlocked recipe for TM184 (Vacuum Wave)		FSYS_UI_WAZA_MACHINE_RELEASE_184
+0xF7BABB54	SIDE EVENT			Unlocked recipe for TM185 (Lunge)		FSYS_UI_WAZA_MACHINE_RELEASE_185
+0xF7BAC06D	SIDE EVENT			Unlocked recipe for TM186 (High Horsepower)		FSYS_UI_WAZA_MACHINE_RELEASE_186
+0xF7BABEBA	SIDE EVENT			Unlocked recipe for TM187 (Icicle Spear)		FSYS_UI_WAZA_MACHINE_RELEASE_187
+0xF7BAA8A3	SIDE EVENT			Unlocked recipe for TM188 (Scald)		FSYS_UI_WAZA_MACHINE_RELEASE_188
+0xF7BAA6F0	SIDE EVENT			Unlocked recipe for TM189 (Heat Crash)		FSYS_UI_WAZA_MACHINE_RELEASE_189
+0xF7B79CB2	SIDE EVENT			Unlocked recipe for TM190 (Solar Blade)		FSYS_UI_WAZA_MACHINE_RELEASE_190
+0xF7B79E65	SIDE EVENT			Unlocked recipe for TM191 (Uproar)		FSYS_UI_WAZA_MACHINE_RELEASE_191
+0xF7B7994C	SIDE EVENT			Unlocked recipe for TM192 (Focus Punch)		FSYS_UI_WAZA_MACHINE_RELEASE_192
+0xF7B79AFF	SIDE EVENT			Unlocked recipe for TM193 (Weather Ball)		FSYS_UI_WAZA_MACHINE_RELEASE_193
+0xF7B795E6	SIDE EVENT			Unlocked recipe for TM194 (Grassy Glide)		FSYS_UI_WAZA_MACHINE_RELEASE_194
+0xF7B79799	SIDE EVENT			Unlocked recipe for TM195 (Burning Jealousy)		FSYS_UI_WAZA_MACHINE_RELEASE_195
+0xF7B79280	SIDE EVENT			Unlocked recipe for TM196 (Flip Turn)		FSYS_UI_WAZA_MACHINE_RELEASE_196
+0xF7B79433	SIDE EVENT			Unlocked recipe for TM197 (Dual Wingbeat)		FSYS_UI_WAZA_MACHINE_RELEASE_197
+0xF7B7AA4A	SIDE EVENT			Unlocked recipe for TM198 (Poltergeist)		FSYS_UI_WAZA_MACHINE_RELEASE_198
+0xF7B7ABFD	SIDE EVENT			Unlocked recipe for TM199 (Lash Out)		FSYS_UI_WAZA_MACHINE_RELEASE_199
+0xFBA50B8E	SIDE EVENT			Unlocked recipe for TM200 (Scale Shot)		FSYS_UI_WAZA_MACHINE_RELEASE_200
+0xFBA50D41	SIDE EVENT			Unlocked recipe for TM201 (Misty Explosion)		FSYS_UI_WAZA_MACHINE_RELEASE_201
+0xFBA50828	SIDE EVENT			Unlocked recipe for TM202 (Pain Split)		FSYS_UI_WAZA_MACHINE_RELEASE_202
+0xFBA509DB	SIDE EVENT			Unlocked recipe for TM203 (Psych Up)		FSYS_UI_WAZA_MACHINE_RELEASE_203
+0xFBA5125A	SIDE EVENT			Unlocked recipe for TM204 (Double-Edge)		FSYS_UI_WAZA_MACHINE_RELEASE_204
+0xFBA5140D	SIDE EVENT			Unlocked recipe for TM205 (Endeavor)		FSYS_UI_WAZA_MACHINE_RELEASE_205
+0xFBA50EF4	SIDE EVENT			Unlocked recipe for TM206 (Petal Blizzard)		FSYS_UI_WAZA_MACHINE_RELEASE_206
+0xFBA510A7	SIDE EVENT			Unlocked recipe for TM207 (Temper Flare)		FSYS_UI_WAZA_MACHINE_RELEASE_207
+0xFBA4FDF6	SIDE EVENT			Unlocked recipe for TM208 (Whirlpool)		FSYS_UI_WAZA_MACHINE_RELEASE_208
+0xFBA4FFA9	SIDE EVENT			Unlocked recipe for TM209 (Muddy Water)		FSYS_UI_WAZA_MACHINE_RELEASE_209
+0xFBA74B97	SIDE EVENT			Unlocked recipe for TM210 (Supercell Slam)		FSYS_UI_WAZA_MACHINE_RELEASE_210
+0xFBA749E4	SIDE EVENT			Unlocked recipe for TM211 (Electroweb)		FSYS_UI_WAZA_MACHINE_RELEASE_211
+0xFBA74EFD	SIDE EVENT			Unlocked recipe for TM212 (Triple Axel)		FSYS_UI_WAZA_MACHINE_RELEASE_212
+0xFBA74D4A	SIDE EVENT			Unlocked recipe for TM213 (Coaching)		FSYS_UI_WAZA_MACHINE_RELEASE_213
+0xFBA744CB	SIDE EVENT			Unlocked recipe for TM214 (Sludge Wave)		FSYS_UI_WAZA_MACHINE_RELEASE_214
+0xFBA74318	SIDE EVENT			Unlocked recipe for TM215 (Scorching Sands)		FSYS_UI_WAZA_MACHINE_RELEASE_215
+0xFBA74831	SIDE EVENT			Unlocked recipe for TM216 (Feather Dance)		FSYS_UI_WAZA_MACHINE_RELEASE_216
+0xFBA7467E	SIDE EVENT			Unlocked recipe for TM217 (Future Sight)		FSYS_UI_WAZA_MACHINE_RELEASE_217
+0xFBA73DFF	SIDE EVENT			Unlocked recipe for TM218 (Expanding Force)		FSYS_UI_WAZA_MACHINE_RELEASE_218
+0xFBA73C4C	SIDE EVENT			Unlocked recipe for TM219 (Skitter Smack)		FSYS_UI_WAZA_MACHINE_RELEASE_219
+0xFB9ED87C	SIDE EVENT			Unlocked recipe for TM220 (Meteor Beam)		FSYS_UI_WAZA_MACHINE_RELEASE_220
+0xFB9EDA2F	SIDE EVENT			Unlocked recipe for TM221 (Throat Chop)		FSYS_UI_WAZA_MACHINE_RELEASE_221
+0xFB9EDBE2	SIDE EVENT			Unlocked recipe for TM222 (Breaking Swipe)		FSYS_UI_WAZA_MACHINE_RELEASE_222
+0xFB9EDD95	SIDE EVENT			Unlocked recipe for TM223 (Metal Sound)		FSYS_UI_WAZA_MACHINE_RELEASE_223
+0xFB9ED1B0	SIDE EVENT			Unlocked recipe for TM224 (Curse)		FSYS_UI_WAZA_MACHINE_RELEASE_224
+0xFB9ED363	SIDE EVENT			Unlocked recipe for TM225 (Hard Press)		FSYS_UI_WAZA_MACHINE_RELEASE_225
+0xFB9ED516	SIDE EVENT			Unlocked recipe for TM226 (Dragon Cheer)		FSYS_UI_WAZA_MACHINE_RELEASE_226
+0xFB9ED6C9	SIDE EVENT			Unlocked recipe for TM227 (Alluring Voice)		FSYS_UI_WAZA_MACHINE_RELEASE_227
+0xFB9EE614	SIDE EVENT			Unlocked recipe for TM228 (Psychic Noise)		FSYS_UI_WAZA_MACHINE_RELEASE_228
+0xFB9EE7C7	SIDE EVENT			Unlocked recipe for TM229 (Upper Hand)		FSYS_UI_WAZA_MACHINE_RELEASE_229
 0x7C6E7444	SIDE EVENT			Unlocked the Judge Function		FSYS_BOX_JUDGE
 0x54B8E8E1	STORY EVENT	East Province (Area Three)		Unlocked Ride High Jump power		FSYS_RIDE_HIJUMP_ENABLE
 0x0D707154	STORY EVENT	South Province (Area Three)		Unlocked Ride Dash power		FSYS_RIDE_DASH_ENABLE
@@ -5695,13 +5695,13 @@
 0x9535F471				KUnlockedRaidDifficulty5		FSYS_RAID_DIFFICTLTY5_RELEASE
 0x6E7F8220				KUnlockedRaidDifficulty6		FSYS_RAID_DIFFICTLTY6_RELEASE
 0x27025EBF				KUnlockedTeraRaidBattles		FSYS_RAID_SCENARIO_00
-0xF4670B74	SIDE EVENT			KUnlockedLetsGo		FSYS_LETSGO_UNLOCK
+0xF4670B74	SIDE EVENT			Unlocked Let's Go feature		FSYS_LETSGO_UNLOCK
 0xC7B5D24A				KUnlockedMap		FSYS_YMAP_ENABLE
 0x94D0D4DB				KUnlockedMassOutbreaks		FSYS_ENCOUNT_OUTBREAK
-0x13DB4C8F	STORY EVENT			KUnlockedTeraTypeChanging		FSYS_GEM_CHANGE_ENABLE
+0x13DB4C8F	STORY EVENT			Unlocked Tera Type Changing		FSYS_GEM_CHANGE_ENABLE
 0xE9F1D866				KUnlockedYMapSubMenu		FSYS_YMAP_TOPMENU_UNLOCK_01
 0xB1AF24E4				KSelectedBirthday		FSYS_IS_INPUT_BIRTHDAY
-0xCB13D905	SIDE EVENT			KUnlockedEmotes		FSYS_EMOTE_UNLOCK_EVENT
+0xCB13D905	SIDE EVENT			Unlocked Emotes		FSYS_EMOTE_UNLOCK_EVENT
 0x92CE2CF6	STORY EVENT			Finished Main Story		FSYS_SCENARIO_GAME_CLEAR
 0xB9B1220D				KCanRideLegendary		FSYS_RIDE_ENABLE
 0x8BA58864				KFixedSpawnsOnly		FSYS_ENCOUNT_FIXEDSPAWN_ONLY
@@ -5709,28 +5709,28 @@
 0xB223D309				KIsBirthdayToday		FSYS_BIRTHDAY_EVENT
 0xF0D246CC				KCanClaimPokedexDiplomaPaldea		FSYS_POKEDEX_SYOUJOU_ENABLE
 0xF7900D11	SIDE EVENT			Claimed Pokédex Diploma		FSYS_POKEDEX_SYOUJOU_EVENT
-0x44CA754B	SIDE EVENT			Receive Master Rank Ribbon (Ranked Battle)		FSYS_GET_RIBBON_MASTERRANK
+0x44CA754B	SIDE EVENT			Received Master Rank Ribbon (Ranked Battle)		FSYS_GET_RIBBON_MASTERRANK
 0xC1555927	EVENT			KIsFlyDisabled		FSYS_FLY_DISABLE
 0x2EF38578	EVENT			KLeagueRepsAvailable		FSYS_MISTER_TRAINER_START
-0x7739D2B1	ITEM GIFT	South Province (Area One)		TM082 (Thunder Wave) from Pokémon League Rep for defeating 4 trainers in the area		FSYS_MISTER_TRAINER_AREA_01
-0x7739D7CA	ITEM GIFT	Cortondo		TM027 (Aerial Ace) from Pokémon League Rep for defeating 5 trainers in the area		FSYS_MISTER_TRAINER_AREA_04
-0x7739D97D	ITEM GIFT	South Province (Area Four)		Rocky Helmet from Pokémon League Rep for defeating 5 trainers in the area		FSYS_MISTER_TRAINER_AREA_05
-0x7739D464	ITEM GIFT	Alfornada		TM165 (Flare Blitz) from Pokémon League Rep for defeating 7 trainers in the area		FSYS_MISTER_TRAINER_AREA_06
-0x7739D617	ITEM GIFT	South Province (Area Five)		Eviolite from Pokémon League Rep for defeating 7 trainers in the area		FSYS_MISTER_TRAINER_AREA_07
-0x7739C366	ITEM GIFT	South Province (Area Three)		Shell Bell from Pokémon League Rep for defeating 6 trainers in the area		FSYS_MISTER_TRAINER_AREA_08
-0x7739C519	ITEM GIFT	West Province (Area One)		Clear Amulet from Pokémon League Rep for defeating 9 trainers in the area		FSYS_MISTER_TRAINER_AREA_09
-0x773CEA87	ITEM GIFT	Cascarrafa		TM149 (Earthquake) from Pokémon League Rep for defeating 5 trainers in the area		FSYS_MISTER_TRAINER_AREA_10
-0x773CE8D4	ITEM GIFT	West Province (Area Two)		Focus Sash from Pokémon League Rep for defeating 4 trainers in the area		FSYS_MISTER_TRAINER_AREA_11
-0x773CEDED	ITEM GIFT	Medali		Amulet Coin from Pokémon League Rep for defeating 5 trainers in the area		FSYS_MISTER_TRAINER_AREA_12
-0x773CE3BB	ITEM GIFT	Zapapico		Punching Gloves from Pokémon League Rep for defeating 7 trainers in the area		FSYS_MISTER_TRAINER_AREA_14
-0x773CE208	ITEM GIFT	East Province (Area One)		Loaded Dice from Pokémon League Rep for defeating 5 trainers in the area		FSYS_MISTER_TRAINER_AREA_15
-0x773CE721	ITEM GIFT	Levincia		TM084 (Stop Tantrum) from Pokémon League Rep for defeating 6 trainers in the area		FSYS_MISTER_TRAINER_AREA_16
-0x773CE56E	ITEM GIFT	Dalizapa Passage		Expert Belt from Pokémon League Rep for defeating 4 trainers in the area		FSYS_MISTER_TRAINER_AREA_17
-0x773CDCEF	ITEM GIFT	Casseroya Lake		TM142 (Hydro Pump) from Pokémon League Rep for defeating 7 trainers in the area		FSYS_MISTER_TRAINER_AREA_18
-0x773CDB3C	ITEM GIFT	Glaseado Mountain		TM143 (Blizzard) from Pokémon League Rep for defeating 4 trainers in the area		FSYS_MISTER_TRAINER_AREA_19
-0x7734776C	ITEM GIFT	North Province (Area Three)		TM159 (Leaf Storm) from Pokémon League Rep for defeating 4 trainers in the area		FSYS_MISTER_TRAINER_AREA_20
-0x7734791F	ITEM GIFT	North Province (Area One)		TM150 (Stone Edge) from Pokémon League Rep for defeating 6 trainers in the area		FSYS_MISTER_TRAINER_AREA_21
-0x77347AD2	ITEM GIFT	North Province (Area Two)		TM156 (Outrage) from Pokémon League Rep for defeating 5 trainers in the area		FSYS_MISTER_TRAINER_AREA_22
+0x7739D2B1	ITEM GIFT	South Province (Area One)		Received TM082 (Thunder Wave) from Pokémon League Rep for defeating 4 trainers in the area		FSYS_MISTER_TRAINER_AREA_01
+0x7739D7CA	ITEM GIFT	Cortondo		Received TM027 (Aerial Ace) from Pokémon League Rep for defeating 5 trainers in the area		FSYS_MISTER_TRAINER_AREA_04
+0x7739D97D	ITEM GIFT	South Province (Area Four)		Received Rocky Helmet from Pokémon League Rep for defeating 5 trainers in the area		FSYS_MISTER_TRAINER_AREA_05
+0x7739D464	ITEM GIFT	Alfornada		Received TM165 (Flare Blitz) from Pokémon League Rep for defeating 7 trainers in the area		FSYS_MISTER_TRAINER_AREA_06
+0x7739D617	ITEM GIFT	South Province (Area Five)		Received Eviolite from Pokémon League Rep for defeating 7 trainers in the area		FSYS_MISTER_TRAINER_AREA_07
+0x7739C366	ITEM GIFT	South Province (Area Three)		Received Shell Bell from Pokémon League Rep for defeating 6 trainers in the area		FSYS_MISTER_TRAINER_AREA_08
+0x7739C519	ITEM GIFT	West Province (Area One)		Received Clear Amulet from Pokémon League Rep for defeating 9 trainers in the area		FSYS_MISTER_TRAINER_AREA_09
+0x773CEA87	ITEM GIFT	Cascarrafa		Received TM149 (Earthquake) from Pokémon League Rep for defeating 5 trainers in the area		FSYS_MISTER_TRAINER_AREA_10
+0x773CE8D4	ITEM GIFT	West Province (Area Two)		Received Focus Sash from Pokémon League Rep for defeating 4 trainers in the area		FSYS_MISTER_TRAINER_AREA_11
+0x773CEDED	ITEM GIFT	Medali		Received Amulet Coin from Pokémon League Rep for defeating 5 trainers in the area		FSYS_MISTER_TRAINER_AREA_12
+0x773CE3BB	ITEM GIFT	Zapapico		Received Punching Gloves from Pokémon League Rep for defeating 7 trainers in the area		FSYS_MISTER_TRAINER_AREA_14
+0x773CE208	ITEM GIFT	East Province (Area One)		Received Loaded Dice from Pokémon League Rep for defeating 5 trainers in the area		FSYS_MISTER_TRAINER_AREA_15
+0x773CE721	ITEM GIFT	Levincia		Received TM084 (Stop Tantrum) from Pokémon League Rep for defeating 6 trainers in the area		FSYS_MISTER_TRAINER_AREA_16
+0x773CE56E	ITEM GIFT	Dalizapa Passage		Received Expert Belt from Pokémon League Rep for defeating 4 trainers in the area		FSYS_MISTER_TRAINER_AREA_17
+0x773CDCEF	ITEM GIFT	Casseroya Lake		Received TM142 (Hydro Pump) from Pokémon League Rep for defeating 7 trainers in the area		FSYS_MISTER_TRAINER_AREA_18
+0x773CDB3C	ITEM GIFT	Glaseado Mountain		Received TM143 (Blizzard) from Pokémon League Rep for defeating 4 trainers in the area		FSYS_MISTER_TRAINER_AREA_19
+0x7734776C	ITEM GIFT	North Province (Area Three)		Received TM159 (Leaf Storm) from Pokémon League Rep for defeating 4 trainers in the area		FSYS_MISTER_TRAINER_AREA_20
+0x7734791F	ITEM GIFT	North Province (Area One)		Received TM150 (Stone Edge) from Pokémon League Rep for defeating 6 trainers in the area		FSYS_MISTER_TRAINER_AREA_21
+0x77347AD2	ITEM GIFT	North Province (Area Two)		Received TM156 (Outrage) from Pokémon League Rep for defeating 5 trainers in the area		FSYS_MISTER_TRAINER_AREA_22
 0xFD2B3BCA						FSYS_REPORT_DISABLE
 0x091382AD						FSYS_XMENU_POKELIST_RIDE
 0xFE482E4A						FSYS_XMENU_FULLOPEN
@@ -5797,17 +5797,17 @@
 0x6714A749	SIDE EVENT			Removed Chi-Yu Stake 6		FEVT_SUB_017_KUI_06_RELEASE
 0xC83DEFF6	SIDE EVENT			Removed Chi-Yu Stake 7		FEVT_SUB_017_KUI_07_RELEASE
 0xCA415ABF	SIDE EVENT			Removed Chi-Yu Stake 8		FEVT_SUB_017_KUI_08_RELEASE
-0x987B8A24	STATIC ENCOUNTER	Area Zero		Capture wild Koraidon / Miraidon		FEVT_SUB_018_CAPTURED
+0x987B8A24	STATIC ENCOUNTER	Area Zero		Captured wild Koraidon / Miraidon		FEVT_SUB_018_CAPTURED
 0x2F9CC37D	EVENT			Has SaveData for LGPE		FEVT_SUB_028_HAVE_BELUGA_SAVE_DATA
 0xC4B1323E	EVENT			Has SaveData for BDSP		FEVT_SUB_028_HAVE_DELPHIS_SAVE_DATA
 0x592092B7	EVENT			Has SaveData for PLA		FEVT_SUB_028_HAVE_HAYABUSA_SAVE_DATA
 0xE454155A	EVENT			Has SaveData for SWSH		FEVT_SUB_028_HAVE_ORION_SAVE_DATA
-0xCEF6C179	IN-GAME TRADE	Cortondo		Traded a Flabébé for Snom (Snowsalot)		FEVT_SUB_044_TRADE_A
-0xCEF6BC60	IN-GAME TRADE	Cascarrafa		Traded a Paldean Wooper for Wooper (Manchester)		FEVT_SUB_044_TRADE_B
-0xCEF6BE13	IN-GAME TRADE	Levincia		Traded a Pincurchin for Haunter (Hauntikins)		FEVT_SUB_044_TRADE_C
-0xFD126E2B	SIDE EVENT	Glaseado Mountain		Clear Powder Snow Course of Snow Slope Run challenge		FEVT_SUB_GYM_KOORI_HARD_CLER
-0x8BEB3731	SIDE EVENT	Glaseado Mountain		Clear Blizzard Course of Snow Slope Run challenge		FEVT_SUB_GYM_KOORI_NORMAL_CLER
-0xC11CEE3A	SIDE EVENT	Glaseado Mountain		Clear Sheer Cold Course of Snow Slope Run challenge		FEVT_SUB_GYM_KOORI_VERY_HARD_CLER
+0xCEF6C179	IN-GAME TRADE	Cortondo		Traded Flabébé for Snom (Snowsalot)		FEVT_SUB_044_TRADE_A
+0xCEF6BC60	IN-GAME TRADE	Cascarrafa		Traded Paldean Wooper for Wooper (Manchester)		FEVT_SUB_044_TRADE_B
+0xCEF6BE13	IN-GAME TRADE	Levincia		Traded Pincurchin for Haunter (Hauntikins)		FEVT_SUB_044_TRADE_C
+0xFD126E2B	SIDE EVENT	Glaseado Mountain		Cleared Powder Snow Course of Snow Slope Run challenge		FEVT_SUB_GYM_KOORI_HARD_CLER
+0x8BEB3731	SIDE EVENT	Glaseado Mountain		Cleared Blizzard Course of Snow Slope Run challenge		FEVT_SUB_GYM_KOORI_NORMAL_CLER
+0xC11CEE3A	SIDE EVENT	Glaseado Mountain		Cleared Sheer Cold Course of Snow Slope Run challenge		FEVT_SUB_GYM_KOORI_VERY_HARD_CLER
 0x0629031F	SIDE EVENT			KUnlockedRecipesMotherNormal		FEVT_MOTHER_NORMAL_RECIPE_ADD_END
 0xA796AC7C	SIDE EVENT			KUnlockedRecipesMotherMaster		FEVT_MOTHER_MASTER_RECIPE_ADD_END
 0x6680756C	SIDE EVENT			KUnlockedRecipesHerbaMystica1		FEVT_SUB_047_RACIPE_AMA_RELEASE
@@ -5944,7 +5944,7 @@
 0x4877DB86				KUnlockedPokedexKitakami		FSYS_DLC1_POKEDEX_ADD
 0xC4E1A713				KCanClaimPokedexDiplomaKitakami		FSYS_DLC1_POKEDEX_SYOUJOU_ENABLE
 0xA066600C	SIDE EVENT			Claimed Kitakami Pokedex Diploma		FSYS_DLC1_POKEDEX_SYOUJOU_EVENT
-0x478A8C60	SIDE EVENT			KUnlockedRotoStick		FSYS_DLC1_SELFIE_STICK_UNLOCK
+0x478A8C60	SIDE EVENT			Unlocked Roto Stick feature		FSYS_DLC1_SELFIE_STICK_UNLOCK
 0x99849BBF	SIDE EVENT			KUnlockedDLCEmote0		FSYS_DLC1_EMOTE_00_RELEASE
 0xF6A77854	SIDE EVENT			KUnlockedDLCEmote1		FSYS_DLC1_EMOTE_01_RELEASE
 0xC2ECD3E5	SIDE EVENT			KUnlockedDLCEmote2		FSYS_DLC1_EMOTE_02_RELEASE
@@ -5959,19 +5959,19 @@
 0x6BBE8497	SIDE EVENT			KCompletedBillyONareQuestPart2		FEVT_S1_SUB_006_TALKED
 0xDB267000	SIDE EVENT			KCompletedBillyONareQuestPart3		FEVT_S1_SUB_009_TALKED
 0x57A38A70				KLoyaltyPlazaFundraiserStarted		FEVT_S1_SUB_015_FIRST_TALKED
-0x7042479E	STATIC ENCOUNTER			KCapturedOkidogi		FEVT_S1_SUB_011_CAPTURED
-0x9F5556DD	STATIC ENCOUNTER			KCapturedMunkidori		FEVT_S1_SUB_012_CAPTURED
-0xFF7CAD99	STATIC ENCOUNTER			KCapturedFezandipiti		FEVT_S1_SUB_016_CAPTURED
+0x7042479E	STATIC ENCOUNTER	Paradise Barrens		Captured Okidogi		FEVT_S1_SUB_011_CAPTURED
+0x9F5556DD	STATIC ENCOUNTER	Wistful Fields		Captured Munkidori		FEVT_S1_SUB_012_CAPTURED
+0xFF7CAD99	STATIC ENCOUNTER	Oni Mountain (East)		Captured Fezandipiti		FEVT_S1_SUB_016_CAPTURED
 0x18ABCD92	SIDE EVENT			KCanChallengeOgreClanLeader		FEVT_S1_SUB_017_BATTLE_ENABLE
-0x19B5A525	ITEM GIFT			KOgreClanReward1		FEVT_S1_SUB_017_REWARD_01
-0x19B5A00C	ITEM GIFT			KOgreClanReward2		FEVT_S1_SUB_017_REWARD_02
-0x19B5A1BF	ITEM GIFT			KOgreClanReward3		FEVT_S1_SUB_017_REWARD_03
-0x19B59CA6	ITEM GIFT			KOgreClanReward4		FEVT_S1_SUB_017_REWARD_04
-0x19B59E59	ITEM GIFT			KOgreClanReward5		FEVT_S1_SUB_017_REWARD_05
-0x19B59940	ITEM GIFT			KOgreClanReward6		FEVT_S1_SUB_017_REWARD_06
-0x19B59AF3	ITEM GIFT			KOgreClanReward7		FEVT_S1_SUB_017_REWARD_07
-0xA5596DD0	SIDE EVENT			KOgreOustinClearedNormal		OniballoonSave_isCleardNormal
-0x17AD6C82	SIDE EVENT			KOgreOustinClearedHard		OniballoonSave_isCleardHard
+0x19B5A525	ITEM GIFT			Received Focus Sash from Muramasa for defeating 1 Ogre Clan member		FEVT_S1_SUB_017_REWARD_01
+0x19B5A00C	ITEM GIFT			Received Exp. Candy XL (x5) from Muramasa for defeating 2 Ogre Clan members		FEVT_S1_SUB_017_REWARD_02
+0x19B5A1BF	ITEM GIFT			Received Assault Vest from Muramasa for defeating 3 Ogre Clan members		FEVT_S1_SUB_017_REWARD_03
+0x19B59CA6	ITEM GIFT			Received Rare Candy (x10) from Muramasa for defeating 4 Ogre Clan members		FEVT_S1_SUB_017_REWARD_04
+0x19B59E59	ITEM GIFT			Received Choice Specs from Muramasa for defeating 5 Ogre Clan members		FEVT_S1_SUB_017_REWARD_05
+0x19B59940	ITEM GIFT			Received Ability Capsule (x3) from Muramasa for defeating 6 Ogre Clan members		FEVT_S1_SUB_017_REWARD_06
+0x19B59AF3	ITEM GIFT			Received Choice Band from Muramasa for defeating 7 Ogre Clan members		FEVT_S1_SUB_017_REWARD_07
+0xA5596DD0	SIDE EVENT			Cleared Normal difficulty in Ogre Oustin challenge		OniballoonSave_isCleardNormal
+0x17AD6C82	SIDE EVENT			Cleared Hard difficulty in Ogre Oustin challenge		OniballoonSave_isCleardHard
 0xFDC0C3C6				KOgreOustinUnlockedNormal		OniballoonSave_isReleaseNormal
 0x2F009BE8				KOgreOustinUnlockedHard		OniballoonSave_isReleaseHard
 0xCE0977F2				KOgreOustinCanReceiveRewardEasy		OniballoonSave_isCanReceiveRewardEasy
@@ -5985,7 +5985,7 @@
 0xBF14EBB7						FEVT_S1_SUB_013_TALKED_CHAIR_NPC
 0x59F64244						FEVT_S1_SUB_013_TALKED_REST_NPC
 0xD9C569E3						FEVT_S1_SUB_014_CHECK
-0x0DDBBAAF	STORY EVENT			KGameClearIndigoDisk		FSYS_SCENARIO_GAME_CLEAR_SU2
+0x0DDBBAAF	STORY EVENT			Finished The Indigo Disk story		FSYS_SCENARIO_GAME_CLEAR_SU2
 0x3A9255B2	SIDE EVENT			Unlocked Ride Fly power		FSYS_RIDE_FLIGHT_ENABLE
 0x0215F564				KUnlockedClubroomBGM01		FSYS_CLUBROOM_BGM_RELEASE_00
 0x0215F717				KUnlockedClubroomBGM02		FSYS_CLUBROOM_BGM_RELEASE_01
@@ -6053,12 +6053,12 @@
 0x1922C364	SIDE EVENT			KUnlockedHairSalonUpgrade02		FSYS_HAIRSALON_UNLOCK_02
 0x04A230FA	STORY EVENT			KBattledStellarTerapagosOnce		FSYS_KODAIGAME_FORM2_ALREADY_BATTLED_ONCE
 0x88DEDE8E	SIDE EVENT			KUnlockedAtticusAuctions		FEVT_S2_SUB_004_ENABLE_SERI
-0x47CDA43D	SIDE EVENT			KUnlockedSynchroMachine		FSYS_SYNCHRO_POKEMON_ENABLE
+0x47CDA43D	SIDE EVENT			Unlocked Synchro Machine feature		FSYS_SYNCHRO_POKEMON_ENABLE
 0xE1F8DEBA						FSYS_OPTION_RIDE_FLIGHT_RELEASE
 0x20B167D8	SIDE EVENT					FSYS_PHOTO_CONVERSION_ENABLE
 0x4EF04CF2	STORY EVENT					FSYS_SCENARIO_LAST_EPISODE_CLEAR
 0x91D434A6						FSYS_SU2_SHOPWAZAMACHINE_MESSAGE
-0x59AFCA7B	STORY EVENT					FSYS_TBALL_POWERUP_ENABLE
+0x59AFCA7B	STORY EVENT			Unlocked Tera Ball instant recharge		FSYS_TBALL_POWERUP_ENABLE
 0x00E98985						FSYS_UI_BB_SCHOOL_MAP_CLASS_01_ROOM
 0xB96291D6						FSYS_UI_BB_SCHOOL_MAP_CLASS_02_ROOM
 0x8CD9BF8B						FSYS_UI_BB_SCHOOL_MAP_CLUB_ROOM
@@ -6848,10 +6848,10 @@
 0x3D5FE4C1						WEVT_GYM_MUSHI_COURSE_TYPE
 0xD9DF9254						WEVT_RIDE_HAPPINESS
 0x8A3575A5						WEVT_SUB_047_RACIPE_BADGE_RELEASE
-0xA3B2E1E8	STATIC ENCOUNTER	Socarrat Trail		Capture Ting-Lu	3:Captured	WEVT_SUB_014_EVENT_STATE_UTHUWA
-0xB6D28884	STATIC ENCOUNTER	West Province (Area One)		Capture Chien-Pao	3:Captured	WEVT_SUB_015_EVENT_STATE_TSURUGI
-0x8FC1AFF5	STATIC ENCOUNTER	West Province (Area One)		Capture Wo-Chien	3:Captured	WEVT_SUB_016_EVENT_STATE_MOKKAN
-0x0FD2F9E2	STATIC ENCOUNTER	North Province (Area Two)		Capture Chi-Yu	3:Captured	WEVT_SUB_017_EVENT_STATE_MAGATAMA
+0xA3B2E1E8	STATIC ENCOUNTER	Socarrat Trail		Captured Ting-Lu	3:Captured	WEVT_SUB_014_EVENT_STATE_UTHUWA
+0xB6D28884	STATIC ENCOUNTER	West Province (Area One)		Captured Chien-Pao	3:Captured	WEVT_SUB_015_EVENT_STATE_TSURUGI
+0x8FC1AFF5	STATIC ENCOUNTER	West Province (Area One)		Captured Wo-Chien	3:Captured	WEVT_SUB_016_EVENT_STATE_MOKKAN
+0x0FD2F9E2	STATIC ENCOUNTER	North Province (Area Two)		Captured Chi-Yu	3:Captured	WEVT_SUB_017_EVENT_STATE_MAGATAMA
 0x25839373				KGameLanguage		WSYS_LANGUAGE_SELECT
 0xEEAEB167				KBagSortingOption		WSYS_BAG_SORT
 0x0265ECEB				KGimmighoulCoinOverflow		WSYS_COIN_OVERFLOW_NUM
