@@ -12,7 +12,7 @@
 						
 						
 						
-//	Hide-Show Flags					wMissableObjectIndex
+//	Hide-Show Flags					wMissableObjectFlags
 0x00	EVENT					HS_PALLET_TOWN_OAK
 0x01	EVENT					HS_LYING_OLD_MAN
 0x02	EVENT					HS_OLD_MAN_1
@@ -3042,7 +3042,7 @@
 0x07	EVENT					wPewterCityCurScript
 0x08	EVENT					wRoute3CurScript
 0x09	EVENT					wRoute4CurScript
-0x0A	_UNUSED					
+0x0A	EVENT					wFanClubCurScript
 0x0B	EVENT					wViridianGymCurScript
 0x0C	EVENT					wPewterGymCurScript
 0x0D	EVENT					wCeruleanGymCurScript
@@ -3061,7 +3061,7 @@
 0x1A	EVENT					wRoute22CurScript
 0x1B	_UNUSED					
 0x1C	EVENT					wRedsHouse2FCurScript
-0x1D	EVENT	Viridian City	Poké Mart	State	0:Clerk will ask for Oak's Parcel delivery,2:Normal	wViridianMartCurScript
+0x1D	EVENT	Viridian City	Poké Mart	Scene State	0:Clerk will ask for Oak's Parcel delivery,2:Normal	wViridianMartCurScript
 0x1E	EVENT					wRoute22GateCurScript
 0x1F	EVENT					wCeruleanCityCurScript
 0x20	_UNUSED					
@@ -3149,7 +3149,7 @@
 0x72	EVENT					wRoute5GateCurScript
 0x73	EVENT					wRoute7GateCurScript and wPowerPlantCurScript
 0x74	_UNUSED					
-0x75	EVENT	S.S. Anne	2F	State	0:Rival will battle you,4:Rival disappeared	wSSAnne2FCurScript
+0x75	EVENT	S.S. Anne	2F	Scene State	0:Rival will battle you,4:Rival disappeared	wSSAnne2FCurScript
 0x76	EVENT					wSeafoamIslandsB3FCurScript
 0x77	EVENT					wRoute23CurScript
 0x78	EVENT					wSeafoamIslandsB4FCurScript
