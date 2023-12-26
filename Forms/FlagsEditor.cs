@@ -171,7 +171,7 @@
             bool useCategoryFilter = (m_filter != FlagsOrganizer.EventFlagType._Unknown);
             bool filterBySearch = filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text);
 
-            List<DataGridViewRow> rowsToAdd = new List<DataGridViewRow>();
+            List<DataGridViewRow> rowsToAdd = [];
 
             string searchTerm = searchTermBox.Text.ToUpperInvariant();
             ulong? searchIdx;
@@ -201,7 +201,7 @@
                     continue;
                 }
 
-                if (filterBySearch && ((!searchIdx.HasValue || searchIdx.Value != f.FlagIdx) && !f.ToString().ToUpperInvariant().Contains(searchTerm)))
+                if (filterBySearch && ((!searchIdx.HasValue || searchIdx.Value != f.FlagIdx) && !f.ToString().Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase)))
                 {
                     continue;
                 }
@@ -220,7 +220,7 @@
             dataGridView.Rows.Clear();
             dataGridView.Refresh();
 
-            dataGridView.Rows.AddRange(rowsToAdd.ToArray());
+            dataGridView.Rows.AddRange([.. rowsToAdd]);
 
             this.ResumeLayout(false);
         }

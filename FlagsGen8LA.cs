@@ -18,7 +18,7 @@
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
-            AssembleList(s_flagsList_res[idxEventFlagsSection..], 0, "Event Flags", Array.Empty<bool>());
+            AssembleList(s_flagsList_res[idxEventFlagsSection..], 0, "Event Flags", []);
             AssembleWorkList(s_flagsList_res[idxEventWorkSection..], Array.Empty<uint>());
         }
 

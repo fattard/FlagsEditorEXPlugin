@@ -9,33 +9,33 @@
         const int Src_HiddenItemFlags = 2;
         const int Src_TrainerFlags = 3;
 
-        readonly uint[] HiddenItemsBlockKeys = new uint[]
-        {
+        readonly uint[] HiddenItemsBlockKeys =
+        [
                 // Paldea
                 0x6DAB304B, // ~ South Province
-                0x6EAB31DE, // ~ West Province
-                0x6FAB3371, // ~ North Province
-                0x6CAB2EB8, // ~ East Province
+            0x6EAB31DE, // ~ West Province
+            0x6FAB3371, // ~ North Province
+            0x6CAB2EB8, // ~ East Province
 
-                // Area Zero
-                0x9A7A41AB,
-                0x9B7A433E,
-                0x9C7A44D1,
+            // Area Zero
+            0x9A7A41AB,
+            0x9B7A433E,
+            0x9C7A44D1,
 
-                // DLC1
-                0x917A3380,
-                0xA07A4B1D,
+            // DLC1
+            0x917A3380,
+            0xA07A4B1D,
 
-                // DLC2
-                0x1281BA58,
-                0x1381BBEB,
-                0x257F99AA,
-                0x1E7F8EA5, // ~ Area Zero Depths
+            // DLC2
+            0x1281BA58,
+            0x1381BBEB,
+            0x257F99AA,
+            0x1E7F8EA5, // ~ Area Zero Depths
 
-        };
+        ];
 
-        readonly List<FlagDetail> m_unavailableFlagBlocks = new List<FlagDetail>();
-        readonly List<WorkDetail> m_unavailableWorkBlocks = new List<WorkDetail>();
+        readonly List<FlagDetail> m_unavailableFlagBlocks = [];
+        readonly List<WorkDetail> m_unavailableWorkBlocks = [];
 
         protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
@@ -54,10 +54,10 @@
             int idxTrainerFlagsSection = s_flagsList_res.IndexOf("//\tTrainer Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
-            AssembleList(s_flagsList_res[idxEventFlagsSection..], Src_EventFlags, "Event Flags", Array.Empty<bool>());
-            AssembleList(s_flagsList_res[idxFieldItemFlagsSection..], Src_FieldItemFlags, "Field Item Flags", Array.Empty<bool>());
-            //AssembleList(s_flagsList_res[idxHiddenItemsFlagsSection..], Src_HiddenItemFlags, "Hidden Item Flags", Array.Empty<bool>());
-            AssembleList(s_flagsList_res[idxTrainerFlagsSection..], Src_TrainerFlags, "Regular Trainer Flags", Array.Empty<bool>());
+            AssembleList(s_flagsList_res[idxEventFlagsSection..], Src_EventFlags, "Event Flags", []);
+            AssembleList(s_flagsList_res[idxFieldItemFlagsSection..], Src_FieldItemFlags, "Field Item Flags", []);
+            //AssembleList(s_flagsList_res[idxHiddenItemsFlagsSection..], Src_HiddenItemFlags, "Hidden Item Flags", []);
+            AssembleList(s_flagsList_res[idxTrainerFlagsSection..], Src_TrainerFlags, "Regular Trainer Flags", []);
 
             AssembleWorkList(s_flagsList_res[idxEventWorkSection..], Array.Empty<uint>());
         }
@@ -278,7 +278,7 @@
             // Ignore dummy blocks
             if (aData.Length == 0)
             {
-                return new Dictionary<ulong, bool>();
+                return [];
             }
 
             var blocksStatus = new Dictionary<ulong, bool>(4000);
@@ -359,7 +359,7 @@
             return base.DumpAllFlags();
         }
 
-        void DumpListOfStatuses(string filePath, Dictionary<ulong, bool> listOfStatuses)
+        static void DumpListOfStatuses(string filePath, Dictionary<ulong, bool> listOfStatuses)
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
             foreach (var v in listOfStatuses)
@@ -498,10 +498,10 @@
         public override EditableEventInfo[] GetMiscEditableEvents()
         {
             int idx = 0;
-            return new EditableEventInfo[]
-            {
+            return
+            [
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"MiscEditsSV.miscEvtBtn_{idx}", "Daily Hidden Items Editor"), typeof(Forms.DailyHiddenItemsEditorSV)),
-            };
+            ];
         }
 
         public override void SyncEditedFlags(FlagsGroup fGroup)

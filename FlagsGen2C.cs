@@ -77,7 +77,7 @@
         int PokegearFlagsOffset;
         int TradeFlagsOffset;
         int FarfetchdPositionOffset;
-        int EventFlagsOffset;
+        //int EventFlagsOffset;
         int CelebiEventOffset;
         int BikeFlagsOffset;
         int DailyFlags1Offset;
@@ -102,7 +102,7 @@
         const int Src_TradeFlags = 2;
         const int Src_BerryTreeFlags = 3;
 
-        Dictionary<int, (int offset, int flagIdx)> m_sysFlagsTbl = new Dictionary<int, (int offset, int flagIdx)>();
+        Dictionary<int, (int offset, int flagIdx)> m_sysFlagsTbl = [];
 
         protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
@@ -121,7 +121,7 @@
                 PokegearFlagsOffset = (int)FlagOffsets_JAP.PokegearFlags;
                 TradeFlagsOffset = (int)FlagOffsets_JAP.TradeFlags;
                 FarfetchdPositionOffset = (int)FlagOffsets_JAP.FarfetchdPosition;
-                EventFlagsOffset = (int)FlagOffsets_JAP.EventFlags;
+                //EventFlagsOffset = (int)FlagOffsets_JAP.EventFlags;
                 CelebiEventOffset = (int)FlagOffsets_JAP.CelebiEvent;
                 BikeFlagsOffset = (int)FlagOffsets_JAP.BikeFlags;
                 DailyFlags1Offset = (int)FlagOffsets_JAP.DailyFlags1;
@@ -152,7 +152,7 @@
                 PokegearFlagsOffset = (int)FlagOffsets_INTL.PokegearFlags;
                 TradeFlagsOffset = (int)FlagOffsets_INTL.TradeFlags;
                 FarfetchdPositionOffset = (int)FlagOffsets_INTL.FarfetchdPosition;
-                EventFlagsOffset = (int)FlagOffsets_INTL.EventFlags;
+                //EventFlagsOffset = (int)FlagOffsets_INTL.EventFlags;
                 CelebiEventOffset = (int)FlagOffsets_INTL.CelebiEvent;
                 BikeFlagsOffset = (int)FlagOffsets_INTL.BikeFlags;
                 DailyFlags1Offset = (int)FlagOffsets_INTL.DailyFlags1;
@@ -448,8 +448,8 @@
         public override EditableEventInfo[] GetSpecialEditableEvents()
         {
             int idx = 0;
-            return new EditableEventInfo[]
-            {
+            return
+            [
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Reset Slowpoke Well events")),
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Reset Lake of Rage events")),
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Reset Radio Tower events")),
@@ -459,7 +459,7 @@
 
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Unblock Tin Tower stairs")),
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen2.specialEvtBtn_{idx}", "Reset Celebi event")),
-            };
+            ];
         }
 
         public override void ProcessSpecialEventEdit(EditableEventInfo eventInfo)
@@ -473,7 +473,7 @@
                 case 0: // Slowpoke Well / Ilex Forest
                     {
                         int[] evt_ids =
-                        {
+                        [
                             0x2B, // EVENT_CLEARED_SLOWPOKE_WELL
                             0x6FB, // EVENT_SLOWPOKE_WELL_SLOWPOKES
                             0x6FC, // EVENT_SLOWPOKE_WELL_ROCKETS
@@ -481,7 +481,7 @@
 
                             0x29, // EVENT_HERDED_FARFETCHD
                             0x10, // EVENT_GOT_HM01_CUT
-                        };
+                        ];
 
                         foreach (var evt in evt_ids)
                         {
@@ -496,7 +496,7 @@
                 case 1: // Lake of Rage / Team Rocket HQ
                     {
                         int[] evt_ids =
-                        {
+                        [
                             0x751, // EVENT_LAKE_OF_RAGE_RED_GYARADOS
 
                             0x22, // EVENT_CLEARED_ROCKET_HIDEOUT
@@ -544,7 +544,7 @@
                             0x6E0, // EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_1
                             0x6E1, // EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_2
                             0x6E2, // EVENT_TEAM_ROCKET_BASE_B2F_ELECTRODE_3
-                        };
+                        ];
 
                         foreach (var evt in evt_ids)
                         {
@@ -571,7 +571,7 @@
                 case 2: // Radio Tower takeover events
                     {
                         int[] evt_ids =
-                        {
+                        [
                             0x21, // EVENT_CLEARED_RADIO_TOWER
                             0x25, // EVENT_USED_THE_CARD_KEY_IN_THE_RADIO_TOWER
                             0x49, // EVENT_USED_BASEMENT_KEY
@@ -579,7 +579,7 @@
                             0x6CC, // EVENT_GOLDENROD_CITY_ROCKET_SCOUT
                             0x6CD, // EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
                             0x6CE, // EVENT_RADIO_TOWER_ROCKET_TAKEOVER
-                        };
+                        ];
 
                         foreach (var evt in evt_ids)
                         {
@@ -611,7 +611,7 @@
                 case 3: // S.S. Aqua first trip
                     {
                         int[] evt_ids =
-                        {
+                        [
                             0x30, // EVENT_FAST_SHIP_FIRST_TIME
                             0x31, // EVENT_FAST_SHIP_HAS_ARRIVED
                             0x32, // EVENT_FAST_SHIP_FOUND_GIRL
@@ -621,7 +621,7 @@
                             0x730, // EVENT_FAST_SHIP_CABINS_SE_SSE_GENTLEMAN
                             0x732, // EVENT_FAST_SHIP_CABINS_SE_SSE_CAPTAINS_CABIN_TWIN_2
                             0x739, // EVENT_FAST_SHIP_PASSENGERS_FIRST_TRIP
-                        };
+                        ];
 
                         foreach (var evt in evt_ids)
                         {
@@ -648,7 +648,7 @@
                 case 4: // Legendary Beasts events
                     {
                         int[] evt_ids =
-                        {
+                        [
                             0x7B, // EVENT_RELEASED_THE_BEASTS
                             0x332, // EVENT_HOLE_IN_BURNED_TOWER
                             0x6C5, // EVENT_RIVAL_BURNED_TOWER
@@ -657,7 +657,7 @@
                             0x7AB, // EVENT_WISE_TRIOS_ROOM_WISE_TRIO_1
                             0x334, // EVENT_KOJI_ALLOWS_YOU_PASSAGE_TO_TIN_TOWER
                             0x335, // EVENT_FOUGHT_SUICUNE
-                        };
+                        ];
 
                         foreach (var evt in evt_ids)
                         {
@@ -989,7 +989,7 @@
                 }
 
                 int[] npc_ids =
-                {
+                [
                     0x7D, // ENGINE_BEVERLY_HAS_NUGGET
                     0x7E, // ENGINE_JOSE_HAS_STAR_PIECE
                     0x7F, // ENGINE_WADE_HAS_ITEM (default: Berry)
@@ -1000,7 +1000,7 @@
                     0x84, // ENGINE_TULLY_HAS_WATER_STONE
                     0x85, // ENGINE_TIFFANY_HAS_PINK_BOW
                     0x86, // ENGINE_WILTON_HAS_ITEM (default: Ultra Ball)
-                };
+                ];
 
                 foreach (var npc_idx in npc_ids)
                 {
@@ -1008,14 +1008,14 @@
                     m_flagsGroupsList[Src_SysFlags].Flags[npc_idx].IsSet = !value;
                 }
 
-                npc_ids = new int[]
-                {
+                npc_ids =
+                [
                     0x337, // EVENT_HUEY_PROTEIN
                     0x338, // EVENT_JOEY_HP_UP
                     0x339, // EVENT_VANCE_CARBOS
                     0x33A, // EVENT_PARRY_IRON
                     0x33B, // EVENT_ERIN_CALCIUM
-                };
+                ];
 
                 foreach (var npc_idx in npc_ids)
                 {

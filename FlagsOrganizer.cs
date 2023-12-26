@@ -420,9 +420,9 @@
             return sb.ToString();
         }
 
-        public virtual EditableEventInfo[] GetSpecialEditableEvents() { return Array.Empty<EditableEventInfo>(); }
+        public virtual EditableEventInfo[] GetSpecialEditableEvents() { return []; }
 
-        public virtual EditableEventInfo[] GetMiscEditableEvents() { return Array.Empty<EditableEventInfo>(); }
+        public virtual EditableEventInfo[] GetMiscEditableEvents() { return []; }
 
         public virtual void ProcessSpecialEventEdit(EditableEventInfo eventInfo) { }
 

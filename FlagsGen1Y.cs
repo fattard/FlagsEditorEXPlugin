@@ -154,13 +154,6 @@
             // wEventFlags
             bool[] eventFlags = ((IEventFlagArray)m_savFile!).GetEventFlags();
 
-            // wGameProgressFlags
-            var workValues = new byte[0xC8];
-            for (int i = 0; i < workValues.Length; i++)
-            {
-                workValues[i] = m_savFile.Data[GameProgressWorkOffset + i];
-            }
-
 #if DEBUG
             // Force refresh
             s_flagsList_res = null;
@@ -189,8 +182,7 @@
             AssembleList(s_flagsList_res[idxMisc_wd728_Section..], Src_Misc_wd728, "Misc-wd728 Flags", miscFlags_wd728);
             AssembleList(s_flagsList_res[idxMisc_wd72e_Section..], Src_Misc_wd72e, "Misc-wd72e Flags", miscFlags_wd72e);
 
-            AssembleWorkList(s_flagsList_res[idxEventWorkSection..], workValues);
-            //AssembleWorkList(s_flagsList_res[idxEventWorkSection..], (EventWorkArray<byte>)m_savFile!.GetAllEventWork());
+            AssembleWorkList(s_flagsList_res[idxEventWorkSection..], ((IEventWorkArray<byte>)m_savFile!).GetAllEventWork());
         }
 
         public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
@@ -211,8 +203,8 @@
         public override EditableEventInfo[] GetSpecialEditableEvents()
         {
             int idx = 0;
-            return new EditableEventInfo[]
-            {
+            return
+            [
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Fossils choice")),
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Dojo choice")),
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Bill events")),
@@ -221,7 +213,7 @@
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Pokémon Tower events")),
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Reset Silph Co. events")),
                 new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGen1.specialEvtBtn_{idx}", "Unblock Cerulean Cave")),
-            };
+            ];
         }
 
         public override void ProcessSpecialEventEdit(EditableEventInfo eventInfo)
@@ -525,13 +517,13 @@
             // Fix simple HS flags
             if (!value)
             {
-                int[] idxArr = new int[]
-                {
+                int[] idxArr =
+                [
                     0x07, // HS_CERULEAN_ROCKET
                     0x31, // HS_VIRIDIAN_GYM_GIOVANNI
                     0xBC, // HS_SILPH_CO_11F_JAMES
                     0xBE, // HS_SILPH_CO_11F_JESSIE
-                };
+                ];
 
                 foreach (var idx in idxArr)
                 {
@@ -728,14 +720,14 @@
             // Fix simple HS flags
             if (!value)
             {
-                int[] idxArr = new int[]
-                {
+                int[] idxArr =
+                [
                     0x07, // HS_CERULEAN_ROCKET
                     0x25, // HS_NUGGET_BRIDGE_GUY
                     0x2A, // HS_TOWN_MAP
                     0x31, // HS_VIRIDIAN_GYM_GIOVANNI
                     0x33, // HS_OLD_AMBER
-                };
+                ];
 
                 foreach (var idx in idxArr)
                 {
@@ -889,17 +881,12 @@
 
         public override void SyncEditedEventWork()
         {
-            for (int i = 0; i < m_eventWorkList.Count; i++)
-            {
-                m_savFile!.Data[GameProgressWorkOffset + i] = (byte)m_eventWorkList[i].Value;
-            }
-
-            /*var eventWorkHelper = (IEventWorkArray<byte>)m_savFile!;
+            var eventWorkHelper = (IEventWorkArray<byte>)m_savFile!;
 
             foreach (var w in m_eventWorkList)
             {
                 eventWorkHelper.SetWork((int)w.WorkIdx, (byte)w.Value);
-            }*/
+            }
         }
     }
 }

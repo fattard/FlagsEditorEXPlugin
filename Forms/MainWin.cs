@@ -143,7 +143,7 @@
         {
             foreach (var fGroup in m_organizer.FlagsGroups)
             {
-                if (fGroup.SourceName == ((string)flagsGroupCombo.SelectedItem))
+                if (fGroup.SourceName == ((string)flagsGroupCombo.SelectedItem!))
                 {
                     var filter = (FlagsOrganizer.EventFlagType)flagsCategoryCombo.SelectedIndex;
 

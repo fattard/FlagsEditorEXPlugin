@@ -439,7 +439,7 @@
                 byte filteredItemId = m_itemsIndexesList.First(x => x.Value == (string)itemIIndexSelectionCombo.SelectedItem!).Key;
                 uint refNum = 1;
 
-                List<DataGridViewRow> rowsToAdd = new List<DataGridViewRow>();
+                List<DataGridViewRow> rowsToAdd = [];
 
                 foreach (var data in m_editableBlocks[m_indexToKeys[m_curSelectedBlockIdx]])
                 {
@@ -461,7 +461,7 @@
                 dataGridView.Rows.Clear();
                 dataGridView.Refresh();
 
-                dataGridView.Rows.AddRange(rowsToAdd.ToArray());
+                dataGridView.Rows.AddRange([.. rowsToAdd]);
 
                 isSyncingCells = false;
                 this.ResumeLayout(false);

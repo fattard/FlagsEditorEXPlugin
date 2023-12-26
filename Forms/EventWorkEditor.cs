@@ -132,7 +132,7 @@
             bool skipUnused = filterUnusedChk.Checked;
             bool filterBySearch = filterBySearchChk.Checked && !string.IsNullOrWhiteSpace(searchTermBox.Text);
 
-            List<DataGridViewRow> rowsToAdd = new List<DataGridViewRow>();
+            List<DataGridViewRow> rowsToAdd = [];
 
             string searchTerm = searchTermBox.Text.ToUpperInvariant();
             ulong? searchIdx;
@@ -152,7 +152,7 @@
                     continue;
                 }
 
-                if (filterBySearch && ((!searchIdx.HasValue || searchIdx.Value != w.WorkIdx) && !w.ToString().ToUpperInvariant().Contains(searchTerm)))
+                if (filterBySearch && ((!searchIdx.HasValue || searchIdx.Value != w.WorkIdx) && !w.ToString().Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase)))
                 {
                     continue;
                 }
@@ -182,7 +182,7 @@
             dataGridView.Rows.Clear();
             dataGridView.Refresh();
 
-            dataGridView.Rows.AddRange(rowsToAdd.ToArray());
+            dataGridView.Rows.AddRange([.. rowsToAdd]);
 
             this.ResumeLayout(false);
         }
