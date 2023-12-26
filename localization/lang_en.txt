@@ -107,8 +107,8 @@ SpecialEditsGen2.specialEvtBtn_3=Reset Radio Tower events
 SpecialEditsGen2.specialEvtBtn_4=Reset S.S. Aqua first trip events
 SpecialEditsGen2.specialEvtBtn_5=Reset Legendary Beasts events
 SpecialEditsGen2.specialEvtBtn_6=Unblock Mt. Silver access
-
 SpecialEditsGen2.specialEvtBtn_7=Unblock Tin Tower stairs
 SpecialEditsGen2.specialEvtBtn_8=Reset Celebi event
 
+MiscEdits.miscEvtBtn_BlockDataEditor=Block Data Editor
 MiscEditsSV.miscEvtBtn_1=Daily Hidden Items Editor

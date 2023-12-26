@@ -43,7 +43,8 @@ namespace FlagsEditorEX_App
         {
             if (e.KeyCode == Keys.D)
             {
-                FlagsOrganizer.CreateFlagsOrganizer(SAV!, resData: null).DumpAllFlags();
+                var flagsOrganizer = FlagsOrganizer.CreateFlagsOrganizer(SAV!, resData: null);
+                System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", SAV!.Version), flagsOrganizer.DumpAllFlags());
             }
         }
     }

@@ -107,8 +107,8 @@ SpecialEditsGen2.specialEvtBtn_3=Resetar eventos da Radio Tower
 SpecialEditsGen2.specialEvtBtn_4=Resetar eventos da viagem inicial do S.S. Aqua
 SpecialEditsGen2.specialEvtBtn_5=Resetar eventos das Legendary Beasts
 SpecialEditsGen2.specialEvtBtn_6=Desbloquear acesso ao Mt. Silver
-
 SpecialEditsGen2.specialEvtBtn_7=Desbloquear escadaria da Tin Tower
 SpecialEditsGen2.specialEvtBtn_8=Resetar evento do Celebi
 
+MiscEdits.miscEvtBtn_BlockDataEditor=Editor de Blocos de Dados
 MiscEditsSV.miscEvtBtn_1=Editor de Itens Escondidos Diários

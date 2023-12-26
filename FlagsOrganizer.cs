@@ -266,6 +266,7 @@
 
         public List<FlagsGroup> FlagsGroups => m_flagsGroupsList;
         public List<WorkDetail> EventWorkList => m_eventWorkList;
+        public SaveFile? SaveFile => m_savFile;
 
         protected virtual void InitFlagsData(SaveFile savFile, string? resData)
         {

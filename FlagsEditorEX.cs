@@ -59,6 +59,7 @@
                 var flagsOrganizer = FlagsOrganizer.CreateFlagsOrganizer(SaveFileEditor.SAV, resData: null);
                 System.IO.File.WriteAllText(saveFileDialog.FileName, flagsOrganizer.DumpAllFlags());
             }
+            saveFileDialog.Dispose();
         }
 
         private void EditFlags_UIEvt(object? sender, EventArgs e)
@@ -66,6 +67,7 @@
             var flagsOrganizer = FlagsOrganizer.CreateFlagsOrganizer(SaveFileEditor.SAV, resData: null);
             var form = new Forms.MainWin(flagsOrganizer);
             form.ShowDialog();
+            form.Dispose();
         }
 
         public void NotifySaveLoaded()

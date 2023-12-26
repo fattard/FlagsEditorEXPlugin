@@ -1,4 +1,6 @@
-﻿namespace FlagsEditorEXPlugin.Forms
+﻿using System.Reflection;
+
+namespace FlagsEditorEXPlugin.Forms
 {
     public partial class MainWin : Form
     {
@@ -107,18 +109,47 @@
 
             #region Misc Edit Tab
 
+            // Add Block Data Editor
+            var blockEditorBtn = new Button
+            {
+                Anchor = AnchorStyles.Top | AnchorStyles.Left,
+                Location = new System.Drawing.Point(0 < 16 ? 20 : 274, 2 + ((0 % 16) * 27)),
+                Name = "miscEvtBtn_BlockDataEditor",
+                Size = new System.Drawing.Size(210, 23),
+                //TabIndex = 1;
+                Text = LocalizedStrings.Find($"MiscEdits.miscEvtBtn_BlockDataEditor", "Block Data Editor"),
+                UseVisualStyleBackColor = true
+            };
+            blockEditorBtn.Click += (object? sender, EventArgs e) =>
+            {
+                try
+                {
+                    var pkHexAssembly = Assembly.GetEntryAssembly();
+                    var blockEditorFormType = pkHexAssembly!.GetType("PKHeX.WinForms.Controls.SAVEditor");
+                    var getAccessorFormMethod = blockEditorFormType!.GetMethod("GetAccessorForm", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static);
+                    var blockEditorFormInstance = (Form)getAccessorFormMethod!.Invoke(null, [m_organizer.SaveFile])!;
+                    blockEditorFormInstance.ShowDialog();
+                    blockEditorFormInstance.Dispose();
+                }
+                catch (Exception)
+                {
+                }
+            };
+            tabPage5.Controls.Add(blockEditorBtn);
+
             var miscEditableEvents = m_organizer.GetMiscEditableEvents();
             for (int i = 0; i < miscEditableEvents.Length; i++)
             {
                 var evt = miscEditableEvents[i];
+                int btnIdx = i + 1; // Block Editor Button is idx = 0
 
                 var newBtn = new Button
                 {
                     Anchor = AnchorStyles.Top | AnchorStyles.Left,
-                    Location = new System.Drawing.Point(i < 16 ? 20 : 274, 2 + ((i % 16) * 27)),
+                    Location = new System.Drawing.Point(btnIdx < 16 ? 20 : 274, 2 + ((btnIdx % 16) * 27)),
                     Name = "miscEvtBtn_" + evt.Index,
                     Size = new System.Drawing.Size(210, 23),
-                    //newBtn.TabIndex = 1;
+                    //TabIndex = 1;
                     Text = evt.Label,
                     UseVisualStyleBackColor = true
                 };
@@ -126,14 +157,10 @@
                 {
                     Form newEditorForm = (Form)Activator.CreateInstance(evt.EditorClassType!, m_organizer)!;
                     newEditorForm.ShowDialog();
-                    GC.Collect();
+                    newEditorForm.Dispose();
                 };
 
                 tabPage5.Controls.Add(newBtn);
-            }
-            if (miscEditableEvents.Length == 0)
-            {
-                tabControl1.Controls.Remove(tabPage5);
             }
 
             #endregion Misc Edit Tab
@@ -149,7 +176,7 @@
 
                     var form = new FlagsEditor(m_organizer, fGroup, filter);
                     form.ShowDialog();
-                    GC.Collect();
+                    form.Dispose();
                     break;
                 }
             }
@@ -159,7 +186,7 @@
         {
             var form = new EventWorkEditor(m_organizer);
             form.ShowDialog();
-            GC.Collect();
+            form.Dispose();
         }
 
         private void MarkFlagsBtn_Click(object sender, EventArgs e)
