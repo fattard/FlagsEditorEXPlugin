@@ -1,144 +1,144 @@
 //	Event Flags					
-0x0000						
-0x0001						
-0x0002						
-0x0003						
-0x0004						
-0x0005						
-0x0006						
-0x0007						
-0x0008						
-0x0009						
-0x000A						
-0x000B						
-0x000C						
-0x000D						
-0x000E						
-0x000F						
-0x0010						
-0x0011						
-0x0012						
-0x0013						
-0x0014						
-0x0015						
-0x0016						
-0x0017						
-0x0018						
-0x0019						
-0x001A						
-0x001B						
-0x001C						
-0x001D						
-0x001E						
-0x001F						
-0x0020						
-0x0021						
-0x0022						
-0x0023						
-0x0024						
-0x0025						
-0x0026						
-0x0027						
-0x0028						
-0x0029						
-0x002A						
-0x002B						
-0x002C						
-0x002D						
-0x002E						
-0x002F						
-0x0030						
-0x0031						
-0x0032						
-0x0033						
-0x0034						
-0x0035						
-0x0036						
-0x0037						
-0x0038						
-0x0039						
-0x003A						
-0x003B						
-0x003C						
-0x003D						
-0x003E						
-0x003F						
-0x0040						
-0x0041						
-0x0042						
-0x0043						
-0x0044						
-0x0045						
-0x0046						
-0x0047						
-0x0048						
-0x0049						
-0x004A						
-0x004B						
-0x004C						
-0x004D						
-0x004E						
-0x004F						
-0x0050						
-0x0051						
-0x0052						
-0x0053						
-0x0054						
-0x0055						
-0x0056						
-0x0057						
-0x0058						
-0x0059						
-0x005A						
-0x005B						
-0x005C						
-0x005D						
-0x005E						
-0x005F						
-0x0060						
-0x0061						
-0x0062						
-0x0063						
-0x0064						
-0x0065						
-0x0066						
-0x0067						
-0x0068						
-0x0069						
-0x006A						
-0x006B						
-0x006C						
-0x006D						
-0x006E						
-0x006F						
-0x0070						
-0x0071						
-0x0072						
-0x0073						
-0x0074						
-0x0075						
-0x0076						
-0x0077						
-0x0078						
-0x0079						
-0x007A						
-0x007B						
-0x007C						
-0x007D						
-0x007E						
-0x007F						
+0x0000	EVENT					
+0x0001	EVENT					
+0x0002	EVENT					
+0x0003	EVENT					
+0x0004	EVENT					
+0x0005	EVENT					
+0x0006	EVENT					
+0x0007	EVENT					
+0x0008	EVENT					
+0x0009	EVENT					
+0x000A	EVENT					
+0x000B	EVENT					
+0x000C	EVENT					
+0x000D	EVENT					
+0x000E	EVENT					
+0x000F	EVENT					
+0x0010	EVENT					
+0x0011	EVENT					
+0x0012	EVENT					
+0x0013	EVENT					
+0x0014	EVENT					
+0x0015	EVENT					
+0x0016	EVENT					
+0x0017	EVENT					
+0x0018	EVENT					
+0x0019	EVENT					
+0x001A	EVENT					
+0x001B	EVENT					
+0x001C	EVENT					
+0x001D	EVENT					
+0x001E	EVENT					
+0x001F	EVENT					
+0x0020	EVENT					
+0x0021	EVENT					
+0x0022	EVENT					
+0x0023	EVENT					
+0x0024	EVENT					
+0x0025	EVENT					
+0x0026	EVENT					
+0x0027	EVENT					
+0x0028	EVENT					
+0x0029	EVENT					
+0x002A	EVENT					
+0x002B	EVENT					
+0x002C	EVENT					
+0x002D	EVENT					
+0x002E	EVENT					
+0x002F	EVENT					
+0x0030	EVENT					
+0x0031	EVENT					
+0x0032	EVENT					
+0x0033	EVENT					
+0x0034	EVENT					
+0x0035	EVENT					
+0x0036	EVENT					
+0x0037	EVENT					
+0x0038	EVENT					
+0x0039	EVENT					
+0x003A	EVENT					
+0x003B	EVENT					
+0x003C	EVENT					
+0x003D	EVENT					
+0x003E	EVENT					
+0x003F	EVENT					
+0x0040	EVENT					
+0x0041	EVENT					
+0x0042	EVENT					
+0x0043	EVENT					
+0x0044	EVENT					
+0x0045	EVENT					
+0x0046	EVENT					
+0x0047	EVENT					
+0x0048	EVENT					
+0x0049	EVENT					
+0x004A	EVENT					
+0x004B	EVENT					
+0x004C	EVENT					
+0x004D	EVENT					
+0x004E	EVENT					
+0x004F	EVENT					
+0x0050	EVENT					
+0x0051	EVENT					
+0x0052	EVENT					
+0x0053	EVENT					
+0x0054	EVENT					
+0x0055	EVENT					
+0x0056	EVENT					
+0x0057	EVENT					
+0x0058	EVENT					
+0x0059	EVENT					
+0x005A	EVENT					
+0x005B	EVENT					
+0x005C	EVENT					
+0x005D	EVENT					
+0x005E	EVENT					
+0x005F	EVENT					
+0x0060	EVENT					
+0x0061	EVENT					
+0x0062	EVENT					
+0x0063	EVENT					
+0x0064	EVENT					
+0x0065	EVENT					
+0x0066	EVENT					
+0x0067	EVENT					
+0x0068	EVENT					
+0x0069	EVENT					
+0x006A	EVENT					
+0x006B	EVENT					
+0x006C	EVENT					
+0x006D	EVENT					
+0x006E	EVENT					
+0x006F	EVENT					
+0x0070	EVENT					
+0x0071	EVENT					
+0x0072	EVENT					
+0x0073	EVENT					
+0x0074	EVENT					
+0x0075	EVENT					
+0x0076	EVENT					
+0x0077	EVENT					
+0x0078	EVENT					
+0x0079	EVENT					
+0x007A	EVENT					
+0x007B	EVENT					
+0x007C	EVENT					
+0x007D	EVENT					
+0x007E	EVENT					
+0x007F	EVENT					
 0x0080	STORY EVENT					FSYS_GAME_CLEAR
 0x0081	STORY EVENT					FSYS_HIDEN_OPEN_IAIGIRI
 0x0082	STORY EVENT					FSYS_HIDEN_OPEN_SORAWOTOBU
 0x0083	STORY EVENT					FSYS_HIDEN_OPEN_KAIRIKI
 0x0084	STORY EVENT					FSYS_HIDEN_OPEN_NAMINORI
 0x0085	STORY EVENT					FSYS_HIDEN_OPEN_HURASSYU
-0x0086						FSYS_XMENU_OPEN_ZUKAN
-0x0087						FSYS_XMENU_OPEN_POKEMON
-0x0088						FSYS_XMENU_OPEN_BAG
-0x0089						FSYS_XMENU_OPEN_TUUSIN
-0x008A						FSYS_XMENU_OPEN_GOKIGEN
-0x008B						FSYS_XMENU_OPEN_REPORT
+0x0086	EVENT					FSYS_XMENU_OPEN_ZUKAN
+0x0087	EVENT					FSYS_XMENU_OPEN_POKEMON
+0x0088	EVENT					FSYS_XMENU_OPEN_BAG
+0x0089	EVENT					FSYS_XMENU_OPEN_TUUSIN
+0x008A	EVENT					FSYS_XMENU_OPEN_GOKIGEN
+0x008B	EVENT					FSYS_XMENU_OPEN_REPORT
 0x008C	STORY EVENT					FSYS_GYM_CLEAR_ROCK
 0x008D	STORY EVENT					FSYS_GYM_CLEAR_WATAER
 0x008E	STORY EVENT					FSYS_GYM_CLEAR_VOLT
@@ -149,114 +149,114 @@
 0x0093	STORY EVENT					FSYS_GYM_CLEAR_GROUND
 0x0094	SIDE EVENT					FSYS_ZUKAN_COMPLETE
 0x0095	SIDE EVENT					FSYS_JUDGE_OPEN
-0x0096						FSYS_FLAG_CAN_NOT_FLY
-0x0097						FSYS_FLAG_WILD_SPAWN
-0x0098						FSYS_FLAG_BIG_WILD_SPAWN
-0x0099						FSYS_FLAG_RESPAWN_HOME_FORCE
+0x0096	EVENT					FSYS_FLAG_CAN_NOT_FLY
+0x0097	EVENT					FSYS_FLAG_WILD_SPAWN
+0x0098	EVENT					FSYS_FLAG_BIG_WILD_SPAWN
+0x0099	EVENT					FSYS_FLAG_RESPAWN_HOME_FORCE
 0x009A	EVENT	Route 1				FSYS_ARRIVE_ROAD001
 0x009B	EVENT	Route 2				FSYS_ARRIVE_ROAD002
 0x009C	EVENT	Route 3				FSYS_ARRIVE_ROAD003
-0x009D						FSYS_ARRIVE_ROAD004
-0x009E						FSYS_ARRIVE_ROAD005
-0x009F						FSYS_ARRIVE_ROAD006
-0x00A0						FSYS_ARRIVE_ROAD007
-0x00A1						FSYS_ARRIVE_ROAD008
-0x00A2						FSYS_ARRIVE_ROAD009
-0x00A3						FSYS_ARRIVE_ROAD010
-0x00A4						FSYS_ARRIVE_ROAD011
-0x00A5						FSYS_ARRIVE_ROAD012
-0x00A6						FSYS_ARRIVE_ROAD013
-0x00A7						FSYS_ARRIVE_ROAD014
-0x00A8						FSYS_ARRIVE_ROAD015
-0x00A9						FSYS_ARRIVE_ROAD016
-0x00AA						FSYS_ARRIVE_ROAD017
-0x00AB						FSYS_ARRIVE_ROAD018
-0x00AC						FSYS_ARRIVE_ROAD019
-0x00AD						FSYS_ARRIVE_ROAD020
-0x00AE						FSYS_ARRIVE_ROAD021
-0x00AF						FSYS_ARRIVE_ROAD022
-0x00B0						FSYS_ARRIVE_ROAD023
-0x00B1						FSYS_ARRIVE_ROAD024
-0x00B2						FSYS_ARRIVE_ROAD025
-0x00B3	SIDE EVENT	Pallet Town		Unlock fly spot		FSYS_ARRIVE_TOWN001
-0x00B4	SIDE EVENT	Viridian City		Unlock fly spot		FSYS_ARRIVE_TOWN002
-0x00B5	SIDE EVENT	Pewter City		Unlock fly spot		FSYS_ARRIVE_TOWN003
-0x00B6	SIDE EVENT	Cerulean City		Unlock fly spot		FSYS_ARRIVE_TOWN004
-0x00B7	SIDE EVENT	Lavender Town		Unlock fly spot		FSYS_ARRIVE_TOWN005
-0x00B8	SIDE EVENT	Vermilion City		Unlock fly spot		FSYS_ARRIVE_TOWN006
-0x00B9	SIDE EVENT	Celadon City		Unlock fly spot		FSYS_ARRIVE_TOWN007
-0x00BA	SIDE EVENT	Fuchsia City		Unlock fly spot		FSYS_ARRIVE_TOWN008
-0x00BB	SIDE EVENT	Cinnabar Island		Unlock fly spot		FSYS_ARRIVE_TOWN009
-0x00BC	SIDE EVENT	Indigo Plateau		Unlock fly spot		FSYS_ARRIVE_TOWN010
-0x00BD	SIDE EVENT	Saffron City		Unlock fly spot		FSYS_ARRIVE_TOWN011
-0x00BE						FSYS_ARRIVE_R002_DUN01
-0x00BF						FSYS_ARRIVE_R004_DUN01
-0x00C0						FSYS_ARRIVE_R010_DUN01
-0x00C1						FSYS_ARRIVE_R010_DUN02
-0x00C2						FSYS_ARRIVE_R011_DUN01
-0x00C3						FSYS_ARRIVE_R020_DUN01
-0x00C4						FSYS_ARRIVE_R023_DUN01
-0x00C5						FSYS_ARRIVE_T004_DUN01
-0x00C6						FSYS_ARRIVE_T005_DUN01
-0x00C7						FSYS_ARRIVE_T006_DUN01
-0x00C8						FSYS_ARRIVE_T007_DUN01
-0x00C9						FSYS_ARRIVE_T008_DUN01
-0x00CA						FSYS_ARRIVE_T009_DUN01
-0x00CB						FSYS_ARRIVE_T011_DUN01
-0x00CC						FSYS_ARRIVE_CHAMP01
-0x00CD						FSYS_FLAG_CAN_USE_CAIRIKI
-0x00CE						FSYS_KAIRIKI_ROCK_FALL_R020D0101_A
-0x00CF						FSYS_KAIRIKI_ROCK_FALL_R020D0101_B
-0x00D0						FSYS_KAIRIKI_ROCK_FALL_R020D0102_A
-0x00D1						FSYS_KAIRIKI_ROCK_FALL_R020D0102_B
-0x00D2						FSYS_KAIRIKI_ROCK_FALL_R020D0103_A
-0x00D3						FSYS_KAIRIKI_ROCK_FALL_R020D0103_B
-0x00D4						FSYS_KAIRIKI_ROCK_FALL_R020D0104_A
-0x00D5						FSYS_KAIRIKI_ROCK_FALL_R020D0104_B
-0x00D6						FSYS_KAIRIKI_ROCK_FALL_R023D0103
-0x00D7						FSYS_SPECIAL_BGM_DUMMY01
-0x00D8						FSYS_START_EVENT_SIRUHU_COMPANY
-0x00D9						FSYS_SODATEYA_FIRST_FLAG
-0x00DA						FSYS_SPCIAL_TRAINING_FIRST_FLAG
-0x00DB						FSYS_BUDDY_MODE_TSUREARUKI
-0x00DC						FSYS_CAPTURE_FOLLOW
-0x00DD						FSYS_KAIRIKI_ROCK_SWITCH_R023D0101
-0x00DE						FSYS_KAIRIKI_ROCK_SWITCH_R023D0102_A
-0x00DF						FSYS_KAIRIKI_ROCK_SWITCH_R023D0102_B
-0x00E0						FSYS_KAIRIKI_ROCK_SWITCH_R023D0103
-0x00E1						FSYS_DEBUG_EVENT_JUMP_MODE
-0x00E2						FSYS_PLAYABLE_BUDDY_ENABLE
+0x009D	EVENT					FSYS_ARRIVE_ROAD004
+0x009E	EVENT					FSYS_ARRIVE_ROAD005
+0x009F	EVENT					FSYS_ARRIVE_ROAD006
+0x00A0	EVENT					FSYS_ARRIVE_ROAD007
+0x00A1	EVENT					FSYS_ARRIVE_ROAD008
+0x00A2	EVENT					FSYS_ARRIVE_ROAD009
+0x00A3	EVENT					FSYS_ARRIVE_ROAD010
+0x00A4	EVENT					FSYS_ARRIVE_ROAD011
+0x00A5	EVENT					FSYS_ARRIVE_ROAD012
+0x00A6	EVENT					FSYS_ARRIVE_ROAD013
+0x00A7	EVENT					FSYS_ARRIVE_ROAD014
+0x00A8	EVENT					FSYS_ARRIVE_ROAD015
+0x00A9	EVENT					FSYS_ARRIVE_ROAD016
+0x00AA	EVENT					FSYS_ARRIVE_ROAD017
+0x00AB	EVENT					FSYS_ARRIVE_ROAD018
+0x00AC	EVENT					FSYS_ARRIVE_ROAD019
+0x00AD	EVENT					FSYS_ARRIVE_ROAD020
+0x00AE	EVENT					FSYS_ARRIVE_ROAD021
+0x00AF	EVENT					FSYS_ARRIVE_ROAD022
+0x00B0	EVENT					FSYS_ARRIVE_ROAD023
+0x00B1	EVENT					FSYS_ARRIVE_ROAD024
+0x00B2	EVENT					FSYS_ARRIVE_ROAD025
+0x00B3	FLY SPOT	Pallet Town		Unlock fly spot		FSYS_ARRIVE_TOWN001
+0x00B4	FLY SPOT	Viridian City		Unlock fly spot		FSYS_ARRIVE_TOWN002
+0x00B5	FLY SPOT	Pewter City		Unlock fly spot		FSYS_ARRIVE_TOWN003
+0x00B6	FLY SPOT	Cerulean City		Unlock fly spot		FSYS_ARRIVE_TOWN004
+0x00B7	FLY SPOT	Lavender Town		Unlock fly spot		FSYS_ARRIVE_TOWN005
+0x00B8	FLY SPOT	Vermilion City		Unlock fly spot		FSYS_ARRIVE_TOWN006
+0x00B9	FLY SPOT	Celadon City		Unlock fly spot		FSYS_ARRIVE_TOWN007
+0x00BA	FLY SPOT	Fuchsia City		Unlock fly spot		FSYS_ARRIVE_TOWN008
+0x00BB	FLY SPOT	Cinnabar Island		Unlock fly spot		FSYS_ARRIVE_TOWN009
+0x00BC	FLY SPOT	Indigo Plateau		Unlock fly spot		FSYS_ARRIVE_TOWN010
+0x00BD	FLY SPOT	Saffron City		Unlock fly spot		FSYS_ARRIVE_TOWN011
+0x00BE	EVENT					FSYS_ARRIVE_R002_DUN01
+0x00BF	EVENT					FSYS_ARRIVE_R004_DUN01
+0x00C0	EVENT					FSYS_ARRIVE_R010_DUN01
+0x00C1	EVENT					FSYS_ARRIVE_R010_DUN02
+0x00C2	EVENT					FSYS_ARRIVE_R011_DUN01
+0x00C3	EVENT					FSYS_ARRIVE_R020_DUN01
+0x00C4	EVENT					FSYS_ARRIVE_R023_DUN01
+0x00C5	EVENT					FSYS_ARRIVE_T004_DUN01
+0x00C6	EVENT					FSYS_ARRIVE_T005_DUN01
+0x00C7	EVENT					FSYS_ARRIVE_T006_DUN01
+0x00C8	EVENT					FSYS_ARRIVE_T007_DUN01
+0x00C9	EVENT					FSYS_ARRIVE_T008_DUN01
+0x00CA	EVENT					FSYS_ARRIVE_T009_DUN01
+0x00CB	EVENT					FSYS_ARRIVE_T011_DUN01
+0x00CC	EVENT					FSYS_ARRIVE_CHAMP01
+0x00CD	EVENT					FSYS_FLAG_CAN_USE_CAIRIKI
+0x00CE	EVENT					FSYS_KAIRIKI_ROCK_FALL_R020D0101_A
+0x00CF	EVENT					FSYS_KAIRIKI_ROCK_FALL_R020D0101_B
+0x00D0	EVENT					FSYS_KAIRIKI_ROCK_FALL_R020D0102_A
+0x00D1	EVENT					FSYS_KAIRIKI_ROCK_FALL_R020D0102_B
+0x00D2	EVENT					FSYS_KAIRIKI_ROCK_FALL_R020D0103_A
+0x00D3	EVENT					FSYS_KAIRIKI_ROCK_FALL_R020D0103_B
+0x00D4	EVENT					FSYS_KAIRIKI_ROCK_FALL_R020D0104_A
+0x00D5	EVENT					FSYS_KAIRIKI_ROCK_FALL_R020D0104_B
+0x00D6	EVENT					FSYS_KAIRIKI_ROCK_FALL_R023D0103
+0x00D7	EVENT					FSYS_SPECIAL_BGM_DUMMY01
+0x00D8	EVENT					FSYS_START_EVENT_SIRUHU_COMPANY
+0x00D9	EVENT					FSYS_SODATEYA_FIRST_FLAG
+0x00DA	EVENT					FSYS_SPCIAL_TRAINING_FIRST_FLAG
+0x00DB	EVENT					FSYS_BUDDY_MODE_TSUREARUKI
+0x00DC	EVENT					FSYS_CAPTURE_FOLLOW
+0x00DD	EVENT					FSYS_KAIRIKI_ROCK_SWITCH_R023D0101
+0x00DE	EVENT					FSYS_KAIRIKI_ROCK_SWITCH_R023D0102_A
+0x00DF	EVENT					FSYS_KAIRIKI_ROCK_SWITCH_R023D0102_B
+0x00E0	EVENT					FSYS_KAIRIKI_ROCK_SWITCH_R023D0103
+0x00E1	EVENT					FSYS_DEBUG_EVENT_JUMP_MODE
+0x00E2	EVENT					FSYS_PLAYABLE_BUDDY_ENABLE
 0x00E3	SIDE EVENT					FSYS_FIELD_FLYHIGH_ENABLE
-0x00E4						FSYS_GOKIGEN_EV0716_CLEAR
-0x00E5						FSYS_GOKIGEN_EV8000_CLEAR
-0x00E6						FSYS_GOKIGEN_EV8010_CLEAR
-0x00E7						FSYS_GOKIGEN_EV0440_CLEAR
-0x00E8						FSYS_GOKIGEN_EV0960_CLEAR
-0x00E9						FSYS_GOKIGEN_EV1230_CLEAR
-0x00EA						FSYS_GOKIGEN_GAME_CLEAR
+0x00E4	EVENT					FSYS_GOKIGEN_EV0716_CLEAR
+0x00E5	EVENT					FSYS_GOKIGEN_EV8000_CLEAR
+0x00E6	EVENT					FSYS_GOKIGEN_EV8010_CLEAR
+0x00E7	EVENT					FSYS_GOKIGEN_EV0440_CLEAR
+0x00E8	EVENT					FSYS_GOKIGEN_EV0960_CLEAR
+0x00E9	EVENT					FSYS_GOKIGEN_EV1230_CLEAR
+0x00EA	EVENT					FSYS_GOKIGEN_GAME_CLEAR
 0x00EB	SIDE EVENT					FSYS_BUDDY_POKEMON_ENABLE
-0x00EC						FSYS_SPECIAL_BGM_SIRUHU
-0x00ED						FSYS_SPECIAL_BGM_SILENT
-0x00EE						FSYS_COMMON_01
-0x00EF						FSYS_COMMON_02
-0x00F0						FSYS_COMMON_03
-0x00F1						FSYS_COMMON_04
-0x00F2						FSYS_COMMON_05
-0x00F3						FSYS_COMMON_06
-0x00F4						FSYS_COMMON_07
-0x00F5						FSYS_COMMON_08
-0x00F6						FSYS_COMMON_09
-0x00F7						FSYS_COMMON_10
-0x00F8						FSYS_COMMON_11
-0x00F9						FSYS_COMMON_12
-0x00FA						FSYS_COMMON_13
-0x00FB						FSYS_COMMON_14
-0x00FC						FSYS_COMMON_15
-0x00FD						FSYS_COMMON_16
-0x00FE						FSYS_COMMON_17
-0x00FF						FSYS_COMMON_18
-0x0100						FSYS_COMMON_19
-0x0101						FSYS_COMMON_20
+0x00EC	EVENT					FSYS_SPECIAL_BGM_SIRUHU
+0x00ED	EVENT					FSYS_SPECIAL_BGM_SILENT
+0x00EE	EVENT					FSYS_COMMON_01
+0x00EF	EVENT					FSYS_COMMON_02
+0x00F0	EVENT					FSYS_COMMON_03
+0x00F1	EVENT					FSYS_COMMON_04
+0x00F2	EVENT					FSYS_COMMON_05
+0x00F3	EVENT					FSYS_COMMON_06
+0x00F4	EVENT					FSYS_COMMON_07
+0x00F5	EVENT					FSYS_COMMON_08
+0x00F6	EVENT					FSYS_COMMON_09
+0x00F7	EVENT					FSYS_COMMON_10
+0x00F8	EVENT					FSYS_COMMON_11
+0x00F9	EVENT					FSYS_COMMON_12
+0x00FA	EVENT					FSYS_COMMON_13
+0x00FB	EVENT					FSYS_COMMON_14
+0x00FC	EVENT					FSYS_COMMON_15
+0x00FD	EVENT					FSYS_COMMON_16
+0x00FE	EVENT					FSYS_COMMON_17
+0x00FF	EVENT					FSYS_COMMON_18
+0x0100	EVENT					FSYS_COMMON_19
+0x0101	EVENT					FSYS_COMMON_20
 0x0102						
 0x0103						
 0x0104						
@@ -639,12 +639,12 @@
 0x027D						
 0x027E						
 0x027F						
-0x0280						outdoor_Item
-0x0281						outdoor_HideItem
-0x0282						outdoor_Chara
-0x0283						outdoor_adultf
-0x0284						outdoor_tr0003_rival
-0x0285						indoor_tr0061_adultm
+0x0280	EVENT					outdoor_Item
+0x0281	EVENT					outdoor_HideItem
+0x0282	EVENT					outdoor_Chara
+0x0283	EVENT					outdoor_adultf
+0x0284	EVENT					outdoor_tr0003_rival
+0x0285	EVENT					indoor_tr0061_adultm
 0x0286	FIELD ITEM	Route 23		Golden Razz Berry (x5)		road023_Item
 0x0287	FIELD ITEM	Route 23		Golden Nanab Berry (x5)		road023_Item_0
 0x0288	FIELD ITEM	Route 23		Golden Pinap Berry (x3)		road023_Item_1
@@ -658,7 +658,7 @@
 0x0290	EVENT	Route 23				road023_tr0075_guard_3
 0x0291	EVENT	Route 23				road023_tr0036_01_swimmerm
 0x0292	EVENT	Route 23				road023_tr0036_01_swimmerm_0
-0x0293						town010_tr0022_red
+0x0293	EVENT					town010_tr0022_red
 0x0294	EVENT	Route 1				road001_tr0071_clerkm
 0x0295	EVENT	Route 1				road001_tr0057_childm
 0x0296	HIDDEN ITEM	Route 1		Razz Berry (Partner Findings)		road001_PartnerStop
@@ -933,16 +933,16 @@
 0x03A3	FIELD ITEM	Route 15		Ultra Ball (x3)		road015_1_Item_1
 0x03A4	HIDDEN ITEM	Route 15		Golden Nanab Berry		road015_1_HideItem
 0x03A5	HIDDEN ITEM	Route 15		Silver Pinap Berry		road015_1_PartnerStop
-0x03A6						town005_tr0059_youngm
-0x03A7						town005_tr0061_adultm
-0x03A8						town005_tr0060_youngf
-0x03A9						town005_pm0104_karakara
-0x03AA						town005_tr0016_musashi
-0x03AB						town005_tr0017_kojiro
-0x03AC						town005_pm0052_nyarth
-0x03AD						town005_tr0065_oldf
-0x03AE						town005_pm0029_nidoranF
-0x03AF						town005_tr0058_childf
+0x03A6	EVENT					town005_tr0059_youngm
+0x03A7	EVENT					town005_tr0061_adultm
+0x03A8	EVENT					town005_tr0060_youngf
+0x03A9	EVENT					town005_pm0104_karakara
+0x03AA	EVENT					town005_tr0016_musashi
+0x03AB	EVENT					town005_tr0017_kojiro
+0x03AC	EVENT					town005_pm0052_nyarth
+0x03AD	EVENT					town005_tr0065_oldf
+0x03AE	EVENT					town005_pm0029_nidoranF
+0x03AF	EVENT					town005_tr0058_childf
 0x03B0	HIDDEN ITEM					town005_PartnerStop
 0x03B1	FIELD ITEM	Route 6		Super Potion		road006_Item
 0x03B2	FIELD ITEM	Route 6		Paralyze Heal		road006_Item_0
@@ -999,15 +999,15 @@
 0x03E5	EVENT	Viridian Forest				forest001_tr0027_shortpants
 0x03E6	HIDDEN ITEM	Viridian Forest				forest001_PartnerStop
 0x03E7	HIDDEN ITEM	Viridian Forest				forest001_PartnerStop_0
-0x03E8		Route 2				r002g0101_tr0060_youngf
-0x03E9		Route 2				r002g0101_tr0084_juveniles
-0x03EA		Route 2				r002g0201_tr0059_youngm
-0x03EB		Route 2				r002g0201_tr0064_oldm
-0x03EC		Route 2				r002g0201_tr0029_elitem
-0x03ED		Route 2				r002g0301_tr0030_elitef
-0x03EE		Route 2				r002g0301_tr0057_childm
-0x03EF		Route 2				r002r0101_tr0086_nresearcher
-0x03F0		Route 2				r002r0101_tr0057_childm
+0x03E8	EVENT	Route 2				r002g0101_tr0060_youngf
+0x03E9	EVENT	Route 2				r002g0101_tr0084_juveniles
+0x03EA	EVENT	Route 2				r002g0201_tr0059_youngm
+0x03EB	EVENT	Route 2				r002g0201_tr0064_oldm
+0x03EC	EVENT	Route 2				r002g0201_tr0029_elitem
+0x03ED	EVENT	Route 2				r002g0301_tr0030_elitef
+0x03EE	EVENT	Route 2				r002g0301_tr0057_childm
+0x03EF	EVENT	Route 2				r002r0101_tr0086_nresearcher
+0x03F0	EVENT	Route 2				r002r0101_tr0057_childm
 0x03F1	FIELD ITEM	Mt. Moon	1F	Repel		r004d0101_Item
 0x03F2	FIELD ITEM	Mt. Moon	1F	Potion		r004d0101_Item_0
 0x03F3	FIELD ITEM	Mt. Moon	1F	Awakening		r004d0101_Item_1
@@ -1037,12 +1037,12 @@
 0x040B	HIDDEN ITEM	Mt. Moon	B2F			r004d0103_PartnerStop
 0x040C	HIDDEN ITEM	Mt. Moon	B2F			r004d0103_PartnerStop_0
 0x040D	HIDDEN ITEM	Mt. Moon	B2F			r004d0103_PartnerStop_1
-0x040E						r005r0101_tr0064_oldm
-0x040F						r005r0101_tr0065_oldf
-0x0410						r005u0101_tr0066_fat
-0x0411						r006u0101_tr0063_adultf
-0x0412						r007u0101_tr0033_woman
-0x0413						r008u0101_tr0067_middlem
+0x040E	EVENT					r005r0101_tr0064_oldm
+0x040F	EVENT					r005r0101_tr0065_oldf
+0x0410	EVENT					r005u0101_tr0066_fat
+0x0411	EVENT					r006u0101_tr0063_adultf
+0x0412	EVENT					r007u0101_tr0033_woman
+0x0413	EVENT					r008u0101_tr0067_middlem
 0x0414	FIELD ITEM	Rock Tunnel	1F	Repel		r010d0101_Item
 0x0415	FIELD ITEM	Rock Tunnel	1F	Escape Rope		r010d0101_Item_0
 0x0416	FIELD ITEM	Rock Tunnel	1F	Super Potion		r010d0101_Item_1
@@ -1091,34 +1091,34 @@
 0x0441	HIDDEN ITEM	Power Plant				r010r0101_PartnerStop_2
 0x0442	HIDDEN ITEM	Power Plant				r010r0101_PartnerStop_3
 0x0443	HIDDEN ITEM	Power Plant				r010r0101_PartnerStop_4
-0x0444						r011d0101_tr0042_engineer
-0x0445						r011d0101_pm0066_wanriky
-0x0446						r011d0101_pm0066_wanriky_0
-0x0447						r011d0101_pm0066_wanriky_1
-0x0448						r011d0102_tr0064_oldm
-0x0449						r011d0103_tr0067_middlem
-0x044A						r011g0101_tr0075_guard
-0x044B						r011g0101_tr0075_guard_0
-0x044C						r011g0102_tr0044_researcher
-0x044D						r011g0102_tr0033_woman
-0x044E						r012g0101_tr0075_guard
-0x044F						r012g0102_tr0084_juveniles
-0x0450						r012g0102_tr0059_youngm
-0x0451						r012r0101_tr0064_oldm
-0x0452						r015g0101_tr0075_guard
-0x0453						r015g0102_tr0044_researcher
-0x0454						r015g0102_tr0061_adultm
-0x0455						r015g0102_tr0034_boyscout
-0x0456						r016g0101_tr0075_guard
-0x0457						r016g0101_tr0075_guard_0
-0x0458						r016g0102_tr0044_researcher
-0x0459						r016g0102_tr0083_juvenilem
-0x045A						r016g0102_tr0084_juveniles
-0x045B						r016g0201_tr0064_oldm
-0x045C						r016r0101_tr0060_youngf
-0x045D						r016r0101_pm0021_onisuzume
-0x045E						r018g0101_tr0075_guard
-0x045F						r018g0102_tr0035_girlscout
+0x0444	EVENT					r011d0101_tr0042_engineer
+0x0445	EVENT					r011d0101_pm0066_wanriky
+0x0446	EVENT					r011d0101_pm0066_wanriky_0
+0x0447	EVENT					r011d0101_pm0066_wanriky_1
+0x0448	EVENT					r011d0102_tr0064_oldm
+0x0449	EVENT					r011d0103_tr0067_middlem
+0x044A	EVENT					r011g0101_tr0075_guard
+0x044B	EVENT					r011g0101_tr0075_guard_0
+0x044C	EVENT					r011g0102_tr0044_researcher
+0x044D	EVENT					r011g0102_tr0033_woman
+0x044E	EVENT					r012g0101_tr0075_guard
+0x044F	EVENT					r012g0102_tr0084_juveniles
+0x0450	EVENT					r012g0102_tr0059_youngm
+0x0451	EVENT					r012r0101_tr0064_oldm
+0x0452	EVENT					r015g0101_tr0075_guard
+0x0453	EVENT					r015g0102_tr0044_researcher
+0x0454	EVENT					r015g0102_tr0061_adultm
+0x0455	EVENT					r015g0102_tr0034_boyscout
+0x0456	EVENT					r016g0101_tr0075_guard
+0x0457	EVENT					r016g0101_tr0075_guard_0
+0x0458	EVENT					r016g0102_tr0044_researcher
+0x0459	EVENT					r016g0102_tr0083_juvenilem
+0x045A	EVENT					r016g0102_tr0084_juveniles
+0x045B	EVENT					r016g0201_tr0064_oldm
+0x045C	EVENT					r016r0101_tr0060_youngf
+0x045D	EVENT					r016r0101_pm0021_onisuzume
+0x045E	EVENT					r018g0101_tr0075_guard
+0x045F	EVENT					r018g0102_tr0035_girlscout
 0x0460	FIELD ITEM	Seafoam Islands	1F	Ice Heal		r020d0101_Item
 0x0461	FIELD ITEM	Seafoam Islands	1F	Escape Rope		r020d0101_Item_0
 0x0462	HIDDEN ITEM	Seafoam Islands	1F	Heart Scale		r020d0101_HideItem
@@ -1167,54 +1167,54 @@
 0x048D	HIDDEN ITEM	Victory Road	3F			r023d0103_PartnerStop_1
 0x048E	EVENT	Route 25				r025r0101_tr0006_masaki
 0x048F	EVENT	Route 25				r025r0101_pm0033_nidorino
-0x0490						s001r0101_tr0087_gostaff
-0x0491						s001r0101_tr0033_woman
-0x0492						s001r0101_tr0028_04_miniskirt
-0x0493						s001r0101_tr0057_04_childm
-0x0494						s001r0101_tr0084_04_juveniles
-0x0495						t001r0101_tr0005_mother
-0x0496						t001r0201_tr0060_youngf
-0x0497						t001r0301_tr0086_nresearcher
-0x0498						t001r0301_tr0063_adultf
-0x0499						t001r0301_tr0086_nresearcher_0
-0x049A						t001r0301_tr0023_green
-0x049B						t001r0301_monsball_1
-0x049C						t002gym01_tr0015_rocketboss
-0x049D						t002gym01_tr0070_gym
-0x049E						t002gym01_tr0023_green
-0x049F						t002r0101_tr0084_juveniles
-0x04A0						t002r0101_tr0063_adultf
-0x04A1						t002r0101_tr0058_childf
-0x04A2						t002r0101_tr0057_childm
-0x04A3						t002r0201_tr0067_middlem
-0x04A4						t002r0201_tr0058_childf
-0x04A5						t002r0201_pm0021_onisuzume
-0x04A6						t003gym01_tr0027_shortpants
-0x04A7						t003gym01_tr0027_shortpants_0
-0x04A8						t003gym01_tr0028_miniskirt_0
-0x04A9						t003gym01_tr0061_adultm
-0x04AA						t003gym01_tr0061_adultm_0
-0x04AB						t003gym01_tr0008_rock
-0x04AC						t003gym01_tr0070_gym
-0x04AD						t003gym01_tr0034_boyscout
-0x04AE						t003gym01_tr0035_girlscout
-0x04AF						t003r0101_tr0064_oldm
-0x04B0						t003r0101_tr0044_researcher
-0x04B1						t003r0101_tr0044_researcher_0
-0x04B2						t003r0101_tr0054_scientist
-0x04B3						t003r0101_tr0044_researcher_1
+0x0490	EVENT					s001r0101_tr0087_gostaff
+0x0491	EVENT					s001r0101_tr0033_woman
+0x0492	EVENT					s001r0101_tr0028_04_miniskirt
+0x0493	EVENT					s001r0101_tr0057_04_childm
+0x0494	EVENT					s001r0101_tr0084_04_juveniles
+0x0495	EVENT					t001r0101_tr0005_mother
+0x0496	EVENT					t001r0201_tr0060_youngf
+0x0497	EVENT					t001r0301_tr0086_nresearcher
+0x0498	EVENT					t001r0301_tr0063_adultf
+0x0499	EVENT					t001r0301_tr0086_nresearcher_0
+0x049A	EVENT					t001r0301_tr0023_green
+0x049B	EVENT					t001r0301_monsball_1
+0x049C	EVENT					t002gym01_tr0015_rocketboss
+0x049D	EVENT					t002gym01_tr0070_gym
+0x049E	EVENT					t002gym01_tr0023_green
+0x049F	EVENT					t002r0101_tr0084_juveniles
+0x04A0	EVENT					t002r0101_tr0063_adultf
+0x04A1	EVENT					t002r0101_tr0058_childf
+0x04A2	EVENT					t002r0101_tr0057_childm
+0x04A3	EVENT					t002r0201_tr0067_middlem
+0x04A4	EVENT					t002r0201_tr0058_childf
+0x04A5	EVENT					t002r0201_pm0021_onisuzume
+0x04A6	EVENT					t003gym01_tr0027_shortpants
+0x04A7	EVENT					t003gym01_tr0027_shortpants_0
+0x04A8	EVENT					t003gym01_tr0028_miniskirt_0
+0x04A9	EVENT					t003gym01_tr0061_adultm
+0x04AA	EVENT					t003gym01_tr0061_adultm_0
+0x04AB	EVENT					t003gym01_tr0008_rock
+0x04AC	EVENT					t003gym01_tr0070_gym
+0x04AD	EVENT					t003gym01_tr0034_boyscout
+0x04AE	EVENT					t003gym01_tr0035_girlscout
+0x04AF	EVENT					t003r0101_tr0064_oldm
+0x04B0	EVENT					t003r0101_tr0044_researcher
+0x04B1	EVENT					t003r0101_tr0044_researcher_0
+0x04B2	EVENT					t003r0101_tr0054_scientist
+0x04B3	EVENT					t003r0101_tr0044_researcher_1
 0x04B4	HIDDEN ITEM					t003r0101_PartnerStop
-0x04B5						t003r0102_tr0086_nresearcher
-0x04B6						t003r0102_tr0064_oldm
-0x04B7						t003r0102_tr0083_juvenilem
-0x04B8						t003r0102_tr0084_juveniles
-0x04B9						t003r0102_tr0066_fat
+0x04B5	EVENT					t003r0102_tr0086_nresearcher
+0x04B6	EVENT					t003r0102_tr0064_oldm
+0x04B7	EVENT					t003r0102_tr0083_juvenilem
+0x04B8	EVENT					t003r0102_tr0084_juveniles
+0x04B9	EVENT					t003r0102_tr0066_fat
 0x04BA	SIDE EVENT	Pewter City	Museum	Bring a partner that can evolve with a Moon Stone (Partner Findings)		t003r0102_PartnerStop
-0x04BB						t003r0201_tr0057_childm
-0x04BC						t003r0201_tr0067_middlem
-0x04BD						t003r0201_pm0032_nidoranM
-0x04BE						t003r0301_tr0064_oldm
-0x04BF						t003r0301_tr0026_bugcatcher
+0x04BB	EVENT					t003r0201_tr0057_childm
+0x04BC	EVENT					t003r0201_tr0067_middlem
+0x04BD	EVENT					t003r0201_pm0032_nidoranM
+0x04BE	EVENT					t003r0301_tr0064_oldm
+0x04BF	EVENT					t003r0301_tr0026_bugcatcher
 0x04C0	FIELD ITEM	Cerulean Cave	1F	Max Revive		t004d0101_Item
 0x04C1	FIELD ITEM	Cerulean Cave	1F	Max Repel		t004d0101_Item_0
 0x04C2	FIELD ITEM	Cerulean Cave	1F	Full Heal		t004d0101_Item_1
@@ -1245,38 +1245,38 @@
 0x04DB	EVENT	Cerulean Cave	B1F			t004d0103_pm0150_mewtwo
 0x04DC	HIDDEN ITEM	Cerulean Cave	B1F			t004d0103_PartnerStop
 0x04DD	HIDDEN ITEM	Cerulean Cave	B1F	Stardust (Partner Findings)		t004d0103_PartnerStop_0
-0x04DE						t004gym01_tr0009_water
-0x04DF						t004gym01_tr0070_gym
-0x04E0						t004gym01_tr0037_botan
-0x04E1						t004gym01_tr0037_ayame
-0x04E2						t004gym01_tr0037_sakura
-0x04E3						t004gym01_tr0028_miniskirt
-0x04E4						t004gym01_tr0035_girlscout
-0x04E5						t004gym01_tr0033_woman
-0x04E6						t004gym01_tr0033_woman_0
-0x04E7						t004gym01_tr0028_miniskirt_0
-0x04E8						t004gym01_tr0059_youngm
-0x04E9						t004gym01_tr0060_youngf
-0x04EA						t004gym01_tr0027_shortpants
-0x04EB						t004r0101_tr0067_middlem
-0x04EC						t004r0101_tr0063_adultf
-0x04ED						t004r0201_tr0067_middlem
-0x04EE						t004r0301_pm0095_iwark
-0x04EF						t004r0301_tr0068_middlef
-0x04F0						t004r0401_tr0057_childm
-0x04F1						t004r0401_tr0060_youngf
-0x04F2						t004r0401_tr0066_fat
-0x04F3						t004r0501_pm0001_fushigidane
-0x04F4						t004r0501_tr0063_adultf
-0x04F5						t004r0501_pm0027_sand
-0x04F6						t004r0501_pm0043_nazonokusa
-0x04F7						t004r0601_tr0032_wondervogel
-0x04F8						t004r0601_pm0035_pippi
-0x04F9						t005r0101_tr0059_youngm
-0x04FA						t005r0101_tr0084_juveniles
-0x04FB						t005r0101_pm0033_nidorino
-0x04FC						t005r0101_pm0054_koduck
-0x04FD						t005r0201_tr0060_youngf
+0x04DE	EVENT					t004gym01_tr0009_water
+0x04DF	EVENT					t004gym01_tr0070_gym
+0x04E0	EVENT					t004gym01_tr0037_botan
+0x04E1	EVENT					t004gym01_tr0037_ayame
+0x04E2	EVENT					t004gym01_tr0037_sakura
+0x04E3	EVENT					t004gym01_tr0028_miniskirt
+0x04E4	EVENT					t004gym01_tr0035_girlscout
+0x04E5	EVENT					t004gym01_tr0033_woman
+0x04E6	EVENT					t004gym01_tr0033_woman_0
+0x04E7	EVENT					t004gym01_tr0028_miniskirt_0
+0x04E8	EVENT					t004gym01_tr0059_youngm
+0x04E9	EVENT					t004gym01_tr0060_youngf
+0x04EA	EVENT					t004gym01_tr0027_shortpants
+0x04EB	EVENT					t004r0101_tr0067_middlem
+0x04EC	EVENT					t004r0101_tr0063_adultf
+0x04ED	EVENT					t004r0201_tr0067_middlem
+0x04EE	EVENT					t004r0301_pm0095_iwark
+0x04EF	EVENT					t004r0301_tr0068_middlef
+0x04F0	EVENT					t004r0401_tr0057_childm
+0x04F1	EVENT					t004r0401_tr0060_youngf
+0x04F2	EVENT					t004r0401_tr0066_fat
+0x04F3	EVENT					t004r0501_pm0001_fushigidane
+0x04F4	EVENT					t004r0501_tr0063_adultf
+0x04F5	EVENT					t004r0501_pm0027_sand
+0x04F6	EVENT					t004r0501_pm0043_nazonokusa
+0x04F7	EVENT					t004r0601_tr0032_wondervogel
+0x04F8	EVENT					t004r0601_pm0035_pippi
+0x04F9	EVENT					t005r0101_tr0059_youngm
+0x04FA	EVENT					t005r0101_tr0084_juveniles
+0x04FB	EVENT					t005r0101_pm0033_nidorino
+0x04FC	EVENT					t005r0101_pm0054_koduck
+0x04FD	EVENT					t005r0201_tr0060_youngf
 0x04FE	EVENT	Pokémon Tower	1F			t005r0301_tr0065_oldf
 0x04FF	EVENT	Pokémon Tower	1F			t005r0301_tr0068_middlef
 0x0500	EVENT	Pokémon Tower	1F			t005r0301_tr0067_middlem
@@ -1313,33 +1313,33 @@
 0x051F	HIDDEN ITEM	Pokémon Tower	6F	PP Up		t005r0306_HideItem
 0x0520	EVENT	Pokémon Tower	7F			t005r0307_pm0052_nyarth
 0x0521	EVENT					t005r0401_tr0064_oldm
-0x0522						t006gym01_tr0010_volt
-0x0523						t006gym01_tr0070_gym
-0x0524						t006gym01_tr0058_childf
-0x0525						t006gym01_tr0059_youngm
-0x0526						t006gym01_tr0035_girlscout
-0x0527						t006gym01_tr0045_sailor
-0x0528						t006gym01_tr0045_sailor_0
-0x0529						t006gym01_tr0028_miniskirt
-0x052A						t006gym01_tr0027_shortpants
-0x052B						t006gym01_tr0061_adultm
-0x052C						t006gym01_tr0068_middlef
-0x052D						t006gym01_tr0065_oldf
-0x052E						t006gym01_tr0034_boyscout
-0x052F						t006gym01_tr0067_middlem
-0x0530						t006gym01_tr0027_shortpants_0
-0x0531						t006gym01_tr0033_woman
-0x0532						t006gym01_tr0045_sailor_1
-0x0533						t006r0101_tr0066_fat
-0x0534						t006r0101_tr0060_youngf
-0x0535						t006r0101_tr0063_adultf
-0x0536						t006r0101_tr0053_gentleman
-0x0537						t006r0101_pm0025_pikachu
-0x0538						t006r0101_pm0086_pawou
-0x0539						t006r0201_tr0028_miniskirt
-0x053A						t006r0201_tr0027_shortpants
-0x053B						t006r0201_tr0035_girlscout
-0x053C						t006r0201_tr0029_elitem
+0x0522	EVENT					t006gym01_tr0010_volt
+0x0523	EVENT					t006gym01_tr0070_gym
+0x0524	EVENT					t006gym01_tr0058_childf
+0x0525	EVENT					t006gym01_tr0059_youngm
+0x0526	EVENT					t006gym01_tr0035_girlscout
+0x0527	EVENT					t006gym01_tr0045_sailor
+0x0528	EVENT					t006gym01_tr0045_sailor_0
+0x0529	EVENT					t006gym01_tr0028_miniskirt
+0x052A	EVENT					t006gym01_tr0027_shortpants
+0x052B	EVENT					t006gym01_tr0061_adultm
+0x052C	EVENT					t006gym01_tr0068_middlef
+0x052D	EVENT					t006gym01_tr0065_oldf
+0x052E	EVENT					t006gym01_tr0034_boyscout
+0x052F	EVENT					t006gym01_tr0067_middlem
+0x0530	EVENT					t006gym01_tr0027_shortpants_0
+0x0531	EVENT					t006gym01_tr0033_woman
+0x0532	EVENT					t006gym01_tr0045_sailor_1
+0x0533	EVENT					t006r0101_tr0066_fat
+0x0534	EVENT					t006r0101_tr0060_youngf
+0x0535	EVENT					t006r0101_tr0063_adultf
+0x0536	EVENT					t006r0101_tr0053_gentleman
+0x0537	EVENT					t006r0101_pm0025_pikachu
+0x0538	EVENT					t006r0101_pm0086_pawou
+0x0539	EVENT					t006r0201_tr0028_miniskirt
+0x053A	EVENT					t006r0201_tr0027_shortpants
+0x053B	EVENT					t006r0201_tr0035_girlscout
+0x053C	EVENT					t006r0201_tr0029_elitem
 0x053D	EVENT	S.S. Anne				t006r0302_tr0045_sailor
 0x053E	EVENT	S.S. Anne				t006r0302_tr0045_sailor_0
 0x053F	EVENT	S.S. Anne				t006r0303_tr0045_sailor
@@ -1380,86 +1380,86 @@
 0x0562	FIELD ITEM	S.S. Anne	B1F	Elixir		t006r0324_Item
 0x0563	EVENT	S.S. Anne	B1F			t006r0326_tr0045_sailor
 0x0564	EVENT	S.S. Anne	B1F			t006r0326_pm0067_goriky
-0x0565						t006r0401_tr0043_birdkeeper
-0x0566						t006r0401_tr0028_miniskirt
-0x0567						t006r0401_pm0029_nidoranF
-0x0568						t006r0401_pm0016_poppo
-0x0569						t006r0501_tr0053_gentleman
-0x056A						t006r0501_pm0083_kamonegi
-0x056B						t007gym01_tr0011_grass
-0x056C						t007gym01_tr0028_miniskirt_1
-0x056D						t007r0101_tr0065_oldf
-0x056E						t007r0101_pm0052_nyarth
-0x056F						t007r0101_pm0029_nidoranF
-0x0570						t007r0101_pm0035_pippi
-0x0571						t007r0102_tr0061_adultm
-0x0572						t007r0102_tr0079_staffm
-0x0573						t007r0103_tr0054_scientist
-0x0574						t007r0103_tr0039_pokemaniac
-0x0575						t007r0103_tr0066_fat
-0x0576						t007r0103_tr0061_adultm
-0x0577						t007r0103_tr0066_fat_0
+0x0565	EVENT					t006r0401_tr0043_birdkeeper
+0x0566	EVENT					t006r0401_tr0028_miniskirt
+0x0567	EVENT					t006r0401_pm0029_nidoranF
+0x0568	EVENT					t006r0401_pm0016_poppo
+0x0569	EVENT					t006r0501_tr0053_gentleman
+0x056A	EVENT					t006r0501_pm0083_kamonegi
+0x056B	EVENT					t007gym01_tr0011_grass
+0x056C	EVENT					t007gym01_tr0028_miniskirt_1
+0x056D	EVENT					t007r0101_tr0065_oldf
+0x056E	EVENT					t007r0101_pm0052_nyarth
+0x056F	EVENT					t007r0101_pm0029_nidoranF
+0x0570	EVENT					t007r0101_pm0035_pippi
+0x0571	EVENT					t007r0102_tr0061_adultm
+0x0572	EVENT					t007r0102_tr0079_staffm
+0x0573	EVENT					t007r0103_tr0054_scientist
+0x0574	EVENT					t007r0103_tr0039_pokemaniac
+0x0575	EVENT					t007r0103_tr0066_fat
+0x0576	EVENT					t007r0103_tr0061_adultm
+0x0577	EVENT					t007r0103_tr0066_fat_0
 0x0578	FIELD ITEM	Celadon City	Condominiums Rooftop	TM44 (Play Rough)		t007r0105_Item
-0x0579						t007r0105_tr0062_muscle
-0x057A						t007r0301_tr0088_cook
-0x057B						t007r0301_tr0068_middlef
-0x057C						t007r0301_tr0067_middlem
-0x057D						t007r0301_tr0066_fat
-0x057E						t007r0301_tr0061_adultm
-0x057F						t007r0401_tr0065_oldf
-0x0580						t007r0401_tr0063_adultf
-0x0581						t007r0401_tr0061_adultm
-0x0582						t007r0401_tr0057_childm
-0x0583						t007r0501_tr0063_adultf
-0x0584						t007r0501_tr0061_adultm
-0x0585						t007r0501_tr0065_oldf
-0x0586						t007r0501_tr0060_youngf
-0x0587						t007r0501_tr0059_youngm
-0x0588						t007r0502_tr0071_clerkm
-0x0589						t007r0502_tr0067_middlem
-0x058A						t007r0502_tr0030_elitef
-0x058B						t007r0502_tr0034_boyscout
-0x058C						t007r0503_tr0071_clerkm
-0x058D						t007r0503_tr0083_juvenilem
-0x058E						t007r0503_tr0083_juvenilem_0
-0x058F						t007r0503_tr0058_childf
-0x0590						t007r0504_tr0071_clerkm
-0x0591						t007r0504_tr0041_denkigroup
-0x0592						t007r0504_tr0034_boyscout
-0x0593						t007r0504_tr0079_staffm
-0x0594						t007r0505_tr0072_clerkf
-0x0595						t007r0505_tr0072_clerkf_0
-0x0596						t007r0505_tr0072_clerkf_1
-0x0597						t007r0505_tr0072_clerkf_2
-0x0598						t007r0505_tr0053_gentleman
-0x0599						t007r0505_tr0084_juveniles
-0x059A						t007r0505_tr0063_adultf
+0x0579	EVENT					t007r0105_tr0062_muscle
+0x057A	EVENT					t007r0301_tr0088_cook
+0x057B	EVENT					t007r0301_tr0068_middlef
+0x057C	EVENT					t007r0301_tr0067_middlem
+0x057D	EVENT					t007r0301_tr0066_fat
+0x057E	EVENT					t007r0301_tr0061_adultm
+0x057F	EVENT					t007r0401_tr0065_oldf
+0x0580	EVENT					t007r0401_tr0063_adultf
+0x0581	EVENT					t007r0401_tr0061_adultm
+0x0582	EVENT					t007r0401_tr0057_childm
+0x0583	EVENT					t007r0501_tr0063_adultf
+0x0584	EVENT					t007r0501_tr0061_adultm
+0x0585	EVENT					t007r0501_tr0065_oldf
+0x0586	EVENT					t007r0501_tr0060_youngf
+0x0587	EVENT					t007r0501_tr0059_youngm
+0x0588	EVENT					t007r0502_tr0071_clerkm
+0x0589	EVENT					t007r0502_tr0067_middlem
+0x058A	EVENT					t007r0502_tr0030_elitef
+0x058B	EVENT					t007r0502_tr0034_boyscout
+0x058C	EVENT					t007r0503_tr0071_clerkm
+0x058D	EVENT					t007r0503_tr0083_juvenilem
+0x058E	EVENT					t007r0503_tr0083_juvenilem_0
+0x058F	EVENT					t007r0503_tr0058_childf
+0x0590	EVENT					t007r0504_tr0071_clerkm
+0x0591	EVENT					t007r0504_tr0041_denkigroup
+0x0592	EVENT					t007r0504_tr0034_boyscout
+0x0593	EVENT					t007r0504_tr0079_staffm
+0x0594	EVENT					t007r0505_tr0072_clerkf
+0x0595	EVENT					t007r0505_tr0072_clerkf_0
+0x0596	EVENT					t007r0505_tr0072_clerkf_1
+0x0597	EVENT					t007r0505_tr0072_clerkf_2
+0x0598	EVENT					t007r0505_tr0053_gentleman
+0x0599	EVENT					t007r0505_tr0084_juveniles
+0x059A	EVENT					t007r0505_tr0063_adultf
 0x059B	HIDDEN ITEM					t007r0505_PartnerStop
 0x059C	HIDDEN ITEM					t007r0505_PartnerStop_0
-0x059D						t007r0506_tr0058_childf
-0x059E						t007r0506_tr0059_youngm
-0x059F						t007r0506_pm0016_poppo
-0x05A0						t007r0506_pm0016_poppo_0
+0x059D	EVENT					t007r0506_tr0058_childf
+0x059E	EVENT					t007r0506_tr0059_youngm
+0x059F	EVENT					t007r0506_pm0016_poppo
+0x05A0	EVENT					t007r0506_pm0016_poppo_0
 0x05A1	HIDDEN ITEM	Celadon City	Game Corner	Health Candy		t007r0601_HideItem
 0x05A2	HIDDEN ITEM	Celadon City	Game Corner	PP Max		t007r0601_HideItem_0
 0x05A3	HIDDEN ITEM	Celadon City	Game Corner	Tough Candy		t007r0601_HideItem_1
 0x05A4	HIDDEN ITEM	Celadon City	Game Corner	Nanab Berry		t007r0601_HideItem_2
 0x05A5	HIDDEN ITEM	Celadon City	Game Corner	Courage Candy		t007r0601_HideItem_3
 0x05A6	HIDDEN ITEM	Celadon City	Game Corner	Pinap Berry		t007r0601_HideItem_4
-0x05A7						t007r0601_tr0070_gym
-0x05A8						t007r0601_tr0067_middlem
-0x05A9						t007r0601_tr0051_gambler
-0x05AA						t007r0601_tr0055_rocketm
-0x05AB						t007r0601_tr0016_musashi
-0x05AC						t007r0601_tr0017_kojiro
-0x05AD						t007r0601_pm0052_nyarth
-0x05AE						t007r0601_tr0054_scientist
-0x05AF						t007r0601_tr0033_woman
-0x05B0						t007r0601_pm0120_hitodeman
-0x05B1						t007r0601_tr0068_middlef
-0x05B2						t007r0601_tr0031_karate
-0x05B3						t007r0601_tr0041_denkigroup
-0x05B4						t007r0701_tr0064_oldm
+0x05A7	EVENT					t007r0601_tr0070_gym
+0x05A8	EVENT					t007r0601_tr0067_middlem
+0x05A9	EVENT					t007r0601_tr0051_gambler
+0x05AA	EVENT					t007r0601_tr0055_rocketm
+0x05AB	EVENT					t007r0601_tr0016_musashi
+0x05AC	EVENT					t007r0601_tr0017_kojiro
+0x05AD	EVENT					t007r0601_pm0052_nyarth
+0x05AE	EVENT					t007r0601_tr0054_scientist
+0x05AF	EVENT					t007r0601_tr0033_woman
+0x05B0	EVENT					t007r0601_pm0120_hitodeman
+0x05B1	EVENT					t007r0601_tr0068_middlef
+0x05B2	EVENT					t007r0601_tr0031_karate
+0x05B3	EVENT					t007r0601_tr0041_denkigroup
+0x05B4	EVENT					t007r0701_tr0064_oldm
 0x05B5	FIELD ITEM	Team Rocked Hideout	B1F	Ultra Ball (x5)		t007r0801_Item
 0x05B6	HIDDEN ITEM	Team Rocked Hideout	B1F	Full Heal		t007r0801_HideItem
 0x05B7	FIELD ITEM	Team Rocked Hideout	B1F	Hyper Potion		t007r0801_Item_0
@@ -1490,87 +1490,87 @@
 0x05D0	EVENT	Team Rocked Hideout	B4F			t007r0804_pm0104_karakara
 0x05D1	EVENT	Team Rocked Hideout	B4F			t007r0804_pm0052_nyarth
 0x05D2	EVENT	Team Rocked Hideout	B4F			t007r0804_ball_mons_0
-0x05D3						t008gym01_tr0012_poison
-0x05D4						t008gym01_tr0064_oldm
-0x05D5						t008gym01_tr0064_oldm_0
-0x05D6						t008gym01_tr0066_fat
-0x05D7						t008gym01_tr0067_middlem
-0x05D8						t008gym01_tr0059_youngm
-0x05D9						t008gym01_tr0057_childm
-0x05DA						t008gym01_tr0061_adultm
-0x05DB						t008gym01_tr0061_adultm_0
-0x05DC						t008gym01_tr0029_elitem
-0x05DD						t008gym01_tr0031_karate
-0x05DE						t008gym01_tr0029_elitem_0
-0x05DF						t008gym01_tr0034_boyscout
-0x05E0						t008gym01_tr0027_shortpants
-0x05E1						t008gym01_tr0049_psychic
-0x05E2						t008gym01_tr0059_youngm_0
-0x05E3						t008gym01_tr0067_middlem_0
-0x05E4						t008gym01_tr0066_fat_0
-0x05E5						t008gym01_tr0034_boyscout_0
-0x05E6						t008gym01_tr0027_shortpants_0
-0x05E7						t008gym01_tr0064_oldm_1
-0x05E8						t008gym01_tr0064_oldm_2
-0x05E9						t008gym01_tr0062_muscle
-0x05EA						t008gym01_tr0057_childm_0
-0x05EB						t008gym01_tr0067_middlem_1
-0x05EC						t008gym01_tr0059_youngm_1
-0x05ED						t008gym01_tr0057_childm_1
-0x05EE						t008gym01_tr0029_elitem_1
-0x05EF						t008gym01_tr0034_boyscout_1
-0x05F0						t008gym01_tr0070_gym
-0x05F1						t008gym01_tr0012_poison_0
-0x05F2						t008gym01_tr0012_poison_1
-0x05F3						t008gym01_tr0012_poison_2
-0x05F4						t008gym01_tr0012_poison_3
-0x05F5						t008gym01_tr0012_poison_4
-0x05F6						t008r0101_tr0062_muscle
-0x05F7						t008r0101_tr0062_muscle_0
-0x05F8						t008r0101_tr0042_engineer
-0x05F9						t008r0101_tr0042_engineer_0
-0x05FA						t008r0201_tr0081_safari
-0x05FB						t008r0201_pm0050_digda
-0x05FC						t008r0301_tr0032_wondervogel
-0x05FD						t008r0301_tr0031_karate
-0x05FE						t008r0301_tr0062_muscle
-0x05FF						t008r0301_tr0045_sailor
-0x0600						t008r0401_tr0068_middlef
-0x0601						t008r0401_tr0083_juvenilem
-0x0602						t008r0401_tr0064_oldm
-0x0603						t008r0501_tr0061_adultm
-0x0604						t008r0501_tr0063_adultf
-0x0605						t009gym01_tr0014_fire
-0x0606						t009gym01_tr0054_scientist
-0x0607						t009gym01_tr0038_thief
-0x0608						t009gym01_tr0064_oldm
-0x0609						t009gym01_tr0065_oldf
-0x060A						t009gym01_tr0064_oldm_0
-0x060B						t009gym01_tr0065_oldf_0
-0x060C						t009gym01_tr0057_childm
-0x060D						t009gym01_tr0058_childf
-0x060E						t009gym01_tr0027_shortpants
-0x060F						t009gym01_tr0061_adultm
-0x0610						t009gym01_tr0063_adultf
-0x0611						t009gym01_tr0026_bugcatcher
-0x0612						t009gym01_tr0058_childf_0
-0x0613						t009gym01_tr0070_gym
-0x0614						t009gym01_tr0086_nresearcher
-0x0615						t009r0101_tr0086_nresearcher
-0x0616						t009r0101_tr0086_nresearcher_0
-0x0617						t009r0101_tr0086_nresearcher_1
-0x0618						t009r0102_tr0086_nresearcher
-0x0619						t009r0102_tr0086_nresearcher_0
-0x061A						t009r0102_tr0086_nresearcher_1
-0x061B						t009r0103_tr0086_nresearcher
-0x061C						t009r0103_tr0086_nresearcher_0
-0x061D						t009r0103_tr0086_nresearcher_1
-0x061E						t009r0103_tr0086_nresearcher_2
-0x061F						t009r0103_tr0086_nresearcher_3
-0x0620						t009r0104_tr0044_researcher
-0x0621						t009r0104_tr0086_nresearcher
-0x0622						t009r0104_tr0086_nresearcher_0
-0x0623						t009r0104_tr0086_nresearcher_1
+0x05D3	EVENT					t008gym01_tr0012_poison
+0x05D4	EVENT					t008gym01_tr0064_oldm
+0x05D5	EVENT					t008gym01_tr0064_oldm_0
+0x05D6	EVENT					t008gym01_tr0066_fat
+0x05D7	EVENT					t008gym01_tr0067_middlem
+0x05D8	EVENT					t008gym01_tr0059_youngm
+0x05D9	EVENT					t008gym01_tr0057_childm
+0x05DA	EVENT					t008gym01_tr0061_adultm
+0x05DB	EVENT					t008gym01_tr0061_adultm_0
+0x05DC	EVENT					t008gym01_tr0029_elitem
+0x05DD	EVENT					t008gym01_tr0031_karate
+0x05DE	EVENT					t008gym01_tr0029_elitem_0
+0x05DF	EVENT					t008gym01_tr0034_boyscout
+0x05E0	EVENT					t008gym01_tr0027_shortpants
+0x05E1	EVENT					t008gym01_tr0049_psychic
+0x05E2	EVENT					t008gym01_tr0059_youngm_0
+0x05E3	EVENT					t008gym01_tr0067_middlem_0
+0x05E4	EVENT					t008gym01_tr0066_fat_0
+0x05E5	EVENT					t008gym01_tr0034_boyscout_0
+0x05E6	EVENT					t008gym01_tr0027_shortpants_0
+0x05E7	EVENT					t008gym01_tr0064_oldm_1
+0x05E8	EVENT					t008gym01_tr0064_oldm_2
+0x05E9	EVENT					t008gym01_tr0062_muscle
+0x05EA	EVENT					t008gym01_tr0057_childm_0
+0x05EB	EVENT					t008gym01_tr0067_middlem_1
+0x05EC	EVENT					t008gym01_tr0059_youngm_1
+0x05ED	EVENT					t008gym01_tr0057_childm_1
+0x05EE	EVENT					t008gym01_tr0029_elitem_1
+0x05EF	EVENT					t008gym01_tr0034_boyscout_1
+0x05F0	EVENT					t008gym01_tr0070_gym
+0x05F1	EVENT					t008gym01_tr0012_poison_0
+0x05F2	EVENT					t008gym01_tr0012_poison_1
+0x05F3	EVENT					t008gym01_tr0012_poison_2
+0x05F4	EVENT					t008gym01_tr0012_poison_3
+0x05F5	EVENT					t008gym01_tr0012_poison_4
+0x05F6	EVENT					t008r0101_tr0062_muscle
+0x05F7	EVENT					t008r0101_tr0062_muscle_0
+0x05F8	EVENT					t008r0101_tr0042_engineer
+0x05F9	EVENT					t008r0101_tr0042_engineer_0
+0x05FA	EVENT					t008r0201_tr0081_safari
+0x05FB	EVENT					t008r0201_pm0050_digda
+0x05FC	EVENT					t008r0301_tr0032_wondervogel
+0x05FD	EVENT					t008r0301_tr0031_karate
+0x05FE	EVENT					t008r0301_tr0062_muscle
+0x05FF	EVENT					t008r0301_tr0045_sailor
+0x0600	EVENT					t008r0401_tr0068_middlef
+0x0601	EVENT					t008r0401_tr0083_juvenilem
+0x0602	EVENT					t008r0401_tr0064_oldm
+0x0603	EVENT					t008r0501_tr0061_adultm
+0x0604	EVENT					t008r0501_tr0063_adultf
+0x0605	EVENT					t009gym01_tr0014_fire
+0x0606	EVENT					t009gym01_tr0054_scientist
+0x0607	EVENT					t009gym01_tr0038_thief
+0x0608	EVENT					t009gym01_tr0064_oldm
+0x0609	EVENT					t009gym01_tr0065_oldf
+0x060A	EVENT					t009gym01_tr0064_oldm_0
+0x060B	EVENT					t009gym01_tr0065_oldf_0
+0x060C	EVENT					t009gym01_tr0057_childm
+0x060D	EVENT					t009gym01_tr0058_childf
+0x060E	EVENT					t009gym01_tr0027_shortpants
+0x060F	EVENT					t009gym01_tr0061_adultm
+0x0610	EVENT					t009gym01_tr0063_adultf
+0x0611	EVENT					t009gym01_tr0026_bugcatcher
+0x0612	EVENT					t009gym01_tr0058_childf_0
+0x0613	EVENT					t009gym01_tr0070_gym
+0x0614	EVENT					t009gym01_tr0086_nresearcher
+0x0615	EVENT					t009r0101_tr0086_nresearcher
+0x0616	EVENT					t009r0101_tr0086_nresearcher_0
+0x0617	EVENT					t009r0101_tr0086_nresearcher_1
+0x0618	EVENT					t009r0102_tr0086_nresearcher
+0x0619	EVENT					t009r0102_tr0086_nresearcher_0
+0x061A	EVENT					t009r0102_tr0086_nresearcher_1
+0x061B	EVENT					t009r0103_tr0086_nresearcher
+0x061C	EVENT					t009r0103_tr0086_nresearcher_0
+0x061D	EVENT					t009r0103_tr0086_nresearcher_1
+0x061E	EVENT					t009r0103_tr0086_nresearcher_2
+0x061F	EVENT					t009r0103_tr0086_nresearcher_3
+0x0620	EVENT					t009r0104_tr0044_researcher
+0x0621	EVENT					t009r0104_tr0086_nresearcher
+0x0622	EVENT					t009r0104_tr0086_nresearcher_0
+0x0623	EVENT					t009r0104_tr0086_nresearcher_1
 0x0624	HIDDEN ITEM	Pokémon Mansion	1F	Tough Candy		t009r0201_HideItem
 0x0625	FIELD ITEM	Pokémon Mansion	1F	Max Elixir		t009r0201_Item
 0x0626	FIELD ITEM	Pokémon Mansion	1F	Fire Stone		t009r0201_Item_0
@@ -1601,77 +1601,77 @@
 0x063F	HIDDEN ITEM	Pokémon Mansion	B1F	Quick Candy		t009r0204_HideItem_3
 0x0640	HIDDEN ITEM	Pokémon Mansion	B1F			t009r0204_PartnerStop
 0x0641	HIDDEN ITEM	Pokémon Mansion	B1F			t009r0204_PartnerStop_0
-0x0642						t010champ01_tr0039_pokemaniac
-0x0643						t010champ01_tr0069_pc
-0x0644						t010champ01_pm0113_lucky
-0x0645						t010champ01_tr0071_clerkm
-0x0646						t010champ01_tr0039_pokemaniac_0
-0x0647						t010champ01_tr0068_middlef
-0x0648						t010champ01_tr0070_gym
-0x0649						t010champ01_tr0029_elitem
-0x064A						t010champ01_tr0030_elitef
-0x064B						t010champ01_tr0052_juggler
-0x064C						t010champ02_tr0018_ice
-0x064D						t010champ02_pm0131_laplace
-0x064E						t010champ03_tr0019_combat
-0x064F						t010champ04_tr0020_ghost
-0x0650						t010champ05_tr0004_doctor
-0x0651						t010champ05_tr0021_dragon
-0x0652						t010champ05_pm0149_kairyu
-0x0653						t010champ06_tr0003_rival
-0x0654						t010champ06_tr0004_doctor
-0x0655						t010champ07_tr0004_doctor
-0x0656						t011g0101_tr0075_guard
-0x0657						t011g0201_tr0075_guard
-0x0658						t011g0201_tr0034_boyscout
-0x0659						t011g0301_tr0075_guard
-0x065A						t011g0301_tr0068_middlef
-0x065B						t011g0401_tr0075_guard
-0x065C						t011gym01_tr0013_esper
-0x065D						t011gym01_tr0070_gym
-0x065E						t011gym01_tr0028_miniskirt
-0x065F						t011gym01_tr0028_miniskirt_0
-0x0660						t011gym01_tr0028_miniskirt_1
-0x0661						t011gym01_tr0033_woman
-0x0662						t011gym01_tr0033_woman_0
-0x0663						t011gym01_tr0033_woman_1
-0x0664						t011gym01_tr0033_woman_2
-0x0665						t011gym01_tr0059_youngm
-0x0666						t011gym01_tr0059_youngm_0
-0x0667						t011gym01_tr0047_skinhead
-0x0668						t011gym01_tr0047_skinhead_0
-0x0669						t011gym01_tr0058_childf
-0x066A						t011gym01_tr0030_elitef
-0x066B						t011gym01_tr0030_elitef_0
-0x066C						t011gym01_tr0030_elitef_1
-0x066D						t011gym01_tr0052_juggler
-0x066E						t011gym01_tr0051_gambler
-0x066F						t011gym01_tr0052_juggler_0
-0x0670						t011gym01_tr0050_shaman
-0x0671						t011gym01_tr0050_shaman_0
-0x0672						t011gym01_tr0047_skinhead_1
-0x0673						t011gym01_tr0046_gang
-0x0674						t011gym01_tr0046_gang_0
-0x0675						t011gym01_tr0029_elitem
-0x0676						t011gym01_tr0038_thief
-0x0677						t011gym01_tr0049_psychic
-0x0678						t011gym01_tr0049_psychic_0
-0x0679						t011gym01_tr0049_psychic_1
-0x067A						t011gym01_tr0060_youngf
-0x067B						t011gym01_tr0057_childm
-0x067C						t011r0101_tr0067_middlem
-0x067D						t011r0101_tr0068_middlef
-0x067E						t011r0101_pm0113_lucky
+0x0642	EVENT					t010champ01_tr0039_pokemaniac
+0x0643	EVENT					t010champ01_tr0069_pc
+0x0644	EVENT					t010champ01_pm0113_lucky
+0x0645	EVENT					t010champ01_tr0071_clerkm
+0x0646	EVENT					t010champ01_tr0039_pokemaniac_0
+0x0647	EVENT					t010champ01_tr0068_middlef
+0x0648	EVENT					t010champ01_tr0070_gym
+0x0649	EVENT					t010champ01_tr0029_elitem
+0x064A	EVENT					t010champ01_tr0030_elitef
+0x064B	EVENT					t010champ01_tr0052_juggler
+0x064C	EVENT					t010champ02_tr0018_ice
+0x064D	EVENT					t010champ02_pm0131_laplace
+0x064E	EVENT					t010champ03_tr0019_combat
+0x064F	EVENT					t010champ04_tr0020_ghost
+0x0650	EVENT					t010champ05_tr0004_doctor
+0x0651	EVENT					t010champ05_tr0021_dragon
+0x0652	EVENT					t010champ05_pm0149_kairyu
+0x0653	EVENT					t010champ06_tr0003_rival
+0x0654	EVENT					t010champ06_tr0004_doctor
+0x0655	EVENT					t010champ07_tr0004_doctor
+0x0656	EVENT					t011g0101_tr0075_guard
+0x0657	EVENT					t011g0201_tr0075_guard
+0x0658	EVENT					t011g0201_tr0034_boyscout
+0x0659	EVENT					t011g0301_tr0075_guard
+0x065A	EVENT					t011g0301_tr0068_middlef
+0x065B	EVENT					t011g0401_tr0075_guard
+0x065C	EVENT					t011gym01_tr0013_esper
+0x065D	EVENT					t011gym01_tr0070_gym
+0x065E	EVENT					t011gym01_tr0028_miniskirt
+0x065F	EVENT					t011gym01_tr0028_miniskirt_0
+0x0660	EVENT					t011gym01_tr0028_miniskirt_1
+0x0661	EVENT					t011gym01_tr0033_woman
+0x0662	EVENT					t011gym01_tr0033_woman_0
+0x0663	EVENT					t011gym01_tr0033_woman_1
+0x0664	EVENT					t011gym01_tr0033_woman_2
+0x0665	EVENT					t011gym01_tr0059_youngm
+0x0666	EVENT					t011gym01_tr0059_youngm_0
+0x0667	EVENT					t011gym01_tr0047_skinhead
+0x0668	EVENT					t011gym01_tr0047_skinhead_0
+0x0669	EVENT					t011gym01_tr0058_childf
+0x066A	EVENT					t011gym01_tr0030_elitef
+0x066B	EVENT					t011gym01_tr0030_elitef_0
+0x066C	EVENT					t011gym01_tr0030_elitef_1
+0x066D	EVENT					t011gym01_tr0052_juggler
+0x066E	EVENT					t011gym01_tr0051_gambler
+0x066F	EVENT					t011gym01_tr0052_juggler_0
+0x0670	EVENT					t011gym01_tr0050_shaman
+0x0671	EVENT					t011gym01_tr0050_shaman_0
+0x0672	EVENT					t011gym01_tr0047_skinhead_1
+0x0673	EVENT					t011gym01_tr0046_gang
+0x0674	EVENT					t011gym01_tr0046_gang_0
+0x0675	EVENT					t011gym01_tr0029_elitem
+0x0676	EVENT					t011gym01_tr0038_thief
+0x0677	EVENT					t011gym01_tr0049_psychic
+0x0678	EVENT					t011gym01_tr0049_psychic_0
+0x0679	EVENT					t011gym01_tr0049_psychic_1
+0x067A	EVENT					t011gym01_tr0060_youngf
+0x067B	EVENT					t011gym01_tr0057_childm
+0x067C	EVENT					t011r0101_tr0067_middlem
+0x067D	EVENT					t011r0101_tr0068_middlef
+0x067E	EVENT					t011r0101_pm0113_lucky
 0x067F	HIDDEN ITEM	Saffron City	Copycat's House	Moon Stone		t011r0102_HideItem
-0x0680						t011r0102_tr0058_childf
-0x0681						t011r0102_pm0084_dodo
-0x0682						t011r0201_tr0060_youngf
-0x0683						t011r0201_tr0061_adultm
-0x0684						t011r0201_tr0062_muscle
-0x0685						t011r0201_tr0084_juveniles
-0x0686						t011r0301_tr0083_juvenilem
-0x0687						t011r0301_tr0084_juveniles
-0x0688						t011r0301_pm0016_poppo
+0x0680	EVENT					t011r0102_tr0058_childf
+0x0681	EVENT					t011r0102_pm0084_dodo
+0x0682	EVENT					t011r0201_tr0060_youngf
+0x0683	EVENT					t011r0201_tr0061_adultm
+0x0684	EVENT					t011r0201_tr0062_muscle
+0x0685	EVENT					t011r0201_tr0084_juveniles
+0x0686	EVENT					t011r0301_tr0083_juvenilem
+0x0687	EVENT					t011r0301_tr0084_juveniles
+0x0688	EVENT					t011r0301_pm0016_poppo
 0x0689	FIELD ITEM	Silph Co.	1F	X Sp. Atk		t011r0401_Item
 0x068A	EVENT	Silph Co.	1F			t011r0401_tr0080_stafff
 0x068B	EVENT	Silph Co.	1F			t011r0401_tr0003_rival
@@ -1751,201 +1751,201 @@
 0x06D5	EVENT	Silph Co.	11F			t011r0411_tr0016_musashi
 0x06D6	EVENT	Silph Co.	11F			t011r0411_tr0017_kojiro
 0x06D7	EVENT	Silph Co.	11F			t011r0411_pm0052_nyarth
-0x06D8						t011r0501_tr0031_karate
-0x06D9						t011r0501_pm0107_ebiwalar
-0x06DA						t011r0501_pm0106_sawamular
-0x06DB						t011r0601_tr0067_middlem
-0x06DC						t002fs01_tr0071_clerkm
-0x06DD						t002fs01_tr0027_shortpants
-0x06DE						t002fs01_tr0084_juveniles
-0x06DF						t003fs01_tr0071_clerkm
-0x06E0						t003fs01_tr0083_juvenilem
-0x06E1						t003fs01_tr0059_youngm
-0x06E2						t004fs01_tr0071_clerkm
-0x06E3						t004fs01_tr0027_shortpants
-0x06E4						t004fs01_tr0028_miniskirt
-0x06E5						t005fs01_tr0071_clerkm
-0x06E6						t005fs01_tr0067_middlem
-0x06E7						t005fs01_tr0059_youngm
-0x06E8						t005fs01_tr0083_juvenilem
-0x06E9						t006fs01_tr0071_clerkm
-0x06EA						t006fs01_tr0029_elitem
-0x06EB						t006fs01_tr0033_woman
-0x06EC						t008fs01_tr0071_clerkm
-0x06ED						t008fs01_tr0067_middlem
-0x06EE						t008fs01_tr0028_miniskirt
-0x06EF						t009fs01_tr0071_clerkm
-0x06F0						t009fs01_tr0086_nresearcher
-0x06F1						t009fs01_tr0080_stafff
-0x06F2						t011fs01_tr0071_clerkm
-0x06F3						t011fs01_tr0059_youngm
-0x06F4						t011fs01_tr0028_miniskirt
-0x06F5						r003pc01_tr0069_pc
-0x06F6						r003pc01_pm0113_lucky
-0x06F7						r003pc01_tr0083_juvenilem
-0x06F8						r003pc01_pm0039_purin
-0x06F9						r003pc01_tr0035_girlscout
-0x06FA						r003pc01_tr0067_middlem
-0x06FB						r003pc01_tr0053_gentleman
-0x06FC						r003pc01_tr0057_childm
-0x06FD						r003pc01_tr0059_youngm
-0x06FE						r009pc01_tr0069_pc
-0x06FF						r009pc01_pm0113_lucky
-0x0700						r009pc01_tr0053_gentleman
-0x0701						r009pc01_tr0066_fat
-0x0702						r009pc01_tr0057_childm
-0x0703						r009pc01_tr0030_elitef
-0x0704						t002pc01_tr0053_gentleman
-0x0705						t002pc01_tr0034_boyscout
-0x0706						t002pc01_tr0069_pc
-0x0707						t002pc01_pm0113_lucky
-0x0708						t002pc01_tr0057_childm
-0x0709						t002pc01_tr0058_childf
-0x070A						t002pc01_tr0069_pc_0
-0x070B						t003pc01_tr0053_gentleman
-0x070C						t003pc01_tr0084_juveniles
-0x070D						t003pc01_tr0057_childm
-0x070E						t003pc01_tr0069_pc
-0x070F						t003pc01_pm0113_lucky
-0x0710						t003pc01_tr0067_middlem
-0x0711						t003pc01_tr0028_miniskirt
-0x0712						t004pc01_tr0059_youngm
-0x0713						t004pc01_tr0053_gentleman
-0x0714						t004pc01_tr0083_juvenilem
-0x0715						t004pc01_tr0063_adultf
-0x0716						t004pc01_tr0069_pc
-0x0717						t004pc01_pm0113_lucky
-0x0718						t004pc01_tr0048_beasttamer
-0x0719						t004pc01_tr0028_miniskirt
-0x071A						t005pc01_tr0053_gentleman
-0x071B						t005pc01_tr0084_juveniles
-0x071C						t005pc01_tr0083_juvenilem
-0x071D						t005pc01_pm0113_lucky
-0x071E						t005pc01_tr0069_pc
-0x071F						t005pc01_tr0033_woman
-0x0720						t006pc01_tr0040_angler
-0x0721						t006pc01_tr0045_sailor
-0x0722						t006pc01_tr0083_juvenilem
-0x0723						t006pc01_pm0113_lucky
-0x0724						t006pc01_tr0069_pc
-0x0725						t006pc01_tr0032_wondervogel
-0x0726						t007pc01_tr0053_gentleman
-0x0727						t007pc01_tr0035_girlscout
-0x0728						t007pc01_tr0083_juvenilem
-0x0729						t007pc01_pm0113_lucky
-0x072A						t007pc01_tr0069_pc
-0x072B						t007pc01_tr0050_shaman
-0x072C						t007pc01_pm0063_casey
-0x072D						t007pc01_tr0034_boyscout
-0x072E						t007pc01_tr0048_beasttamer
-0x072F						t008pc01_tr0069_pc
-0x0730						t008pc01_pm0113_lucky
-0x0731						t008pc01_tr0053_gentleman
-0x0732						t008pc01_tr0048_beasttamer
-0x0733						t008pc01_tr0067_middlem
-0x0734						t008pc01_tr0063_adultf
-0x0735						t008pc01_tr0034_boyscout
-0x0736						t009pc01_tr0069_pc
-0x0737						t009pc01_pm0113_lucky
-0x0738						t009pc01_tr0046_gang
-0x0739						t009pc01_tr0053_gentleman
-0x073A						t009pc01_tr0033_woman
-0x073B						t009pc01_tr0026_bugcatcher
-0x073C						t011pc01_tr0069_pc
-0x073D						t011pc01_pm0113_lucky
-0x073E						t011pc01_tr0030_elitef
-0x073F						t011pc01_tr0053_gentleman
-0x0740						t011pc01_tr0033_woman
-0x0741						t011pc01_tr0057_childm
-0x0742						test_chr01_tr0028_04_miniskirt
-0x0743						test_chr01_tr0057_04_childm
-0x0744						test_chr01_tr0059_04_youngm
-0x0745						test_chr01_tr0084_04_juveniles
-0x0746						test_chr02_tr0026_bugcatcher
-0x0747						test_chr02_tr0027_shortpants
-0x0748						test_chr02_tr0028_miniskirt
-0x0749						test_chr02_tr0029_elitem
-0x074A						test_chr02_tr0030_elitef
-0x074B						test_chr02_tr0031_karate
-0x074C						test_chr02_tr0032_wondervogel
-0x074D						test_chr02_tr0033_woman
-0x074E						test_chr02_tr0034_boyscout
-0x074F						test_chr02_tr0035_girlscout
-0x0750						test_chr02_tr0036_swimmerm
-0x0751						test_chr02_tr0037_swimmerf
-0x0752						test_chr02_tr0038_thief
-0x0753						test_chr02_tr0039_pokemaniac
-0x0754						test_chr02_tr0040_angler
-0x0755						test_chr02_tr0041_denkigroup
-0x0756						test_chr02_tr0042_engineer
-0x0757						test_chr02_tr0043_birdkeeper
-0x0758						test_chr02_tr0044_researcher
-0x0759						test_chr02_tr0045_sailor
-0x075A						test_chr02_tr0046_gang
-0x075B						test_chr02_tr0047_skinhead
-0x075C						test_chr02_tr0048_beasttamer
-0x075D						test_chr02_tr0049_psychic
-0x075E						test_chr02_tr0050_shaman
-0x075F						test_chr02_tr0026_02_bugcatcher
-0x0760						test_chr02_tr0028_02_miniskirt
-0x0761						test_chr02_tr0029_01_elitem
-0x0762						test_chr02_tr0029_02_elitem
-0x0763						test_chr02_tr0030_01_elitef
-0x0764						test_chr02_tr0031_02_karate
-0x0765						test_chr02_tr0032_02_wondervogel
-0x0766						test_chr02_tr0036_01_swimmerm
-0x0767						test_chr02_tr0037_01_swimmerf
-0x0768						test_chr02_tr0037_02_swimmerf
-0x0769						test_chr02_tr0037_03_swimmerf
-0x076A						test_chr02_tr0043_02_birdkeeper
-0x076B						test_chr02_tr0044_02_researcher
-0x076C						test_chr02_tr0049_02_psychic
-0x076D						test_chr02_tr0027_02_shortpants
-0x076E						test_chr03_tr0051_gambler
-0x076F						test_chr03_tr0052_juggler
-0x0770						test_chr03_tr0053_gentleman
-0x0771						test_chr03_tr0054_scientist
-0x0772						test_chr03_tr0055_rocketm
-0x0773						test_chr03_tr0056_rocketf
-0x0774						test_chr03_tr0057_childm
-0x0775						test_chr03_tr0058_childf
-0x0776						test_chr03_tr0059_youngm
-0x0777						test_chr03_tr0060_youngf
-0x0778						test_chr03_tr0061_adultm
-0x0779						test_chr03_tr0062_muscle
-0x077A						test_chr03_tr0063_adultf
-0x077B						test_chr03_tr0064_oldm
-0x077C						test_chr03_tr0065_oldf
-0x077D						test_chr03_tr0066_fat
-0x077E						test_chr03_tr0067_middlem
-0x077F						test_chr03_tr0068_middlef
-0x0780						test_chr03_tr0069_pc
-0x0781						test_chr03_tr0070_gym
-0x0782						test_chr03_tr0071_clerkm
-0x0783						test_chr03_tr0072_clerkf
-0x0784						test_chr03_tr0074_policef
-0x0785						test_chr03_tr0075_guard
-0x0786						test_chr04_tr0078_president
-0x0787						test_chr04_tr0079_staffm
-0x0788						test_chr04_tr0080_stafff
-0x0789						test_chr04_tr0081_safari
-0x078A						test_chr04_tr0082_captain
-0x078B						test_chr04_tr0083_juvenilem
-0x078C						test_chr04_tr0084_juveniles
-0x078D						test_chr04_tr0085_rocketcheif
-0x078E						test_chr04_tr0086_nresearcher
-0x078F						test_chr04_tr0087_gostaff
-0x0790						test_chr04_tr0088_cook
-0x0791						test_chr04_tr0089_blue
-0x0792						test_chr04_tr0090_fairy
-0x0793						test_chr04_tr0091_pghostl
-0x0794						test_chr04_tr0092_pghosts
-0x0795						test_chr04_tr0003_rival_2
-0x0796						t007r0502_tr0071_clerkm_0
+0x06D8	EVENT					t011r0501_tr0031_karate
+0x06D9	EVENT					t011r0501_pm0107_ebiwalar
+0x06DA	EVENT					t011r0501_pm0106_sawamular
+0x06DB	EVENT					t011r0601_tr0067_middlem
+0x06DC	EVENT					t002fs01_tr0071_clerkm
+0x06DD	EVENT					t002fs01_tr0027_shortpants
+0x06DE	EVENT					t002fs01_tr0084_juveniles
+0x06DF	EVENT					t003fs01_tr0071_clerkm
+0x06E0	EVENT					t003fs01_tr0083_juvenilem
+0x06E1	EVENT					t003fs01_tr0059_youngm
+0x06E2	EVENT					t004fs01_tr0071_clerkm
+0x06E3	EVENT					t004fs01_tr0027_shortpants
+0x06E4	EVENT					t004fs01_tr0028_miniskirt
+0x06E5	EVENT					t005fs01_tr0071_clerkm
+0x06E6	EVENT					t005fs01_tr0067_middlem
+0x06E7	EVENT					t005fs01_tr0059_youngm
+0x06E8	EVENT					t005fs01_tr0083_juvenilem
+0x06E9	EVENT					t006fs01_tr0071_clerkm
+0x06EA	EVENT					t006fs01_tr0029_elitem
+0x06EB	EVENT					t006fs01_tr0033_woman
+0x06EC	EVENT					t008fs01_tr0071_clerkm
+0x06ED	EVENT					t008fs01_tr0067_middlem
+0x06EE	EVENT					t008fs01_tr0028_miniskirt
+0x06EF	EVENT					t009fs01_tr0071_clerkm
+0x06F0	EVENT					t009fs01_tr0086_nresearcher
+0x06F1	EVENT					t009fs01_tr0080_stafff
+0x06F2	EVENT					t011fs01_tr0071_clerkm
+0x06F3	EVENT					t011fs01_tr0059_youngm
+0x06F4	EVENT					t011fs01_tr0028_miniskirt
+0x06F5	EVENT					r003pc01_tr0069_pc
+0x06F6	EVENT					r003pc01_pm0113_lucky
+0x06F7	EVENT					r003pc01_tr0083_juvenilem
+0x06F8	EVENT					r003pc01_pm0039_purin
+0x06F9	EVENT					r003pc01_tr0035_girlscout
+0x06FA	EVENT					r003pc01_tr0067_middlem
+0x06FB	EVENT					r003pc01_tr0053_gentleman
+0x06FC	EVENT					r003pc01_tr0057_childm
+0x06FD	EVENT					r003pc01_tr0059_youngm
+0x06FE	EVENT					r009pc01_tr0069_pc
+0x06FF	EVENT					r009pc01_pm0113_lucky
+0x0700	EVENT					r009pc01_tr0053_gentleman
+0x0701	EVENT					r009pc01_tr0066_fat
+0x0702	EVENT					r009pc01_tr0057_childm
+0x0703	EVENT					r009pc01_tr0030_elitef
+0x0704	EVENT					t002pc01_tr0053_gentleman
+0x0705	EVENT					t002pc01_tr0034_boyscout
+0x0706	EVENT					t002pc01_tr0069_pc
+0x0707	EVENT					t002pc01_pm0113_lucky
+0x0708	EVENT					t002pc01_tr0057_childm
+0x0709	EVENT					t002pc01_tr0058_childf
+0x070A	EVENT					t002pc01_tr0069_pc_0
+0x070B	EVENT					t003pc01_tr0053_gentleman
+0x070C	EVENT					t003pc01_tr0084_juveniles
+0x070D	EVENT					t003pc01_tr0057_childm
+0x070E	EVENT					t003pc01_tr0069_pc
+0x070F	EVENT					t003pc01_pm0113_lucky
+0x0710	EVENT					t003pc01_tr0067_middlem
+0x0711	EVENT					t003pc01_tr0028_miniskirt
+0x0712	EVENT					t004pc01_tr0059_youngm
+0x0713	EVENT					t004pc01_tr0053_gentleman
+0x0714	EVENT					t004pc01_tr0083_juvenilem
+0x0715	EVENT					t004pc01_tr0063_adultf
+0x0716	EVENT					t004pc01_tr0069_pc
+0x0717	EVENT					t004pc01_pm0113_lucky
+0x0718	EVENT					t004pc01_tr0048_beasttamer
+0x0719	EVENT					t004pc01_tr0028_miniskirt
+0x071A	EVENT					t005pc01_tr0053_gentleman
+0x071B	EVENT					t005pc01_tr0084_juveniles
+0x071C	EVENT					t005pc01_tr0083_juvenilem
+0x071D	EVENT					t005pc01_pm0113_lucky
+0x071E	EVENT					t005pc01_tr0069_pc
+0x071F	EVENT					t005pc01_tr0033_woman
+0x0720	EVENT					t006pc01_tr0040_angler
+0x0721	EVENT					t006pc01_tr0045_sailor
+0x0722	EVENT					t006pc01_tr0083_juvenilem
+0x0723	EVENT					t006pc01_pm0113_lucky
+0x0724	EVENT					t006pc01_tr0069_pc
+0x0725	EVENT					t006pc01_tr0032_wondervogel
+0x0726	EVENT					t007pc01_tr0053_gentleman
+0x0727	EVENT					t007pc01_tr0035_girlscout
+0x0728	EVENT					t007pc01_tr0083_juvenilem
+0x0729	EVENT					t007pc01_pm0113_lucky
+0x072A	EVENT					t007pc01_tr0069_pc
+0x072B	EVENT					t007pc01_tr0050_shaman
+0x072C	EVENT					t007pc01_pm0063_casey
+0x072D	EVENT					t007pc01_tr0034_boyscout
+0x072E	EVENT					t007pc01_tr0048_beasttamer
+0x072F	EVENT					t008pc01_tr0069_pc
+0x0730	EVENT					t008pc01_pm0113_lucky
+0x0731	EVENT					t008pc01_tr0053_gentleman
+0x0732	EVENT					t008pc01_tr0048_beasttamer
+0x0733	EVENT					t008pc01_tr0067_middlem
+0x0734	EVENT					t008pc01_tr0063_adultf
+0x0735	EVENT					t008pc01_tr0034_boyscout
+0x0736	EVENT					t009pc01_tr0069_pc
+0x0737	EVENT					t009pc01_pm0113_lucky
+0x0738	EVENT					t009pc01_tr0046_gang
+0x0739	EVENT					t009pc01_tr0053_gentleman
+0x073A	EVENT					t009pc01_tr0033_woman
+0x073B	EVENT					t009pc01_tr0026_bugcatcher
+0x073C	EVENT					t011pc01_tr0069_pc
+0x073D	EVENT					t011pc01_pm0113_lucky
+0x073E	EVENT					t011pc01_tr0030_elitef
+0x073F	EVENT					t011pc01_tr0053_gentleman
+0x0740	EVENT					t011pc01_tr0033_woman
+0x0741	EVENT					t011pc01_tr0057_childm
+0x0742	EVENT					test_chr01_tr0028_04_miniskirt
+0x0743	EVENT					test_chr01_tr0057_04_childm
+0x0744	EVENT					test_chr01_tr0059_04_youngm
+0x0745	EVENT					test_chr01_tr0084_04_juveniles
+0x0746	EVENT					test_chr02_tr0026_bugcatcher
+0x0747	EVENT					test_chr02_tr0027_shortpants
+0x0748	EVENT					test_chr02_tr0028_miniskirt
+0x0749	EVENT					test_chr02_tr0029_elitem
+0x074A	EVENT					test_chr02_tr0030_elitef
+0x074B	EVENT					test_chr02_tr0031_karate
+0x074C	EVENT					test_chr02_tr0032_wondervogel
+0x074D	EVENT					test_chr02_tr0033_woman
+0x074E	EVENT					test_chr02_tr0034_boyscout
+0x074F	EVENT					test_chr02_tr0035_girlscout
+0x0750	EVENT					test_chr02_tr0036_swimmerm
+0x0751	EVENT					test_chr02_tr0037_swimmerf
+0x0752	EVENT					test_chr02_tr0038_thief
+0x0753	EVENT					test_chr02_tr0039_pokemaniac
+0x0754	EVENT					test_chr02_tr0040_angler
+0x0755	EVENT					test_chr02_tr0041_denkigroup
+0x0756	EVENT					test_chr02_tr0042_engineer
+0x0757	EVENT					test_chr02_tr0043_birdkeeper
+0x0758	EVENT					test_chr02_tr0044_researcher
+0x0759	EVENT					test_chr02_tr0045_sailor
+0x075A	EVENT					test_chr02_tr0046_gang
+0x075B	EVENT					test_chr02_tr0047_skinhead
+0x075C	EVENT					test_chr02_tr0048_beasttamer
+0x075D	EVENT					test_chr02_tr0049_psychic
+0x075E	EVENT					test_chr02_tr0050_shaman
+0x075F	EVENT					test_chr02_tr0026_02_bugcatcher
+0x0760	EVENT					test_chr02_tr0028_02_miniskirt
+0x0761	EVENT					test_chr02_tr0029_01_elitem
+0x0762	EVENT					test_chr02_tr0029_02_elitem
+0x0763	EVENT					test_chr02_tr0030_01_elitef
+0x0764	EVENT					test_chr02_tr0031_02_karate
+0x0765	EVENT					test_chr02_tr0032_02_wondervogel
+0x0766	EVENT					test_chr02_tr0036_01_swimmerm
+0x0767	EVENT					test_chr02_tr0037_01_swimmerf
+0x0768	EVENT					test_chr02_tr0037_02_swimmerf
+0x0769	EVENT					test_chr02_tr0037_03_swimmerf
+0x076A	EVENT					test_chr02_tr0043_02_birdkeeper
+0x076B	EVENT					test_chr02_tr0044_02_researcher
+0x076C	EVENT					test_chr02_tr0049_02_psychic
+0x076D	EVENT					test_chr02_tr0027_02_shortpants
+0x076E	EVENT					test_chr03_tr0051_gambler
+0x076F	EVENT					test_chr03_tr0052_juggler
+0x0770	EVENT					test_chr03_tr0053_gentleman
+0x0771	EVENT					test_chr03_tr0054_scientist
+0x0772	EVENT					test_chr03_tr0055_rocketm
+0x0773	EVENT					test_chr03_tr0056_rocketf
+0x0774	EVENT					test_chr03_tr0057_childm
+0x0775	EVENT					test_chr03_tr0058_childf
+0x0776	EVENT					test_chr03_tr0059_youngm
+0x0777	EVENT					test_chr03_tr0060_youngf
+0x0778	EVENT					test_chr03_tr0061_adultm
+0x0779	EVENT					test_chr03_tr0062_muscle
+0x077A	EVENT					test_chr03_tr0063_adultf
+0x077B	EVENT					test_chr03_tr0064_oldm
+0x077C	EVENT					test_chr03_tr0065_oldf
+0x077D	EVENT					test_chr03_tr0066_fat
+0x077E	EVENT					test_chr03_tr0067_middlem
+0x077F	EVENT					test_chr03_tr0068_middlef
+0x0780	EVENT					test_chr03_tr0069_pc
+0x0781	EVENT					test_chr03_tr0070_gym
+0x0782	EVENT					test_chr03_tr0071_clerkm
+0x0783	EVENT					test_chr03_tr0072_clerkf
+0x0784	EVENT					test_chr03_tr0074_policef
+0x0785	EVENT					test_chr03_tr0075_guard
+0x0786	EVENT					test_chr04_tr0078_president
+0x0787	EVENT					test_chr04_tr0079_staffm
+0x0788	EVENT					test_chr04_tr0080_stafff
+0x0789	EVENT					test_chr04_tr0081_safari
+0x078A	EVENT					test_chr04_tr0082_captain
+0x078B	EVENT					test_chr04_tr0083_juvenilem
+0x078C	EVENT					test_chr04_tr0084_juveniles
+0x078D	EVENT					test_chr04_tr0085_rocketcheif
+0x078E	EVENT					test_chr04_tr0086_nresearcher
+0x078F	EVENT					test_chr04_tr0087_gostaff
+0x0790	EVENT					test_chr04_tr0088_cook
+0x0791	EVENT					test_chr04_tr0089_blue
+0x0792	EVENT					test_chr04_tr0090_fairy
+0x0793	EVENT					test_chr04_tr0091_pghostl
+0x0794	EVENT					test_chr04_tr0092_pghosts
+0x0795	EVENT					test_chr04_tr0003_rival_2
+0x0796	EVENT					t007r0502_tr0071_clerkm_0
 0x0797	FIELD ITEM	Viridian City	Gym	Revive		t002gym01_Item
-0x0798						t002gym01_pm0053_persian
-0x0799						r020d0101_tr0035_girlscout
-0x079A						t011gym01_tr0046_gang_1
+0x0798	EVENT					t002gym01_pm0053_persian
+0x0799	EVENT					r020d0101_tr0035_girlscout
+0x079A	EVENT					t011gym01_tr0046_gang_1
 0x079B	HIDDEN ITEM	Vermilion City	Harbor	Revive		t006r0301_HideItem
 0x079C	HIDDEN ITEM	Celadon City	Condominiums 3F	Fresh Water		t007r0103_HideItem
 0x079D	FIELD ITEM	Celadon City	Condominiums Rooftop	Health Candy (x3)		t007r0104_Item
@@ -2176,66 +2176,66 @@
 0x087E						
 0x087F						
 0x0880	SIDE EVENT					FE_EV0905_BTL_RED
-0x0881						FE_MOT_T002_OLDM
-0x0882						FE_TRAINER_FLAG_01
-0x0883						FE_SUB_01_CLEAR
+0x0881	EVENT					FE_MOT_T002_OLDM
+0x0882	EVENT					FE_TRAINER_FLAG_01
+0x0883	EVENT					FE_SUB_01_CLEAR
 0x0884	PKMN GIFT	Route 4	PokéCenter	Buy Magikarp from man		FE_SUB_02_CLEAR
-0x0885						FE_SUB_03_CLEAR
+0x0885	EVENT					FE_SUB_03_CLEAR
 0x0886	ITEM GIFT	Pewter City	Museum	Old Amber from scientist		FE_SUB_04_CLEAR
-0x0887						FE_SUB_04_PUTERACHECK
-0x0888						FE_SUB_05_CLEAR
+0x0887	EVENT					FE_SUB_04_PUTERACHECK
+0x0888	EVENT					FE_SUB_05_CLEAR
 0x0889	ITEM GIFT	Route 12	House	TM32 (Dazzling Gleam) from old man		FE_SUB_06_CLEAR
-0x088A						FE_SUB_07_CLEAR
+0x088A	EVENT					FE_SUB_07_CLEAR
 0x088B	PKMN GIFT	Silph Co.	7F	Lapras from man		FE_SUB_08_CLEAR
 0x088C	ITEM GIFT	Vermilion City	Fan Club	Pikachu / Eevee Set from chairman		FE_SUB_09_CLEAR
 0x088D	ITEM GIFT	Vermilion City	Fan Club	Raichu / Eevee evolutions Sets from chairman		FE_SUB_09_CLEAR2
-0x088E						FE_SUB_10_FIRST
-0x088F						FE_SUB_10_CLEAR
+0x088E	EVENT					FE_SUB_10_FIRST
+0x088F	EVENT					FE_SUB_10_CLEAR
 0x0890	ITEM GIFT	Saffron City	Mr. Psychic's House	TM40 (Psychic) from Mr. Psychic		FE_SUB_11_CLEAR
-0x0891						FE_SUB_12_CLEAR
-0x0892						FE_SUB_13_CLEAR
+0x0891	EVENT					FE_SUB_12_CLEAR
+0x0892	EVENT					FE_SUB_13_CLEAR
 0x0893	EVENT	Route 11	Gate	Check for Judge Function unlock requisites		FE_SUB_14_CLEAR
-0x0894						FE_SUB_15_CLEAR
-0x0895						FE_SUB_T006R0306_TRAINER
-0x0896						FE_SUB_16_CLEAR
-0x0897						FE_SUB_17_CLEAR
-0x0898						FE_SUB_18_CLEAR
-0x0899						FE_SUB_19_CLEAR
+0x0894	EVENT					FE_SUB_15_CLEAR
+0x0895	EVENT					FE_SUB_T006R0306_TRAINER
+0x0896	EVENT					FE_SUB_16_CLEAR
+0x0897	EVENT					FE_SUB_17_CLEAR
+0x0898	EVENT					FE_SUB_18_CLEAR
+0x0899	EVENT					FE_SUB_19_CLEAR
 0x089A	EVENT			Poké Flute first use explanation		FE_SUB_20_CLEAR
-0x089B						FE_SUB_21_CLEAR
-0x089C						FE_SUB_22_CLEAR
-0x089D						FE_SUB_23_BTLAFTER
+0x089B	EVENT					FE_SUB_21_CLEAR
+0x089C	EVENT					FE_SUB_22_CLEAR
+0x089D	EVENT					FE_SUB_23_BTLAFTER
 0x089E	PKMN GIFT	Saffron City	Dojo	Hitmonchan / Hitmonlee from Karate Master		FE_SUB_23_CLEAR
-0x089F						FE_SUB_24_CLEAR
+0x089F	EVENT					FE_SUB_24_CLEAR
 0x08A0	ITEM GIFT	Cinnabar Island	Lab	TM02 (Taunt) from scientist		FE_SUB_25_CLEAR
 0x08A1	ITEM GIFT	Route 12	Gate	TM50 (Roost) from girl		FE_SUB_26_CLEAR
 0x08A2	ITEM GIFT	Celadon City	Department Store 3F	TM03 (Helping Hand) from man		FE_SUB_27_CLEAR
-0x08A3						FE_SUB_28_CLEAR
+0x08A3	EVENT					FE_SUB_28_CLEAR
 0x08A4	ITEM GIFT	Silph Co.	2F	TM42 (Self Destruct) from woman		FE_SUB_29_CLEAR
 0x08A5	ITEM GIFT	Celadon City		TM26 (Poison Jab) from old man		FE_SUB_30_CLEAR
 0x08A6	ITEM GIFT	Viridian City		TM11 (Will-O-Wisp) from man		FE_SUB_31_CLEAR
-0x08A7						FE_SUB_32_MUSASHI
-0x08A8						FE_SUB_32_KOJIRO
-0x08A9						FE_SUB_32_CLEAR
-0x08AA						FE_SUB_33_CLEAR
-0x08AB						FE_SUB_34_CLEAR
-0x08AC						FE_SUB_35_CLEAR
+0x08A7	EVENT					FE_SUB_32_MUSASHI
+0x08A8	EVENT					FE_SUB_32_KOJIRO
+0x08A9	EVENT					FE_SUB_32_CLEAR
+0x08AA	EVENT					FE_SUB_33_CLEAR
+0x08AB	EVENT					FE_SUB_34_CLEAR
+0x08AC	EVENT					FE_SUB_35_CLEAR
 0x08AD	ITEM GIFT	Route 16	Gate	Ultra Ball (x30) from Oak's aide		FE_SUB_36_CLEAR
 0x08AE	PKMN GIFT	Cerulean City		Bulbasaur from girl		FE_SUB_37_CLEAR
 0x08AF	PKMN GIFT	Route 24		Charmander from guy		FE_SUB_38_CLEAR
 0x08B0	PKMN GIFT	Vermilion City		Squirtle from officer		FE_SUB_39_CLEAR
 0x08B1	EVENT	Silph Co.	9F	Spy nurse post invasion		FE_SUB_40_CLEAR
-0x08B2						FE_SUB_40b_CLEAR
+0x08B2	EVENT					FE_SUB_40b_CLEAR
 0x08B3	ITEM GIFT	Route 16	House	TM14 (Fly) from girl		FE_SUB_41_CLEAR
-0x08B4						FE_SUB_42_CLEAR
-0x08B5						FE_SUB_43_CLEAR
+0x08B4	EVENT					FE_SUB_42_CLEAR
+0x08B5	EVENT					FE_SUB_43_CLEAR
 0x08B6	TRAINER BATTLE	Team Rocket Hideout	B4F	Pokémon Trainer Archer		FE_SUB_44_CLEAR
 0x08B7	EVENT	Team Rocket Hideout	B4F	Archer reads his letter		FE_SUB_44_PAPER
 0x08B8	TRAINER BATTLE	Cerulean Cave	B1F	Pokémon Trainer Green		FE_SUB_45_CLEAR
-0x08B9						FE_SUB_45_T004D0103_BALL
-0x08BA						FE_SUB_45_T004D0103_BALL_ITEM
-0x08BB						FE_SUB_45_TOWN004_BALL
-0x08BC						FE_SUB_46_CLEAR
+0x08B9	EVENT					FE_SUB_45_T004D0103_BALL
+0x08BA	EVENT					FE_SUB_45_T004D0103_BALL_ITEM
+0x08BB	EVENT					FE_SUB_45_TOWN004_BALL
+0x08BC	EVENT					FE_SUB_46_CLEAR
 0x08BD	EVENT	Victory Road	2F	Played battle animation intro		FE_SUB_47_DEMO_END
 0x08BE	STATIC ENCOUNTER	Victory Road	2F	Capture Moltres		FE_SUB_47_CLEAR
 0x08BF	EVENT	Power Plant		Played battle animation intro		FE_SUB_48_DEMO_END
@@ -2244,7 +2244,7 @@
 0x08C2	STATIC ENCOUNTER	Seafoam Islands	B4F	Capture Articuno		FE_SUB_49_CLEAR
 0x08C3	EVENT	Cerulean Cave	B1F	Played battle animation intro		FE_SUB_50_DEMO_DEND
 0x08C4	STATIC ENCOUNTER	Cerulean Cave	B1F	Capture Mewtwo		FE_SUB_50_CLEAR
-0x08C5						FE_SUB_51_CLEAR
+0x08C5	EVENT					FE_SUB_51_CLEAR
 0x08C6	ITEM GIFT	Route 15	Gate	Assistant Set from Oak's assistant		FE_SUB_52_CLEAR
 0x08C7	ITEM GIFT	Saffron City		Officer Set from officer		FE_SUB_53_CLEAR
 0x08C8	ITEM GIFT	Pokémon Tower	1F	Formal Set from old woman		FE_SUB_54_CLEAR
@@ -2255,34 +2255,34 @@
 0x08CD	EVENT	Cerulean City	Bike Maniac House			FE_SUB_58_NORMAL_TALK
 0x08CE	EVENT	Cerulean City	Bike Maniac House			FE_SUB_58_MACH_TALK
 0x08CF	EVENT	Cerulean City	Bike Maniac House			FE_SUB_58_DART_TALK
-0x08D0						FE_SUB_59_CLEAR
+0x08D0	EVENT					FE_SUB_59_CLEAR
 0x08D1	PKMN GIFT	Saffron City		Porygon from man		FE_SUB_60_CLEAR
 0x08D2	SIDE EVENT	Vermilion	Port	Meet Mina		FE_SUB_61_CLEAR
-0x08D3						FE_SUB_62_CLEAR
-0x08D4						FE_SUB_63_CLEAR
-0x08D5						FE_SUB_64_CLEAR
-0x08D6						FE_SUB_65_CLEAR
-0x08D7						FE_SUB_66_CLEAR
-0x08D8						FE_SUB_67_CLEAR
-0x08D9						FE_SUB_68_CLEAR
-0x08DA						FE_SUB_69_CLEAR
-0x08DB						FE_SUB_70_CLEAR
-0x08DC						FE_SUB_71_CLEAR
+0x08D3	EVENT					FE_SUB_62_CLEAR
+0x08D4	EVENT					FE_SUB_63_CLEAR
+0x08D5	EVENT					FE_SUB_64_CLEAR
+0x08D6	EVENT					FE_SUB_65_CLEAR
+0x08D7	EVENT					FE_SUB_66_CLEAR
+0x08D8	EVENT					FE_SUB_67_CLEAR
+0x08D9	EVENT					FE_SUB_68_CLEAR
+0x08DA	EVENT					FE_SUB_69_CLEAR
+0x08DB	EVENT					FE_SUB_70_CLEAR
+0x08DC	EVENT					FE_SUB_71_CLEAR
 0x08DD	EVENT	Celadon City		Sky Dash Learned		FE_SUB_72_CLEAR
-0x08DE						FE_SUB_73_CLEAR
-0x08DF						FE_SUB_74_CLEAR
-0x08E0						FE_SUB_75_CLEAR
-0x08E1						FE_SUB_76_CLEAR
-0x08E2						FE_SUB_77_CLEAR
-0x08E3						FE_SUB_78_CLEAR
-0x08E4						FE_SUB_79_CLEAR
-0x08E5						FE_SUB_80_CLEAR
-0x08E6						FE_SUB_81_CLEAR
-0x08E7						FE_SUB_82_CLEAR
-0x08E8						FE_SUB_83_CLEAR
-0x08E9						FE_SUB_84_CLEAR
-0x08EA						FE_SUB_85_CLEAR
-0x08EB						FE_WAZA_OMOIDASHI
+0x08DE	EVENT					FE_SUB_73_CLEAR
+0x08DF	EVENT					FE_SUB_74_CLEAR
+0x08E0	EVENT					FE_SUB_75_CLEAR
+0x08E1	EVENT					FE_SUB_76_CLEAR
+0x08E2	EVENT					FE_SUB_77_CLEAR
+0x08E3	EVENT					FE_SUB_78_CLEAR
+0x08E4	EVENT					FE_SUB_79_CLEAR
+0x08E5	EVENT					FE_SUB_80_CLEAR
+0x08E6	EVENT					FE_SUB_81_CLEAR
+0x08E7	EVENT					FE_SUB_82_CLEAR
+0x08E8	EVENT					FE_SUB_83_CLEAR
+0x08E9	EVENT					FE_SUB_84_CLEAR
+0x08EA	EVENT					FE_SUB_85_CLEAR
+0x08EB	EVENT					FE_WAZA_OMOIDASHI
 0x08EC	IN-GAME TRADE					FE_FIELD_TRADE_FIRST_01
 0x08ED	IN-GAME TRADE					FE_FIELD_TRADE_FIRST_02
 0x08EE	IN-GAME TRADE					FE_FIELD_TRADE_FIRST_03
@@ -2290,47 +2290,47 @@
 0x08F0	IN-GAME TRADE					FE_FIELD_TRADE_FIRST_05
 0x08F1	IN-GAME TRADE					FE_FIELD_TRADE_FIRST_06
 0x08F2	IN-GAME TRADE					FE_FIELD_TRADE_FIRST_07
-0x08F3						FE_EV0210_GOBACK
-0x08F4						FE_MASTER_RED_BATTLE_TALKED
-0x08F5						FE_EV0310_KINNOTAMA_GET
-0x08F6				Saffron city related		FE_EV0610_CLEAR
-0x08F7						FE_COACH_FIRST_01
-0x08F8						FE_COACH_FIRST_02
-0x08F9						FE_COACH_FIRST_03
-0x08FA						FE_COACH_FIRST_04
-0x08FB						FE_COACH_FIRST_05
-0x08FC						FE_COACH_FIRST_06
-0x08FD						FE_COACH_FIRST_07
-0x08FE						FE_COACH_FIRST_08
-0x08FF						FE_COACH_FIRST_09
-0x0900						FE_COACH_FIRST_10
-0x0901						FE_COACH_FIRST_11
-0x0902						FE_COACH_FIRST_12
-0x0903						FE_COACH_FIRST_13
-0x0904						FE_COACH_FIRST_14
-0x0905						FE_COACH_FIRST_15
-0x0906						FE_COACH_FIRST_16
-0x0907						FE_COACH_FIRST_17
-0x0908						FE_COACH_FIRST_18
-0x0909						FE_COACH_FIRST_19
-0x090A						FE_EV8110_UNIQUE_IDLE
-0x090B						FE_T007GYM_IBARA_01_INIT_t007gym01
-0x090C						FE_T007GYM_IBARA_02_INIT_t007gym01
-0x090D						FE_T007GYM_IBARA_03_INIT_t007gym01
-0x090E						FE_T007GYM_IBARA_04_INIT_t007gym01
-0x090F						FE_T007GYM_IBARA_05_INIT_t007gym01
-0x0910						FE_T007GYM_IBARA_06_INIT_t007gym01
-0x0911						FE_T007GYM_IBARA_07_INIT_t007gym01
-0x0912						FE_T007GYM_IBARA_08_INIT_t007gym01
-0x0913						FE_EV0940_CHAIRWAIT
-0x0914						FE_EV0716_BOSS_FIRSTTALK
-0x0915						FE_KANNA_WIN
-0x0916						FE_SHIBA_WIN
-0x0917						FE_KIKUKO_WIN
-0x0918						FE_WATARU_WIN
-0x0919						FE_SUB_88_FIRST_TALK
-0x091A						FE_SUB_88_END
-0x091B						FE_EV1025_KAIRIKIROOK
+0x08F3	EVENT					FE_EV0210_GOBACK
+0x08F4	EVENT					FE_MASTER_RED_BATTLE_TALKED
+0x08F5	EVENT					FE_EV0310_KINNOTAMA_GET
+0x08F6	EVENT			Saffron city related		FE_EV0610_CLEAR
+0x08F7	EVENT					FE_COACH_FIRST_01
+0x08F8	EVENT					FE_COACH_FIRST_02
+0x08F9	EVENT					FE_COACH_FIRST_03
+0x08FA	EVENT					FE_COACH_FIRST_04
+0x08FB	EVENT					FE_COACH_FIRST_05
+0x08FC	EVENT					FE_COACH_FIRST_06
+0x08FD	EVENT					FE_COACH_FIRST_07
+0x08FE	EVENT					FE_COACH_FIRST_08
+0x08FF	EVENT					FE_COACH_FIRST_09
+0x0900	EVENT					FE_COACH_FIRST_10
+0x0901	EVENT					FE_COACH_FIRST_11
+0x0902	EVENT					FE_COACH_FIRST_12
+0x0903	EVENT					FE_COACH_FIRST_13
+0x0904	EVENT					FE_COACH_FIRST_14
+0x0905	EVENT					FE_COACH_FIRST_15
+0x0906	EVENT					FE_COACH_FIRST_16
+0x0907	EVENT					FE_COACH_FIRST_17
+0x0908	EVENT					FE_COACH_FIRST_18
+0x0909	EVENT					FE_COACH_FIRST_19
+0x090A	EVENT					FE_EV8110_UNIQUE_IDLE
+0x090B	EVENT					FE_T007GYM_IBARA_01_INIT_t007gym01
+0x090C	EVENT					FE_T007GYM_IBARA_02_INIT_t007gym01
+0x090D	EVENT					FE_T007GYM_IBARA_03_INIT_t007gym01
+0x090E	EVENT					FE_T007GYM_IBARA_04_INIT_t007gym01
+0x090F	EVENT					FE_T007GYM_IBARA_05_INIT_t007gym01
+0x0910	EVENT					FE_T007GYM_IBARA_06_INIT_t007gym01
+0x0911	EVENT					FE_T007GYM_IBARA_07_INIT_t007gym01
+0x0912	EVENT					FE_T007GYM_IBARA_08_INIT_t007gym01
+0x0913	EVENT					FE_EV0940_CHAIRWAIT
+0x0914	EVENT					FE_EV0716_BOSS_FIRSTTALK
+0x0915	EVENT					FE_KANNA_WIN
+0x0916	EVENT					FE_SHIBA_WIN
+0x0917	EVENT					FE_KIKUKO_WIN
+0x0918	EVENT					FE_WATARU_WIN
+0x0919	EVENT					FE_SUB_88_FIRST_TALK
+0x091A	EVENT					FE_SUB_88_END
+0x091B	EVENT					FE_EV1025_KAIRIKIROOK
 0x091C	ITEM GIFT	Lavender Town		Great Ball (x20) from guy		FE_EV0690_ITEMGET
 0x091D	EVENT					FE_ROAD002_1_IAIGIRI_01_INIT_road002_1
 0x091E	EVENT					FE_ROAD002_1_IAIGIRI_02_INIT_road002_1
@@ -2356,39 +2356,39 @@
 0x0932	EVENT					FE_ROAD015_1_IAIGIRI_02_INIT_road015_1
 0x0933	EVENT					FE_TOWN006_IAIGIRI_01_INIT_town006
 0x0934	EVENT					FE_T006R0308_IAIGIRI_01_INIT_t006r0308
-0x0935						FE_T002GYM0_TRID_BEAST_06
-0x0936						FE_SUB_87_CLEAR
-0x0937						FE_MAIN_1510_IN
-0x0938						FE_MAIN_0716_DUKT_CHECK
-0x0939						FE_EV0410_RIVAL_FIRSTTALK
-0x093A						FE_T002GYM_BOSS_ROOM_CAMERA
-0x093B						FE_MAIN_0716_DUKT_POINT_A
-0x093C						FE_MAIN_0716_DUKT_POINT_B
-0x093D						FE_SUB_89_CLEAR
-0x093E						FE_SUB_89_KNOWN_FOLLOWING
+0x0935	EVENT					FE_T002GYM0_TRID_BEAST_06
+0x0936	EVENT					FE_SUB_87_CLEAR
+0x0937	EVENT					FE_MAIN_1510_IN
+0x0938	EVENT					FE_MAIN_0716_DUKT_CHECK
+0x0939	EVENT					FE_EV0410_RIVAL_FIRSTTALK
+0x093A	EVENT					FE_T002GYM_BOSS_ROOM_CAMERA
+0x093B	EVENT					FE_MAIN_0716_DUKT_POINT_A
+0x093C	EVENT					FE_MAIN_0716_DUKT_POINT_B
+0x093D	EVENT					FE_SUB_89_CLEAR
+0x093E	EVENT					FE_SUB_89_KNOWN_FOLLOWING
 0x093F	IN-GAME TRADE					FE_FIELD_TRADE_FIRST_08
 0x0940	STATIC ENCOUNTER	Route 12				FE_CAPTURE_KABIGON_ROAD012
 0x0941	STATIC ENCOUNTER	Route 16				FE_CAPTURE_KABIGON_ROAD016
-0x0942						FE_COMMON_01
-0x0943						FE_COMMON_02
-0x0944						FE_COMMON_03
-0x0945						FE_COMMON_04
-0x0946						FE_COMMON_05
-0x0947						FE_COMMON_06
-0x0948						FE_COMMON_07
-0x0949						FE_COMMON_08
-0x094A						FE_COMMON_09
-0x094B						FE_COMMON_10
-0x094C						FE_COMMON_11
-0x094D						FE_COMMON_12
-0x094E						FE_COMMON_13
-0x094F						FE_COMMON_14
-0x0950						FE_COMMON_15
-0x0951						FE_COMMON_16
-0x0952						FE_COMMON_17
-0x0953						FE_COMMON_18
-0x0954						FE_COMMON_19
-0x0955						FE_COMMON_20
+0x0942	EVENT					FE_COMMON_01
+0x0943	EVENT					FE_COMMON_02
+0x0944	EVENT					FE_COMMON_03
+0x0945	EVENT					FE_COMMON_04
+0x0946	EVENT					FE_COMMON_05
+0x0947	EVENT					FE_COMMON_06
+0x0948	EVENT					FE_COMMON_07
+0x0949	EVENT					FE_COMMON_08
+0x094A	EVENT					FE_COMMON_09
+0x094B	EVENT					FE_COMMON_10
+0x094C	EVENT					FE_COMMON_11
+0x094D	EVENT					FE_COMMON_12
+0x094E	EVENT					FE_COMMON_13
+0x094F	EVENT					FE_COMMON_14
+0x0950	EVENT					FE_COMMON_15
+0x0951	EVENT					FE_COMMON_16
+0x0952	EVENT					FE_COMMON_17
+0x0953	EVENT					FE_COMMON_18
+0x0954	EVENT					FE_COMMON_19
+0x0955	EVENT					FE_COMMON_20
 0x0956						
 0x0957						
 0x0958						
@@ -2687,46 +2687,46 @@
 0x0A7D						
 0x0A7E						
 0x0A7F						
-0x0A80						TMFLG_SUB061
-0x0A81						TMFLG_SUB_43_ARARE
-0x0A82						TMFLG_FIX_SEIKAKU
-0x0A83						TMFLG_SUB075_DAILY
-0x0A84						TMFLG_SUB076_DAILY
-0x0A85						TMFLG_SUB077_DAILY
-0x0A86						TMFLG_SUB078_DAILY
-0x0A87						TMFLG_SUB079_DAILY
-0x0A88						TMFLG_SUB080_DAILY
-0x0A89						TMFLG_SUB081_DAILY
-0x0A8A						TMFLG_SUB082_DAILY
-0x0A8B						TMFLG_DIGDA_BALL
-0x0A8C						TMFLG_SUB087_YADON_SITTER
-0x0A8D						NOUSED
-0x0A8E						NOUSED
-0x0A8F						NOUSED
-0x0A90						NOUSED
-0x0A91						NOUSED
-0x0A92						NOUSED
-0x0A93						NOUSED
-0x0A94						TMFLG_COMMON_01
-0x0A95						TMFLG_COMMON_02
-0x0A96						TMFLG_COMMON_03
-0x0A97						TMFLG_COMMON_04
-0x0A98						TMFLG_COMMON_05
-0x0A99						TMFLG_COMMON_06
-0x0A9A						TMFLG_COMMON_07
-0x0A9B						TMFLG_COMMON_08
-0x0A9C						TMFLG_COMMON_09
-0x0A9D						TMFLG_COMMON_10
-0x0A9E						TMFLG_COMMON_11
-0x0A9F						TMFLG_COMMON_12
-0x0AA0						TMFLG_COMMON_13
-0x0AA1						TMFLG_COMMON_14
-0x0AA2						TMFLG_COMMON_15
-0x0AA3						TMFLG_COMMON_16
-0x0AA4						TMFLG_COMMON_17
-0x0AA5						TMFLG_COMMON_18
-0x0AA6						TMFLG_COMMON_19
-0x0AA7						TMFLG_COMMON_20
+0x0A80	EVENT					TMFLG_SUB061
+0x0A81	EVENT					TMFLG_SUB_43_ARARE
+0x0A82	EVENT					TMFLG_FIX_SEIKAKU
+0x0A83	EVENT					TMFLG_SUB075_DAILY
+0x0A84	EVENT					TMFLG_SUB076_DAILY
+0x0A85	EVENT					TMFLG_SUB077_DAILY
+0x0A86	EVENT					TMFLG_SUB078_DAILY
+0x0A87	EVENT					TMFLG_SUB079_DAILY
+0x0A88	EVENT					TMFLG_SUB080_DAILY
+0x0A89	EVENT					TMFLG_SUB081_DAILY
+0x0A8A	EVENT					TMFLG_SUB082_DAILY
+0x0A8B	EVENT					TMFLG_DIGDA_BALL
+0x0A8C	EVENT					TMFLG_SUB087_YADON_SITTER
+0x0A8D	_UNUSED					NOUSED
+0x0A8E	_UNUSED					NOUSED
+0x0A8F	_UNUSED					NOUSED
+0x0A90	_UNUSED					NOUSED
+0x0A91	_UNUSED					NOUSED
+0x0A92	_UNUSED					NOUSED
+0x0A93	_UNUSED					NOUSED
+0x0A94	EVENT					TMFLG_COMMON_01
+0x0A95	EVENT					TMFLG_COMMON_02
+0x0A96	EVENT					TMFLG_COMMON_03
+0x0A97	EVENT					TMFLG_COMMON_04
+0x0A98	EVENT					TMFLG_COMMON_05
+0x0A99	EVENT					TMFLG_COMMON_06
+0x0A9A	EVENT					TMFLG_COMMON_07
+0x0A9B	EVENT					TMFLG_COMMON_08
+0x0A9C	EVENT					TMFLG_COMMON_09
+0x0A9D	EVENT					TMFLG_COMMON_10
+0x0A9E	EVENT					TMFLG_COMMON_11
+0x0A9F	EVENT					TMFLG_COMMON_12
+0x0AA0	EVENT					TMFLG_COMMON_13
+0x0AA1	EVENT					TMFLG_COMMON_14
+0x0AA2	EVENT					TMFLG_COMMON_15
+0x0AA3	EVENT					TMFLG_COMMON_16
+0x0AA4	EVENT					TMFLG_COMMON_17
+0x0AA5	EVENT					TMFLG_COMMON_18
+0x0AA6	EVENT					TMFLG_COMMON_19
+0x0AA7	EVENT					TMFLG_COMMON_20
 0x0AA8						
 0x0AA9						
 0x0AAA						
@@ -4164,1003 +4164,1003 @@
 						
 						
 //	Event Work					
-0x0000						
-0x0001						
-0x0002						
-0x0003						
-0x0004						
-0x0005						
-0x0006						
-0x0007						
-0x0008						
-0x0009						
-0x000A						
-0x000B						
-0x000C						
-0x000D						
-0x000E						
-0x000F						
-0x0010						
-0x0011						
-0x0012						
-0x0013						
-0x0014						
-0x0015						
-0x0016						
-0x0017						
-0x0018						
-0x0019						
-0x001A						
-0x001B						
-0x001C						
-0x001D						
-0x001E						
-0x001F						
-0x0020						SYS_WORK_KAGAYAKI_ENABLED
-0x0021						SYS_WORK_EVJ
-0x0022				Madam Celadon Nature		SYS_WORK_FIX_SEIKAKU
-0x0023	_UNUSED					NOUSED
-0x0024	_UNUSED					NOUSED
-0x0025	_UNUSED					NOUSED
-0x0026	_UNUSED					NOUSED
-0x0027	_UNUSED					NOUSED
-0x0028	_UNUSED					NOUSED
-0x0029	_UNUSED					NOUSED
-0x002A	_UNUSED					NOUSED
-0x002B	_UNUSED					NOUSED
-0x002C	_UNUSED					NOUSED
-0x002D	_UNUSED					NOUSED
-0x002E	_UNUSED					NOUSED
-0x002F	_UNUSED					NOUSED
-0x0030	_UNUSED					NOUSED
-0x0031	_UNUSED					NOUSED
-0x0032						SYS_WORK_COMMON_01
-0x0033						SYS_WORK_COMMON_02
-0x0034						SYS_WORK_COMMON_03
-0x0035						SYS_WORK_COMMON_04
-0x0036						SYS_WORK_COMMON_05
-0x0037						SYS_WORK_COMMON_06
-0x0038						SYS_WORK_COMMON_07
-0x0039						SYS_WORK_COMMON_08
-0x003A						SYS_WORK_COMMON_09
-0x003B						SYS_WORK_COMMON_10
-0x003C						SYS_WORK_COMMON_11
-0x003D						SYS_WORK_COMMON_12
-0x003E						SYS_WORK_COMMON_13
-0x003F						SYS_WORK_COMMON_14
-0x0040						SYS_WORK_COMMON_15
-0x0041						SYS_WORK_COMMON_16
-0x0042						SYS_WORK_COMMON_17
-0x0043						SYS_WORK_COMMON_18
-0x0044						SYS_WORK_COMMON_19
-0x0045						SYS_WORK_COMMON_20
-0x0046						
-0x0047						
-0x0048						
-0x0049						
-0x004A						
-0x004B						
-0x004C						
-0x004D						
-0x004E						
-0x004F						
-0x0050						
-0x0051						
-0x0052						
-0x0053						
-0x0054						
-0x0055						
-0x0056						
-0x0057						
-0x0058						
-0x0059						
-0x005A						
-0x005B						
-0x005C						
-0x005D						
-0x005E						
-0x005F						
-0x0060						
-0x0061						
-0x0062						
-0x0063						
-0x0064						
-0x0065						
-0x0066						
-0x0067						
-0x0068						
-0x0069						
-0x006A						
-0x006B						
-0x006C						
-0x006D						
-0x006E						
-0x006F						
-0x0070						
-0x0071						
-0x0072						
-0x0073						
-0x0074						
-0x0075						
-0x0076						
-0x0077						
-0x0078						
-0x0079						
-0x007A						
-0x007B						
-0x007C						
-0x007D						
-0x007E						
-0x007F						
-0x0080						
-0x0081						
-0x0082						
-0x0083						
-0x0084						
-0x0085						
-0x0086						
-0x0087						
-0x0088						
-0x0089						
-0x008A						
-0x008B						
-0x008C						
-0x008D						
-0x008E						
-0x008F						
-0x0090						
-0x0091						
-0x0092						
-0x0093						
-0x0094						
-0x0095						
-0x0096						
-0x0097						
-0x0098						
-0x0099						
-0x009A						
-0x009B						
-0x009C						
-0x009D						
-0x009E						
-0x009F						
-0x00A0						WK_SCENE_MAIN_MASTER
-0x00A1						WK_SCENE_MAIN_A_RIVAL22
-0x00A2						WK_SCENE_MAIN_B_MASAKI
-0x00A3						WK_SCENE_MAIN_C_FLASH
-0x00A4						WK_SCENE_MAIN_D_SION
-0x00A5						WK_SCENE_MAIN_E_TEAMR
-0x00A6						WK_SCENE_MAIN_F_OTYA_GATE
-0x00A7						WK_SCENE_MAIN_G_NAMINORI_KAIRIKI
-0x00A8						WK_SCENE_MAIN_H_SEKIEI_GATE
-0x00A9						WK_SCENE_MAIN_I_GUREN
-0x00AA						WK_SCENE_MAIN_J_OTYA_TAKESHI
-0x00AB						WK_SCENE_MAIN_M_TAKESHI
-0x00AC						WK_SCENE_MAIN_M_KASUMI
-0x00AD						WK_SCENE_MAIN_M_MATIS
-0x00AE						WK_SCENE_MAIN_M_ERIKA
-0x00AF						WK_SCENE_MAIN_M_NATSUME
-0x00B0						WK_SCENE_MAIN_M_KYO
-0x00B1						WK_SCENE_SUB_032
-0x00B2						WK_SCENE_NIBI_POS_EVENT
-0x00B3						WK_SCENE_STOPPER_MAIN
-0x00B4						WK_SCENE_HANADA_POS_EVENT_01
-0x00B5						WK_SCENE_HANADA_POS_EVENT_02
-0x00B6						WK_SCENE_HANADA_POS_EVENT_03
-0x00B7						WK_SCENE_GUREN_POS_EVENT
-0x00B8						WK_SCENE_GUREN_FIRST_POS_EVENT
-0x00B9						WK_SCENE_CHAMPION_REMATCH
-0x00BA						WK_SCENE_MAIN_K_NAMINORI
-0x00BB						WK_SCENE_COMMON_01
-0x00BC						WK_SCENE_COMMON_02
-0x00BD						WK_SCENE_COMMON_03
-0x00BE						WK_SCENE_COMMON_04
-0x00BF						WK_SCENE_COMMON_05
-0x00C0						WK_SCENE_COMMON_06
-0x00C1						WK_SCENE_COMMON_07
-0x00C2						WK_SCENE_COMMON_08
-0x00C3						WK_SCENE_COMMON_09
-0x00C4						WK_SCENE_COMMON_10
-0x00C5						WK_SCENE_COMMON_11
-0x00C6						WK_SCENE_COMMON_12
-0x00C7						WK_SCENE_COMMON_13
-0x00C8						WK_SCENE_COMMON_14
-0x00C9						WK_SCENE_COMMON_15
-0x00CA						WK_SCENE_COMMON_16
-0x00CB						WK_SCENE_COMMON_17
-0x00CC						WK_SCENE_COMMON_18
-0x00CD						WK_SCENE_COMMON_19
-0x00CE						WK_SCENE_COMMON_20
-0x00CF						
-0x00D0						
-0x00D1						
-0x00D2						
-0x00D3						
-0x00D4						
-0x00D5						
-0x00D6						
-0x00D7						
-0x00D8						
-0x00D9						
-0x00DA						
-0x00DB						
-0x00DC						
-0x00DD						
-0x00DE						
-0x00DF						
-0x00E0						
-0x00E1						
-0x00E2						
-0x00E3						
-0x00E4						
-0x00E5						
-0x00E6						
-0x00E7						
-0x00E8						
-0x00E9						
-0x00EA						
-0x00EB						
-0x00EC						
-0x00ED						
-0x00EE						
-0x00EF						
-0x00F0						
-0x00F1						
-0x00F2						
-0x00F3						
-0x00F4						
-0x00F5						
-0x00F6						
-0x00F7						
-0x00F8						
-0x00F9						
-0x00FA						
-0x00FB						
-0x00FC						
-0x00FD						
-0x00FE						
-0x00FF						
-0x0100						
-0x0101						
-0x0102						
-0x0103						
-0x0104						
-0x0105						
-0x0106						
-0x0107						
-0x0108						
-0x0109						
-0x010A						
-0x010B						
-0x010C						
-0x010D						
-0x010E						
-0x010F						
-0x0110						
-0x0111						
-0x0112						
-0x0113						
-0x0114						
-0x0115						
-0x0116						
-0x0117						
-0x0118						
-0x0119						
-0x011A						
-0x011B						
-0x011C						
-0x011D						
-0x011E						
-0x011F						
-0x0120						
-0x0121						
-0x0122						
-0x0123						
-0x0124						
-0x0125						
-0x0126						
-0x0127						
-0x0128						
-0x0129						
-0x012A						
-0x012B						
-0x012C						
-0x012D						
-0x012E						
-0x012F						
-0x0130						
-0x0131						
-0x0132						
-0x0133						
-0x0134						
-0x0135						
-0x0136						
-0x0137						
-0x0138						
-0x0139						
-0x013A						
-0x013B						
-0x013C						
-0x013D						
-0x013E						
-0x013F						
-0x0140						
-0x0141						
-0x0142						
-0x0143						
-0x0144						
-0x0145						
-0x0146						
-0x0147						
-0x0148						
-0x0149						
-0x014A						
-0x014B						
-0x014C						
-0x014D						
-0x014E						
-0x014F						
-0x0150						
-0x0151						
-0x0152						
-0x0153						
-0x0154						
-0x0155						
-0x0156						
-0x0157						
-0x0158						
-0x0159						
-0x015A						
-0x015B						
-0x015C						
-0x015D						
-0x015E						
-0x015F						
-0x0160						
-0x0161						
-0x0162						
-0x0163						
-0x0164						
-0x0165						
-0x0166						
-0x0167						
-0x0168						
-0x0169						
-0x016A						
-0x016B						
-0x016C						
-0x016D						
-0x016E						
-0x016F						
-0x0170						
-0x0171						
-0x0172						
-0x0173						
-0x0174						
-0x0175						
-0x0176						
-0x0177						
-0x0178						
-0x0179						
-0x017A						
-0x017B						
-0x017C						
-0x017D						
-0x017E						
-0x017F						
-0x0180						
-0x0181						
-0x0182						
-0x0183						
-0x0184						
-0x0185						
-0x0186						
-0x0187						
-0x0188						
-0x0189						
-0x018A						
-0x018B						
-0x018C						
-0x018D						
-0x018E						
-0x018F						
-0x0190						
-0x0191						
-0x0192						
-0x0193						
-0x0194						
-0x0195						
-0x0196						
-0x0197						
-0x0198						
-0x0199						
-0x019A						
-0x019B						
-0x019C						
-0x019D						
-0x019E						
-0x019F						
-0x01A0						
-0x01A1						
-0x01A2						
-0x01A3						
-0x01A4						
-0x01A5						
-0x01A6						
-0x01A7						
-0x01A8						
-0x01A9						
-0x01AA						
-0x01AB						
-0x01AC						
-0x01AD						
-0x01AE						
-0x01AF						
-0x01B0						
-0x01B1						
-0x01B2						
-0x01B3						
-0x01B4						
-0x01B5						
-0x01B6						
-0x01B7						
-0x01B8						
-0x01B9						
-0x01BA						
-0x01BB						
-0x01BC						
-0x01BD						
-0x01BE						
-0x01BF						
-0x01C0						
-0x01C1						
-0x01C2						
-0x01C3						
-0x01C4						
-0x01C5						
-0x01C6						
-0x01C7						
-0x01C8						
-0x01C9						
-0x01CA						
-0x01CB						
-0x01CC						
-0x01CD						
-0x01CE						
-0x01CF						
-0x01D0						
-0x01D1						
-0x01D2						
-0x01D3						
-0x01D4						
-0x01D5						
-0x01D6						
-0x01D7						
-0x01D8						
-0x01D9						
-0x01DA						
-0x01DB						
-0x01DC						
-0x01DD						
-0x01DE						
-0x01DF						
-0x01E0						
-0x01E1						
-0x01E2						
-0x01E3						
-0x01E4						
-0x01E5						
-0x01E6						
-0x01E7						
-0x01E8						
-0x01E9						
-0x01EA						
-0x01EB						
-0x01EC						
-0x01ED						
-0x01EE						
-0x01EF						
-0x01F0						
-0x01F1						
-0x01F2						
-0x01F3						
-0x01F4						
-0x01F5						
-0x01F6						
-0x01F7						
-0x01F8						
-0x01F9						
-0x01FA						
-0x01FB						
-0x01FC						
-0x01FD						
-0x01FE						
-0x01FF						
-0x0200						
-0x0201						
-0x0202						
-0x0203						
-0x0204						
-0x0205						
-0x0206						
-0x0207						
-0x0208						
-0x0209						
-0x020A						
-0x020B						
-0x020C						
-0x020D						
-0x020E						
-0x020F						
-0x0210						
-0x0211						
-0x0212						
-0x0213						
-0x0214						
-0x0215						
-0x0216						
-0x0217						
-0x0218						
-0x0219						
-0x021A						
-0x021B						
-0x021C						
-0x021D						
-0x021E						
-0x021F						
-0x0220						
-0x0221						
-0x0222						
-0x0223						
-0x0224						
-0x0225						
-0x0226						
-0x0227						
-0x0228						
-0x0229						
-0x022A						
-0x022B						
-0x022C						
-0x022D						
-0x022E						
-0x022F						
-0x0230						
-0x0231						
-0x0232						
-0x0233						
-0x0234						
-0x0235						
-0x0236						
-0x0237						
-0x0238						
-0x0239						
-0x023A						
-0x023B						
-0x023C						
-0x023D						
-0x023E						
-0x023F						
-0x0240						
-0x0241						
-0x0242						
-0x0243						
-0x0244						
-0x0245						
-0x0246						
-0x0247						
-0x0248						
-0x0249						
-0x024A						
-0x024B						
-0x024C						
-0x024D						
-0x024E						
-0x024F						
-0x0250						
-0x0251						
-0x0252						
-0x0253						
-0x0254						
-0x0255						
-0x0256						
-0x0257						
-0x0258						
-0x0259						
-0x025A						
-0x025B						
-0x025C						
-0x025D						
-0x025E						
-0x025F						
-0x0260						
-0x0261						
-0x0262						
-0x0263						
-0x0264						
-0x0265						
-0x0266						
-0x0267						
-0x0268						
-0x0269						
-0x026A						
-0x026B						
-0x026C						
-0x026D						
-0x026E						
-0x026F						
-0x0270						
-0x0271						
-0x0272						
-0x0273						
-0x0274						
-0x0275						
-0x0276						
-0x0277						
-0x0278						
-0x0279						
-0x027A						
-0x027B						
-0x027C						
-0x027D						
-0x027E						
-0x027F						
-0x0280						
-0x0281						
-0x0282						
-0x0283						
-0x0284						
-0x0285						
-0x0286						
-0x0287						
-0x0288						
-0x0289						
-0x028A						
-0x028B						
-0x028C						
-0x028D						
-0x028E						
-0x028F						
-0x0290						
-0x0291						
-0x0292						
-0x0293						
-0x0294						
-0x0295						
-0x0296						
-0x0297						
-0x0298						
-0x0299						
-0x029A						
-0x029B						
-0x029C						
-0x029D						
-0x029E						
-0x029F						
-0x02A0						WK_EV_LASTPLAY_ID
-0x02A1						WK_EV_KUCHIBA_GYM_SWITCH
-0x02A2						WK_EV_HAKUBUTUKAN_ENTER
-0x02A3						WK_EV_REAL_DAYS
-0x02A4						WK_EV_SUB_070
-0x02A5						WK_EV_T002GYM_GIMMICK
-0x02A6						WK_EV_T009GYM_FLOW
-0x02A7						WK_EV_PTOWER_KAIHUKU_AREA
-0x02A8						WK_EV_HUNENOTIKETTO
-0x02A9						WK_EV_SUB_044
-0x02AA						WK_EV_SUB_069
-0x02AB						WK_EV_MAIN_0716_MUSAKOJI_TALKCOUNT
-0x02AC						WK_EV_MAIN_0690_YUUDOU
-0x02AD						WK_EV_WAZA_OSHIE_PROGRESS
-0x02AE						WK_EV_T007R0801_GATE_OPEN
-0x02AF						WK_EV_SUB_057
-0x02B0						WK_EV_SUB_084
-0x02B1						WK_EV_18
-0x02B2				S.S. Anne Deck Partner Event	10:Not Activated,15:Wants To Check Ahead,19:Gazed Over Sea	WK_EV_SUB_015
-0x02B3						WK_EV_SUB_016
-0x02B4						WK_EV_SUB_017
-0x02B5						WK_EV_SUB_056
-0x02B6						WK_EV_SUB_085_STOPPER
-0x02B7						WK_EV_COACH_TUTORIAL
-0x02B8						WK_EV_SUB_EVENT_045
-0x02B9						WK_EV_SUB_EVENT_087
-0x02BA						WK_EV_T001R0301_OOKIDO_TALK
-0x02BB						WK_EV_T006R0301_SANTO
-0x02BC						WK_EV_PARTNER_INDEX_TEMP
-0x02BD						WK_EV_COMMON_01
-0x02BE						WK_EV_COMMON_02
-0x02BF						WK_EV_COMMON_03
-0x02C0						WK_EV_COMMON_04
-0x02C1						WK_EV_COMMON_05
-0x02C2						WK_EV_COMMON_06
-0x02C3						WK_EV_COMMON_07
-0x02C4						WK_EV_COMMON_08
-0x02C5						WK_EV_COMMON_09
-0x02C6						WK_EV_COMMON_10
-0x02C7						WK_EV_COMMON_11
-0x02C8						WK_EV_COMMON_12
-0x02C9						WK_EV_COMMON_13
-0x02CA						WK_EV_COMMON_14
-0x02CB						WK_EV_COMMON_15
-0x02CC						WK_EV_COMMON_16
-0x02CD						WK_EV_COMMON_17
-0x02CE						WK_EV_COMMON_18
-0x02CF						WK_EV_COMMON_19
-0x02D0						WK_EV_COMMON_20
-0x02D1						
-0x02D2						
-0x02D3						
-0x02D4						
-0x02D5						
-0x02D6						
-0x02D7						
-0x02D8						
-0x02D9						
-0x02DA						
-0x02DB						
-0x02DC						
-0x02DD						
-0x02DE						
-0x02DF						
-0x02E0						
-0x02E1						
-0x02E2						
-0x02E3						
-0x02E4						
-0x02E5						
-0x02E6						
-0x02E7						
-0x02E8						
-0x02E9						
-0x02EA						
-0x02EB						
-0x02EC						
-0x02ED						
-0x02EE						
-0x02EF						
-0x02F0						
-0x02F1						
-0x02F2						
-0x02F3						
-0x02F4						
-0x02F5						
-0x02F6						
-0x02F7						
-0x02F8						
-0x02F9						
-0x02FA						
-0x02FB						
-0x02FC						
-0x02FD						
-0x02FE						
-0x02FF						
-0x0300						
-0x0301						
-0x0302						
-0x0303						
-0x0304						
-0x0305						
-0x0306						
-0x0307						
-0x0308						
-0x0309						
-0x030A						
-0x030B						
-0x030C						
-0x030D						
-0x030E						
-0x030F						
-0x0310						
-0x0311						
-0x0312						
-0x0313						
-0x0314						
-0x0315						
-0x0316						
-0x0317						
-0x0318						
-0x0319						
-0x031A						
-0x031B						
-0x031C						
-0x031D						
-0x031E						
-0x031F						
-0x0320						
-0x0321						
-0x0322						
-0x0323						
-0x0324						
-0x0325						
-0x0326						
-0x0327						
-0x0328						
-0x0329						
-0x032A						
-0x032B						
-0x032C						
-0x032D						
-0x032E						
-0x032F						
-0x0330						
-0x0331						
-0x0332						
-0x0333						
-0x0334						
-0x0335						
-0x0336						
-0x0337						
-0x0338						
-0x0339						
-0x033A						
-0x033B						
-0x033C						
-0x033D						
-0x033E						
-0x033F						
-0x0340						
-0x0341						
-0x0342						
-0x0343						
-0x0344						
-0x0345						
-0x0346						
-0x0347						
-0x0348						
-0x0349						
-0x034A						
-0x034B						
-0x034C						
-0x034D						
-0x034E						
-0x034F						
-0x0350						
-0x0351						
-0x0352						
-0x0353						
-0x0354						
-0x0355						
-0x0356						
-0x0357						
-0x0358						
-0x0359						
-0x035A						
-0x035B						
-0x035C						
-0x035D						
-0x035E						
-0x035F						
-0x0360						
-0x0361						
-0x0362						
-0x0363						
-0x0364						
-0x0365						
-0x0366						
-0x0367						
-0x0368						
-0x0369						
-0x036A						
-0x036B						
-0x036C						
-0x036D						
-0x036E						
-0x036F						
-0x0370						
-0x0371						
-0x0372						
-0x0373						
-0x0374						
-0x0375						
-0x0376						
-0x0377						
-0x0378						
-0x0379						
-0x037A						
-0x037B						
-0x037C						
-0x037D						
-0x037E						
-0x037F						
-0x0380						
-0x0381						
-0x0382						
-0x0383						
-0x0384						
-0x0385						
-0x0386						
-0x0387						
-0x0388						
-0x0389						
-0x038A						
-0x038B						
-0x038C						
-0x038D						
-0x038E						
-0x038F						
-0x0390						
-0x0391						
-0x0392						
-0x0393						
-0x0394						
-0x0395						
-0x0396						
-0x0397						
-0x0398						
-0x0399						
-0x039A						
-0x039B						
-0x039C						
-0x039D						
-0x039E						
-0x039F						
-0x03A0						
-0x03A1						
-0x03A2						
-0x03A3						
-0x03A4						
-0x03A5						
-0x03A6						
-0x03A7						
-0x03A8						
-0x03A9						
-0x03AA						
-0x03AB						
-0x03AC						
-0x03AD						
-0x03AE						
-0x03AF						
-0x03B0						
-0x03B1						
-0x03B2						
-0x03B3						
-0x03B4						
-0x03B5						
-0x03B6						
-0x03B7						
-0x03B8						
-0x03B9						
-0x03BA						
-0x03BB						
-0x03BC						
-0x03BD						
-0x03BE						
-0x03BF						
-0x03C0						
-0x03C1						
-0x03C2						
-0x03C3						
-0x03C4						
-0x03C5						
-0x03C6						
-0x03C7						
-0x03C8						
-0x03C9						
-0x03CA						
-0x03CB						
-0x03CC						
-0x03CD						
-0x03CE						
-0x03CF						
-0x03D0						
-0x03D1						
-0x03D2						
-0x03D3						
-0x03D4						
-0x03D5						
-0x03D6						
-0x03D7						
-0x03D8						
-0x03D9						
-0x03DA						
-0x03DB						
-0x03DC						
-0x03DD						
-0x03DE						
-0x03DF						
-0x03E0						
-0x03E1						
-0x03E2						
-0x03E3						
-0x03E4						
-0x03E5						
-0x03E6						
-0x03E7						
+0x000						
+0x001						
+0x002						
+0x003						
+0x004						
+0x005						
+0x006						
+0x007						
+0x008						
+0x009						
+0x00A						
+0x00B						
+0x00C						
+0x00D						
+0x00E						
+0x00F						
+0x010						
+0x011						
+0x012						
+0x013						
+0x014						
+0x015						
+0x016						
+0x017						
+0x018						
+0x019						
+0x01A						
+0x01B						
+0x01C						
+0x01D						
+0x01E						
+0x01F						
+0x020						SYS_WORK_KAGAYAKI_ENABLED
+0x021						SYS_WORK_EVJ
+0x022				Madam Celadon Nature		SYS_WORK_FIX_SEIKAKU
+0x023	_UNUSED					NOUSED
+0x024	_UNUSED					NOUSED
+0x025	_UNUSED					NOUSED
+0x026	_UNUSED					NOUSED
+0x027	_UNUSED					NOUSED
+0x028	_UNUSED					NOUSED
+0x029	_UNUSED					NOUSED
+0x02A	_UNUSED					NOUSED
+0x02B	_UNUSED					NOUSED
+0x02C	_UNUSED					NOUSED
+0x02D	_UNUSED					NOUSED
+0x02E	_UNUSED					NOUSED
+0x02F	_UNUSED					NOUSED
+0x030	_UNUSED					NOUSED
+0x031	_UNUSED					NOUSED
+0x032						SYS_WORK_COMMON_01
+0x033						SYS_WORK_COMMON_02
+0x034						SYS_WORK_COMMON_03
+0x035						SYS_WORK_COMMON_04
+0x036						SYS_WORK_COMMON_05
+0x037						SYS_WORK_COMMON_06
+0x038						SYS_WORK_COMMON_07
+0x039						SYS_WORK_COMMON_08
+0x03A						SYS_WORK_COMMON_09
+0x03B						SYS_WORK_COMMON_10
+0x03C						SYS_WORK_COMMON_11
+0x03D						SYS_WORK_COMMON_12
+0x03E						SYS_WORK_COMMON_13
+0x03F						SYS_WORK_COMMON_14
+0x040						SYS_WORK_COMMON_15
+0x041						SYS_WORK_COMMON_16
+0x042						SYS_WORK_COMMON_17
+0x043						SYS_WORK_COMMON_18
+0x044						SYS_WORK_COMMON_19
+0x045						SYS_WORK_COMMON_20
+0x046						
+0x047						
+0x048						
+0x049						
+0x04A						
+0x04B						
+0x04C						
+0x04D						
+0x04E						
+0x04F						
+0x050						
+0x051						
+0x052						
+0x053						
+0x054						
+0x055						
+0x056						
+0x057						
+0x058						
+0x059						
+0x05A						
+0x05B						
+0x05C						
+0x05D						
+0x05E						
+0x05F						
+0x060						
+0x061						
+0x062						
+0x063						
+0x064						
+0x065						
+0x066						
+0x067						
+0x068						
+0x069						
+0x06A						
+0x06B						
+0x06C						
+0x06D						
+0x06E						
+0x06F						
+0x070						
+0x071						
+0x072						
+0x073						
+0x074						
+0x075						
+0x076						
+0x077						
+0x078						
+0x079						
+0x07A						
+0x07B						
+0x07C						
+0x07D						
+0x07E						
+0x07F						
+0x080						
+0x081						
+0x082						
+0x083						
+0x084						
+0x085						
+0x086						
+0x087						
+0x088						
+0x089						
+0x08A						
+0x08B						
+0x08C						
+0x08D						
+0x08E						
+0x08F						
+0x090						
+0x091						
+0x092						
+0x093						
+0x094						
+0x095						
+0x096						
+0x097						
+0x098						
+0x099						
+0x09A						
+0x09B						
+0x09C						
+0x09D						
+0x09E						
+0x09F						
+0x0A0						WK_SCENE_MAIN_MASTER
+0x0A1						WK_SCENE_MAIN_A_RIVAL22
+0x0A2						WK_SCENE_MAIN_B_MASAKI
+0x0A3						WK_SCENE_MAIN_C_FLASH
+0x0A4						WK_SCENE_MAIN_D_SION
+0x0A5						WK_SCENE_MAIN_E_TEAMR
+0x0A6						WK_SCENE_MAIN_F_OTYA_GATE
+0x0A7						WK_SCENE_MAIN_G_NAMINORI_KAIRIKI
+0x0A8						WK_SCENE_MAIN_H_SEKIEI_GATE
+0x0A9						WK_SCENE_MAIN_I_GUREN
+0x0AA						WK_SCENE_MAIN_J_OTYA_TAKESHI
+0x0AB						WK_SCENE_MAIN_M_TAKESHI
+0x0AC						WK_SCENE_MAIN_M_KASUMI
+0x0AD						WK_SCENE_MAIN_M_MATIS
+0x0AE						WK_SCENE_MAIN_M_ERIKA
+0x0AF						WK_SCENE_MAIN_M_NATSUME
+0x0B0						WK_SCENE_MAIN_M_KYO
+0x0B1						WK_SCENE_SUB_032
+0x0B2						WK_SCENE_NIBI_POS_EVENT
+0x0B3						WK_SCENE_STOPPER_MAIN
+0x0B4						WK_SCENE_HANADA_POS_EVENT_01
+0x0B5						WK_SCENE_HANADA_POS_EVENT_02
+0x0B6						WK_SCENE_HANADA_POS_EVENT_03
+0x0B7						WK_SCENE_GUREN_POS_EVENT
+0x0B8						WK_SCENE_GUREN_FIRST_POS_EVENT
+0x0B9						WK_SCENE_CHAMPION_REMATCH
+0x0BA						WK_SCENE_MAIN_K_NAMINORI
+0x0BB						WK_SCENE_COMMON_01
+0x0BC						WK_SCENE_COMMON_02
+0x0BD						WK_SCENE_COMMON_03
+0x0BE						WK_SCENE_COMMON_04
+0x0BF						WK_SCENE_COMMON_05
+0x0C0						WK_SCENE_COMMON_06
+0x0C1						WK_SCENE_COMMON_07
+0x0C2						WK_SCENE_COMMON_08
+0x0C3						WK_SCENE_COMMON_09
+0x0C4						WK_SCENE_COMMON_10
+0x0C5						WK_SCENE_COMMON_11
+0x0C6						WK_SCENE_COMMON_12
+0x0C7						WK_SCENE_COMMON_13
+0x0C8						WK_SCENE_COMMON_14
+0x0C9						WK_SCENE_COMMON_15
+0x0CA						WK_SCENE_COMMON_16
+0x0CB						WK_SCENE_COMMON_17
+0x0CC						WK_SCENE_COMMON_18
+0x0CD						WK_SCENE_COMMON_19
+0x0CE						WK_SCENE_COMMON_20
+0x0CF						
+0x0D0						
+0x0D1						
+0x0D2						
+0x0D3						
+0x0D4						
+0x0D5						
+0x0D6						
+0x0D7						
+0x0D8						
+0x0D9						
+0x0DA						
+0x0DB						
+0x0DC						
+0x0DD						
+0x0DE						
+0x0DF						
+0x0E0						
+0x0E1						
+0x0E2						
+0x0E3						
+0x0E4						
+0x0E5						
+0x0E6						
+0x0E7						
+0x0E8						
+0x0E9						
+0x0EA						
+0x0EB						
+0x0EC						
+0x0ED						
+0x0EE						
+0x0EF						
+0x0F0						
+0x0F1						
+0x0F2						
+0x0F3						
+0x0F4						
+0x0F5						
+0x0F6						
+0x0F7						
+0x0F8						
+0x0F9						
+0x0FA						
+0x0FB						
+0x0FC						
+0x0FD						
+0x0FE						
+0x0FF						
+0x100						
+0x101						
+0x102						
+0x103						
+0x104						
+0x105						
+0x106						
+0x107						
+0x108						
+0x109						
+0x10A						
+0x10B						
+0x10C						
+0x10D						
+0x10E						
+0x10F						
+0x110						
+0x111						
+0x112						
+0x113						
+0x114						
+0x115						
+0x116						
+0x117						
+0x118						
+0x119						
+0x11A						
+0x11B						
+0x11C						
+0x11D						
+0x11E						
+0x11F						
+0x120						
+0x121						
+0x122						
+0x123						
+0x124						
+0x125						
+0x126						
+0x127						
+0x128						
+0x129						
+0x12A						
+0x12B						
+0x12C						
+0x12D						
+0x12E						
+0x12F						
+0x130						
+0x131						
+0x132						
+0x133						
+0x134						
+0x135						
+0x136						
+0x137						
+0x138						
+0x139						
+0x13A						
+0x13B						
+0x13C						
+0x13D						
+0x13E						
+0x13F						
+0x140						
+0x141						
+0x142						
+0x143						
+0x144						
+0x145						
+0x146						
+0x147						
+0x148						
+0x149						
+0x14A						
+0x14B						
+0x14C						
+0x14D						
+0x14E						
+0x14F						
+0x150						
+0x151						
+0x152						
+0x153						
+0x154						
+0x155						
+0x156						
+0x157						
+0x158						
+0x159						
+0x15A						
+0x15B						
+0x15C						
+0x15D						
+0x15E						
+0x15F						
+0x160						
+0x161						
+0x162						
+0x163						
+0x164						
+0x165						
+0x166						
+0x167						
+0x168						
+0x169						
+0x16A						
+0x16B						
+0x16C						
+0x16D						
+0x16E						
+0x16F						
+0x170						
+0x171						
+0x172						
+0x173						
+0x174						
+0x175						
+0x176						
+0x177						
+0x178						
+0x179						
+0x17A						
+0x17B						
+0x17C						
+0x17D						
+0x17E						
+0x17F						
+0x180						
+0x181						
+0x182						
+0x183						
+0x184						
+0x185						
+0x186						
+0x187						
+0x188						
+0x189						
+0x18A						
+0x18B						
+0x18C						
+0x18D						
+0x18E						
+0x18F						
+0x190						
+0x191						
+0x192						
+0x193						
+0x194						
+0x195						
+0x196						
+0x197						
+0x198						
+0x199						
+0x19A						
+0x19B						
+0x19C						
+0x19D						
+0x19E						
+0x19F						
+0x1A0						
+0x1A1						
+0x1A2						
+0x1A3						
+0x1A4						
+0x1A5						
+0x1A6						
+0x1A7						
+0x1A8						
+0x1A9						
+0x1AA						
+0x1AB						
+0x1AC						
+0x1AD						
+0x1AE						
+0x1AF						
+0x1B0						
+0x1B1						
+0x1B2						
+0x1B3						
+0x1B4						
+0x1B5						
+0x1B6						
+0x1B7						
+0x1B8						
+0x1B9						
+0x1BA						
+0x1BB						
+0x1BC						
+0x1BD						
+0x1BE						
+0x1BF						
+0x1C0						
+0x1C1						
+0x1C2						
+0x1C3						
+0x1C4						
+0x1C5						
+0x1C6						
+0x1C7						
+0x1C8						
+0x1C9						
+0x1CA						
+0x1CB						
+0x1CC						
+0x1CD						
+0x1CE						
+0x1CF						
+0x1D0						
+0x1D1						
+0x1D2						
+0x1D3						
+0x1D4						
+0x1D5						
+0x1D6						
+0x1D7						
+0x1D8						
+0x1D9						
+0x1DA						
+0x1DB						
+0x1DC						
+0x1DD						
+0x1DE						
+0x1DF						
+0x1E0						
+0x1E1						
+0x1E2						
+0x1E3						
+0x1E4						
+0x1E5						
+0x1E6						
+0x1E7						
+0x1E8						
+0x1E9						
+0x1EA						
+0x1EB						
+0x1EC						
+0x1ED						
+0x1EE						
+0x1EF						
+0x1F0						
+0x1F1						
+0x1F2						
+0x1F3						
+0x1F4						
+0x1F5						
+0x1F6						
+0x1F7						
+0x1F8						
+0x1F9						
+0x1FA						
+0x1FB						
+0x1FC						
+0x1FD						
+0x1FE						
+0x1FF						
+0x200						
+0x201						
+0x202						
+0x203						
+0x204						
+0x205						
+0x206						
+0x207						
+0x208						
+0x209						
+0x20A						
+0x20B						
+0x20C						
+0x20D						
+0x20E						
+0x20F						
+0x210						
+0x211						
+0x212						
+0x213						
+0x214						
+0x215						
+0x216						
+0x217						
+0x218						
+0x219						
+0x21A						
+0x21B						
+0x21C						
+0x21D						
+0x21E						
+0x21F						
+0x220						
+0x221						
+0x222						
+0x223						
+0x224						
+0x225						
+0x226						
+0x227						
+0x228						
+0x229						
+0x22A						
+0x22B						
+0x22C						
+0x22D						
+0x22E						
+0x22F						
+0x230						
+0x231						
+0x232						
+0x233						
+0x234						
+0x235						
+0x236						
+0x237						
+0x238						
+0x239						
+0x23A						
+0x23B						
+0x23C						
+0x23D						
+0x23E						
+0x23F						
+0x240						
+0x241						
+0x242						
+0x243						
+0x244						
+0x245						
+0x246						
+0x247						
+0x248						
+0x249						
+0x24A						
+0x24B						
+0x24C						
+0x24D						
+0x24E						
+0x24F						
+0x250						
+0x251						
+0x252						
+0x253						
+0x254						
+0x255						
+0x256						
+0x257						
+0x258						
+0x259						
+0x25A						
+0x25B						
+0x25C						
+0x25D						
+0x25E						
+0x25F						
+0x260						
+0x261						
+0x262						
+0x263						
+0x264						
+0x265						
+0x266						
+0x267						
+0x268						
+0x269						
+0x26A						
+0x26B						
+0x26C						
+0x26D						
+0x26E						
+0x26F						
+0x270						
+0x271						
+0x272						
+0x273						
+0x274						
+0x275						
+0x276						
+0x277						
+0x278						
+0x279						
+0x27A						
+0x27B						
+0x27C						
+0x27D						
+0x27E						
+0x27F						
+0x280						
+0x281						
+0x282						
+0x283						
+0x284						
+0x285						
+0x286						
+0x287						
+0x288						
+0x289						
+0x28A						
+0x28B						
+0x28C						
+0x28D						
+0x28E						
+0x28F						
+0x290						
+0x291						
+0x292						
+0x293						
+0x294						
+0x295						
+0x296						
+0x297						
+0x298						
+0x299						
+0x29A						
+0x29B						
+0x29C						
+0x29D						
+0x29E						
+0x29F						
+0x2A0						WK_EV_LASTPLAY_ID
+0x2A1						WK_EV_KUCHIBA_GYM_SWITCH
+0x2A2						WK_EV_HAKUBUTUKAN_ENTER
+0x2A3						WK_EV_REAL_DAYS
+0x2A4						WK_EV_SUB_070
+0x2A5						WK_EV_T002GYM_GIMMICK
+0x2A6						WK_EV_T009GYM_FLOW
+0x2A7						WK_EV_PTOWER_KAIHUKU_AREA
+0x2A8						WK_EV_HUNENOTIKETTO
+0x2A9						WK_EV_SUB_044
+0x2AA						WK_EV_SUB_069
+0x2AB						WK_EV_MAIN_0716_MUSAKOJI_TALKCOUNT
+0x2AC						WK_EV_MAIN_0690_YUUDOU
+0x2AD						WK_EV_WAZA_OSHIE_PROGRESS
+0x2AE						WK_EV_T007R0801_GATE_OPEN
+0x2AF						WK_EV_SUB_057
+0x2B0						WK_EV_SUB_084
+0x2B1						WK_EV_18
+0x2B2				S.S. Anne Deck Partner Event	10:Not Activated,15:Wants To Check Ahead,19:Gazed Over Sea	WK_EV_SUB_015
+0x2B3						WK_EV_SUB_016
+0x2B4						WK_EV_SUB_017
+0x2B5						WK_EV_SUB_056
+0x2B6						WK_EV_SUB_085_STOPPER
+0x2B7						WK_EV_COACH_TUTORIAL
+0x2B8						WK_EV_SUB_EVENT_045
+0x2B9						WK_EV_SUB_EVENT_087
+0x2BA						WK_EV_T001R0301_OOKIDO_TALK
+0x2BB						WK_EV_T006R0301_SANTO
+0x2BC						WK_EV_PARTNER_INDEX_TEMP
+0x2BD						WK_EV_COMMON_01
+0x2BE						WK_EV_COMMON_02
+0x2BF						WK_EV_COMMON_03
+0x2C0						WK_EV_COMMON_04
+0x2C1						WK_EV_COMMON_05
+0x2C2						WK_EV_COMMON_06
+0x2C3						WK_EV_COMMON_07
+0x2C4						WK_EV_COMMON_08
+0x2C5						WK_EV_COMMON_09
+0x2C6						WK_EV_COMMON_10
+0x2C7						WK_EV_COMMON_11
+0x2C8						WK_EV_COMMON_12
+0x2C9						WK_EV_COMMON_13
+0x2CA						WK_EV_COMMON_14
+0x2CB						WK_EV_COMMON_15
+0x2CC						WK_EV_COMMON_16
+0x2CD						WK_EV_COMMON_17
+0x2CE						WK_EV_COMMON_18
+0x2CF						WK_EV_COMMON_19
+0x2D0						WK_EV_COMMON_20
+0x2D1						
+0x2D2						
+0x2D3						
+0x2D4						
+0x2D5						
+0x2D6						
+0x2D7						
+0x2D8						
+0x2D9						
+0x2DA						
+0x2DB						
+0x2DC						
+0x2DD						
+0x2DE						
+0x2DF						
+0x2E0						
+0x2E1						
+0x2E2						
+0x2E3						
+0x2E4						
+0x2E5						
+0x2E6						
+0x2E7						
+0x2E8						
+0x2E9						
+0x2EA						
+0x2EB						
+0x2EC						
+0x2ED						
+0x2EE						
+0x2EF						
+0x2F0						
+0x2F1						
+0x2F2						
+0x2F3						
+0x2F4						
+0x2F5						
+0x2F6						
+0x2F7						
+0x2F8						
+0x2F9						
+0x2FA						
+0x2FB						
+0x2FC						
+0x2FD						
+0x2FE						
+0x2FF						
+0x300						
+0x301						
+0x302						
+0x303						
+0x304						
+0x305						
+0x306						
+0x307						
+0x308						
+0x309						
+0x30A						
+0x30B						
+0x30C						
+0x30D						
+0x30E						
+0x30F						
+0x310						
+0x311						
+0x312						
+0x313						
+0x314						
+0x315						
+0x316						
+0x317						
+0x318						
+0x319						
+0x31A						
+0x31B						
+0x31C						
+0x31D						
+0x31E						
+0x31F						
+0x320						
+0x321						
+0x322						
+0x323						
+0x324						
+0x325						
+0x326						
+0x327						
+0x328						
+0x329						
+0x32A						
+0x32B						
+0x32C						
+0x32D						
+0x32E						
+0x32F						
+0x330						
+0x331						
+0x332						
+0x333						
+0x334						
+0x335						
+0x336						
+0x337						
+0x338						
+0x339						
+0x33A						
+0x33B						
+0x33C						
+0x33D						
+0x33E						
+0x33F						
+0x340						
+0x341						
+0x342						
+0x343						
+0x344						
+0x345						
+0x346						
+0x347						
+0x348						
+0x349						
+0x34A						
+0x34B						
+0x34C						
+0x34D						
+0x34E						
+0x34F						
+0x350						
+0x351						
+0x352						
+0x353						
+0x354						
+0x355						
+0x356						
+0x357						
+0x358						
+0x359						
+0x35A						
+0x35B						
+0x35C						
+0x35D						
+0x35E						
+0x35F						
+0x360						
+0x361						
+0x362						
+0x363						
+0x364						
+0x365						
+0x366						
+0x367						
+0x368						
+0x369						
+0x36A						
+0x36B						
+0x36C						
+0x36D						
+0x36E						
+0x36F						
+0x370						
+0x371						
+0x372						
+0x373						
+0x374						
+0x375						
+0x376						
+0x377						
+0x378						
+0x379						
+0x37A						
+0x37B						
+0x37C						
+0x37D						
+0x37E						
+0x37F						
+0x380						
+0x381						
+0x382						
+0x383						
+0x384						
+0x385						
+0x386						
+0x387						
+0x388						
+0x389						
+0x38A						
+0x38B						
+0x38C						
+0x38D						
+0x38E						
+0x38F						
+0x390						
+0x391						
+0x392						
+0x393						
+0x394						
+0x395						
+0x396						
+0x397						
+0x398						
+0x399						
+0x39A						
+0x39B						
+0x39C						
+0x39D						
+0x39E						
+0x39F						
+0x3A0						
+0x3A1						
+0x3A2						
+0x3A3						
+0x3A4						
+0x3A5						
+0x3A6						
+0x3A7						
+0x3A8						
+0x3A9						
+0x3AA						
+0x3AB						
+0x3AC						
+0x3AD						
+0x3AE						
+0x3AF						
+0x3B0						
+0x3B1						
+0x3B2						
+0x3B3						
+0x3B4						
+0x3B5						
+0x3B6						
+0x3B7						
+0x3B8						
+0x3B9						
+0x3BA						
+0x3BB						
+0x3BC						
+0x3BD						
+0x3BE						
+0x3BF						
+0x3C0						
+0x3C1						
+0x3C2						
+0x3C3						
+0x3C4						
+0x3C5						
+0x3C6						
+0x3C7						
+0x3C8						
+0x3C9						
+0x3CA						
+0x3CB						
+0x3CC						
+0x3CD						
+0x3CE						
+0x3CF						
+0x3D0						
+0x3D1						
+0x3D2						
+0x3D3						
+0x3D4						
+0x3D5						
+0x3D6						
+0x3D7						
+0x3D8						
+0x3D9						
+0x3DA						
+0x3DB						
+0x3DC						
+0x3DD						
+0x3DE						
+0x3DF						
+0x3E0						
+0x3E1						
+0x3E2						
+0x3E3						
+0x3E4						
+0x3E5						
+0x3E6						
+0x3E7						
