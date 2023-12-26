@@ -5,16 +5,18 @@ It allows you to edit all sorts of Flags and Event Work data from save files.
 ## Setup Instructions
 - Download the plugin from the latest release [here](https://github.com/fattard/FlagsEditorEXPlugin/releases/latest).
 - Extract and unblock them in Windows' Properties Menu.
-- Put them in the *plugins* folder that is in the same directory as the PKHeX program path.
+- Put them in the *plugins* folder that is in the same folder as the PKHeX program path.
+- If the *plugins* folder does not exist, create a new one, all lowercase letters.
 - Check for more instructions examples if you have trouble: [Manually Installing PKHeX Plugins](https://github.com/architdate/PKHeX-Plugins/wiki/Installing-PKHeX-Plugins#manual-installation-or-installing-older-releases).
 
 ## Actions
+
+**Note: The lists may contain unused data, which will be filtered out later, as documentation on the flags progresses.**  
 
 ### Dump all Flags
 
 This action will export the entire flag database with the current flag states (True/False) and event work values, with additional description (when available).  
 This action is mainly for researching flag states and diffing previous/current states to discover and document the flag usages, that will be added as human readable information.  
-The exported file will contains the name *flags_dump_VERSION.txt* that will be created alongside the PKHeX program path.
 
 ### Edit Flags
 
@@ -28,7 +30,6 @@ All sorts of Flags and Event Work data can be edited through several tabs, that 
 
 After finishing editing, export your save data from the base application.
 
-**Note: The lists may contain unused data, which will be filtered out later, as documentation on the flags progresses.**  
 **No safety checks are done at all, so any combination of changes may cause issues like softlocks, crashes and permanent data loss.**
 **Save data backups are strongly recommended before going into flags editing.**
 
@@ -104,3 +105,10 @@ To contribute, create a copy of the above, fill the info you researched, and con
 
 Priority for community contribution would be the 3DS games.  
 B2W2 had some progress right now.
+
+## Credits
+
+[Kurt](https://github.com/kwsch) for [PKHeX](https://github.com/kwsch/PKHeX) and [pkNX](https://github.com/kwsch/pkNX)  
+[Matt](https://github.com/sora10pls) for a lot of research over event flags and datamining  
+[Pret](https://github.com/Pret) and all the disassemblies  
+All the people in [PPOrg](https://projectpokemon.org) that have contributed to event flags research
