@@ -7,7 +7,8 @@
         readonly FlagsOrganizer m_organizer;
         readonly FlagsOrganizer.FlagsGroup m_curFlagsGroup;
         readonly FlagsOrganizer.EventFlagType m_filter;
-
+        int m_totalSet = 0;
+        int m_totalUnset = 0;
 
         public FlagsEditor(FlagsOrganizer flagsOrganizer, FlagsOrganizer.FlagsGroup flagsGroup, FlagsOrganizer.EventFlagType filter)
         {
@@ -143,7 +144,21 @@
         private void DataGridView_CellValueChanged(object? sender, DataGridViewCellEventArgs e)
         {
             var idx = ((ulong?)dataGridView.Rows[e.RowIndex].Cells[1].Value).Value;
-            m_editableFlagsList.Find(f => f.FlagIdx == idx)!.IsSet = ((bool?)dataGridView.Rows[e.RowIndex].Cells[0].Value).Value;
+            var toSet = ((bool?)dataGridView.Rows[e.RowIndex].Cells[0].Value).Value;
+            m_editableFlagsList.Find(f => f.FlagIdx == idx)!.IsSet = toSet;
+
+            if (toSet)
+            {
+                m_totalSet++;
+                m_totalUnset--;
+            }
+            else
+            {
+                m_totalSet--;
+                m_totalUnset++;
+            }
+
+            RefreshCountersLabels();
         }
 
 
@@ -243,9 +258,20 @@
                 }
             }
 
+            m_totalSet = totalSet;
+            m_totalUnset = totalUnset;
+
+            RefreshCountersLabels();
+        }
+
+        private void RefreshCountersLabels()
+        {
+            int totalRows = dataGridView.Rows.Count;
+            int totalSet = m_totalSet;
+            int totalUnset = m_totalUnset;
+
             numSetTxt.Text = string.Format("{0:D4}/{1:D4}", totalSet, totalRows);
             numUnsetTxt.Text = string.Format("{0:D4}/{1:D4}", totalUnset, totalRows);
         }
-
     }
 }
