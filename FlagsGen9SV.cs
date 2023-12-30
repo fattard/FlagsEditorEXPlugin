@@ -6,16 +6,16 @@
 
         const int Src_EventFlags = 0;
         const int Src_FieldItemFlags = 1;
-        const int Src_HiddenItemFlags = 2;
-        const int Src_TrainerFlags = 3;
+        //const int Src_HiddenItemFlags = 2;
+        const int Src_TrainerFlags = 2;
 
         readonly uint[] HiddenItemsBlockKeys =
         [
-                // Paldea
-                0x6DAB304B, // ~ South Province
-            0x6EAB31DE, // ~ West Province
-            0x6FAB3371, // ~ North Province
-            0x6CAB2EB8, // ~ East Province
+            // Paldea
+            0x6DAB304B, // ~ South areas
+            0x6EAB31DE, // ~ West areas
+            0x6FAB3371, // ~ North areas
+            0x6CAB2EB8, // ~ East areas
 
             // Area Zero
             0x9A7A41AB,
@@ -31,7 +31,6 @@
             0x1381BBEB,
             0x257F99AA,
             0x1E7F8EA5, // ~ Area Zero Depths
-
         ];
 
         readonly List<FlagDetail> m_unavailableFlagBlocks = [];
@@ -121,54 +120,6 @@
 #if DEBUG
                                         DumpListOfStatuses("kFieldItems_status.txt", listOfStatuses);
 #endif
-                                    }
-
-                                    var flagDetail = new FlagDetail(s);
-                                    if (listOfStatuses.TryGetValue(flagDetail.FlagIdx, out bool value))
-                                    {
-                                        flagDetail.IsSet = value;
-                                        flagDetail.SourceIdx = sourceIdx;
-                                        flagsGroup.Flags.Add(flagDetail);
-                                    }
-                                }
-                                break;
-
-                            case Src_HiddenItemFlags:
-                                {
-                                    if (listOfStatuses is null)
-                                    {
-                                        listOfStatuses = new Dictionary<ulong, bool>(10 * 1024);
-
-                                        for (int k = 0; k < HiddenItemsBlockKeys.Length; k++)
-                                        {
-                                            // Skip DLC1 on older saves
-                                            if (k > 6 && ((SAV9SV)m_savFile).SaveRevision < 1)
-                                            {
-                                                continue;
-                                            }
-
-                                            // Skip DLC2 on older saves
-                                            if (k > 8 && ((SAV9SV)m_savFile).SaveRevision < 2)
-                                            {
-                                                continue;
-                                            }
-
-                                            var data = savEventBlocks.GetBlockSafe(HiddenItemsBlockKeys[k]).Data;
-                                            int offsetAdjust = (int)k << 12;
-
-                                            for (int i = 0; i < data.Length; i++)
-                                            {
-                                                listOfStatuses.Add((ulong)(i + offsetAdjust), data[i] == 0);
-                                            }
-                                        }
-
-                                        /*StringBuilder sb = new StringBuilder();
-                                        foreach (var _ in listOfStatuses)
-                                        {
-                                            sb.AppendFormat("0x{0:X4}\n", _.Key);
-                                        }
-
-                                        System.IO.File.WriteAllText("_idx.txt", sb.ToString());*/
                                     }
 
                                     var flagDetail = new FlagDetail(s);
@@ -424,16 +375,6 @@
 
                     case EventFlagType.HiddenItem:
                         {
-                            /*foreach (var f in m_flagsGroupsList[Src_HiddenItemFlags].Flags)
-                            {
-                                if (f.FlagTypeVal == flagType)
-                                {
-                                    f.IsSet = value;
-                                }
-                            }
-
-                            SyncEditedFlags(m_flagsGroupsList[Src_HiddenItemFlags]);*/
-
                             var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
 
                             for (int k = 0; k < HiddenItemsBlockKeys.Length; k++)
@@ -533,22 +474,6 @@
                                     }
                                 }
                             }
-                        }
-                    }
-                    break;
-
-                case Src_HiddenItemFlags:
-                    {
-                        List<byte[]> tBlocks = new List<byte[]>(HiddenItemsBlockKeys.Length);
-                        foreach (var _ in HiddenItemsBlockKeys)
-                            tBlocks.Add(savEventBlocks.GetBlockSafe(_).Data);
-
-                        foreach (var f in fGroup.Flags)
-                        {
-                            int k = (int)(f.FlagIdx >> 12);
-
-                            var data = tBlocks[k];
-                            data[(int)(f.FlagIdx & 1023)] = f.IsSet ? (byte)0 : (byte)0x80;
                         }
                     }
                     break;
