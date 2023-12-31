@@ -340,6 +340,55 @@
             _ => false
         };
 
+        public override EditableEventInfo[] GetSpecialEditableEvents()
+        {
+            int idx = 0;
+            return
+            [
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGenSV.specialEvtBtn_{idx}", "Unlock Kitakami map access")) { IsAvailable = ((SAV9SV)m_savFile!).SaveRevision > 0 }, // DLC1
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGenSV.specialEvtBtn_{idx}", "Unlock Blueberry map access")) { IsAvailable = ((SAV9SV)m_savFile!).SaveRevision > 1 }, // DLC2
+            ];
+        }
+
+        public override void ProcessSpecialEventEdit(EditableEventInfo eventInfo)
+        {
+            ulong idx;
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
+
+            switch (eventInfo.Index)
+            {
+                case 0: // Unlock Kitakami map access
+                    {
+                        idx = 0x69284BE7; // FSYS_YMAP_SU1MAP_CHANGE
+                        if (savEventBlocks.HasBlock(0x69284BE7)) // FSYS_YMAP_SU1MAP_CHANGE
+                        {
+                            savEventBlocks.GetBlockSafe((uint)idx).ChangeBooleanType(SCTypeCode.Bool2);
+                            m_flagsGroupsList[Src_EventFlags].Flags.Find(f => f.FlagIdx == idx)!.IsSet = true;
+
+                            idx = 0x6B58DC8C; // FSYS_YMAP_POKECEN_SU01
+                            savEventBlocks.GetBlockSafe((uint)idx).ChangeBooleanType(SCTypeCode.Bool2);
+                            m_flagsGroupsList[Src_EventFlags].Flags.Find(f => f.FlagIdx == idx)!.IsSet = true;
+                        }
+                    }
+                    break;
+
+                case 1: // Unlock Blueberry map access
+                    {
+                        idx = 0xD0906C85; // FSYS_YMAP_S2_MAPCHANGE_ENABLE
+                        if (savEventBlocks.HasBlock(0x69284BE7)) // FSYS_YMAP_SU1MAP_CHANGE
+                        {
+                            savEventBlocks.GetBlockSafe((uint)idx).ChangeBooleanType(SCTypeCode.Bool2);
+                            m_flagsGroupsList[Src_EventFlags].Flags.Find(f => f.FlagIdx == idx)!.IsSet = true;
+
+                            idx = 0x6B58E1A5; // FSYS_YMAP_POKECEN_SU02
+                            savEventBlocks.GetBlockSafe((uint)idx).ChangeBooleanType(SCTypeCode.Bool2);
+                            m_flagsGroupsList[Src_EventFlags].Flags.Find(f => f.FlagIdx == idx)!.IsSet = true;
+                        }
+                    }
+                    break;
+            }
+        }
+
         public override void BulkMarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: true);

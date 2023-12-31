@@ -82,7 +82,8 @@ namespace FlagsEditorEXPlugin.Forms
                     Size = new System.Drawing.Size(210, 23),
                     //newBtn.TabIndex = 1;
                     Text = evt.Label,
-                    UseVisualStyleBackColor = true
+                    UseVisualStyleBackColor = true,
+                    Enabled = evt.IsAvailable
                 };
                 newBtn.Click += (object? sender, EventArgs e) =>
                 {
