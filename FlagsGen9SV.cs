@@ -3,6 +3,7 @@
     internal class FlagsGen9SV : FlagsOrganizer
     {
         static string? s_flagsList_res = null;
+        static string? s_evtBlocksList_res = null;
 
         const int Src_EventFlags = 0;
         const int Src_FieldItemFlags = 1;
@@ -33,8 +34,43 @@
             0x1E7F8EA5, // ~ Area Zero Depths
         ];
 
+        class EvtBlockStateDetail
+        {
+            public ulong EvtBlockIdx { get; private set; }
+            public EventFlagType FlagTypeVal { get; private set; }
+            public string FlagTypeTxt => FlagTypeVal.AsText();
+            public string LocationName { get; private set; }
+            public string DetailMsg { get; private set; }
+            public string InternalName { get; private set; }
+            public byte[] Data { get; private set; }
+
+            public EvtBlockStateDetail(string detailEntry)
+            {
+                string[] info = detailEntry.Split('\t');
+
+                if (info.Length < 7)
+                {
+                    throw new ArgumentException("Argument detailEntry format is not valid");
+                }
+                EvtBlockIdx = ParseDecOrHex(info[0]);
+                FlagTypeVal = FlagTypeVal.Parse(info[1]);
+                LocationName = info[2];
+                if (!string.IsNullOrWhiteSpace(info[3]))
+                {
+                    LocationName += " " + info[3];
+                }
+                DetailMsg = info[4];
+                InternalName = info[6];
+                Data = new byte[32];
+            }
+        }
+
+        readonly List<WorkDetail> m_evtToggleBlocks = [];
+        readonly List<EvtBlockStateDetail> m_evtStateBlocks = [];
+
         readonly List<FlagDetail> m_unavailableFlagBlocks = [];
         readonly List<WorkDetail> m_unavailableWorkBlocks = [];
+        readonly List<EvtBlockStateDetail> m_unavailableStateBlocks = [];
 
         protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
@@ -43,9 +79,11 @@
 #if DEBUG
             // Force refresh
             s_flagsList_res = null;
+            s_evtBlocksList_res = null;
 #endif
 
             s_flagsList_res = resData ?? s_flagsList_res ?? ReadFlagsResFile("flags_gen9sv");
+            s_evtBlocksList_res = resData ?? s_evtBlocksList_res ?? ReadFlagsResFile("evt_blocks_gen9sv");
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxFieldItemFlagsSection = s_flagsList_res.IndexOf("//\tField Item Flags");
@@ -59,6 +97,8 @@
             AssembleList(s_flagsList_res[idxTrainerFlagsSection..], Src_TrainerFlags, "Regular Trainer Flags", []);
 
             AssembleWorkList(s_flagsList_res[idxEventWorkSection..], Array.Empty<uint>());
+
+            AssembleEventBlocksList(s_evtBlocksList_res);
         }
 
         protected override void AssembleList(string flagsList_res, int sourceIdx, string sourceName, bool[] flagValues)
@@ -224,6 +264,99 @@
             }
         }
 
+        protected void AssembleEventBlocksList(string evtBlocks_res)
+        {
+            int idxToggleBlocksSection = evtBlocks_res.IndexOf("//\tToggle Blocks");
+            int idxStateBlocksSection = evtBlocks_res.IndexOf("//\tState Blocks");
+
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
+
+            using (System.IO.StringReader reader = new System.IO.StringReader(evtBlocks_res[idxToggleBlocksSection..]))
+            {
+                string? s = reader.ReadLine();
+
+                if (s is null)
+                {
+                    return;
+                }
+
+                // Skip header
+                if (s.StartsWith("//"))
+                {
+                    s = reader.ReadLine();
+                }
+
+                do
+                {
+                    if (!string.IsNullOrWhiteSpace(s))
+                    {
+                        // End of section
+                        if (s.StartsWith("//"))
+                        {
+                            break;
+                        }
+
+                        var workDetail = new WorkDetail(s);
+                        if (savEventBlocks.HasBlock((uint)workDetail.WorkIdx))
+                        {
+                            workDetail.Value = Convert.ToInt64(savEventBlocks.GetBlockSafe((uint)workDetail.WorkIdx).GetValue());
+                            m_evtToggleBlocks.Add(workDetail);
+                        }
+                        else
+                        {
+                            m_unavailableWorkBlocks.Add(workDetail);
+                        }
+                    }
+
+                    s = reader.ReadLine();
+
+                } while (s != null);
+            }
+
+
+            using (System.IO.StringReader reader = new System.IO.StringReader(evtBlocks_res[idxStateBlocksSection..]))
+            {
+                string? s = reader.ReadLine();
+
+                if (s is null)
+                {
+                    return;
+                }
+
+                // Skip header
+                if (s.StartsWith("//"))
+                {
+                    s = reader.ReadLine();
+                }
+
+                do
+                {
+                    if (!string.IsNullOrWhiteSpace(s))
+                    {
+                        // End of section
+                        if (s.StartsWith("//"))
+                        {
+                            break;
+                        }
+
+                        var evtStateDetail = new EvtBlockStateDetail(s);
+                        if (savEventBlocks.HasBlock((uint)evtStateDetail.EvtBlockIdx))
+                        {
+                            Array.Copy(savEventBlocks.GetBlockSafe((uint)evtStateDetail.EvtBlockIdx).Data, evtStateDetail.Data, evtStateDetail.Data.Length);
+                            m_evtStateBlocks.Add(evtStateDetail);
+                        }
+                        else
+                        {
+                            m_unavailableStateBlocks.Add(evtStateDetail);
+                        }
+                    }
+
+                    s = reader.ReadLine();
+
+                } while (s != null);
+            }
+        }
+
         Dictionary<ulong, bool> RetrieveBlockStatuses(byte[] aData, ulong emptyKey)
         {
             // Ignore dummy blocks
@@ -264,11 +397,11 @@
             return blocksStatus;
         }
 
-#if DEBUG
         public override string DumpAllFlags()
         {
             StringBuilder sb = new StringBuilder(512 * 1024);
 
+#if DEBUG
             if (m_unavailableFlagBlocks.Count > 0)
             {
                 sb.Append($"{"Event Flags"}\r\n");
@@ -303,13 +436,73 @@
                     sb.AppendFormat(fmt, m_unavailableWorkBlocks[i].WorkIdx, m_unavailableWorkBlocks[i].Value,
                         m_unavailableWorkBlocks[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_unavailableWorkBlocks[i].ToString());
                 }
+
+                sb.Append("\r\n\r\n");
+            }
+
+            if (m_unavailableStateBlocks.Count > 0)
+            {
+                sb.Append($"{"State Blocks"}\r\n");
+
+                for (int i = 0; i < m_unavailableStateBlocks.Count; ++i)
+                {
+                    string fmt = m_unavailableStateBlocks[i].EvtBlockIdx > (ushort.MaxValue) ?
+                        m_unavailableStateBlocks[i].EvtBlockIdx > (uint.MaxValue) ?
+                        "STATE_0x{0:X16}\t{1}\r\n" :
+                        "STATE_0x{0:X8}\t{1}\r\n" :
+                        "STATE_0x{0:X4}\t{1}\r\n";
+
+                    sb.AppendFormat(fmt, m_unavailableStateBlocks[i].EvtBlockIdx,
+                        m_unavailableStateBlocks[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_unavailableStateBlocks[i].InternalName);
+                }
             }
 
             System.IO.File.WriteAllText(string.Format("unavailable_flags_dump_{0}.txt", m_savFile!.Version), sb.ToString());
+#endif
 
-            return base.DumpAllFlags();
+            DumpStateBlocks(string.Format("evtStates_dump_{0}.txt", m_savFile!.Version));
+
+            sb.Length = 0;
+            sb.Append(base.DumpAllFlags());
+
+            sb.Append("\r\n\r\n");
+
+            sb.Append($"{"Toggle Blocks"}\r\n");
+
+            for (int i = 0; i < m_evtToggleBlocks.Count; ++i)
+            {
+                string fmt = m_evtToggleBlocks[i].WorkIdx > (ushort.MaxValue) ?
+                    m_evtToggleBlocks[i].WorkIdx > (uint.MaxValue) ?
+                    "TOGGLE_0x{0:X16} {1,3}\t{2}\r\n" :
+                    "TOGGLE_0x{0:X8} {1,3}\t{2}\r\n" :
+                    "TOGGLE_0x{0:X4} {1,3}\t{2}\r\n";
+
+                sb.AppendFormat(fmt, m_evtToggleBlocks[i].WorkIdx, m_evtToggleBlocks[i].Value,
+                    m_evtToggleBlocks[i].FlagTypeVal == EventFlagType._Unused ? "UNUSED" : m_evtToggleBlocks[i].ToString());
+            }
+
+            return sb.ToString();
         }
 
+        void DumpStateBlocks(string filePath)
+        {
+            using (MemoryStream ms = new MemoryStream())
+            {
+                using (BinaryWriter bw = new BinaryWriter(ms))
+                {
+                    for (int i = 0; i < m_evtStateBlocks.Count; ++i)
+                    {
+                        bw.Write(string.Format("{0:X8}==", m_evtStateBlocks[i].EvtBlockIdx).ToCharArray());
+                        bw.Write(m_evtStateBlocks[i].Data);
+                        bw.Write(['\r', '\n']);
+                    }
+
+                    System.IO.File.WriteAllBytes(filePath, ms.ToArray());
+                }
+            }
+        }
+
+#if DEBUG
         static void DumpListOfStatuses(string filePath, Dictionary<ulong, bool> listOfStatuses)
         {
             StringBuilder sb = new StringBuilder(512 * 1024);

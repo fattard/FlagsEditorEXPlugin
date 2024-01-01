@@ -26,6 +26,7 @@
     <None Remove="TestApp\**" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="flagslist\evt_blocks_gen9sv_en.txt" />
     <EmbeddedResource Include="flagslist\flags_gen1rb_en.txt" />
     <EmbeddedResource Include="flagslist\flags_gen1y_en.txt" />
     <EmbeddedResource Include="flagslist\flags_gen1jbu_en.txt" />
