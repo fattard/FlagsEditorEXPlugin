@@ -6043,7 +6043,7 @@
 0x8EE54EBF				unused?		FSYS_YMAP_MASS_TEST_04
 0x8EE54D0C				unused?		FSYS_YMAP_MASS_TEST_05
 0x22587DBC						FSYS_YMAP_MOKKAN
-0xB4CB56F7						FSYS_YMAP_ONI_BALLOON
+0xB4CB56F7	FLY SPOT	Kitakami Hall		Unlocked Ogre Oustin' fly spot		FSYS_YMAP_ONI_BALLOON
 0x30C57070				unused?		FSYS_YMAP_POK_02
 0xB6119AE9	FLY SPOT	Los Platos		Unlocked Los Platos (East) fly spot		FSYS_YMAP_POKECEN_02
 0xB6119936	FLY SPOT	South Province (Area One)		Unlocked Mesagoza (South) fly spot		FSYS_YMAP_POKECEN_03
@@ -6079,7 +6079,7 @@
 0xB6088661	FLY SPOT	Glaseado Mountain		Unlocked Glaseado Gym fly spot		FSYS_YMAP_POKECEN_33
 0xB6088814	FLY SPOT	Medali		Unlocked Medali (East) fly spot		FSYS_YMAP_POKECEN_34
 0xB60889C7	FLY SPOT	North Province (Area Three)		Unlocked North Province (Area Three) fly spot		FSYS_YMAP_POKECEN_35
-0x6B58DC8C						FSYS_YMAP_POKECEN_SU01
+0x6B58DC8C	FLY SPOT	Mossui Town		Unlocked Community Center fly spot		FSYS_YMAP_POKECEN_SU01
 0x6B58E1A5	FLY SPOT	Terarium	Central Plaza	Unlocked Central Plaza fly spot		FSYS_YMAP_POKECEN_SU02
 0xE93B3430				unused?		FSYS_YMAP_RAID_TEST_01
 0xE93B3949				unused?		FSYS_YMAP_RAID_TEST_02
@@ -6370,6 +6370,8 @@
 0xEFEB36A3						ItemMachineSave_isFinishedFirstTalk
 0x0C125D5C				KGOVivillonFormEnabled		BibiyonFormNoSave_isValid
 0x2A5603EF						GameEnvSave_WeatherEventMode
+0x562ABA38						hiko_is010WinStart
+0xAF9FA089						EventFollowAI_ActiveFlag
 0x7E203623				KOutbreak01MainFound		
 0x7E22DF86				KOutbreak02MainFound		
 0x7E25155D				KOutbreak03MainFound		
@@ -6493,7 +6495,6 @@
 0x55D8426F						
 0x55E653B3						
 0x560DF577						
-0x562ABA38						
 0x56563485						
 0x56C12332						
 0x58F48EBD						
@@ -6582,7 +6583,6 @@
 0xAE068778						
 0xAE8E4826						
 0xAF4C9210						
-0xAF9FA089						
 0xB307601F						
 0xB3490124						
 0xB48EAC63						
