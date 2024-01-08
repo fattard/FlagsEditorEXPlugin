@@ -64,6 +64,9 @@
 
         private void EditFlags_UIEvt(object? sender, EventArgs e)
         {
+            // Refresh language if needed
+            LocalizedStrings.Initialize(GameInfo.CurrentLanguage);
+
             var flagsOrganizer = FlagsOrganizer.CreateFlagsOrganizer(SaveFileEditor.SAV, resData: null);
             var form = new Forms.MainWin(flagsOrganizer);
             form.ShowDialog();
