@@ -2,7 +2,7 @@
 {
     public class FlagsEditorEX : IPlugin
     {
-        public string Name => "Flags Editor EX";
+        public string Name => LocalizedStrings.Find("MainWin.TitleName", "Flags Editor EX");
         public int Priority => 100; // Loading order, lowest is first.
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
         public ISaveFileProvider SaveFileEditor { get; private set; }
