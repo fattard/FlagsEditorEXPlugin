@@ -64,9 +64,6 @@
 
         private void EditFlags_UIEvt(object? sender, EventArgs e)
         {
-            // Refresh language if needed
-            LocalizedStrings.Initialize(GameInfo.CurrentLanguage);
-
             var flagsOrganizer = FlagsOrganizer.CreateFlagsOrganizer(SaveFileEditor.SAV, resData: null);
             var form = new Forms.MainWin(flagsOrganizer);
             form.ShowDialog();
@@ -126,6 +123,16 @@
                 System.IO.File.WriteAllText(string.Format("flags_dump_{0}.txt", SaveFileEditor.SAV.Version), flagsOrganizer.DumpAllFlags());
             }
 #endif
+        }
+
+        public void NotifyDisplayLanguageChanged(string language)
+        {
+            // Refresh language if needed
+            LocalizedStrings.Initialize(language);
+
+            ctrl!.Text = Name;
+            menuEntry_DumpAllFlags!.Text = LocalizedStrings.Find("FlagsEditorEX.menuEntry_DumpAllFlags", "Dump all Flags");
+            menuEntry_EditFlags!.Text = LocalizedStrings.Find("FlagsEditorEX.menuEntry_EditFlags", "Edit flags...");
         }
 
         public bool TryLoadFile(string filePath)
