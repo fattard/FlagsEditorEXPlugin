@@ -18,8 +18,10 @@
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
-            AssembleList(s_flagsList_res[idxEventFlagsSection..], 0, "Event Flags", ((IEventFlagArray)m_savFile!).GetEventFlags());
-            AssembleWorkList(s_flagsList_res[idxEventWorkSection..], ((IEventWorkArray<ushort>)m_savFile!).GetAllEventWork());
+            var evtWork = ((IEventFlagProvider37)m_savFile)!.EventWork;
+
+            AssembleList(s_flagsList_res[idxEventFlagsSection..], 0, "Event Flags", evtWork.GetEventFlags());
+            AssembleWorkList(s_flagsList_res[idxEventWorkSection..], evtWork.GetAllEventWork());
         }
 
         public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
@@ -47,7 +49,7 @@
         {
             if (SupportsBulkEditingFlags(flagType))
             {
-                var flagHelper = (IEventFlagArray)m_savFile!;
+                var flagHelper = ((IEventFlagProvider37)m_savFile!).EventWork;
 
                 foreach (var f in m_flagsGroupsList[0].Flags)
                 {
@@ -62,7 +64,7 @@
 
         public override void SyncEditedFlags(FlagsGroup fGroup)
         {
-            var flagHelper = (IEventFlagArray)m_savFile!;
+            var flagHelper = ((IEventFlagProvider37)m_savFile!).EventWork;
 
             switch (fGroup.SourceIdx)
             {
@@ -77,7 +79,7 @@
 
         public override void SyncEditedEventWork()
         {
-            var eventWorkHelper = (IEventWorkArray<ushort>)m_savFile!;
+            var eventWorkHelper = ((IEventFlagProvider37)m_savFile!).EventWork;
 
             foreach (var w in m_eventWorkList)
             {

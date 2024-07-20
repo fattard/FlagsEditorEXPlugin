@@ -11,6 +11,16 @@
         const int Src_SysFlags = 1;
         const int Src_TrainerFlags = 2;
 
+        bool[] GetEventFlags(FlagWork8b source)
+        {
+            var result = new bool[source.CountFlag];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = source.GetFlag(i);
+            }
+            return result;
+        }
+
         protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
             m_savFile = savFile;
@@ -41,7 +51,7 @@
                 battleTrainerVals[i] = m_battleTrainerStatus.GetIsWin(i);
             }
 
-            bool[] eventFlags = ((IEventFlagArray)m_savFile!).GetEventFlags();
+            bool[] eventFlags = GetEventFlags(m_flagWork);
 
             AssembleList(s_flagsList_res[idxEventFlagsSection..], Src_EventFlags, "Event Flags", eventFlags);
             AssembleList(s_flagsList_res[idxSysFlagsSection..], Src_SysFlags, "Sys Flags", sysFlagsVals);

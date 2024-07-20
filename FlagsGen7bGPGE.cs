@@ -6,6 +6,16 @@
 
         EventWork7b? m_eventWorkData;
 
+        bool[] GetEventFlags(EventWork7b source)
+        {
+            var result = new bool[source.CountFlag];
+            for (int i = 0; i < result.Length; i++)
+            {
+                result[i] = source.GetFlag(i);
+            }
+            return result;
+        }
+
         protected override void InitFlagsData(SaveFile savFile, string? resData)
         {
             m_savFile = savFile;
@@ -27,7 +37,7 @@
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
-            AssembleList(s_flagsList_res[idxEventFlagsSection..], 0, "Event Flags", ((IEventFlagArray)m_savFile!).GetEventFlags());
+            AssembleList(s_flagsList_res[idxEventFlagsSection..], 0, "Event Flags", GetEventFlags(m_eventWorkData));
             AssembleWorkList(s_flagsList_res[idxEventWorkSection..], workValues);
         }
 
@@ -57,14 +67,12 @@
         {
             if (SupportsBulkEditingFlags(flagType))
             {
-                var flagHelper = (IEventFlagArray)m_savFile!;
-
                 foreach (var f in m_flagsGroupsList[0].Flags)
                 {
                     if (f.FlagTypeVal == flagType)
                     {
                         f.IsSet = value;
-                        flagHelper.SetEventFlag((int)f.FlagIdx, value);
+                        m_eventWorkData!.SetFlag((int)f.FlagIdx, value);
                     }
                 }
             }
@@ -72,14 +80,12 @@
 
         public override void SyncEditedFlags(FlagsGroup fGroup)
         {
-            var flagHelper = (IEventFlagArray)m_savFile!;
-
             switch (fGroup.SourceIdx)
             {
                 case 0: // Event Flags
                     foreach (var f in fGroup.Flags)
                     {
-                        flagHelper.SetEventFlag((int)f.FlagIdx, f.IsSet);
+                        m_eventWorkData!.SetFlag((int)f.FlagIdx, f.IsSet);
                     }
                     break;
             }
