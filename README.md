@@ -68,7 +68,7 @@ The following table has the languages that are open to contribution
 | it  | Italian             |                |
 | ja  | Japanese            |                |
 | ko  | Korean              |                |
-| zh  | Simplified Chinese  |                |
+| zh  | Simplified Chinese  |pplloufh and wubinwww|
 | zh2 | Traditional Chinese |                |
 
 The flags resources database can also be localized, but it is not recommended at this moment due to constantly changes to those resources.
@@ -99,7 +99,7 @@ As the flags gets documented and descriptions are created, they will be embedded
 
 All research work can be checked here
 
-[Event Flags - Research spreadsheet](https://docs.google.com/spreadsheets/d/1PkY3AVafdOEqKiD_TzD4hTDRvf39ad-eI7e4JylyVII/edit?usp=sharing)
+[Event Flags - Research spreadsheet](https://docs.google.com/spreadsheets/d/1PkY3AVafdOEqKiD_TzD4hTDRvf39ad-eI7e4JylyVII/copy)
 
 To contribute, create a copy of the above, fill the info you researched, and contact back with the information of what needs to be merged.
 
