@@ -3,11 +3,12 @@ This is a [PKHeX](https://github.com/kwsch/PKHeX) plugin for advanced users.
 It allows you to edit all sorts of Flags and Event Work data from save files.
 
 ## Setup Instructions
+- Ensure you have the latest PKHeX version from [here](https://projectpokemon.org/pkhex/)
 - Download the plugin from the latest release [here](https://github.com/fattard/FlagsEditorEXPlugin/releases/latest).
 - Extract and unblock them in Windows' Properties Menu.
 - Put them in the *plugins* folder that is in the same folder as the PKHeX program path.
 - If the *plugins* folder does not exist, create a new one, all lowercase letters.
-- Check for more instructions examples if you have trouble: [Manually Installing PKHeX Plugins](https://github.com/architdate/PKHeX-Plugins/wiki/Installing-PKHeX-Plugins#manual-installation-or-installing-older-releases).
+- Check for more instructions examples if you have trouble (specifically steps 4 and 5): [Manually Installing PKHeX Plugins](https://github.com/architdate/PKHeX-Plugins/wiki/Installing-PKHeX-Plugins#manual-installation-or-installing-older-releases).
 
 ## Actions
 
