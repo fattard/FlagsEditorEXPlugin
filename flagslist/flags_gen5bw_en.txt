@@ -1,3236 +1,3236 @@
 //	Event Flags					
-0x000	_UNUSED					
-0x001						
-0x002						
-0x003						
-0x004						
-0x005						
-0x006						
-0x007						
-0x008						
-0x009						
-0x00A						
-0x00B						
-0x00C						
-0x00D						
-0x00E						
-0x00F						
-0x010						
-0x011						
-0x012						
-0x013						
-0x014						
-0x015						
-0x016						
-0x017						
-0x018						
-0x019						
-0x01A						
-0x01B						
-0x01C						
-0x01D						
-0x01E						
-0x01F						
-0x020						
-0x021						
-0x022						
-0x023						
-0x024						
-0x025						
-0x026						
-0x027						
-0x028						
-0x029						
-0x02A						
-0x02B						
-0x02C						
-0x02D						
-0x02E						
-0x02F						
-0x030						
-0x031						
-0x032						
-0x033						
-0x034						
-0x035						
-0x036						
-0x037						
-0x038						
-0x039						
-0x03A						
-0x03B						
-0x03C						
-0x03D						
-0x03E						
-0x03F						
-0x040						
-0x041						
-0x042						
-0x043						
-0x044						
-0x045						
-0x046						
-0x047						
-0x048						
-0x049						
-0x04A						
-0x04B						
-0x04C						
-0x04D						
-0x04E						
-0x04F						
-0x050						
-0x051						
-0x052						
-0x053						
-0x054						
-0x055						
-0x056						
-0x057						
-0x058						
-0x059						
-0x05A						
-0x05B						
-0x05C						
-0x05D						
-0x05E						
-0x05F						
-0x060						
-0x061						
-0x062						
-0x063						
-0x064						
-0x065						
-0x066						
-0x067						
-0x068						
-0x069						
-0x06A						
-0x06B						
-0x06C						
-0x06D						
-0x06E						
-0x06F						
-0x070						
-0x071						
-0x072						
-0x073	EVENT			Trading Functionality Enabled (Pokecenter)		
-0x074						
-0x075						
-0x076						
-0x077						
-0x078						
-0x079						
-0x07A						
-0x07B						
-0x07C						
-0x07D						
-0x07E						
-0x07F						
-0x080						
-0x081						
-0x082						
-0x083						
-0x084						
-0x085						
-0x086						
-0x087						
-0x088						
-0x089						
-0x08A						
-0x08B						
-0x08C						
-0x08D						
-0x08E						
-0x08F						
-0x090						
-0x091	PKMN GIFT			Received Cover/Plume Fossil from Backpacker		
-0x092						
-0x093						
-0x094	IN-GAME TRADE			Traded for Petilil/Cottonee		
-0x095						
-0x096						
-0x097						
-0x098						
-0x099						
-0x09A						
-0x09B						
-0x09C						
-0x09D						
-0x09E						
-0x09F						
-0x0A0						
-0x0A1						
-0x0A2						
-0x0A3						
-0x0A4						
-0x0A5						
-0x0A6						
-0x0A7						
-0x0A8						
-0x0A9						
-0x0AA						
-0x0AB						
-0x0AC						
-0x0AD						
-0x0AE						
-0x0AF						
-0x0B0						
-0x0B1						
-0x0B2						
-0x0B3						
-0x0B4						
-0x0B5						
-0x0B6						
-0x0B7						
-0x0B8						
-0x0B9						
-0x0BA						
-0x0BB						
-0x0BC						
-0x0BD						
-0x0BE						
-0x0BF						
-0x0C0						
-0x0C1						
-0x0C2						
-0x0C3						
-0x0C4						
-0x0C5						
-0x0C6						
-0x0C7						
-0x0C8						
-0x0C9						
-0x0CA						
-0x0CB						
-0x0CC						
-0x0CD						
-0x0CE						
-0x0CF						
-0x0D0						
-0x0D1						
-0x0D2						
-0x0D3						
-0x0D4						
-0x0D5						
-0x0D6						
-0x0D7						
-0x0D8						
-0x0D9						
-0x0DA						
-0x0DB						
-0x0DC						
-0x0DD						
-0x0DE						
-0x0DF						
-0x0E0						
-0x0E1						
-0x0E2						
-0x0E3						
-0x0E4						
-0x0E5						
-0x0E6						
-0x0E7						
-0x0E8						
-0x0E9						
-0x0EA						
-0x0EB						
-0x0EC						
-0x0ED						
-0x0EE						
-0x0EF						
-0x0F0						
-0x0F1						
-0x0F2						
-0x0F3						
-0x0F4						
-0x0F5						
-0x0F6						
-0x0F7						
-0x0F8						
-0x0F9						
-0x0FA						
-0x0FB						
-0x0FC						
-0x0FD						
-0x0FE						
-0x0FF						
-0x100						
-0x101						
-0x102						
-0x103						
-0x104						
-0x105						
-0x106						
-0x107						
-0x108						
-0x109						
-0x10A						
-0x10B						
-0x10C						
-0x10D						
-0x10E						
-0x10F						
-0x110						
-0x111						
-0x112						
-0x113						
-0x114						
-0x115						
-0x116						
-0x117						
-0x118	IN-GAME TRADE			Traded for Basculin		
-0x119						
-0x11A						
-0x11B						
-0x11C						
-0x11D						
-0x11E						
-0x11F						
-0x120						
-0x121						
-0x122						
-0x123						
-0x124						
-0x125						
-0x126						
-0x127						
-0x128						
-0x129						
-0x12A						
-0x12B						
-0x12C						
-0x12D						
-0x12E						
-0x12F						
-0x130						
-0x131						
-0x132						
-0x133						
-0x134						
-0x135						
-0x136						
-0x137						
-0x138						
-0x139						
-0x13A						
-0x13B	PKMN GIFT			Received Larvesta Egg Gift		
-0x13C						
-0x13D						
-0x13E						
-0x13F						
-0x140						
-0x141						
-0x142						
-0x143						
-0x144						
-0x145						
-0x146						
-0x147						
-0x148						
-0x149						
-0x14A						
-0x14B						
-0x14C						
-0x14D						
-0x14E						
-0x14F						
-0x150						
-0x151						
-0x152						
-0x153	PKMN GIFT			Purchased Magikarp		
-0x154						
-0x155						
-0x156						
-0x157						
-0x158						
-0x159						
-0x15A						
-0x15B	IN-GAME TRADE			Traded for Emolga		
-0x15C						
-0x15D						
-0x15E						
-0x15F						
-0x160	SIDE EVENT			Battled Youngster Kyle		
-0x161						
-0x162						
-0x163	SIDE EVENT			Battled Lass Dana		
-0x164						
-0x165						
-0x166						
-0x167						
-0x168	IN-GAME TRADE			Traded for Rotom		
-0x169						
-0x16A						
-0x16B						
-0x16C						
-0x16D						
-0x16E						
-0x16F						
-0x170						
-0x171						
-0x172						
-0x173						
-0x174						
-0x175						
-0x176						
-0x177						
-0x178						
-0x179						
-0x17A						
-0x17B						
-0x17C						
-0x17D						
-0x17E						
-0x17F						
-0x180						
-0x181						
-0x182						
-0x183						
-0x184						
-0x185						
-0x186						
-0x187						
-0x188						
-0x189						
-0x18A						
-0x18B						
-0x18C						
-0x18D						
-0x18E						
-0x18F						
-0x190						
-0x191						
-0x192						
-0x193						
-0x194						
-0x195						
-0x196						
-0x197						
-0x198						
-0x199						
-0x19A						
-0x19B						
-0x19C						
-0x19D						
-0x19E						
-0x19F						
-0x1A0						
-0x1A1						
-0x1A2						
-0x1A3						
-0x1A4						
-0x1A5						
-0x1A6						
-0x1A7						
-0x1A8						
-0x1A9						
-0x1AA						
-0x1AB						
-0x1AC						
-0x1AD						
-0x1AE						
-0x1AF						
-0x1B0						
-0x1B1						
-0x1B2						
-0x1B3						
-0x1B4						
-0x1B5						
-0x1B6						
-0x1B7						
-0x1B8						
-0x1B9						
-0x1BA						
-0x1BB						
-0x1BC						
-0x1BD						
-0x1BE						
-0x1BF						
-0x1C0						
-0x1C1						
-0x1C2						
-0x1C3						
-0x1C4						
-0x1C5						
-0x1C6						
-0x1C7						
-0x1C8						
-0x1C9						
-0x1CA						
-0x1CB						
-0x1CC						
-0x1CD						
-0x1CE						
-0x1CF						
-0x1D0						
-0x1D1						
-0x1D2						
-0x1D3						
-0x1D4						
-0x1D5						
-0x1D6						
-0x1D7						
-0x1D8						
-0x1D9						
-0x1DA						
-0x1DB						
-0x1DC						
-0x1DD						
-0x1DE						
-0x1DF						
-0x1E0						
-0x1E1						
-0x1E2						
-0x1E3						
-0x1E4						
-0x1E5						
-0x1E6						
-0x1E7						
-0x1E8						
-0x1E9						
-0x1EA						
-0x1EB						
-0x1EC						
-0x1ED						
-0x1EE						
-0x1EF						
-0x1F0						
-0x1F1						
-0x1F2						
-0x1F3						
-0x1F4						
-0x1F5						
-0x1F6						
-0x1F7						
-0x1F8						
-0x1F9						
-0x1FA						
-0x1FB						
-0x1FC						
-0x1FD						
-0x1FE						
-0x1FF						
-0x200						
-0x201						
-0x202						
-0x203						
-0x204						
-0x205						
-0x206						
-0x207						
-0x208						
-0x209						
-0x20A						
-0x20B						
-0x20C						
-0x20D						
-0x20E						
-0x20F						
-0x210						
-0x211						
-0x212						
-0x213						
-0x214						
-0x215						
-0x216						
-0x217						
-0x218						
-0x219						
-0x21A						
-0x21B						
-0x21C						
-0x21D						
-0x21E						
-0x21F						
-0x220						
-0x221						
-0x222						
-0x223						
-0x224						
-0x225						
-0x226						
-0x227						
-0x228						
-0x229						
-0x22A						
-0x22B						
-0x22C						
-0x22D						
-0x22E						
-0x22F						
-0x230						
-0x231						
-0x232						
-0x233						
-0x234						
-0x235						
-0x236						
-0x237						
-0x238						
-0x239						
-0x23A						
-0x23B						
-0x23C						
-0x23D						
-0x23E						
-0x23F						
-0x240						
-0x241						
-0x242						
-0x243						
-0x244						
-0x245						
-0x246						
-0x247						
-0x248						
-0x249						
-0x24A						
-0x24B						
-0x24C						
-0x24D						
-0x24E						
-0x24F						
-0x250						
-0x251						
-0x252						
-0x253						
-0x254						
-0x255						
-0x256						
-0x257						
-0x258						
-0x259						
-0x25A						
-0x25B						
-0x25C						
-0x25D						
-0x25E						
-0x25F						
-0x260						
-0x261						
-0x262						
-0x263						
-0x264						
-0x265						
-0x266						
-0x267						
-0x268						
-0x269						
-0x26A						
-0x26B						
-0x26C						
-0x26D						
-0x26E						
-0x26F						
-0x270						
-0x271						
-0x272						
-0x273						
-0x274						
-0x275						
-0x276						
-0x277						
-0x278						
-0x279						
-0x27A						
-0x27B						
-0x27C						
-0x27D						
-0x27E						
-0x27F						
-0x280						
-0x281						
-0x282						
-0x283						
-0x284						
-0x285						
-0x286						
-0x287						
-0x288						
-0x289	STATIC ENCOUNTER			Cobalion Disappeared		
-0x28A	STATIC ENCOUNTER			Terrakion Disappeared		
-0x28B	STATIC ENCOUNTER			Virizion Disappeared		
-0x28C	EVENT			Obstacle (Victory Road) Cleared		
-0x28D	EVENT			Obstacle (Pinwheel Forest) Cleared		
-0x28E						
-0x28F						
-0x290						
-0x291						
-0x292						
-0x293						
-0x294						
-0x295	STORY EVENT			Reshiram/Zekrom (N's Castle) Disappeared		
-0x296						
-0x297	STATIC ENCOUNTER			Darmanitan (middle-left) disappeared from Desert Resort		
-0x298	STATIC ENCOUNTER			Darmanitan (bottom-left) disappeared from Desert Resort		
-0x299	STATIC ENCOUNTER			Darmanitan (top-left) disappeared from Desert Resort		
-0x29A	STATIC ENCOUNTER			Darmanitan (middle-right) disappeared from Desert Resort		
-0x29B	STATIC ENCOUNTER			Darmanitan (top-right) disappeared from Desert Resort		
-0x29C						
-0x29D	EVENT			Team Plasma Guide (Pokemon League Pokemon Center) Disappeared		
-0x29E						
-0x29F						
-0x2A0						
-0x2A1						
-0x2A2						
-0x2A3						
-0x2A4						
-0x2A5						
-0x2A6						
-0x2A7						
-0x2A8						
-0x2A9						
-0x2AA						
-0x2AB						
-0x2AC						
-0x2AD						
-0x2AE						
-0x2AF						
-0x2B0						
-0x2B1						
-0x2B2						
-0x2B3						
-0x2B4						
-0x2B5						
-0x2B6						
-0x2B7						
-0x2B8						
-0x2B9						
-0x2BA						
-0x2BB						
-0x2BC						
-0x2BD						
-0x2BE						
-0x2BF						
-0x2C0						
-0x2C1						
-0x2C2						
-0x2C3						
-0x2C4						
-0x2C5						
-0x2C6						
-0x2C7						
-0x2C8						
-0x2C9						
-0x2CA						
-0x2CB						
-0x2CC						
-0x2CD						
-0x2CE						
-0x2CF						
-0x2D0						
-0x2D1						
-0x2D2						
-0x2D3						
-0x2D4						
-0x2D5						
-0x2D6						
-0x2D7						
-0x2D8						
-0x2D9	EVENT			Zorua as little boy (1) disappeared from GAME FREAK building 1F (Zorua event)		
-0x2DA	EVENT			Girl disappeared from GAME FREAK building 1F (Zorua event)		
-0x2DB	EVENT			Zorua (2) disappeared from GAME FREAK building 1F (Zorua event)		
-0x2DC						
-0x2DD						
-0x2DE						
-0x2DF						
-0x2E0						
-0x2E1						
-0x2E2						
-0x2E3						
-0x2E4						
-0x2E5						
-0x2E6						
-0x2E7						
-0x2E8						
-0x2E9						
-0x2EA						
-0x2EB						
-0x2EC						
-0x2ED						
-0x2EE						
-0x2EF						
-0x2F0						
-0x2F1						
-0x2F2						
-0x2F3						
-0x2F4						
-0x2F5						
-0x2F6						
-0x2F7						
-0x2F8						
-0x2F9						
-0x2FA						
-0x2FB						
-0x2FC						
-0x2FD						
-0x2FE	STATIC ENCOUNTER			Reshiram/Zekrom (Dragonspiral Tower) Disappeared		
-0x2FF	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus		
-0x300	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus		
-0x301	STATIC ENCOUNTER	Route 10		Capture/Defeat Amoongus		
-0x302	STATIC ENCOUNTER	Route 10		Capture/Defeat Amoongus		
-0x303	STATIC ENCOUNTER	Route 10		Capture/Defeat Foongus		
-0x304	STATIC ENCOUNTER	Route 10		Capture/Defeat Foongus		
-0x305						
-0x306						
-0x307						
-0x308						
-0x309						
-0x30A						
-0x30B						
-0x30C						
-0x30D						
-0x30E						
-0x30F						
-0x310						
-0x311						
-0x312						
-0x313						
-0x314						
-0x315						
-0x316						
-0x317						
-0x318						
-0x319						
-0x31A						
-0x31B						
-0x31C						
-0x31D						
-0x31E						
-0x31F						
-0x320						
-0x321	STATIC ENCOUNTER			Kyurem Disappeared		
-0x322						
-0x323						
-0x324						
-0x325						
-0x326						
-0x327						
-0x328						
-0x329						
-0x32A	STATIC ENCOUNTER			Volcarona Disappeared		
-0x32B						
-0x32C						
-0x32D						
-0x32E						
-0x32F						
-0x330						
-0x331						
-0x332						
-0x333						
-0x334						
-0x335						
-0x336						
-0x337						
-0x338						
-0x339						
-0x33A						
-0x33B						
-0x33C						
-0x33D						
-0x33E						
-0x33F						
-0x340						
-0x341						
-0x342						
-0x343						
-0x344						
-0x345						
-0x346						
-0x347						
-0x348						
-0x349						
-0x34A						
-0x34B						
-0x34C						
-0x34D						
-0x34E						
-0x34F						
-0x350						
-0x351						
-0x352						
-0x353						
-0x354						
-0x355						
-0x356						
-0x357						
-0x358						
-0x359						
-0x35A						
-0x35B						
-0x35C						
-0x35D						
-0x35E						
-0x35F						
-0x360						
-0x361						
-0x362						
-0x363						
-0x364						
-0x365						
-0x366						
-0x367						
-0x368						
-0x369						
-0x36A						
-0x36B						
-0x36C						
-0x36D						
-0x36E						
-0x36F						
-0x370						
-0x371						
-0x372						
-0x373						
-0x374						
-0x375						
-0x376						
-0x377						
-0x378						
-0x379						
-0x37A						
-0x37B						
-0x37C						
-0x37D						
-0x37E						
-0x37F						
-0x380	HIDDEN ITEM					000 (Flag 0x380)
-0x381	HIDDEN ITEM					001 (Flag 0x381)
-0x382	HIDDEN ITEM					002 (Flag 0x382)
-0x383	HIDDEN ITEM					003 (Flag 0x383)
-0x384	HIDDEN ITEM					004 (Flag 0x384)
-0x385	HIDDEN ITEM					005 (Flag 0x385)
-0x386	HIDDEN ITEM					006 (Flag 0x386)
-0x387	HIDDEN ITEM					007 (Flag 0x387)
-0x388	HIDDEN ITEM					008 (Flag 0x388)
-0x389	HIDDEN ITEM					009 (Flag 0x389)
-0x38A	HIDDEN ITEM					010 (Flag 0x38A)
-0x38B	HIDDEN ITEM					011 (Flag 0x38B)
-0x38C	HIDDEN ITEM					012 (Flag 0x38C)
-0x38D	HIDDEN ITEM					013 (Flag 0x38D)
-0x38E	HIDDEN ITEM					014 (Flag 0x38E)
-0x38F	HIDDEN ITEM					015 (Flag 0x38F)
-0x390	HIDDEN ITEM					016 (Flag 0x390)
-0x391	HIDDEN ITEM					017 (Flag 0x391)
-0x392	HIDDEN ITEM					018 (Flag 0x392)
-0x393	HIDDEN ITEM					019 (Flag 0x393)
-0x394	HIDDEN ITEM					020 (Flag 0x394)
-0x395	HIDDEN ITEM					021 (Flag 0x395)
-0x396	HIDDEN ITEM					022 (Flag 0x396)
-0x397	HIDDEN ITEM					023 (Flag 0x397)
-0x398	HIDDEN ITEM					024 (Flag 0x398)
-0x399	HIDDEN ITEM					025 (Flag 0x399)
-0x39A	HIDDEN ITEM					026 (Flag 0x39A)
-0x39B	HIDDEN ITEM					027 (Flag 0x39B)
-0x39C	HIDDEN ITEM					028 (Flag 0x39C)
-0x39D	HIDDEN ITEM					029 (Flag 0x39D)
-0x39E	HIDDEN ITEM					030 (Flag 0x39E)
-0x39F	HIDDEN ITEM					031 (Flag 0x39F)
-0x3A0	HIDDEN ITEM					032 (Flag 0x3A0)
-0x3A1	HIDDEN ITEM					033 (Flag 0x3A1)
-0x3A2	HIDDEN ITEM					034 (Flag 0x3A2)
-0x3A3	HIDDEN ITEM					035 (Flag 0x3A3)
-0x3A4	HIDDEN ITEM					036 (Flag 0x3A4)
-0x3A5	HIDDEN ITEM					037 (Flag 0x3A5)
-0x3A6	HIDDEN ITEM					038 (Flag 0x3A6)
-0x3A7	HIDDEN ITEM					039 (Flag 0x3A7)
-0x3A8	HIDDEN ITEM					040 (Flag 0x3A8)
-0x3A9	HIDDEN ITEM					041 (Flag 0x3A9)
-0x3AA	HIDDEN ITEM					042 (Flag 0x3AA)
-0x3AB	HIDDEN ITEM					043 (Flag 0x3AB)
-0x3AC	HIDDEN ITEM					044 (Flag 0x3AC)
-0x3AD	HIDDEN ITEM					045 (Flag 0x3AD)
-0x3AE	HIDDEN ITEM					046 (Flag 0x3AE)
-0x3AF	HIDDEN ITEM					047 (Flag 0x3AF)
-0x3B0	HIDDEN ITEM					048 (Flag 0x3B0)
-0x3B1	HIDDEN ITEM					049 (Flag 0x3B1)
-0x3B2	HIDDEN ITEM					050 (Flag 0x3B2)
-0x3B3	HIDDEN ITEM					051 (Flag 0x3B3)
-0x3B4	HIDDEN ITEM					052 (Flag 0x3B4)
-0x3B5	HIDDEN ITEM					053 (Flag 0x3B5)
-0x3B6	HIDDEN ITEM					054 (Flag 0x3B6)
-0x3B7	HIDDEN ITEM					055 (Flag 0x3B7)
-0x3B8	HIDDEN ITEM					056 (Flag 0x3B8)
-0x3B9	HIDDEN ITEM					057 (Flag 0x3B9)
-0x3BA	HIDDEN ITEM					058 (Flag 0x3BA)
-0x3BB	HIDDEN ITEM					059 (Flag 0x3BB)
-0x3BC	HIDDEN ITEM					060 (Flag 0x3BC)
-0x3BD	HIDDEN ITEM					061 (Flag 0x3BD)
-0x3BE	HIDDEN ITEM					062 (Flag 0x3BE)
-0x3BF	HIDDEN ITEM					063 (Flag 0x3BF)
-0x3C0	HIDDEN ITEM					064 (Flag 0x3C0)
-0x3C1	HIDDEN ITEM					065 (Flag 0x3C1)
-0x3C2	HIDDEN ITEM					066 (Flag 0x3C2)
-0x3C3	HIDDEN ITEM					067 (Flag 0x3C3)
-0x3C4	HIDDEN ITEM					068 (Flag 0x3C4)
-0x3C5	HIDDEN ITEM					069 (Flag 0x3C5)
-0x3C6	HIDDEN ITEM					070 (Flag 0x3C6)
-0x3C7	HIDDEN ITEM					071 (Flag 0x3C7)
-0x3C8	HIDDEN ITEM					072 (Flag 0x3C8)
-0x3C9	HIDDEN ITEM					073 (Flag 0x3C9)
-0x3CA	HIDDEN ITEM					074 (Flag 0x3CA)
-0x3CB	HIDDEN ITEM					075 (Flag 0x3CB)
-0x3CC	HIDDEN ITEM					076 (Flag 0x3CC)
-0x3CD	HIDDEN ITEM					077 (Flag 0x3CD)
-0x3CE	HIDDEN ITEM					078 (Flag 0x3CE)
-0x3CF	HIDDEN ITEM					079 (Flag 0x3CF)
-0x3D0	HIDDEN ITEM					080 (Flag 0x3D0)
-0x3D1	HIDDEN ITEM					081 (Flag 0x3D1)
-0x3D2	HIDDEN ITEM					082 (Flag 0x3D2)
-0x3D3	HIDDEN ITEM					083 (Flag 0x3D3)
-0x3D4	HIDDEN ITEM					084 (Flag 0x3D4)
-0x3D5	HIDDEN ITEM					085 (Flag 0x3D5)
-0x3D6	HIDDEN ITEM					086 (Flag 0x3D6)
-0x3D7	HIDDEN ITEM					087 (Flag 0x3D7)
-0x3D8	HIDDEN ITEM					088 (Flag 0x3D8)
-0x3D9	HIDDEN ITEM					089 (Flag 0x3D9)
-0x3DA	HIDDEN ITEM					090 (Flag 0x3DA)
-0x3DB	HIDDEN ITEM					091 (Flag 0x3DB)
-0x3DC	HIDDEN ITEM					092 (Flag 0x3DC)
-0x3DD	HIDDEN ITEM					093 (Flag 0x3DD)
-0x3DE	HIDDEN ITEM					094 (Flag 0x3DE)
-0x3DF	HIDDEN ITEM					095 (Flag 0x3DF)
-0x3E0	HIDDEN ITEM					096 (Flag 0x3E0)
-0x3E1	HIDDEN ITEM					097 (Flag 0x3E1)
-0x3E2	HIDDEN ITEM					098 (Flag 0x3E2)
-0x3E3	HIDDEN ITEM					099 (Flag 0x3E3)
-0x3E4	HIDDEN ITEM					100 (Flag 0x3E4)
-0x3E5	HIDDEN ITEM					101 (Flag 0x3E5)
-0x3E6	HIDDEN ITEM					102 (Flag 0x3E6)
-0x3E7	HIDDEN ITEM					103 (Flag 0x3E7)
-0x3E8	HIDDEN ITEM					104 (Flag 0x3E8)
-0x3E9	HIDDEN ITEM					105 (Flag 0x3E9)
-0x3EA	HIDDEN ITEM					106 (Flag 0x3EA)
-0x3EB	HIDDEN ITEM					107 (Flag 0x3EB)
-0x3EC	HIDDEN ITEM					108 (Flag 0x3EC)
-0x3ED	HIDDEN ITEM					109 (Flag 0x3ED)
-0x3EE	HIDDEN ITEM					110 (Flag 0x3EE)
-0x3EF	HIDDEN ITEM					111 (Flag 0x3EF)
-0x3F0	HIDDEN ITEM					112 (Flag 0x3F0)
-0x3F1	HIDDEN ITEM					113 (Flag 0x3F1)
-0x3F2	HIDDEN ITEM					114 (Flag 0x3F2)
-0x3F3	HIDDEN ITEM					115 (Flag 0x3F3)
-0x3F4	HIDDEN ITEM					116 (Flag 0x3F4)
-0x3F5	HIDDEN ITEM					117 (Flag 0x3F5)
-0x3F6	HIDDEN ITEM					118 (Flag 0x3F6)
-0x3F7	HIDDEN ITEM					119 (Flag 0x3F7)
-0x3F8	HIDDEN ITEM					120 (Flag 0x3F8)
-0x3F9	HIDDEN ITEM					121 (Flag 0x3F9)
-0x3FA	HIDDEN ITEM					122 (Flag 0x3FA)
-0x3FB	HIDDEN ITEM					123 (Flag 0x3FB)
-0x3FC	HIDDEN ITEM					124 (Flag 0x3FC)
-0x3FD	HIDDEN ITEM					125 (Flag 0x3FD)
-0x3FE	HIDDEN ITEM					126 (Flag 0x3FE)
-0x3FF	HIDDEN ITEM					127 (Flag 0x3FF)
-0x400	HIDDEN ITEM					128 (Flag 0x400)
-0x401	HIDDEN ITEM					129 (Flag 0x401)
-0x402	HIDDEN ITEM					130 (Flag 0x402)
-0x403	HIDDEN ITEM					131 (Flag 0x403)
-0x404	HIDDEN ITEM					132 (Flag 0x404)
-0x405	HIDDEN ITEM					133 (Flag 0x405)
-0x406	HIDDEN ITEM					134 (Flag 0x406)
-0x407	HIDDEN ITEM					135 (Flag 0x407)
-0x408	HIDDEN ITEM					136 (Flag 0x408)
-0x409	HIDDEN ITEM					137 (Flag 0x409)
-0x40A	HIDDEN ITEM					138 (Flag 0x40A)
-0x40B	HIDDEN ITEM					139 (Flag 0x40B)
-0x40C	HIDDEN ITEM					140 (Flag 0x40C)
-0x40D	HIDDEN ITEM					141 (Flag 0x40D)
-0x40E	HIDDEN ITEM					142 (Flag 0x40E)
-0x40F	HIDDEN ITEM					143 (Flag 0x40F)
-0x410	HIDDEN ITEM					144 (Flag 0x410)
-0x411	HIDDEN ITEM					145 (Flag 0x411)
-0x412	HIDDEN ITEM					146 (Flag 0x412)
-0x413	HIDDEN ITEM					147 (Flag 0x413)
-0x414	HIDDEN ITEM					148 (Flag 0x414)
-0x415	HIDDEN ITEM					149 (Flag 0x415)
-0x416	HIDDEN ITEM					150 (Flag 0x416)
-0x417	HIDDEN ITEM					151 (Flag 0x417)
-0x418	HIDDEN ITEM					152 (Flag 0x418)
-0x419	HIDDEN ITEM					153 (Flag 0x419)
-0x41A	HIDDEN ITEM					154 (Flag 0x41A)
-0x41B	HIDDEN ITEM					155 (Flag 0x41B)
-0x41C	HIDDEN ITEM					156 (Flag 0x41C)
-0x41D	HIDDEN ITEM					157 (Flag 0x41D)
-0x41E	HIDDEN ITEM					158 (Flag 0x41E)
-0x41F	HIDDEN ITEM					159 (Flag 0x41F)
-0x420	HIDDEN ITEM					160 (Flag 0x420)
-0x421	HIDDEN ITEM					161 (Flag 0x421)
-0x422	HIDDEN ITEM					162 (Flag 0x422)
-0x423	HIDDEN ITEM					163 (Flag 0x423)
-0x424	HIDDEN ITEM					164 (Flag 0x424)
-0x425	HIDDEN ITEM					165 (Flag 0x425)
-0x426	HIDDEN ITEM					166 (Flag 0x426)
-0x427	HIDDEN ITEM					167 (Flag 0x427)
-0x428	HIDDEN ITEM					168 (Flag 0x428)
-0x429	HIDDEN ITEM					169 (Flag 0x429)
-0x42A	HIDDEN ITEM					170 (Flag 0x42A)
-0x42B	HIDDEN ITEM					171 (Flag 0x42B)
-0x42C	HIDDEN ITEM					172 (Flag 0x42C)
-0x42D	HIDDEN ITEM					173 (Flag 0x42D)
-0x42E	HIDDEN ITEM					174 (Flag 0x42E)
-0x42F	HIDDEN ITEM					175 (Flag 0x42F)
-0x430	HIDDEN ITEM					176 (Flag 0x430)
-0x431	HIDDEN ITEM					177 (Flag 0x431)
-0x432	HIDDEN ITEM					178 (Flag 0x432)
-0x433	HIDDEN ITEM					179 (Flag 0x433)
-0x434	HIDDEN ITEM					180 (Flag 0x434)
-0x435	HIDDEN ITEM					181 (Flag 0x435)
-0x436	HIDDEN ITEM					182 (Flag 0x436)
-0x437	HIDDEN ITEM					183 (Flag 0x437)
-0x438						
-0x439						
-0x43A						
-0x43B						
-0x43C						
-0x43D						
-0x43E						
-0x43F						
-0x440						
-0x441						
-0x442						
-0x443						
-0x444						
-0x445						
-0x446						
-0x447						
-0x448						
-0x449						
-0x44A						
-0x44B						
-0x44C						
-0x44D						
-0x44E						
-0x44F						
-0x450	FIELD ITEM					000 (Flag 0x450)
-0x451	FIELD ITEM					001 (Flag 0x451)
-0x452	FIELD ITEM					002 (Flag 0x452)
-0x453	FIELD ITEM					003 (Flag 0x453)
-0x454	FIELD ITEM					004 (Flag 0x454)
-0x455	FIELD ITEM					005 (Flag 0x455)
-0x456	FIELD ITEM					006 (Flag 0x456)
-0x457	FIELD ITEM					007 (Flag 0x457)
-0x458	FIELD ITEM					008 (Flag 0x458)
-0x459	FIELD ITEM					009 (Flag 0x459)
-0x45A	FIELD ITEM					010 (Flag 0x45A)
-0x45B	FIELD ITEM					011 (Flag 0x45B)
-0x45C	FIELD ITEM					012 (Flag 0x45C)
-0x45D	FIELD ITEM					013 (Flag 0x45D)
-0x45E	FIELD ITEM					014 (Flag 0x45E)
-0x45F	FIELD ITEM					015 (Flag 0x45F)
-0x460	FIELD ITEM					016 (Flag 0x460)
-0x461	FIELD ITEM					017 (Flag 0x461)
-0x462	FIELD ITEM					018 (Flag 0x462)
-0x463	FIELD ITEM					019 (Flag 0x463)
-0x464	FIELD ITEM					020 (Flag 0x464)
-0x465	FIELD ITEM					021 (Flag 0x465)
-0x466	FIELD ITEM					022 (Flag 0x466)
-0x467	FIELD ITEM					023 (Flag 0x467)
-0x468	FIELD ITEM					024 (Flag 0x468)
-0x469	FIELD ITEM					025 (Flag 0x469)
-0x46A	FIELD ITEM					026 (Flag 0x46A)
-0x46B	FIELD ITEM					027 (Flag 0x46B)
-0x46C	FIELD ITEM					028 (Flag 0x46C)
-0x46D	FIELD ITEM					029 (Flag 0x46D)
-0x46E	FIELD ITEM					030 (Flag 0x46E)
-0x46F	FIELD ITEM					031 (Flag 0x46F)
-0x470	FIELD ITEM					032 (Flag 0x470)
-0x471	FIELD ITEM					033 (Flag 0x471)
-0x472	FIELD ITEM					034 (Flag 0x472)
-0x473	FIELD ITEM					035 (Flag 0x473)
-0x474	FIELD ITEM					036 (Flag 0x474)
-0x475	FIELD ITEM					037 (Flag 0x475)
-0x476	FIELD ITEM					038 (Flag 0x476)
-0x477	FIELD ITEM					039 (Flag 0x477)
-0x478	FIELD ITEM					040 (Flag 0x478)
-0x479	FIELD ITEM					041 (Flag 0x479)
-0x47A	FIELD ITEM					042 (Flag 0x47A)
-0x47B	FIELD ITEM					043 (Flag 0x47B)
-0x47C	FIELD ITEM					044 (Flag 0x47C)
-0x47D	FIELD ITEM					045 (Flag 0x47D)
-0x47E	FIELD ITEM					046 (Flag 0x47E)
-0x47F	FIELD ITEM					047 (Flag 0x47F)
-0x480	FIELD ITEM					048 (Flag 0x480)
-0x481	FIELD ITEM					049 (Flag 0x481)
-0x482	FIELD ITEM					050 (Flag 0x482)
-0x483	FIELD ITEM					051 (Flag 0x483)
-0x484	FIELD ITEM					052 (Flag 0x484)
-0x485	FIELD ITEM					053 (Flag 0x485)
-0x486	FIELD ITEM					054 (Flag 0x486)
-0x487	FIELD ITEM					055 (Flag 0x487)
-0x488	FIELD ITEM					056 (Flag 0x488)
-0x489	FIELD ITEM					057 (Flag 0x489)
-0x48A	FIELD ITEM					058 (Flag 0x48A)
-0x48B	FIELD ITEM					059 (Flag 0x48B)
-0x48C	FIELD ITEM					060 (Flag 0x48C)
-0x48D	FIELD ITEM					061 (Flag 0x48D)
-0x48E	FIELD ITEM					062 (Flag 0x48E)
-0x48F	FIELD ITEM					063 (Flag 0x48F)
-0x490	FIELD ITEM					064 (Flag 0x490)
-0x491	FIELD ITEM					065 (Flag 0x491)
-0x492	FIELD ITEM					066 (Flag 0x492)
-0x493	FIELD ITEM					067 (Flag 0x493)
-0x494	FIELD ITEM					068 (Flag 0x494)
-0x495	FIELD ITEM					069 (Flag 0x495)
-0x496	FIELD ITEM					070 (Flag 0x496)
-0x497	FIELD ITEM					071 (Flag 0x497)
-0x498	FIELD ITEM					072 (Flag 0x498)
-0x499	FIELD ITEM					073 (Flag 0x499)
-0x49A	FIELD ITEM					074 (Flag 0x49A)
-0x49B	FIELD ITEM					075 (Flag 0x49B)
-0x49C	FIELD ITEM					076 (Flag 0x49C)
-0x49D	FIELD ITEM					077 (Flag 0x49D)
-0x49E	FIELD ITEM					078 (Flag 0x49E)
-0x49F	FIELD ITEM					079 (Flag 0x49F)
-0x4A0	FIELD ITEM					080 (Flag 0x4A0)
-0x4A1	FIELD ITEM					081 (Flag 0x4A1)
-0x4A2	FIELD ITEM					082 (Flag 0x4A2)
-0x4A3	FIELD ITEM					083 (Flag 0x4A3)
-0x4A4	FIELD ITEM					084 (Flag 0x4A4)
-0x4A5	FIELD ITEM					085 (Flag 0x4A5)
-0x4A6	FIELD ITEM					086 (Flag 0x4A6)
-0x4A7	FIELD ITEM					087 (Flag 0x4A7)
-0x4A8	FIELD ITEM					088 (Flag 0x4A8)
-0x4A9	FIELD ITEM					089 (Flag 0x4A9)
-0x4AA	FIELD ITEM					090 (Flag 0x4AA)
-0x4AB	FIELD ITEM					091 (Flag 0x4AB)
-0x4AC	FIELD ITEM					092 (Flag 0x4AC)
-0x4AD	FIELD ITEM					093 (Flag 0x4AD)
-0x4AE	FIELD ITEM					094 (Flag 0x4AE)
-0x4AF	FIELD ITEM					095 (Flag 0x4AF)
-0x4B0	FIELD ITEM					096 (Flag 0x4B0)
-0x4B1	FIELD ITEM					097 (Flag 0x4B1)
-0x4B2	FIELD ITEM					098 (Flag 0x4B2)
-0x4B3	FIELD ITEM					099 (Flag 0x4B3)
-0x4B4	FIELD ITEM					100 (Flag 0x4B4)
-0x4B5	FIELD ITEM					101 (Flag 0x4B5)
-0x4B6	FIELD ITEM					102 (Flag 0x4B6)
-0x4B7	FIELD ITEM					103 (Flag 0x4B7)
-0x4B8	FIELD ITEM					104 (Flag 0x4B8)
-0x4B9	FIELD ITEM					105 (Flag 0x4B9)
-0x4BA	FIELD ITEM					106 (Flag 0x4BA)
-0x4BB	FIELD ITEM					107 (Flag 0x4BB)
-0x4BC	FIELD ITEM					108 (Flag 0x4BC)
-0x4BD	FIELD ITEM					109 (Flag 0x4BD)
-0x4BE	FIELD ITEM					110 (Flag 0x4BE)
-0x4BF	FIELD ITEM					111 (Flag 0x4BF)
-0x4C0	FIELD ITEM					112 (Flag 0x4C0)
-0x4C1	FIELD ITEM					113 (Flag 0x4C1)
-0x4C2	FIELD ITEM					114 (Flag 0x4C2)
-0x4C3	FIELD ITEM					115 (Flag 0x4C3)
-0x4C4	FIELD ITEM					116 (Flag 0x4C4)
-0x4C5	FIELD ITEM					117 (Flag 0x4C5)
-0x4C6	FIELD ITEM					118 (Flag 0x4C6)
-0x4C7	FIELD ITEM					119 (Flag 0x4C7)
-0x4C8	FIELD ITEM					120 (Flag 0x4C8)
-0x4C9	FIELD ITEM					121 (Flag 0x4C9)
-0x4CA	FIELD ITEM					122 (Flag 0x4CA)
-0x4CB	FIELD ITEM					123 (Flag 0x4CB)
-0x4CC	FIELD ITEM					124 (Flag 0x4CC)
-0x4CD	FIELD ITEM					125 (Flag 0x4CD)
-0x4CE	FIELD ITEM					126 (Flag 0x4CE)
-0x4CF	FIELD ITEM					127 (Flag 0x4CF)
-0x4D0	FIELD ITEM					128 (Flag 0x4D0)
-0x4D1	FIELD ITEM					129 (Flag 0x4D1)
-0x4D2	FIELD ITEM					130 (Flag 0x4D2)
-0x4D3	FIELD ITEM					131 (Flag 0x4D3)
-0x4D4	FIELD ITEM					132 (Flag 0x4D4)
-0x4D5	FIELD ITEM					133 (Flag 0x4D5)
-0x4D6	FIELD ITEM					134 (Flag 0x4D6)
-0x4D7	FIELD ITEM					135 (Flag 0x4D7)
-0x4D8	FIELD ITEM					136 (Flag 0x4D8)
-0x4D9	FIELD ITEM					137 (Flag 0x4D9)
-0x4DA	FIELD ITEM					138 (Flag 0x4DA)
-0x4DB	FIELD ITEM					139 (Flag 0x4DB)
-0x4DC	FIELD ITEM					140 (Flag 0x4DC)
-0x4DD	FIELD ITEM					141 (Flag 0x4DD)
-0x4DE	FIELD ITEM					142 (Flag 0x4DE)
-0x4DF	FIELD ITEM					143 (Flag 0x4DF)
-0x4E0	FIELD ITEM					144 (Flag 0x4E0)
-0x4E1	FIELD ITEM					145 (Flag 0x4E1)
-0x4E2	FIELD ITEM					146 (Flag 0x4E2)
-0x4E3	FIELD ITEM					147 (Flag 0x4E3)
-0x4E4	FIELD ITEM					148 (Flag 0x4E4)
-0x4E5	FIELD ITEM					149 (Flag 0x4E5)
-0x4E6	FIELD ITEM					150 (Flag 0x4E6)
-0x4E7	FIELD ITEM					151 (Flag 0x4E7)
-0x4E8	FIELD ITEM					152 (Flag 0x4E8)
-0x4E9	FIELD ITEM					153 (Flag 0x4E9)
-0x4EA	FIELD ITEM					154 (Flag 0x4EA)
-0x4EB	FIELD ITEM					155 (Flag 0x4EB)
-0x4EC	FIELD ITEM					156 (Flag 0x4EC)
-0x4ED	FIELD ITEM					157 (Flag 0x4ED)
-0x4EE	FIELD ITEM					158 (Flag 0x4EE)
-0x4EF	FIELD ITEM					159 (Flag 0x4EF)
-0x4F0	FIELD ITEM					160 (Flag 0x4F0)
-0x4F1	FIELD ITEM					161 (Flag 0x4F1)
-0x4F2	FIELD ITEM					162 (Flag 0x4F2)
-0x4F3	FIELD ITEM					163 (Flag 0x4F3)
-0x4F4	FIELD ITEM					164 (Flag 0x4F4)
-0x4F5	FIELD ITEM					165 (Flag 0x4F5)
-0x4F6	FIELD ITEM					166 (Flag 0x4F6)
-0x4F7	FIELD ITEM					167 (Flag 0x4F7)
-0x4F8	FIELD ITEM					168 (Flag 0x4F8)
-0x4F9	FIELD ITEM					169 (Flag 0x4F9)
-0x4FA	FIELD ITEM					170 (Flag 0x4FA)
-0x4FB	FIELD ITEM					171 (Flag 0x4FB)
-0x4FC	FIELD ITEM					172 (Flag 0x4FC)
-0x4FD	FIELD ITEM					173 (Flag 0x4FD)
-0x4FE	FIELD ITEM					174 (Flag 0x4FE)
-0x4FF	FIELD ITEM					175 (Flag 0x4FF)
-0x500	FIELD ITEM					176 (Flag 0x500)
-0x501	FIELD ITEM					177 (Flag 0x501)
-0x502	FIELD ITEM					178 (Flag 0x502)
-0x503	FIELD ITEM					179 (Flag 0x503)
-0x504	FIELD ITEM					180 (Flag 0x504)
-0x505	FIELD ITEM					181 (Flag 0x505)
-0x506	FIELD ITEM					182 (Flag 0x506)
-0x507	FIELD ITEM					183 (Flag 0x507)
-0x508	FIELD ITEM					184 (Flag 0x508)
-0x509	FIELD ITEM					185 (Flag 0x509)
-0x50A	FIELD ITEM					186 (Flag 0x50A)
-0x50B	FIELD ITEM					187 (Flag 0x50B)
-0x50C	FIELD ITEM					188 (Flag 0x50C)
-0x50D	FIELD ITEM					189 (Flag 0x50D)
-0x50E	FIELD ITEM					190 (Flag 0x50E)
-0x50F	FIELD ITEM					191 (Flag 0x50F)
-0x510	FIELD ITEM					192 (Flag 0x510)
-0x511	FIELD ITEM					193 (Flag 0x511)
-0x512	FIELD ITEM					194 (Flag 0x512)
-0x513	FIELD ITEM					195 (Flag 0x513)
-0x514	FIELD ITEM					196 (Flag 0x514)
-0x515	FIELD ITEM					197 (Flag 0x515)
-0x516	FIELD ITEM					198 (Flag 0x516)
-0x517	FIELD ITEM					199 (Flag 0x517)
-0x518	FIELD ITEM					200 (Flag 0x518)
-0x519	FIELD ITEM					201 (Flag 0x519)
-0x51A	FIELD ITEM					202 (Flag 0x51A)
-0x51B	FIELD ITEM					203 (Flag 0x51B)
-0x51C	FIELD ITEM					204 (Flag 0x51C)
-0x51D	FIELD ITEM					205 (Flag 0x51D)
-0x51E	FIELD ITEM					206 (Flag 0x51E)
-0x51F	FIELD ITEM					207 (Flag 0x51F)
-0x520	FIELD ITEM					208 (Flag 0x520)
-0x521	FIELD ITEM					209 (Flag 0x521)
-0x522	FIELD ITEM					210 (Flag 0x522)
-0x523	FIELD ITEM					211 (Flag 0x523)
-0x524	FIELD ITEM					212 (Flag 0x524)
-0x525	FIELD ITEM					213 (Flag 0x525)
-0x526	FIELD ITEM					214 (Flag 0x526)
-0x527	FIELD ITEM					215 (Flag 0x527)
-0x528	FIELD ITEM					216 (Flag 0x528)
-0x529	FIELD ITEM					217 (Flag 0x529)
-0x52A	FIELD ITEM					218 (Flag 0x52A)
-0x52B	FIELD ITEM					219 (Flag 0x52B)
-0x52C	FIELD ITEM					220 (Flag 0x52C)
-0x52D	FIELD ITEM					221 (Flag 0x52D)
-0x52E	FIELD ITEM					222 (Flag 0x52E)
-0x52F	FIELD ITEM					223 (Flag 0x52F)
-0x530	FIELD ITEM					224 (Flag 0x530)
-0x531	FIELD ITEM					225 (Flag 0x531)
-0x532	FIELD ITEM					226 (Flag 0x532)
-0x533	FIELD ITEM					227 (Flag 0x533)
-0x534	FIELD ITEM					228 (Flag 0x534)
-0x535	FIELD ITEM					229 (Flag 0x535)
-0x536	FIELD ITEM					230 (Flag 0x536)
-0x537	FIELD ITEM					231 (Flag 0x537)
-0x538	FIELD ITEM					232 (Flag 0x538)
-0x539	FIELD ITEM					233 (Flag 0x539)
-0x53A	FIELD ITEM					234 (Flag 0x53A)
-0x53B	FIELD ITEM					235 (Flag 0x53B)
-0x53C	FIELD ITEM					236 (Flag 0x53C)
-0x53D	FIELD ITEM					237 (Flag 0x53D)
-0x53E	FIELD ITEM					238 (Flag 0x53E)
-0x53F	FIELD ITEM					239 (Flag 0x53F)
-0x540	FIELD ITEM					240 (Flag 0x540)
-0x541	FIELD ITEM					241 (Flag 0x541)
-0x542	FIELD ITEM					242 (Flag 0x542)
-0x543	FIELD ITEM					243 (Flag 0x543)
-0x544	FIELD ITEM					244 (Flag 0x544)
-0x545	FIELD ITEM					245 (Flag 0x545)
-0x546	FIELD ITEM					246 (Flag 0x546)
-0x547	FIELD ITEM					247 (Flag 0x547)
-0x548	FIELD ITEM					248 (Flag 0x548)
-0x549	FIELD ITEM					249 (Flag 0x549)
-0x54A	FIELD ITEM					250 (Flag 0x54A)
-0x54B	FIELD ITEM					251 (Flag 0x54B)
-0x54C	FIELD ITEM					252 (Flag 0x54C)
-0x54D	FIELD ITEM					253 (Flag 0x54D)
-0x54E	FIELD ITEM					254 (Flag 0x54E)
-0x54F	FIELD ITEM					255 (Flag 0x54F)
-0x550	FIELD ITEM					256 (Flag 0x550)
-0x551	FIELD ITEM					257 (Flag 0x551)
-0x552	FIELD ITEM					258 (Flag 0x552)
-0x553	FIELD ITEM					259 (Flag 0x553)
-0x554	FIELD ITEM					260 (Flag 0x554)
-0x555	FIELD ITEM					261 (Flag 0x555)
-0x556	FIELD ITEM					262 (Flag 0x556)
-0x557	FIELD ITEM					263 (Flag 0x557)
-0x558	FIELD ITEM					264 (Flag 0x558)
-0x559	FIELD ITEM					265 (Flag 0x559)
-0x55A	FIELD ITEM					266 (Flag 0x55A)
-0x55B	FIELD ITEM					267 (Flag 0x55B)
-0x55C	FIELD ITEM					268 (Flag 0x55C)
-0x55D	FIELD ITEM					269 (Flag 0x55D)
-0x55E	FIELD ITEM					270 (Flag 0x55E)
-0x55F	FIELD ITEM					271 (Flag 0x55F)
-0x560	FIELD ITEM					272 (Flag 0x560)
-0x561	FIELD ITEM					273 (Flag 0x561)
-0x562	FIELD ITEM					274 (Flag 0x562)
-0x563	FIELD ITEM					275 (Flag 0x563)
-0x564	FIELD ITEM					276 (Flag 0x564)
-0x565	FIELD ITEM					277 (Flag 0x565)
-0x566	FIELD ITEM					278 (Flag 0x566)
-0x567	FIELD ITEM					279 (Flag 0x567)
-0x568	FIELD ITEM					280 (Flag 0x568)
-0x569	FIELD ITEM					281 (Flag 0x569)
-0x56A	FIELD ITEM					282 (Flag 0x56A)
-0x56B	FIELD ITEM					283 (Flag 0x56B)
-0x56C	FIELD ITEM					284 (Flag 0x56C)
-0x56D	FIELD ITEM					285 (Flag 0x56D)
-0x56E	FIELD ITEM					286 (Flag 0x56E)
-0x56F	FIELD ITEM					287 (Flag 0x56F)
-0x570	FIELD ITEM					288 (Flag 0x570)
-0x571	FIELD ITEM					289 (Flag 0x571)
-0x572	FIELD ITEM					290 (Flag 0x572)
-0x573	FIELD ITEM					291 (Flag 0x573)
-0x574	FIELD ITEM					292 (Flag 0x574)
-0x575	FIELD ITEM					293 (Flag 0x575)
-0x576	FIELD ITEM					294 (Flag 0x576)
-0x577	FIELD ITEM					295 (Flag 0x577)
-0x578	FIELD ITEM					296 (Flag 0x578)
-0x579	FIELD ITEM					297 (Flag 0x579)
-0x57A	FIELD ITEM					298 (Flag 0x57A)
-0x57B	FIELD ITEM					299 (Flag 0x57B)
-0x57C	FIELD ITEM					300 (Flag 0x57C)
-0x57D	FIELD ITEM					301 (Flag 0x57D)
-0x57E	FIELD ITEM					302 (Flag 0x57E)
-0x57F	FIELD ITEM					303 (Flag 0x57F)
-0x580	FIELD ITEM					304 (Flag 0x580)
-0x581	FIELD ITEM					305 (Flag 0x581)
-0x582	FIELD ITEM					306 (Flag 0x582)
-0x583	FIELD ITEM	Dragon Spiral Tower		Dragon Fang		307 (Flag 0x583)
-0x584	FIELD ITEM					308 (Flag 0x584)
-0x585	FIELD ITEM					309 (Flag 0x585)
-0x586	FIELD ITEM					310 (Flag 0x586)
-0x587	FIELD ITEM					311 (Flag 0x587)
-0x588	TRAINER BATTLE					000 (Flag 0x588)
-0x589	TRAINER BATTLE					001 (Flag 0x589)
-0x58A	TRAINER BATTLE					002 (Flag 0x58A)
-0x58B	TRAINER BATTLE					003 (Flag 0x58B)
-0x58C	TRAINER BATTLE					004 (Flag 0x58C)
-0x58D	TRAINER BATTLE					005 (Flag 0x58D)
-0x58E	TRAINER BATTLE					006 (Flag 0x58E)
-0x58F	TRAINER BATTLE					007 (Flag 0x58F)
-0x590	TRAINER BATTLE					008 (Flag 0x590)
-0x591	TRAINER BATTLE					009 (Flag 0x591)
-0x592	TRAINER BATTLE					010 (Flag 0x592)
-0x593	TRAINER BATTLE					011 (Flag 0x593)
-0x594	TRAINER BATTLE					012 (Flag 0x594)
-0x595	TRAINER BATTLE					013 (Flag 0x595)
-0x596	TRAINER BATTLE					014 (Flag 0x596)
-0x597	TRAINER BATTLE					015 (Flag 0x597)
-0x598	TRAINER BATTLE					016 (Flag 0x598)
-0x599	TRAINER BATTLE					017 (Flag 0x599)
-0x59A	TRAINER BATTLE					018 (Flag 0x59A)
-0x59B	TRAINER BATTLE					019 (Flag 0x59B)
-0x59C	TRAINER BATTLE					020 (Flag 0x59C)
-0x59D	TRAINER BATTLE					021 (Flag 0x59D)
-0x59E	TRAINER BATTLE					022 (Flag 0x59E)
-0x59F	TRAINER BATTLE					023 (Flag 0x59F)
-0x5A0	TRAINER BATTLE					024 (Flag 0x5A0)
-0x5A1	TRAINER BATTLE					025 (Flag 0x5A1)
-0x5A2	TRAINER BATTLE					026 (Flag 0x5A2)
-0x5A3	TRAINER BATTLE					027 (Flag 0x5A3)
-0x5A4	TRAINER BATTLE					028 (Flag 0x5A4)
-0x5A5	TRAINER BATTLE					029 (Flag 0x5A5)
-0x5A6	TRAINER BATTLE					030 (Flag 0x5A6)
-0x5A7	TRAINER BATTLE					031 (Flag 0x5A7)
-0x5A8	TRAINER BATTLE					032 (Flag 0x5A8)
-0x5A9	TRAINER BATTLE					033 (Flag 0x5A9)
-0x5AA	TRAINER BATTLE					034 (Flag 0x5AA)
-0x5AB	TRAINER BATTLE					035 (Flag 0x5AB)
-0x5AC	TRAINER BATTLE					036 (Flag 0x5AC)
-0x5AD	TRAINER BATTLE					037 (Flag 0x5AD)
-0x5AE	TRAINER BATTLE					038 (Flag 0x5AE)
-0x5AF	TRAINER BATTLE					039 (Flag 0x5AF)
-0x5B0	TRAINER BATTLE					040 (Flag 0x5B0)
-0x5B1	TRAINER BATTLE					041 (Flag 0x5B1)
-0x5B2	TRAINER BATTLE					042 (Flag 0x5B2)
-0x5B3	TRAINER BATTLE					043 (Flag 0x5B3)
-0x5B4	TRAINER BATTLE					044 (Flag 0x5B4)
-0x5B5	TRAINER BATTLE					045 (Flag 0x5B5)
-0x5B6	TRAINER BATTLE					046 (Flag 0x5B6)
-0x5B7	TRAINER BATTLE					047 (Flag 0x5B7)
-0x5B8	TRAINER BATTLE					048 (Flag 0x5B8)
-0x5B9	TRAINER BATTLE					049 (Flag 0x5B9)
-0x5BA	TRAINER BATTLE					050 (Flag 0x5BA)
-0x5BB	TRAINER BATTLE					051 (Flag 0x5BB)
-0x5BC	TRAINER BATTLE					052 (Flag 0x5BC)
-0x5BD	TRAINER BATTLE					053 (Flag 0x5BD)
-0x5BE	TRAINER BATTLE					054 (Flag 0x5BE)
-0x5BF	TRAINER BATTLE					055 (Flag 0x5BF)
-0x5C0	TRAINER BATTLE					056 (Flag 0x5C0)
-0x5C1	TRAINER BATTLE					057 (Flag 0x5C1)
-0x5C2	TRAINER BATTLE					058 (Flag 0x5C2)
-0x5C3	TRAINER BATTLE					059 (Flag 0x5C3)
-0x5C4	TRAINER BATTLE					060 (Flag 0x5C4)
-0x5C5	TRAINER BATTLE					061 (Flag 0x5C5)
-0x5C6	TRAINER BATTLE					062 (Flag 0x5C6)
-0x5C7	TRAINER BATTLE					063 (Flag 0x5C7)
-0x5C8	TRAINER BATTLE					064 (Flag 0x5C8)
-0x5C9	TRAINER BATTLE					065 (Flag 0x5C9)
-0x5CA	TRAINER BATTLE					066 (Flag 0x5CA)
-0x5CB	TRAINER BATTLE					067 (Flag 0x5CB)
-0x5CC	TRAINER BATTLE					068 (Flag 0x5CC)
-0x5CD	TRAINER BATTLE					069 (Flag 0x5CD)
-0x5CE	TRAINER BATTLE					070 (Flag 0x5CE)
-0x5CF	TRAINER BATTLE					071 (Flag 0x5CF)
-0x5D0	TRAINER BATTLE					072 (Flag 0x5D0)
-0x5D1	TRAINER BATTLE					073 (Flag 0x5D1)
-0x5D2	TRAINER BATTLE					074 (Flag 0x5D2)
-0x5D3	TRAINER BATTLE					075 (Flag 0x5D3)
-0x5D4	TRAINER BATTLE					076 (Flag 0x5D4)
-0x5D5	TRAINER BATTLE					077 (Flag 0x5D5)
-0x5D6	TRAINER BATTLE					078 (Flag 0x5D6)
-0x5D7	TRAINER BATTLE					079 (Flag 0x5D7)
-0x5D8	TRAINER BATTLE					080 (Flag 0x5D8)
-0x5D9	TRAINER BATTLE					081 (Flag 0x5D9)
-0x5DA	TRAINER BATTLE					082 (Flag 0x5DA)
-0x5DB	TRAINER BATTLE					083 (Flag 0x5DB)
-0x5DC	TRAINER BATTLE					084 (Flag 0x5DC)
-0x5DD	TRAINER BATTLE					085 (Flag 0x5DD)
-0x5DE	TRAINER BATTLE					086 (Flag 0x5DE)
-0x5DF	TRAINER BATTLE					087 (Flag 0x5DF)
-0x5E0	TRAINER BATTLE					088 (Flag 0x5E0)
-0x5E1	TRAINER BATTLE					089 (Flag 0x5E1)
-0x5E2	TRAINER BATTLE					090 (Flag 0x5E2)
-0x5E3	TRAINER BATTLE					091 (Flag 0x5E3)
-0x5E4	TRAINER BATTLE					092 (Flag 0x5E4)
-0x5E5	TRAINER BATTLE					093 (Flag 0x5E5)
-0x5E6	TRAINER BATTLE					094 (Flag 0x5E6)
-0x5E7	TRAINER BATTLE					095 (Flag 0x5E7)
-0x5E8	TRAINER BATTLE					096 (Flag 0x5E8)
-0x5E9	TRAINER BATTLE					097 (Flag 0x5E9)
-0x5EA	TRAINER BATTLE					098 (Flag 0x5EA)
-0x5EB	TRAINER BATTLE					099 (Flag 0x5EB)
-0x5EC	TRAINER BATTLE					100 (Flag 0x5EC)
-0x5ED	TRAINER BATTLE					101 (Flag 0x5ED)
-0x5EE	TRAINER BATTLE					102 (Flag 0x5EE)
-0x5EF	TRAINER BATTLE					103 (Flag 0x5EF)
-0x5F0	TRAINER BATTLE					104 (Flag 0x5F0)
-0x5F1	TRAINER BATTLE					105 (Flag 0x5F1)
-0x5F2	TRAINER BATTLE					106 (Flag 0x5F2)
-0x5F3	TRAINER BATTLE					107 (Flag 0x5F3)
-0x5F4	TRAINER BATTLE					108 (Flag 0x5F4)
-0x5F5	TRAINER BATTLE					109 (Flag 0x5F5)
-0x5F6	TRAINER BATTLE					110 (Flag 0x5F6)
-0x5F7	TRAINER BATTLE					111 (Flag 0x5F7)
-0x5F8	TRAINER BATTLE					112 (Flag 0x5F8)
-0x5F9	TRAINER BATTLE					113 (Flag 0x5F9)
-0x5FA	TRAINER BATTLE					114 (Flag 0x5FA)
-0x5FB	TRAINER BATTLE					115 (Flag 0x5FB)
-0x5FC	TRAINER BATTLE					116 (Flag 0x5FC)
-0x5FD	TRAINER BATTLE					117 (Flag 0x5FD)
-0x5FE	TRAINER BATTLE					118 (Flag 0x5FE)
-0x5FF	TRAINER BATTLE					119 (Flag 0x5FF)
-0x600	TRAINER BATTLE					120 (Flag 0x600)
-0x601	TRAINER BATTLE					121 (Flag 0x601)
-0x602	TRAINER BATTLE					122 (Flag 0x602)
-0x603	TRAINER BATTLE					123 (Flag 0x603)
-0x604	TRAINER BATTLE					124 (Flag 0x604)
-0x605	TRAINER BATTLE					125 (Flag 0x605)
-0x606	TRAINER BATTLE					126 (Flag 0x606)
-0x607	TRAINER BATTLE					127 (Flag 0x607)
-0x608	TRAINER BATTLE					128 (Flag 0x608)
-0x609	TRAINER BATTLE					129 (Flag 0x609)
-0x60A	TRAINER BATTLE					130 (Flag 0x60A)
-0x60B	TRAINER BATTLE					131 (Flag 0x60B)
-0x60C	TRAINER BATTLE					132 (Flag 0x60C)
-0x60D	TRAINER BATTLE					133 (Flag 0x60D)
-0x60E	TRAINER BATTLE					134 (Flag 0x60E)
-0x60F	TRAINER BATTLE					135 (Flag 0x60F)
-0x610	TRAINER BATTLE					136 (Flag 0x610)
-0x611	TRAINER BATTLE					137 (Flag 0x611)
-0x612	TRAINER BATTLE					138 (Flag 0x612)
-0x613	TRAINER BATTLE					139 (Flag 0x613)
-0x614	TRAINER BATTLE					140 (Flag 0x614)
-0x615	TRAINER BATTLE					141 (Flag 0x615)
-0x616	TRAINER BATTLE					142 (Flag 0x616)
-0x617	TRAINER BATTLE					143 (Flag 0x617)
-0x618	TRAINER BATTLE					144 (Flag 0x618)
-0x619	TRAINER BATTLE					145 (Flag 0x619)
-0x61A	TRAINER BATTLE					146 (Flag 0x61A)
-0x61B	TRAINER BATTLE					147 (Flag 0x61B)
-0x61C	TRAINER BATTLE					148 (Flag 0x61C)
-0x61D	TRAINER BATTLE					149 (Flag 0x61D)
-0x61E	TRAINER BATTLE					150 (Flag 0x61E)
-0x61F	TRAINER BATTLE					151 (Flag 0x61F)
-0x620	TRAINER BATTLE					152 (Flag 0x620)
-0x621	TRAINER BATTLE					153 (Flag 0x621)
-0x622	TRAINER BATTLE					154 (Flag 0x622)
-0x623	TRAINER BATTLE					155 (Flag 0x623)
-0x624	TRAINER BATTLE					156 (Flag 0x624)
-0x625	TRAINER BATTLE					157 (Flag 0x625)
-0x626	TRAINER BATTLE					158 (Flag 0x626)
-0x627	TRAINER BATTLE					159 (Flag 0x627)
-0x628	TRAINER BATTLE					160 (Flag 0x628)
-0x629	TRAINER BATTLE					161 (Flag 0x629)
-0x62A	TRAINER BATTLE					162 (Flag 0x62A)
-0x62B	TRAINER BATTLE					163 (Flag 0x62B)
-0x62C	TRAINER BATTLE					164 (Flag 0x62C)
-0x62D	TRAINER BATTLE					165 (Flag 0x62D)
-0x62E	TRAINER BATTLE					166 (Flag 0x62E)
-0x62F	TRAINER BATTLE					167 (Flag 0x62F)
-0x630	TRAINER BATTLE					168 (Flag 0x630)
-0x631	TRAINER BATTLE					169 (Flag 0x631)
-0x632	TRAINER BATTLE					170 (Flag 0x632)
-0x633	TRAINER BATTLE					171 (Flag 0x633)
-0x634	TRAINER BATTLE					172 (Flag 0x634)
-0x635	TRAINER BATTLE					173 (Flag 0x635)
-0x636	TRAINER BATTLE					174 (Flag 0x636)
-0x637	TRAINER BATTLE					175 (Flag 0x637)
-0x638	TRAINER BATTLE					176 (Flag 0x638)
-0x639	TRAINER BATTLE					177 (Flag 0x639)
-0x63A	TRAINER BATTLE					178 (Flag 0x63A)
-0x63B	TRAINER BATTLE					179 (Flag 0x63B)
-0x63C	TRAINER BATTLE					180 (Flag 0x63C)
-0x63D	TRAINER BATTLE					181 (Flag 0x63D)
-0x63E	TRAINER BATTLE					182 (Flag 0x63E)
-0x63F	TRAINER BATTLE					183 (Flag 0x63F)
-0x640	TRAINER BATTLE					184 (Flag 0x640)
-0x641	TRAINER BATTLE					185 (Flag 0x641)
-0x642	TRAINER BATTLE					186 (Flag 0x642)
-0x643	TRAINER BATTLE					187 (Flag 0x643)
-0x644	TRAINER BATTLE					188 (Flag 0x644)
-0x645	TRAINER BATTLE					189 (Flag 0x645)
-0x646	TRAINER BATTLE					190 (Flag 0x646)
-0x647	TRAINER BATTLE					191 (Flag 0x647)
-0x648	TRAINER BATTLE					192 (Flag 0x648)
-0x649	TRAINER BATTLE					193 (Flag 0x649)
-0x64A	TRAINER BATTLE					194 (Flag 0x64A)
-0x64B	TRAINER BATTLE					195 (Flag 0x64B)
-0x64C	TRAINER BATTLE					196 (Flag 0x64C)
-0x64D	TRAINER BATTLE					197 (Flag 0x64D)
-0x64E	TRAINER BATTLE					198 (Flag 0x64E)
-0x64F	TRAINER BATTLE					199 (Flag 0x64F)
-0x650	TRAINER BATTLE					200 (Flag 0x650)
-0x651	TRAINER BATTLE					201 (Flag 0x651)
-0x652	TRAINER BATTLE					202 (Flag 0x652)
-0x653	TRAINER BATTLE					203 (Flag 0x653)
-0x654	TRAINER BATTLE					204 (Flag 0x654)
-0x655	TRAINER BATTLE					205 (Flag 0x655)
-0x656	TRAINER BATTLE					206 (Flag 0x656)
-0x657	TRAINER BATTLE					207 (Flag 0x657)
-0x658	TRAINER BATTLE					208 (Flag 0x658)
-0x659	TRAINER BATTLE					209 (Flag 0x659)
-0x65A	TRAINER BATTLE					210 (Flag 0x65A)
-0x65B	TRAINER BATTLE					211 (Flag 0x65B)
-0x65C	TRAINER BATTLE					212 (Flag 0x65C)
-0x65D	TRAINER BATTLE					213 (Flag 0x65D)
-0x65E	TRAINER BATTLE					214 (Flag 0x65E)
-0x65F	TRAINER BATTLE					215 (Flag 0x65F)
-0x660	TRAINER BATTLE					216 (Flag 0x660)
-0x661	TRAINER BATTLE					217 (Flag 0x661)
-0x662	TRAINER BATTLE					218 (Flag 0x662)
-0x663	TRAINER BATTLE					219 (Flag 0x663)
-0x664	TRAINER BATTLE					220 (Flag 0x664)
-0x665	TRAINER BATTLE					221 (Flag 0x665)
-0x666	TRAINER BATTLE					222 (Flag 0x666)
-0x667	TRAINER BATTLE					223 (Flag 0x667)
-0x668	TRAINER BATTLE					224 (Flag 0x668)
-0x669	TRAINER BATTLE					225 (Flag 0x669)
-0x66A	TRAINER BATTLE					226 (Flag 0x66A)
-0x66B	TRAINER BATTLE					227 (Flag 0x66B)
-0x66C	TRAINER BATTLE					228 (Flag 0x66C)
-0x66D	TRAINER BATTLE					229 (Flag 0x66D)
-0x66E	TRAINER BATTLE					230 (Flag 0x66E)
-0x66F	TRAINER BATTLE					231 (Flag 0x66F)
-0x670	TRAINER BATTLE					232 (Flag 0x670)
-0x671	TRAINER BATTLE					233 (Flag 0x671)
-0x672	TRAINER BATTLE					234 (Flag 0x672)
-0x673	TRAINER BATTLE					235 (Flag 0x673)
-0x674	TRAINER BATTLE					236 (Flag 0x674)
-0x675	TRAINER BATTLE					237 (Flag 0x675)
-0x676	TRAINER BATTLE					238 (Flag 0x676)
-0x677	TRAINER BATTLE					239 (Flag 0x677)
-0x678	TRAINER BATTLE					240 (Flag 0x678)
-0x679	TRAINER BATTLE					241 (Flag 0x679)
-0x67A	TRAINER BATTLE					242 (Flag 0x67A)
-0x67B	TRAINER BATTLE					243 (Flag 0x67B)
-0x67C	TRAINER BATTLE					244 (Flag 0x67C)
-0x67D	TRAINER BATTLE					245 (Flag 0x67D)
-0x67E	TRAINER BATTLE					246 (Flag 0x67E)
-0x67F	TRAINER BATTLE					247 (Flag 0x67F)
-0x680	TRAINER BATTLE					248 (Flag 0x680)
-0x681	TRAINER BATTLE					249 (Flag 0x681)
-0x682	TRAINER BATTLE					250 (Flag 0x682)
-0x683	TRAINER BATTLE					251 (Flag 0x683)
-0x684	TRAINER BATTLE					252 (Flag 0x684)
-0x685	TRAINER BATTLE					253 (Flag 0x685)
-0x686	TRAINER BATTLE					254 (Flag 0x686)
-0x687	TRAINER BATTLE					255 (Flag 0x687)
-0x688	TRAINER BATTLE					256 (Flag 0x688)
-0x689	TRAINER BATTLE					257 (Flag 0x689)
-0x68A	TRAINER BATTLE					258 (Flag 0x68A)
-0x68B	TRAINER BATTLE					259 (Flag 0x68B)
-0x68C	TRAINER BATTLE					260 (Flag 0x68C)
-0x68D	TRAINER BATTLE					261 (Flag 0x68D)
-0x68E	TRAINER BATTLE					262 (Flag 0x68E)
-0x68F	TRAINER BATTLE					263 (Flag 0x68F)
-0x690	TRAINER BATTLE					264 (Flag 0x690)
-0x691	TRAINER BATTLE					265 (Flag 0x691)
-0x692	TRAINER BATTLE					266 (Flag 0x692)
-0x693	TRAINER BATTLE					267 (Flag 0x693)
-0x694	TRAINER BATTLE					268 (Flag 0x694)
-0x695	TRAINER BATTLE					269 (Flag 0x695)
-0x696	TRAINER BATTLE					270 (Flag 0x696)
-0x697	TRAINER BATTLE					271 (Flag 0x697)
-0x698	TRAINER BATTLE					272 (Flag 0x698)
-0x699	TRAINER BATTLE					273 (Flag 0x699)
-0x69A	TRAINER BATTLE					274 (Flag 0x69A)
-0x69B	TRAINER BATTLE					275 (Flag 0x69B)
-0x69C	TRAINER BATTLE					276 (Flag 0x69C)
-0x69D	TRAINER BATTLE					277 (Flag 0x69D)
-0x69E	TRAINER BATTLE					278 (Flag 0x69E)
-0x69F	TRAINER BATTLE					279 (Flag 0x69F)
-0x6A0	TRAINER BATTLE					280 (Flag 0x6A0)
-0x6A1	TRAINER BATTLE					281 (Flag 0x6A1)
-0x6A2	TRAINER BATTLE					282 (Flag 0x6A2)
-0x6A3	TRAINER BATTLE					283 (Flag 0x6A3)
-0x6A4	TRAINER BATTLE					284 (Flag 0x6A4)
-0x6A5	TRAINER BATTLE					285 (Flag 0x6A5)
-0x6A6	TRAINER BATTLE					286 (Flag 0x6A6)
-0x6A7	TRAINER BATTLE					287 (Flag 0x6A7)
-0x6A8	TRAINER BATTLE					288 (Flag 0x6A8)
-0x6A9	TRAINER BATTLE					289 (Flag 0x6A9)
-0x6AA	TRAINER BATTLE					290 (Flag 0x6AA)
-0x6AB	TRAINER BATTLE					291 (Flag 0x6AB)
-0x6AC	TRAINER BATTLE					292 (Flag 0x6AC)
-0x6AD	TRAINER BATTLE					293 (Flag 0x6AD)
-0x6AE	TRAINER BATTLE					294 (Flag 0x6AE)
-0x6AF	TRAINER BATTLE					295 (Flag 0x6AF)
-0x6B0	TRAINER BATTLE					296 (Flag 0x6B0)
-0x6B1	TRAINER BATTLE					297 (Flag 0x6B1)
-0x6B2	TRAINER BATTLE					298 (Flag 0x6B2)
-0x6B3	TRAINER BATTLE					299 (Flag 0x6B3)
-0x6B4	TRAINER BATTLE					300 (Flag 0x6B4)
-0x6B5	TRAINER BATTLE					301 (Flag 0x6B5)
-0x6B6	TRAINER BATTLE					302 (Flag 0x6B6)
-0x6B7	TRAINER BATTLE					303 (Flag 0x6B7)
-0x6B8	TRAINER BATTLE					304 (Flag 0x6B8)
-0x6B9	TRAINER BATTLE					305 (Flag 0x6B9)
-0x6BA	TRAINER BATTLE					306 (Flag 0x6BA)
-0x6BB	TRAINER BATTLE					307 (Flag 0x6BB)
-0x6BC	TRAINER BATTLE					308 (Flag 0x6BC)
-0x6BD	TRAINER BATTLE					309 (Flag 0x6BD)
-0x6BE	TRAINER BATTLE					310 (Flag 0x6BE)
-0x6BF	TRAINER BATTLE					311 (Flag 0x6BF)
-0x6C0	TRAINER BATTLE					312 (Flag 0x6C0)
-0x6C1	TRAINER BATTLE					313 (Flag 0x6C1)
-0x6C2	TRAINER BATTLE					314 (Flag 0x6C2)
-0x6C3	TRAINER BATTLE					315 (Flag 0x6C3)
-0x6C4	TRAINER BATTLE					316 (Flag 0x6C4)
-0x6C5	TRAINER BATTLE					317 (Flag 0x6C5)
-0x6C6	TRAINER BATTLE					318 (Flag 0x6C6)
-0x6C7	TRAINER BATTLE					319 (Flag 0x6C7)
-0x6C8	TRAINER BATTLE					320 (Flag 0x6C8)
-0x6C9	TRAINER BATTLE					321 (Flag 0x6C9)
-0x6CA	TRAINER BATTLE					322 (Flag 0x6CA)
-0x6CB	TRAINER BATTLE					323 (Flag 0x6CB)
-0x6CC	TRAINER BATTLE					324 (Flag 0x6CC)
-0x6CD	TRAINER BATTLE					325 (Flag 0x6CD)
-0x6CE	TRAINER BATTLE					326 (Flag 0x6CE)
-0x6CF	TRAINER BATTLE					327 (Flag 0x6CF)
-0x6D0	TRAINER BATTLE					328 (Flag 0x6D0)
-0x6D1	TRAINER BATTLE					329 (Flag 0x6D1)
-0x6D2	TRAINER BATTLE					330 (Flag 0x6D2)
-0x6D3	TRAINER BATTLE					331 (Flag 0x6D3)
-0x6D4	TRAINER BATTLE					332 (Flag 0x6D4)
-0x6D5	TRAINER BATTLE					333 (Flag 0x6D5)
-0x6D6	TRAINER BATTLE					334 (Flag 0x6D6)
-0x6D7	TRAINER BATTLE					335 (Flag 0x6D7)
-0x6D8	TRAINER BATTLE					336 (Flag 0x6D8)
-0x6D9	TRAINER BATTLE					337 (Flag 0x6D9)
-0x6DA	TRAINER BATTLE					338 (Flag 0x6DA)
-0x6DB	TRAINER BATTLE					339 (Flag 0x6DB)
-0x6DC	TRAINER BATTLE					340 (Flag 0x6DC)
-0x6DD	TRAINER BATTLE					341 (Flag 0x6DD)
-0x6DE	TRAINER BATTLE					342 (Flag 0x6DE)
-0x6DF	TRAINER BATTLE					343 (Flag 0x6DF)
-0x6E0	TRAINER BATTLE					344 (Flag 0x6E0)
-0x6E1	TRAINER BATTLE					345 (Flag 0x6E1)
-0x6E2	TRAINER BATTLE					346 (Flag 0x6E2)
-0x6E3	TRAINER BATTLE					347 (Flag 0x6E3)
-0x6E4	TRAINER BATTLE					348 (Flag 0x6E4)
-0x6E5	TRAINER BATTLE					349 (Flag 0x6E5)
-0x6E6	TRAINER BATTLE					350 (Flag 0x6E6)
-0x6E7	TRAINER BATTLE					351 (Flag 0x6E7)
-0x6E8	TRAINER BATTLE					352 (Flag 0x6E8)
-0x6E9	TRAINER BATTLE					353 (Flag 0x6E9)
-0x6EA	TRAINER BATTLE					354 (Flag 0x6EA)
-0x6EB	TRAINER BATTLE					355 (Flag 0x6EB)
-0x6EC	TRAINER BATTLE					356 (Flag 0x6EC)
-0x6ED	TRAINER BATTLE					357 (Flag 0x6ED)
-0x6EE	TRAINER BATTLE					358 (Flag 0x6EE)
-0x6EF	TRAINER BATTLE					359 (Flag 0x6EF)
-0x6F0	TRAINER BATTLE					360 (Flag 0x6F0)
-0x6F1	TRAINER BATTLE					361 (Flag 0x6F1)
-0x6F2	TRAINER BATTLE					362 (Flag 0x6F2)
-0x6F3	TRAINER BATTLE					363 (Flag 0x6F3)
-0x6F4	TRAINER BATTLE					364 (Flag 0x6F4)
-0x6F5	TRAINER BATTLE					365 (Flag 0x6F5)
-0x6F6	TRAINER BATTLE					366 (Flag 0x6F6)
-0x6F7	TRAINER BATTLE					367 (Flag 0x6F7)
-0x6F8	TRAINER BATTLE					368 (Flag 0x6F8)
-0x6F9	TRAINER BATTLE					369 (Flag 0x6F9)
-0x6FA	TRAINER BATTLE					370 (Flag 0x6FA)
-0x6FB	TRAINER BATTLE					371 (Flag 0x6FB)
-0x6FC	TRAINER BATTLE					372 (Flag 0x6FC)
-0x6FD	TRAINER BATTLE					373 (Flag 0x6FD)
-0x6FE	TRAINER BATTLE					374 (Flag 0x6FE)
-0x6FF	TRAINER BATTLE					375 (Flag 0x6FF)
-0x700	TRAINER BATTLE					376 (Flag 0x700)
-0x701	TRAINER BATTLE					377 (Flag 0x701)
-0x702	TRAINER BATTLE					378 (Flag 0x702)
-0x703	TRAINER BATTLE					379 (Flag 0x703)
-0x704	TRAINER BATTLE					380 (Flag 0x704)
-0x705	TRAINER BATTLE					381 (Flag 0x705)
-0x706	TRAINER BATTLE					382 (Flag 0x706)
-0x707	TRAINER BATTLE					383 (Flag 0x707)
-0x708	TRAINER BATTLE					384 (Flag 0x708)
-0x709	TRAINER BATTLE					385 (Flag 0x709)
-0x70A	TRAINER BATTLE					386 (Flag 0x70A)
-0x70B	TRAINER BATTLE					387 (Flag 0x70B)
-0x70C	TRAINER BATTLE					388 (Flag 0x70C)
-0x70D	TRAINER BATTLE					389 (Flag 0x70D)
-0x70E	TRAINER BATTLE					390 (Flag 0x70E)
-0x70F	TRAINER BATTLE					391 (Flag 0x70F)
-0x710	TRAINER BATTLE					392 (Flag 0x710)
-0x711	TRAINER BATTLE					393 (Flag 0x711)
-0x712	TRAINER BATTLE					394 (Flag 0x712)
-0x713	TRAINER BATTLE					395 (Flag 0x713)
-0x714	TRAINER BATTLE					396 (Flag 0x714)
-0x715	TRAINER BATTLE					397 (Flag 0x715)
-0x716	TRAINER BATTLE					398 (Flag 0x716)
-0x717	TRAINER BATTLE					399 (Flag 0x717)
-0x718	TRAINER BATTLE					400 (Flag 0x718)
-0x719	TRAINER BATTLE					401 (Flag 0x719)
-0x71A	TRAINER BATTLE					402 (Flag 0x71A)
-0x71B	TRAINER BATTLE					403 (Flag 0x71B)
-0x71C	TRAINER BATTLE					404 (Flag 0x71C)
-0x71D	TRAINER BATTLE					405 (Flag 0x71D)
-0x71E	TRAINER BATTLE					406 (Flag 0x71E)
-0x71F	TRAINER BATTLE					407 (Flag 0x71F)
-0x720	TRAINER BATTLE					408 (Flag 0x720)
-0x721	TRAINER BATTLE					409 (Flag 0x721)
-0x722	TRAINER BATTLE					410 (Flag 0x722)
-0x723	TRAINER BATTLE					411 (Flag 0x723)
-0x724	TRAINER BATTLE					412 (Flag 0x724)
-0x725	TRAINER BATTLE					413 (Flag 0x725)
-0x726	TRAINER BATTLE					414 (Flag 0x726)
-0x727	TRAINER BATTLE					415 (Flag 0x727)
-0x728	TRAINER BATTLE					416 (Flag 0x728)
-0x729	TRAINER BATTLE					417 (Flag 0x729)
-0x72A	TRAINER BATTLE					418 (Flag 0x72A)
-0x72B	TRAINER BATTLE					419 (Flag 0x72B)
-0x72C	TRAINER BATTLE					420 (Flag 0x72C)
-0x72D	TRAINER BATTLE					421 (Flag 0x72D)
-0x72E	TRAINER BATTLE					422 (Flag 0x72E)
-0x72F	TRAINER BATTLE					423 (Flag 0x72F)
-0x730	TRAINER BATTLE					424 (Flag 0x730)
-0x731	TRAINER BATTLE					425 (Flag 0x731)
-0x732	TRAINER BATTLE					426 (Flag 0x732)
-0x733	TRAINER BATTLE					427 (Flag 0x733)
-0x734	TRAINER BATTLE					428 (Flag 0x734)
-0x735	TRAINER BATTLE					429 (Flag 0x735)
-0x736	TRAINER BATTLE					430 (Flag 0x736)
-0x737	TRAINER BATTLE					431 (Flag 0x737)
-0x738	TRAINER BATTLE					432 (Flag 0x738)
-0x739	TRAINER BATTLE					433 (Flag 0x739)
-0x73A	TRAINER BATTLE					434 (Flag 0x73A)
-0x73B	TRAINER BATTLE					435 (Flag 0x73B)
-0x73C	TRAINER BATTLE					436 (Flag 0x73C)
-0x73D	TRAINER BATTLE					437 (Flag 0x73D)
-0x73E	TRAINER BATTLE					438 (Flag 0x73E)
-0x73F	TRAINER BATTLE					439 (Flag 0x73F)
-0x740	TRAINER BATTLE					440 (Flag 0x740)
-0x741	TRAINER BATTLE					441 (Flag 0x741)
-0x742	TRAINER BATTLE					442 (Flag 0x742)
-0x743	TRAINER BATTLE					443 (Flag 0x743)
-0x744	TRAINER BATTLE					444 (Flag 0x744)
-0x745	TRAINER BATTLE					445 (Flag 0x745)
-0x746	TRAINER BATTLE					446 (Flag 0x746)
-0x747	TRAINER BATTLE					447 (Flag 0x747)
-0x748	TRAINER BATTLE					448 (Flag 0x748)
-0x749	TRAINER BATTLE					449 (Flag 0x749)
-0x74A	TRAINER BATTLE					450 (Flag 0x74A)
-0x74B	TRAINER BATTLE					451 (Flag 0x74B)
-0x74C	TRAINER BATTLE					452 (Flag 0x74C)
-0x74D	TRAINER BATTLE					453 (Flag 0x74D)
-0x74E	TRAINER BATTLE					454 (Flag 0x74E)
-0x74F	TRAINER BATTLE					455 (Flag 0x74F)
-0x750	TRAINER BATTLE					456 (Flag 0x750)
-0x751	TRAINER BATTLE					457 (Flag 0x751)
-0x752	TRAINER BATTLE					458 (Flag 0x752)
-0x753	TRAINER BATTLE					459 (Flag 0x753)
-0x754	TRAINER BATTLE					460 (Flag 0x754)
-0x755	TRAINER BATTLE					461 (Flag 0x755)
-0x756	TRAINER BATTLE					462 (Flag 0x756)
-0x757	TRAINER BATTLE					463 (Flag 0x757)
-0x758	TRAINER BATTLE					464 (Flag 0x758)
-0x759	TRAINER BATTLE					465 (Flag 0x759)
-0x75A	TRAINER BATTLE					466 (Flag 0x75A)
-0x75B	TRAINER BATTLE					467 (Flag 0x75B)
-0x75C	TRAINER BATTLE					468 (Flag 0x75C)
-0x75D	TRAINER BATTLE					469 (Flag 0x75D)
-0x75E	TRAINER BATTLE					470 (Flag 0x75E)
-0x75F	TRAINER BATTLE					471 (Flag 0x75F)
-0x760	TRAINER BATTLE					472 (Flag 0x760)
-0x761	TRAINER BATTLE					473 (Flag 0x761)
-0x762	TRAINER BATTLE					474 (Flag 0x762)
-0x763	TRAINER BATTLE					475 (Flag 0x763)
-0x764	TRAINER BATTLE					476 (Flag 0x764)
-0x765	TRAINER BATTLE					477 (Flag 0x765)
-0x766	TRAINER BATTLE					478 (Flag 0x766)
-0x767	TRAINER BATTLE					479 (Flag 0x767)
-0x768	TRAINER BATTLE					480 (Flag 0x768)
-0x769	TRAINER BATTLE					481 (Flag 0x769)
-0x76A	TRAINER BATTLE					482 (Flag 0x76A)
-0x76B	TRAINER BATTLE					483 (Flag 0x76B)
-0x76C	TRAINER BATTLE					484 (Flag 0x76C)
-0x76D	TRAINER BATTLE					485 (Flag 0x76D)
-0x76E	TRAINER BATTLE					486 (Flag 0x76E)
-0x76F	TRAINER BATTLE					487 (Flag 0x76F)
-0x770	TRAINER BATTLE					488 (Flag 0x770)
-0x771	TRAINER BATTLE					489 (Flag 0x771)
-0x772	TRAINER BATTLE					490 (Flag 0x772)
-0x773	TRAINER BATTLE					491 (Flag 0x773)
-0x774	TRAINER BATTLE					492 (Flag 0x774)
-0x775	TRAINER BATTLE					493 (Flag 0x775)
-0x776	TRAINER BATTLE					494 (Flag 0x776)
-0x777	TRAINER BATTLE					495 (Flag 0x777)
-0x778	TRAINER BATTLE					496 (Flag 0x778)
-0x779	TRAINER BATTLE					497 (Flag 0x779)
-0x77A	TRAINER BATTLE					498 (Flag 0x77A)
-0x77B	TRAINER BATTLE					499 (Flag 0x77B)
-0x77C	TRAINER BATTLE					500 (Flag 0x77C)
-0x77D	TRAINER BATTLE					501 (Flag 0x77D)
-0x77E	TRAINER BATTLE					502 (Flag 0x77E)
-0x77F	TRAINER BATTLE					503 (Flag 0x77F)
-0x780	TRAINER BATTLE					504 (Flag 0x780)
-0x781	TRAINER BATTLE					505 (Flag 0x781)
-0x782	TRAINER BATTLE					506 (Flag 0x782)
-0x783	TRAINER BATTLE					507 (Flag 0x783)
-0x784	TRAINER BATTLE					508 (Flag 0x784)
-0x785	TRAINER BATTLE					509 (Flag 0x785)
-0x786	TRAINER BATTLE					510 (Flag 0x786)
-0x787	TRAINER BATTLE					511 (Flag 0x787)
-0x788	TRAINER BATTLE					512 (Flag 0x788)
-0x789	TRAINER BATTLE					513 (Flag 0x789)
-0x78A	TRAINER BATTLE					514 (Flag 0x78A)
-0x78B	TRAINER BATTLE					515 (Flag 0x78B)
-0x78C	TRAINER BATTLE					516 (Flag 0x78C)
-0x78D	TRAINER BATTLE					517 (Flag 0x78D)
-0x78E	TRAINER BATTLE					518 (Flag 0x78E)
-0x78F	TRAINER BATTLE					519 (Flag 0x78F)
-0x790	TRAINER BATTLE					520 (Flag 0x790)
-0x791	TRAINER BATTLE					521 (Flag 0x791)
-0x792	TRAINER BATTLE					522 (Flag 0x792)
-0x793	TRAINER BATTLE					523 (Flag 0x793)
-0x794	TRAINER BATTLE					524 (Flag 0x794)
-0x795	TRAINER BATTLE					525 (Flag 0x795)
-0x796	TRAINER BATTLE					526 (Flag 0x796)
-0x797	TRAINER BATTLE					527 (Flag 0x797)
-0x798	TRAINER BATTLE					528 (Flag 0x798)
-0x799	TRAINER BATTLE					529 (Flag 0x799)
-0x79A	TRAINER BATTLE					530 (Flag 0x79A)
-0x79B	TRAINER BATTLE					531 (Flag 0x79B)
-0x79C	TRAINER BATTLE					532 (Flag 0x79C)
-0x79D	TRAINER BATTLE					533 (Flag 0x79D)
-0x79E	TRAINER BATTLE					534 (Flag 0x79E)
-0x79F	TRAINER BATTLE					535 (Flag 0x79F)
-0x7A0	TRAINER BATTLE					536 (Flag 0x7A0)
-0x7A1	TRAINER BATTLE					537 (Flag 0x7A1)
-0x7A2	TRAINER BATTLE					538 (Flag 0x7A2)
-0x7A3	TRAINER BATTLE					539 (Flag 0x7A3)
-0x7A4	TRAINER BATTLE					540 (Flag 0x7A4)
-0x7A5	TRAINER BATTLE					541 (Flag 0x7A5)
-0x7A6	TRAINER BATTLE					542 (Flag 0x7A6)
-0x7A7	TRAINER BATTLE					543 (Flag 0x7A7)
-0x7A8	TRAINER BATTLE					544 (Flag 0x7A8)
-0x7A9	TRAINER BATTLE					545 (Flag 0x7A9)
-0x7AA	TRAINER BATTLE					546 (Flag 0x7AA)
-0x7AB	TRAINER BATTLE					547 (Flag 0x7AB)
-0x7AC	TRAINER BATTLE					548 (Flag 0x7AC)
-0x7AD	TRAINER BATTLE					549 (Flag 0x7AD)
-0x7AE	TRAINER BATTLE					550 (Flag 0x7AE)
-0x7AF	TRAINER BATTLE					551 (Flag 0x7AF)
-0x7B0	TRAINER BATTLE					552 (Flag 0x7B0)
-0x7B1	TRAINER BATTLE					553 (Flag 0x7B1)
-0x7B2	TRAINER BATTLE					554 (Flag 0x7B2)
-0x7B3	TRAINER BATTLE					555 (Flag 0x7B3)
-0x7B4	TRAINER BATTLE					556 (Flag 0x7B4)
-0x7B5	TRAINER BATTLE					557 (Flag 0x7B5)
-0x7B6	TRAINER BATTLE					558 (Flag 0x7B6)
-0x7B7	TRAINER BATTLE					559 (Flag 0x7B7)
-0x7B8	TRAINER BATTLE					560 (Flag 0x7B8)
-0x7B9	TRAINER BATTLE					561 (Flag 0x7B9)
-0x7BA	TRAINER BATTLE					562 (Flag 0x7BA)
-0x7BB	TRAINER BATTLE					563 (Flag 0x7BB)
-0x7BC	TRAINER BATTLE					564 (Flag 0x7BC)
-0x7BD	TRAINER BATTLE					565 (Flag 0x7BD)
-0x7BE	TRAINER BATTLE					566 (Flag 0x7BE)
-0x7BF	TRAINER BATTLE					567 (Flag 0x7BF)
-0x7C0	TRAINER BATTLE					568 (Flag 0x7C0)
-0x7C1	TRAINER BATTLE					569 (Flag 0x7C1)
-0x7C2	TRAINER BATTLE					570 (Flag 0x7C2)
-0x7C3	TRAINER BATTLE					571 (Flag 0x7C3)
-0x7C4	TRAINER BATTLE					572 (Flag 0x7C4)
-0x7C5	TRAINER BATTLE					573 (Flag 0x7C5)
-0x7C6	TRAINER BATTLE					574 (Flag 0x7C6)
-0x7C7	TRAINER BATTLE					575 (Flag 0x7C7)
-0x7C8	TRAINER BATTLE					576 (Flag 0x7C8)
-0x7C9	TRAINER BATTLE					577 (Flag 0x7C9)
-0x7CA	TRAINER BATTLE					578 (Flag 0x7CA)
-0x7CB	TRAINER BATTLE					579 (Flag 0x7CB)
-0x7CC	TRAINER BATTLE					580 (Flag 0x7CC)
-0x7CD	TRAINER BATTLE					581 (Flag 0x7CD)
-0x7CE	TRAINER BATTLE					582 (Flag 0x7CE)
-0x7CF	TRAINER BATTLE					583 (Flag 0x7CF)
-0x7D0	TRAINER BATTLE					584 (Flag 0x7D0)
-0x7D1	TRAINER BATTLE					585 (Flag 0x7D1)
-0x7D2	TRAINER BATTLE					586 (Flag 0x7D2)
-0x7D3	TRAINER BATTLE					587 (Flag 0x7D3)
-0x7D4	TRAINER BATTLE					588 (Flag 0x7D4)
-0x7D5	TRAINER BATTLE					589 (Flag 0x7D5)
-0x7D6	TRAINER BATTLE					590 (Flag 0x7D6)
-0x7D7	TRAINER BATTLE					591 (Flag 0x7D7)
-0x7D8						
-0x7D9						
-0x7DA						
-0x7DB						
-0x7DC						
-0x7DD						
-0x7DE						
-0x7DF						
-0x7E0						
-0x7E1						
-0x7E2						
-0x7E3						
-0x7E4						
-0x7E5						
-0x7E6						
-0x7E7						
-0x7E8						
-0x7E9						
-0x7EA						
-0x7EB						
-0x7EC						
-0x7ED						
-0x7EE						
-0x7EF						
-0x7F0						
-0x7F1						
-0x7F2						
-0x7F3						
-0x7F4						
-0x7F5						
-0x7F6						
-0x7F7						
-0x7F8						
-0x7F9						
-0x7FA						
-0x7FB						
-0x7FC						
-0x7FD						
-0x7FE						
-0x7FF						
-0x800						
-0x801						
-0x802						
-0x803						
-0x804						
-0x805						
-0x806						
-0x807						
-0x808						
-0x809						
-0x80A						
-0x80B						
-0x80C						
-0x80D						
-0x80E						
-0x80F						
-0x810						
-0x811						
-0x812						
-0x813						
-0x814						
-0x815						
-0x816						
-0x817						
-0x818						
-0x819						
-0x81A						
-0x81B						
-0x81C						
-0x81D						
-0x81E						
-0x81F						
-0x820						
-0x821						
-0x822						
-0x823						
-0x824						
-0x825						
-0x826						
-0x827						
-0x828						
-0x829						
-0x82A						
-0x82B						
-0x82C						
-0x82D						
-0x82E						
-0x82F						
-0x830						
-0x831						
-0x832						
-0x833						
-0x834						
-0x835						
-0x836						
-0x837						
-0x838						
-0x839						
-0x83A						
-0x83B						
-0x83C						
-0x83D						
-0x83E						
-0x83F						
-0x840						
-0x841						
-0x842						
-0x843						
-0x844						
-0x845						
-0x846						
-0x847						
-0x848						
-0x849						
-0x84A						
-0x84B						
-0x84C						
-0x84D						
-0x84E						
-0x84F						
-0x850						
-0x851						
-0x852						
-0x853						
-0x854						
-0x855						
-0x856						
-0x857						
-0x858						
-0x859						
-0x85A						
-0x85B						
-0x85C						
-0x85D						
-0x85E						
-0x85F						
-0x860						
-0x861						
-0x862						
-0x863						
-0x864						
-0x865						
-0x866						
-0x867						
-0x868						
-0x869						
-0x86A						
-0x86B						
-0x86C						
-0x86D						
-0x86E						
-0x86F						
-0x870						
-0x871						
-0x872						
-0x873						
-0x874						
-0x875						
-0x876						
-0x877						
-0x878						
-0x879						
-0x87A						
-0x87B						
-0x87C						
-0x87D						
-0x87E						
-0x87F						
-0x880						
-0x881						
-0x882						
-0x883						
-0x884						
-0x885						
-0x886						
-0x887						
-0x888						
-0x889						
-0x88A						
-0x88B						
-0x88C						
-0x88D						
-0x88E						
-0x88F						
-0x890						
-0x891						
-0x892						
-0x893						
-0x894						
-0x895						
-0x896						
-0x897						
-0x898						
-0x899						
-0x89A						
-0x89B						
-0x89C						
-0x89D						
-0x89E						
-0x89F						
-0x8A0						
-0x8A1						
-0x8A2						
-0x8A3						
-0x8A4						
-0x8A5						
-0x8A6						
-0x8A7						
-0x8A8						
-0x8A9						
-0x8AA						
-0x8AB						
-0x8AC						
-0x8AD						
-0x8AE						
-0x8AF						
-0x8B0						
-0x8B1						
-0x8B2						
-0x8B3						
-0x8B4						
-0x8B5						
-0x8B6						
-0x8B7						
-0x8B8						
-0x8B9						
-0x8BA						
-0x8BB						
-0x8BC						
-0x8BD						
-0x8BE						
-0x8BF						
-0x8C0						
-0x8C1						
-0x8C2						
-0x8C3						
-0x8C4						
-0x8C5						
-0x8C6						
-0x8C7						
-0x8C8						
-0x8C9						
-0x8CA						
-0x8CB						
-0x8CC						
-0x8CD						
-0x8CE						
-0x8CF						
-0x8D0						
-0x8D1						
-0x8D2						
-0x8D3						
-0x8D4						
-0x8D5						
-0x8D6						
-0x8D7						
-0x8D8						
-0x8D9						
-0x8DA						
-0x8DB						
-0x8DC						
-0x8DD						
-0x8DE						
-0x8DF						
-0x8E0						
-0x8E1						
-0x8E2						
-0x8E3						
-0x8E4						
-0x8E5						
-0x8E6						
-0x8E7						
-0x8E8						
-0x8E9						
-0x8EA						
-0x8EB						
-0x8EC						
-0x8ED						
-0x8EE						
-0x8EF						
-0x8F0						
-0x8F1						
-0x8F2						
-0x8F3						
-0x8F4						
-0x8F5						
-0x8F6						
-0x8F7						
-0x8F8						
-0x8F9						
-0x8FA						
-0x8FB						
-0x8FC						
-0x8FD						
-0x8FE						
-0x8FF						
-0x900						
-0x901						
-0x902						
-0x903						
-0x904						
-0x905						
-0x906						
-0x907						
-0x908						
-0x909						
-0x90A						
-0x90B						
-0x90C						
-0x90D						
-0x90E						
-0x90F						
-0x910						
-0x911						
-0x912						
-0x913						
-0x914						
-0x915						
-0x916						
-0x917						
-0x918						
-0x919						
-0x91A						
-0x91B						
-0x91C						
-0x91D						
-0x91E						
-0x91F						
-0x920						
-0x921						
-0x922						
-0x923						
-0x924						
-0x925						
-0x926						
-0x927						
-0x928						
-0x929						
-0x92A						
-0x92B						
-0x92C						
-0x92D						
-0x92E						
-0x92F						
-0x930						
-0x931						
-0x932						
-0x933						
-0x934						
-0x935						
-0x936						
-0x937						
-0x938						
-0x939						
-0x93A						
-0x93B						
-0x93C						
-0x93D						
-0x93E						
-0x93F						
-0x940						
-0x941						
-0x942						
-0x943						
-0x944						
-0x945						
-0x946						
-0x947						
-0x948						
-0x949						
-0x94A						
-0x94B						
-0x94C						
-0x94D						
-0x94E						
-0x94F						
-0x950						
-0x951						
-0x952						
-0x953						
-0x954						
-0x955						
-0x956						
-0x957						
-0x958						
-0x959						
-0x95A						
-0x95B						
-0x95C						
-0x95D						
-0x95E						
-0x95F						
-0x960	STORY EVENT			Defeated Ghetsis (First game clear)		
-0x961						
-0x962						
-0x963	EVENT			Has Running Shoes		
-0x964	EVENT					
-0x965						
-0x966						
-0x967						
-0x968						
-0x969						
-0x96A						
-0x96B						
-0x96C						
-0x96D						
-0x96E						
-0x96F						
-0x970						
-0x971						
-0x972						
-0x973						
-0x974						
-0x975						
-0x976						
-0x977						
-0x978						
-0x979						
-0x97A						
-0x97B						
-0x97C						
-0x97D						
-0x97E						
-0x97F						
-0x980						
-0x981						
-0x982						
-0x983						
-0x984						
-0x985						
-0x986						
-0x987						
-0x988						
-0x989						
-0x98A						
-0x98B						
-0x98C						
-0x98D						
-0x98E						
-0x98F						
-0x990						
-0x991						
-0x992						
-0x993						
-0x994						
-0x995						
-0x996						
-0x997						
-0x998						
-0x999						
-0x99A						
-0x99B						
-0x99C						
-0x99D						
-0x99E						
-0x99F						
-0x9A0						
-0x9A1						
-0x9A2						
-0x9A3						
-0x9A4						
-0x9A5						
-0x9A6						
-0x9A7						
-0x9A8						
-0x9A9						
-0x9AA						
-0x9AB						
-0x9AC						
-0x9AD						
-0x9AE						
-0x9AF						
-0x9B0						
-0x9B1						
-0x9B2						
-0x9B3						
-0x9B4						
-0x9B5						
-0x9B6						
-0x9B7						
-0x9B8						
-0x9B9						
-0x9BA						
-0x9BB						
-0x9BC						
-0x9BD						
-0x9BE						
-0x9BF						
-0x9C0						
-0x9C1						
-0x9C2						
-0x9C3						
-0x9C4						
-0x9C5						
-0x9C6						
-0x9C7						
-0x9C8						
-0x9C9						
-0x9CA						
-0x9CB						
-0x9CC						
-0x9CD						
-0x9CE						
-0x9CF						
-0x9D0						
-0x9D1						
-0x9D2						
-0x9D3						
-0x9D4						
-0x9D5						
-0x9D6						
-0x9D7						
-0x9D8						
-0x9D9						
-0x9DA						
-0x9DB						
-0x9DC						
-0x9DD						
-0x9DE						
-0x9DF						
-0x9E0						
-0x9E1						
-0x9E2						
-0x9E3						
-0x9E4						
-0x9E5						
-0x9E6						
-0x9E7						
-0x9E8						
-0x9E9						
-0x9EA						
-0x9EB						
-0x9EC						
-0x9ED						
-0x9EE						
-0x9EF						
-0x9F0						
-0x9F1						
-0x9F2						
-0x9F3						
-0x9F4						
-0x9F5						
-0x9F6						
-0x9F7						
-0x9F8						
-0x9F9						
-0x9FA						
-0x9FB						
-0x9FC						
-0x9FD						
-0x9FE						
-0x9FF						
-0xA00						
-0xA01						
-0xA02						
-0xA03						
-0xA04						
-0xA05						
-0xA06						
-0xA07						
-0xA08						
-0xA09						
-0xA0A						
-0xA0B						
-0xA0C						
-0xA0D						
-0xA0E						
-0xA0F						
-0xA10						
-0xA11						
-0xA12						
-0xA13						
-0xA14						
-0xA15						
-0xA16						
-0xA17						
-0xA18						
-0xA19						
-0xA1A						
-0xA1B						
-0xA1C						
-0xA1D						
-0xA1E						
-0xA1F						
-0xA20						
-0xA21						
-0xA22						
-0xA23						
-0xA24						
-0xA25						
-0xA26						
-0xA27						
-0xA28						
-0xA29						
-0xA2A						
-0xA2B						
-0xA2C						
-0xA2D						
-0xA2E						
-0xA2F						
-0xA30						
-0xA31						
-0xA32						
-0xA33						
-0xA34						
-0xA35						
-0xA36						
-0xA37						
-0xA38						
-0xA39						
-0xA3A						
-0xA3B						
-0xA3C						
-0xA3D						
-0xA3E						
-0xA3F						
-0xA40						
-0xA41						
-0xA42						
-0xA43						
-0xA44						
-0xA45						
-0xA46						
-0xA47						
-0xA48						
-0xA49						
-0xA4A						
-0xA4B						
-0xA4C						
-0xA4D						
-0xA4E						
-0xA4F						
-0xA50						
-0xA51						
-0xA52						
-0xA53						
-0xA54						
-0xA55						
-0xA56						
-0xA57						
-0xA58						
-0xA59						
-0xA5A						
-0xA5B						
-0xA5C						
-0xA5D						
-0xA5E						
-0xA5F						
-0xA60						
-0xA61						
-0xA62						
-0xA63						
-0xA64						
-0xA65						
-0xA66						
-0xA67						
-0xA68						
-0xA69						
-0xA6A						
-0xA6B						
-0xA6C						
-0xA6D						
-0xA6E						
-0xA6F						
-0xA70						
-0xA71						
-0xA72						
-0xA73						
-0xA74						
-0xA75						
-0xA76						
-0xA77						
-0xA78						
-0xA79						
-0xA7A						
-0xA7B						
-0xA7C						
-0xA7D						
-0xA7E						
-0xA7F						
-0xA80						
-0xA81						
-0xA82						
-0xA83						
-0xA84						
-0xA85						
-0xA86						
-0xA87						
-0xA88						
-0xA89						
-0xA8A						
-0xA8B						
-0xA8C						
-0xA8D						
-0xA8E						
-0xA8F						
-0xA90						
-0xA91						
-0xA92						
-0xA93						
-0xA94						
-0xA95						
-0xA96						
-0xA97						
-0xA98						
-0xA99						
-0xA9A						
-0xA9B						
-0xA9C						
-0xA9D						
-0xA9E						
-0xA9F						
-0xAA0						
-0xAA1						
-0xAA2						
-0xAA3						
-0xAA4						
-0xAA5						
-0xAA6						
-0xAA7						
-0xAA8						
-0xAA9						
-0xAAA						
-0xAAB						
-0xAAC						
-0xAAD						
-0xAAE						
-0xAAF						
-0xAB0						
-0xAB1						
-0xAB2						
-0xAB3						
-0xAB4						
-0xAB5						
-0xAB6						
-0xAB7						
-0xAB8						
-0xAB9						
-0xABA						
-0xABB						
-0xABC						
-0xABD						
-0xABE						
-0xABF						
-0xAC0						
-0xAC1						
-0xAC2	EVENT			Rode Royal Unova (Today)		
-0xAC3						
-0xAC4						
-0xAC5						
-0xAC6						
-0xAC7						
-0xAC8						
-0xAC9						
-0xACA	EVENT			Received a Fossil from Twist Mountain Worker (Today)		
-0xACB						
-0xACC						
-0xACD						
-0xACE						
-0xACF						
-0xAD0						
-0xAD1						
-0xAD2						
-0xAD3						
-0xAD4						
-0xAD5						
-0xAD6						
-0xAD7						
-0xAD8						
-0xAD9						
-0xADA						
-0xADB						
-0xADC						
-0xADD						
-0xADE						
-0xADF						
-0xAE0						
-0xAE1						
-0xAE2						
-0xAE3						
-0xAE4						
-0xAE5						
-0xAE6						
-0xAE7						
-0xAE8						
-0xAE9						
-0xAEA						
-0xAEB						
-0xAEC						
-0xAED						
-0xAEE						
-0xAEF						
-0xAF0						
-0xAF1						
-0xAF2						
-0xAF3						
-0xAF4						
-0xAF5						
-0xAF6						
-0xAF7						
-0xAF8						
-0xAF9						
-0xAFA						
-0xAFB						
-0xAFC						
-0xAFD						
-0xAFE						
-0xAFF						
-0xB00						
-0xB01						
-0xB02						
-0xB03						
-0xB04						
-0xB05						
-0xB06						
-0xB07						
-0xB08						
-0xB09						
-0xB0A						
-0xB0B						
-0xB0C						
-0xB0D						
-0xB0E						
-0xB0F						
-0xB10						
-0xB11						
-0xB12						
-0xB13						
-0xB14						
-0xB15						
-0xB16						
-0xB17						
-0xB18						
-0xB19						
-0xB1A						
-0xB1B						
-0xB1C						
-0xB1D						
-0xB1E						
-0xB1F						
-0xB20						
-0xB21						
-0xB22						
-0xB23						
-0xB24						
-0xB25						
-0xB26						
-0xB27						
-0xB28						
-0xB29						
-0xB2A						
-0xB2B						
-0xB2C						
-0xB2D						
-0xB2E						
-0xB2F						
-0xB30						
-0xB31						
-0xB32						
-0xB33						
-0xB34						
-0xB35						
-0xB36						
-0xB37						
-0xB38						
-0xB39						
-0xB3A						
-0xB3B						
-0xB3C						
-0xB3D						
-0xB3E						
-0xB3F						
-0xB40						
-0xB41						
-0xB42						
-0xB43						
-0xB44						
-0xB45						
-0xB46						
-0xB47						
-0xB48						
-0xB49						
-0xB4A						
-0xB4B						
-0xB4C						
-0xB4D						
-0xB4E						
-0xB4F						
-0xB50						
-0xB51						
-0xB52						
-0xB53						
-0xB54						
-0xB55						
-0xB56						
-0xB57						
-0xB58						
-0xB59						
-0xB5A						
-0xB5B						
-0xB5C						
-0xB5D						
-0xB5E						
-0xB5F						
+0x000	_UNUSED					// FH_00
+0x001	EVENT					FH_01
+0x002	EVENT					FH_02
+0x003	EVENT					FH_03
+0x004	EVENT					FH_04
+0x005	EVENT					FH_05
+0x006	EVENT					FH_06
+0x007	EVENT					FH_07
+0x008	EVENT					FH_08
+0x009	EVENT					FH_09
+0x00A	EVENT					FH_10
+0x00B	EVENT					FH_11
+0x00C	EVENT					FH_12
+0x00D	EVENT					FH_13
+0x00E	EVENT					FH_14
+0x00F	EVENT					FH_15
+0x010	EVENT					FH_16
+0x011	_UNUSED					
+0x012	_UNUSED					
+0x013	_UNUSED					
+0x014	_UNUSED					
+0x015	_UNUSED					
+0x016	_UNUSED					
+0x017	_UNUSED					
+0x018	_UNUSED					
+0x019	_UNUSED					
+0x01A	_UNUSED					
+0x01B	_UNUSED					
+0x01C	_UNUSED					
+0x01D	_UNUSED					
+0x01E	_UNUSED					
+0x01F	_UNUSED					
+0x020	EVENT					FH_OBJ00
+0x021	EVENT					FH_OBJ01
+0x022	EVENT					FH_OBJ02
+0x023	EVENT					FH_OBJ03
+0x024	EVENT					FH_OBJ04
+0x025	EVENT					FH_OBJ05
+0x026	EVENT					FH_OBJ06
+0x027	EVENT					FH_OBJ07
+0x028	EVENT					FH_OBJ08
+0x029	EVENT					FH_OBJ09
+0x02A	EVENT					FH_OBJ10
+0x02B	EVENT					FH_OBJ11
+0x02C	EVENT					FH_OBJ12
+0x02D	EVENT					FH_OBJ13
+0x02E	EVENT					FH_OBJ14
+0x02F	EVENT					FH_OBJ15
+0x030	_UNUSED					
+0x031	_UNUSED					
+0x032	_UNUSED					
+0x033	_UNUSED					
+0x034	_UNUSED					
+0x035	_UNUSED					
+0x036	_UNUSED					
+0x037	_UNUSED					
+0x038	_UNUSED					
+0x039	_UNUSED					
+0x03A	_UNUSED					
+0x03B	_UNUSED					
+0x03C	_UNUSED					
+0x03D	_UNUSED					
+0x03E	_UNUSED					
+0x03F	_UNUSED					
+0x040	_UNUSED					
+0x041	_UNUSED					
+0x042	_UNUSED					
+0x043	_UNUSED					
+0x044	_UNUSED					
+0x045	_UNUSED					
+0x046	_UNUSED					
+0x047	_UNUSED					
+0x048	_UNUSED					
+0x049	_UNUSED					
+0x04A	_UNUSED					
+0x04B	_UNUSED					
+0x04C	_UNUSED					
+0x04D	_UNUSED					
+0x04E	_UNUSED					
+0x04F	_UNUSED					
+0x050	_UNUSED					
+0x051	_UNUSED					
+0x052	_UNUSED					
+0x053	_UNUSED					
+0x054	_UNUSED					
+0x055	_UNUSED					
+0x056	_UNUSED					
+0x057	_UNUSED					
+0x058	_UNUSED					
+0x059	_UNUSED					
+0x05A	_UNUSED					
+0x05B	_UNUSED					
+0x05C	_UNUSED					
+0x05D	_UNUSED					
+0x05E	_UNUSED					
+0x05F	_UNUSED					
+0x060	_UNUSED					
+0x061	_UNUSED					
+0x062	_UNUSED					
+0x063	_UNUSED					
+0x064						FE_PC_GOLD
+0x065						FE_PC_POKERUS
+0x066	_UNUSED					
+0x067	_UNUSED					
+0x068	_UNUSED					
+0x069						FE_CONNECT_UNION_GUIDE_TALK
+0x06A	_UNUSED					
+0x06B	_UNUSED					
+0x06C	_UNUSED					
+0x06D						FE_T02R0302_BALLGET
+0x06E	_UNUSED					
+0x06F	ITEM GIFT					FE_C01R0201_ITEM_GET
+0x070						FE_SODATEYA_FIRSTTALK
+0x071						FE_C01R0501_RIVALTALK
+0x072	_UNUSED					
+0x073	EVENT			Trading Functionality Enabled (Pokecenter)		FE_CGEAR_GET
+0x074						FE_C04GYM0101_TRBTL1
+0x075						FE_C04GYM0101_TRBTL2
+0x076						FE_C01GYM_ITEM
+0x077						FE_C02GYM_ITEM
+0x078						FE_C03GYM_ITEM
+0x079						FE_C04GYM_ITEM
+0x07A						FE_C05GYM_ITEM
+0x07B						FE_C06GYM_ITEM
+0x07C						FE_C07GYM_ITEM
+0x07D						FE_C08GYM_ITEM
+0x07E						FE_MUSEUM_TOUNAN
+0x07F	_UNUSED					
+0x080						FE_C02GYM_TRBTL1
+0x081						FE_C02GYM_TRBTL2
+0x082						FE_C03GYM_TRBTL1
+0x083						FE_C03GYM_TRBTL2
+0x084						FE_R01_BABYGIRL_01
+0x085						FE_R07_FIGHTREW_01
+0x086						FE_C07R0301_IKARI
+0x087	ITEM GIFT					FE_C07PC0101_ITEM_01
+0x088						FE_BADGEGATE01_OPEN
+0x089						FE_BADGEGATE02_OPEN
+0x08A						FE_BADGEGATE03_OPEN
+0x08B						FE_BADGEGATE04_OPEN
+0x08C						FE_BADGEGATE05_OPEN
+0x08D						FE_BADGEGATE06_OPEN
+0x08E						FE_BADGEGATE07_OPEN
+0x08F						FE_BADGEGATE08_OPEN
+0x090						FE_C06R0101_ITEMGET_01
+0x091	PKMN GIFT			Received Cover/Plume Fossil from Backpacker		FE_D04R0201_KASEKIGET
+0x092						FE_D04R0201_KASEKITALK
+0x093						FE_C05PC0101_ITEM
+0x094	IN-GAME TRADE			Traded for Petilil/Cottonee		FE_C02R0301_POKETRADE
+0x095						FE_PALPARK_FIRSTTALK
+0x096						FE_REMIND_FIRSTTALK
+0x097	_UNUSED					
+0x098						FE_ELBOARD_C02GYMWIN
+0x099						FE_SODATEYAOLDMAN_OPEN
+0x09A						FE_BC10R0401_BOSS
+0x09B						FE_WC10R0101_OLDMAN
+0x09C						FE_POKEID_ITEM1
+0x09D						FE_POKEID_ITEM2
+0x09E						FE_POKEID_ITEM3
+0x09F						FE_POKEID_ITEM4
+0x0A0						FE_POKEID_ITEM5
+0x0A1						FE_POKEID_ITEM6
+0x0A2						FE_POKEID_FIRSTTALK
+0x0A3						FE_C03R0303_CLEANINGM
+0x0A4						FE_C03R0901_ITEMGET
+0x0A5						FE_R05_MUSICIAN_WIN
+0x0A6						FE_LEGEND1_GET
+0x0A7						FE_LEGEND2_GET
+0x0A8						FE_LEGEND3_GET
+0x0A9						FE_D06R0201_GOLDGET
+0x0AA						FE_PALACE01_OLDMANTALK
+0x0AB	_UNUSED					
+0x0AC						FE_MEZAPA_FIRSTTALK
+0x0AD	_UNUSED					
+0x0AE						FE_HYOUKA_ITEMGET_01
+0x0AF						FE_HYOUKA_ITEMGET_02
+0x0B0						FE_HYOUKA_ITEMGET_03
+0x0B1	_UNUSED					
+0x0B2	_UNUSED					
+0x0B3	_UNUSED					
+0x0B4						FE_C08R0402_ITEMGET_01
+0x0B5						FE_C06_ITEMGET_1
+0x0B6						FE_LEGEND1_BATTLE
+0x0B7	_UNUSED					
+0x0B8	_UNUSED					
+0x0B9						FE_C09_FORBIDDEN
+0x0BA	_UNUSED					
+0x0BB						FE_C01_ITEMGET_01
+0x0BC						FE_ZUKAN_COMPLETE_LOCAL_SEE
+0x0BD						FE_C01_ITEMGET_02
+0x0BE						FE_C01R0501_QUIZ
+0x0BF	ITEM GIFT					FE_C03R0302_ITEM_01
+0x0C0						FE_C01R0501_RIVALBATTLE
+0x0C1						FE_C05R0701_WAZALADY
+0x0C2						FE_RES_REQ_WB_COUNT
+0x0C3						FE_RES_REQ_WB_TIME
+0x0C4						FE_RES_REQ_FIRST_POKE_COUNT
+0x0C5						FE_RES_REQ_FIRST_POKE_TIME
+0x0C6						FE_RES_REQ_PLAY_TIME_COUNT
+0x0C7						FE_RES_REQ_PLAY_TIME_TIME
+0x0C8						FE_RES_REQ_SEX_COUNT
+0x0C9						FE_RES_REQ_SEX_TIME
+0x0CA						FE_RES_REQ_JOB_COUNT
+0x0CB						FE_RES_REQ_JOB_TIME
+0x0CC						FE_RES_REQ_HOBBY_COUNT
+0x0CD						FE_RES_REQ_HOBBY_TIME
+0x0CE						FE_RES_REQ_BTL_OR_TRD_COUNT
+0x0CF						FE_RES_REQ_BTL_OR_TRD_TIME
+0x0D0						FE_RES_REQ_FAV_POKE_COUNT
+0x0D1						FE_RES_REQ_FAV_POKE_TIME
+0x0D2						FE_RES_REQ_POKE_TYPE_COUNT
+0x0D3						FE_RES_REQ_POKE_TYPE_TIME
+0x0D4						FE_RES_REQ_PLACE_COUNT
+0x0D5						FE_RES_REQ_PLACE_TIME
+0x0D6						FE_RES_REQ_PRECIOUS_COUNT
+0x0D7						FE_RES_REQ_PRECIOUS_TIME
+0x0D8						FE_RES_REQ_PARTNER_COUNT
+0x0D9						FE_RES_REQ_PARTNER_TIME
+0x0DA						FE_RES_REQ_SEASON_COUNT
+0x0DB						FE_RES_REQ_SEASON_TIME
+0x0DC						FE_RES_REQ_ART_COUNT
+0x0DD						FE_RES_REQ_ART_TIME
+0x0DE						FE_RES_REQ_MUSIC_COUNT
+0x0DF						FE_RES_REQ_MUSIC_TIME
+0x0E0						FE_RES_REQ_MOVIE_COUNT
+0x0E1						FE_RES_REQ_MOVIE_TIME
+0x0E2						FE_RES_REQ_SCHOOL_COUNT
+0x0E3						FE_RES_REQ_SCHOOL_TIME
+0x0E4						FE_RES_REQ_STUDY_COUNT
+0x0E5						FE_RES_REQ_STUDY_TIME
+0x0E6						FE_RES_REQ_STORTS_COUNT
+0x0E7						FE_RES_REQ_STORTS_TIME
+0x0E8						FE_RES_REQ_DAY_OFF_COUNT
+0x0E9						FE_RES_REQ_DAY_OFF_TIME
+0x0EA						FE_RES_REQ_DREAM_COUNT
+0x0EB						FE_RES_REQ_DREAM_TIME
+0x0EC						FE_RES_REQ_LEADER_COUNT
+0x0ED						FE_RES_REQ_LEADER_TIME
+0x0EE						FE_RES_REQ_FUN_COUNT
+0x0EF						FE_RES_REQ_FUN_TIME
+0x0F0						FE_RES_QUESTION_YOU
+0x0F1						FE_RES_QUESTION_FAVARITE
+0x0F2						FE_RES_QUESTION_WISH
+0x0F3						FE_RES_QUESTION_PARTNER
+0x0F4						FE_RES_QUESTION_TASTE
+0x0F5						FE_RES_QUESTION_HOBBY
+0x0F6						FE_RES_QUESTION_SCHOOL
+0x0F7						FE_RES_QUESTION_PLAY
+0x0F8						FE_RES_QUESTION_POKEMON
+0x0F9						FE_C08R0201_BATTLE
+0x0FA						FE_C07R0401_GENTLEMAN_FIRST
+0x0FB	ITEM GIFT					FE_C07R0401_ITEM_GET_LV01
+0x0FC	ITEM GIFT					FE_C07R0401_ITEM_GET_LV02
+0x0FD	ITEM GIFT					FE_C07R0401_ITEM_GET_LV03
+0x0FE						FE_RES_LEADER_FIRSTTALK
+0x0FF						FE_RES_QUESTION_FIRSTTALK
+0x100						FE_RES_HELLO_FIRSTTALK
+0x101						FE_RES_THANKS_FIRSTTALK
+0x102						FE_R08_ITEMGET_01
+0x103						FE_R09_ITEMGET_01
+0x104						FE_H03_ITEMGET_01
+0x105						FE_R06R0301_ITEMGET_01
+0x106						FE_R09R0201_ITEMGET_01
+0x107						FE_R10_ITEMGET_01
+0x108						FE_C05R0201_ITEMGET_01
+0x109						FE_C03R1002_ITEMGET_01
+0x10A	ITEM GIFT					FE_C03R0302_ITEM_02
+0x10B	ITEM GIFT					FE_C04R0201_ITEM_01
+0x10C						FE_H01R0101_ITEMGET_01
+0x10D						FE_C03P17_ITEMGET_01
+0x10E						FE_C03R1302_ITEMGET_01
+0x10F						FE_D02_ITEMGET_01
+0x110						FE_R04R0201_ITEMGET_01
+0x111						FE_C04R1002_ITEMGET_01
+0x112						FE_SEA_TEMPLE_KAIRIKI
+0x113						FE_SEA_TEMPLE_FLASH
+0x114						FE_D03R0101_ITEMGET_01
+0x115						FE_D04R0101_ARRIVE
+0x116						FE_R08R0101_LEG_FIRST
+0x117						FE_R13_TREASURE_FIRSTTALK
+0x118	IN-GAME TRADE			Traded for Basculin		FE_C05R0201_POKETRADE_01
+0x119						FE_C03R0901_MELODY
+0x11A						FE_D05R0201_PLASMA_01
+0x11B						FE_D05R0201_PLASMA_02
+0x11C						FE_D05R0201_PLASMA_03
+0x11D						FE_D05R0201_PLASMA_04
+0x11E						FE_SPORTS_PLAYING
+0x11F						FE_AWARD_LOCAL
+0x120						FE_AWARD_NATIONAL
+0x121						FE_C03R0401_GIRL2_TALK
+0x122						FE_C04R0501_ITEMGET_01
+0x123						FE_R16R0201_BACKPACKER_TALK
+0x124						FE_R05R0101_APPRAISAL_TALK
+0x125						FE_C07PC0101_APPRAISAL_TALK
+0x126						FE_T04R0101_APPRAISAL_TALK
+0x127						FE_C03R0801_HINT_TALK
+0x128						FE_AMUSEMENT_TR01_TALK
+0x129						FE_AMUSEMENT_TR02_TALK
+0x12A						FE_AMUSEMENT_TR03_TALK
+0x12B						FE_AMUSEMENT_TR04_TALK
+0x12C						FE_D08_PACKAGEPOKE_END
+0x12D						FE_C02R0501_ITEMGET_01
+0x12E						FE_C09_GUIDE_TALK
+0x12F	_UNUSED					
+0x130	_UNUSED					
+0x131	_UNUSED					
+0x132						FE_T04R0101_APPRAISAL_CROWN
+0x133	PKMN GIFT					FE_PACKAGE_POKE_GET
+0x134						FE_ROCKCAPSULE_END
+0x135	_UNUSED					
+0x136						FE_D08_ITEMGET_01
+0x137	_UNUSED					
+0x138						FE_C08R0801_ITEMGET_01
+0x139						FE_R14R0201_LEG_GET
+0x13A						FE_R18R0101_RANGERM_TALK
+0x13B	PKMN GIFT			Received Larvesta Egg Gift		FE_R18R0101_POKE_GET
+0x13C						FE_D05_ITEMGET_01
+0x13D						FE_R14R0201_LEG_MEET
+0x13E	ITEM GIFT					FE_H04_ITEM_01
+0x13F	ITEM GIFT					FE_H04_ITEM_03
+0x140						FE_H04_ITEMHAVING_01
+0x141						FE_H04_DELIVERY_01
+0x142						FE_H04R0301_FISHING_RECEPT
+0x143	ITEM GIFT					FE_T05R0301_BTLITEM_TALK
+0x144						FE_C08R0102_ITEMGET_01
+0x145						FE_C08R0102_ITEMGET_02
+0x146						FE_C04R0201_STYLIST_TALK
+0x147						FE_MUSICAL_COMM_PLAY
+0x148	ITEM GIFT					FE_C03R1201_ITEM_01
+0x149						FE_T03PC0101_ITEMGET_01
+0x14A	_UNUSED					
+0x14B						FE_WALLPAPER_OPEN_MSG_01
+0x14C						FE_WALLPAPER_OPEN_MSG_02
+0x14D						FE_BC10R0401_BTL_01
+0x14E						FE_BC10R0401_BTL_02
+0x14F						FE_WC10R0101_BTL_01
+0x150						FE_WC10R0101_BTL_02
+0x151						FE_C03P13_PILOT_TALK_01
+0x152						FE_D10R0401_POKE10_GET
+0x153	PKMN GIFT			Purchased Magikarp		FE_H05_BUY_POKE
+0x154						FE_N_LASTMESSAGE
+0x155						FE_R18R0101_APPRAISAL_TALK
+0x156						FE_JUDGE_TALK
+0x157						FE_TEACH_COALESCENCE_TALK
+0x158						FE_R16R0201_POKE23_ENC
+0x159						FE_PALACE01_OLDMANTALK2
+0x15A						FE_T04_ITEMGET_01
+0x15B	IN-GAME TRADE			Traded for Emolga		FE_R07R0201_TRADE_01
+0x15C						FE_D04R2301_POKE13_GET
+0x15D						FE_R06R0101_EVENT_ON
+0x15E						FE_R06R0101_ITEMGET_01
+0x15F						FE_T01R0401_SUPPORT_TALK
+0x160	SIDE EVENT			Battled Youngster Kyle		FE_C05R0201_BTL_01
+0x161						FE_D09R1401_RIVAL_01
+0x162	_UNUSED					
+0x163	SIDE EVENT			Battled Lass Dana		FE_C02R0301_BTL_01
+0x164						FE_R13R0101_ITEMGET_01
+0x165						FE_C09P01_GATE_OPEN
+0x166						FE_H05_LOOK_WANDERGIRL
+0x167						FE_T04PC0101_ITEMGET_01
+0x168	IN-GAME TRADE			Traded for Rotom		FE_R15R0401_TRADE_01
+0x169						FE_C03PC0101_GEONET
+0x16A						FE_N01R0304_TALK
+0x16B						FE_T05_RAILWAY_TALK
+0x16C	_UNUSED					
+0x16D						FE_C05R0601_ITEMGET_01
+0x16E						FE_C04R0502_ITEMGET_01
+0x16F						FE_C04R0801_ITEMGET_01
+0x170						FE_T01R0101_MAMA_RETALK
+0x171						FE_BC10R0401_BTL_END
+0x172	_UNUSED					
+0x173	_UNUSED					
+0x174	_UNUSED					
+0x175	_UNUSED					
+0x176	_UNUSED					
+0x177	_UNUSED					
+0x178	_UNUSED					
+0x179	_UNUSED					
+0x17A	_UNUSED					
+0x17B	_UNUSED					
+0x17C	_UNUSED					
+0x17D	_UNUSED					
+0x17E	_UNUSED					
+0x17F	_UNUSED					
+0x180	_UNUSED					
+0x181	_UNUSED					
+0x182	_UNUSED					
+0x183	_UNUSED					
+0x184	_UNUSED					
+0x185	_UNUSED					
+0x186	_UNUSED					
+0x187	_UNUSED					
+0x188	_UNUSED					
+0x189	_UNUSED					
+0x18A	_UNUSED					
+0x18B	_UNUSED					
+0x18C	_UNUSED					
+0x18D	_UNUSED					
+0x18E	_UNUSED					
+0x18F	_UNUSED					
+0x190	_UNUSED					
+0x191	_UNUSED					
+0x192	_UNUSED					
+0x193	_UNUSED					
+0x194	_UNUSED					
+0x195	_UNUSED					
+0x196	_UNUSED					
+0x197	_UNUSED					
+0x198	_UNUSED					
+0x199	_UNUSED					
+0x19A	_UNUSED					
+0x19B	_UNUSED					
+0x19C	_UNUSED					
+0x19D	_UNUSED					
+0x19E	_UNUSED					
+0x19F	_UNUSED					
+0x1A0	_UNUSED					
+0x1A1	_UNUSED					
+0x1A2	_UNUSED					
+0x1A3	_UNUSED					
+0x1A4	_UNUSED					
+0x1A5	_UNUSED					
+0x1A6	_UNUSED					
+0x1A7	_UNUSED					
+0x1A8	_UNUSED					
+0x1A9	_UNUSED					
+0x1AA	_UNUSED					
+0x1AB	_UNUSED					
+0x1AC	_UNUSED					
+0x1AD	_UNUSED					
+0x1AE	_UNUSED					
+0x1AF	_UNUSED					
+0x1B0	_UNUSED					
+0x1B1	_UNUSED					
+0x1B2	_UNUSED					
+0x1B3	_UNUSED					
+0x1B4	_UNUSED					
+0x1B5	_UNUSED					
+0x1B6	_UNUSED					
+0x1B7	_UNUSED					
+0x1B8	_UNUSED					
+0x1B9	_UNUSED					
+0x1BA	_UNUSED					
+0x1BB	_UNUSED					
+0x1BC	_UNUSED					
+0x1BD	_UNUSED					
+0x1BE	_UNUSED					
+0x1BF	_UNUSED					
+0x1C0	_UNUSED					
+0x1C1	_UNUSED					
+0x1C2	_UNUSED					
+0x1C3	_UNUSED					
+0x1C4	_UNUSED					
+0x1C5	_UNUSED					
+0x1C6	_UNUSED					
+0x1C7	_UNUSED					
+0x1C8	_UNUSED					
+0x1C9	_UNUSED					
+0x1CA	_UNUSED					
+0x1CB	_UNUSED					
+0x1CC	_UNUSED					
+0x1CD	_UNUSED					
+0x1CE	_UNUSED					
+0x1CF	_UNUSED					
+0x1D0	_UNUSED					
+0x1D1	_UNUSED					
+0x1D2	_UNUSED					
+0x1D3	_UNUSED					
+0x1D4	_UNUSED					
+0x1D5	_UNUSED					
+0x1D6	_UNUSED					
+0x1D7	_UNUSED					
+0x1D8	_UNUSED					
+0x1D9	_UNUSED					
+0x1DA	_UNUSED					
+0x1DB	_UNUSED					
+0x1DC	_UNUSED					
+0x1DD	_UNUSED					
+0x1DE	_UNUSED					
+0x1DF	_UNUSED					
+0x1E0	_UNUSED					
+0x1E1	_UNUSED					
+0x1E2	_UNUSED					
+0x1E3	_UNUSED					
+0x1E4	_UNUSED					
+0x1E5	_UNUSED					
+0x1E6	_UNUSED					
+0x1E7	_UNUSED					
+0x1E8	_UNUSED					
+0x1E9	_UNUSED					
+0x1EA	_UNUSED					
+0x1EB	_UNUSED					
+0x1EC	_UNUSED					
+0x1ED	_UNUSED					
+0x1EE	_UNUSED					
+0x1EF	_UNUSED					
+0x1F0	_UNUSED					
+0x1F1	_UNUSED					
+0x1F2	_UNUSED					
+0x1F3	_UNUSED					
+0x1F4						FV_T01R0102_RIVAL
+0x1F5						FV_T01R0102_SUPPORT
+0x1F6	_UNUSED					
+0x1F7	_UNUSED					
+0x1F8	_UNUSED					
+0x1F9						FV_T01R0401_HAKASE2
+0x1FA						FV_T01R0401_RIVAL
+0x1FB						FV_T01R0401_SUPPORT
+0x1FC						FV_R01_HAKASE
+0x1FD	_UNUSED					
+0x1FE	_UNUSED					
+0x1FF						FV_T02PC0101_HAKASE
+0x200						FV_T01R0201_SUPPORT
+0x201						FV_T01_RIVAL
+0x202						FV_T01_SUPPORT
+0x203						FV_R01_POKECOUNT_BTL
+0x204	_UNUSED					
+0x205						FV_R03_RIVAL_01
+0x206						FV_T02PC0101_SUPPORT
+0x207						FV_T02PC0101_RIVAL
+0x208						FV_T02_HAKASE
+0x209						FV_T02_RIVAL
+0x20A						FV_T02_HAKAI
+0x20B						FV_T02_SAGE
+0x20C						FV_T02_NNN
+0x20D						FV_T02_MAN
+0x20E	_UNUSED					
+0x20F	_UNUSED					
+0x210						FV_T02_RIVAL_02
+0x211						FV_R02_MOTHER
+0x212						FV_C01GYM0101_LEADERS
+0x213						FV_D01R0101_GIRL_01
+0x214						FV_D01R0101_SUPPORT_01
+0x215						FV_D01R0101_POKE_01
+0x216	ITEM GIFT					FV_D01R0101_ITEM_01
+0x217						FV_T01R0101_FRIENDS
+0x218						FV_C04GYM0101_TR_01
+0x219						FV_C04GYM0101_TR_02
+0x21A						FV_C01_GUIDE_01
+0x21B						FV_C01_LEADER1_01
+0x21C						FV_C01_INVENTOR_01
+0x21D						FV_C01R0101_INVENTOR_01
+0x21E						FV_C01R0501_RIVAL_01
+0x21F						FV_C04_HAKAI_01
+0x220						FV_D05R0101_RIVAL_01
+0x221						FV_D05R0101_RIVAL_02
+0x222						FV_D05R0201_WORKMAN_01
+0x223						FV_C02GYM0101_FRIENDS
+0x224						FV_D02_LEADER3
+0x225						FV_D02_HAKAI
+0x226						FV_D02R0101_HAKAI
+0x227						FV_D02R0101_LEADER2
+0x228						FV_D02R0101_LEADER3
+0x229						FV_C04P01_BOSS_01
+0x22A						FV_C05_GYMLEADER_01
+0x22B						FV_C05_GYMLEADER_02
+0x22C	_UNUSED					
+0x22D						FV_C05_SAGE_01
+0x22E						FV_D05_RIVAL_01
+0x22F						FV_D05_WORKMAN_01
+0x230						FV_C05_BUSINESSMAN_01
+0x231						FV_C04_SUPPORT_01
+0x232						FV_C02_LEADER2
+0x233						FV_C02_POSEVENT_01
+0x234						FV_C02GYM0202_LEADER2
+0x235						FV_C04GYM0101_LEADER4
+0x236						FV_R05_RIVAL
+0x237						FV_R05_LEADER4
+0x238						FV_R05_CHAMPION
+0x239						FV_MUSEUM_TOUNAN
+0x23A						FV_C03GYM0101_TR01
+0x23B						FV_C03GYM0101_TR02
+0x23C						FV_R03_SUPPORT_01
+0x23D						FV_R03_RIVAL_02
+0x23E						FV_R03R0301_RIVAL_01
+0x23F						FV_D07R0201_GYMLEADER05_01
+0x240						FV_C07_RIVAL_01
+0x241						FV_C07_SUPPORT_01
+0x242						FV_C07_READER7
+0x243						FV_C07_HAKASE1
+0x244						FV_C07GYM0101_READER7_01
+0x245						FV_C06_ZUKANCHK_01
+0x246						FV_D06_LEADER5_01
+0x247						FV_D06_STOPPER_01
+0x248						FV_D06R0101_FRIENDS
+0x249						FV_D06R0201_BOSS_01
+0x24A	_UNUSED					
+0x24B						FV_D03R0101_RIVAL_01
+0x24C						FV_D03R0101_RIVAL_02
+0x24D						FV_D03R0101_CHAMPION_01
+0x24E						FV_D04R0601_EVENT_01
+0x24F	_UNUSED					
+0x250	_UNUSED					
+0x251	_UNUSED					
+0x252						FV_R10_RIVAL_01
+0x253						FV_C09R0501_BOSS_01
+0x254						FV_C09R0501_CHAMPION_01
+0x255	_UNUSED					
+0x256						FV_C05GYM0101_CORN
+0x257						FV_C09R0501_CHAMPION_02
+0x258						FV_C09R0501_RIVAL_01
+0x259						FV_N01R0101_LEADERS_01
+0x25A						FV_D08_HAKASE1_01
+0x25B						FV_D08_RIVAL_01
+0x25C						FV_D08_SUPORT_01
+0x25D						FV_D08_CHAMPION_01
+0x25E						FV_D08_LEADER7_01
+0x25F						FV_D08R0101_EVENT_01
+0x260	_UNUSED					
+0x261						FV_D08R0601_EVENT_01
+0x262						FV_D08R0801_BOSS_01
+0x263						FV_D08R0801_EVENT_01
+0x264						FV_D08R0901_BOSS_01
+0x265						FV_D08R0901_EVENT_01
+0x266						FV_C02_STONEEVENT_01
+0x267						FV_C04R0111_PARTNER
+0x268						FV_C04R0111_NPC
+0x269						FV_N01R0502_EVENT_01
+0x26A						FV_D04R0101_SUNGLASSES_01
+0x26B						FV_C08_SAGE1_01
+0x26C						FV_C08_SUNGLASSES_01
+0x26D						FV_C08R0101_LEADER8A_01
+0x26E						FV_C08R0101_LEADER8B_01
+0x26F						FV_MUSEUM_STONE
+0x270						FV_D08R0101_NONDRAW_01
+0x271						FV_R03_SODATEYA_01
+0x272						FV_D05R0201_PLASMA
+0x273						FV_BC10R0401_B
+0x274						FV_BC10R0401_C
+0x275						FV_BC10R0401_D
+0x276						FV_BC10R0401_E
+0x277						FV_WF10_B
+0x278						FV_WF10_C
+0x279						FV_WF10_D
+0x27A						FV_WF10_E
+0x27B						FV_R03_RIVAL_03
+0x27C						FV_D02R0101_SAGE5
+0x27D						FV_T02_SPEECH_BEFORE
+0x27E						FV_T02_SPEECH_AFTER
+0x27F						FV_C04_SUPPORTPAPA_01
+0x280						FV_R04_RIVAL_01
+0x281						FV_C03_GUIDE_01
+0x282						FV_UN_GTSFRIEND_00
+0x283						FV_UN_GTSFRIEND_01
+0x284						FV_UN_GTSFRIEND_02
+0x285						FV_UN_GTSFRIEND_03
+0x286						FV_UN_GTSFRIEND_04
+0x287						FV_C03R0301_CLEANINGM_01
+0x288						FV_C02GYM0101_HAKAI
+0x289	STATIC ENCOUNTER			Cobalion Disappeared		FV_R06R0203_LEGEND1
+0x28A	STATIC ENCOUNTER			Terrakion Disappeared		FV_D09R1501_LEGEND2
+0x28B	STATIC ENCOUNTER			Virizion Disappeared		FV_D02R0201_LEGEND3
+0x28C	EVENT			Obstacle (Victory Road) Cleared		FV_D09_ROCK1
+0x28D	EVENT			Obstacle (Pinwheel Forest) Cleared		FV_D02_ROCK1
+0x28E						FV_BSUBWAY_RECEIPT_PARTNER
+0x28F						FV_D06R0101_HAKAI
+0x290						FV_T01R0401_HAKASE1
+0x291						FV_POSTMAN
+0x292						FV_D07_RIVAL_01
+0x293						FV_D08R0101_HAKAI
+0x294						FV_N01R0502_LEGEND_01
+0x295	STORY EVENT			Reshiram/Zekrom (N's Castle) Disappeared		FV_N01R0502_LEGEND_02
+0x296						FV_C06_MONSTERBALL
+0x297	STATIC ENCOUNTER			Darmanitan (middle-left) disappeared from Desert Resort		FV_D03R0101_DARUMA_01
+0x298	STATIC ENCOUNTER			Darmanitan (bottom-left) disappeared from Desert Resort		FV_D03R0101_DARUMA_02
+0x299	STATIC ENCOUNTER			Darmanitan (top-left) disappeared from Desert Resort		FV_D03R0101_DARUMA_03
+0x29A	STATIC ENCOUNTER			Darmanitan (middle-right) disappeared from Desert Resort		FV_D03R0101_DARUMA_04
+0x29B	STATIC ENCOUNTER			Darmanitan (top-right) disappeared from Desert Resort		FV_D03R0101_DARUMA_05
+0x29C						FV_C06_GIRLBOY_01
+0x29D	EVENT			Team Plasma Guide (Pokemon League Pokemon Center) Disappeared		FV_C09R0701_WARPMAN
+0x29E						FV_MUSICAL_FUN_01
+0x29F						FV_MUSICAL_FUN_02
+0x2A0						FV_MUSICAL_FUN_03
+0x2A1						FV_MUSICAL_FUN_04
+0x2A2						FV_MUSICAL_FUN_05
+0x2A3						FV_T01R0401_POKEMON_01
+0x2A4						FV_R070105_LEADER6_01
+0x2A5						FV_D07R0401PLASMA_01
+0x2A6						FV_D07R0401RIVAL_01
+0x2A7						FV_T01_MAMA_01
+0x2A8						FV_T01R0102_PRESENT
+0x2A9						FV_T01R0102_AWARD_01
+0x2AA						FV_T01R0102_AWARD_02
+0x2AB						FV_T01R0102_TROPHY_01
+0x2AC						FV_T01R0102_TROPHY_02
+0x2AD						FV_T01R0102_TROPHY_03
+0x2AE						FV_C06_GYM_STOPPER
+0x2AF						FV_D07_WORKMAN_STOPPER
+0x2B0						FV_D04R0201_SAGE2
+0x2B1						FV_C03P09_SWEETS_01
+0x2B2						FV_C03P09_SWEETS_02
+0x2B3	_UNUSED					
+0x2B4	_UNUSED					
+0x2B5						FV_R08R0101_POKE4
+0x2B6						FV_R08R0101_POKE5
+0x2B7						FV_R08R0101_POKE6
+0x2B8						FV_R08R0101_POKE11
+0x2B9						FV_C04R0601_POS_HAKASE
+0x2BA						FV_R08R0101_OLDMAN1
+0x2BB						FV_C04P01_HAKAI
+0x2BC						FV_C03P12_DANCER_01
+0x2BD						FV_C03P14_DANCER_02
+0x2BE						FV_C03CENTER_DANCER_01
+0x2BF						FV_C03CENTER_DANCER_02
+0x2C0	_UNUSED					
+0x2C1						FV_R14_SAGE
+0x2C2						FV_D06R0301_SAGE
+0x2C3						FV_D01R0101_SAGE
+0x2C4						FV_R18_SAGE
+0x2C5						FV_C03R0101_MEMBER_A
+0x2C6						FV_C03R0101_MEMBER_B
+0x2C7						FV_C03R0101_MEMBER_C
+0x2C8						FV_C03R0101_MEMBER_D
+0x2C9						FV_C03R0101_MEMBER_E
+0x2CA						FV_C03R0101_MEMBER_F
+0x2CB						FV_C03R0101_MEMBER_G
+0x2CC						FV_D05R0201_SAGE7
+0x2CD						FV_C05R0601_OKOU
+0x2CE						FV_POKE_JUDGE_01
+0x2CF						FV_STADIUM_TRAINER_01
+0x2D0						FV_STADIUM_TRAINER_02
+0x2D1						FV_STADIUM_TRAINER_03
+0x2D2						FV_STADIUM_FAN_01
+0x2D3						FV_STADIUM_FAN_02
+0x2D4						FV_STADIUM_RANDOM_01
+0x2D5						FV_STADIUM_RANDOM_02
+0x2D6						FV_STADIUM_RANDOM_03
+0x2D7						FV_PDW_POSTMAN
+0x2D8						FV_STADIUM_PLAYING
+0x2D9	EVENT			Zorua as little boy (1) disappeared from GAME FREAK building 1F (Zorua event)		FV_C03R0401_BOY1_01
+0x2DA	EVENT			Girl disappeared from GAME FREAK building 1F (Zorua event)		FV_C03R0401_GIRL1_01
+0x2DB	EVENT			Zorua (2) disappeared from GAME FREAK building 1F (Zorua event)		FV_C03R0401_POKE22_01
+0x2DC						FV_D13R0101_ASSISTANTM_01
+0x2DD						FV_R16R0201_BACKPACKERM
+0x2DE						FV_R16R0201_WOMAN3
+0x2DF						FV_AMUSEMENT_TRAINER
+0x2E0						FV_T01R0101_HANDSOME_MAMA
+0x2E1						FV_C08_LEADERB_01
+0x2E2						FV_D06R0201_PLASMA
+0x2E3						FV_R08_STOPPER_01
+0x2E4						FV_R16_STOPPER_01
+0x2E5						FV_T04_BOY3_01
+0x2E6						FV_T04R0101_BOY3_01
+0x2E7						FV_T04R0101_GIRL4_01
+0x2E8						FV_T04R0101_LADY_01
+0x2E9						FV_T04R0101_GENTLEMAN_01
+0x2EA						FV_T04R0101_VETERANW_01
+0x2EB						FV_T04R0101_BOY4_01
+0x2EC						FV_D01R0201_POKE16_01
+0x2ED						FV_R14R0201_GIRL1
+0x2EE						FV_R14R0201_LEG
+0x2EF						FV_C02_STONEEVENT_02
+0x2F0						FV_MUSICAL_FUN_06
+0x2F1						FV_MUSICAL_FUN_07
+0x2F2						FV_MUSICAL_FUN_08
+0x2F3						FV_MUSICAL_FUN_09
+0x2F4						FV_MUSICAL_FUN_10
+0x2F5						FV_D01R0101_GCIS_01
+0x2F6						FV_D09_VETERANM_01
+0x2F7						FV_D09_VETERANM_02
+0x2F8						FV_C08R0701_STOPPER_01
+0x2F9						FV_STADIUM_SPORTSMAN
+0x2FA						FV_H04_POKE_01
+0x2FB	ITEM GIFT					FV_H04_ITEM_02
+0x2FC						FV_C08R0201_TRAINERW_01
+0x2FD						FV_C08R0201_TRAINERM_01
+0x2FE	STATIC ENCOUNTER			Reshiram/Zekrom (Dragonspiral Tower) Disappeared		FV_D08R0901_PACKAGE_POKE
+0x2FF	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus		FV_FLDMONS_01
+0x300	STATIC ENCOUNTER	Route 6		Capture/Defeat Foongus		FV_FLDMONS_02
+0x301	STATIC ENCOUNTER	Route 10		Capture/Defeat Amoongus		FV_FLDMONS_03
+0x302	STATIC ENCOUNTER	Route 10		Capture/Defeat Amoongus		FV_FLDMONS_04
+0x303	STATIC ENCOUNTER	Route 10		Capture/Defeat Foongus		FV_FLDMONS_05
+0x304	STATIC ENCOUNTER	Route 10		Capture/Defeat Foongus		FV_FLDMONS_06
+0x305	_UNUSED					
+0x306	_UNUSED					
+0x307	_UNUSED					
+0x308	_UNUSED					
+0x309						FV_H03_BADRIDER
+0x30A						FV_H03_GENERALPERSON
+0x30B						FV_D12R0102_POKE14_01
+0x30C						FV_R07R0105_CHAMPION_01
+0x30D						FV_T03_DAYTIME
+0x30E						FV_T03_NIGHT
+0x30F						FV_T03_MON
+0x310						FV_T03_TUE
+0x311						FV_T03_WED
+0x312						FV_T03_THU
+0x313						FV_T03_FRI
+0x314						FV_T03_SAT
+0x315						FV_T03_SUN
+0x316						FV_D12_PEOPLE_01
+0x317						FV_D12_HAKAIM_01
+0x318						FV_D12_POLECEMAN_02
+0x319						FV_D12R0101_POLECEMAN_01
+0x31A						FV_D12R0102_HAKAIM_01
+0x31B						FV_D12_EVENTEND_01
+0x31C						FV_C03P07_PLASMA_LEADER3
+0x31D						FV_C03P07_SUPPORT_LEADER8
+0x31E						FV_C03P15_SUPPORT_LEADER8
+0x31F						FV_C03R1101_PLASMA
+0x320						FV_C03P15_LEADER3
+0x321	STATIC ENCOUNTER			Kyurem Disappeared		FV_D10R0401_POKE10
+0x322						FV_T04_SUMMER
+0x323						FV_N01R0501_SAGE1
+0x324						FV_C06_BOSS
+0x325						FV_D05R0201_RIVAL_01
+0x326						FV_H03_PLASMA
+0x327	_UNUSED					
+0x328						FV_D04R0701_PLASMA
+0x329						FV_D04R2201_SAGE4
+0x32A	STATIC ENCOUNTER			Volcarona Disappeared		FV_D04R2301_POKE13
+0x32B						FV_R06R0101_POKE_SPRING
+0x32C						FV_R06R0102_POKE_SUMMER
+0x32D						FV_R06R0103_POKE_AUTUMN
+0x32E						FV_R06R0104_POKE_WINTER
+0x32F						FV_R05_RIVAL_AFTER
+0x330						FV_D09R1401_RIVAL
+0x331						FV_T01R0401_SUPPORT_AFTER
+0x332						FV_T05_RAILFAN
+0x333						FV_T05_WEEKEND
+0x334						FV_D01R0101_CORN_01
+0x335						FV_D07R0101_WORKMAN2_02
+0x336						FV_T04R0401_SHIRONA_01
+0x337						FV_T04R0401_BIGFOUR4_01
+0x338						FV_T04R0401_BIGFOUR1_01
+0x339						FV_T04R0401_LEADER8W_01
+0x33A						FV_T04R0401_LEADER6_01
+0x33B						FV_T04R0401_LEADER4_01
+0x33C						FV_T04R0401_LEADER2_01
+0x33D						FV_H05_NINJA_01
+0x33E						FV_C08R0202_TRAINER_W
+0x33F						FV_C08R0202_TRAINER_B
+0x340						FV_R07_TRAINER_W
+0x341						FV_R07_TRAINER_B
+0x342						FV_H05_WANDERGIRL
+0x343						FV_H05_MINEZUMI
+0x344						FV_H04R0501_MINEZUMI
+0x345						FV_H04R0501_GUEST
+0x346						FV_H03_NINJA_01
+0x347						FV_D06R0301_HAKAI_01
+0x348						FV_D07_STONE_01
+0x349						FV_D02R0101_STOP_01
+0x34A						FV_C04R0901_TRAINERW_01
+0x34B	ITEM GIFT					FV_C03R1101_ITEM_01
+0x34C	_UNUSED					
+0x34D	_UNUSED					
+0x34E	_UNUSED					
+0x34F	_UNUSED					
+0x350	_UNUSED					
+0x351	_UNUSED					
+0x352	_UNUSED					
+0x353	_UNUSED					
+0x354	_UNUSED					
+0x355	_UNUSED					
+0x356	_UNUSED					
+0x357	_UNUSED					
+0x358	_UNUSED					
+0x359	_UNUSED					
+0x35A	_UNUSED					
+0x35B	_UNUSED					
+0x35C	_UNUSED					
+0x35D	_UNUSED					
+0x35E	_UNUSED					
+0x35F	_UNUSED					
+0x360	_UNUSED					
+0x361	_UNUSED					
+0x362	_UNUSED					
+0x363	_UNUSED					
+0x364	_UNUSED					
+0x365	_UNUSED					
+0x366	_UNUSED					
+0x367	_UNUSED					
+0x368	_UNUSED					
+0x369	_UNUSED					
+0x36A	_UNUSED					
+0x36B	_UNUSED					
+0x36C	_UNUSED					
+0x36D	_UNUSED					
+0x36E	_UNUSED					
+0x36F	_UNUSED					
+0x370	_UNUSED					
+0x371	_UNUSED					
+0x372	_UNUSED					
+0x373	_UNUSED					
+0x374	_UNUSED					
+0x375	_UNUSED					
+0x376	_UNUSED					
+0x377	_UNUSED					
+0x378	_UNUSED					
+0x379	_UNUSED					
+0x37A	_UNUSED					
+0x37B	_UNUSED					
+0x37C	_UNUSED					
+0x37D	_UNUSED					
+0x37E	_UNUSED					
+0x37F	_UNUSED					
+0x380	_UNUSED					
+0x381	_UNUSED					
+0x382	_UNUSED					
+0x383	_UNUSED					
+0x384	HIDDEN ITEM					FLAG_HIDEITEM_000
+0x385	HIDDEN ITEM					FLAG_HIDEITEM_001
+0x386	HIDDEN ITEM					FLAG_HIDEITEM_002
+0x387	HIDDEN ITEM					FLAG_HIDEITEM_003
+0x388	HIDDEN ITEM					FLAG_HIDEITEM_004
+0x389	HIDDEN ITEM					FLAG_HIDEITEM_005
+0x38A	HIDDEN ITEM					FLAG_HIDEITEM_006
+0x38B	HIDDEN ITEM					FLAG_HIDEITEM_007
+0x38C	HIDDEN ITEM					FLAG_HIDEITEM_008
+0x38D	HIDDEN ITEM					FLAG_HIDEITEM_009
+0x38E	HIDDEN ITEM					FLAG_HIDEITEM_010
+0x38F	HIDDEN ITEM					FLAG_HIDEITEM_011
+0x390	HIDDEN ITEM					FLAG_HIDEITEM_012
+0x391	HIDDEN ITEM					FLAG_HIDEITEM_013
+0x392	HIDDEN ITEM					FLAG_HIDEITEM_014
+0x393	HIDDEN ITEM					FLAG_HIDEITEM_015
+0x394	HIDDEN ITEM					FLAG_HIDEITEM_016
+0x395	HIDDEN ITEM					FLAG_HIDEITEM_017
+0x396	HIDDEN ITEM					FLAG_HIDEITEM_018
+0x397	HIDDEN ITEM					FLAG_HIDEITEM_019
+0x398	HIDDEN ITEM					FLAG_HIDEITEM_020
+0x399	HIDDEN ITEM					FLAG_HIDEITEM_021
+0x39A	HIDDEN ITEM					FLAG_HIDEITEM_022
+0x39B	HIDDEN ITEM					FLAG_HIDEITEM_023
+0x39C	HIDDEN ITEM					FLAG_HIDEITEM_024
+0x39D	HIDDEN ITEM					FLAG_HIDEITEM_025
+0x39E	HIDDEN ITEM					FLAG_HIDEITEM_026
+0x39F	HIDDEN ITEM					FLAG_HIDEITEM_027
+0x3A0	HIDDEN ITEM					FLAG_HIDEITEM_028
+0x3A1	HIDDEN ITEM					FLAG_HIDEITEM_029
+0x3A2	HIDDEN ITEM					FLAG_HIDEITEM_030
+0x3A3	HIDDEN ITEM					FLAG_HIDEITEM_031
+0x3A4	HIDDEN ITEM					FLAG_HIDEITEM_032
+0x3A5	HIDDEN ITEM					FLAG_HIDEITEM_033
+0x3A6	HIDDEN ITEM					FLAG_HIDEITEM_034
+0x3A7	HIDDEN ITEM					FLAG_HIDEITEM_035
+0x3A8	HIDDEN ITEM					FLAG_HIDEITEM_036
+0x3A9	HIDDEN ITEM					FLAG_HIDEITEM_037
+0x3AA	HIDDEN ITEM					FLAG_HIDEITEM_038
+0x3AB	HIDDEN ITEM					FLAG_HIDEITEM_039
+0x3AC	HIDDEN ITEM					FLAG_HIDEITEM_040
+0x3AD	HIDDEN ITEM					FLAG_HIDEITEM_041
+0x3AE	HIDDEN ITEM					FLAG_HIDEITEM_042
+0x3AF	HIDDEN ITEM					FLAG_HIDEITEM_043
+0x3B0	HIDDEN ITEM					FLAG_HIDEITEM_044
+0x3B1	HIDDEN ITEM					FLAG_HIDEITEM_045
+0x3B2	HIDDEN ITEM					FLAG_HIDEITEM_046
+0x3B3	HIDDEN ITEM					FLAG_HIDEITEM_047
+0x3B4	HIDDEN ITEM					FLAG_HIDEITEM_048
+0x3B5	HIDDEN ITEM					FLAG_HIDEITEM_049
+0x3B6	HIDDEN ITEM					FLAG_HIDEITEM_050
+0x3B7	HIDDEN ITEM					FLAG_HIDEITEM_051
+0x3B8	HIDDEN ITEM					FLAG_HIDEITEM_052
+0x3B9	HIDDEN ITEM					FLAG_HIDEITEM_053
+0x3BA	HIDDEN ITEM					FLAG_HIDEITEM_054
+0x3BB	HIDDEN ITEM					FLAG_HIDEITEM_055
+0x3BC	HIDDEN ITEM					FLAG_HIDEITEM_056
+0x3BD	HIDDEN ITEM					FLAG_HIDEITEM_057
+0x3BE	HIDDEN ITEM					FLAG_HIDEITEM_058
+0x3BF	HIDDEN ITEM					FLAG_HIDEITEM_059
+0x3C0	HIDDEN ITEM					FLAG_HIDEITEM_060
+0x3C1	HIDDEN ITEM					FLAG_HIDEITEM_061
+0x3C2	HIDDEN ITEM					FLAG_HIDEITEM_062
+0x3C3	HIDDEN ITEM					FLAG_HIDEITEM_063
+0x3C4	HIDDEN ITEM					FLAG_HIDEITEM_064
+0x3C5	HIDDEN ITEM					FLAG_HIDEITEM_065
+0x3C6	HIDDEN ITEM					FLAG_HIDEITEM_066
+0x3C7	HIDDEN ITEM					FLAG_HIDEITEM_067
+0x3C8	HIDDEN ITEM					FLAG_HIDEITEM_068
+0x3C9	HIDDEN ITEM					FLAG_HIDEITEM_069
+0x3CA	HIDDEN ITEM					FLAG_HIDEITEM_070
+0x3CB	HIDDEN ITEM					FLAG_HIDEITEM_071
+0x3CC	HIDDEN ITEM					FLAG_HIDEITEM_072
+0x3CD	HIDDEN ITEM					FLAG_HIDEITEM_073
+0x3CE	HIDDEN ITEM					FLAG_HIDEITEM_074
+0x3CF	HIDDEN ITEM					FLAG_HIDEITEM_075
+0x3D0	HIDDEN ITEM					FLAG_HIDEITEM_076
+0x3D1	HIDDEN ITEM					FLAG_HIDEITEM_077
+0x3D2	HIDDEN ITEM					FLAG_HIDEITEM_078
+0x3D3	HIDDEN ITEM					FLAG_HIDEITEM_079
+0x3D4	HIDDEN ITEM					FLAG_HIDEITEM_080
+0x3D5	HIDDEN ITEM					FLAG_HIDEITEM_081
+0x3D6	HIDDEN ITEM					FLAG_HIDEITEM_082
+0x3D7	HIDDEN ITEM					FLAG_HIDEITEM_083
+0x3D8	HIDDEN ITEM					FLAG_HIDEITEM_084
+0x3D9	HIDDEN ITEM					FLAG_HIDEITEM_085
+0x3DA	HIDDEN ITEM					FLAG_HIDEITEM_086
+0x3DB	HIDDEN ITEM					FLAG_HIDEITEM_087
+0x3DC	HIDDEN ITEM					FLAG_HIDEITEM_088
+0x3DD	HIDDEN ITEM					FLAG_HIDEITEM_089
+0x3DE	HIDDEN ITEM					FLAG_HIDEITEM_090
+0x3DF	HIDDEN ITEM					FLAG_HIDEITEM_091
+0x3E0	HIDDEN ITEM					FLAG_HIDEITEM_092
+0x3E1	HIDDEN ITEM					FLAG_HIDEITEM_093
+0x3E2	HIDDEN ITEM					FLAG_HIDEITEM_094
+0x3E3	HIDDEN ITEM					FLAG_HIDEITEM_095
+0x3E4	HIDDEN ITEM					FLAG_HIDEITEM_096
+0x3E5	HIDDEN ITEM					FLAG_HIDEITEM_097
+0x3E6	HIDDEN ITEM					FLAG_HIDEITEM_098
+0x3E7	HIDDEN ITEM					FLAG_HIDEITEM_099
+0x3E8	HIDDEN ITEM					FLAG_HIDEITEM_100
+0x3E9	HIDDEN ITEM					FLAG_HIDEITEM_101
+0x3EA	HIDDEN ITEM					FLAG_HIDEITEM_102
+0x3EB	HIDDEN ITEM					FLAG_HIDEITEM_103
+0x3EC	HIDDEN ITEM					FLAG_HIDEITEM_104
+0x3ED	HIDDEN ITEM					FLAG_HIDEITEM_105
+0x3EE	HIDDEN ITEM					FLAG_HIDEITEM_106
+0x3EF	HIDDEN ITEM					FLAG_HIDEITEM_107
+0x3F0	HIDDEN ITEM					FLAG_HIDEITEM_108
+0x3F1	HIDDEN ITEM					FLAG_HIDEITEM_109
+0x3F2	HIDDEN ITEM					FLAG_HIDEITEM_110
+0x3F3	HIDDEN ITEM					FLAG_HIDEITEM_111
+0x3F4	HIDDEN ITEM					FLAG_HIDEITEM_112
+0x3F5	HIDDEN ITEM					FLAG_HIDEITEM_113
+0x3F6	HIDDEN ITEM					FLAG_HIDEITEM_114
+0x3F7	HIDDEN ITEM					FLAG_HIDEITEM_115
+0x3F8	HIDDEN ITEM					FLAG_HIDEITEM_116
+0x3F9	HIDDEN ITEM					FLAG_HIDEITEM_117
+0x3FA	HIDDEN ITEM					FLAG_HIDEITEM_118
+0x3FB	HIDDEN ITEM					FLAG_HIDEITEM_119
+0x3FC	HIDDEN ITEM					FLAG_HIDEITEM_120
+0x3FD	HIDDEN ITEM					FLAG_HIDEITEM_121
+0x3FE	HIDDEN ITEM					FLAG_HIDEITEM_122
+0x3FF	HIDDEN ITEM					FLAG_HIDEITEM_123
+0x400	HIDDEN ITEM					FLAG_HIDEITEM_124
+0x401	HIDDEN ITEM					FLAG_HIDEITEM_125
+0x402	HIDDEN ITEM					FLAG_HIDEITEM_126
+0x403	HIDDEN ITEM					FLAG_HIDEITEM_127
+0x404	HIDDEN ITEM					FLAG_HIDEITEM_128
+0x405	HIDDEN ITEM					FLAG_HIDEITEM_129
+0x406	HIDDEN ITEM					FLAG_HIDEITEM_130
+0x407	HIDDEN ITEM					FLAG_HIDEITEM_131
+0x408	HIDDEN ITEM					FLAG_HIDEITEM_132
+0x409	HIDDEN ITEM					FLAG_HIDEITEM_133
+0x40A	HIDDEN ITEM					FLAG_HIDEITEM_134
+0x40B	HIDDEN ITEM					FLAG_HIDEITEM_135
+0x40C	HIDDEN ITEM					FLAG_HIDEITEM_136
+0x40D	HIDDEN ITEM					FLAG_HIDEITEM_137
+0x40E	HIDDEN ITEM					FLAG_HIDEITEM_138
+0x40F	HIDDEN ITEM					FLAG_HIDEITEM_139
+0x410	HIDDEN ITEM					FLAG_HIDEITEM_140
+0x411	HIDDEN ITEM					FLAG_HIDEITEM_141
+0x412	HIDDEN ITEM					FLAG_HIDEITEM_142
+0x413	HIDDEN ITEM					FLAG_HIDEITEM_143
+0x414	HIDDEN ITEM					FLAG_HIDEITEM_144
+0x415	HIDDEN ITEM					FLAG_HIDEITEM_145
+0x416	HIDDEN ITEM					FLAG_HIDEITEM_146
+0x417	HIDDEN ITEM					FLAG_HIDEITEM_147
+0x418	HIDDEN ITEM					FLAG_HIDEITEM_148
+0x419	HIDDEN ITEM					FLAG_HIDEITEM_149
+0x41A	HIDDEN ITEM					FLAG_HIDEITEM_150
+0x41B	HIDDEN ITEM					FLAG_HIDEITEM_151
+0x41C	HIDDEN ITEM					FLAG_HIDEITEM_152
+0x41D	HIDDEN ITEM					FLAG_HIDEITEM_153
+0x41E	HIDDEN ITEM					FLAG_HIDEITEM_154
+0x41F	HIDDEN ITEM					FLAG_HIDEITEM_155
+0x420	HIDDEN ITEM					FLAG_HIDEITEM_156
+0x421	HIDDEN ITEM					FLAG_HIDEITEM_157
+0x422	HIDDEN ITEM					FLAG_HIDEITEM_158
+0x423	HIDDEN ITEM					FLAG_HIDEITEM_159
+0x424	HIDDEN ITEM					FLAG_HIDEITEM_160
+0x425	HIDDEN ITEM					FLAG_HIDEITEM_161
+0x426	HIDDEN ITEM					FLAG_HIDEITEM_162
+0x427	HIDDEN ITEM					FLAG_HIDEITEM_163
+0x428	HIDDEN ITEM					FLAG_HIDEITEM_164
+0x429	HIDDEN ITEM					FLAG_HIDEITEM_165
+0x42A	HIDDEN ITEM					FLAG_HIDEITEM_166
+0x42B	HIDDEN ITEM					FLAG_HIDEITEM_167
+0x42C	HIDDEN ITEM					FLAG_HIDEITEM_168
+0x42D	HIDDEN ITEM					FLAG_HIDEITEM_169
+0x42E	HIDDEN ITEM					FLAG_HIDEITEM_170
+0x42F	HIDDEN ITEM					FLAG_HIDEITEM_171
+0x430	HIDDEN ITEM					FLAG_HIDEITEM_172
+0x431	HIDDEN ITEM					FLAG_HIDEITEM_173
+0x432	HIDDEN ITEM					FLAG_HIDEITEM_174
+0x433	HIDDEN ITEM					FLAG_HIDEITEM_175
+0x434	HIDDEN ITEM					FLAG_HIDEITEM_176
+0x435	HIDDEN ITEM					FLAG_HIDEITEM_177
+0x436	HIDDEN ITEM					FLAG_HIDEITEM_178
+0x437	HIDDEN ITEM					FLAG_HIDEITEM_179
+0x438	HIDDEN ITEM					FLAG_HIDEITEM_180
+0x439	HIDDEN ITEM					FLAG_HIDEITEM_181
+0x43A	HIDDEN ITEM					FLAG_HIDEITEM_182
+0x43B	HIDDEN ITEM					FLAG_HIDEITEM_183
+0x43C	HIDDEN ITEM					FLAG_HIDEITEM_184
+0x43D	HIDDEN ITEM					FLAG_HIDEITEM_185
+0x43E	HIDDEN ITEM					FLAG_HIDEITEM_186
+0x43F	HIDDEN ITEM					FLAG_HIDEITEM_187
+0x440	HIDDEN ITEM					FLAG_HIDEITEM_188
+0x441	HIDDEN ITEM					FLAG_HIDEITEM_189
+0x442	HIDDEN ITEM					FLAG_HIDEITEM_190
+0x443	HIDDEN ITEM					FLAG_HIDEITEM_191
+0x444	HIDDEN ITEM					FLAG_HIDEITEM_192
+0x445	HIDDEN ITEM					FLAG_HIDEITEM_193
+0x446	HIDDEN ITEM					FLAG_HIDEITEM_194
+0x447	HIDDEN ITEM					FLAG_HIDEITEM_195
+0x448	HIDDEN ITEM					FLAG_HIDEITEM_196
+0x449	HIDDEN ITEM					FLAG_HIDEITEM_197
+0x44A	HIDDEN ITEM					FLAG_HIDEITEM_198
+0x44B	HIDDEN ITEM					FLAG_HIDEITEM_199
+0x44C	HIDDEN ITEM					FLAG_HIDEITEM_200
+0x44D	HIDDEN ITEM					FLAG_HIDEITEM_201
+0x44E	HIDDEN ITEM					FLAG_HIDEITEM_202
+0x44F	HIDDEN ITEM					FLAG_HIDEITEM_203
+0x450	HIDDEN ITEM					FLAG_HIDEITEM_204
+0x451	HIDDEN ITEM					FLAG_HIDEITEM_205
+0x452	FIELD ITEM					FV_FLD_ITEM_0
+0x453	FIELD ITEM					FV_FLD_ITEM_1
+0x454	FIELD ITEM					FV_FLD_ITEM_2
+0x455	FIELD ITEM					FV_FLD_ITEM_3
+0x456	FIELD ITEM					FV_FLD_ITEM_4
+0x457	FIELD ITEM					FV_FLD_ITEM_5
+0x458	FIELD ITEM					FV_FLD_ITEM_6
+0x459	FIELD ITEM					FV_FLD_ITEM_7
+0x45A	FIELD ITEM					FV_FLD_ITEM_8
+0x45B	FIELD ITEM					FV_FLD_ITEM_9
+0x45C	FIELD ITEM					FV_FLD_ITEM_10
+0x45D	FIELD ITEM					FV_FLD_ITEM_11
+0x45E	FIELD ITEM					FV_FLD_ITEM_12
+0x45F	FIELD ITEM					FV_FLD_ITEM_13
+0x460	FIELD ITEM					FV_FLD_ITEM_14
+0x461	FIELD ITEM					FV_FLD_ITEM_15
+0x462	FIELD ITEM					FV_FLD_ITEM_16
+0x463	FIELD ITEM					FV_FLD_ITEM_17
+0x464	FIELD ITEM					FV_FLD_ITEM_18
+0x465	FIELD ITEM					FV_FLD_ITEM_19
+0x466	FIELD ITEM					FV_FLD_ITEM_20
+0x467	FIELD ITEM					FV_FLD_ITEM_21
+0x468	FIELD ITEM					FV_FLD_ITEM_22
+0x469	FIELD ITEM					FV_FLD_ITEM_23
+0x46A	FIELD ITEM					FV_FLD_ITEM_24
+0x46B	FIELD ITEM					FV_FLD_ITEM_25
+0x46C	FIELD ITEM					FV_FLD_ITEM_26
+0x46D	FIELD ITEM					FV_FLD_ITEM_27
+0x46E	FIELD ITEM					FV_FLD_ITEM_28
+0x46F	FIELD ITEM					FV_FLD_ITEM_29
+0x470	FIELD ITEM					FV_FLD_ITEM_30
+0x471	FIELD ITEM					FV_FLD_ITEM_31
+0x472	FIELD ITEM					FV_FLD_ITEM_32
+0x473	FIELD ITEM					FV_FLD_ITEM_33
+0x474	FIELD ITEM					FV_FLD_ITEM_34
+0x475	FIELD ITEM					FV_FLD_ITEM_35
+0x476	FIELD ITEM					FV_FLD_ITEM_36
+0x477	FIELD ITEM					FV_FLD_ITEM_37
+0x478	FIELD ITEM					FV_FLD_ITEM_38
+0x479	FIELD ITEM					FV_FLD_ITEM_39
+0x47A	FIELD ITEM					FV_FLD_ITEM_40
+0x47B	FIELD ITEM					FV_FLD_ITEM_41
+0x47C	FIELD ITEM					FV_FLD_ITEM_42
+0x47D	FIELD ITEM					FV_FLD_ITEM_43
+0x47E	FIELD ITEM					FV_FLD_ITEM_44
+0x47F	FIELD ITEM					FV_FLD_ITEM_45
+0x480	FIELD ITEM					FV_FLD_ITEM_46
+0x481	FIELD ITEM					FV_FLD_ITEM_47
+0x482	FIELD ITEM					FV_FLD_ITEM_48
+0x483	FIELD ITEM					FV_FLD_ITEM_49
+0x484	FIELD ITEM					FV_FLD_ITEM_50
+0x485	FIELD ITEM					FV_FLD_ITEM_51
+0x486	FIELD ITEM					FV_FLD_ITEM_52
+0x487	FIELD ITEM					FV_FLD_ITEM_53
+0x488	FIELD ITEM					FV_FLD_ITEM_54
+0x489	FIELD ITEM					FV_FLD_ITEM_55
+0x48A	FIELD ITEM					FV_FLD_ITEM_56
+0x48B	FIELD ITEM					FV_FLD_ITEM_57
+0x48C	FIELD ITEM					FV_FLD_ITEM_58
+0x48D	FIELD ITEM					FV_FLD_ITEM_59
+0x48E	FIELD ITEM					FV_FLD_ITEM_60
+0x48F	FIELD ITEM					FV_FLD_ITEM_61
+0x490	FIELD ITEM					FV_FLD_ITEM_62
+0x491	FIELD ITEM					FV_FLD_ITEM_63
+0x492	FIELD ITEM					FV_FLD_ITEM_64
+0x493	FIELD ITEM					FV_FLD_ITEM_65
+0x494	FIELD ITEM					FV_FLD_ITEM_66
+0x495	FIELD ITEM					FV_FLD_ITEM_67
+0x496	FIELD ITEM					FV_FLD_ITEM_68
+0x497	FIELD ITEM					FV_FLD_ITEM_69
+0x498	FIELD ITEM					FV_FLD_ITEM_70
+0x499	FIELD ITEM					FV_FLD_ITEM_71
+0x49A	FIELD ITEM					FV_FLD_ITEM_72
+0x49B	FIELD ITEM					FV_FLD_ITEM_73
+0x49C	FIELD ITEM					FV_FLD_ITEM_74
+0x49D	FIELD ITEM					FV_FLD_ITEM_75
+0x49E	FIELD ITEM					FV_FLD_ITEM_76
+0x49F	FIELD ITEM					FV_FLD_ITEM_77
+0x4A0	FIELD ITEM					FV_FLD_ITEM_78
+0x4A1	FIELD ITEM					FV_FLD_ITEM_79
+0x4A2	FIELD ITEM					FV_FLD_ITEM_80
+0x4A3	FIELD ITEM					FV_FLD_ITEM_81
+0x4A4	FIELD ITEM					FV_FLD_ITEM_82
+0x4A5	FIELD ITEM					FV_FLD_ITEM_83
+0x4A6	FIELD ITEM					FV_FLD_ITEM_84
+0x4A7	FIELD ITEM					FV_FLD_ITEM_85
+0x4A8	FIELD ITEM					FV_FLD_ITEM_86
+0x4A9	FIELD ITEM					FV_FLD_ITEM_87
+0x4AA	FIELD ITEM					FV_FLD_ITEM_88
+0x4AB	FIELD ITEM					FV_FLD_ITEM_89
+0x4AC	FIELD ITEM					FV_FLD_ITEM_90
+0x4AD	FIELD ITEM					FV_FLD_ITEM_91
+0x4AE	FIELD ITEM					FV_FLD_ITEM_92
+0x4AF	FIELD ITEM					FV_FLD_ITEM_93
+0x4B0	FIELD ITEM					FV_FLD_ITEM_94
+0x4B1	FIELD ITEM					FV_FLD_ITEM_95
+0x4B2	FIELD ITEM					FV_FLD_ITEM_96
+0x4B3	FIELD ITEM					FV_FLD_ITEM_97
+0x4B4	FIELD ITEM					FV_FLD_ITEM_98
+0x4B5	FIELD ITEM					FV_FLD_ITEM_99
+0x4B6	FIELD ITEM					FV_FLD_ITEM_100
+0x4B7	FIELD ITEM					FV_FLD_ITEM_101
+0x4B8	FIELD ITEM					FV_FLD_ITEM_102
+0x4B9	FIELD ITEM					FV_FLD_ITEM_103
+0x4BA	FIELD ITEM					FV_FLD_ITEM_104
+0x4BB	FIELD ITEM					FV_FLD_ITEM_105
+0x4BC	FIELD ITEM					FV_FLD_ITEM_106
+0x4BD	FIELD ITEM					FV_FLD_ITEM_107
+0x4BE	FIELD ITEM					FV_FLD_ITEM_108
+0x4BF	FIELD ITEM					FV_FLD_ITEM_109
+0x4C0	FIELD ITEM					FV_FLD_ITEM_110
+0x4C1	FIELD ITEM					FV_FLD_ITEM_111
+0x4C2	FIELD ITEM					FV_FLD_ITEM_112
+0x4C3	FIELD ITEM					FV_FLD_ITEM_113
+0x4C4	FIELD ITEM					FV_FLD_ITEM_114
+0x4C5	FIELD ITEM					FV_FLD_ITEM_115
+0x4C6	FIELD ITEM					FV_FLD_ITEM_116
+0x4C7	FIELD ITEM					FV_FLD_ITEM_117
+0x4C8	FIELD ITEM					FV_FLD_ITEM_118
+0x4C9	FIELD ITEM					FV_FLD_ITEM_119
+0x4CA	FIELD ITEM					FV_FLD_ITEM_120
+0x4CB	FIELD ITEM					FV_FLD_ITEM_121
+0x4CC	FIELD ITEM					FV_FLD_ITEM_122
+0x4CD	FIELD ITEM					FV_FLD_ITEM_123
+0x4CE	FIELD ITEM					FV_FLD_ITEM_124
+0x4CF	FIELD ITEM					FV_FLD_ITEM_125
+0x4D0	FIELD ITEM					FV_FLD_ITEM_126
+0x4D1	FIELD ITEM					FV_FLD_ITEM_127
+0x4D2	FIELD ITEM					FV_FLD_ITEM_128
+0x4D3	FIELD ITEM					FV_FLD_ITEM_129
+0x4D4	FIELD ITEM					FV_FLD_ITEM_130
+0x4D5	FIELD ITEM					FV_FLD_ITEM_131
+0x4D6	FIELD ITEM					FV_FLD_ITEM_132
+0x4D7	FIELD ITEM					FV_FLD_ITEM_133
+0x4D8	FIELD ITEM					FV_FLD_ITEM_134
+0x4D9	FIELD ITEM					FV_FLD_ITEM_135
+0x4DA	FIELD ITEM					FV_FLD_ITEM_136
+0x4DB	FIELD ITEM					FV_FLD_ITEM_137
+0x4DC	FIELD ITEM					FV_FLD_ITEM_138
+0x4DD	FIELD ITEM					FV_FLD_ITEM_139
+0x4DE	FIELD ITEM					FV_FLD_ITEM_140
+0x4DF	FIELD ITEM					FV_FLD_ITEM_141
+0x4E0	FIELD ITEM					FV_FLD_ITEM_142
+0x4E1	FIELD ITEM					FV_FLD_ITEM_143
+0x4E2	FIELD ITEM					FV_FLD_ITEM_144
+0x4E3	FIELD ITEM					FV_FLD_ITEM_145
+0x4E4	FIELD ITEM					FV_FLD_ITEM_146
+0x4E5	FIELD ITEM					FV_FLD_ITEM_147
+0x4E6	FIELD ITEM					FV_FLD_ITEM_148
+0x4E7	FIELD ITEM					FV_FLD_ITEM_149
+0x4E8	FIELD ITEM					FV_FLD_ITEM_150
+0x4E9	FIELD ITEM					FV_FLD_ITEM_151
+0x4EA	FIELD ITEM					FV_FLD_ITEM_152
+0x4EB	FIELD ITEM					FV_FLD_ITEM_153
+0x4EC	FIELD ITEM					FV_FLD_ITEM_154
+0x4ED	FIELD ITEM					FV_FLD_ITEM_155
+0x4EE	FIELD ITEM					FV_FLD_ITEM_156
+0x4EF	FIELD ITEM					FV_FLD_ITEM_157
+0x4F0	FIELD ITEM					FV_FLD_ITEM_158
+0x4F1	FIELD ITEM					FV_FLD_ITEM_159
+0x4F2	FIELD ITEM					FV_FLD_ITEM_160
+0x4F3	FIELD ITEM					FV_FLD_ITEM_161
+0x4F4	FIELD ITEM					FV_FLD_ITEM_162
+0x4F5	FIELD ITEM					FV_FLD_ITEM_163
+0x4F6	FIELD ITEM					FV_FLD_ITEM_164
+0x4F7	FIELD ITEM					FV_FLD_ITEM_165
+0x4F8	FIELD ITEM					FV_FLD_ITEM_166
+0x4F9	FIELD ITEM					FV_FLD_ITEM_167
+0x4FA	FIELD ITEM					FV_FLD_ITEM_168
+0x4FB	FIELD ITEM					FV_FLD_ITEM_169
+0x4FC	FIELD ITEM					FV_FLD_ITEM_170
+0x4FD	FIELD ITEM					FV_FLD_ITEM_171
+0x4FE	FIELD ITEM					FV_FLD_ITEM_172
+0x4FF	FIELD ITEM					FV_FLD_ITEM_173
+0x500	FIELD ITEM					FV_FLD_ITEM_174
+0x501	FIELD ITEM					FV_FLD_ITEM_175
+0x502	FIELD ITEM					FV_FLD_ITEM_176
+0x503	FIELD ITEM					FV_FLD_ITEM_177
+0x504	FIELD ITEM					FV_FLD_ITEM_178
+0x505	FIELD ITEM					FV_FLD_ITEM_179
+0x506	FIELD ITEM					FV_FLD_ITEM_180
+0x507	FIELD ITEM					FV_FLD_ITEM_181
+0x508	FIELD ITEM					FV_FLD_ITEM_182
+0x509	FIELD ITEM					FV_FLD_ITEM_183
+0x50A	FIELD ITEM					FV_FLD_ITEM_184
+0x50B	FIELD ITEM					FV_FLD_ITEM_185
+0x50C	FIELD ITEM					FV_FLD_ITEM_186
+0x50D	FIELD ITEM					FV_FLD_ITEM_187
+0x50E	FIELD ITEM					FV_FLD_ITEM_188
+0x50F	FIELD ITEM					FV_FLD_ITEM_189
+0x510	FIELD ITEM					FV_FLD_ITEM_190
+0x511	FIELD ITEM					FV_FLD_ITEM_191
+0x512	FIELD ITEM					FV_FLD_ITEM_192
+0x513	FIELD ITEM					FV_FLD_ITEM_193
+0x514	FIELD ITEM					FV_FLD_ITEM_194
+0x515	FIELD ITEM					FV_FLD_ITEM_195
+0x516	FIELD ITEM					FV_FLD_ITEM_196
+0x517	FIELD ITEM					FV_FLD_ITEM_197
+0x518	FIELD ITEM					FV_FLD_ITEM_198
+0x519	FIELD ITEM					FV_FLD_ITEM_199
+0x51A	FIELD ITEM					FV_FLD_ITEM_200
+0x51B	FIELD ITEM					FV_FLD_ITEM_201
+0x51C	FIELD ITEM					FV_FLD_ITEM_202
+0x51D	FIELD ITEM					FV_FLD_ITEM_203
+0x51E	FIELD ITEM					FV_FLD_ITEM_204
+0x51F	FIELD ITEM					FV_FLD_ITEM_205
+0x520	FIELD ITEM					FV_FLD_ITEM_206
+0x521	FIELD ITEM					FV_FLD_ITEM_207
+0x522	FIELD ITEM					FV_FLD_ITEM_208
+0x523	FIELD ITEM					FV_FLD_ITEM_209
+0x524	FIELD ITEM					FV_FLD_ITEM_210
+0x525	FIELD ITEM					FV_FLD_ITEM_211
+0x526	FIELD ITEM					FV_FLD_ITEM_212
+0x527	FIELD ITEM					FV_FLD_ITEM_213
+0x528	FIELD ITEM					FV_FLD_ITEM_214
+0x529	FIELD ITEM					FV_FLD_ITEM_215
+0x52A	FIELD ITEM					FV_FLD_ITEM_216
+0x52B	FIELD ITEM					FV_FLD_ITEM_217
+0x52C	FIELD ITEM					FV_FLD_ITEM_218
+0x52D	FIELD ITEM					FV_FLD_ITEM_219
+0x52E	FIELD ITEM					FV_FLD_ITEM_220
+0x52F	FIELD ITEM					FV_FLD_ITEM_221
+0x530	FIELD ITEM					FV_FLD_ITEM_222
+0x531	FIELD ITEM					FV_FLD_ITEM_223
+0x532	FIELD ITEM					FV_FLD_ITEM_224
+0x533	FIELD ITEM					FV_FLD_ITEM_225
+0x534	FIELD ITEM					FV_FLD_ITEM_226
+0x535	FIELD ITEM					FV_FLD_ITEM_227
+0x536	FIELD ITEM					FV_FLD_ITEM_228
+0x537	FIELD ITEM					FV_FLD_ITEM_229
+0x538	FIELD ITEM					FV_FLD_ITEM_230
+0x539	FIELD ITEM					FV_FLD_ITEM_231
+0x53A	FIELD ITEM					FV_FLD_ITEM_232
+0x53B	FIELD ITEM					FV_FLD_ITEM_233
+0x53C	FIELD ITEM					FV_FLD_ITEM_234
+0x53D	FIELD ITEM					FV_FLD_ITEM_235
+0x53E	FIELD ITEM					FV_FLD_ITEM_236
+0x53F	FIELD ITEM					FV_FLD_ITEM_237
+0x540	FIELD ITEM					FV_FLD_ITEM_238
+0x541	FIELD ITEM					FV_FLD_ITEM_239
+0x542	FIELD ITEM					FV_FLD_ITEM_240
+0x543	FIELD ITEM					FV_FLD_ITEM_241
+0x544	FIELD ITEM					FV_FLD_ITEM_242
+0x545	FIELD ITEM					FV_FLD_ITEM_243
+0x546	FIELD ITEM					FV_FLD_ITEM_244
+0x547	FIELD ITEM					FV_FLD_ITEM_245
+0x548	FIELD ITEM					FV_FLD_ITEM_246
+0x549	FIELD ITEM					FV_FLD_ITEM_247
+0x54A	FIELD ITEM					FV_FLD_ITEM_248
+0x54B	FIELD ITEM					FV_FLD_ITEM_249
+0x54C	FIELD ITEM					FV_FLD_ITEM_250
+0x54D	FIELD ITEM					FV_FLD_ITEM_251
+0x54E	FIELD ITEM					FV_FLD_ITEM_252
+0x54F	FIELD ITEM					FV_FLD_ITEM_253
+0x550	FIELD ITEM					FV_FLD_ITEM_254
+0x551	FIELD ITEM					FV_FLD_ITEM_255
+0x552	FIELD ITEM					FV_FLD_ITEM_256
+0x553	FIELD ITEM					FV_FLD_ITEM_257
+0x554	FIELD ITEM					FV_FLD_ITEM_258
+0x555	FIELD ITEM					FV_FLD_ITEM_259
+0x556	FIELD ITEM					FV_FLD_ITEM_260
+0x557	FIELD ITEM					FV_FLD_ITEM_261
+0x558	FIELD ITEM					FV_FLD_ITEM_262
+0x559	FIELD ITEM					FV_FLD_ITEM_263
+0x55A	FIELD ITEM					FV_FLD_ITEM_264
+0x55B	FIELD ITEM					FV_FLD_ITEM_265
+0x55C	FIELD ITEM					FV_FLD_ITEM_266
+0x55D	FIELD ITEM					FV_FLD_ITEM_267
+0x55E	FIELD ITEM					FV_FLD_ITEM_268
+0x55F	FIELD ITEM					FV_FLD_ITEM_269
+0x560	FIELD ITEM					FV_FLD_ITEM_270
+0x561	FIELD ITEM					FV_FLD_ITEM_271
+0x562	FIELD ITEM					FV_FLD_ITEM_272
+0x563	FIELD ITEM					FV_FLD_ITEM_273
+0x564	FIELD ITEM					FV_FLD_ITEM_274
+0x565	FIELD ITEM					FV_FLD_ITEM_275
+0x566	FIELD ITEM					FV_FLD_ITEM_276
+0x567	FIELD ITEM					FV_FLD_ITEM_277
+0x568	FIELD ITEM					FV_FLD_ITEM_278
+0x569	FIELD ITEM					FV_FLD_ITEM_279
+0x56A	FIELD ITEM					FV_FLD_ITEM_280
+0x56B	FIELD ITEM					FV_FLD_ITEM_281
+0x56C	FIELD ITEM					FV_FLD_ITEM_282
+0x56D	FIELD ITEM					FV_FLD_ITEM_283
+0x56E	FIELD ITEM					FV_FLD_ITEM_284
+0x56F	FIELD ITEM					FV_FLD_ITEM_285
+0x570	FIELD ITEM					FV_FLD_ITEM_286
+0x571	FIELD ITEM					FV_FLD_ITEM_287
+0x572	FIELD ITEM					FV_FLD_ITEM_288
+0x573	FIELD ITEM					FV_FLD_ITEM_289
+0x574	FIELD ITEM					FV_FLD_ITEM_290
+0x575	FIELD ITEM					FV_FLD_ITEM_291
+0x576	FIELD ITEM					FV_FLD_ITEM_292
+0x577	FIELD ITEM					FV_FLD_ITEM_293
+0x578	FIELD ITEM					FV_FLD_ITEM_294
+0x579	FIELD ITEM					FV_FLD_ITEM_295
+0x57A	FIELD ITEM					FV_FLD_ITEM_296
+0x57B	FIELD ITEM					FV_FLD_ITEM_297
+0x57C	FIELD ITEM					FV_FLD_ITEM_298
+0x57D	FIELD ITEM					FV_FLD_ITEM_299
+0x57E	FIELD ITEM					FV_FLD_ITEM_300
+0x57F	FIELD ITEM					FV_FLD_ITEM_301
+0x580	FIELD ITEM					FV_FLD_ITEM_302
+0x581	FIELD ITEM					FV_FLD_ITEM_303
+0x582	FIELD ITEM					FV_FLD_ITEM_304
+0x583	FIELD ITEM	Dragon Spiral Tower		Dragon Fang		FV_FLD_ITEM_305
+0x584	_UNUSED					
+0x585	_UNUSED					
+0x586	_UNUSED					
+0x587	_UNUSED					
+0x588	_UNUSED					
+0x589	_UNUSED					
+0x58A	_UNUSED					
+0x58B	_UNUSED					
+0x58C	TRAINER BATTLE					TR_FLAG_000
+0x58D	TRAINER BATTLE					TR_FLAG_001
+0x58E	TRAINER BATTLE					TR_FLAG_002
+0x58F	TRAINER BATTLE					TR_FLAG_003
+0x590	TRAINER BATTLE					TR_FLAG_004
+0x591	TRAINER BATTLE					TR_FLAG_005
+0x592	TRAINER BATTLE					TR_FLAG_006
+0x593	TRAINER BATTLE					TR_FLAG_007
+0x594	TRAINER BATTLE					TR_FLAG_008
+0x595	TRAINER BATTLE					TR_FLAG_009
+0x596	TRAINER BATTLE					TR_FLAG_010
+0x597	TRAINER BATTLE					TR_FLAG_011
+0x598	TRAINER BATTLE					TR_FLAG_012
+0x599	TRAINER BATTLE					TR_FLAG_013
+0x59A	TRAINER BATTLE					TR_FLAG_014
+0x59B	TRAINER BATTLE					TR_FLAG_015
+0x59C	TRAINER BATTLE					TR_FLAG_016
+0x59D	TRAINER BATTLE					TR_FLAG_017
+0x59E	TRAINER BATTLE					TR_FLAG_018
+0x59F	TRAINER BATTLE					TR_FLAG_019
+0x5A0	TRAINER BATTLE					TR_FLAG_020
+0x5A1	TRAINER BATTLE					TR_FLAG_021
+0x5A2	TRAINER BATTLE					TR_FLAG_022
+0x5A3	TRAINER BATTLE					TR_FLAG_023
+0x5A4	TRAINER BATTLE					TR_FLAG_024
+0x5A5	TRAINER BATTLE					TR_FLAG_025
+0x5A6	TRAINER BATTLE					TR_FLAG_026
+0x5A7	TRAINER BATTLE					TR_FLAG_027
+0x5A8	TRAINER BATTLE					TR_FLAG_028
+0x5A9	TRAINER BATTLE					TR_FLAG_029
+0x5AA	TRAINER BATTLE					TR_FLAG_030
+0x5AB	TRAINER BATTLE					TR_FLAG_031
+0x5AC	TRAINER BATTLE					TR_FLAG_032
+0x5AD	TRAINER BATTLE					TR_FLAG_033
+0x5AE	TRAINER BATTLE					TR_FLAG_034
+0x5AF	TRAINER BATTLE					TR_FLAG_035
+0x5B0	TRAINER BATTLE					TR_FLAG_036
+0x5B1	TRAINER BATTLE					TR_FLAG_037
+0x5B2	TRAINER BATTLE					TR_FLAG_038
+0x5B3	TRAINER BATTLE					TR_FLAG_039
+0x5B4	TRAINER BATTLE					TR_FLAG_040
+0x5B5	TRAINER BATTLE					TR_FLAG_041
+0x5B6	TRAINER BATTLE					TR_FLAG_042
+0x5B7	TRAINER BATTLE					TR_FLAG_043
+0x5B8	TRAINER BATTLE					TR_FLAG_044
+0x5B9	TRAINER BATTLE					TR_FLAG_045
+0x5BA	TRAINER BATTLE					TR_FLAG_046
+0x5BB	TRAINER BATTLE					TR_FLAG_047
+0x5BC	TRAINER BATTLE					TR_FLAG_048
+0x5BD	TRAINER BATTLE					TR_FLAG_049
+0x5BE	TRAINER BATTLE					TR_FLAG_050
+0x5BF	TRAINER BATTLE					TR_FLAG_051
+0x5C0	TRAINER BATTLE					TR_FLAG_052
+0x5C1	TRAINER BATTLE					TR_FLAG_053
+0x5C2	TRAINER BATTLE					TR_FLAG_054
+0x5C3	TRAINER BATTLE					TR_FLAG_055
+0x5C4	TRAINER BATTLE					TR_FLAG_056
+0x5C5	TRAINER BATTLE					TR_FLAG_057
+0x5C6	TRAINER BATTLE					TR_FLAG_058
+0x5C7	TRAINER BATTLE					TR_FLAG_059
+0x5C8	TRAINER BATTLE					TR_FLAG_060
+0x5C9	TRAINER BATTLE					TR_FLAG_061
+0x5CA	TRAINER BATTLE					TR_FLAG_062
+0x5CB	TRAINER BATTLE					TR_FLAG_063
+0x5CC	TRAINER BATTLE					TR_FLAG_064
+0x5CD	TRAINER BATTLE					TR_FLAG_065
+0x5CE	TRAINER BATTLE					TR_FLAG_066
+0x5CF	TRAINER BATTLE					TR_FLAG_067
+0x5D0	TRAINER BATTLE					TR_FLAG_068
+0x5D1	TRAINER BATTLE					TR_FLAG_069
+0x5D2	TRAINER BATTLE					TR_FLAG_070
+0x5D3	TRAINER BATTLE					TR_FLAG_071
+0x5D4	TRAINER BATTLE					TR_FLAG_072
+0x5D5	TRAINER BATTLE					TR_FLAG_073
+0x5D6	TRAINER BATTLE					TR_FLAG_074
+0x5D7	TRAINER BATTLE					TR_FLAG_075
+0x5D8	TRAINER BATTLE					TR_FLAG_076
+0x5D9	TRAINER BATTLE					TR_FLAG_077
+0x5DA	TRAINER BATTLE					TR_FLAG_078
+0x5DB	TRAINER BATTLE					TR_FLAG_079
+0x5DC	TRAINER BATTLE					TR_FLAG_080
+0x5DD	TRAINER BATTLE					TR_FLAG_081
+0x5DE	TRAINER BATTLE					TR_FLAG_082
+0x5DF	TRAINER BATTLE					TR_FLAG_083
+0x5E0	TRAINER BATTLE					TR_FLAG_084
+0x5E1	TRAINER BATTLE					TR_FLAG_085
+0x5E2	TRAINER BATTLE					TR_FLAG_086
+0x5E3	TRAINER BATTLE					TR_FLAG_087
+0x5E4	TRAINER BATTLE					TR_FLAG_088
+0x5E5	TRAINER BATTLE					TR_FLAG_089
+0x5E6	TRAINER BATTLE					TR_FLAG_090
+0x5E7	TRAINER BATTLE					TR_FLAG_091
+0x5E8	TRAINER BATTLE					TR_FLAG_092
+0x5E9	TRAINER BATTLE					TR_FLAG_093
+0x5EA	TRAINER BATTLE					TR_FLAG_094
+0x5EB	TRAINER BATTLE					TR_FLAG_095
+0x5EC	TRAINER BATTLE					TR_FLAG_096
+0x5ED	TRAINER BATTLE					TR_FLAG_097
+0x5EE	TRAINER BATTLE					TR_FLAG_098
+0x5EF	TRAINER BATTLE					TR_FLAG_099
+0x5F0	TRAINER BATTLE					TR_FLAG_100
+0x5F1	TRAINER BATTLE					TR_FLAG_101
+0x5F2	TRAINER BATTLE					TR_FLAG_102
+0x5F3	TRAINER BATTLE					TR_FLAG_103
+0x5F4	TRAINER BATTLE					TR_FLAG_104
+0x5F5	TRAINER BATTLE					TR_FLAG_105
+0x5F6	TRAINER BATTLE					TR_FLAG_106
+0x5F7	TRAINER BATTLE					TR_FLAG_107
+0x5F8	TRAINER BATTLE					TR_FLAG_108
+0x5F9	TRAINER BATTLE					TR_FLAG_109
+0x5FA	TRAINER BATTLE					TR_FLAG_110
+0x5FB	TRAINER BATTLE					TR_FLAG_111
+0x5FC	TRAINER BATTLE					TR_FLAG_112
+0x5FD	TRAINER BATTLE					TR_FLAG_113
+0x5FE	TRAINER BATTLE					TR_FLAG_114
+0x5FF	TRAINER BATTLE					TR_FLAG_115
+0x600	TRAINER BATTLE					TR_FLAG_116
+0x601	TRAINER BATTLE					TR_FLAG_117
+0x602	TRAINER BATTLE					TR_FLAG_118
+0x603	TRAINER BATTLE					TR_FLAG_119
+0x604	TRAINER BATTLE					TR_FLAG_120
+0x605	TRAINER BATTLE					TR_FLAG_121
+0x606	TRAINER BATTLE					TR_FLAG_122
+0x607	TRAINER BATTLE					TR_FLAG_123
+0x608	TRAINER BATTLE					TR_FLAG_124
+0x609	TRAINER BATTLE					TR_FLAG_125
+0x60A	TRAINER BATTLE					TR_FLAG_126
+0x60B	TRAINER BATTLE					TR_FLAG_127
+0x60C	TRAINER BATTLE					TR_FLAG_128
+0x60D	TRAINER BATTLE					TR_FLAG_129
+0x60E	TRAINER BATTLE					TR_FLAG_130
+0x60F	TRAINER BATTLE					TR_FLAG_131
+0x610	TRAINER BATTLE					TR_FLAG_132
+0x611	TRAINER BATTLE					TR_FLAG_133
+0x612	TRAINER BATTLE					TR_FLAG_134
+0x613	TRAINER BATTLE					TR_FLAG_135
+0x614	TRAINER BATTLE					TR_FLAG_136
+0x615	TRAINER BATTLE					TR_FLAG_137
+0x616	TRAINER BATTLE					TR_FLAG_138
+0x617	TRAINER BATTLE					TR_FLAG_139
+0x618	TRAINER BATTLE					TR_FLAG_140
+0x619	TRAINER BATTLE					TR_FLAG_141
+0x61A	TRAINER BATTLE					TR_FLAG_142
+0x61B	TRAINER BATTLE					TR_FLAG_143
+0x61C	TRAINER BATTLE					TR_FLAG_144
+0x61D	TRAINER BATTLE					TR_FLAG_145
+0x61E	TRAINER BATTLE					TR_FLAG_146
+0x61F	TRAINER BATTLE					TR_FLAG_147
+0x620	TRAINER BATTLE					TR_FLAG_148
+0x621	TRAINER BATTLE					TR_FLAG_149
+0x622	TRAINER BATTLE					TR_FLAG_150
+0x623	TRAINER BATTLE					TR_FLAG_151
+0x624	TRAINER BATTLE					TR_FLAG_152
+0x625	TRAINER BATTLE					TR_FLAG_153
+0x626	TRAINER BATTLE					TR_FLAG_154
+0x627	TRAINER BATTLE					TR_FLAG_155
+0x628	TRAINER BATTLE					TR_FLAG_156
+0x629	TRAINER BATTLE					TR_FLAG_157
+0x62A	TRAINER BATTLE					TR_FLAG_158
+0x62B	TRAINER BATTLE					TR_FLAG_159
+0x62C	TRAINER BATTLE					TR_FLAG_160
+0x62D	TRAINER BATTLE					TR_FLAG_161
+0x62E	TRAINER BATTLE					TR_FLAG_162
+0x62F	TRAINER BATTLE					TR_FLAG_163
+0x630	TRAINER BATTLE					TR_FLAG_164
+0x631	TRAINER BATTLE					TR_FLAG_165
+0x632	TRAINER BATTLE					TR_FLAG_166
+0x633	TRAINER BATTLE					TR_FLAG_167
+0x634	TRAINER BATTLE					TR_FLAG_168
+0x635	TRAINER BATTLE					TR_FLAG_169
+0x636	TRAINER BATTLE					TR_FLAG_170
+0x637	TRAINER BATTLE					TR_FLAG_171
+0x638	TRAINER BATTLE					TR_FLAG_172
+0x639	TRAINER BATTLE					TR_FLAG_173
+0x63A	TRAINER BATTLE					TR_FLAG_174
+0x63B	TRAINER BATTLE					TR_FLAG_175
+0x63C	TRAINER BATTLE					TR_FLAG_176
+0x63D	TRAINER BATTLE					TR_FLAG_177
+0x63E	TRAINER BATTLE					TR_FLAG_178
+0x63F	TRAINER BATTLE					TR_FLAG_179
+0x640	TRAINER BATTLE					TR_FLAG_180
+0x641	TRAINER BATTLE					TR_FLAG_181
+0x642	TRAINER BATTLE					TR_FLAG_182
+0x643	TRAINER BATTLE					TR_FLAG_183
+0x644	TRAINER BATTLE					TR_FLAG_184
+0x645	TRAINER BATTLE					TR_FLAG_185
+0x646	TRAINER BATTLE					TR_FLAG_186
+0x647	TRAINER BATTLE					TR_FLAG_187
+0x648	TRAINER BATTLE					TR_FLAG_188
+0x649	TRAINER BATTLE					TR_FLAG_189
+0x64A	TRAINER BATTLE					TR_FLAG_190
+0x64B	TRAINER BATTLE					TR_FLAG_191
+0x64C	TRAINER BATTLE					TR_FLAG_192
+0x64D	TRAINER BATTLE					TR_FLAG_193
+0x64E	TRAINER BATTLE					TR_FLAG_194
+0x64F	TRAINER BATTLE					TR_FLAG_195
+0x650	TRAINER BATTLE					TR_FLAG_196
+0x651	TRAINER BATTLE					TR_FLAG_197
+0x652	TRAINER BATTLE					TR_FLAG_198
+0x653	TRAINER BATTLE					TR_FLAG_199
+0x654	TRAINER BATTLE					TR_FLAG_200
+0x655	TRAINER BATTLE					TR_FLAG_201
+0x656	TRAINER BATTLE					TR_FLAG_202
+0x657	TRAINER BATTLE					TR_FLAG_203
+0x658	TRAINER BATTLE					TR_FLAG_204
+0x659	TRAINER BATTLE					TR_FLAG_205
+0x65A	TRAINER BATTLE					TR_FLAG_206
+0x65B	TRAINER BATTLE					TR_FLAG_207
+0x65C	TRAINER BATTLE					TR_FLAG_208
+0x65D	TRAINER BATTLE					TR_FLAG_209
+0x65E	TRAINER BATTLE					TR_FLAG_210
+0x65F	TRAINER BATTLE					TR_FLAG_211
+0x660	TRAINER BATTLE					TR_FLAG_212
+0x661	TRAINER BATTLE					TR_FLAG_213
+0x662	TRAINER BATTLE					TR_FLAG_214
+0x663	TRAINER BATTLE					TR_FLAG_215
+0x664	TRAINER BATTLE					TR_FLAG_216
+0x665	TRAINER BATTLE					TR_FLAG_217
+0x666	TRAINER BATTLE					TR_FLAG_218
+0x667	TRAINER BATTLE					TR_FLAG_219
+0x668	TRAINER BATTLE					TR_FLAG_220
+0x669	TRAINER BATTLE					TR_FLAG_221
+0x66A	TRAINER BATTLE					TR_FLAG_222
+0x66B	TRAINER BATTLE					TR_FLAG_223
+0x66C	TRAINER BATTLE					TR_FLAG_224
+0x66D	TRAINER BATTLE					TR_FLAG_225
+0x66E	TRAINER BATTLE					TR_FLAG_226
+0x66F	TRAINER BATTLE					TR_FLAG_227
+0x670	TRAINER BATTLE					TR_FLAG_228
+0x671	TRAINER BATTLE					TR_FLAG_229
+0x672	TRAINER BATTLE					TR_FLAG_230
+0x673	TRAINER BATTLE					TR_FLAG_231
+0x674	TRAINER BATTLE					TR_FLAG_232
+0x675	TRAINER BATTLE					TR_FLAG_233
+0x676	TRAINER BATTLE					TR_FLAG_234
+0x677	TRAINER BATTLE					TR_FLAG_235
+0x678	TRAINER BATTLE					TR_FLAG_236
+0x679	TRAINER BATTLE					TR_FLAG_237
+0x67A	TRAINER BATTLE					TR_FLAG_238
+0x67B	TRAINER BATTLE					TR_FLAG_239
+0x67C	TRAINER BATTLE					TR_FLAG_240
+0x67D	TRAINER BATTLE					TR_FLAG_241
+0x67E	TRAINER BATTLE					TR_FLAG_242
+0x67F	TRAINER BATTLE					TR_FLAG_243
+0x680	TRAINER BATTLE					TR_FLAG_244
+0x681	TRAINER BATTLE					TR_FLAG_245
+0x682	TRAINER BATTLE					TR_FLAG_246
+0x683	TRAINER BATTLE					TR_FLAG_247
+0x684	TRAINER BATTLE					TR_FLAG_248
+0x685	TRAINER BATTLE					TR_FLAG_249
+0x686	TRAINER BATTLE					TR_FLAG_250
+0x687	TRAINER BATTLE					TR_FLAG_251
+0x688	TRAINER BATTLE					TR_FLAG_252
+0x689	TRAINER BATTLE					TR_FLAG_253
+0x68A	TRAINER BATTLE					TR_FLAG_254
+0x68B	TRAINER BATTLE					TR_FLAG_255
+0x68C	TRAINER BATTLE					TR_FLAG_256
+0x68D	TRAINER BATTLE					TR_FLAG_257
+0x68E	TRAINER BATTLE					TR_FLAG_258
+0x68F	TRAINER BATTLE					TR_FLAG_259
+0x690	TRAINER BATTLE					TR_FLAG_260
+0x691	TRAINER BATTLE					TR_FLAG_261
+0x692	TRAINER BATTLE					TR_FLAG_262
+0x693	TRAINER BATTLE					TR_FLAG_263
+0x694	TRAINER BATTLE					TR_FLAG_264
+0x695	TRAINER BATTLE					TR_FLAG_265
+0x696	TRAINER BATTLE					TR_FLAG_266
+0x697	TRAINER BATTLE					TR_FLAG_267
+0x698	TRAINER BATTLE					TR_FLAG_268
+0x699	TRAINER BATTLE					TR_FLAG_269
+0x69A	TRAINER BATTLE					TR_FLAG_270
+0x69B	TRAINER BATTLE					TR_FLAG_271
+0x69C	TRAINER BATTLE					TR_FLAG_272
+0x69D	TRAINER BATTLE					TR_FLAG_273
+0x69E	TRAINER BATTLE					TR_FLAG_274
+0x69F	TRAINER BATTLE					TR_FLAG_275
+0x6A0	TRAINER BATTLE					TR_FLAG_276
+0x6A1	TRAINER BATTLE					TR_FLAG_277
+0x6A2	TRAINER BATTLE					TR_FLAG_278
+0x6A3	TRAINER BATTLE					TR_FLAG_279
+0x6A4	TRAINER BATTLE					TR_FLAG_280
+0x6A5	TRAINER BATTLE					TR_FLAG_281
+0x6A6	TRAINER BATTLE					TR_FLAG_282
+0x6A7	TRAINER BATTLE					TR_FLAG_283
+0x6A8	TRAINER BATTLE					TR_FLAG_284
+0x6A9	TRAINER BATTLE					TR_FLAG_285
+0x6AA	TRAINER BATTLE					TR_FLAG_286
+0x6AB	TRAINER BATTLE					TR_FLAG_287
+0x6AC	TRAINER BATTLE					TR_FLAG_288
+0x6AD	TRAINER BATTLE					TR_FLAG_289
+0x6AE	TRAINER BATTLE					TR_FLAG_290
+0x6AF	TRAINER BATTLE					TR_FLAG_291
+0x6B0	TRAINER BATTLE					TR_FLAG_292
+0x6B1	TRAINER BATTLE					TR_FLAG_293
+0x6B2	TRAINER BATTLE					TR_FLAG_294
+0x6B3	TRAINER BATTLE					TR_FLAG_295
+0x6B4	TRAINER BATTLE					TR_FLAG_296
+0x6B5	TRAINER BATTLE					TR_FLAG_297
+0x6B6	TRAINER BATTLE					TR_FLAG_298
+0x6B7	TRAINER BATTLE					TR_FLAG_299
+0x6B8	TRAINER BATTLE					TR_FLAG_300
+0x6B9	TRAINER BATTLE					TR_FLAG_301
+0x6BA	TRAINER BATTLE					TR_FLAG_302
+0x6BB	TRAINER BATTLE					TR_FLAG_303
+0x6BC	TRAINER BATTLE					TR_FLAG_304
+0x6BD	TRAINER BATTLE					TR_FLAG_305
+0x6BE	TRAINER BATTLE					TR_FLAG_306
+0x6BF	TRAINER BATTLE					TR_FLAG_307
+0x6C0	TRAINER BATTLE					TR_FLAG_308
+0x6C1	TRAINER BATTLE					TR_FLAG_309
+0x6C2	TRAINER BATTLE					TR_FLAG_310
+0x6C3	TRAINER BATTLE					TR_FLAG_311
+0x6C4	TRAINER BATTLE					TR_FLAG_312
+0x6C5	TRAINER BATTLE					TR_FLAG_313
+0x6C6	TRAINER BATTLE					TR_FLAG_314
+0x6C7	TRAINER BATTLE					TR_FLAG_315
+0x6C8	TRAINER BATTLE					TR_FLAG_316
+0x6C9	TRAINER BATTLE					TR_FLAG_317
+0x6CA	TRAINER BATTLE					TR_FLAG_318
+0x6CB	TRAINER BATTLE					TR_FLAG_319
+0x6CC	TRAINER BATTLE					TR_FLAG_320
+0x6CD	TRAINER BATTLE					TR_FLAG_321
+0x6CE	TRAINER BATTLE					TR_FLAG_322
+0x6CF	TRAINER BATTLE					TR_FLAG_323
+0x6D0	TRAINER BATTLE					TR_FLAG_324
+0x6D1	TRAINER BATTLE					TR_FLAG_325
+0x6D2	TRAINER BATTLE					TR_FLAG_326
+0x6D3	TRAINER BATTLE					TR_FLAG_327
+0x6D4	TRAINER BATTLE					TR_FLAG_328
+0x6D5	TRAINER BATTLE					TR_FLAG_329
+0x6D6	TRAINER BATTLE					TR_FLAG_330
+0x6D7	TRAINER BATTLE					TR_FLAG_331
+0x6D8	TRAINER BATTLE					TR_FLAG_332
+0x6D9	TRAINER BATTLE					TR_FLAG_333
+0x6DA	TRAINER BATTLE					TR_FLAG_334
+0x6DB	TRAINER BATTLE					TR_FLAG_335
+0x6DC	TRAINER BATTLE					TR_FLAG_336
+0x6DD	TRAINER BATTLE					TR_FLAG_337
+0x6DE	TRAINER BATTLE					TR_FLAG_338
+0x6DF	TRAINER BATTLE					TR_FLAG_339
+0x6E0	TRAINER BATTLE					TR_FLAG_340
+0x6E1	TRAINER BATTLE					TR_FLAG_341
+0x6E2	TRAINER BATTLE					TR_FLAG_342
+0x6E3	TRAINER BATTLE					TR_FLAG_343
+0x6E4	TRAINER BATTLE					TR_FLAG_344
+0x6E5	TRAINER BATTLE					TR_FLAG_345
+0x6E6	TRAINER BATTLE					TR_FLAG_346
+0x6E7	TRAINER BATTLE					TR_FLAG_347
+0x6E8	TRAINER BATTLE					TR_FLAG_348
+0x6E9	TRAINER BATTLE					TR_FLAG_349
+0x6EA	TRAINER BATTLE					TR_FLAG_350
+0x6EB	TRAINER BATTLE					TR_FLAG_351
+0x6EC	TRAINER BATTLE					TR_FLAG_352
+0x6ED	TRAINER BATTLE					TR_FLAG_353
+0x6EE	TRAINER BATTLE					TR_FLAG_354
+0x6EF	TRAINER BATTLE					TR_FLAG_355
+0x6F0	TRAINER BATTLE					TR_FLAG_356
+0x6F1	TRAINER BATTLE					TR_FLAG_357
+0x6F2	TRAINER BATTLE					TR_FLAG_358
+0x6F3	TRAINER BATTLE					TR_FLAG_359
+0x6F4	TRAINER BATTLE					TR_FLAG_360
+0x6F5	TRAINER BATTLE					TR_FLAG_361
+0x6F6	TRAINER BATTLE					TR_FLAG_362
+0x6F7	TRAINER BATTLE					TR_FLAG_363
+0x6F8	TRAINER BATTLE					TR_FLAG_364
+0x6F9	TRAINER BATTLE					TR_FLAG_365
+0x6FA	TRAINER BATTLE					TR_FLAG_366
+0x6FB	TRAINER BATTLE					TR_FLAG_367
+0x6FC	TRAINER BATTLE					TR_FLAG_368
+0x6FD	TRAINER BATTLE					TR_FLAG_369
+0x6FE	TRAINER BATTLE					TR_FLAG_370
+0x6FF	TRAINER BATTLE					TR_FLAG_371
+0x700	TRAINER BATTLE					TR_FLAG_372
+0x701	TRAINER BATTLE					TR_FLAG_373
+0x702	TRAINER BATTLE					TR_FLAG_374
+0x703	TRAINER BATTLE					TR_FLAG_375
+0x704	TRAINER BATTLE					TR_FLAG_376
+0x705	TRAINER BATTLE					TR_FLAG_377
+0x706	TRAINER BATTLE					TR_FLAG_378
+0x707	TRAINER BATTLE					TR_FLAG_379
+0x708	TRAINER BATTLE					TR_FLAG_380
+0x709	TRAINER BATTLE					TR_FLAG_381
+0x70A	TRAINER BATTLE					TR_FLAG_382
+0x70B	TRAINER BATTLE					TR_FLAG_383
+0x70C	TRAINER BATTLE					TR_FLAG_384
+0x70D	TRAINER BATTLE					TR_FLAG_385
+0x70E	TRAINER BATTLE					TR_FLAG_386
+0x70F	TRAINER BATTLE					TR_FLAG_387
+0x710	TRAINER BATTLE					TR_FLAG_388
+0x711	TRAINER BATTLE					TR_FLAG_389
+0x712	TRAINER BATTLE					TR_FLAG_390
+0x713	TRAINER BATTLE					TR_FLAG_391
+0x714	TRAINER BATTLE					TR_FLAG_392
+0x715	TRAINER BATTLE					TR_FLAG_393
+0x716	TRAINER BATTLE					TR_FLAG_394
+0x717	TRAINER BATTLE					TR_FLAG_395
+0x718	TRAINER BATTLE					TR_FLAG_396
+0x719	TRAINER BATTLE					TR_FLAG_397
+0x71A	TRAINER BATTLE					TR_FLAG_398
+0x71B	TRAINER BATTLE					TR_FLAG_399
+0x71C	TRAINER BATTLE					TR_FLAG_400
+0x71D	TRAINER BATTLE					TR_FLAG_401
+0x71E	TRAINER BATTLE					TR_FLAG_402
+0x71F	TRAINER BATTLE					TR_FLAG_403
+0x720	TRAINER BATTLE					TR_FLAG_404
+0x721	TRAINER BATTLE					TR_FLAG_405
+0x722	TRAINER BATTLE					TR_FLAG_406
+0x723	TRAINER BATTLE					TR_FLAG_407
+0x724	TRAINER BATTLE					TR_FLAG_408
+0x725	TRAINER BATTLE					TR_FLAG_409
+0x726	TRAINER BATTLE					TR_FLAG_410
+0x727	TRAINER BATTLE					TR_FLAG_411
+0x728	TRAINER BATTLE					TR_FLAG_412
+0x729	TRAINER BATTLE					TR_FLAG_413
+0x72A	TRAINER BATTLE					TR_FLAG_414
+0x72B	TRAINER BATTLE					TR_FLAG_415
+0x72C	TRAINER BATTLE					TR_FLAG_416
+0x72D	TRAINER BATTLE					TR_FLAG_417
+0x72E	TRAINER BATTLE					TR_FLAG_418
+0x72F	TRAINER BATTLE					TR_FLAG_419
+0x730	TRAINER BATTLE					TR_FLAG_420
+0x731	TRAINER BATTLE					TR_FLAG_421
+0x732	TRAINER BATTLE					TR_FLAG_422
+0x733	TRAINER BATTLE					TR_FLAG_423
+0x734	TRAINER BATTLE					TR_FLAG_424
+0x735	TRAINER BATTLE					TR_FLAG_425
+0x736	TRAINER BATTLE					TR_FLAG_426
+0x737	TRAINER BATTLE					TR_FLAG_427
+0x738	TRAINER BATTLE					TR_FLAG_428
+0x739	TRAINER BATTLE					TR_FLAG_429
+0x73A	TRAINER BATTLE					TR_FLAG_430
+0x73B	TRAINER BATTLE					TR_FLAG_431
+0x73C	TRAINER BATTLE					TR_FLAG_432
+0x73D	TRAINER BATTLE					TR_FLAG_433
+0x73E	TRAINER BATTLE					TR_FLAG_434
+0x73F	TRAINER BATTLE					TR_FLAG_435
+0x740	TRAINER BATTLE					TR_FLAG_436
+0x741	TRAINER BATTLE					TR_FLAG_437
+0x742	TRAINER BATTLE					TR_FLAG_438
+0x743	TRAINER BATTLE					TR_FLAG_439
+0x744	TRAINER BATTLE					TR_FLAG_440
+0x745	TRAINER BATTLE					TR_FLAG_441
+0x746	TRAINER BATTLE					TR_FLAG_442
+0x747	TRAINER BATTLE					TR_FLAG_443
+0x748	TRAINER BATTLE					TR_FLAG_444
+0x749	TRAINER BATTLE					TR_FLAG_445
+0x74A	TRAINER BATTLE					TR_FLAG_446
+0x74B	TRAINER BATTLE					TR_FLAG_447
+0x74C	TRAINER BATTLE					TR_FLAG_448
+0x74D	TRAINER BATTLE					TR_FLAG_449
+0x74E	TRAINER BATTLE					TR_FLAG_450
+0x74F	TRAINER BATTLE					TR_FLAG_451
+0x750	TRAINER BATTLE					TR_FLAG_452
+0x751	TRAINER BATTLE					TR_FLAG_453
+0x752	TRAINER BATTLE					TR_FLAG_454
+0x753	TRAINER BATTLE					TR_FLAG_455
+0x754	TRAINER BATTLE					TR_FLAG_456
+0x755	TRAINER BATTLE					TR_FLAG_457
+0x756	TRAINER BATTLE					TR_FLAG_458
+0x757	TRAINER BATTLE					TR_FLAG_459
+0x758	TRAINER BATTLE					TR_FLAG_460
+0x759	TRAINER BATTLE					TR_FLAG_461
+0x75A	TRAINER BATTLE					TR_FLAG_462
+0x75B	TRAINER BATTLE					TR_FLAG_463
+0x75C	TRAINER BATTLE					TR_FLAG_464
+0x75D	TRAINER BATTLE					TR_FLAG_465
+0x75E	TRAINER BATTLE					TR_FLAG_466
+0x75F	TRAINER BATTLE					TR_FLAG_467
+0x760	TRAINER BATTLE					TR_FLAG_468
+0x761	TRAINER BATTLE					TR_FLAG_469
+0x762	TRAINER BATTLE					TR_FLAG_470
+0x763	TRAINER BATTLE					TR_FLAG_471
+0x764	TRAINER BATTLE					TR_FLAG_472
+0x765	TRAINER BATTLE					TR_FLAG_473
+0x766	TRAINER BATTLE					TR_FLAG_474
+0x767	TRAINER BATTLE					TR_FLAG_475
+0x768	TRAINER BATTLE					TR_FLAG_476
+0x769	TRAINER BATTLE					TR_FLAG_477
+0x76A	TRAINER BATTLE					TR_FLAG_478
+0x76B	TRAINER BATTLE					TR_FLAG_479
+0x76C	TRAINER BATTLE					TR_FLAG_480
+0x76D	TRAINER BATTLE					TR_FLAG_481
+0x76E	TRAINER BATTLE					TR_FLAG_482
+0x76F	TRAINER BATTLE					TR_FLAG_483
+0x770	TRAINER BATTLE					TR_FLAG_484
+0x771	TRAINER BATTLE					TR_FLAG_485
+0x772	TRAINER BATTLE					TR_FLAG_486
+0x773	TRAINER BATTLE					TR_FLAG_487
+0x774	TRAINER BATTLE					TR_FLAG_488
+0x775	TRAINER BATTLE					TR_FLAG_489
+0x776	TRAINER BATTLE					TR_FLAG_490
+0x777	TRAINER BATTLE					TR_FLAG_491
+0x778	TRAINER BATTLE					TR_FLAG_492
+0x779	TRAINER BATTLE					TR_FLAG_493
+0x77A	TRAINER BATTLE					TR_FLAG_494
+0x77B	TRAINER BATTLE					TR_FLAG_495
+0x77C	TRAINER BATTLE					TR_FLAG_496
+0x77D	TRAINER BATTLE					TR_FLAG_497
+0x77E	TRAINER BATTLE					TR_FLAG_498
+0x77F	TRAINER BATTLE					TR_FLAG_499
+0x780	TRAINER BATTLE					TR_FLAG_500
+0x781	TRAINER BATTLE					TR_FLAG_501
+0x782	TRAINER BATTLE					TR_FLAG_502
+0x783	TRAINER BATTLE					TR_FLAG_503
+0x784	TRAINER BATTLE					TR_FLAG_504
+0x785	TRAINER BATTLE					TR_FLAG_505
+0x786	TRAINER BATTLE					TR_FLAG_506
+0x787	TRAINER BATTLE					TR_FLAG_507
+0x788	TRAINER BATTLE					TR_FLAG_508
+0x789	TRAINER BATTLE					TR_FLAG_509
+0x78A	TRAINER BATTLE					TR_FLAG_510
+0x78B	TRAINER BATTLE					TR_FLAG_511
+0x78C	TRAINER BATTLE					TR_FLAG_512
+0x78D	TRAINER BATTLE					TR_FLAG_513
+0x78E	TRAINER BATTLE					TR_FLAG_514
+0x78F	TRAINER BATTLE					TR_FLAG_515
+0x790	TRAINER BATTLE					TR_FLAG_516
+0x791	TRAINER BATTLE					TR_FLAG_517
+0x792	TRAINER BATTLE					TR_FLAG_518
+0x793	TRAINER BATTLE					TR_FLAG_519
+0x794	TRAINER BATTLE					TR_FLAG_520
+0x795	TRAINER BATTLE					TR_FLAG_521
+0x796	TRAINER BATTLE					TR_FLAG_522
+0x797	TRAINER BATTLE					TR_FLAG_523
+0x798	TRAINER BATTLE					TR_FLAG_524
+0x799	TRAINER BATTLE					TR_FLAG_525
+0x79A	TRAINER BATTLE					TR_FLAG_526
+0x79B	TRAINER BATTLE					TR_FLAG_527
+0x79C	TRAINER BATTLE					TR_FLAG_528
+0x79D	TRAINER BATTLE					TR_FLAG_529
+0x79E	TRAINER BATTLE					TR_FLAG_530
+0x79F	TRAINER BATTLE					TR_FLAG_531
+0x7A0	TRAINER BATTLE					TR_FLAG_532
+0x7A1	TRAINER BATTLE					TR_FLAG_533
+0x7A2	TRAINER BATTLE					TR_FLAG_534
+0x7A3	TRAINER BATTLE					TR_FLAG_535
+0x7A4	TRAINER BATTLE					TR_FLAG_536
+0x7A5	TRAINER BATTLE					TR_FLAG_537
+0x7A6	TRAINER BATTLE					TR_FLAG_538
+0x7A7	TRAINER BATTLE					TR_FLAG_539
+0x7A8	TRAINER BATTLE					TR_FLAG_540
+0x7A9	TRAINER BATTLE					TR_FLAG_541
+0x7AA	TRAINER BATTLE					TR_FLAG_542
+0x7AB	TRAINER BATTLE					TR_FLAG_543
+0x7AC	TRAINER BATTLE					TR_FLAG_544
+0x7AD	TRAINER BATTLE					TR_FLAG_545
+0x7AE	TRAINER BATTLE					TR_FLAG_546
+0x7AF	TRAINER BATTLE					TR_FLAG_547
+0x7B0	TRAINER BATTLE					TR_FLAG_548
+0x7B1	TRAINER BATTLE					TR_FLAG_549
+0x7B2	TRAINER BATTLE					TR_FLAG_550
+0x7B3	TRAINER BATTLE					TR_FLAG_551
+0x7B4	TRAINER BATTLE					TR_FLAG_552
+0x7B5	TRAINER BATTLE					TR_FLAG_553
+0x7B6	TRAINER BATTLE					TR_FLAG_554
+0x7B7	TRAINER BATTLE					TR_FLAG_555
+0x7B8	TRAINER BATTLE					TR_FLAG_556
+0x7B9	TRAINER BATTLE					TR_FLAG_557
+0x7BA	TRAINER BATTLE					TR_FLAG_558
+0x7BB	TRAINER BATTLE					TR_FLAG_559
+0x7BC	TRAINER BATTLE					TR_FLAG_560
+0x7BD	TRAINER BATTLE					TR_FLAG_561
+0x7BE	TRAINER BATTLE					TR_FLAG_562
+0x7BF	TRAINER BATTLE					TR_FLAG_563
+0x7C0	TRAINER BATTLE					TR_FLAG_564
+0x7C1	TRAINER BATTLE					TR_FLAG_565
+0x7C2	TRAINER BATTLE					TR_FLAG_566
+0x7C3	TRAINER BATTLE					TR_FLAG_567
+0x7C4	TRAINER BATTLE					TR_FLAG_568
+0x7C5	TRAINER BATTLE					TR_FLAG_569
+0x7C6	TRAINER BATTLE					TR_FLAG_570
+0x7C7	TRAINER BATTLE					TR_FLAG_571
+0x7C8	TRAINER BATTLE					TR_FLAG_572
+0x7C9	TRAINER BATTLE					TR_FLAG_573
+0x7CA	TRAINER BATTLE					TR_FLAG_574
+0x7CB	TRAINER BATTLE					TR_FLAG_575
+0x7CC	TRAINER BATTLE					TR_FLAG_576
+0x7CD	TRAINER BATTLE					TR_FLAG_577
+0x7CE	TRAINER BATTLE					TR_FLAG_578
+0x7CF	TRAINER BATTLE					TR_FLAG_579
+0x7D0	TRAINER BATTLE					TR_FLAG_580
+0x7D1	TRAINER BATTLE					TR_FLAG_581
+0x7D2	TRAINER BATTLE					TR_FLAG_582
+0x7D3	TRAINER BATTLE					TR_FLAG_583
+0x7D4	TRAINER BATTLE					TR_FLAG_584
+0x7D5	TRAINER BATTLE					TR_FLAG_585
+0x7D6	TRAINER BATTLE					TR_FLAG_586
+0x7D7	TRAINER BATTLE					TR_FLAG_587
+0x7D8	TRAINER BATTLE					TR_FLAG_588
+0x7D9	TRAINER BATTLE					TR_FLAG_589
+0x7DA	TRAINER BATTLE					TR_FLAG_590
+0x7DB	TRAINER BATTLE					TR_FLAG_591
+0x7DC	TRAINER BATTLE					TR_FLAG_592
+0x7DD	TRAINER BATTLE					TR_FLAG_593
+0x7DE	TRAINER BATTLE					TR_FLAG_594
+0x7DF	TRAINER BATTLE					TR_FLAG_595
+0x7E0	TRAINER BATTLE					TR_FLAG_596
+0x7E1	TRAINER BATTLE					TR_FLAG_597
+0x7E2	TRAINER BATTLE					TR_FLAG_598
+0x7E3	TRAINER BATTLE					TR_FLAG_599
+0x7E4	TRAINER BATTLE					TR_FLAG_600
+0x7E5	TRAINER BATTLE					TR_FLAG_601
+0x7E6	TRAINER BATTLE					TR_FLAG_602
+0x7E7	TRAINER BATTLE					TR_FLAG_603
+0x7E8	TRAINER BATTLE					TR_FLAG_604
+0x7E9	TRAINER BATTLE					TR_FLAG_605
+0x7EA	TRAINER BATTLE					TR_FLAG_606
+0x7EB	TRAINER BATTLE					TR_FLAG_607
+0x7EC	TRAINER BATTLE					TR_FLAG_608
+0x7ED	TRAINER BATTLE					TR_FLAG_609
+0x7EE	TRAINER BATTLE					TR_FLAG_610
+0x7EF	TRAINER BATTLE					TR_FLAG_611
+0x7F0	TRAINER BATTLE					TR_FLAG_612
+0x7F1	TRAINER BATTLE					TR_FLAG_613
+0x7F2	TRAINER BATTLE					TR_FLAG_614
+0x7F3	TRAINER BATTLE					TR_FLAG_615
+0x7F4	TRAINER BATTLE					TR_FLAG_616
+0x7F5	TRAINER BATTLE					TR_FLAG_617
+0x7F6	TRAINER BATTLE					TR_FLAG_618
+0x7F7	TRAINER BATTLE					TR_FLAG_619
+0x7F8	TRAINER BATTLE					TR_FLAG_620
+0x7F9	TRAINER BATTLE					TR_FLAG_621
+0x7FA	TRAINER BATTLE					TR_FLAG_622
+0x7FB	TRAINER BATTLE					TR_FLAG_623
+0x7FC	TRAINER BATTLE					TR_FLAG_624
+0x7FD	TRAINER BATTLE					TR_FLAG_625
+0x7FE	TRAINER BATTLE					TR_FLAG_626
+0x7FF	TRAINER BATTLE					TR_FLAG_627
+0x800	TRAINER BATTLE					TR_FLAG_628
+0x801	TRAINER BATTLE					TR_FLAG_629
+0x802	TRAINER BATTLE					TR_FLAG_630
+0x803	TRAINER BATTLE					TR_FLAG_631
+0x804	TRAINER BATTLE					TR_FLAG_632
+0x805	TRAINER BATTLE					TR_FLAG_633
+0x806	TRAINER BATTLE					TR_FLAG_634
+0x807	TRAINER BATTLE					TR_FLAG_635
+0x808	TRAINER BATTLE					TR_FLAG_636
+0x809	TRAINER BATTLE					TR_FLAG_637
+0x80A	TRAINER BATTLE					TR_FLAG_638
+0x80B	TRAINER BATTLE					TR_FLAG_639
+0x80C	TRAINER BATTLE					TR_FLAG_640
+0x80D	TRAINER BATTLE					TR_FLAG_641
+0x80E	TRAINER BATTLE					TR_FLAG_642
+0x80F	TRAINER BATTLE					TR_FLAG_643
+0x810	TRAINER BATTLE					TR_FLAG_644
+0x811	TRAINER BATTLE					TR_FLAG_645
+0x812	TRAINER BATTLE					TR_FLAG_646
+0x813	TRAINER BATTLE					TR_FLAG_647
+0x814	TRAINER BATTLE					TR_FLAG_648
+0x815	TRAINER BATTLE					TR_FLAG_649
+0x816	TRAINER BATTLE					TR_FLAG_650
+0x817	TRAINER BATTLE					TR_FLAG_651
+0x818	TRAINER BATTLE					TR_FLAG_652
+0x819	TRAINER BATTLE					TR_FLAG_653
+0x81A	TRAINER BATTLE					TR_FLAG_654
+0x81B	TRAINER BATTLE					TR_FLAG_655
+0x81C	TRAINER BATTLE					TR_FLAG_656
+0x81D	TRAINER BATTLE					TR_FLAG_657
+0x81E	TRAINER BATTLE					TR_FLAG_658
+0x81F	TRAINER BATTLE					TR_FLAG_659
+0x820	TRAINER BATTLE					TR_FLAG_660
+0x821	TRAINER BATTLE					TR_FLAG_661
+0x822	TRAINER BATTLE					TR_FLAG_662
+0x823	TRAINER BATTLE					TR_FLAG_663
+0x824	TRAINER BATTLE					TR_FLAG_664
+0x825	TRAINER BATTLE					TR_FLAG_665
+0x826	TRAINER BATTLE					TR_FLAG_666
+0x827	TRAINER BATTLE					TR_FLAG_667
+0x828	TRAINER BATTLE					TR_FLAG_668
+0x829	TRAINER BATTLE					TR_FLAG_669
+0x82A	TRAINER BATTLE					TR_FLAG_670
+0x82B	TRAINER BATTLE					TR_FLAG_671
+0x82C	TRAINER BATTLE					TR_FLAG_672
+0x82D	TRAINER BATTLE					TR_FLAG_673
+0x82E	TRAINER BATTLE					TR_FLAG_674
+0x82F	TRAINER BATTLE					TR_FLAG_675
+0x830	TRAINER BATTLE					TR_FLAG_676
+0x831	TRAINER BATTLE					TR_FLAG_677
+0x832	TRAINER BATTLE					TR_FLAG_678
+0x833	TRAINER BATTLE					TR_FLAG_679
+0x834	TRAINER BATTLE					TR_FLAG_680
+0x835	TRAINER BATTLE					TR_FLAG_681
+0x836	TRAINER BATTLE					TR_FLAG_682
+0x837	TRAINER BATTLE					TR_FLAG_683
+0x838	TRAINER BATTLE					TR_FLAG_684
+0x839	TRAINER BATTLE					TR_FLAG_685
+0x83A	TRAINER BATTLE					TR_FLAG_686
+0x83B	TRAINER BATTLE					TR_FLAG_687
+0x83C	TRAINER BATTLE					TR_FLAG_688
+0x83D	TRAINER BATTLE					TR_FLAG_689
+0x83E	TRAINER BATTLE					TR_FLAG_690
+0x83F	TRAINER BATTLE					TR_FLAG_691
+0x840	TRAINER BATTLE					TR_FLAG_692
+0x841	TRAINER BATTLE					TR_FLAG_693
+0x842	TRAINER BATTLE					TR_FLAG_694
+0x843	TRAINER BATTLE					TR_FLAG_695
+0x844	TRAINER BATTLE					TR_FLAG_696
+0x845	TRAINER BATTLE					TR_FLAG_697
+0x846	TRAINER BATTLE					TR_FLAG_698
+0x847	TRAINER BATTLE					TR_FLAG_699
+0x848	TRAINER BATTLE					TR_FLAG_700
+0x849	TRAINER BATTLE					TR_FLAG_701
+0x84A	TRAINER BATTLE					TR_FLAG_702
+0x84B	TRAINER BATTLE					TR_FLAG_703
+0x84C	TRAINER BATTLE					TR_FLAG_704
+0x84D	TRAINER BATTLE					TR_FLAG_705
+0x84E	TRAINER BATTLE					TR_FLAG_706
+0x84F	TRAINER BATTLE					TR_FLAG_707
+0x850	TRAINER BATTLE					TR_FLAG_708
+0x851	TRAINER BATTLE					TR_FLAG_709
+0x852	TRAINER BATTLE					TR_FLAG_710
+0x853	TRAINER BATTLE					TR_FLAG_711
+0x854	TRAINER BATTLE					TR_FLAG_712
+0x855	TRAINER BATTLE					TR_FLAG_713
+0x856	TRAINER BATTLE					TR_FLAG_714
+0x857	TRAINER BATTLE					TR_FLAG_715
+0x858	TRAINER BATTLE					TR_FLAG_716
+0x859	TRAINER BATTLE					TR_FLAG_717
+0x85A	TRAINER BATTLE					TR_FLAG_718
+0x85B	TRAINER BATTLE					TR_FLAG_719
+0x85C	TRAINER BATTLE					TR_FLAG_720
+0x85D	TRAINER BATTLE					TR_FLAG_721
+0x85E	TRAINER BATTLE					TR_FLAG_722
+0x85F	TRAINER BATTLE					TR_FLAG_723
+0x860	TRAINER BATTLE					TR_FLAG_724
+0x861	TRAINER BATTLE					TR_FLAG_725
+0x862	TRAINER BATTLE					TR_FLAG_726
+0x863	TRAINER BATTLE					TR_FLAG_727
+0x864	TRAINER BATTLE					TR_FLAG_728
+0x865	TRAINER BATTLE					TR_FLAG_729
+0x866	TRAINER BATTLE					TR_FLAG_730
+0x867	TRAINER BATTLE					TR_FLAG_731
+0x868	TRAINER BATTLE					TR_FLAG_732
+0x869	TRAINER BATTLE					TR_FLAG_733
+0x86A	TRAINER BATTLE					TR_FLAG_734
+0x86B	TRAINER BATTLE					TR_FLAG_735
+0x86C	TRAINER BATTLE					TR_FLAG_736
+0x86D	TRAINER BATTLE					TR_FLAG_737
+0x86E	TRAINER BATTLE					TR_FLAG_738
+0x86F	TRAINER BATTLE					TR_FLAG_739
+0x870	TRAINER BATTLE					TR_FLAG_740
+0x871	TRAINER BATTLE					TR_FLAG_741
+0x872	TRAINER BATTLE					TR_FLAG_742
+0x873	TRAINER BATTLE					TR_FLAG_743
+0x874	TRAINER BATTLE					TR_FLAG_744
+0x875	TRAINER BATTLE					TR_FLAG_745
+0x876	TRAINER BATTLE					TR_FLAG_746
+0x877	TRAINER BATTLE					TR_FLAG_747
+0x878	TRAINER BATTLE					TR_FLAG_748
+0x879	TRAINER BATTLE					TR_FLAG_749
+0x87A	TRAINER BATTLE					TR_FLAG_750
+0x87B	TRAINER BATTLE					TR_FLAG_751
+0x87C	TRAINER BATTLE					TR_FLAG_752
+0x87D	TRAINER BATTLE					TR_FLAG_753
+0x87E	TRAINER BATTLE					TR_FLAG_754
+0x87F	TRAINER BATTLE					TR_FLAG_755
+0x880	TRAINER BATTLE					TR_FLAG_756
+0x881	TRAINER BATTLE					TR_FLAG_757
+0x882	TRAINER BATTLE					TR_FLAG_758
+0x883	TRAINER BATTLE					TR_FLAG_759
+0x884	TRAINER BATTLE					TR_FLAG_760
+0x885	TRAINER BATTLE					TR_FLAG_761
+0x886	TRAINER BATTLE					TR_FLAG_762
+0x887	TRAINER BATTLE					TR_FLAG_763
+0x888	TRAINER BATTLE					TR_FLAG_764
+0x889	TRAINER BATTLE					TR_FLAG_765
+0x88A	TRAINER BATTLE					TR_FLAG_766
+0x88B	TRAINER BATTLE					TR_FLAG_767
+0x88C	TRAINER BATTLE					TR_FLAG_768
+0x88D	TRAINER BATTLE					TR_FLAG_769
+0x88E	TRAINER BATTLE					TR_FLAG_770
+0x88F	TRAINER BATTLE					TR_FLAG_771
+0x890	TRAINER BATTLE					TR_FLAG_772
+0x891	TRAINER BATTLE					TR_FLAG_773
+0x892	TRAINER BATTLE					TR_FLAG_774
+0x893	TRAINER BATTLE					TR_FLAG_775
+0x894	TRAINER BATTLE					TR_FLAG_776
+0x895	TRAINER BATTLE					TR_FLAG_777
+0x896	TRAINER BATTLE					TR_FLAG_778
+0x897	TRAINER BATTLE					TR_FLAG_779
+0x898	TRAINER BATTLE					TR_FLAG_780
+0x899	TRAINER BATTLE					TR_FLAG_781
+0x89A	TRAINER BATTLE					TR_FLAG_782
+0x89B	TRAINER BATTLE					TR_FLAG_783
+0x89C	TRAINER BATTLE					TR_FLAG_784
+0x89D	TRAINER BATTLE					TR_FLAG_785
+0x89E	TRAINER BATTLE					TR_FLAG_786
+0x89F	TRAINER BATTLE					TR_FLAG_787
+0x8A0	TRAINER BATTLE					TR_FLAG_788
+0x8A1	TRAINER BATTLE					TR_FLAG_789
+0x8A2	TRAINER BATTLE					TR_FLAG_790
+0x8A3	TRAINER BATTLE					TR_FLAG_791
+0x8A4	TRAINER BATTLE					TR_FLAG_792
+0x8A5	TRAINER BATTLE					TR_FLAG_793
+0x8A6	TRAINER BATTLE					TR_FLAG_794
+0x8A7	TRAINER BATTLE					TR_FLAG_795
+0x8A8	TRAINER BATTLE					TR_FLAG_796
+0x8A9	TRAINER BATTLE					TR_FLAG_797
+0x8AA	TRAINER BATTLE					TR_FLAG_798
+0x8AB	TRAINER BATTLE					TR_FLAG_799
+0x8AC	TRAINER BATTLE					TR_FLAG_800
+0x8AD	TRAINER BATTLE					TR_FLAG_801
+0x8AE	TRAINER BATTLE					TR_FLAG_802
+0x8AF	TRAINER BATTLE					TR_FLAG_803
+0x8B0	TRAINER BATTLE					TR_FLAG_804
+0x8B1	TRAINER BATTLE					TR_FLAG_805
+0x8B2	TRAINER BATTLE					TR_FLAG_806
+0x8B3	TRAINER BATTLE					TR_FLAG_807
+0x8B4	TRAINER BATTLE					TR_FLAG_808
+0x8B5	TRAINER BATTLE					TR_FLAG_809
+0x8B6	TRAINER BATTLE					TR_FLAG_810
+0x8B7	TRAINER BATTLE					TR_FLAG_811
+0x8B8	TRAINER BATTLE					TR_FLAG_812
+0x8B9	TRAINER BATTLE					TR_FLAG_813
+0x8BA	TRAINER BATTLE					TR_FLAG_814
+0x8BB	TRAINER BATTLE					TR_FLAG_815
+0x8BC	TRAINER BATTLE					TR_FLAG_816
+0x8BD	TRAINER BATTLE					TR_FLAG_817
+0x8BE	TRAINER BATTLE					TR_FLAG_818
+0x8BF	TRAINER BATTLE					TR_FLAG_819
+0x8C0	TRAINER BATTLE					TR_FLAG_820
+0x8C1	TRAINER BATTLE					TR_FLAG_821
+0x8C2	TRAINER BATTLE					TR_FLAG_822
+0x8C3	TRAINER BATTLE					TR_FLAG_823
+0x8C4	TRAINER BATTLE					TR_FLAG_824
+0x8C5	TRAINER BATTLE					TR_FLAG_825
+0x8C6	TRAINER BATTLE					TR_FLAG_826
+0x8C7	TRAINER BATTLE					TR_FLAG_827
+0x8C8	TRAINER BATTLE					TR_FLAG_828
+0x8C9	TRAINER BATTLE					TR_FLAG_829
+0x8CA	TRAINER BATTLE					TR_FLAG_830
+0x8CB	TRAINER BATTLE					TR_FLAG_831
+0x8CC	TRAINER BATTLE					TR_FLAG_832
+0x8CD	TRAINER BATTLE					TR_FLAG_833
+0x8CE	TRAINER BATTLE					TR_FLAG_834
+0x8CF	TRAINER BATTLE					TR_FLAG_835
+0x8D0	TRAINER BATTLE					TR_FLAG_836
+0x8D1	TRAINER BATTLE					TR_FLAG_837
+0x8D2	TRAINER BATTLE					TR_FLAG_838
+0x8D3	TRAINER BATTLE					TR_FLAG_839
+0x8D4	TRAINER BATTLE					TR_FLAG_840
+0x8D5	TRAINER BATTLE					TR_FLAG_841
+0x8D6	TRAINER BATTLE					TR_FLAG_842
+0x8D7	TRAINER BATTLE					TR_FLAG_843
+0x8D8	TRAINER BATTLE					TR_FLAG_844
+0x8D9	TRAINER BATTLE					TR_FLAG_845
+0x8DA	TRAINER BATTLE					TR_FLAG_846
+0x8DB	TRAINER BATTLE					TR_FLAG_847
+0x8DC	TRAINER BATTLE					TR_FLAG_848
+0x8DD	TRAINER BATTLE					TR_FLAG_849
+0x8DE	TRAINER BATTLE					TR_FLAG_850
+0x8DF	TRAINER BATTLE					TR_FLAG_851
+0x8E0	TRAINER BATTLE					TR_FLAG_852
+0x8E1	TRAINER BATTLE					TR_FLAG_853
+0x8E2	TRAINER BATTLE					TR_FLAG_854
+0x8E3	TRAINER BATTLE					TR_FLAG_855
+0x8E4	TRAINER BATTLE					TR_FLAG_856
+0x8E5	TRAINER BATTLE					TR_FLAG_857
+0x8E6	TRAINER BATTLE					TR_FLAG_858
+0x8E7	TRAINER BATTLE					TR_FLAG_859
+0x8E8	TRAINER BATTLE					TR_FLAG_860
+0x8E9	TRAINER BATTLE					TR_FLAG_861
+0x8EA	TRAINER BATTLE					TR_FLAG_862
+0x8EB	TRAINER BATTLE					TR_FLAG_863
+0x8EC	TRAINER BATTLE					TR_FLAG_864
+0x8ED	TRAINER BATTLE					TR_FLAG_865
+0x8EE	TRAINER BATTLE					TR_FLAG_866
+0x8EF	TRAINER BATTLE					TR_FLAG_867
+0x8F0	TRAINER BATTLE					TR_FLAG_868
+0x8F1	TRAINER BATTLE					TR_FLAG_869
+0x8F2	TRAINER BATTLE					TR_FLAG_870
+0x8F3	TRAINER BATTLE					TR_FLAG_871
+0x8F4	TRAINER BATTLE					TR_FLAG_872
+0x8F5	TRAINER BATTLE					TR_FLAG_873
+0x8F6	TRAINER BATTLE					TR_FLAG_874
+0x8F7	TRAINER BATTLE					TR_FLAG_875
+0x8F8	TRAINER BATTLE					TR_FLAG_876
+0x8F9	TRAINER BATTLE					TR_FLAG_877
+0x8FA	TRAINER BATTLE					TR_FLAG_878
+0x8FB	TRAINER BATTLE					TR_FLAG_879
+0x8FC	TRAINER BATTLE					TR_FLAG_880
+0x8FD	TRAINER BATTLE					TR_FLAG_881
+0x8FE	TRAINER BATTLE					TR_FLAG_882
+0x8FF	TRAINER BATTLE					TR_FLAG_883
+0x900	TRAINER BATTLE					TR_FLAG_884
+0x901	TRAINER BATTLE					TR_FLAG_885
+0x902	TRAINER BATTLE					TR_FLAG_886
+0x903	TRAINER BATTLE					TR_FLAG_887
+0x904	TRAINER BATTLE					TR_FLAG_888
+0x905	TRAINER BATTLE					TR_FLAG_889
+0x906	TRAINER BATTLE					TR_FLAG_890
+0x907	TRAINER BATTLE					TR_FLAG_891
+0x908	TRAINER BATTLE					TR_FLAG_892
+0x909	TRAINER BATTLE					TR_FLAG_893
+0x90A	TRAINER BATTLE					TR_FLAG_894
+0x90B	TRAINER BATTLE					TR_FLAG_895
+0x90C	TRAINER BATTLE					TR_FLAG_896
+0x90D	TRAINER BATTLE					TR_FLAG_897
+0x90E	TRAINER BATTLE					TR_FLAG_898
+0x90F	TRAINER BATTLE					TR_FLAG_899
+0x910	_UNUSED					
+0x911	_UNUSED					
+0x912	_UNUSED					
+0x913	_UNUSED					
+0x914	_UNUSED					
+0x915	_UNUSED					
+0x916	_UNUSED					
+0x917	_UNUSED					
+0x918	_UNUSED					
+0x919	_UNUSED					
+0x91A	_UNUSED					
+0x91B	_UNUSED					
+0x91C	_UNUSED					
+0x91D	_UNUSED					
+0x91E	_UNUSED					
+0x91F	_UNUSED					
+0x920	_UNUSED					
+0x921	_UNUSED					
+0x922	_UNUSED					
+0x923	_UNUSED					
+0x924	_UNUSED					
+0x925	_UNUSED					
+0x926	_UNUSED					
+0x927	_UNUSED					
+0x928	_UNUSED					
+0x929	_UNUSED					
+0x92A	_UNUSED					
+0x92B	_UNUSED					
+0x92C	_UNUSED					
+0x92D	_UNUSED					
+0x92E	_UNUSED					
+0x92F	_UNUSED					
+0x930	_UNUSED					
+0x931	_UNUSED					
+0x932	_UNUSED					
+0x933	_UNUSED					
+0x934	_UNUSED					
+0x935	_UNUSED					
+0x936	_UNUSED					
+0x937	_UNUSED					
+0x938	_UNUSED					
+0x939	_UNUSED					
+0x93A	_UNUSED					
+0x93B	_UNUSED					
+0x93C	_UNUSED					
+0x93D	_UNUSED					
+0x93E	_UNUSED					
+0x93F	_UNUSED					
+0x940	_UNUSED					
+0x941	_UNUSED					
+0x942	_UNUSED					
+0x943	_UNUSED					
+0x944	_UNUSED					
+0x945	_UNUSED					
+0x946	_UNUSED					
+0x947	_UNUSED					
+0x948	_UNUSED					
+0x949	_UNUSED					
+0x94A	_UNUSED					
+0x94B	_UNUSED					
+0x94C	_UNUSED					
+0x94D	_UNUSED					
+0x94E	_UNUSED					
+0x94F	_UNUSED					
+0x950	_UNUSED					
+0x951	_UNUSED					
+0x952	_UNUSED					
+0x953	_UNUSED					
+0x954	_UNUSED					
+0x955	_UNUSED					
+0x956	_UNUSED					
+0x957	_UNUSED					
+0x958	_UNUSED					
+0x959	_UNUSED					
+0x95A	_UNUSED					
+0x95B	_UNUSED					
+0x95C	_UNUSED					
+0x95D	_UNUSED					
+0x95E	_UNUSED					
+0x95F	_UNUSED					
+0x960	STORY EVENT			Defeated Ghetsis (First game clear)		SYS_FLAG_GAME_CLEAR
+0x961	EVENT					SYS_FLAG_FIRST_POKE_GET
+0x962	EVENT					SYS_FLAG_ZUKAN_GET
+0x963	EVENT			Has Running Shoes		SYS_FLAG_RUNNINGSHOES
+0x964	EVENT					SYS_FLAG_KAIRIKI
+0x965	_UNUSED					
+0x966	EVENT					SYS_FLAG_SPEXIT_REQUEST
+0x967	_UNUSED					
+0x968	_UNUSED					
+0x969	EVENT					SYS_FLAG_BIGFOUR_GHOSTWIN
+0x96A	EVENT					SYS_FLAG_BIGFOUR_EVILWIN
+0x96B	EVENT					SYS_FLAG_BIGFOUR_FIGHTWIN
+0x96C	EVENT					SYS_FLAG_BIGFOUR_ESPWIN
+0x96D	EVENT					SYS_FLAG_PCNAME
+0x96E	EVENT					SYS_FLAG_ZENKOKU_GET
+0x96F	EVENT					SYS_FLAG_WEATHER_R07
+0x970	EVENT					SYS_FLAG_BGM_TOUNAN
+0x971	EVENT					SYS_FLAG_ELBOARD_C01GYMWIN
+0x972	EVENT					SYS_FLAG_ELBOARD_C02GYMWIN
+0x973	EVENT					SYS_FLAG_ELBOARD_C03GYMWIN
+0x974	EVENT					SYS_FLAG_ELBOARD_C04GYMWIN
+0x975	EVENT					SYS_FLAG_ELBOARD_C05GYMWIN
+0x976	EVENT					SYS_FLAG_ELBOARD_C06GYMWIN
+0x977	EVENT					SYS_FLAG_ELBOARD_C07GYMWIN
+0x978	EVENT					SYS_FLAG_ELBOARD_C08WGYMWIN
+0x979	EVENT					SYS_FLAG_ELBOARD_C08BGYMWIN
+0x97A	EVENT					SYS_FLAG_ELBOARD_CHAMPWIN
+0x97B	EVENT					SYS_FLAG_CHAMPION_WIN
+0x97C	EVENT					SYS_FLAG_BGM_CHAMP
+0x97D	EVENT					SYS_FLAG_BGM_C07HAKASE1
+0x97E	EVENT					SYS_FLAG_BGM_LABO_01
+0x97F	EVENT					SYS_FLAG_PALACE_MISSION_START
+0x980	EVENT					SYS_FLAG_PALACE_MISSION_CLEAR
+0x981	EVENT					SYS_FLAG_PALACE_DPOWER
+0x982	EVENT					SYS_FLAG_BGM_T01R0102
+0x983	EVENT					SYS_FLAG_BGM_C03R0402
+0x984	EVENT					SYS_FLAG_BGM_R03R0301PLASMA
+0x985	_UNUSED					
+0x986	_UNUSED					
+0x987	_UNUSED					
+0x988	_UNUSED					
+0x989	_UNUSED					
+0x98A	_UNUSED					
+0x98B	_UNUSED					
+0x98C	_UNUSED					
+0x98D	_UNUSED					
+0x98E	_UNUSED					
+0x98F	_UNUSED					
+0x990	_UNUSED					
+0x991	_UNUSED					
+0x992	_UNUSED					
+0x993	_UNUSED					
+0x994	_UNUSED					
+0x995	_UNUSED					
+0x996	_UNUSED					
+0x997	_UNUSED					
+0x998	_UNUSED					
+0x999	_UNUSED					
+0x99A	_UNUSED					
+0x99B	_UNUSED					
+0x99C	_UNUSED					
+0x99D	_UNUSED					
+0x99E	_UNUSED					
+0x99F	_UNUSED					
+0x9A0	_UNUSED					
+0x9A1	_UNUSED					
+0x9A2	_UNUSED					
+0x9A3	_UNUSED					
+0x9A4	_UNUSED					
+0x9A5	_UNUSED					
+0x9A6	_UNUSED					
+0x9A7	_UNUSED					
+0x9A8	_UNUSED					
+0x9A9	_UNUSED					
+0x9AA	_UNUSED					
+0x9AB	_UNUSED					
+0x9AC	_UNUSED					
+0x9AD	_UNUSED					
+0x9AE	_UNUSED					
+0x9AF	_UNUSED					
+0x9B0	EVENT					SYS_FLAG_ARRIVE_T01
+0x9B1	EVENT					SYS_FLAG_ARRIVE_T02
+0x9B2	EVENT					SYS_FLAG_ARRIVE_C01
+0x9B3	EVENT					SYS_FLAG_ARRIVE_C02
+0x9B4	EVENT					SYS_FLAG_ARRIVE_C03
+0x9B5	EVENT					SYS_FLAG_ARRIVE_C04
+0x9B6	EVENT					SYS_FLAG_ARRIVE_C05
+0x9B7	EVENT					SYS_FLAG_ARRIVE_C06
+0x9B8	EVENT					SYS_FLAG_ARRIVE_C07
+0x9B9	EVENT					SYS_FLAG_ARRIVE_C08
+0x9BA	EVENT					SYS_FLAG_ARRIVE_T03
+0x9BB	EVENT					SYS_FLAG_ARRIVE_C09
+0x9BC	EVENT					SYS_FLAG_ARRIVE_C10
+0x9BD	EVENT					SYS_FLAG_ARRIVE_T04
+0x9BE	EVENT					SYS_FLAG_ARRIVE_C11
+0x9BF	EVENT					SYS_FLAG_ARRIVE_D09
+0x9C0	_UNUSED					
+0x9C1	_UNUSED					
+0x9C2	_UNUSED					
+0x9C3	_UNUSED					
+0x9C4	_UNUSED					
+0x9C5	_UNUSED					
+0x9C6	_UNUSED					
+0x9C7	_UNUSED					
+0x9C8	_UNUSED					
+0x9C9	_UNUSED					
+0x9CA	_UNUSED					
+0x9CB	_UNUSED					
+0x9CC	_UNUSED					
+0x9CD	_UNUSED					
+0x9CE	_UNUSED					
+0x9CF	_UNUSED					
+0x9D0	_UNUSED					
+0x9D1	_UNUSED					
+0x9D2	_UNUSED					
+0x9D3	_UNUSED					
+0x9D4	_UNUSED					
+0x9D5	_UNUSED					
+0x9D6	_UNUSED					
+0x9D7	_UNUSED					
+0x9D8	_UNUSED					
+0x9D9	_UNUSED					
+0x9DA	_UNUSED					
+0x9DB	_UNUSED					
+0x9DC	_UNUSED					
+0x9DD	_UNUSED					
+0x9DE	_UNUSED					
+0x9DF	_UNUSED					
+0x9E0	_UNUSED					
+0x9E1	_UNUSED					
+0x9E2	_UNUSED					
+0x9E3	_UNUSED					
+0x9E4	_UNUSED					
+0x9E5	_UNUSED					
+0x9E6	_UNUSED					
+0x9E7	_UNUSED					
+0x9E8	_UNUSED					
+0x9E9	_UNUSED					
+0x9EA	_UNUSED					
+0x9EB	_UNUSED					
+0x9EC	_UNUSED					
+0x9ED	_UNUSED					
+0x9EE	_UNUSED					
+0x9EF	_UNUSED					
+0x9F0	_UNUSED					
+0x9F1	_UNUSED					
+0x9F2	_UNUSED					
+0x9F3	_UNUSED					
+0x9F4	_UNUSED					
+0x9F5	_UNUSED					
+0x9F6	_UNUSED					
+0x9F7	_UNUSED					
+0x9F8	_UNUSED					
+0x9F9	_UNUSED					
+0x9FA	_UNUSED					
+0x9FB	_UNUSED					
+0x9FC	_UNUSED					
+0x9FD	_UNUSED					
+0x9FE	_UNUSED					
+0x9FF	_UNUSED					
+0xA00	_UNUSED					
+0xA01	_UNUSED					
+0xA02	_UNUSED					
+0xA03	_UNUSED					
+0xA04	_UNUSED					
+0xA05	_UNUSED					
+0xA06	_UNUSED					
+0xA07	_UNUSED					
+0xA08	_UNUSED					
+0xA09	_UNUSED					
+0xA0A	_UNUSED					
+0xA0B	_UNUSED					
+0xA0C	_UNUSED					
+0xA0D	_UNUSED					
+0xA0E	_UNUSED					
+0xA0F	_UNUSED					
+0xA10	_UNUSED					
+0xA11	_UNUSED					
+0xA12	_UNUSED					
+0xA13	_UNUSED					
+0xA14	_UNUSED					
+0xA15	_UNUSED					
+0xA16	_UNUSED					
+0xA17	_UNUSED					
+0xA18	_UNUSED					
+0xA19	_UNUSED					
+0xA1A	_UNUSED					
+0xA1B	_UNUSED					
+0xA1C	_UNUSED					
+0xA1D	_UNUSED					
+0xA1E	_UNUSED					
+0xA1F	_UNUSED					
+0xA20	_UNUSED					
+0xA21	_UNUSED					
+0xA22	_UNUSED					
+0xA23	_UNUSED					
+0xA24	_UNUSED					
+0xA25	_UNUSED					
+0xA26	_UNUSED					
+0xA27	_UNUSED					
+0xA28	_UNUSED					
+0xA29	_UNUSED					
+0xA2A	_UNUSED					
+0xA2B	_UNUSED					
+0xA2C	_UNUSED					
+0xA2D	_UNUSED					
+0xA2E	_UNUSED					
+0xA2F	_UNUSED					
+0xA30	_UNUSED					
+0xA31	_UNUSED					
+0xA32	_UNUSED					
+0xA33	_UNUSED					
+0xA34	_UNUSED					
+0xA35	_UNUSED					
+0xA36	_UNUSED					
+0xA37	_UNUSED					
+0xA38	_UNUSED					
+0xA39	_UNUSED					
+0xA3A	_UNUSED					
+0xA3B	_UNUSED					
+0xA3C	_UNUSED					
+0xA3D	_UNUSED					
+0xA3E	_UNUSED					
+0xA3F	_UNUSED					
+0xA40	_UNUSED					
+0xA41	_UNUSED					
+0xA42	_UNUSED					
+0xA43	_UNUSED					
+0xA44	_UNUSED					
+0xA45	_UNUSED					
+0xA46	_UNUSED					
+0xA47	_UNUSED					
+0xA48	_UNUSED					
+0xA49	_UNUSED					
+0xA4A	_UNUSED					
+0xA4B	_UNUSED					
+0xA4C	_UNUSED					
+0xA4D	_UNUSED					
+0xA4E	_UNUSED					
+0xA4F	_UNUSED					
+0xA50	_UNUSED					
+0xA51	_UNUSED					
+0xA52	_UNUSED					
+0xA53	_UNUSED					
+0xA54	_UNUSED					
+0xA55	_UNUSED					
+0xA56	_UNUSED					
+0xA57	_UNUSED					
+0xA58	_UNUSED					
+0xA59	_UNUSED					
+0xA5A	_UNUSED					
+0xA5B	_UNUSED					
+0xA5C	_UNUSED					
+0xA5D	_UNUSED					
+0xA5E	_UNUSED					
+0xA5F	_UNUSED					
+0xA60	_UNUSED					
+0xA61	_UNUSED					
+0xA62	_UNUSED					
+0xA63	_UNUSED					
+0xA64	_UNUSED					
+0xA65	_UNUSED					
+0xA66	_UNUSED					
+0xA67	_UNUSED					
+0xA68	_UNUSED					
+0xA69	_UNUSED					
+0xA6A	_UNUSED					
+0xA6B	_UNUSED					
+0xA6C	_UNUSED					
+0xA6D	_UNUSED					
+0xA6E	_UNUSED					
+0xA6F	_UNUSED					
+0xA70	_UNUSED					
+0xA71	_UNUSED					
+0xA72	_UNUSED					
+0xA73	_UNUSED					
+0xA74	_UNUSED					
+0xA75	_UNUSED					
+0xA76	_UNUSED					
+0xA77	_UNUSED					
+0xA78	_UNUSED					
+0xA79	_UNUSED					
+0xA7A	_UNUSED					
+0xA7B	_UNUSED					
+0xA7C	_UNUSED					
+0xA7D	_UNUSED					
+0xA7E	_UNUSED					
+0xA7F	_UNUSED					
+0xA80	_UNUSED					
+0xA81	_UNUSED					
+0xA82	_UNUSED					
+0xA83	_UNUSED					
+0xA84	_UNUSED					
+0xA85	_UNUSED					
+0xA86	_UNUSED					
+0xA87	_UNUSED					
+0xA88	_UNUSED					
+0xA89	_UNUSED					
+0xA8A	_UNUSED					
+0xA8B	_UNUSED					
+0xA8C	_UNUSED					
+0xA8D	_UNUSED					
+0xA8E	_UNUSED					
+0xA8F	_UNUSED					
+0xA90	_UNUSED					
+0xA91	_UNUSED					
+0xA92	_UNUSED					
+0xA93	_UNUSED					
+0xA94	_UNUSED					
+0xA95	_UNUSED					
+0xA96	_UNUSED					
+0xA97	_UNUSED					
+0xA98	_UNUSED					
+0xA99	_UNUSED					
+0xA9A	_UNUSED					
+0xA9B	_UNUSED					
+0xA9C	_UNUSED					
+0xA9D	_UNUSED					
+0xA9E	_UNUSED					
+0xA9F	_UNUSED					
+0xAA0	EVENT					TMFLG_WC10_ITEM_01
+0xAA1	EVENT					TMFLG_WC10_ITEM_02
+0xAA2	EVENT					TMFLG_WC10_ITEM_03
+0xAA3	EVENT					TMFLG_WC10_ITEM_04
+0xAA4	EVENT					TMFLG_WC10_ITEM_05
+0xAA5	EVENT					TMFLG_WC10_ITEM_06
+0xAA6	EVENT					TMFLG_WC10_ITEM_07
+0xAA7	EVENT					TMFLG_WC10_ITEM_08
+0xAA8	EVENT					TMFLG_WC10_ITEM_09
+0xAA9	EVENT					TMFLG_WC10_ITEM_10
+0xAAA	EVENT					TMFLG_WC10R0101_OLDMAN
+0xAAB	EVENT					TMFLG_C08R0301_GOODS
+0xAAC	EVENT					TMFLG_C03R0201_GALLERY_TYPE
+0xAAD	EVENT					TMFLG_C03R0201_GALLERY_CLEAR
+0xAAE	EVENT					TMFLG_C03R1001_MASSAGE
+0xAAF	EVENT					TMFLG_C03P09_SWEETS
+0xAB0	EVENT					TMFLG_C02R0601_ITEM
+0xAB1	EVENT					TMFLG_D02_ROCK_01
+0xAB2	EVENT					TMFLG_D02_ROCK_02
+0xAB3	EVENT					TMFLG_C05R0701_WAZA_NO
+0xAB4	EVENT					TMFLG_C05R0701_WAZA_CLEAR
+0xAB5	EVENT					TMFLG_C07R0201_QUIZ
+0xAB6	EVENT					TMFLG_R13_TREASURE
+0xAB7	EVENT					TMFLG_C03R0402_BATTLE
+0xAB8	EVENT					TMFLG_AMUSEMENT_TR_BTL
+0xAB9	EVENT					TMFLG_STADIUM_TR_BTL
+0xABA	_UNUSED					
+0xABB	EVENT					TMFLG_T04R0101_BTL_FAMILY
+0xABC	EVENT					TMFLG_D01R0201_POKE16_BTL
+0xABD	EVENT					TMFLG_H04R0301_FISHING
+0xABE	EVENT					TMFLG_T05R0301_BTLITEM
+0xABF	EVENT					TMFLG_C08R0201_BTL
+0xAC0	EVENT					TMFLG_H03_EMPEROR_BTL
+0xAC1	EVENT					TMFLG_T03R0401_ITEMGET_01
+0xAC2	EVENT			Rode Royal Unova (Today)		TMFLG_C03P16_CABIN_01
+0xAC3	EVENT					TMFLG_H04_KINOMI_SAND
+0xAC4	EVENT					TMFLG_D09R1401_RIVAL
+0xAC5	EVENT					TMFLG_T01R0401_SUP_TALK
+0xAC6	EVENT					TMFLG_T01R0401_SUP_BTL
+0xAC7	EVENT					TMFLG_T04R0401_SHIRONA_BTL
+0xAC8	EVENT					TMFLG_T04R0401_TALKSET
+0xAC9	EVENT					TMFLG_H05_MINEZUMI
+0xACA	EVENT			Received a Fossil from Twist Mountain Worker (Today)		TMFLG_D07R0401_FOSSIL
+0xACB	EVENT					TMFLG_T04R0401_SHIRONA_TALK
+0xACC	EVENT					TMFLG_R08_STONE_GET
+0xACD	_UNUSED					
+0xACE	_UNUSED					
+0xACF	_UNUSED					
+0xAD0	_UNUSED					
+0xAD1	_UNUSED					
+0xAD2	_UNUSED					
+0xAD3	_UNUSED					
+0xAD4	_UNUSED					
+0xAD5	_UNUSED					
+0xAD6	_UNUSED					
+0xAD7	_UNUSED					
+0xAD8	_UNUSED					
+0xAD9	_UNUSED					
+0xADA	_UNUSED					
+0xADB	_UNUSED					
+0xADC	_UNUSED					
+0xADD	_UNUSED					
+0xADE	_UNUSED					
+0xADF	_UNUSED					
+0xAE0	_UNUSED					
+0xAE1	_UNUSED					
+0xAE2	_UNUSED					
+0xAE3	_UNUSED					
+0xAE4	_UNUSED					
+0xAE5	_UNUSED					
+0xAE6	_UNUSED					
+0xAE7	_UNUSED					
+0xAE8	_UNUSED					
+0xAE9	_UNUSED					
+0xAEA	_UNUSED					
+0xAEB	_UNUSED					
+0xAEC	_UNUSED					
+0xAED	_UNUSED					
+0xAEE	_UNUSED					
+0xAEF	_UNUSED					
+0xAF0	_UNUSED					
+0xAF1	_UNUSED					
+0xAF2	_UNUSED					
+0xAF3	_UNUSED					
+0xAF4	_UNUSED					
+0xAF5	_UNUSED					
+0xAF6	_UNUSED					
+0xAF7	_UNUSED					
+0xAF8	_UNUSED					
+0xAF9	_UNUSED					
+0xAFA	_UNUSED					
+0xAFB	_UNUSED					
+0xAFC	_UNUSED					
+0xAFD	_UNUSED					
+0xAFE	_UNUSED					
+0xAFF	_UNUSED					
+0xB00	_UNUSED					
+0xB01	_UNUSED					
+0xB02	_UNUSED					
+0xB03	_UNUSED					
+0xB04	_UNUSED					
+0xB05	_UNUSED					
+0xB06	_UNUSED					
+0xB07	_UNUSED					
+0xB08	_UNUSED					
+0xB09	_UNUSED					
+0xB0A	_UNUSED					
+0xB0B	_UNUSED					
+0xB0C	_UNUSED					
+0xB0D	_UNUSED					
+0xB0E	_UNUSED					
+0xB0F	_UNUSED					
+0xB10	_UNUSED					
+0xB11	_UNUSED					
+0xB12	_UNUSED					
+0xB13	_UNUSED					
+0xB14	_UNUSED					
+0xB15	_UNUSED					
+0xB16	_UNUSED					
+0xB17	_UNUSED					
+0xB18	_UNUSED					
+0xB19	_UNUSED					
+0xB1A	_UNUSED					
+0xB1B	_UNUSED					
+0xB1C	_UNUSED					
+0xB1D	_UNUSED					
+0xB1E	_UNUSED					
+0xB1F	_UNUSED					
+0xB20	_UNUSED					
+0xB21	_UNUSED					
+0xB22	_UNUSED					
+0xB23	_UNUSED					
+0xB24	_UNUSED					
+0xB25	_UNUSED					
+0xB26	_UNUSED					
+0xB27	_UNUSED					
+0xB28	_UNUSED					
+0xB29	_UNUSED					
+0xB2A	_UNUSED					
+0xB2B	_UNUSED					
+0xB2C	_UNUSED					
+0xB2D	_UNUSED					
+0xB2E	_UNUSED					
+0xB2F	_UNUSED					
+0xB30	_UNUSED					
+0xB31	_UNUSED					
+0xB32	_UNUSED					
+0xB33	_UNUSED					
+0xB34	_UNUSED					
+0xB35	_UNUSED					
+0xB36	_UNUSED					
+0xB37	_UNUSED					
+0xB38	_UNUSED					
+0xB39	_UNUSED					
+0xB3A	_UNUSED					
+0xB3B	_UNUSED					
+0xB3C	_UNUSED					
+0xB3D	_UNUSED					
+0xB3E	_UNUSED					
+0xB3F	_UNUSED					
+0xB40	_UNUSED					
+0xB41	_UNUSED					
+0xB42	_UNUSED					
+0xB43	_UNUSED					
+0xB44	_UNUSED					
+0xB45	_UNUSED					
+0xB46	_UNUSED					
+0xB47	_UNUSED					
+0xB48	_UNUSED					
+0xB49	_UNUSED					
+0xB4A	_UNUSED					
+0xB4B	_UNUSED					
+0xB4C	_UNUSED					
+0xB4D	_UNUSED					
+0xB4E	_UNUSED					
+0xB4F	_UNUSED					
+0xB50	_UNUSED					
+0xB51	_UNUSED					
+0xB52	_UNUSED					
+0xB53	_UNUSED					
+0xB54	_UNUSED					
+0xB55	_UNUSED					
+0xB56	_UNUSED					
+0xB57	_UNUSED					
+0xB58	_UNUSED					
+0xB59	_UNUSED					
+0xB5A	_UNUSED					
+0xB5B	_UNUSED					
+0xB5C	_UNUSED					
+0xB5D	_UNUSED					
+0xB5E	_UNUSED					
+0xB5F	_UNUSED					
 						
 						
 						
 						
 //	Event Work					
-0x000						
-0x001						
-0x002						
-0x003						
-0x004						
-0x005						
-0x006						
-0x007						
-0x008						
-0x009						
-0x00A						
-0x00B						
-0x00C						
-0x00D						
-0x00E						
-0x00F						
-0x010						
-0x011						
-0x012						
-0x013						
-0x014						
-0x015						
-0x016						
-0x017						
-0x018						
-0x019						
-0x01A						
-0x01B						
-0x01C						
-0x01D						
-0x01E						
-0x01F						
-0x020						
-0x021						
-0x022						
-0x023						
-0x024						
-0x025						
-0x026						
-0x027						
-0x028						
-0x029						
-0x02A						
-0x02B						
-0x02C						
-0x02D						
-0x02E						
-0x02F						
-0x030	STORY EVENT	Nuvema Town		First Partner	0:Snivy,1:Tepig,2:Oshawott	
-0x031						
-0x032						
-0x033						
-0x034						
-0x035						
-0x036						
-0x037						
-0x038				Lostlorn Forest	0:Zoroark illusion (1),1032:Normal	
-0x039						
-0x03A						
-0x03B						
-0x03C						
-0x03D						
-0x03E						
-0x03F						
-0x040						
-0x041						
-0x042						
-0x043						
-0x044						
-0x045						
-0x046						
-0x047						
-0x048						
-0x049						
-0x04A						
-0x04B						
-0x04C						
-0x04D						
-0x04E						
-0x04F						
-0x050						
-0x051						
-0x052						
-0x053						
-0x054						
-0x055						
-0x056						
-0x057						
-0x058						
-0x059						
-0x05A						
-0x05B						
-0x05C						
-0x05D						
-0x05E						
-0x05F						
-0x060						
-0x061						
-0x062						
-0x063						
-0x064						
-0x065						
-0x066						
-0x067						
-0x068						
-0x069						
-0x06A						
-0x06B						
-0x06C						
-0x06D						
-0x06E						
-0x06F						
-0x070						
-0x071						
-0x072						
-0x073						
-0x074						
-0x075						
-0x076						
-0x077						
-0x078						
-0x079						
-0x07A						
-0x07B						
-0x07C						
-0x07D						
-0x07E						
-0x07F						
-0x080						
-0x081						
-0x082						
-0x083				Dreamyard girl	0:Not interacted,1:Elemental Monkey Pending,2:Received Elemental Monkey	
-0x084						
-0x085						
-0x086						
-0x087						
-0x088						
-0x089						
-0x08A						
-0x08B						
-0x08C						
-0x08D						
-0x08E						
-0x08F						
-0x090						
-0x091				Victini	0:Event,1:Event,2:Battleable,3:Defeated,4:Captured,5:Event Completed,6:Disappeared	
-0x092						
-0x093						
-0x094						
-0x095						
-0x096						
-0x097						
-0x098						
-0x099						
-0x09A						
-0x09B						
-0x09C						
-0x09D						
-0x09E						
-0x09F						
-0x0A0						
-0x0A1						
-0x0A2						
-0x0A3						
-0x0A4						
-0x0A5						
-0x0A6						
-0x0A7						
-0x0A8						
-0x0A9						
-0x0AA						
-0x0AB						
-0x0AC						
-0x0AD						
-0x0AE						
-0x0AF						
-0x0B0						
-0x0B1						
-0x0B2						
-0x0B3						
-0x0B4						
-0x0B5						
-0x0B6				N's Castle	0:Event,1:Event,2:Before Reshiram/Zekrom,3:Before N,4:Event,5:Before Ghetsis	
-0x0B7						
-0x0B8						
-0x0B9						
-0x0BA						
-0x0BB						
-0x0BC						
-0x0BD						
-0x0BE						
-0x0BF						
-0x0C0						
-0x0C1						
-0x0C2						
-0x0C3						
-0x0C4						
-0x0C5						
-0x0C6						
-0x0C7				Zorua Event	0:Disguised as little boy (1),1:Revealed/Catchable (2),3:Caught	
-0x0C8						
-0x0C9				Zoroark Event	0:Active (1),1:Defeated,2:Caught	
-0x0CA				P2 Laboratory Event	0:Not Activated,1:Activated,2:Scientist Dudley Battle Pending,3:Received Drives	
-0x0CB						
-0x0CC						
-0x0CD						
-0x0CE				Landorus	0:Event,1:Event,2:Event,3:Battleable,4:Disappeared	
-0x0CF						
-0x0D0						
-0x0D1						
-0x0D2						
-0x0D3						
-0x0D4						
-0x0D5						
-0x0D6						
-0x0D7						
-0x0D8						
-0x0D9						
-0x0DA				Gorge (Undella Town)	0:Wants to trade,1:Traded for Munchlax,2:After trading	
-0x0DB						
-0x0DC						
-0x0DD						
-0x0DE						
-0x0DF						
-0x0E0						
-0x0E1						
-0x0E2						
-0x0E3						
-0x0E4						
-0x0E5						
-0x0E6						
-0x0E7						
-0x0E8						
-0x0E9						
-0x0EA						
-0x0EB						
-0x0EC						
-0x0ED						
-0x0EE						
-0x0EF						
-0x0F0						
-0x0F1						
-0x0F2						
-0x0F3						
-0x0F4						
-0x0F5						
-0x0F6						
-0x0F7						
-0x0F8						
-0x0F9						
-0x0FA						
-0x0FB						
-0x0FC						
-0x0FD						
-0x0FE						
-0x0FF						
-0x100						
-0x101						
-0x102						
-0x103						
-0x104						
-0x105						
-0x106						
-0x107						
-0x108						
-0x109						
-0x10A						
-0x10B						
-0x10C						
-0x10D						
-0x10E						
-0x10F						
-0x110						
-0x111						
-0x112						
-0x113						
-0x114						
-0x115						
-0x116						
-0x117						
-0x118						
-0x119						
-0x11A						
-0x11B						
-0x11C						
-0x11D						
-0x11E						
-0x11F						
-0x120						
-0x121						
-0x122						
-0x123						
-0x124						
-0x125						
-0x126						
-0x127						
-0x128						
-0x129						
-0x12A						
-0x12B						
-0x12C						
-0x12D						
-0x12E						
-0x12F						
-0x130						
-0x131						
-0x132						
-0x133						
-0x134						
-0x135						
-0x136						
-0x137						
-0x138						
-0x139						
-0x13A						
-0x13B						
-0x13C						
-0x13D						
+0x000						LOCALWORK0
+0x001						LOCALWORK1
+0x002						LOCALWORK2
+0x003						LOCALWORK3
+0x004						LOCALWORK4
+0x005						LOCALWORK5
+0x006						LOCALWORK6
+0x007						LOCALWORK7
+0x008						LOCALWORK8
+0x009						LOCALWORK9
+0x00A						LOCALWORK10
+0x00B						LOCALWORK11
+0x00C						LOCALWORK12
+0x00D						LOCALWORK13
+0x00E						LOCALWORK14
+0x00F						LOCALWORK15
+0x010	_UNUSED					
+0x011	_UNUSED					
+0x012	_UNUSED					
+0x013	_UNUSED					
+0x014	_UNUSED					
+0x015	_UNUSED					
+0x016	_UNUSED					
+0x017	_UNUSED					
+0x018	_UNUSED					
+0x019	_UNUSED					
+0x01A	_UNUSED					
+0x01B	_UNUSED					
+0x01C	_UNUSED					
+0x01D	_UNUSED					
+0x01E	_UNUSED					
+0x01F	_UNUSED					
+0x020						OBJCHRWORK0
+0x021						OBJCHRWORK1
+0x022						OBJCHRWORK2
+0x023						OBJCHRWORK3
+0x024						OBJCHRWORK4
+0x025						OBJCHRWORK5
+0x026						OBJCHRWORK6
+0x027						OBJCHRWORK7
+0x028						OBJCHRWORK8
+0x029						OBJCHRWORK9
+0x02A						OBJCHRWORK10
+0x02B						OBJCHRWORK11
+0x02C						OBJCHRWORK12
+0x02D						OBJCHRWORK13
+0x02E						OBJCHRWORK14
+0x02F						OBJCHRWORK15
+0x030	STORY EVENT	Nuvema Town		First Partner	0:Snivy,1:Tepig,2:Oshawott	WK_SYS_FIRST_POKETYPE
+0x031						WK_SYS_MAPREPLACE01
+0x032						WK_SYS_MAPREPLACE02
+0x033						WK_SYS_MAPREPLACE03
+0x034						WK_SYS_MAPREPLACE04
+0x035						WK_SYS_MAPREPLACE05
+0x036						WK_SYS_MAPREPLACE06
+0x037						WK_SYS_MAPREPLACE07
+0x038				Lostlorn Forest	0:Zoroark illusion (1),1032:Normal	WK_SYS_MAPREPLACE08
+0x039						WK_SYS_MAPREPLACE09
+0x03A						WK_SYS_MAPREPLACE10
+0x03B	_UNUSED					
+0x03C	_UNUSED					
+0x03D	_UNUSED					
+0x03E	_UNUSED					
+0x03F	_UNUSED					
+0x040	_UNUSED					
+0x041						WK_SYS_SCENE_COMM
+0x042	_UNUSED					
+0x043	_UNUSED					
+0x044	_UNUSED					
+0x045	_UNUSED					
+0x046	_UNUSED					
+0x047	_UNUSED					
+0x048	_UNUSED					
+0x049	_UNUSED					
+0x04A	_UNUSED					
+0x04B	_UNUSED					
+0x04C	_UNUSED					
+0x04D	_UNUSED					
+0x04E	_UNUSED					
+0x04F	_UNUSED					
+0x050	_UNUSED					
+0x051	_UNUSED					
+0x052	_UNUSED					
+0x053	_UNUSED					
+0x054	_UNUSED					
+0x055	_UNUSED					
+0x056	_UNUSED					
+0x057	_UNUSED					
+0x058	_UNUSED					
+0x059	_UNUSED					
+0x05A	_UNUSED					
+0x05B	_UNUSED					
+0x05C	_UNUSED					
+0x05D	_UNUSED					
+0x05E	_UNUSED					
+0x05F	_UNUSED					
+0x060	_UNUSED					
+0x061	_UNUSED					
+0x062	_UNUSED					
+0x063	_UNUSED					
+0x064	_UNUSED					
+0x065	_UNUSED					
+0x066	_UNUSED					
+0x067	_UNUSED					
+0x068	_UNUSED					
+0x069	_UNUSED					
+0x06A	_UNUSED					
+0x06B	_UNUSED					
+0x06C	_UNUSED					
+0x06D	_UNUSED					
+0x06E	_UNUSED					
+0x06F	_UNUSED					
+0x070	_UNUSED					
+0x071	_UNUSED					
+0x072	_UNUSED					
+0x073	_UNUSED					
+0x074	_UNUSED					
+0x075	_UNUSED					
+0x076	_UNUSED					
+0x077						WK_SCENE_D03R0101_AFTER
+0x078						WK_SCENE_T01R0201
+0x079						WK_SCENE_T01R0401
+0x07A						WK_SCENE_T02
+0x07B						WK_SCENE_T02PC0101
+0x07C						WK_SCENE_R01
+0x07D						WK_SCENE_R02
+0x07E						WK_SCENE_R03
+0x07F						WK_SCENE_T01_SUPPORT
+0x080						WK_SCENE_T01
+0x081						WK_SCENE_T01R0102
+0x082						WK_SCENE_C01GYM0101
+0x083				Dreamyard girl	0:Not interacted,1:Elemental Monkey Pending,2:Received Elemental Monkey	WK_SCENE_D01R0101
+0x084						WK_SCENE_C02GYM0101
+0x085						WK_SCENE_T01R0101
+0x086						WK_SCENE_C01R0102
+0x087						WK_SCENE_C01R0101
+0x088						WK_SCENE_C01
+0x089						WK_SCENE_C04
+0x08A						WK_SCENE_C02GYM0201
+0x08B						WK_SCENE_D05_PLASMA
+0x08C						WK_SCENE_D02
+0x08D						WK_SCENE_D02R0101
+0x08E						WK_SCENE_C04P01
+0x08F						WK_SCENE_C05
+0x090						WK_SCENE_D05
+0x091				Victini	0:Event,1:Event,2:Battleable,3:Defeated,4:Captured,5:Event Completed,6:Disappeared	WK_SCENE_VICTORY
+0x092						WK_SCENE_C02
+0x093						WK_SCENE_R05
+0x094						WK_SCENE_D01R0101_POKE
+0x095						WK_SCENE_R03_PLASMA
+0x096						WK_SCENE_D07R0201
+0x097						WK_SCENE_C07
+0x098	_UNUSED					
+0x099						WK_SCENE_C06
+0x09A						WK_SCENE_D06
+0x09B						WK_SCENE_D06R0101
+0x09C						WK_SCENE_R04
+0x09D						WK_SCENE_D03R0101
+0x09E						WK_SCENE_D04R0101
+0x09F						WK_SCENE_D04R0601
+0x0A0	_UNUSED					
+0x0A1						WK_SCENE_C09
+0x0A2						WK_SCENE_C09R0501
+0x0A3	_UNUSED					
+0x0A4						WK_SCENE_H03_PLASMA
+0x0A5						WK_SCENE_N01R0101
+0x0A6						WK_SCENE_N01R0201
+0x0A7						WK_SCENE_D08_LEGEND
+0x0A8						WK_SCENE_C08
+0x0A9						WK_SCENE_C08GYM0101
+0x0AA						WK_SCENE_D02R0101_HAKAI
+0x0AB						WK_SCENE_C08R0301
+0x0AC						WK_SCENE_C03R0601
+0x0AD						WK_SCENE_C03
+0x0AE						WK_SCENE_R15R0301
+0x0AF						WK_SCENE_C03P07
+0x0B0						WK_SCENE_C11GATE
+0x0B1						WK_SCENE_C03R0301
+0x0B2						WK_SCENE_C03R1301_SUNGLASSES
+0x0B3						WK_SCENE_C04R0201
+0x0B4						WK_SCENE_D07_RIVAL_01
+0x0B5	_UNUSED					
+0x0B6				N's Castle	0:Event,1:Event,2:Before Reshiram/Zekrom,3:Before N,4:Event,5:Before Ghetsis	WK_SCENE_N01R0502
+0x0B7						WK_SCENE_R06R0202
+0x0B8						WK_SCENE_C08_GYMCLEAR
+0x0B9						WK_SCENE_R08R0101_LEG
+0x0BA						WK_SCENE_C07R0105
+0x0BB						WK_SCENE_D07R0401
+0x0BC						WK_SCENE_C02R0101
+0x0BD						WK_SCENE_D04R0201
+0x0BE						WK_SCENE_C03P12
+0x0BF						WK_SCENE_C03P09_SWEETS
+0x0C0						WK_SCENE_R07_MOVEPOKE
+0x0C1	_UNUSED					
+0x0C2						WK_SCENE_C04R0601
+0x0C3						WK_SCENE_PALACE01
+0x0C4						WK_SCENE_C3CENTER_DANCE
+0x0C5						WK_SCENE_R15R0301_RECV
+0x0C6						WK_SCENE_R09
+0x0C7				Zorua Event	0:Disguised as little boy (1),1:Revealed/Catchable (2),3:Caught	WK_SCENE_C03R0401_ZOROA
+0x0C8						WK_SCENE_C03R0101_QUESTION
+0x0C9				Zoroark Event	0:Active (1),1:Defeated,2:Caught	WK_SCENE_R16R0201
+0x0CA				P2 Laboratory Event	0:Not Activated,1:Activated,2:Scientist Dudley Battle Pending,3:Received Drives	WK_SCENE_D13R0101
+0x0CB						WK_SCENE_R08
+0x0CC						WK_SCENE_AFTER_SAGE
+0x0CD						WK_SCENE_T04R0101_BTL_FAMILY
+0x0CE				Landorus	0:Event,1:Event,2:Event,3:Battleable,4:Disappeared	WK_SCENE_R14R0201_LEG
+0x0CF						WK_SCENE_D09
+0x0D0						WK_SCENE_C08R0701_STOPPER
+0x0D1						WK_SCENE_H04_ITEMNUM
+0x0D2						WK_SCENE_R07R0105_CHAMPION
+0x0D3						WK_SCENE_C03P15
+0x0D4						WK_SCENE_N01R0301
+0x0D5						WK_SCENE_N01R0401
+0x0D6						WK_SCENE_C04_BTLREC
+0x0D7						WK_SCENE_C03GYM0101
+0x0D8						WK_SCENE_D10_LEG
+0x0D9						WK_SCENE_C03R1101
+0x0DA				Gorge (Undella Town)	0:Wants to trade,1:Traded for Munchlax,2:After trading	WK_SCENE_T04R0201_DIET
+0x0DB						WK_SCENE_H03_BADRIDER
+0x0DC						WK_SCENE_N01R0501
+0x0DD						WK_SCENE_D20R0501
+0x0DE						WK_SCENE_D20R0601
+0x0DF						WK_SCENE_D20R0701
+0x0E0						WK_SCENE_D04R0701_PLASMA
+0x0E1						WK_SCENE_D04R0801_PLASMA
+0x0E2						WK_SCENE_D01R0101_SAGE5
+0x0E3						WK_SCENE_C05_BTLRIDER
+0x0E4						WK_SCENE_T04R0401
+0x0E5						WK_SCENE_H05
+0x0E6						WK_SCENE_H05_GIRL
+0x0E7						WK_SCENE_R07
+0x0E8	_UNUSED					
+0x0E9	_UNUSED					
+0x0EA	_UNUSED					
+0x0EB	_UNUSED					
+0x0EC	_UNUSED					
+0x0ED	_UNUSED					
+0x0EE	_UNUSED					
+0x0EF	_UNUSED					
+0x0F0	_UNUSED					
+0x0F1	_UNUSED					
+0x0F2	_UNUSED					
+0x0F3	_UNUSED					
+0x0F4	_UNUSED					
+0x0F5	_UNUSED					
+0x0F6	_UNUSED					
+0x0F7	_UNUSED					
+0x0F8	_UNUSED					
+0x0F9	_UNUSED					
+0x0FA	_UNUSED					
+0x0FB	_UNUSED					
+0x0FC	_UNUSED					
+0x0FD	_UNUSED					
+0x0FE	_UNUSED					
+0x0FF	_UNUSED					
+0x100	_UNUSED					
+0x101	_UNUSED					
+0x102	_UNUSED					
+0x103	_UNUSED					
+0x104	_UNUSED					
+0x105	_UNUSED					
+0x106	_UNUSED					
+0x107	_UNUSED					
+0x108	_UNUSED					
+0x109	_UNUSED					
+0x10A	_UNUSED					
+0x10B	_UNUSED					
+0x10C	_UNUSED					
+0x10D	_UNUSED					
+0x10E	_UNUSED					
+0x10F	_UNUSED					
+0x110						WK_OTHER_SPORTS_EVENT
+0x111						WK_OTHER_SYMMAP_POS
+0x112						WK_OTHER_T05_TRAIN
+0x113						WK_OTHER_FISHING_MONSNUM
+0x114						WK_OTHER_EMPEROR_MONSNUM
+0x115						WK_OTHER_BSEVENT_ITEM
+0x116						WK_OTHER_BSEVENT_NUM
+0x117						WK_OTHER_SUPPORT_TALK
+0x118						WK_OTHER_T04R0401_SHIRONA
+0x119						WK_OTHER_T04R0401_BIGFOUR4
+0x11A						WK_OTHER_T04R0401_BIGFOUR1
+0x11B						WK_OTHER_T04R0401_LEADER8W
+0x11C						WK_OTHER_T04R0401_LEADER6
+0x11D						WK_OTHER_T04R0401_LEADER4
+0x11E						WK_OTHER_T04R0401_LEADER2
+0x11F						WK_OTHER_SPORTS_RND_TR0
+0x120						WK_OTHER_SPORTS_RND_TR1
+0x121						WK_OTHER_SPORTS_RND_TR2
+0x122						WK_OTHER_SPORTS_RND_TR3
+0x123						WK_OTHER_SPORTS_RND_TR4
+0x124						WK_OTHER_SPORTS_RND_TR5
+0x125						WK_OTHER_WHEEL_SEASON
+0x126	_UNUSED					
+0x127	_UNUSED					
+0x128	_UNUSED					
+0x129	_UNUSED					
+0x12A	_UNUSED					
+0x12B	_UNUSED					
+0x12C	_UNUSED					
+0x12D	_UNUSED					
+0x12E	_UNUSED					
+0x12F	_UNUSED					
+0x130						WK_OTHER_BSUBWAY_RECEIPT
+0x131						WK_OTHER_BSUBWAY_TEST
+0x132						WK_OTHER_BSUBWAY_TRAIN
+0x133						WK_OTHER_BSUBWAY_HOME
+0x134						WK_OTHER_KASEKI_NUM
+0x135						WK_OTHER_PASSENGERBOAT
+0x136						WK_OTHER_STATION_CONNECT
+0x137						WK_OTHER_C03R0201_GALLERY
+0x138						WK_OTHER_UN
+0x139						WK_OTHER_DISCOVER_EGG
+0x13A	_UNUSED					
+0x13B						WK_OTHER_C05R0701_WAZA
+0x13C	_UNUSED					
+0x13D	_UNUSED					
