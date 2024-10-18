@@ -1,1104 +1,1104 @@
 //	Event Flags					
 0x000	_UNUSED					FLAG_NULL
-0x001						FZ_00
-0x002						FZ_01
-0x003						FZ_02
-0x004						FZ_03
-0x005						FZ_04
-0x006						FZ_05
-0x007						FZ_06
-0x008						FZ_07
-0x009						FZ_08
-0x00A						FZ_09
-0x00B						FZ_10
-0x00C						FZ_11
-0x00D						FZ_12
-0x00E						FZ_13
-0x00F						FZ_14
-0x010						FZ_15
-0x011						FZ_16
-0x012						
-0x013						
-0x014						
-0x015						
-0x016						
-0x017						
-0x018						
-0x019						
-0x01A						
-0x01B						
-0x01C						
-0x01D						
-0x01E						
-0x01F						
-0x020						
-0x021						FZ_OBJ00
-0x022						FZ_OBJ01
-0x023						FZ_OBJ02
-0x024						FZ_OBJ03
-0x025						FZ_OBJ04
-0x026						FZ_OBJ05
-0x027						FZ_OBJ06
-0x028						FZ_OBJ07
-0x029						FZ_OBJ08
-0x02A						FZ_OBJ09
-0x02B						FZ_OBJ10
-0x02C						FZ_OBJ11
-0x02D						FZ_OBJ12
-0x02E						FZ_OBJ13
-0x02F						FZ_OBJ14
-0x030						FZ_OBJ15
-0x031						
-0x032						
-0x033						
-0x034						
-0x035						
-0x036						
-0x037						
-0x038						
-0x039						
-0x03A						
-0x03B						
-0x03C						
-0x03D						
-0x03E						
-0x03F						
-0x040						
-0x041						
-0x042						
-0x043						
-0x044						
-0x045						
-0x046						
-0x047						
-0x048						
-0x049						
-0x04A						
-0x04B						
-0x04C						
-0x04D						
-0x04E						
-0x04F						
-0x050						
-0x051						
-0x052						
-0x053						
-0x054						
-0x055						
-0x056						
-0x057						
-0x058						
-0x059						
-0x05A						
-0x05B						
-0x05C						
-0x05D						
-0x05E						
-0x05F						
-0x060						
-0x061						
-0x062						
-0x063						
-0x064						
-0x065						
-0x066						
-0x067						
-0x068						
-0x069						
-0x06A						
-0x06B						
-0x06C						
-0x06D						
-0x06E						
-0x06F						
-0x070						
-0x071						
-0x072						
-0x073						
-0x074						
-0x075						
-0x076						
-0x077						
-0x078						
-0x079						
-0x07A						
-0x07B						
-0x07C						
-0x07D						
-0x07E						
-0x07F						
-0x080						
-0x081						
-0x082						
-0x083						
-0x084						
-0x085						
-0x086						
-0x087						
-0x088						
-0x089						
-0x08A						
-0x08B						
-0x08C						
-0x08D						
-0x08E						
-0x08F						
-0x090						
-0x091						
-0x092						
-0x093						
-0x094						
-0x095						
-0x096						
-0x097						
-0x098						
-0x099						
-0x09A						
-0x09B						
-0x09C						
-0x09D						
-0x09E						
-0x09F						
-0x0A0						
-0x0A1						
-0x0A2	EVENT			Chose blue button in Lysandre Labs B3		
-0x0A3						
-0x0A4						
-0x0A5						
-0x0A6						
-0x0A7						
-0x0A8						
-0x0A9						
-0x0AA						
-0x0AB						
-0x0AC						
-0x0AD						
-0x0AE						
-0x0AF						
-0x0B0						
-0x0B1						
-0x0B2						
-0x0B3						
-0x0B4						
-0x0B5						
-0x0B6						
-0x0B7						
-0x0B8	SIDE EVENT			Perfect Clear: Making Beds Task on 5th Floor		
-0x0B9	IN-GAME TRADE			Traded for Bisharp in Snowbelle City		
-0x0BA						
-0x0BB						
-0x0BC						
-0x0BD						
-0x0BE	IN-GAME TRADE			Traded with Shauna		
-0x0BF	IN-GAME TRADE			Traded for Steelix in Cyllage City		
-0x0C0						
-0x0C1						
-0x0C2						
-0x0C3						
-0x0C4						
-0x0C5						
-0x0C6						
-0x0C7						
-0x0C8						
-0x0C9						
-0x0CA						
-0x0CB						
-0x0CC						
-0x0CD						
-0x0CE						
-0x0CF						
-0x0D0						
-0x0D1						
-0x0D2	STATIC ENCOUNTER			Zygarde Captured		
-0x0D3	STATIC ENCOUNTER			Mewtwo Captured		
-0x0D4						
-0x0D5						
-0x0D6						
-0x0D7						
-0x0D8						
-0x0D9						
-0x0DA						
-0x0DB						
-0x0DC						
-0x0DD						
-0x0DE						
-0x0DF						
-0x0E0						
-0x0E1						
-0x0E2						
-0x0E3						
-0x0E4						
-0x0E5						
-0x0E6						
-0x0E7						
-0x0E8						
-0x0E9						
-0x0EA						
-0x0EB						
-0x0EC						
-0x0ED						
-0x0EE						
-0x0EF						
-0x0F0						
-0x0F1						
-0x0F2						
-0x0F3						
-0x0F4						
-0x0F5						
-0x0F6						
-0x0F7						
-0x0F8						
-0x0F9						
-0x0FA						
-0x0FB						
-0x0FC						
-0x0FD						
-0x0FE						
-0x0FF						
-0x100						
-0x101						
-0x102						
-0x103						
-0x104						
-0x105						
-0x106						
-0x107						
-0x108						
-0x109						
-0x10A						
-0x10B						
-0x10C						
-0x10D						
-0x10E						
-0x10F						
-0x110						
-0x111						
-0x112						
-0x113						
-0x114						
-0x115						
-0x116						
-0x117						
-0x118						
-0x119						
-0x11A						
-0x11B						
-0x11C						
-0x11D						
-0x11E						
-0x11F						
-0x120						
-0x121						
-0x122						
-0x123						
-0x124						
-0x125						
-0x126						
-0x127						
-0x128						
-0x129						
-0x12A						
-0x12B	PKMN GIFT			Claimed Diancie via Mystery Gift (PokéCenter Event Completed)		
-0x12C						
-0x12D						
-0x12E						
-0x12F						
-0x130						
-0x131						
-0x132						
-0x133						
-0x134						
-0x135						
-0x136						
-0x137						
-0x138						
-0x139						
-0x13A						
-0x13B						
-0x13C						
-0x13D						
-0x13E						
-0x13F	STORY EVENT			Claimed Kanto Starter from Sycamore		
-0x140	IN-GAME TRADE			Traded with Diantha		
-0x141	STATIC ENCOUNTER			Snorlax Captured		
-0x142						
-0x143						
-0x144						
-0x145						
-0x146						
-0x147						
-0x148						
-0x149						
-0x14A						
-0x14B						
-0x14C						
-0x14D						
-0x14E						
-0x14F						
-0x150						
-0x151						
-0x152						
-0x153						
-0x154						
-0x155						
-0x156						
-0x157						
-0x158						
-0x159						
-0x15A						
-0x15B						
-0x15C						
-0x15D						
-0x15E						
-0x15F						
-0x160						
-0x161						
-0x162						
-0x163						
-0x164						
-0x165						
-0x166						
-0x167						
-0x168						
-0x169						
-0x16A						
-0x16B						
-0x16C						
-0x16D						
-0x16E						
-0x16F						
-0x170						
-0x171						
-0x172						
-0x173						
-0x174						
-0x175						
-0x176						
-0x177						
-0x178						
-0x179						
-0x17A						
-0x17B						
-0x17C						
-0x17D	SIDE EVENT			Singles Statuette		
-0x17E	SIDE EVENT			Doubles Statuette		
-0x17F	SIDE EVENT			Triples Statuette		
-0x180	SIDE EVENT			Rotation Statuette		
-0x181	SIDE EVENT			Multi Statuette		
-0x182	SIDE EVENT			Super Singles Unlocked		
-0x183	SIDE EVENT			Super Doubles Unlocked		
-0x184	SIDE EVENT			Super Triples Unlocked		
-0x185	SIDE EVENT			Super Rotation Unlocked		
-0x186	SIDE EVENT			Super Multi Unlocked		
-0x187						
-0x188						
-0x189	TRAINER BATTLE	Lumiose City	Lysandre Cafe	Team Flame Grunt M Battle		
-0x18A	TRAINER BATTLE	Lumiose City	Lysandre Cafe	Team Flame Grunt F Battle		
-0x18B						
-0x18C						
-0x18D						
-0x18E						
-0x18F						
-0x190						
-0x191						
-0x192						
-0x193						
-0x194						
-0x195						
-0x196						
-0x197						
-0x198						
-0x199						
-0x19A						
-0x19B						
-0x19C						
-0x19D						
-0x19E						
-0x19F						
-0x1A0						
-0x1A1						
-0x1A2						
-0x1A3						
-0x1A4						
-0x1A5						
-0x1A6						
-0x1A7						
-0x1A8						
-0x1A9						
-0x1AA	IN-GAME TRADE			Traded for Farfetch'd in Santalune City		
-0x1AB						
-0x1AC						
-0x1AD						
-0x1AE						
-0x1AF						
-0x1B0						
-0x1B1						
-0x1B2						
-0x1B3						
-0x1B4						
-0x1B5						
-0x1B6						
-0x1B7						
-0x1B8						
-0x1B9						
-0x1BA						
-0x1BB						
-0x1BC						
-0x1BD						
-0x1BE						
-0x1BF						
-0x1C0						
-0x1C1						
-0x1C2						
-0x1C3						
-0x1C4						
-0x1C5						
-0x1C6						
-0x1C7						
-0x1C8						
-0x1C9						
-0x1CA						
-0x1CB						
-0x1CC						
-0x1CD						
-0x1CE						
-0x1CF						
-0x1D0						
-0x1D1						
-0x1D2						
-0x1D3						
-0x1D4						
-0x1D5						
-0x1D6						
-0x1D7						
-0x1D8						
-0x1D9						
-0x1DA						
-0x1DB						
-0x1DC						
-0x1DD						
-0x1DE						
-0x1DF						
-0x1E0						
-0x1E1						
-0x1E2						
-0x1E3						
-0x1E4						
-0x1E5						
-0x1E6						
-0x1E7	SIDE EVENT			Perfect Clear: Restaurant Le Nah Double Battle		
-0x1E8	SIDE EVENT			Perfect Clear: Restaurant Le Yeah Triple Battle		
-0x1E9	SIDE EVENT			Perfect Clear: Restaurant Le Yeah Rotation Battle		
-0x1EA	SIDE EVENT			Perfect Clear: Restaurant Le Wow Double Battle		
-0x1EB	SIDE EVENT			Perfect Clear: Restaurant Le Wow Triple Battle		
-0x1EC	SIDE EVENT			Perfect Clear: Restaurant Le Wow Rotation Battle		
-0x1ED	SIDE EVENT			Perfect Clear: Sushi High Roller Double Battle		
-0x1EE	SIDE EVENT			Perfect Clear: Sushi High Roller Triple Battle		
-0x1EF	SIDE EVENT			Perfect Clear: Sushi High Roller Rotation Battle		
-0x1F0						
-0x1F1						
-0x1F2						
-0x1F3						
-0x1F4						
-0x1F5						
-0x1F6						
-0x1F7						
-0x1F8						
-0x1F9						
-0x1FA						
-0x1FB						
-0x1FC						
-0x1FD						
-0x1FE						
-0x1FF						
-0x200						
-0x201						
-0x202						
-0x203						
-0x204						
-0x205						
-0x206						
-0x207						
-0x208						
-0x209						
-0x20A						
-0x20B						
-0x20C						
-0x20D						
-0x20E						
-0x20F						
-0x210						
-0x211						
-0x212						
-0x213						
-0x214						
-0x215						
-0x216						
-0x217						
-0x218						
-0x219						
-0x21A						
-0x21B						
-0x21C						
-0x21D						
-0x21E						
-0x21F						
-0x220						
-0x221						
-0x222						
-0x223						
-0x224						
-0x225						
-0x226						
-0x227						
-0x228						
-0x229						
-0x22A						
-0x22B						
-0x22C						
-0x22D						
-0x22E						
-0x22F						
-0x230						
-0x231						
-0x232						
-0x233						
-0x234						
-0x235						
-0x236						
-0x237						
-0x238						
-0x239						
-0x23A						
-0x23B						
-0x23C						
-0x23D						
-0x23E						
-0x23F						
-0x240						
-0x241						
-0x242						
-0x243						
-0x244						
-0x245						
-0x246						
-0x247						
-0x248						
-0x249						
-0x24A						
-0x24B						
-0x24C						
-0x24D						
-0x24E						
-0x24F						
-0x250						
-0x251						
-0x252						
-0x253						
-0x254						
-0x255						
-0x256						
-0x257						
-0x258						
-0x259						
-0x25A						
-0x25B						
-0x25C						
-0x25D						
-0x25E						
-0x25F						
-0x260						
-0x261						
-0x262						
-0x263						
-0x264						
-0x265						
-0x266						
-0x267						
-0x268						
-0x269						
-0x26A						
-0x26B						
-0x26C						
-0x26D						
-0x26E						
-0x26F						
-0x270						
-0x271						
-0x272						
-0x273						
-0x274						
-0x275						
-0x276						
-0x277	EVENT			Snorlax Disappeared		
-0x278						
-0x279						
-0x27A						
-0x27B						
-0x27C						
-0x27D						
-0x27E						
-0x27F						
-0x280						
-0x281						
-0x282						
-0x283						
-0x284						
-0x285						
-0x286						
-0x287						
-0x288						
-0x289						
-0x28A						
-0x28B						
-0x28C						
-0x28D						
-0x28E						
-0x28F						
-0x290						
-0x291						
-0x292						
-0x293						
-0x294						
-0x295						
-0x296						
-0x297						
-0x298						
-0x299						
-0x29A						
-0x29B						
-0x29C						
-0x29D						
-0x29E						
-0x29F						
-0x2A0						
-0x2A1						
-0x2A2						
-0x2A3						
-0x2A4						
-0x2A5						
-0x2A6						
-0x2A7						
-0x2A8						
-0x2A9						
-0x2AA						
-0x2AB						
-0x2AC						
-0x2AD						
-0x2AE						
-0x2AF						
-0x2B0						
-0x2B1						
-0x2B2						
-0x2B3						
-0x2B4						
-0x2B5						
-0x2B6						
-0x2B7						
-0x2B8						
-0x2B9						
-0x2BA						
-0x2BB						
-0x2BC						
-0x2BD						
-0x2BE						
-0x2BF						
-0x2C0						
-0x2C1						
-0x2C2						
-0x2C3						
-0x2C4						
-0x2C5						
-0x2C6						
-0x2C7						
-0x2C8						
-0x2C9						
-0x2CA						
-0x2CB						
-0x2CC						
-0x2CD						
-0x2CE						
-0x2CF						
-0x2D0						
-0x2D1						
-0x2D2						
-0x2D3						
-0x2D4						
-0x2D5						
-0x2D6						
-0x2D7						
-0x2D8						
-0x2D9						
-0x2DA						
-0x2DB						
-0x2DC						
-0x2DD						
-0x2DE						
-0x2DF						
-0x2E0						
-0x2E1						
-0x2E2						
-0x2E3						
-0x2E4						
-0x2E5						
-0x2E6						
-0x2E7						
-0x2E8						
-0x2E9						
-0x2EA						
-0x2EB						
-0x2EC						
-0x2ED						
-0x2EE						
-0x2EF						
-0x2F0						
-0x2F1	EVENT					
-0x2F2	EVENT					
-0x2F3	EVENT					
-0x2F4	EVENT					
-0x2F5	EVENT					
-0x2F6	EVENT					
-0x2F7	EVENT					
-0x2F8	EVENT					
-0x2F9	EVENT					
-0x2FA	EVENT					
-0x2FB	EVENT					
-0x2FC	EVENT					
-0x2FD	EVENT					
-0x2FE	EVENT					
-0x2FF	EVENT					
-0x300						
-0x301	TRAINER BATTLE	Victory Road	Entrance	Ace Trainer Robbie Battle		
-0x302	EVENT	Victory Road	Entrance	Ace Trainer Robbie Movement		
-0x303	SIDE EVENT			50 Streak: Beat Chatelaine		
-0x304						
-0x305						
-0x306						
-0x307						
-0x308						
-0x309						
-0x30A						
-0x30B						
-0x30C						
-0x30D						
-0x30E						
-0x30F						
-0x310						
-0x311						
-0x312						
-0x313						
-0x314						
-0x315						
-0x316						
-0x317						
-0x318						
-0x319						
-0x31A						
-0x31B						
-0x31C						
-0x31D						
-0x31E						
-0x31F						
-0x320						
-0x321						
-0x322						
-0x323						
-0x324						
-0x325						
-0x326						
-0x327						
-0x328						
-0x329						
-0x32A						
-0x32B						
-0x32C						
-0x32D						
-0x32E						
-0x32F						
-0x330						
-0x331						
-0x332						
-0x333						
-0x334						
-0x335						
-0x336						
-0x337						
-0x338						
-0x339						
-0x33A						
-0x33B						
-0x33C						
-0x33D						
-0x33E						
-0x33F						
-0x340						
-0x341						
-0x342						
-0x343						
-0x344						
-0x345						
-0x346						
-0x347						
-0x348						
-0x349						
-0x34A						
-0x34B						
-0x34C						
-0x34D						
-0x34E						
-0x34F						
-0x350						
-0x351						
-0x352						
-0x353						
-0x354						
-0x355						
-0x356						
-0x357						
-0x358						
-0x359						
-0x35A						
-0x35B						
-0x35C						
-0x35D						
-0x35E						
-0x35F						
-0x360						
-0x361						
-0x362						
-0x363						
-0x364						
-0x365						
-0x366						
-0x367						
-0x368						
-0x369						
-0x36A						
-0x36B						
-0x36C						
-0x36D						
-0x36E						
-0x36F						
-0x370						
-0x371						
-0x372						
-0x373						
-0x374						
-0x375						
-0x376	EVENT			Zygarde Defeated		
-0x377						
-0x378						
-0x379						
-0x37A						
-0x37B						
-0x37C						
-0x37D						
-0x37E						
-0x37F						
-0x380						
-0x381						
-0x382						
-0x383						
-0x384						
-0x385						
-0x386						
-0x387						
-0x388						
-0x389						
-0x38A						
-0x38B						
-0x38C						
-0x38D						
-0x38E						
-0x38F						
-0x390						
-0x391						
-0x392						
-0x393						
-0x394						
-0x395						
-0x396						
-0x397						
-0x398						
-0x399						
-0x39A						
-0x39B						
-0x39C						
-0x39D						
-0x39E						
-0x39F						
-0x3A0						
-0x3A1						
-0x3A2						
-0x3A3						
-0x3A4						
-0x3A5						
-0x3A6						
-0x3A7						
-0x3A8						
-0x3A9						
-0x3AA						
-0x3AB						
-0x3AC						
-0x3AD						
-0x3AE						
-0x3AF						
-0x3B0						
-0x3B1						
-0x3B2						
-0x3B3						
-0x3B4						
-0x3B5	PKMN GIFT			Received Lucario Gift		
-0x3B6						
-0x3B7						
-0x3B8						
-0x3B9						
-0x3BA						
-0x3BB						
-0x3BC						
-0x3BD						
-0x3BE						
-0x3BF						
-0x3C0						
-0x3C1						
-0x3C2						
-0x3C3						
-0x3C4						
-0x3C5						
-0x3C6						
-0x3C7						
-0x3C8						
-0x3C9						
-0x3CA						
-0x3CB						
-0x3CC						
-0x3CD						
-0x3CE						
-0x3CF						
-0x3D0						
-0x3D1						
-0x3D2						
-0x3D3						
-0x3D4						
-0x3D5						
-0x3D6						
-0x3D7						
-0x3D8						
-0x3D9						
-0x3DA						
-0x3DB						
-0x3DC						
-0x3DD						
-0x3DE						
-0x3DF						
-0x3E0						
-0x3E1						
-0x3E2						
-0x3E3						
-0x3E4						
-0x3E5						
-0x3E6						
-0x3E7						
-0x3E8						
-0x3E9						
-0x3EA						
-0x3EB						
-0x3EC						
-0x3ED						
-0x3EE						
-0x3EF						
-0x3F0						
-0x3F1						
-0x3F2						
-0x3F3						
-0x3F4						
-0x3F5						
-0x3F6						
-0x3F7						
-0x3F8						
-0x3F9						
-0x3FA						
-0x3FB						
-0x3FC						
-0x3FD						
-0x3FE						
-0x3FF						
-0x400						
-0x401						
-0x402						
-0x403						
-0x404						
-0x405						
-0x406						
-0x407						
-0x408						
-0x409						
-0x40A						
-0x40B						
-0x40C						
-0x40D						
-0x40E						
-0x40F						
-0x410						
-0x411						
-0x412						
-0x413						
-0x414						
-0x415						
-0x416						
-0x417						
-0x418						
-0x419						
-0x41A						
-0x41B						
-0x41C						
-0x41D						
-0x41E						
-0x41F						
-0x420						
-0x421						
-0x422						
-0x423	EVENT			Mewtwo Defeated		
-0x424	EVENT			Unknown Dungeon Accessible		
-0x425						
-0x426						
-0x427						
-0x428						
-0x429						
-0x42A						
-0x42B						
-0x42C						
-0x42D						
-0x42E						
-0x42F						
-0x430						
-0x431						
-0x432						
-0x433						
-0x434						
-0x435						
-0x436						
-0x437						
-0x438						
-0x439						
-0x43A						
-0x43B						
-0x43C						
-0x43D						
-0x43E						
-0x43F						
-0x440						
-0x441						
-0x442						
-0x443						
-0x444						
-0x445						
-0x446						
-0x447						
-0x448						
-0x449						
-0x44A						
-0x44B						
+0x001						FH_00
+0x002						FH_01
+0x003						FH_02
+0x004						FH_03
+0x005						FH_04
+0x006						FH_05
+0x007						FH_06
+0x008						FH_07
+0x009						FH_08
+0x00A						FH_09
+0x00B						FH_10
+0x00C						FH_11
+0x00D						FH_12
+0x00E						FH_13
+0x00F						FH_14
+0x010						FH_15
+0x011						FH_16
+0x012	_UNUSED					
+0x013	_UNUSED					
+0x014	_UNUSED					
+0x015	_UNUSED					
+0x016	_UNUSED					
+0x017	_UNUSED					
+0x018	_UNUSED					
+0x019	_UNUSED					
+0x01A	_UNUSED					
+0x01B	_UNUSED					
+0x01C	_UNUSED					
+0x01D	_UNUSED					
+0x01E	_UNUSED					
+0x01F	_UNUSED					
+0x020	_UNUSED					
+0x021						FH_OBJ00
+0x022						FH_OBJ01
+0x023						FH_OBJ02
+0x024						FH_OBJ03
+0x025						FH_OBJ04
+0x026						FH_OBJ05
+0x027						FH_OBJ06
+0x028						FH_OBJ07
+0x029						FH_OBJ08
+0x02A						FH_OBJ09
+0x02B						FH_OBJ10
+0x02C						FH_OBJ11
+0x02D						FH_OBJ12
+0x02E						FH_OBJ13
+0x02F						FH_OBJ14
+0x030						FH_OBJ15
+0x031	_UNUSED					
+0x032	_UNUSED					
+0x033	_UNUSED					
+0x034	_UNUSED					
+0x035	_UNUSED					
+0x036	_UNUSED					
+0x037	_UNUSED					
+0x038	_UNUSED					
+0x039	_UNUSED					
+0x03A	_UNUSED					
+0x03B	_UNUSED					
+0x03C	_UNUSED					
+0x03D	_UNUSED					
+0x03E	_UNUSED					
+0x03F	_UNUSED					
+0x040	_UNUSED					
+0x041						FH_WASURE
+0x042	_UNUSED					
+0x043	_UNUSED					
+0x044	_UNUSED					
+0x045	_UNUSED					
+0x046	_UNUSED					
+0x047	_UNUSED					
+0x048	_UNUSED					
+0x049	_UNUSED					
+0x04A	_UNUSED					
+0x04B	_UNUSED					
+0x04C	_UNUSED					
+0x04D	_UNUSED					
+0x04E	_UNUSED					
+0x04F	_UNUSED					
+0x050	_UNUSED					
+0x051	_UNUSED					
+0x052	_UNUSED					
+0x053	_UNUSED					
+0x054	_UNUSED					
+0x055	_UNUSED					
+0x056	_UNUSED					
+0x057	_UNUSED					
+0x058	_UNUSED					
+0x059	_UNUSED					
+0x05A	_UNUSED					
+0x05B	_UNUSED					
+0x05C	_UNUSED					
+0x05D	_UNUSED					
+0x05E	_UNUSED					
+0x05F	_UNUSED					
+0x060	_UNUSED					
+0x061	_UNUSED					
+0x062	_UNUSED					
+0x063	_UNUSED					
+0x064						FE_PC_GOLD
+0x065						FE_PC_POKERUS
+0x066	_UNUSED					
+0x067	_UNUSED					
+0x068	_UNUSED					
+0x069						FE_CONNECT_UNION_GUIDE_TALK
+0x06A	_UNUSED					
+0x06B						FE_ZUKAN_GET
+0x06C	_UNUSED					
+0x06D	_UNUSED					
+0x06E	_UNUSED					
+0x06F	_UNUSED					
+0x070						FE_SODATEYA_FIRSTTALK
+0x071	_UNUSED					
+0x072	_UNUSED					
+0x073						FE_CGEAR_GET
+0x074						FE_C04GYM0101_TRBTL1
+0x075						FE_C04GYM0101_TRBTL2
+0x076	_UNUSED					
+0x077	_UNUSED					
+0x078	_UNUSED					
+0x079	_UNUSED					
+0x07A	_UNUSED					
+0x07B	_UNUSED					
+0x07C	_UNUSED					
+0x07D	_UNUSED					
+0x07E	_UNUSED					
+0x07F	_UNUSED					
+0x080						FE_C02GYM_TRBTL1
+0x081						FE_C02GYM_TRBTL2
+0x082	_UNUSED					
+0x083	_UNUSED					
+0x084	_UNUSED					
+0x085	_UNUSED					
+0x086	_UNUSED					
+0x087	_UNUSED					
+0x088						FE_BADGEGATE01_OPEN
+0x089						FE_BADGEGATE02_OPEN
+0x08A						FE_BADGEGATE03_OPEN
+0x08B						FE_BADGEGATE04_OPEN
+0x08C	ITEM GIFT					FE_D12R0104_ITEMGET_01
+0x08D	ITEM GIFT					FE_C04R0401_ITEMGET_01
+0x08E	ITEM GIFT					FE_C03R0102_ITEMGET_01
+0x08F	ITEM GIFT					FE_C03R0801_ITEMGET_01
+0x090						FE_C03R0801_FIRSTTALK_01
+0x091	ITEM GIFT					FE_C03R0901_ITEMGET_01
+0x092	ITEM GIFT					FE_C02R0102_ITEMGET_01
+0x093	ITEM GIFT					FE_C04R0201_ITEMGET_01
+0x094	ITEM GIFT					FE_T06R0301_ITEMGET_01
+0x095						FE_C09R0301_TRBTL_01
+0x096	ITEM GIFT					FE_T05R0201_ITEMGET_01
+0x097	ITEM GIFT					FE_C04R0301_ITEMGET_01
+0x098	ITEM GIFT					FE_D07_ITEMGET_01
+0x099	ITEM GIFT					FE_D07_ITEMGET_02
+0x09A						FE_TRIALHOUSE_RANKMASTER
+0x09B						FE_PLR0201_DOOR_CLOSE
+0x09C						FE_C09_HERO_FIRSTTALK_01
+0x09D						FE_C05R0302_AWARD_01
+0x09E						FE_C05R0302_AWARD_02
+0x09F						FE_C05R0302_AWARD_03
+0x0A0						FE_C05R0302_AWARD_04
+0x0A1						FE_C05R0302_AWARD_05
+0x0A2	EVENT			Chose blue button in Lysandre Labs B3		FE_C02R0603_SWITCH_TRUE_01
+0x0A3						FE_HOTEL_INFO_FIRST_TALK
+0x0A4	ITEM GIFT					FE_T02_ITEMGET_01
+0x0A5						FE_T09R0301_FIRSTTALK_01
+0x0A6	ITEM GIFT					FE_C08R0401_ITEMGET_01
+0x0A7						FE_HOTEL_ROOMSRV_FIRST_TALK
+0x0A8						FE_C06_BOY02_FIRSTTALK_01
+0x0A9						FE_C06_GIRL02_FIRSTTALK_01
+0x0AA						FE_C05R0701_QUIZFIRST_01
+0x0AB						FE_BEDMAKE_FIRSTTALK_01
+0x0AC						FE_CONCIERGE_FIRSTTALK_01
+0x0AD						FE_C02HOTEL_GOODCLEAR_01
+0x0AE	_UNUSED					
+0x0AF	_UNUSED					
+0x0B0	_UNUSED					
+0x0B1	ITEM GIFT					FE_C02R0103_ITEMGET_01
+0x0B2	ITEM GIFT					FE_T03_ITEMGET_01
+0x0B3	ITEM GIFT					FE_T03_ITEMGET_02
+0x0B4	ITEM GIFT					FE_T03R0201_ITEMGET_01
+0x0B5	ITEM GIFT					FE_T03R0301_ITEMGET_01
+0x0B6	ITEM GIFT					FE_T06R0101_ITEMGET_01
+0x0B7	ITEM GIFT					FE_C05R0301_ITEMGET_01
+0x0B8	SIDE EVENT			Perfect Clear: Making Beds Task on 5th Floor		FE_BEDMAKE_RANKMAX_FIRST_01
+0x0B9	IN-GAME TRADE			Traded for Bisharp in Snowbelle City		FE_C08R0301_POKETRADE_01
+0x0BA						FE_C08R0401_TRBTL_01
+0x0BB	ITEM GIFT					FE_C09R0101_ITEMGET_01
+0x0BC	_UNUSED					
+0x0BD	ITEM GIFT					FE_C09R0201_ITEMGET_01
+0x0BE	IN-GAME TRADE			Traded with Shauna		FE_T01_FRIEND_TRADE_01
+0x0BF	IN-GAME TRADE			Traded for Steelix in Cyllage City		FE_C03P0101_POKETRADE_01
+0x0C0						FE_C09R1003_FIRSTTALK_01
+0x0C1						FE_R16R0101_COMBO_CLEAR
+0x0C2						FE_R16R0101_COMBO_FIRSTTALK
+0x0C3						FE_C02R2401_FIRSTTALK_01
+0x0C4						FE_C02R3001_FIRSTTALK_01
+0x0C5	ITEM GIFT					FE_T03R0401_ITEMGET_01
+0x0C6	ITEM GIFT					FE_C02R0501_ITEMGET_01
+0x0C7	ITEM GIFT					FE_C02R0502_ITEMGET_01
+0x0C8						FE_HANDSOME_QUEST_EP01_CLEAR
+0x0C9						FE_HANDSOME_QUEST_ALL_CLEAR
+0x0CA						FE_C02R0604_ELEVATOR_ADD_HIDE
+0x0CB						FE_C02R0611_GET_DATA_A
+0x0CC						FE_C02R0611_GET_DATA_B
+0x0CD						FE_C02R0611_GET_DATA_C
+0x0CE						FE_C02R0611_GET_DATA_D
+0x0CF						FE_C02R0611_GET_DATA_E
+0x0D0						FE_C02R0611_GET_DATA_F
+0x0D1						FE_C02R0703_PICTURE_GRAFFITI
+0x0D2	STATIC ENCOUNTER			Zygarde Captured		FE_EV_POKE03_CAPTURE
+0x0D3	STATIC ENCOUNTER			Mewtwo Captured		FE_MYUUTUU_CAPTURE
+0x0D4	ITEM GIFT					FE_C06_ITEMGET_02
+0x0D5	ITEM GIFT					FE_T09R0201_ITEMGET_02
+0x0D6	ITEM GIFT					FE_PLR0801_ITEMGET_01
+0x0D7	ITEM GIFT					FE_D01_ITEMGET_01
+0x0D8	_UNUSED					
+0x0D9	_UNUSED					
+0x0DA	_UNUSED					
+0x0DB	_UNUSED					
+0x0DC	_UNUSED					
+0x0DD	_UNUSED					
+0x0DE	_UNUSED					
+0x0DF	_UNUSED					
+0x0E0	_UNUSED					
+0x0E1	_UNUSED					
+0x0E2	_UNUSED					
+0x0E3	_UNUSED					
+0x0E4	_UNUSED					
+0x0E5	_UNUSED					
+0x0E6	_UNUSED					
+0x0E7	_UNUSED					
+0x0E8	_UNUSED					
+0x0E9	_UNUSED					
+0x0EA	_UNUSED					
+0x0EB	_UNUSED					
+0x0EC	_UNUSED					
+0x0ED	_UNUSED					
+0x0EE	_UNUSED					
+0x0EF	_UNUSED					
+0x0F0	_UNUSED					
+0x0F1	_UNUSED					
+0x0F2	_UNUSED					
+0x0F3	_UNUSED					
+0x0F4	_UNUSED					
+0x0F5	_UNUSED					
+0x0F6	_UNUSED					
+0x0F7	_UNUSED					
+0x0F8	_UNUSED					
+0x0F9						FE_JUICE_FRESH_FIRSTTALK
+0x0FA						FE_JUICE_VINTAGE_FIRSTTALK
+0x0FB						FE_C02R0701_FIRSTTALK_01
+0x0FC						FE_D09R0101_TUTORIAL
+0x0FD						FE_D09R0101_CLEAR
+0x0FE	ITEM GIFT					FE_C02R0502_ITEMGET_02
+0x0FF	ITEM GIFT					FE_C03R0601_ITEMGET_01
+0x100	ITEM GIFT					FE_C02R1101_ITEMGET_01
+0x101	ITEM GIFT					FE_C02R1103_ITEMGET_01
+0x102	ITEM GIFT					FE_C02R1203_ITEMGET_01
+0x103	ITEM GIFT					FE_C02R1203_ITEMGET_02
+0x104	ITEM GIFT					FE_C02R1401_ITEMGET_01
+0x105	ITEM GIFT					FE_C02R3602_ITEMGET_01
+0x106	ITEM GIFT					FE_R06_ITEMGET_01
+0x107						FE_I01_MACHINE_FIRSTTALK_01
+0x108						FE_C07R0501_FIRSTTALK_01
+0x109	ITEM GIFT					FE_T09_ITEMGET_01
+0x10A	ITEM GIFT					FE_C08P0101_ITEMGET_01
+0x10B	ITEM GIFT					FE_C01R0501_ITEMGET_01
+0x10C	ITEM GIFT					FE_C09R0601_ITEMGET_01
+0x10D	ITEM GIFT					FE_C02R2601_ITEMGET_01
+0x10E	ITEM GIFT					FE_C04R1005_ITEMGET_01
+0x10F						FE_C02R0202_FIRSTTALK_01
+0x110						FE_C02R2001_STYLISH_01
+0x111						FE_C02R3701_NG_EVENT_01
+0x112						FE_C02R3701_OK_EVENT_01
+0x113						FE_D13R0103_VS_FLARE_01
+0x114						FE_D13R0103_VS_FLARE_02
+0x115						FE_D13R0103_VS_FLARE_03
+0x116						FE_D13R0103_VS_FLARE_04
+0x117	ITEM GIFT					FE_C02R0701_ITEMGET_01
+0x118						FE_I01R0101_FIRSTTALK_01
+0x119	ITEM GIFT					FE_C02R3105_ITEMGET_01
+0x11A	ITEM GIFT					FE_C05_ITEMGET_01
+0x11B						FE_C05_FIRSTTALK_01
+0x11C	ITEM GIFT					FE_D04R0101_ITEMGET_01
+0x11D	ITEM GIFT					FE_W01_ITEMGET_01
+0x11E	ITEM GIFT					FE_T09R0201_ITEMGET_01
+0x11F						FE_MAJIN_FIRSTTALK_01
+0x120						FE_STEAM_FIRSTTALK_01
+0x121	ITEM GIFT					FE_C09_ITEMGET_01
+0x122						FE_C09_I03EVENT_CLEAR_01
+0x123	ITEM GIFT					FE_C09R1001_ITEMGET_01
+0x124	ITEM GIFT					FE_C09R1001_ITEMGET_02
+0x125	ITEM GIFT					FE_C09R0401_ITEMGET_01
+0x126	ITEM GIFT					FE_C09R0501_ITEMGET_01
+0x127	ITEM GIFT					FE_C02R3401_ITEMGET_01
+0x128	ITEM GIFT					FE_C02R3401_ITEMGET_02
+0x129	ITEM GIFT					FE_C02R3401_ITEMGET_03
+0x12A	ITEM GIFT					FE_D06R0103_ITEMGET_01
+0x12B	PKMN GIFT			Claimed Diancie via Mystery Gift (PokéCenter Event Completed)		FE_PINKDIA_EVENT_01
+0x12C	PKMN GIFT					FE_C04R1002_POKEGET_01
+0x12D						FE_D13R0103_XYBATTLE_FIRST_01
+0x12E						FE_FLDITEM_MEGASTONE_UNLOCK
+0x12F	ITEM GIFT					FE_C02GYM0101_ITEMGET_01
+0x130	SPECIAL ITEM					FE_FLD_MEGASTONE_GET_01
+0x131	SPECIAL ITEM					FE_FLD_MEGASTONE_GET_02
+0x132	SPECIAL ITEM					FE_FLD_MEGASTONE_GET_03
+0x133	SPECIAL ITEM					FE_FLD_MEGASTONE_GET_04
+0x134	SPECIAL ITEM					FE_FLD_MEGASTONE_GET_05
+0x135	SPECIAL ITEM					FE_FLD_MEGASTONE_GET_06
+0x136	SPECIAL ITEM					FE_FLD_MEGASTONE_GET_07
+0x137	SPECIAL ITEM					FE_FLD_MEGASTONE_GET_08
+0x138	SPECIAL ITEM					FE_FLD_MEGASTONE_GET_09
+0x139	SPECIAL ITEM					FE_FLD_MEGASTONE_GET_10
+0x13A	SPECIAL ITEM					FE_FLD_MEGASTONE_GET_11
+0x13B	SPECIAL ITEM					FE_FLD_MEGASTONE_GET_12
+0x13C						FE_T04_FRIEND3_FIRSTTALK_01
+0x13D						FE_APPAREL_TICKET_TUTORIAL
+0x13E	ITEM GIFT					FE_C09_ITEMGET_02
+0x13F	STORY EVENT			Claimed Kanto Starter from Sycamore		FE_C02R0103_POKEGET_01
+0x140	IN-GAME TRADE			Traded with Diantha		FE_C02R2101_POKETRADE_01
+0x141	STATIC ENCOUNTER			Snorlax Captured		FE_R07_KABIGON_01
+0x142						FE_C02R1601_PV_01
+0x143						FE_C02R2401_HUSIGIBANAITO_01
+0x144						FE_C02R2401_RIZAADONAITO_01
+0x145						FE_C02R2401_KAMEKKUSUNAITO_01
+0x146	ITEM GIFT					FE_C04_ITEMGET_01
+0x147	ITEM GIFT					FE_T06R0201_ITEMGET_01
+0x148	_UNUSED					
+0x149	_UNUSED					
+0x14A	_UNUSED					
+0x14B	_UNUSED					
+0x14C	_UNUSED					
+0x14D	_UNUSED					
+0x14E	_UNUSED					
+0x14F	_UNUSED					
+0x150	_UNUSED					
+0x151	_UNUSED					
+0x152	_UNUSED					
+0x153	_UNUSED					
+0x154	_UNUSED					
+0x155	_UNUSED					
+0x156	_UNUSED					
+0x157	_UNUSED					
+0x158	_UNUSED					
+0x159	_UNUSED					
+0x15A	_UNUSED					
+0x15B	_UNUSED					
+0x15C	_UNUSED					
+0x15D	_UNUSED					
+0x15E	_UNUSED					
+0x15F	_UNUSED					
+0x160	_UNUSED					
+0x161	_UNUSED					
+0x162	_UNUSED					
+0x163	_UNUSED					
+0x164	_UNUSED					
+0x165	_UNUSED					
+0x166	_UNUSED					
+0x167	_UNUSED					
+0x168	_UNUSED					
+0x169	_UNUSED					
+0x16A	_UNUSED					
+0x16B	_UNUSED					
+0x16C	_UNUSED					
+0x16D	_UNUSED					
+0x16E	_UNUSED					
+0x16F	_UNUSED					
+0x170	_UNUSED					
+0x171	_UNUSED					
+0x172						FE_KISEKAE_VISITED
+0x173						FE_R07_FRIEND3_IE_01
+0x174						FE_C02R0601_DOOR_OPEN
+0x175						FE_C02R0602_CAGE_OPEN
+0x176						FE_C02R0602_ELEVATOR_ADD_01
+0x177						FE_PLR0302_BIGFOUR2_01
+0x178						FE_PLR0402_BIGFOUR4_01
+0x179						FE_PLR0502_BIGFOUR1_01
+0x17A						FE_PLR0602_BIGFOUR3_01
+0x17B						FE_C02_TOWER_ILLUMINATION
+0x17C						FE_C02Z01_PVEVENT_01
+0x17D	SIDE EVENT			Singles Statuette		FE_BTLHOUSE_MONUMENT_SINGLE
+0x17E	SIDE EVENT			Doubles Statuette		FE_BTLHOUSE_MONUMENT_DOUBLE
+0x17F	SIDE EVENT			Triples Statuette		FE_BTLHOUSE_MONUMENT_TRIPLE
+0x180	SIDE EVENT			Rotation Statuette		FE_BTLHOUSE_MONUMENT_ROTATION
+0x181	SIDE EVENT			Multi Statuette		FE_BTLHOUSE_MONUMENT_MULTI
+0x182	SIDE EVENT			Super Singles Unlocked		FE_BTLHOUSE_CLEAR_SINGLE
+0x183	SIDE EVENT			Super Doubles Unlocked		FE_BTLHOUSE_CLEAR_DOUBLE
+0x184	SIDE EVENT			Super Triples Unlocked		FE_BTLHOUSE_CLEAR_TRIPLE
+0x185	SIDE EVENT			Super Rotation Unlocked		FE_BTLHOUSE_CLEAR_ROTATION
+0x186	SIDE EVENT			Super Multi Unlocked		FE_BTLHOUSE_CLEAR_MULTI
+0x187						FE_CAMERAMAN_FIRSTTALK_01
+0x188						FE_C02R0601_BTL_GARCON_01
+0x189	TRAINER BATTLE	Lumiose City	Lysandre Cafe	Team Flame Grunt M Battle		FE_C02R0601_BTL_WAITRESS_01
+0x18A	TRAINER BATTLE	Lumiose City	Lysandre Cafe	Team Flame Grunt F Battle		FE_SAKASA_BATTLE_FIRSTTALK_01
+0x18B	_UNUSED					
+0x18C						FE_WEATHER_FORCE_START
+0x18D						FE_WEATHER_FORCE_STOP
+0x18E						FE_KISEKAE_FIRST
+0x18F	ITEM GIFT					FE_C01_ITEMGET_01
+0x190						FE_R01_TOBIENC_01
+0x191	ITEM GIFT					FE_T09G0101_ITEMGET_01
+0x192						FE_T09R0201_FIRSTTALK_01
+0x193	ITEM GIFT					FE_C05G0101_ITEMGET_01
+0x194						FE_C05_MUJINSHOP_UNPAID
+0x195	ITEM GIFT					FE_C05R0401_ITEMGET_01
+0x196						FE_OSIE_DRAGON_FIRSTTALK_01
+0x197						FE_OSIE_ULTIMATE_FIRSTTALK_01
+0x198						FE_OSIE_GATTAI_FIRSTTALK_01
+0x199						FE_WASURE_FIRSTTALK_01
+0x19A						FE_OMOIDASI_FIRSTTALK_01
+0x19B	ITEM GIFT					FE_C05R0201_ITEMGET_01
+0x19C	ITEM GIFT					FE_R12R0101_ITEMGET_01
+0x19D	ITEM GIFT					FE_C08R0601_ITEMGET_01
+0x19E	ITEM GIFT					FE_T09R0401_ITEMGET_01
+0x19F	ITEM GIFT					FE_R14_ITEMGET_01
+0x1A0	ITEM GIFT					FE_D12R0104_ITEMGET_02
+0x1A1	ITEM GIFT					FE_T04P0101_ITEMGET_01
+0x1A2						FE_T04R0101_GUIDE_FIRSTTALK
+0x1A3	ITEM GIFT					FE_C03R0101_ITEMGET_01
+0x1A4	ITEM GIFT					FE_C03R0101_ITEMGET_02
+0x1A5	ITEM GIFT					FE_D11R0101_ITEMGET_01
+0x1A6						FE_T03_FIRSTTALK_01
+0x1A7	ITEM GIFT					FE_D15R0101_ITEMGET_01
+0x1A8	_UNUSED					
+0x1A9						FE_D12R0103_FLARECLEAR
+0x1AA	IN-GAME TRADE			Traded for Farfetch'd in Santalune City		FE_C01R0401_POKETRADE_01
+0x1AB						FE_R13_GATEOPEN_01
+0x1AC	ITEM GIFT					FE_C01R1001_ITEMGET_01
+0x1AD	ITEM GIFT					FE_C04R0101_ITEMGET_01
+0x1AE	ITEM GIFT					FE_T04R0201_ITEMGET_01
+0x1AF						FE_D01_IE00
+0x1B0						FE_C06R0501_FIRSTTALK_01
+0x1B1						FE_C02R2001_TALK_C_01_01_01
+0x1B2						FE_C02R2001_TALK_C_01_01_02
+0x1B3						FE_C02R2001_TALK_C_01_02_01
+0x1B4						FE_C02R2001_TALK_C_01_02_02
+0x1B5						FE_C02R2001_TALK_C_01_03_01
+0x1B6						FE_C02R2001_TALK_C_01_03_02
+0x1B7						FE_C02R2001_TALK_C_01_04_01
+0x1B8						FE_C02R2001_TALK_C_01_04_02
+0x1B9						FE_C02R2001_TALK_C_01_05_01
+0x1BA						FE_C02R2001_TALK_C_01_05_02
+0x1BB						FE_C02R2001_TALK_C_01_06_01
+0x1BC						FE_C02R2001_TALK_C_01_06_02
+0x1BD						FE_C02R2001_TALK_M_02_01_01
+0x1BE						FE_C02R2001_TALK_F_02_01_01
+0x1BF						FE_C02R2001_TALK_M_02_02_01
+0x1C0						FE_C02R2001_TALK_F_02_02_01
+0x1C1						FE_C02R2001_TALK_M_02_03_01
+0x1C2						FE_C02R2001_TALK_F_02_03_01
+0x1C3						FE_C02R2001_TALK_F_02_04_01
+0x1C4						FE_C02R2001_TALK_F_02_05_01
+0x1C5						FE_C02R2001_TALK_M_03_01_01
+0x1C6						FE_C02R2001_TALK_F_03_01_01
+0x1C7						FE_C02R2001_TALK_M_03_02_01
+0x1C8						FE_C02R2001_TALK_F_03_02_01
+0x1C9						FE_C02R2001_TALK_M_03_02_02
+0x1CA						FE_C02R2001_TALK_F_03_02_02
+0x1CB						FE_C02R2001_TALK_C_03_03_01
+0x1CC						FE_C02R2001_TALK_C_03_04_01
+0x1CD						FE_C02R2001_TALK_C_03_05_01
+0x1CE						FE_C02R2001_TALK_C_03_06_01
+0x1CF						FE_C02R2001_TALK_C_03_07_01
+0x1D0						FE_C02R2001_TALK_M_03_08_01
+0x1D1						FE_C02R2001_TALK_F_03_08_01
+0x1D2						FE_C02R2001_TALK_M_04_01_01
+0x1D3						FE_C02R2001_TALK_F_04_01_01
+0x1D4						FE_C02R2001_TALK_M_04_01_02
+0x1D5						FE_C02R2001_TALK_F_04_01_02
+0x1D6						FE_C02R2001_TALK_M_04_02_01
+0x1D7						FE_C02R2001_TALK_F_04_02_01
+0x1D8						FE_C02R2001_TALK_M_04_02_02
+0x1D9						FE_C02R2001_TALK_F_04_02_02
+0x1DA						FE_C02R2001_TALK_M_04_03_01
+0x1DB						FE_C02R2001_TALK_F_04_03_01
+0x1DC						FE_C02R2001_TALK_M_04_03_02
+0x1DD						FE_C02R2001_TALK_F_04_03_02
+0x1DE						FE_R18_RIDE_POKE02_01
+0x1DF	ITEM GIFT					FE_C06_ITEMGET_01
+0x1E0	ITEM GIFT					FE_T05P0101_ITEMGET_01
+0x1E1	ITEM GIFT					FE_T05R0301_ITEMGET_01
+0x1E2	ITEM GIFT					FE_R16R0101_ITEMGET_01
+0x1E3						FE_R16R0101_FIRSTTALK_01
+0x1E4	ITEM GIFT					FE_T05R0401_ITEMGET_01
+0x1E5						FE_MEZAPA_FIRSTTALK
+0x1E6						FE_D02A0101_IE_MATIBUSE_01
+0x1E7	SIDE EVENT			Perfect Clear: Restaurant Le Nah Double Battle		FE_RESTAURANT_1ST_DOUBLE
+0x1E8	SIDE EVENT			Perfect Clear: Restaurant Le Yeah Triple Battle		FE_RESTAURANT_2ND_TRIPLE
+0x1E9	SIDE EVENT			Perfect Clear: Restaurant Le Yeah Rotation Battle		FE_RESTAURANT_2ND_ROTATION
+0x1EA	SIDE EVENT			Perfect Clear: Restaurant Le Wow Double Battle		FE_RESTAURANT_3RD_DOUBLE
+0x1EB	SIDE EVENT			Perfect Clear: Restaurant Le Wow Triple Battle		FE_RESTAURANT_3RD_TRIPLE
+0x1EC	SIDE EVENT			Perfect Clear: Restaurant Le Wow Rotation Battle		FE_RESTAURANT_3RD_ROTATION
+0x1ED	SIDE EVENT			Perfect Clear: Sushi High Roller Double Battle		FE_RESTAURANT_4TH_DOUBLE
+0x1EE	SIDE EVENT			Perfect Clear: Sushi High Roller Triple Battle		FE_RESTAURANT_4TH_TRIPLE
+0x1EF	SIDE EVENT			Perfect Clear: Sushi High Roller Rotation Battle		FE_RESTAURANT_4TH_ROTATION
+0x1F0						FE_T06_MEMO_FIRSTTALK_01
+0x1F1						FE_T05R0301_WAZA_FIRSTTALK_01
+0x1F2						FE_CAFE_FIRSTTALK_01
+0x1F3						FE_JUDGE_FIRSTTALK
+0x1F4	_UNUSED					
+0x1F5	_UNUSED					
+0x1F6	_UNUSED					
+0x1F7	_UNUSED					
+0x1F8	_UNUSED					
+0x1F9	_UNUSED					
+0x1FA	_UNUSED					
+0x1FB	_UNUSED					
+0x1FC	_UNUSED					
+0x1FD	_UNUSED					
+0x1FE	_UNUSED					
+0x1FF	_UNUSED					
+0x200	_UNUSED					
+0x201	_UNUSED					
+0x202	_UNUSED					
+0x203	_UNUSED					
+0x204	_UNUSED					
+0x205	_UNUSED					
+0x206	_UNUSED					
+0x207	_UNUSED					
+0x208	_UNUSED					
+0x209	_UNUSED					
+0x20A	_UNUSED					
+0x20B	_UNUSED					
+0x20C	_UNUSED					
+0x20D	_UNUSED					
+0x20E	_UNUSED					
+0x20F	_UNUSED					
+0x210	_UNUSED					
+0x211	_UNUSED					
+0x212	_UNUSED					
+0x213	_UNUSED					
+0x214	_UNUSED					
+0x215	_UNUSED					
+0x216	_UNUSED					
+0x217	_UNUSED					
+0x218	_UNUSED					
+0x219	_UNUSED					
+0x21A	_UNUSED					
+0x21B	_UNUSED					
+0x21C	_UNUSED					
+0x21D	_UNUSED					
+0x21E	_UNUSED					
+0x21F	_UNUSED					
+0x220	_UNUSED					
+0x221	_UNUSED					
+0x222	_UNUSED					
+0x223	_UNUSED					
+0x224	_UNUSED					
+0x225	_UNUSED					
+0x226	_UNUSED					
+0x227	_UNUSED					
+0x228	_UNUSED					
+0x229	_UNUSED					
+0x22A	_UNUSED					
+0x22B	_UNUSED					
+0x22C	_UNUSED					
+0x22D	_UNUSED					
+0x22E	_UNUSED					
+0x22F	_UNUSED					
+0x230	_UNUSED					
+0x231	_UNUSED					
+0x232	_UNUSED					
+0x233	_UNUSED					
+0x234	_UNUSED					
+0x235	_UNUSED					
+0x236	_UNUSED					
+0x237	_UNUSED					
+0x238	_UNUSED					
+0x239	_UNUSED					
+0x23A	_UNUSED					
+0x23B	_UNUSED					
+0x23C	_UNUSED					
+0x23D	_UNUSED					
+0x23E	_UNUSED					
+0x23F	_UNUSED					
+0x240	_UNUSED					
+0x241	_UNUSED					
+0x242	_UNUSED					
+0x243	_UNUSED					
+0x244	_UNUSED					
+0x245	_UNUSED					
+0x246	_UNUSED					
+0x247	_UNUSED					
+0x248	_UNUSED					
+0x249	_UNUSED					
+0x24A	_UNUSED					
+0x24B	_UNUSED					
+0x24C	_UNUSED					
+0x24D	_UNUSED					
+0x24E	_UNUSED					
+0x24F	_UNUSED					
+0x250	_UNUSED					
+0x251	_UNUSED					
+0x252	_UNUSED					
+0x253	_UNUSED					
+0x254	_UNUSED					
+0x255	_UNUSED					
+0x256	_UNUSED					
+0x257	_UNUSED					
+0x258						FV_NONE
+0x259						FV_HERO_01
+0x25A						FV_HERO_02
+0x25B						FV_T02_HERO_01
+0x25C						FV_T02_FRIEND1_01
+0x25D						FV_T02_FRIEND2_01
+0x25E						FV_T02_FRIEND3_01
+0x25F						FV_R02_HERO_01
+0x260						FV_R02_FRIEND1_01
+0x261						FV_D01_HERO_01
+0x262						FV_D01_FRIEND1_01
+0x263						FV_D01_FRIEND2_01
+0x264						FV_D01_FRIEND3_01
+0x265						FV_R03_ROLLERM_01
+0x266						FV_T01_HERO_01
+0x267						FV_T01_FRIEND1_01
+0x268						FV_T03_CASTLE_01
+0x269						FV_C01GYM0102_STOPPER_01
+0x26A						FV_T01_MAMA_01
+0x26B						FV_T01R0101_MAMA_01
+0x26C						FV_I01R0101_ASSISTANTW_01
+0x26D						FV_C02R1202_OCCULTW_01
+0x26E						FV_I03_HAKASE_01
+0x26F						FV_R05_FRIEND2_01
+0x270						FV_R05_FRIEND3_01
+0x271						FV_D02A0101_FRIEND1_01
+0x272						FV_D02A0101_EV_POKE08_01
+0x273						FV_R07_HERO_01
+0x274						FV_R07_FRIEND1_01
+0x275						FV_R07_FRIEND2_01
+0x276						FV_R07_FRIEND3_01
+0x277	EVENT			Snorlax Disappeared		FV_R07_EV_POKE11_01
+0x278						FV_R07R0101_FRIEND2_01
+0x279						FV_R07R0101_FRIEND3_01
+0x27A						FV_R07_KABI_EV
+0x27B						FV_T03R0101_CASTLE_01
+0x27C						FV_T03R0101_FRIEND1_01
+0x27D						FV_T03R0101_MAN1_01
+0x27E						FV_D02R0102_PALACE_01
+0x27F						FV_D02R0102_FRIEND1_01
+0x280						FV_T09_HERO_01
+0x281						FV_T09R0201_HERO_01
+0x282						FV_D03R0102_HERO_01
+0x283						FV_D03R0102_ASSISTANTM_01
+0x284						FV_D03R0102_FLARE_01
+0x285						FV_C03_LEADER2_01
+0x286						FV_C05A0101_HERO_01
+0x287						FV_D02A0101_PALACE_01
+0x288						FV_D02_FRIEND1_01
+0x289						FV_D12R0102_FLARE_01
+0x28A						FV_D12R0103_FLARE_01
+0x28B						FV_D02R0204_FIREWORK_01
+0x28C						FV_R13_FLAREM_01
+0x28D						FV_R04_MYSTERY_01
+0x28E						FV_C04_FRIEND2_01
+0x28F						FV_C04_FRIEND3_01
+0x290						FV_C04R1002_FRIEND1_01
+0x291						FV_C04R1002_FRIEND2_01
+0x292						FV_C04R1002_FRIEND3_01
+0x293						FV_C04R1002_RIVAL_01
+0x294						FV_C04R1002_LEADER3_01
+0x295						FV_C02G0101_MYSTERY_01
+0x296						FV_C02Z01_MYSTERYM_01
+0x297						FV_C02Z01_MYSTERYW_01
+0x298						FV_C02Z01_FRIEND1_01
+0x299						FV_C02Z01_HERO_01
+0x29A						FV_C02R0101_HERO_01
+0x29B						FV_C02R0101_FLAREBOSS_01
+0x29C						FV_C02R0101_MYSTERYM_01
+0x29D						FV_C02R0101_MYSTERYW_01
+0x29E						FV_C02R2101_FLAREBOSS_01
+0x29F						FV_C02R2101_CHAMPION_01
+0x2A0						FV_C04_HERO_01
+0x2A1						FV_C04R1001_FRIEND2_01
+0x2A2						FV_C04R1001_FRIEND3_01
+0x2A3						FV_C04_MONSBALL_01
+0x2A4						FV_T04_FLAREM_01
+0x2A5						FV_T04_STOPPER_01
+0x2A6						FV_R10_FLAREM_01
+0x2A7						FV_D03_ENEMY3D_01
+0x2A8						FV_D03_ENEMY3D_02
+0x2A9						FV_D03_ENEMY3D_03
+0x2AA						FV_D03_ENEMY3D_04
+0x2AB						FV_D03_ENEMY3D_05
+0x2AC						FV_D03_ENEMY3D_06
+0x2AD						FV_D03_ENEMY3D_07
+0x2AE						FV_D03_ENEMY3D_08
+0x2AF						FV_D03_ENEMY3D_09
+0x2B0						FV_D03_ENEMY3D_10
+0x2B1						FV_D03_ENEMY3D_11
+0x2B2						FV_D03_ENEMY3D_12
+0x2B3						FV_T04_FRIEND1_01
+0x2B4						FV_R14_FRIEND1_01
+0x2B5						FV_R14_FRIEND2_01
+0x2B6						FV_R14_FRIEND3_01
+0x2B7						FV_R14_HERO_01
+0x2B8						FV_T09R0201_FOSSIL_01
+0x2B9						FV_C04R1006_MEGA_01
+0x2BA						FV_C04R1001_LEADER3_01
+0x2BB						FV_C04R1001_MEGA_01
+0x2BC						FV_C04R1001_HERO_01
+0x2BD						FV_C04R1001_FRIEND1_01
+0x2BE						FV_C04GYM0101_LEADER3_01
+0x2BF						FV_REBTL_PASSERBY_01
+0x2C0						FV_REBTL_PASSERBY_02
+0x2C1						FV_REBTL_PASSERBY_03
+0x2C2						FV_REBTL_PASSERBY_04
+0x2C3						FV_REBTL_PASSERBY_05
+0x2C4						FV_PINKDIA_EVENT_01
+0x2C5						FV_STEAM_EVENT_01
+0x2C6						FV_MAJIN_EVENT_01
+0x2C7						FV_C05G0101_MYSTERY_01
+0x2C8						FV_D12R0103_MYSTERY_01
+0x2C9						FV_D13R0101_XY_BEFORE_01
+0x2CA						FV_T04_LEADER3EVENT_01
+0x2CB						FV_T04_GUIDE_01
+0x2CC						FV_T04R0101_GUIDE_01
+0x2CD						FV_C01_FRIEND3_01
+0x2CE						FV_C06_FRIEND1_01
+0x2CF						FV_C06_FRIEND2_01
+0x2D0						FV_C06_FRIEND3_01
+0x2D1						FV_C06_HERO_01
+0x2D2						FV_D05_FRIEND1_01
+0x2D3						FV_D05_FRIEND2_01
+0x2D4						FV_D05_FRIEND3_01
+0x2D5						FV_D05_HERO_01
+0x2D6						FV_D05_FLAREW_01
+0x2D7						FV_D05_FLAREM_01
+0x2D8						FV_D05R0101_HERO_01
+0x2D9						FV_D05R0101_FLARE_01
+0x2DA						FV_D05R0103_FLAREKANBU2_01
+0x2DB						FV_D05R0103_SCIENTIST3_01
+0x2DC						FV_D05R0103_SCIENTIST4_01
+0x2DD						FV_D05R0103_HERO_01
+0x2DE						FV_D05R0101_FRIEND1_01
+0x2DF						FV_D05R0101_FRIEND2_01
+0x2E0						FV_D05R0101_FRIEND3_01
+0x2E1						FV_D05R0101_WORKMAN2_01
+0x2E2						FV_D05R0102_WORKMAN2_01
+0x2E3						FV_D06_TRAINERM_01
+0x2E4						FV_D06_POKE_02_01
+0x2E5						FV_D06_FRIEND3_01
+0x2E6						FV_D06R0103_FRIEND3_01
+0x2E7						FV_D06R0103_POKE13_01
+0x2E8						FV_D06R0103_FLARE
+0x2E9						FV_R18_TRAINERM_01
+0x2EA						FV_R18_POKE02_01
+0x2EB						FV_C06_FLAREM_01
+0x2EC						FV_C07_HERO_01
+0x2ED						FV_T05_FRIEND3_01
+0x2EE						FV_T05_HAKASE_01
+0x2EF						FV_T05_MYSTERYM_01
+0x2F0						FV_HOTEL_RIBBON_01
+0x2F1	BERRY TREE					FV_FLDITEM_KINOMI_01
+0x2F2	BERRY TREE					FV_FLDITEM_KINOMI_02
+0x2F3	BERRY TREE					FV_FLDITEM_KINOMI_03
+0x2F4	BERRY TREE					FV_FLDITEM_KINOMI_04
+0x2F5	BERRY TREE					FV_FLDITEM_KINOMI_05
+0x2F6	BERRY TREE					FV_FLDITEM_KINOMI_06
+0x2F7	BERRY TREE					FV_FLDITEM_KINOMI_07
+0x2F8	BERRY TREE					FV_FLDITEM_KINOMI_08
+0x2F9	BERRY TREE					FV_FLDITEM_KINOMI_09
+0x2FA	BERRY TREE					FV_FLDITEM_KINOMI_10
+0x2FB	BERRY TREE					FV_FLDITEM_KINOMI_11
+0x2FC	BERRY TREE					FV_FLDITEM_KINOMI_12
+0x2FD	BERRY TREE					FV_FLDITEM_KINOMI_13
+0x2FE	BERRY TREE					FV_FLDITEM_KINOMI_14
+0x2FF	BERRY TREE					FV_FLDITEM_KINOMI_15
+0x300						FV_T06_HAKASE_01
+0x301	TRAINER BATTLE	Victory Road	Entrance	Ace Trainer Robbie Battle		FV_C08_GLASSES_01
+0x302	EVENT	Victory Road	Entrance	Ace Trainer Robbie Movement		FV_C08_LEADER8_01
+0x303	SIDE EVENT			50 Streak: Beat Chatelaine		FV_POSTMAN
+0x304						FV_PGL_POSTMAN
+0x305						FV_C02R0601_FLAREBOSS_01
+0x306						FV_C02R0601_HAKASE_01
+0x307						FV_C02R0601_STAFF_01
+0x308						FV_C02R0601_FLARE_01
+0x309						FV_C02R0602_AZ_01
+0x30A						FV_C02R0602_FLAREBOSS_01
+0x30B						FV_C02R0603_FLAREBOSS_01
+0x30C						FV_C02R0603_SCIENTIST1_01
+0x30D						FV_C02R0604_FLAREBOSS_01
+0x30E						FV_C02R0604_SCIENTIST5_01
+0x30F						FV_C02R0605_MYSTERYW_01
+0x310						FV_C02R0605_MYSTERYM_01
+0x311						FV_C02R0606_SCIENTIST3_01
+0x312						FV_C02R0606_SCIENTIST4_01
+0x313						FV_C02R0607_SCIENTIST2_01
+0x314						FV_C02R0602_STOPPER_01
+0x315						FV_C02R0601_STOPPER_01
+0x316						FV_PLR0101_BIGFOUR2_01
+0x317						FV_R20_FRIEND1_01
+0x318						FV_R20_FRIEND2_01
+0x319						FV_R20_FRIEND3_01
+0x31A						FV_CAMERAMAN
+0x31B						FV_T04_FRIENDS_01
+0x31C						FV_T04_AZ_01
+0x31D						FV_T04_HERO_01
+0x31E						FV_C04_GLASSES_01
+0x31F						FV_C07_MYSTERYW_01
+0x320						FV_D13R0101_FLAREBOSS_01
+0x321						FV_D13R0101_RIVAL_01
+0x322						FV_D13R0102_RIVAL_01
+0x323						FV_D13R0102_FRIEND1_01
+0x324						FV_D13R0104_RIVAL_01
+0x325						FV_R12_BREEDERM_01
+0x326						FV_C01P0101_FRIEND2_01
+0x327						FV_TSUCHIKEMURI_ENC_01
+0x328						FV_TSUCHIKEMURI_ENC_02
+0x329						FV_TSUCHIKEMURI_ENC_03
+0x32A						FV_TSUCHIKEMURI_ENC_04
+0x32B						FV_TSUCHIKEMURI_ENC_05
+0x32C						FV_TSUCHIKEMURI_ENC_06
+0x32D						FV_TSUCHIKEMURI_ENC_07
+0x32E						FV_TSUCHIKEMURI_ENC_08
+0x32F						FV_TSUCHIKEMURI_ENC_09
+0x330						FV_TSUCHIKEMURI_ENC_10
+0x331						FV_TSUCHIKEMURI_ENC_11
+0x332						FV_TSUCHIKEMURI_ENC_12
+0x333						FV_TSUCHIKEMURI_ENC_13
+0x334						FV_TSUCHIKEMURI_ENC_14
+0x335						FV_TSUCHIKEMURI_ENC_15
+0x336						FV_C02G0201_KIZUNA_01
+0x337						FV_D08G0101_VETERANW_01
+0x338						FV_D07_LEADER8_01
+0x339						FV_R03_HERO_01
+0x33A						FV_R03_FRIENDS_01
+0x33B						FV_R05_LEADER3_01
+0x33C						FV_C02Z03_FRIEND1_01
+0x33D						FV_C02Z07_FRIEND1_01
+0x33E						FV_C02Z07_LEADER5_01
+0x33F						FV_C02G0301_MYSTERY_01
+0x340						FV_R08_MYSTERY_01
+0x341						FV_D02R0209_FRIEND1_01
+0x342						FV_D02R0209_PALACE_01
+0x343						FV_D08R0104_HERO_01
+0x344						FV_C02R0901_HAKASE_01
+0x345						FV_C02R0901_MYSTERY_01
+0x346						FV_T01R0102_AWARD_01
+0x347						FV_T01R0102_AWARD_02
+0x348						FV_T01R0102_AWARD_03
+0x349						FV_T01R0102_AWARD_04
+0x34A						FV_T01R0102_AWARD_05
+0x34B						FV_C01_STOPPER_01
+0x34C						FV_C02R3101_GARCON_01
+0x34D						FV_C02R1601_LADY_01
+0x34E						FV_C02R1601_GIRL2_01
+0x34F						FV_C02R3801_CHILDBOY1_01
+0x350						FV_C02R3801_MASTER_03
+0x351						FV_C02R3801_MASTER_04
+0x352						FV_C02R4001_BACKPACKERM_01
+0x353						FV_C02R4201_TRAVELERW_01
+0x354						FV_C02R4201_BACKPACKERM_01
+0x355						FV_C02R4201_TOURISTM_01
+0x356						FV_C02R4201_TOURISTW_01
+0x357						FV_D04R0102_FRIEND2_01
+0x358						FV_R13_AZ_01
+0x359						FV_C05R0101_HAKASE_01
+0x35A						FV_C05R0101_CHAMPION_01
+0x35B						FV_C09_RIVAL_01
+0x35C						FV_C02R3101_COOK_01
+0x35D						FV_C02R3101_BADGIRL_01
+0x35E						FV_R14R0101_FRIEND1_01
+0x35F						FV_R14R0101_FRIEND2_01
+0x360						FV_R14R0101_FRIEND3_01
+0x361						FV_BEDMAKE_NPC_01
+0x362						FV_CONCIERGE_NPC_01
+0x363						FV_R10_TRFLARE_01
+0x364						FV_D02R0102_MINSTREL_01
+0x365						FV_C03P0101_MINSTREL_01
+0x366						FV_C06P0101_MINSTREL_01
+0x367						FV_C08P0101_MINSTREL_01
+0x368						FV_C09P0101_MINSTREL_01
+0x369						FV_C04R1006_LEADER3_01
+0x36A						FV_C02Z01_EV_POKE05
+0x36B						FV_C02Z02_EV_POKE05
+0x36C						FV_C02Z03_EV_POKE05
+0x36D						FV_C02Z04_EV_POKE05
+0x36E						FV_I01_BABYGIRL1_01
+0x36F						FV_I01_MIDDLEMAN1_01
+0x370						FV_I01_ASSISTANTW_01
+0x371						FV_C09R1003_BHBOSS1_01
+0x372						FV_C09R1003_BHBOSS2_01
+0x373						FV_C09R1003_BHBOSS3_01
+0x374						FV_C09R1003_BHBOSS4_01
+0x375						FV_C02HOTEL_VISITOR_01
+0x376	EVENT			Zygarde Defeated		FV_D14R0104_EV_POKE03
+0x377						FV_C07R0501_ARTSTM_01
+0x378						FV_C07R0501_MONSBALL_01
+0x379						FV_C02GYM0101_LEADER5_SIS_01
+0x37A						FV_C02R0101_FRIEND1_01
+0x37B						FV_C02R0101_FRIEND2_01
+0x37C						FV_C02R0101_FRIEND3_01
+0x37D						FV_C02R2101_HERO_01
+0x37E						FV_C02Z01_FRIEND2_01
+0x37F						FV_C02Z01_FRIEND3_01
+0x380						FV_C02Z05_FRIEND1_01
+0x381						FV_D13R0103_FRIENDS
+0x382						FV_D13R0103_FLAREKANBU_01
+0x383						FV_D13R0103_FLAREKANBU_02
+0x384	_UNUSED					
+0x385						FV_C02R3701_FIGHTERM_01
+0x386						FV_C02R3901_MAID_01
+0x387						FV_C02R3901_EV_POKE15_01
+0x388						FV_C02R3901_NPC_01
+0x389						FV_T03R0202_KINUNA_01
+0x38A						FV_T09R0402_KIZUNA_01
+0x38B						FV_C03R0102_KIZUNA_01
+0x38C						FV_T04R0102_KIZUNA_01
+0x38D						FV_C04P0101_KIZUNA_01
+0x38E						FV_C05P0101_KIZUNA_01
+0x38F						FV_C06P0101_KIZUNA_01
+0x390						FV_T05P0101_KIZUNA_01
+0x391						FV_C02R3101_KIZUNA_01
+0x392						FV_C07P0101_KIZUNA_01
+0x393						FV_T06R0102_KIZUNA_01
+0x394						FV_C08P0101_KIZUNA_01
+0x395						FV_C02R0301_KIZUNA_01
+0x396						FV_D17R0101_TRAVELING_POKE_01
+0x397						FV_C02R2501_NPC_01
+0x398						FV_C02R0202_MIDDLEMAN1_01
+0x399						FV_C02_STYLISH_LV2_01
+0x39A						FV_C02_STYLISH_LV3_01
+0x39B						FV_C02_STYLISH_LV4_01
+0x39C						FV_C02_STYLISH_LV5_01
+0x39D						FV_C02_STYLISH_LV6_01
+0x39E						FV_C02_STYLISH_LV7_01
+0x39F						FV_C02_STYLISH_LV8_01
+0x3A0						FV_C02Z05_FRIEND2_01
+0x3A1						FV_C02Z02_FRIEND3_01
+0x3A2						FV_C02R0103_FRIENDS_01
+0x3A3						FV_C02R2101_NPC_01
+0x3A4						FV_C02R2901_WKOBJCODE01_01
+0x3A5						FV_D13R0103_XY_01
+0x3A6						FV_D13R0103_FLAREBOSS_01
+0x3A7						FV_R10_FLARE_STOPPER
+0x3A8						FV_C02_ROADTRAINER_01
+0x3A9						FV_C02_ROADTRAINER_02
+0x3AA						FV_C02_ROADTRAINER_03
+0x3AB						FV_C02_ROADTRAINER_04
+0x3AC						FV_C02_ROADTRAINER_05
+0x3AD						FV_C02_ROADTRAINER_06
+0x3AE						FV_C02_ROADTRAINER_07
+0x3AF						FV_C02_ROADTRAINER_08
+0x3B0						FV_C02_ROADTRAINER_09
+0x3B1						FV_C02_ROADTRAINER_10
+0x3B2						FV_C04R1006_FRIEND2_01
+0x3B3						FV_C04R1006_FRIEND3_01
+0x3B4						FV_D13R0103_XY_BEFORE_01
+0x3B5	PKMN GIFT			Received Lucario Gift		FV_C04R1002_EV_POKE07
+0x3B6						FV_C02R2301_HANDSOME
+0x3B7						FV_C02R2301_C02GIRL
+0x3B8						FV_C02R2301_C02GIRL_EX
+0x3B9						FV_C02R2301_EV_POKE12
+0x3BA						FV_C02R2301_TRAVELERW
+0x3BB						FV_C02R2301_BUTLER
+0x3BC						FV_C02R2301_MIDDLEMAN2
+0x3BD						FV_C02R2301_BADMAN
+0x3BE						FV_C02R4701_HANDSOME
+0x3BF						FV_C02R4701_C02GIRL
+0x3C0						FV_C02R4701_EV_POKE12
+0x3C1						FV_C02R4701_SCIENTIST1
+0x3C2						FV_C02R3101_HQUEST_TICKET01
+0x3C3						FV_C02R1901_HQUEST_TICKET02
+0x3C4						FV_C02P0301_HQUEST_TICKET03
+0x3C5						FV_C02GYM0101_HQUEST_TICKET04
+0x3C6						FV_C02R0701_HQUEST_TICKET05
+0x3C7						FV_C02R2301_HQEP06_BADMAN
+0x3C8	_UNUSED					
+0x3C9	_UNUSED					
+0x3CA	_UNUSED					
+0x3CB	_UNUSED					
+0x3CC						FV_C02R4301_CHILDLEN
+0x3CD						FV_C02R4301_HANDSOME
+0x3CE						FV_C02R4301_C02GIRL
+0x3CF						FV_C02R4301_EV_POKE12
+0x3D0						FV_C02R4401_EV_POKE12
+0x3D1						FV_C02R4501_EV_POKE12
+0x3D2						FV_C02R4601_EV_POKE12
+0x3D3						FV_C02R0701_HQEP06_ARTISTW
+0x3D4						FV_C02R0703_HQEP06_GENTLEMAN
+0x3D5						FV_C02R0601_SCIENTIST1
+0x3D6						FV_C02R0601_HANDSOME
+0x3D7						FV_C02R0601_C02GIRL
+0x3D8						FV_C02R0601_EV_POKE12
+0x3D9						FV_C02R0901_HANDSOME
+0x3DA						FV_C02R0901_C02GIRL
+0x3DB						FV_C02R0901_GANGS
+0x3DC						FV_C02R0701_HQEP04_ARTISTW
+0x3DD						FV_C02R0703_HQEP04_GENTLEMAN
+0x3DE						FV_C02R4501_VETERANW
+0x3DF						FV_C02R4501_C02GIRL_EX
+0x3E0						FV_C02R4501_HANDSOME
+0x3E1						FV_C02R4401_FAIRYTALEW
+0x3E2						FV_C02R4401_C02GIRL_EX
+0x3E3						FV_C02R4401_HANDSOME
+0x3E4						FV_C02R4601_FIGHTERM
+0x3E5						FV_C02R4601_HANDSOME
+0x3E6						FV_C02R4301_WOMAN2
+0x3E7						FV_C02R4301_C02GIRL_EX
+0x3E8						FV_C02R3105_BIGFOUR2
+0x3E9						FV_C02R0601_BIGFOUR2
+0x3EA						FV_C02R0604_BIGFOUR2
+0x3EB						FV_C02R0610_TRAINERS
+0x3EC						FV_C02R0610_BADMAN
+0x3ED						FV_C02R0611_BADMAN
+0x3EE						FV_C02R0611_MONSTER_BALLS
+0x3EF						FV_C02R0611_SCIENTIST1
+0x3F0						FV_C02R0611_C02GIRL_EX
+0x3F1						FV_C02R0611_EV_POKE12
+0x3F2						FV_C02R0611_HANDSOME
+0x3F3						FV_C02R0601_CUSTOMERS
+0x3F4						FV_C02Z01_CORN_01
+0x3F5						FV_T03R0101_O_MODEL01
+0x3F6						FV_R07_MODEL01_01
+0x3F7						FV_FLD_MEGASTONE_01
+0x3F8						FV_FLD_MEGASTONE_02
+0x3F9						FV_FLD_MEGASTONE_03
+0x3FA						FV_FLD_MEGASTONE_04
+0x3FB						FV_FLD_MEGASTONE_05
+0x3FC						FV_FLD_MEGASTONE_06
+0x3FD						FV_FLD_MEGASTONE_07
+0x3FE						FV_FLD_MEGASTONE_08
+0x3FF						FV_FLD_MEGASTONE_09
+0x400						FV_FLD_MEGASTONE_10
+0x401						FV_FLD_MEGASTONE_11
+0x402						FV_FLD_MEGASTONE_12
+0x403						FV_C02Z01_STOPPER_01
+0x404						FV_C02Z02_STOPPER_01
+0x405						FV_C02Z05_STOPPER_01
+0x406						FV_C02R0103_FRIENDS_02
+0x407						FV_T04_FRIEND3_01
+0x408						FV_C07_FLARE_01
+0x409						FV_C02Z05_FLAREW_01
+0x40A						FV_C02Z06_STOPPER_01
+0x40B						FV_C05A0101_FRIEND2_01
+0x40C						FV_C02GYM0102_LEADER5_SIS_01
+0x40D						FV_YOBIDAYO_INIT_01
+0x40E						FV_YOBIDAYO_INIT_02
+0x40F						FV_YOBIDAYO_INIT_03
+0x410						FV_YOBIDAYO_INIT_04
+0x411						FV_YOBIDAYO_INIT_05
+0x412						FV_YOBIDAYO_INIT_06
+0x413						FV_YOBIDAYO_INIT_07
+0x414						FV_YOBIDAYO_INIT_08
+0x415						FV_YOBIDAYO_INIT_09
+0x416						FV_YOBIDAYO_INIT_10
+0x417						FV_YOBIDAYO_INIT_11
+0x418						FV_YOBIDAYO_INIT_12
+0x419						FV_YOBIDAYO_INIT_13
+0x41A						FV_YOBIDAYO_INIT_14
+0x41B						FV_YOBIDAYO_INIT_15
+0x41C						FV_YOBIDAYO_INIT_16
+0x41D						FV_YOBIDAYO_INIT_17
+0x41E						FV_YOBIDAYO_INIT_18
+0x41F						FV_YOBIDAYO_INIT_19
+0x420						FV_YOBIDAYO_INIT_20
+0x421						FV_C01_ROLLERW_01
+0x422						FV_C01_ROLLERW_COPY_01
+0x423	EVENT			Mewtwo Defeated		FV_D07R0101_POKE_01
+0x424	EVENT			Unknown Dungeon Accessible		FV_D07_STOPPER_01
+0x425						FV_C02R2701_SHOPW_01
+0x426						FV_C02R0103_HAKASE1_01
+0x427						FV_T04_RESIDENT_01
+0x428						FV_D14R0102_STOPPER_01
+0x429	_UNUSED					
+0x42A	_UNUSED					
+0x42B	_UNUSED					
+0x42C	_UNUSED					
+0x42D	_UNUSED					
+0x42E	_UNUSED					
+0x42F	_UNUSED					
+0x430	_UNUSED					
+0x431	_UNUSED					
+0x432	_UNUSED					
+0x433	_UNUSED					
+0x434	_UNUSED					
+0x435	_UNUSED					
+0x436	_UNUSED					
+0x437	_UNUSED					
+0x438	_UNUSED					
+0x439	_UNUSED					
+0x43A	_UNUSED					
+0x43B	_UNUSED					
+0x43C	_UNUSED					
+0x43D	_UNUSED					
+0x43E	_UNUSED					
+0x43F	_UNUSED					
+0x440	_UNUSED					
+0x441	_UNUSED					
+0x442	_UNUSED					
+0x443	_UNUSED					
+0x444	_UNUSED					
+0x445	_UNUSED					
+0x446	_UNUSED					
+0x447	_UNUSED					
+0x448	_UNUSED					
+0x449	_UNUSED					
+0x44A	_UNUSED					
+0x44B	_UNUSED					
 0x44C	HIDDEN ITEM					FLAG_HIDEITEM_000
 0x44D	HIDDEN ITEM					FLAG_HIDEITEM_001
 0x44E	HIDDEN ITEM					FLAG_HIDEITEM_002
@@ -1711,34 +1711,34 @@
 0x6AD	FIELD ITEM					FV_FLD_ITEM_403
 0x6AE	FIELD ITEM					FV_FLD_ITEM_404
 0x6AF	FIELD ITEM					FV_FLD_ITEM_405
-0x6B0						
-0x6B1						
-0x6B2						
-0x6B3						
-0x6B4						
-0x6B5						
-0x6B6						
-0x6B7						
-0x6B8						
-0x6B9						
-0x6BA						
-0x6BB						
-0x6BC						
-0x6BD						
-0x6BE						
-0x6BF						
-0x6C0						
-0x6C1						
-0x6C2						
-0x6C3						
-0x6C4						
-0x6C5						
-0x6C6						
-0x6C7						
-0x6C8						
-0x6C9						
-0x6CA						
-0x6CB						
+0x6B0	_UNUSED					
+0x6B1	_UNUSED					
+0x6B2	_UNUSED					
+0x6B3	_UNUSED					
+0x6B4	_UNUSED					
+0x6B5	_UNUSED					
+0x6B6	_UNUSED					
+0x6B7	_UNUSED					
+0x6B8	_UNUSED					
+0x6B9	_UNUSED					
+0x6BA	_UNUSED					
+0x6BB	_UNUSED					
+0x6BC	_UNUSED					
+0x6BD	_UNUSED					
+0x6BE	_UNUSED					
+0x6BF	_UNUSED					
+0x6C0	_UNUSED					
+0x6C1	_UNUSED					
+0x6C2	_UNUSED					
+0x6C3	_UNUSED					
+0x6C4	_UNUSED					
+0x6C5	_UNUSED					
+0x6C6	_UNUSED					
+0x6C7	_UNUSED					
+0x6C8	_UNUSED					
+0x6C9	_UNUSED					
+0x6CA	_UNUSED					
+0x6CB	_UNUSED					
 0x6CC	_UNUSED					TR_FLAG_000
 0x6CD	TRAINER BATTLE	Route 12		Youngster Aidan		TR_FLAG_001
 0x6CE	TRAINER BATTLE					TR_FLAG_002
@@ -2640,730 +2640,730 @@
 0xA4E	TRAINER BATTLE					TR_FLAG_898
 0xA4F	TRAINER BATTLE					TR_FLAG_899
 0xA50	EVENT			Entered Hall of Fame/Zygarde Chamber Accessible		SYS_FLAG_GAME_CLEAR
-0xA51						
-0xA52	EVENT			Pokédex Obtained		
-0xA53						
-0xA54	EVENT					
-0xA55	EVENT			Roller Skates Enabled		
-0xA56						
-0xA57						
-0xA58						
-0xA59						
-0xA5A						
-0xA5B						
-0xA5C						
-0xA5D						
-0xA5E						
-0xA5F						
-0xA60						
-0xA61						
-0xA62						
-0xA63						
-0xA64						
-0xA65						
-0xA66						
-0xA67						
-0xA68						
-0xA69						
-0xA6A	SIDE EVENT			Unlocked Cassius's PC		
-0xA6B						
-0xA6C						
-0xA6D						
-0xA6E	SIDE EVENT			Useable Roller Skate Trick: parallel swizzle		
-0xA6F	SIDE EVENT			Learned Roller Skate Trick: the backflip		
-0xA70	SIDE EVENT			Useable Roller Skate Trick: the backfilp		
-0xA71	SIDE EVENT			Useable Roller Skate Trick: the 360		
-0xA72	SIDE EVENT			Learned Roller Skate Trick: the 360		
-0xA73	SIDE EVENT			Useable Roller Stake Trick: cosmic flip		
-0xA74						
-0xA75						
-0xA76						
-0xA77						
-0xA78						
-0xA79						
-0xA7A						
-0xA7B						
-0xA7C						
-0xA7D						
-0xA7E						
-0xA7F	EVENT	Lumiose City	Gym	Unset after defeating Ace Trainer Rico		
-0xA80						
-0xA81						
-0xA82						
-0xA83						
-0xA84						
-0xA85						
-0xA86						
-0xA87						
-0xA88						
-0xA89						
-0xA8A						
-0xA8B						
-0xA8C						
-0xA8D						
-0xA8E						
-0xA8F						
-0xA90						
-0xA91						
-0xA92						
-0xA93						
-0xA94						
-0xA95						
-0xA96						
-0xA97						
-0xA98						
-0xA99						
-0xA9A						
-0xA9B						
-0xA9C						
-0xA9D						
-0xA9E						
-0xA9F						
-0xAA0	FLY SPOT			Can Fly to Vaniville Town		
-0xAA1	FLY SPOT			Can Fly to Aquacorde Town		
-0xAA2	FLY SPOT			Can Fly to Santalune City		
-0xAA3						
-0xAA4	FLY SPOT			Can Fly to Cyllage City		
-0xAA5	FLY SPOT			Can Fly to Shalour City		
-0xAA6	FLY SPOT			Can Fly to Coumarine City		
-0xAA7	FLY SPOT			Can Fly to Laverre City		
-0xAA8	FLY SPOT			Can Fly to Anistar City		
-0xAA9	FLY SPOT			Can Fly to Snowbelle City		
-0xAAA	FLY SPOT			Can Fly to Camphrier Town		
-0xAAB	FLY SPOT			Can Fly to Geosenge Town		
-0xAAC	FLY SPOT			Can Fly to Dendemille Town		
-0xAAD	FLY SPOT			Can Fly to Couriway Town		
-0xAAE	FLY SPOT			Can Fly to Ambrette Town		
-0xAAF	FLY SPOT			Can Fly to Pokémon League		
-0xAB0	FLY SPOT			Can Fly to Kiloude City		
-0xAB1	FLY SPOT			Can Fly to Lumiose City (South Boulevard)		
-0xAB2	FLY SPOT			Can Fly to Lumiose City (North Boulevard)		
-0xAB3	FLY SPOT			Can Fly to Lumiose City (Center)		
-0xAB4						
-0xAB5						
-0xAB6						
-0xAB7						
-0xAB8						
-0xAB9						
-0xABA						
-0xABB						
-0xABC						
-0xABD						
-0xABE						
-0xABF						
-0xAC0						
-0xAC1						
-0xAC2						
-0xAC3						
-0xAC4						
-0xAC5						
-0xAC6						
-0xAC7						
-0xAC8						
-0xAC9						
-0xACA						
-0xACB						
-0xACC						
-0xACD						
-0xACE						
-0xACF						
-0xAD0						
-0xAD1						
-0xAD2						
-0xAD3						
-0xAD4						
-0xAD5						
-0xAD6						
-0xAD7						
-0xAD8						
-0xAD9						
-0xADA						
-0xADB						
-0xADC						
-0xADD						
-0xADE						
-0xADF						
-0xAE0						
-0xAE1						
-0xAE2						
-0xAE3						
-0xAE4						
-0xAE5						
-0xAE6						
-0xAE7						
-0xAE8						
-0xAE9						
-0xAEA						
-0xAEB						
-0xAEC						
-0xAED						
-0xAEE						
-0xAEF						
-0xAF0						
-0xAF1						
-0xAF2						
-0xAF3						
-0xAF4						
-0xAF5						
-0xAF6						
-0xAF7						
-0xAF8						
-0xAF9						
-0xAFA						
-0xAFB						
-0xAFC						
-0xAFD						
-0xAFE						
-0xAFF						
-0xB00						
-0xB01						
-0xB02						
-0xB03						
-0xB04						
-0xB05						
-0xB06						
-0xB07						
-0xB08						
-0xB09						
-0xB0A						
-0xB0B						
-0xB0C						
-0xB0D						
-0xB0E						
-0xB0F						
-0xB10						
-0xB11						
-0xB12						
-0xB13						
-0xB14						
-0xB15						
-0xB16						
-0xB17						
-0xB18						
-0xB19						
-0xB1A						
-0xB1B						
-0xB1C						
-0xB1D						
-0xB1E						
-0xB1F						
-0xB20						
-0xB21						
-0xB22						
-0xB23						
-0xB24						
-0xB25						
-0xB26						
-0xB27						
-0xB28						
-0xB29						
-0xB2A						
-0xB2B						
-0xB2C						
-0xB2D						
-0xB2E						
-0xB2F						
-0xB30						
-0xB31						
-0xB32						
-0xB33						
-0xB34						
-0xB35						
-0xB36						
-0xB37						
-0xB38						
-0xB39						
-0xB3A						
-0xB3B						
-0xB3C						
-0xB3D						
-0xB3E						
-0xB3F						
-0xB40						
-0xB41						
-0xB42						
-0xB43						
-0xB44						
-0xB45						
-0xB46						
-0xB47						
-0xB48						
-0xB49						
-0xB4A						
-0xB4B						
-0xB4C						
-0xB4D						
-0xB4E						
-0xB4F						
-0xB50						
-0xB51						
-0xB52						
-0xB53						
-0xB54						
-0xB55						
-0xB56						
-0xB57						
-0xB58						
-0xB59						
-0xB5A						
-0xB5B						
-0xB5C						
-0xB5D						
-0xB5E						
-0xB5F						
-0xB60						
-0xB61						
-0xB62						
-0xB63						
-0xB64						
-0xB65						
-0xB66						
-0xB67						
-0xB68						
-0xB69						
-0xB6A						
-0xB6B						
-0xB6C						
-0xB6D						
-0xB6E						
-0xB6F						
-0xB70						
-0xB71						
-0xB72						
-0xB73						
-0xB74						
-0xB75						
-0xB76						
-0xB77						
-0xB78						
-0xB79						
-0xB7A						
-0xB7B						
-0xB7C						
-0xB7D						
-0xB7E						
-0xB7F						
-0xB80						
-0xB81						
-0xB82						
-0xB83						
-0xB84						
-0xB85						
-0xB86						
-0xB87						
-0xB88						
-0xB89						
-0xB8A						
-0xB8B						
-0xB8C						
-0xB8D						
-0xB8E						
-0xB8F						
-0xB90						
-0xB91						
-0xB92						
-0xB93						
-0xB94						
-0xB95						
-0xB96						
-0xB97						
-0xB98						
-0xB99						
-0xB9A						
-0xB9B						
-0xB9C						
-0xB9D						
-0xB9E						
-0xB9F						
-0xBA0						
-0xBA1						
-0xBA2						
-0xBA3						
-0xBA4						
-0xBA5						
-0xBA6						
-0xBA7						
-0xBA8	SIDE EVENT			Finished Room Service Task (Today)		
-0xBA9	SIDE EVENT			Finished Making Beds Task (Today)		
-0xBAA	SIDE EVENT			Finished Lost and Found Task (Today)		
-0xBAB						
-0xBAC						
-0xBAD						
-0xBAE						
-0xBAF						
-0xBB0						
-0xBB1						
-0xBB2						
-0xBB3						
-0xBB4						
-0xBB5						
-0xBB6						
-0xBB7						
-0xBB8						
-0xBB9						
-0xBBA						
-0xBBB						
-0xBBC						
-0xBBD						
-0xBBE						
-0xBBF						
-0xBC0						
-0xBC1						
-0xBC2						
-0xBC3						
-0xBC4						
-0xBC5						
-0xBC6						
-0xBC7						
-0xBC8						
-0xBC9						
-0xBCA						
-0xBCB						
-0xBCC						
-0xBCD						
-0xBCE						
-0xBCF						
-0xBD0						
-0xBD1						
-0xBD2						
-0xBD3						
-0xBD4						
-0xBD5						
-0xBD6						
-0xBD7						
-0xBD8						
-0xBD9						
-0xBDA						
-0xBDB						
-0xBDC						
-0xBDD						
-0xBDE						
-0xBDF						
-0xBE0						
-0xBE1						
-0xBE2						
-0xBE3						
-0xBE4						
-0xBE5						
-0xBE6						
-0xBE7						
-0xBE8						
-0xBE9						
-0xBEA						
-0xBEB						
-0xBEC						
-0xBED						
-0xBEE						
-0xBEF						
-0xBF0						
-0xBF1						
-0xBF2						
-0xBF3						
-0xBF4						
-0xBF5						
-0xBF6						
-0xBF7						
-0xBF8						
-0xBF9						
-0xBFA						
-0xBFB						
-0xBFC						
-0xBFD						
-0xBFE						
-0xBFF						
-0xC00						
-0xC01						
-0xC02						
-0xC03						
-0xC04						
-0xC05						
-0xC06						
-0xC07						
-0xC08						
-0xC09						
-0xC0A						
-0xC0B						
-0xC0C						
-0xC0D						
-0xC0E						
-0xC0F						
-0xC10						
-0xC11						
-0xC12						
-0xC13						
-0xC14						
-0xC15						
-0xC16						
-0xC17						
-0xC18						
-0xC19						
-0xC1A						
-0xC1B						
-0xC1C						
-0xC1D						
-0xC1E						
-0xC1F						
-0xC20						
-0xC21						
-0xC22						
-0xC23						
-0xC24						
-0xC25						
-0xC26						
-0xC27						
-0xC28						
-0xC29						
-0xC2A						
-0xC2B						
-0xC2C						
-0xC2D						
-0xC2E						
-0xC2F						
-0xC30						
-0xC31						
-0xC32						
-0xC33						
-0xC34						
-0xC35						
-0xC36						
-0xC37						
-0xC38						
-0xC39						
-0xC3A						
-0xC3B						
-0xC3C						
-0xC3D						
-0xC3E						
-0xC3F						
-0xC40						
-0xC41						
-0xC42						
-0xC43						
-0xC44						
-0xC45						
-0xC46						
-0xC47						
-0xC48						
-0xC49						
-0xC4A						
-0xC4B						
-0xC4C						
-0xC4D						
-0xC4E						
-0xC4F						
-0xC50						
-0xC51						
-0xC52						
-0xC53						
-0xC54						
-0xC55						
-0xC56						
-0xC57						
-0xC58						
-0xC59						
-0xC5A						
-0xC5B						
-0xC5C						
-0xC5D						
-0xC5E						
-0xC5F						
-0xC60						
-0xC61						
-0xC62						
-0xC63						
-0xC64						
-0xC65						
-0xC66						
-0xC67						
-0xC68						
-0xC69						
-0xC6A						
-0xC6B						
-0xC6C						
-0xC6D						
-0xC6E						
-0xC6F						
-0xC70						
-0xC71						
-0xC72						
-0xC73						
-0xC74						
-0xC75						
-0xC76						
-0xC77						
-0xC78						
-0xC79						
-0xC7A						
-0xC7B						
-0xC7C						
-0xC7D						
-0xC7E						
-0xC7F						
-0xC80						
-0xC81						
-0xC82						
-0xC83						
-0xC84						
-0xC85						
-0xC86						
-0xC87						
-0xC88						
-0xC89						
-0xC8A						
-0xC8B						
-0xC8C						
-0xC8D						
-0xC8E						
-0xC8F						
-0xC90						
-0xC91						
-0xC92						
-0xC93						
-0xC94						
-0xC95						
-0xC96						
-0xC97						
-0xC98						
-0xC99						
-0xC9A						
-0xC9B						
-0xC9C						
-0xC9D						
-0xC9E						
-0xC9F						
-0xCA0						
-0xCA1						
-0xCA2						
-0xCA3						
-0xCA4						
-0xCA5						
-0xCA6						
-0xCA7						
-0xCA8						
-0xCA9						
-0xCAA						
-0xCAB						
-0xCAC						
-0xCAD						
-0xCAE						
-0xCAF						
-0xCB0						
-0xCB1						
-0xCB2						
-0xCB3						
-0xCB4						
-0xCB5						
-0xCB6						
-0xCB7						
-0xCB8						
-0xCB9						
-0xCBA						
-0xCBB						
-0xCBC						
-0xCBD						
-0xCBE						
-0xCBF						
-0xCC0						
-0xCC1						
-0xCC2						
-0xCC3						
-0xCC4						
-0xCC5						
-0xCC6						
-0xCC7						
-0xCC8						
-0xCC9						
-0xCCA						
-0xCCB						
-0xCCC						
-0xCCD						
-0xCCE						
-0xCCF						
-0xCD0						
-0xCD1						
-0xCD2						
-0xCD3						
-0xCD4						
-0xCD5						
-0xCD6						
-0xCD7						
-0xCD8						
-0xCD9						
-0xCDA						
-0xCDB						
-0xCDC						
-0xCDD						
-0xCDE						
-0xCDF						
-0xCE0						
-0xCE1						
-0xCE2						
-0xCE3						
-0xCE4						
-0xCE5						
-0xCE6						
-0xCE7						
-0xCE8						
-0xCE9						
-0xCEA						
-0xCEB						
-0xCEC						
-0xCED						
-0xCEE						
-0xCEF						
-0xCF0						
-0xCF1						
-0xCF2						
-0xCF3						
-0xCF4						
-0xCF5						
-0xCF6						
-0xCF7						
-0xCF8						
-0xCF9						
-0xCFA						
-0xCFB						
-0xCFC						
-0xCFD						
-0xCFE						
-0xCFF						
+0xA51	_UNUSED					
+0xA52	EVENT			Pokédex Obtained		SYS_FLAG_ZUKAN_GET
+0xA53	_UNUSED					
+0xA54	EVENT			strength active (can move rocks)		SYS_FLAG_KAIRIKI
+0xA55	EVENT			Roller Skates Enabled		SYS_FLAG_ROLLERSKATES
+0xA56	_UNUSED					
+0xA57	_UNUSED					
+0xA58	_UNUSED					
+0xA59						SYS_FLAG_ZUKAN_ZEN_COMP
+0xA5A						SYS_FLAG_ZUKAN_HEI_COMP
+0xA5B						SYS_FLAG_ZUKAN_KAI_COMP
+0xA5C						SYS_FLAG_ZUKAN_SAN_COMP
+0xA5D						SYS_FLAG_ZUKAN_ALL_COMP
+0xA5E						SYS_FLAG_MARUIOMAMORI
+0xA5F						SYS_FLAG_HIKARUOMAMORI
+0xA60						SYS_FLAG_ZUKAN_HEI_CAP_COMP
+0xA61						SYS_FLAG_ZUKAN_KAI_CAP_COMP
+0xA62						SYS_FLAG_ZUKAN_SAN_CAP_COMP
+0xA63						SYS_FLAG_CONTACT_BROWN
+0xA64						SYS_FLAG_CONTACT_HAZEL
+0xA65						SYS_FLAG_CONTACT_GRAY
+0xA66						SYS_FLAG_CONTACT_GREEN
+0xA67						SYS_FLAG_CONTACT_BLUE
+0xA68						SYS_FLAG_PV_OPEN
+0xA69						SYS_FLAG_PHOTO_OPEN
+0xA6A	SIDE EVENT			Unlocked Cassius's PC		SYS_FLAG_PCNAME_OPEN
+0xA6B						SYS_FLAG_RIVAL_MEGARING_GET
+0xA6C						SYS_FLAG_BADGE_GATE_OPEN
+0xA6D						SYS_FLAG_BIGFOUR_ALLCLEAR
+0xA6E	SIDE EVENT			Useable Roller Skate Trick: parallel swizzle		SYS_FLAG_PARALLEL
+0xA6F	SIDE EVENT			Learned Roller Skate Trick: the backflip		SYS_FLAG_OPENTURN
+0xA70	SIDE EVENT			Useable Roller Skate Trick: the backfilp		SYS_FLAG_BACKFLIP
+0xA71	SIDE EVENT			Useable Roller Skate Trick: the 360		SYS_FLAG_360_RIGHT
+0xA72	SIDE EVENT			Learned Roller Skate Trick: the 360		SYS_FLAG_360_LEFT
+0xA73	SIDE EVENT			Useable Roller Stake Trick: cosmic flip		SYS_FLAG_BIO540
+0xA74						SYS_FLAG_BIRTHDAY
+0xA75						SYS_FLAG_BD_POKECEN_FIRST
+0xA76						SYS_FLAG_AWARD_COMP_01
+0xA77						SYS_FLAG_AWARD_COMP_02
+0xA78						SYS_FLAG_AWARD_COMP_03
+0xA79						SYS_FLAG_AWARD_COMP_04
+0xA7A						SYS_FLAG_C05R0302_AWARD_01
+0xA7B						SYS_FLAG_C05R0302_AWARD_02
+0xA7C						SYS_FLAG_C05R0302_AWARD_03
+0xA7D						SYS_FLAG_C05R0302_AWARD_04
+0xA7E						SYS_FLAG_C05R0302_AWARD_05
+0xA7F	EVENT	Lumiose City	Gym	Unset after defeating Ace Trainer Rico		SYS_FLAG_C02GYM_BGM_CHANGE
+0xA80						SYS_FLAG_WEATHER_CTR_01
+0xA81						SYS_FLAG_WEATHER_CTR_02
+0xA82						SYS_FLAG_WEATHER_CTR_03
+0xA83						SYS_FLAG_WEATHER_CTR_04
+0xA84						SYS_FLAG_WEATHER_CTR_05
+0xA85						SYS_FLAG_WEATHER_CTR_06
+0xA86						SYS_FLAG_WEATHER_CTR_07
+0xA87						SYS_FLAG_WEATHER_CTR_08
+0xA88						SYS_FLAG_WEATHER_CTR_09
+0xA89						SYS_FLAG_WEATHER_CTR_10
+0xA8A						SYS_FLAG_C02R0601_HQEP06_BGM
+0xA8B						SYS_FLAG_ENC_TUTORIAL
+0xA8C						SYS_FLAG_C02_BUS_BGM
+0xA8D						SYS_FLAG_C02_HQEP04_BGM
+0xA8E						SYS_FLAG_IE_PARENT_01
+0xA8F						SYS_FLAG_IE_PARENT_02
+0xA90						SYS_FLAG_IE_PARENT_03
+0xA91						SYS_FLAG_IE_PARENT_04
+0xA92						SYS_FLAG_IE_PARENT_05
+0xA93						SYS_FLAG_IE_PARENT_06
+0xA94						SYS_FLAG_IE_PARENT_07
+0xA95						SYS_FLAG_IE_PARENT_08
+0xA96						SYS_FLAG_IE_AI_STOP_01
+0xA97						SYS_FLAG_IE_AI_STOP_02
+0xA98						SYS_FLAG_IE_AI_STOP_03
+0xA99						SYS_FLAG_IE_AI_STOP_04
+0xA9A						SYS_FLAG_IE_AI_STOP_05
+0xA9B						SYS_FLAG_IE_AI_STOP_06
+0xA9C						SYS_FLAG_IE_AI_STOP_07
+0xA9D						SYS_FLAG_IE_AI_STOP_08
+0xA9E						SYS_FLAG_C02R0103_BGM
+0xA9F						SYS_FLAG_C02R0601_BGM
+0xAA0	FLY SPOT			Can Fly to Vaniville Town		SYS_FLAG_ARRIVE_T01
+0xAA1	FLY SPOT			Can Fly to Aquacorde Town		SYS_FLAG_ARRIVE_T02
+0xAA2	FLY SPOT			Can Fly to Santalune City		SYS_FLAG_ARRIVE_C01
+0xAA3	_UNUSED					
+0xAA4	FLY SPOT			Can Fly to Cyllage City		SYS_FLAG_ARRIVE_C03
+0xAA5	FLY SPOT			Can Fly to Shalour City		SYS_FLAG_ARRIVE_C04
+0xAA6	FLY SPOT			Can Fly to Coumarine City		SYS_FLAG_ARRIVE_C05
+0xAA7	FLY SPOT			Can Fly to Laverre City		SYS_FLAG_ARRIVE_C06
+0xAA8	FLY SPOT			Can Fly to Anistar City		SYS_FLAG_ARRIVE_C07
+0xAA9	FLY SPOT			Can Fly to Snowbelle City		SYS_FLAG_ARRIVE_C08
+0xAAA	FLY SPOT			Can Fly to Camphrier Town		SYS_FLAG_ARRIVE_T03
+0xAAB	FLY SPOT			Can Fly to Geosenge Town		SYS_FLAG_ARRIVE_T04
+0xAAC	FLY SPOT			Can Fly to Dendemille Town		SYS_FLAG_ARRIVE_T05
+0xAAD	FLY SPOT			Can Fly to Couriway Town		SYS_FLAG_ARRIVE_T06
+0xAAE	FLY SPOT			Can Fly to Ambrette Town		SYS_FLAG_ARRIVE_T09
+0xAAF	FLY SPOT			Can Fly to Pokémon League		SYS_FLAG_ARRIVE_PL
+0xAB0	FLY SPOT			Can Fly to Kiloude City		SYS_FLAG_ARRIVE_C09
+0xAB1	FLY SPOT			Can Fly to Lumiose City (South Boulevard)		SYS_FLAG_ARRIVE_C02P0101
+0xAB2	FLY SPOT			Can Fly to Lumiose City (North Boulevard)		SYS_FLAG_ARRIVE_C02P0201
+0xAB3	FLY SPOT			Can Fly to Lumiose City (Center)		SYS_FLAG_ARRIVE_C02P0301
+0xAB4						SYS_FLAG_C02R2301_HQEP01_BGM
+0xAB5						SYS_FLAG_C02R2301_HQEP03_BGM
+0xAB6						SYS_FLAG_C02R0611_HQEP05_BGM
+0xAB7						SYS_FLAG_R07R0101_BGM
+0xAB8						SYS_FLAG_R14_BGM
+0xAB9						SYS_FLAG_PAJAMAS
+0xABA						SYS_FLAG_R01_BGM
+0xABB						SYS_FLAG_LEAPER_BIRTHDAY
+0xABC						SYS_FLAG_T04_BGM
+0xABD	_UNUSED					
+0xABE	_UNUSED					
+0xABF	_UNUSED					
+0xAC0	_UNUSED					
+0xAC1	_UNUSED					
+0xAC2	_UNUSED					
+0xAC3	_UNUSED					
+0xAC4	_UNUSED					
+0xAC5	_UNUSED					
+0xAC6	_UNUSED					
+0xAC7	_UNUSED					
+0xAC8	_UNUSED					
+0xAC9	_UNUSED					
+0xACA	_UNUSED					
+0xACB	_UNUSED					
+0xACC	_UNUSED					
+0xACD	_UNUSED					
+0xACE	_UNUSED					
+0xACF	_UNUSED					
+0xAD0	_UNUSED					
+0xAD1	_UNUSED					
+0xAD2	_UNUSED					
+0xAD3	_UNUSED					
+0xAD4	_UNUSED					
+0xAD5	_UNUSED					
+0xAD6	_UNUSED					
+0xAD7	_UNUSED					
+0xAD8	_UNUSED					
+0xAD9	_UNUSED					
+0xADA	_UNUSED					
+0xADB	_UNUSED					
+0xADC	_UNUSED					
+0xADD	_UNUSED					
+0xADE	_UNUSED					
+0xADF	_UNUSED					
+0xAE0	_UNUSED					
+0xAE1	_UNUSED					
+0xAE2	_UNUSED					
+0xAE3	_UNUSED					
+0xAE4	_UNUSED					
+0xAE5	_UNUSED					
+0xAE6	_UNUSED					
+0xAE7	_UNUSED					
+0xAE8	_UNUSED					
+0xAE9	_UNUSED					
+0xAEA	_UNUSED					
+0xAEB	_UNUSED					
+0xAEC	_UNUSED					
+0xAED	_UNUSED					
+0xAEE	_UNUSED					
+0xAEF	_UNUSED					
+0xAF0	_UNUSED					
+0xAF1	_UNUSED					
+0xAF2	_UNUSED					
+0xAF3	_UNUSED					
+0xAF4	_UNUSED					
+0xAF5	_UNUSED					
+0xAF6	_UNUSED					
+0xAF7	_UNUSED					
+0xAF8	_UNUSED					
+0xAF9	_UNUSED					
+0xAFA	_UNUSED					
+0xAFB	_UNUSED					
+0xAFC	_UNUSED					
+0xAFD	_UNUSED					
+0xAFE	_UNUSED					
+0xAFF	_UNUSED					
+0xB00	_UNUSED					
+0xB01	_UNUSED					
+0xB02	_UNUSED					
+0xB03	_UNUSED					
+0xB04	_UNUSED					
+0xB05	_UNUSED					
+0xB06	_UNUSED					
+0xB07	_UNUSED					
+0xB08	_UNUSED					
+0xB09	_UNUSED					
+0xB0A	_UNUSED					
+0xB0B	_UNUSED					
+0xB0C	_UNUSED					
+0xB0D	_UNUSED					
+0xB0E	_UNUSED					
+0xB0F	_UNUSED					
+0xB10	_UNUSED					
+0xB11	_UNUSED					
+0xB12	_UNUSED					
+0xB13	_UNUSED					
+0xB14	_UNUSED					
+0xB15	_UNUSED					
+0xB16	_UNUSED					
+0xB17	_UNUSED					
+0xB18	_UNUSED					
+0xB19	_UNUSED					
+0xB1A	_UNUSED					
+0xB1B	_UNUSED					
+0xB1C	_UNUSED					
+0xB1D	_UNUSED					
+0xB1E	_UNUSED					
+0xB1F	_UNUSED					
+0xB20	_UNUSED					
+0xB21	_UNUSED					
+0xB22	_UNUSED					
+0xB23	_UNUSED					
+0xB24	_UNUSED					
+0xB25	_UNUSED					
+0xB26	_UNUSED					
+0xB27	_UNUSED					
+0xB28	_UNUSED					
+0xB29	_UNUSED					
+0xB2A	_UNUSED					
+0xB2B	_UNUSED					
+0xB2C	_UNUSED					
+0xB2D	_UNUSED					
+0xB2E	_UNUSED					
+0xB2F	_UNUSED					
+0xB30	_UNUSED					
+0xB31	_UNUSED					
+0xB32	_UNUSED					
+0xB33	_UNUSED					
+0xB34	_UNUSED					
+0xB35	_UNUSED					
+0xB36	_UNUSED					
+0xB37	_UNUSED					
+0xB38	_UNUSED					
+0xB39	_UNUSED					
+0xB3A	_UNUSED					
+0xB3B	_UNUSED					
+0xB3C	_UNUSED					
+0xB3D	_UNUSED					
+0xB3E	_UNUSED					
+0xB3F	_UNUSED					
+0xB40	_UNUSED					
+0xB41	_UNUSED					
+0xB42	_UNUSED					
+0xB43	_UNUSED					
+0xB44	_UNUSED					
+0xB45	_UNUSED					
+0xB46	_UNUSED					
+0xB47	_UNUSED					
+0xB48	_UNUSED					
+0xB49	_UNUSED					
+0xB4A	_UNUSED					
+0xB4B	_UNUSED					
+0xB4C	_UNUSED					
+0xB4D	_UNUSED					
+0xB4E	_UNUSED					
+0xB4F	_UNUSED					
+0xB50	_UNUSED					
+0xB51	_UNUSED					
+0xB52	_UNUSED					
+0xB53	_UNUSED					
+0xB54	_UNUSED					
+0xB55	_UNUSED					
+0xB56	_UNUSED					
+0xB57	_UNUSED					
+0xB58	_UNUSED					
+0xB59	_UNUSED					
+0xB5A	_UNUSED					
+0xB5B	_UNUSED					
+0xB5C	_UNUSED					
+0xB5D	_UNUSED					
+0xB5E	_UNUSED					
+0xB5F	_UNUSED					
+0xB60	_UNUSED					
+0xB61	_UNUSED					
+0xB62	_UNUSED					
+0xB63	_UNUSED					
+0xB64	_UNUSED					
+0xB65	_UNUSED					
+0xB66	_UNUSED					
+0xB67	_UNUSED					
+0xB68	_UNUSED					
+0xB69	_UNUSED					
+0xB6A	_UNUSED					
+0xB6B	_UNUSED					
+0xB6C	_UNUSED					
+0xB6D	_UNUSED					
+0xB6E	_UNUSED					
+0xB6F	_UNUSED					
+0xB70	_UNUSED					
+0xB71	_UNUSED					
+0xB72	_UNUSED					
+0xB73	_UNUSED					
+0xB74	_UNUSED					
+0xB75	_UNUSED					
+0xB76	_UNUSED					
+0xB77	_UNUSED					
+0xB78	_UNUSED					
+0xB79	_UNUSED					
+0xB7A	_UNUSED					
+0xB7B	_UNUSED					
+0xB7C	_UNUSED					
+0xB7D	_UNUSED					
+0xB7E	_UNUSED					
+0xB7F	_UNUSED					
+0xB80	_UNUSED					
+0xB81	_UNUSED					
+0xB82	_UNUSED					
+0xB83	_UNUSED					
+0xB84	_UNUSED					
+0xB85	_UNUSED					
+0xB86	_UNUSED					
+0xB87	_UNUSED					
+0xB88	_UNUSED					
+0xB89	_UNUSED					
+0xB8A	_UNUSED					
+0xB8B	_UNUSED					
+0xB8C	_UNUSED					
+0xB8D	_UNUSED					
+0xB8E	_UNUSED					
+0xB8F	_UNUSED					
+0xB90	ITEM GIFT					TMFLG_T03R0401_ITEMGET_01
+0xB91	_UNUSED					
+0xB92						TMFLG_HOTEL_GUEST_01
+0xB93						TMFLG_HOTEL_GUEST_02
+0xB94						TMFLG_HOTEL_GUEST_03
+0xB95						TMFLG_HOTEL_GUEST_04
+0xB96						TMFLG_HOTEL_GUEST_05
+0xB97						TMFLG_HOTEL_GUEST_06
+0xB98						TMFLG_HOTEL_RIBBON_DONE
+0xB99						TMFLG_HOTEL_RIBBON_COMP
+0xB9A						TMFLG_T06_OISIIMIZU_01
+0xB9B						TMFLG_T05R0301_WAZA_CHOICE
+0xB9C						TMFLG_T05R0301_WAZA_GET
+0xB9D						TMFLG_CAFE_HEIGEN
+0xB9E						TMFLG_CAFE_KAIGAN
+0xB9F						TMFLG_CAFE_SANGAKU
+0xBA0						TMFLG_ID_KUJI
+0xBA1						TMFLG_C03R0501_MASSAGE_01
+0xBA2						TMFLG_SAKASA_BATTLE
+0xBA3						TMFLG_JUICE_FRESH
+0xBA4						TMFLG_JUICE_VINTAGE
+0xBA5						TMFLG_T09_ITEMCHANGE_01
+0xBA6						TMFLG_C02R0102_POKETORE_01
+0xBA7						TMFLG_C09_HERO_BTL_01
+0xBA8	SIDE EVENT			Finished Room Service Task (Today)		TMFLG_HOTEL_ROOMSERVICE
+0xBA9	SIDE EVENT			Finished Making Beds Task (Today)		TMFLG_HOTEL_BEDMAKE
+0xBAA	SIDE EVENT			Finished Lost and Found Task (Today)		TMFLG_HOTEL_CONCIERGE
+0xBAB						TMFLG_C02R2301_C02GIRL_EX_BTL
+0xBAC	ITEM GIFT					TMFLG_T09R0301_ITEMGET_01
+0xBAD						TMFLG_T09R0301_AGI_CHOICE_01
+0xBAE	ITEM GIFT					TMFLG_C06_ITEMGET_01
+0xBAF	ITEM GIFT					TMFLG_C06_ITEMGET_02
+0xBB0						TMFLG_C08R0501_TIP_01
+0xBB1						TMFLG_C05R0701_TIP_01
+0xBB2						TMFLG_C05_KINOMIRND_01
+0xBB3						TMFLG_C05_KINOMIGET_01
+0xBB4						TMFLG_C05R0701_TIPPAY_01
+0xBB5						TMFLG_C08R0501_TIPPAY_01
+0xBB6						TMFLG_C09R1003_TIP_01
+0xBB7						TMFLG_T03R0401_POKETYPE_01
+0xBB8						TMFLG_C02R3602_POKELEVEL_01
+0xBB9						TMFLG_C02R1601_PV_01
+0xBBA						TMFLG_C02Z03_GALETTE_01
+0xBBB						TMFLG_T04_MEGA_INFO
+0xBBC	ITEM GIFT					TMFLG_C02R2701_ITEMGET_01
+0xBBD						TMFLG_C02R0102_POKETORE_02
+0xBBE						TMFLG_C02R0102_POKETORE_03
+0xBBF						TMFLG_C02R0102_POKETORE_04
+0xBC0						TMFLG_C05_WAZAMACHINEGET_01
+0xBC1	_UNUSED					
+0xBC2						TMFLG_T04_FRIEND3_MEGATALK
+0xBC3						TMFLG_C02R3101_REST_01
+0xBC4						TMFLG_C05A0101_WAZACHOISE_01
+0xBC5	ITEM GIFT					TMFLG_C05A0101_ITEMGET_01
+0xBC6						TMFLG_JUICE_VINTAGE_CHOICE
+0xBC7	_UNUSED					
+0xBC8	_UNUSED					
+0xBC9	_UNUSED					
+0xBCA	_UNUSED					
+0xBCB	_UNUSED					
+0xBCC	_UNUSED					
+0xBCD	_UNUSED					
+0xBCE	_UNUSED					
+0xBCF	_UNUSED					
+0xBD0	_UNUSED					
+0xBD1	_UNUSED					
+0xBD2	_UNUSED					
+0xBD3	_UNUSED					
+0xBD4	_UNUSED					
+0xBD5	_UNUSED					
+0xBD6	_UNUSED					
+0xBD7	_UNUSED					
+0xBD8	_UNUSED					
+0xBD9	_UNUSED					
+0xBDA	_UNUSED					
+0xBDB	_UNUSED					
+0xBDC	_UNUSED					
+0xBDD	_UNUSED					
+0xBDE	_UNUSED					
+0xBDF	_UNUSED					
+0xBE0	_UNUSED					
+0xBE1	_UNUSED					
+0xBE2	_UNUSED					
+0xBE3	_UNUSED					
+0xBE4	_UNUSED					
+0xBE5	_UNUSED					
+0xBE6	_UNUSED					
+0xBE7	_UNUSED					
+0xBE8	_UNUSED					
+0xBE9	_UNUSED					
+0xBEA	_UNUSED					
+0xBEB	_UNUSED					
+0xBEC	_UNUSED					
+0xBED	_UNUSED					
+0xBEE	_UNUSED					
+0xBEF	_UNUSED					
+0xBF0	_UNUSED					
+0xBF1	_UNUSED					
+0xBF2	_UNUSED					
+0xBF3	_UNUSED					
+0xBF4	_UNUSED					
+0xBF5	_UNUSED					
+0xBF6	_UNUSED					
+0xBF7	_UNUSED					
+0xBF8	_UNUSED					
+0xBF9	_UNUSED					
+0xBFA	_UNUSED					
+0xBFB	_UNUSED					
+0xBFC	_UNUSED					
+0xBFD	_UNUSED					
+0xBFE	_UNUSED					
+0xBFF	_UNUSED					
+0xC00	_UNUSED					
+0xC01	_UNUSED					
+0xC02	_UNUSED					
+0xC03	_UNUSED					
+0xC04	_UNUSED					
+0xC05	_UNUSED					
+0xC06	_UNUSED					
+0xC07	_UNUSED					
+0xC08	_UNUSED					
+0xC09	_UNUSED					
+0xC0A	_UNUSED					
+0xC0B	_UNUSED					
+0xC0C	_UNUSED					
+0xC0D	_UNUSED					
+0xC0E	_UNUSED					
+0xC0F	_UNUSED					
+0xC10	_UNUSED					
+0xC11	_UNUSED					
+0xC12	_UNUSED					
+0xC13	_UNUSED					
+0xC14	_UNUSED					
+0xC15	_UNUSED					
+0xC16	_UNUSED					
+0xC17	_UNUSED					
+0xC18	_UNUSED					
+0xC19	_UNUSED					
+0xC1A	_UNUSED					
+0xC1B	_UNUSED					
+0xC1C	_UNUSED					
+0xC1D	_UNUSED					
+0xC1E	_UNUSED					
+0xC1F	_UNUSED					
+0xC20	_UNUSED					
+0xC21	_UNUSED					
+0xC22	_UNUSED					
+0xC23	_UNUSED					
+0xC24	_UNUSED					
+0xC25	_UNUSED					
+0xC26	_UNUSED					
+0xC27	_UNUSED					
+0xC28	_UNUSED					
+0xC29	_UNUSED					
+0xC2A	_UNUSED					
+0xC2B	_UNUSED					
+0xC2C	_UNUSED					
+0xC2D	_UNUSED					
+0xC2E	_UNUSED					
+0xC2F	_UNUSED					
+0xC30						TMFLG_PI_NONE
+0xC31	_UNUSED					
+0xC32	_UNUSED					
+0xC33	_UNUSED					
+0xC34	_UNUSED					
+0xC35	_UNUSED					
+0xC36	_UNUSED					
+0xC37	_UNUSED					
+0xC38	_UNUSED					
+0xC39	_UNUSED					
+0xC3A	_UNUSED					
+0xC3B	_UNUSED					
+0xC3C	_UNUSED					
+0xC3D	_UNUSED					
+0xC3E	_UNUSED					
+0xC3F	_UNUSED					
+0xC40	_UNUSED					
+0xC41	_UNUSED					
+0xC42	_UNUSED					
+0xC43	_UNUSED					
+0xC44	_UNUSED					
+0xC45	_UNUSED					
+0xC46	_UNUSED					
+0xC47	_UNUSED					
+0xC48	_UNUSED					
+0xC49	_UNUSED					
+0xC4A	_UNUSED					
+0xC4B	_UNUSED					
+0xC4C	_UNUSED					
+0xC4D	_UNUSED					
+0xC4E	_UNUSED					
+0xC4F	_UNUSED					
+0xC50						FOBJENC_D07_NORMAL0
+0xC51						FOBJENC_D07_RARE0
+0xC52						FOBJENC_D07_RARE1
+0xC53						FOBJENC_D07_RARE2
+0xC54						FOBJENC_D07_RARE3
+0xC55						FOBJENC_D15_NORMAL0
+0xC56						FOBJENC_D15_RARE0
+0xC57						FOBJENC_D15_RARE1
+0xC58						FOBJENC_D15_RARE2
+0xC59						FOBJENC_D15_RARE3
+0xC5A	_UNUSED					
+0xC5B	_UNUSED					
+0xC5C	_UNUSED					
+0xC5D	_UNUSED					
+0xC5E	_UNUSED					
+0xC5F	_UNUSED					
+0xC60	_UNUSED					
+0xC61	_UNUSED					
+0xC62	_UNUSED					
+0xC63	_UNUSED					
+0xC64	_UNUSED					
+0xC65	_UNUSED					
+0xC66	_UNUSED					
+0xC67	_UNUSED					
+0xC68	_UNUSED					
+0xC69	_UNUSED					
+0xC6A	_UNUSED					
+0xC6B	_UNUSED					
+0xC6C	_UNUSED					
+0xC6D	_UNUSED					
+0xC6E	_UNUSED					
+0xC6F	_UNUSED					
+0xC70	_UNUSED					
+0xC71	_UNUSED					
+0xC72	_UNUSED					
+0xC73	_UNUSED					
+0xC74	_UNUSED					
+0xC75	_UNUSED					
+0xC76	_UNUSED					
+0xC77	_UNUSED					
+0xC78	_UNUSED					
+0xC79	_UNUSED					
+0xC7A	_UNUSED					
+0xC7B	_UNUSED					
+0xC7C	_UNUSED					
+0xC7D	_UNUSED					
+0xC7E	_UNUSED					
+0xC7F	_UNUSED					
+0xC80	_UNUSED					
+0xC81	_UNUSED					
+0xC82	_UNUSED					
+0xC83	_UNUSED					
+0xC84	_UNUSED					
+0xC85	_UNUSED					
+0xC86	_UNUSED					
+0xC87	_UNUSED					
+0xC88	_UNUSED					
+0xC89	_UNUSED					
+0xC8A	_UNUSED					
+0xC8B	_UNUSED					
+0xC8C	_UNUSED					
+0xC8D	_UNUSED					
+0xC8E	_UNUSED					
+0xC8F	_UNUSED					
+0xC90	_UNUSED					
+0xC91	_UNUSED					
+0xC92	_UNUSED					
+0xC93	_UNUSED					
+0xC94	_UNUSED					
+0xC95	_UNUSED					
+0xC96	_UNUSED					
+0xC97	_UNUSED					
+0xC98	_UNUSED					
+0xC99	_UNUSED					
+0xC9A	_UNUSED					
+0xC9B	_UNUSED					
+0xC9C	_UNUSED					
+0xC9D	_UNUSED					
+0xC9E	_UNUSED					
+0xC9F	_UNUSED					
+0xCA0	_UNUSED					
+0xCA1	_UNUSED					
+0xCA2	_UNUSED					
+0xCA3	_UNUSED					
+0xCA4	_UNUSED					
+0xCA5	_UNUSED					
+0xCA6	_UNUSED					
+0xCA7	_UNUSED					
+0xCA8	_UNUSED					
+0xCA9	_UNUSED					
+0xCAA	_UNUSED					
+0xCAB	_UNUSED					
+0xCAC	_UNUSED					
+0xCAD	_UNUSED					
+0xCAE	_UNUSED					
+0xCAF	_UNUSED					
+0xCB0	_UNUSED					
+0xCB1	_UNUSED					
+0xCB2	_UNUSED					
+0xCB3	_UNUSED					
+0xCB4	_UNUSED					
+0xCB5	_UNUSED					
+0xCB6	_UNUSED					
+0xCB7	_UNUSED					
+0xCB8	_UNUSED					
+0xCB9	_UNUSED					
+0xCBA	_UNUSED					
+0xCBB	_UNUSED					
+0xCBC	_UNUSED					
+0xCBD	_UNUSED					
+0xCBE	_UNUSED					
+0xCBF	_UNUSED					
+0xCC0	_UNUSED					
+0xCC1	_UNUSED					
+0xCC2	_UNUSED					
+0xCC3	_UNUSED					
+0xCC4	_UNUSED					
+0xCC5	_UNUSED					
+0xCC6	_UNUSED					
+0xCC7	_UNUSED					
+0xCC8	_UNUSED					
+0xCC9	_UNUSED					
+0xCCA	_UNUSED					
+0xCCB	_UNUSED					
+0xCCC	_UNUSED					
+0xCCD	_UNUSED					
+0xCCE	_UNUSED					
+0xCCF	_UNUSED					
+0xCD0	_UNUSED					
+0xCD1	_UNUSED					
+0xCD2	_UNUSED					
+0xCD3	_UNUSED					
+0xCD4	_UNUSED					
+0xCD5	_UNUSED					
+0xCD6	_UNUSED					
+0xCD7	_UNUSED					
+0xCD8	_UNUSED					
+0xCD9	_UNUSED					
+0xCDA	_UNUSED					
+0xCDB	_UNUSED					
+0xCDC	_UNUSED					
+0xCDD	_UNUSED					
+0xCDE	_UNUSED					
+0xCDF	_UNUSED					
+0xCE0	_UNUSED					
+0xCE1	_UNUSED					
+0xCE2	_UNUSED					
+0xCE3	_UNUSED					
+0xCE4	_UNUSED					
+0xCE5	_UNUSED					
+0xCE6	_UNUSED					
+0xCE7	_UNUSED					
+0xCE8	_UNUSED					
+0xCE9	_UNUSED					
+0xCEA	_UNUSED					
+0xCEB	_UNUSED					
+0xCEC	_UNUSED					
+0xCED	_UNUSED					
+0xCEE	_UNUSED					
+0xCEF	_UNUSED					
+0xCF0	_UNUSED					
+0xCF1	_UNUSED					
+0xCF2	_UNUSED					
+0xCF3	_UNUSED					
+0xCF4	_UNUSED					
+0xCF5	_UNUSED					
+0xCF6	_UNUSED					
+0xCF7	_UNUSED					
+0xCF8	_UNUSED					
+0xCF9	_UNUSED					
+0xCFA	_UNUSED					
+0xCFB	_UNUSED					
+0xCFC	_UNUSED					
+0xCFD	_UNUSED					
+0xCFE	_UNUSED					
+0xCFF	_UNUSED					
 						
 						
 						
 						
 //	Event Work					
-0x000						ZONEWORK0
-0x001						ZONEWORK1
-0x002						ZONEWORK2
-0x003						ZONEWORK3
-0x004						ZONEWORK4
-0x005						ZONEWORK5
-0x006						ZONEWORK6
-0x007						ZONEWORK7
-0x008						ZONEWORK8
-0x009						ZONEWORK9
-0x00A						ZONEWORK10
-0x00B						ZONEWORK11
-0x00C						ZONEWORK12
-0x00D						ZONEWORK13
-0x00E						ZONEWORK14
-0x00F						ZONEWORK15
-0x010						
-0x011						
-0x012						
-0x013						
-0x014						
-0x015						
-0x016						
-0x017						
-0x018						
-0x019						
-0x01A						
-0x01B						
-0x01C						
-0x01D						
-0x01E						
-0x01F						
+0x000						LOCALWORK0
+0x001						LOCALWORK1
+0x002						LOCALWORK2
+0x003						LOCALWORK3
+0x004						LOCALWORK4
+0x005						LOCALWORK5
+0x006						LOCALWORK6
+0x007						LOCALWORK7
+0x008						LOCALWORK8
+0x009						LOCALWORK9
+0x00A						LOCALWORK10
+0x00B						LOCALWORK11
+0x00C						LOCALWORK12
+0x00D						LOCALWORK13
+0x00E						LOCALWORK14
+0x00F						LOCALWORK15
+0x010	_UNUSED					
+0x011	_UNUSED					
+0x012	_UNUSED					
+0x013	_UNUSED					
+0x014						LOCALWORK_TV
+0x015	_UNUSED					
+0x016	_UNUSED					
+0x017	_UNUSED					
+0x018	_UNUSED					
+0x019	_UNUSED					
+0x01A	_UNUSED					
+0x01B	_UNUSED					
+0x01C	_UNUSED					
+0x01D	_UNUSED					
+0x01E	_UNUSED					
+0x01F	_UNUSED					
 0x020						OBJCHRWORK0
 0x021						OBJCHRWORK1
 0x022						OBJCHRWORK2
@@ -3381,330 +3381,330 @@
 0x02E						OBJCHRWORK14
 0x02F						OBJCHRWORK15
 0x030	STORY EVENT			First Partner	0:Chespin,1:Fennekin,2:Froakie	WK_SYS_FIRST_POKETYPE
-0x031						
-0x032						
-0x033						
-0x034						
-0x035						
-0x036						
-0x037						
-0x038						
-0x039						
-0x03A						
+0x031						WK_SYS_MAPREPLACE01
+0x032						WK_SYS_MAPREPLACE02
+0x033						WK_SYS_MAPREPLACE03
+0x034						WK_SYS_MAPREPLACE04
+0x035						WK_SYS_MAPREPLACE05
+0x036						WK_SYS_MAPREPLACE06
+0x037						WK_SYS_MAPREPLACE07
+0x038						WK_SYS_MAPREPLACE08
+0x039						WK_SYS_MAPREPLACE09
+0x03A						WK_SYS_MAPREPLACE10
 0x03B				Kanto Starter	0:Not Chosen,3:Bulbasaur,4:Charmander,5:Squirtle	WK_SYS_SECOND_POKETYPE
-0x03C						
-0x03D						
-0x03E						
-0x03F						
-0x040						
-0x041						
-0x042						
-0x043						
-0x044						
-0x045						
-0x046						
-0x047						
-0x048						
-0x049						
-0x04A						
-0x04B						
-0x04C						
-0x04D						
-0x04E						
-0x04F						
-0x050						
-0x051						
-0x052						
-0x053						
-0x054						
-0x055						
-0x056						
-0x057						
-0x058						
-0x059						
-0x05A						
-0x05B						
-0x05C						
-0x05D						
-0x05E						
-0x05F						
-0x060						
-0x061						
-0x062						
-0x063						
-0x064						
-0x065						
-0x066						
-0x067						
-0x068						
-0x069						
-0x06A						
-0x06B						
-0x06C						
-0x06D						
-0x06E						
-0x06F						
-0x070						
-0x071						
-0x072						
-0x073						
-0x074						
-0x075				Route 2 Event	0:Will Battle Static Wild Pidgey,1:Battled Static Wild Pidgey,2:Tutorial Complete	
-0x076						
-0x077						
-0x078						
-0x079						
-0x07A						
-0x07B						
-0x07C						
-0x07D						
-0x07E						
-0x07F						
-0x080						
-0x081						
-0x082						
-0x083						
-0x084						
-0x085						
-0x086						
-0x087						
-0x088		Glittering Cave		Team Flare Grunt M & Team Flare double battle in Glittering Cave	0:none defeated,2:Team Flare Grunt Defeated,4:Team Flare Grunt Double Battle Defeated and Cleared	
-0x089						
-0x08A				Cycle Shop	0:Bicycle Pending,1:Received Bicycle	
-0x08B						
-0x08C						
-0x08D						
-0x08E						
-0x08F						
-0x090		Power Plant		Team Flare Grunt M First Battle in Power Plant	0:Not Defeated,1:Defeated	
-0x091		Power Plant		3 Team Flare Battles	0:Not Defeated,1:Defeated Team Grunt M,2:Defeated Admin,3:Defeated Aliana	
-0x092						
-0x093						
-0x094						
-0x095		Route 13		Team Flare Grunt M on route 13 (Flag 1101 set)	1:Not Defeated,2:Defeated	
-0x096						
-0x097						
-0x098						
-0x099						
-0x09A						
-0x09B						
-0x09C						
-0x09D						
-0x09E						
-0x09F						
-0x0A0		Route 10		Team Flare Grunt M Battle on Route 10	1:Not Defeated,2:Defeated	
-0x0A1						
-0x0A2						
-0x0A3						
-0x0A4						
-0x0A5		PokeBall Factory		First Team Flare Grunt M in PokeBall Factory	0:Not defeated,1:Defeated	
-0x0A6						
-0x0A7						
-0x0A8						
-0x0A9						
-0x0AA						
-0x0AB						
-0x0AC						
-0x0AD						
-0x0AE				Hiker (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Asks to Trade,4:Trade Pending,5:Traded for Magikarp	
-0x0AF				Waiter (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Will give Rage Candy Bar,5:Gave Rage Candy Bar	
-0x0B0				Madame (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Will give Lava Cookie,5:Gave Lava Cookie	
-0x0B1				Maid (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Asks to Trade,4:Trade Pending,5:Traded for Eevee	
-0x0B2				Tourist (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:3rd Meeting,4:4th Meeting	
-0x0B3				Backpacker (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Will give Strange Souvenir,5:Gave Strange Souvenir	
-0x0B4						
-0x0B5						
-0x0B6						
-0x0B7						
-0x0B8						
-0x0B9						
-0x0BA						
-0x0BB						
-0x0BC						
-0x0BD						
-0x0BE						
-0x0BF						
-0x0C0						
-0x0C1						
-0x0C2		Lumiose City	Gym	? Elevator or Quiz Progression	0:?,1:?,2:?,3:?,4:?,5:?,6:?,7:?,8:Completed	
-0x0C3						
-0x0C4						
-0x0C5						
-0x0C6						
-0x0C7						
-0x0C8						
-0x0C9						
-0x0CA						
-0x0CB						
-0x0CC				Route 12 Breeder	0:Blocking further access,1:Has Lapras Gift,2:Gave Lapras	
-0x0CD						
-0x0CE						
-0x0CF						
-0x0D0						
-0x0D1						
-0x0D2						
-0x0D3						
-0x0D4						
-0x0D5						
-0x0D6						
-0x0D7						
-0x0D8						
-0x0D9						
-0x0DA						
-0x0DB						
-0x0DC				Lumiose Station Event	0:Pre-Champion,1:Will get National Dex,2:Received National Dex,3:Received TMV Pass	
-0x0DD		Lumiose City	Gym	? Elevator or Quiz Progression	0:?,1:?,2:?,3:?,4:Completed	
-0x0DE						
-0x0DF						
-0x0E0						
-0x0E1						
-0x0E2						
-0x0E3				Lost Hotel Punk Guy	0:Blocking further access (Not learned all Tricks),1:Allows access (Learned all Tricks)	
-0x0E4				Hex Maniac Ghost (Lumiose City)	0:Not Encountered,1:Encountered	
-0x0E5						
-0x0E6						
-0x0E7						
-0x0E8						
-0x0E9						
-0x0EA						
-0x0EB						
-0x0EC						
-0x0ED						
-0x0EE						
-0x0EF						
-0x0F0						
-0x0F1						
-0x0F2						
-0x0F3						
-0x0F4						
-0x0F5						
-0x0F6						
-0x0F7						
-0x0F8						
-0x0F9						
-0x0FA						
-0x0FB						
-0x0FC						
-0x0FD						
-0x0FE						
-0x0FF						
-0x100						
-0x101						
-0x102						
-0x103						
-0x104						
-0x105						
-0x106						
-0x107						
-0x108						
-0x109						
-0x10A						
-0x10B						
-0x10C						
-0x10D						
-0x10E						
-0x10F						
-0x110						
-0x111						
-0x112						
-0x113						
-0x114						
-0x115						
-0x116						
-0x117						
-0x118						
-0x119						
-0x11A						
-0x11B						
-0x11C						
-0x11D						
-0x11E						
-0x11F						
-0x120						
-0x121						
-0x122						
-0x123						
-0x124						
-0x125						
-0x126						
-0x127						
-0x128						
-0x129						
-0x12A						
-0x12B						
-0x12C						
-0x12D						
-0x12E						
-0x12F						
-0x130						
-0x131						
-0x132						
-0x133						
-0x134						
-0x135						
-0x136						
-0x137						
-0x138						
-0x139						
-0x13A						
-0x13B						
-0x13C						
-0x13D						
-0x13E						
-0x13F						
-0x140						
-0x141						
-0x142						
-0x143						
-0x144						
-0x145						
-0x146						
-0x147						
-0x148						
-0x149						
-0x14A				Hotel Richissme Tasks Perfect		
-0x14B						
-0x14C						
-0x14D						
-0x14E						
-0x14F						
-0x150						
-0x151						
-0x152						
-0x153						
-0x154						
-0x155						
-0x156						
-0x157						
-0x158						
-0x159						
-0x15A						
-0x15B						
-0x15C						
-0x15D						
-0x15E						
-0x15F						
-0x160						
-0x161						
-0x162						
-0x163						
-0x164						
-0x165						
-0x166						
-0x167						
-0x168						
-0x169						
-0x16A						
-0x16B						
-0x16C						
-0x16D						
-0x16E						
-0x16F						
-0x170						
-0x171						
-0x172						
-0x173						
-0x174						
-0x175						
-0x176						
-0x177						
+0x03C						WK_SYS_C02GYM_BGMCHANGE
+0x03D	_UNUSED					
+0x03E	_UNUSED					
+0x03F	_UNUSED					
+0x040	_UNUSED					
+0x041	_UNUSED					
+0x042	_UNUSED					
+0x043						WK_SYS_WEATHER_FORCE_ID
+0x044						WK_SYS_WEATHER_FORCE_SEASON
+0x045						WK_SYS_IE_PARENT_SEQ_01
+0x046						WK_SYS_IE_PARENT_SEQ_02
+0x047						WK_SYS_IE_PARENT_SEQ_03
+0x048						WK_SYS_IE_PARENT_SEQ_04
+0x049						WK_SYS_IE_PARENT_SEQ_05
+0x04A						WK_SYS_IE_PARENT_SEQ_06
+0x04B						WK_SYS_IE_PARENT_SEQ_07
+0x04C						WK_SYS_IE_PARENT_SEQ_08
+0x04D						WK_SYS_IE_AI_STATE_01
+0x04E						WK_SYS_IE_AI_STATE_02
+0x04F						WK_SYS_IE_AI_STATE_03
+0x050						WK_SYS_IE_AI_STATE_04
+0x051						WK_SYS_IE_AI_STATE_05
+0x052						WK_SYS_IE_AI_STATE_06
+0x053						WK_SYS_IE_AI_STATE_07
+0x054						WK_SYS_IE_AI_STATE_08
+0x055	_UNUSED					
+0x056						WK_SYS_POKECEN_BIRTH
+0x057						WK_SYS_DUELING_ANNAI
+0x058						WK_SYS_DUELING_ANNAI_SILVER
+0x059						WK_SYS_DUELING_ANNAI_GOLD
+0x05A						WK_SYS_DUELING_TYOUSEN
+0x05B						WK_SYS_DUELING_TYOUSEN_BLUE
+0x05C						WK_SYS_DUELING_TYOUSEN_RED
+0x05D						WK_SYS_DUELING_TYOUSEN_BK
+0x05E	_UNUSED					
+0x05F	_UNUSED					
+0x060	_UNUSED					
+0x061	_UNUSED					
+0x062	_UNUSED					
+0x063	_UNUSED					
+0x064	_UNUSED					
+0x065	_UNUSED					
+0x066	_UNUSED					
+0x067	_UNUSED					
+0x068	_UNUSED					
+0x069	_UNUSED					
+0x06A	_UNUSED					
+0x06B	_UNUSED					
+0x06C	_UNUSED					
+0x06D	_UNUSED					
+0x06E	_UNUSED					
+0x06F	_UNUSED					
+0x070						WK_SCENE_T01OHMON
+0x071						WK_SCENE_T01START
+0x072						WK_SCENE_T01
+0x073						WK_SCENE_T01R0101
+0x074						WK_SCENE_T02
+0x075				Route 2 Event	0:Will Battle Static Wild Pidgey,1:Battled Static Wild Pidgey,2:Tutorial Complete	WK_SCENE_R02
+0x076						WK_SCENE_D01
+0x077						WK_SCENE_D01_IE_STATE
+0x078						WK_SCENE_R03
+0x079						WK_SCENE_C01
+0x07A						WK_SCENE_T02_STOPPER
+0x07B	_UNUSED					
+0x07C						WK_SCENE_T01R0102
+0x07D						WK_SCENE_R05
+0x07E						WK_SCENE_D02A0101
+0x07F						WK_SCENE_R07
+0x080						WK_SCENE_R07R0101
+0x081						WK_SCENE_HOROGRAM
+0x082						WK_SCENE_GAMESTART
+0x083						WK_SCENE_T03R0101
+0x084						WK_SCENE_D02R0102
+0x085						WK_SCENE_T09G0101
+0x086						WK_SCENE_T09R0201
+0x087						WK_SCENE_T09
+0x088		Glittering Cave		Team Flare Grunt M & Team Flare double battle in Glittering Cave	0:none defeated,2:Team Flare Grunt Defeated,4:Team Flare Grunt Double Battle Defeated and Cleared	WK_SCENE_D03R0102
+0x089						WK_SCENE_C03
+0x08A				Cycle Shop	0:Bicycle Pending,1:Received Bicycle	WK_SCENE_C03R0301
+0x08B						WK_SCENE_R08
+0x08C						WK_SCENE_C05A0101
+0x08D	_UNUSED					
+0x08E	_UNUSED					
+0x08F						WK_SCENE_D02
+0x090		Power Plant		Team Flare Grunt M First Battle in Power Plant	0:Not Defeated,1:Defeated	WK_SCENE_D12R0102
+0x091		Power Plant		3 Team Flare Battles	0:Not Defeated,1:Defeated Team Grunt M,2:Defeated Admin,3:Defeated Aliana	WK_SCENE_D12R0103
+0x092						WK_SCENE_D02R0204
+0x093						WK_SCENE_C01_R04STOPPER
+0x094						WK_SCENE_R13
+0x095		Route 13		Team Flare Grunt M on route 13 (Flag 1101 set)	1:Not Defeated,2:Defeated	WK_SCENE_R13_FLARE
+0x096						WK_SCENE_R04
+0x097						WK_SCENE_C04
+0x098						WK_SCENE_C04R1002
+0x099						WK_SCENE_C02Z01
+0x09A						WK_SCENE_C02Z02
+0x09B						WK_SCENE_C02R0101
+0x09C						WK_SCENE_C02R2101
+0x09D						WK_SCENE_C02G0101
+0x09E						WK_SCENE_C04R1001
+0x09F						WK_SCENE_T04
+0x0A0		Route 10		Team Flare Grunt M Battle on Route 10	1:Not Defeated,2:Defeated	WK_SCENE_R10
+0x0A1						WK_SCENE_R14
+0x0A2						WK_SCENE_C04R1006
+0x0A3						WK_SCENE_C06
+0x0A4						WK_SCENE_D05
+0x0A5		PokeBall Factory		First Team Flare Grunt M in PokeBall Factory	0:Not defeated,1:Defeated	WK_SCENE_D05R0101
+0x0A6						WK_SCENE_D05R0102
+0x0A7						WK_SCENE_D05R0103
+0x0A8						WK_SCENE_D06
+0x0A9						WK_SCENE_D06R0103
+0x0AA						WK_SCENE_R18
+0x0AB						WK_SCENE_C07
+0x0AC						WK_SCENE_D08G0101
+0x0AD						WK_SCENE_T05
+0x0AE				Hiker (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Asks to Trade,4:Trade Pending,5:Traded for Magikarp	WK_SCENE_HOTEL_GUEST_01
+0x0AF				Waiter (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Will give Rage Candy Bar,5:Gave Rage Candy Bar	WK_SCENE_HOTEL_GUEST_02
+0x0B0				Madame (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Will give Lava Cookie,5:Gave Lava Cookie	WK_SCENE_HOTEL_GUEST_03
+0x0B1				Maid (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Asks to Trade,4:Trade Pending,5:Traded for Eevee	WK_SCENE_HOTEL_GUEST_04
+0x0B2				Tourist (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:3rd Meeting,4:4th Meeting	WK_SCENE_HOTEL_GUEST_05
+0x0B3				Backpacker (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Will give Strange Souvenir,5:Gave Strange Souvenir	WK_SCENE_HOTEL_GUEST_06
+0x0B4						WK_SCENE_T06
+0x0B5						WK_SCENE_C08
+0x0B6						WK_SCENE_C02R0601
+0x0B7						WK_SCENE_C02R0602
+0x0B8						WK_SCENE_C02R0603
+0x0B9						WK_SCENE_C02R0604
+0x0BA						WK_SCENE_C02R0605
+0x0BB						WK_SCENE_C02R0606
+0x0BC						WK_SCENE_C02R0607
+0x0BD						WK_SCENE_PLR0101
+0x0BE						WK_SCENE_R20
+0x0BF						WK_SCENE_C02G0401
+0x0C0						WK_SCENE_C02Z03
+0x0C1						WK_SCENE_C02Z05
+0x0C2		Lumiose City	Gym	? Elevator or Quiz Progression	0:?,1:?,2:?,3:?,4:?,5:?,6:?,7:?,8:Completed	WK_SCENE_C02GYM0101
+0x0C3						WK_SCENE_PLR0201
+0x0C4						WK_SCENE_PLR0601
+0x0C5						WK_SCENE_C02Z07
+0x0C6						WK_SCENE_C02R0801
+0x0C7						WK_SCENE_C07G0201
+0x0C8						WK_SCENE_D13R0101
+0x0C9						WK_SCENE_D13R0102
+0x0CA						WK_SCENE_D13R0103
+0x0CB						WK_SCENE_D13R0104
+0x0CC				Route 12 Breeder	0:Blocking further access,1:Has Lapras Gift,2:Gave Lapras	WK_SCENE_R12
+0x0CD						WK_SCENE_C06G0101
+0x0CE						WK_SCENE_PLR0302
+0x0CF						WK_SCENE_PLR0402
+0x0D0						WK_SCENE_PLR0502
+0x0D1						WK_SCENE_PLR0602
+0x0D2						WK_SCENE_C01P0101
+0x0D3						WK_SCENE_C02G0201
+0x0D4						WK_SCENE_D13R0102_IE_STATE
+0x0D5						WK_SCENE_C02R0103
+0x0D6						WK_SCENE_D07
+0x0D7						WK_SCENE_C09
+0x0D8						WK_SCENE_C02G0301
+0x0D9						WK_SCENE_D08R0104
+0x0DA						WK_SCENE_R01
+0x0DB						WK_SCENE_C02G0501
+0x0DC				Lumiose Station Event	0:Pre-Champion,1:Will get National Dex,2:Received National Dex,3:Received TMV Pass	WK_SCENE_C02R0901
+0x0DD		Lumiose City	Gym	? Elevator or Quiz Progression	0:?,1:?,2:?,3:?,4:Completed	WK_SCENE_C02GYM_LIGHTUP
+0x0DE						WK_SCENE_D04R0102
+0x0DF						WK_SCENE_C05R0101
+0x0E0						WK_SCENE_R14R0101
+0x0E1						WK_SCENE_I01_TUTORIAL
+0x0E2						WK_SCENE_C01GYM0101
+0x0E3				Lost Hotel Punk Guy	0:Blocking further access (Not learned all Tricks),1:Allows access (Learned all Tricks)	WK_SCENE_D15R0101
+0x0E4				Hex Maniac Ghost (Lumiose City)	0:Not Encountered,1:Encountered	WK_SCENE_C02R1202
+0x0E5						WK_SCENE_C02R3901
+0x0E6						WK_SCENE_D17R0101
+0x0E7						WK_SCENE_PLR0702
+0x0E8						WK_SCENE_R11
+0x0E9						WK_SCENE_R15
+0x0EA						WK_SCENE_C01GYM0101_ENTRANCE
+0x0EB						WK_SCENE_C02GYM0101_ENTRANCE
+0x0EC						WK_SCENE_C03GYM0101_ENTRANCE
+0x0ED						WK_SCENE_C04GYM0101_ENTRANCE
+0x0EE						WK_SCENE_C05GYM0101_ENTRANCE
+0x0EF						WK_SCENE_C06GYM0101_ENTRANCE
+0x0F0						WK_SCENE_C07GYM0101_ENTRANCE
+0x0F1						WK_SCENE_C08GYM0101_ENTRANCE
+0x0F2						WK_SCENE_C05
+0x0F3						WK_SCENE_C06GYM0101_WARP
+0x0F4						WK_SCENE_T03
+0x0F5						WK_SCENE_I03
+0x0F6						WK_SCENE_C02R0401
+0x0F7						WK_SCENE_C04GYM0101
+0x0F8						WK_SCENE_C05G0101
+0x0F9						WK_SCENE_C02R0802
+0x0FA						WK_SCENE_C01_IAIGIRI
+0x0FB	_UNUSED					
+0x0FC	_UNUSED					
+0x0FD	_UNUSED					
+0x0FE	_UNUSED					
+0x0FF	_UNUSED					
+0x100	_UNUSED					
+0x101	_UNUSED					
+0x102	_UNUSED					
+0x103	_UNUSED					
+0x104	_UNUSED					
+0x105	_UNUSED					
+0x106						WK_SCENE_HANDSOME_QUEST
+0x107						WK_SCENE_HANDSOME_EP01_STATUS
+0x108						WK_SCENE_HANDSOME_EP02_STATUS
+0x109						WK_SCENE_HANDSOME_EP03_STATUS
+0x10A						WK_SCENE_HANDSOME_EP04_STATUS
+0x10B						WK_SCENE_HANDSOME_EP05_STATUS
+0x10C						WK_SCENE_HANDSOME_EP06_STATUS
+0x10D						WK_SCENE_HANDSOME_C02R2301
+0x10E						WK_SCENE_HANDSOME_C02R4301
+0x10F	_UNUSED					
+0x110	_UNUSED					
+0x111	_UNUSED					
+0x112	_UNUSED					
+0x113	_UNUSED					
+0x114	_UNUSED					
+0x115	_UNUSED					
+0x116	_UNUSED					
+0x117	_UNUSED					
+0x118	_UNUSED					
+0x119	_UNUSED					
+0x11A	_UNUSED					
+0x11B	_UNUSED					
+0x11C	_UNUSED					
+0x11D	_UNUSED					
+0x11E	_UNUSED					
+0x11F	_UNUSED					
+0x120	_UNUSED					
+0x121	_UNUSED					
+0x122	_UNUSED					
+0x123	_UNUSED					
+0x124	_UNUSED					
+0x125	_UNUSED					
+0x126	_UNUSED					
+0x127	_UNUSED					
+0x128	_UNUSED					
+0x129	_UNUSED					
+0x12A	_UNUSED					
+0x12B	_UNUSED					
+0x12C	_UNUSED					
+0x12D	_UNUSED					
+0x12E	_UNUSED					
+0x12F	_UNUSED					
+0x130	_UNUSED					
+0x131	_UNUSED					
+0x132	_UNUSED					
+0x133	_UNUSED					
+0x134	_UNUSED					
+0x135	_UNUSED					
+0x136	_UNUSED					
+0x137	_UNUSED					
+0x138						WK_OTHER_D02A0101_FRIEND1
+0x139						WK_OTHER_D02A0101_EV_POKE08
+0x13A						WK_OTHER_KASEKI
+0x13B						WK_OTHER_T05R0301_WAZA_CHOICE
+0x13C						WK_OTHER_CAFE_BITS
+0x13D						WK_OTHER_CAFE_MONSNO_HEIGEN
+0x13E						WK_OTHER_CAFE_MONSNO_KAIGAN
+0x13F						WK_OTHER_CAFE_MONSNO_SANGAKU
+0x140	_UNUSED					
+0x141						WK_OTHER_BTLHOUSE_START
+0x142						WK_OTHER_JUICE_TYPE_01
+0x143						WK_OTHER_JUICE_TYPE_02
+0x144						WK_OTHER_JUICE_TYPE_03
+0x145						WK_OTHER_JUICE_OLD_01
+0x146						WK_OTHER_JUICE_OLD_02
+0x147						WK_OTHER_JUICE_OLD_03
+0x148						WK_OTHER_C02R0701_ENTRANCE
+0x149						WK_OTHER_D13R0104_EXIT
+0x14A				Hotel Richissme Tasks Perfect		WK_OTHER_HOTEL_BAITO_POINT
+0x14B						WK_OTHER_T09R0301_AGI_CHOICE
+0x14C						WK_OTHER_HOTEL_BAITO_RESULT
+0x14D						WK_OTHER_HOTEL_BEDMAKE_CNT
+0x14E						WK_OTHER_HOTEL_BDMK_TIME_01
+0x14F						WK_OTHER_HOTEL_CON_ITEM_NAME
+0x150						WK_OTHER_HOTEL_CON_ITEM_PRM
+0x151						WK_OTHER_HOTEL_ITEMCNT
+0x152						WK_OTHER_C07R0501_POKEAZUKE
+0x153						WK_OTHER_C02R2401_STONE_CNT
+0x154						WK_OTHER_C05_KINOMI_CHOICE
+0x155						WK_OTHER_T03R0401_POKETYPE
+0x156						WK_OTHER_HANDSOME_TICKET_NUM
+0x157						WK_OTHER_C02R2301_HANDSOME_ST
+0x158						WK_OTHER_MOKOO_FRIEND_POINT
+0x159						WK_OTHER_MOKOO_MOVE_IDX
+0x15A	_UNUSED					
+0x15B	_UNUSED					
+0x15C	_UNUSED					
+0x15D	_UNUSED					
+0x15E	_UNUSED					
+0x15F	_UNUSED					
+0x160						WK_OTHER_C02R2901_COSPLAY
+0x161						WK_OTHER_ASSISTPOWER_COUNTER
+0x162						WK_OTHER_HOTEL_BDMK_TIME_02
+0x163						WK_OTHER_T04_FRIEND3_MEGAPOKE
+0x164						WK_OTHER_C02R1601_TELOP
+0x165						WK_OTHER_C02R1601_TELOP_COUNT
+0x166						WK_OTHER_C05A0101_WAZA
+0x167	_UNUSED					
+0x168	_UNUSED					
+0x169	_UNUSED					
+0x16A	_UNUSED					
+0x16B	_UNUSED					
+0x16C	_UNUSED					
+0x16D	_UNUSED					
+0x16E	_UNUSED					
+0x16F	_UNUSED					
+0x170	_UNUSED					
+0x171	_UNUSED					
+0x172	_UNUSED					
+0x173	_UNUSED					
+0x174	_UNUSED					
+0x175	_UNUSED					
+0x176	_UNUSED					
+0x177	_UNUSED					
