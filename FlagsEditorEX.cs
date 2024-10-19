@@ -35,15 +35,15 @@
             ctrl.Enabled = false;
             tools.DropDownItems.Add(ctrl);
 
-            menuEntry_DumpAllFlags = new ToolStripMenuItem(LocalizedStrings.Find("FlagsEditorEX.menuEntry_DumpAllFlags", "Dump all Flags"));
-            menuEntry_DumpAllFlags.Enabled = false;
-            menuEntry_DumpAllFlags.Click += DumpAllFlags_UIEvt;
-            ctrl.DropDownItems.Add(menuEntry_DumpAllFlags);
-
             menuEntry_EditFlags = new ToolStripMenuItem(LocalizedStrings.Find("FlagsEditorEX.menuEntry_EditFlags", "Edit flags..."));
             menuEntry_EditFlags.Enabled = false;
             menuEntry_EditFlags.Click += EditFlags_UIEvt;
             ctrl.DropDownItems.Add(menuEntry_EditFlags);
+
+            menuEntry_DumpAllFlags = new ToolStripMenuItem(LocalizedStrings.Find("FlagsEditorEX.menuEntry_DumpAllFlags", "Dump all Flags"));
+            menuEntry_DumpAllFlags.Enabled = false;
+            menuEntry_DumpAllFlags.Click += DumpAllFlags_UIEvt;
+            ctrl.DropDownItems.Add(menuEntry_DumpAllFlags);
         }
 
         private void DumpAllFlags_UIEvt(object? sender, EventArgs e)
