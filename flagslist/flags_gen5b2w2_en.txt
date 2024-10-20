@@ -1099,390 +1099,390 @@
 0x449	_UNUSED					
 0x44A	_UNUSED					
 0x44B	_UNUSED					
-0x44C	FIELD ITEM	Aspertia City		TM53 (Energy Ball)		FV_FLD_ITEM_0
-0x44D	FIELD ITEM	Route 19		Water Stone		FV_FLD_ITEM_1
-0x44E	FIELD ITEM	Route 19		Nest Ball		FV_FLD_ITEM_2
-0x44F	FIELD ITEM	Route 20		Paralyze Heal		FV_FLD_ITEM_3
-0x450	FIELD ITEM	Route 20		Poké Ball		FV_FLD_ITEM_4
-0x451	FIELD ITEM	Route 20		Antidote		FV_FLD_ITEM_5
-0x452	FIELD ITEM	Route 20		Dire Hit		FV_FLD_ITEM_6
-0x453	FIELD ITEM	Route 20		Rare Candy		FV_FLD_ITEM_7
-0x454	FIELD ITEM	Route 20		Max Revive		FV_FLD_ITEM_8
-0x455	FIELD ITEM	Route 20		Great Ball		FV_FLD_ITEM_9
-0x456	FIELD ITEM	Route 20		Sticky Barb		FV_FLD_ITEM_10
-0x457	FIELD ITEM	Floccesy Town		X Speed		FV_FLD_ITEM_11
-0x458	FIELD ITEM	Victory Road	Entrance	TM01 (Hone Claws)		FV_FLD_ITEM_12
-0x459	FIELD ITEM	Floccesy Ranch		Poké Ball		FV_FLD_ITEM_13
-0x45A	FIELD ITEM	Floccesy Ranch		X Attack		FV_FLD_ITEM_14
-0x45B	FIELD ITEM	Floccesy Ranch		Potion		FV_FLD_ITEM_15
-0x45C	FIELD ITEM	Virbank City		Rare Candy		FV_FLD_ITEM_16
-0x45D	FIELD ITEM	Virbank Complex	Outside	Silk Scarf		FV_FLD_ITEM_17
-0x45E	FIELD ITEM	Victory Road	Entrance	Star Piece		FV_FLD_ITEM_18
-0x45F	FIELD ITEM	Virbank Complex	Outside	X Accuracy		FV_FLD_ITEM_19
-0x460	FIELD ITEM	Virbank Complex	Inside	Super Potion		FV_FLD_ITEM_20
-0x461	FIELD ITEM	Virbank Complex	Inside	TM46 (Thief)		FV_FLD_ITEM_21
-0x462	FIELD ITEM	Virbank City		Poké Toy		FV_FLD_ITEM_22
-0x463	FIELD ITEM	Castelia City	Battle Company (47F)	Guard Spec.		FV_FLD_ITEM_23
-0x464	FIELD ITEM	Castelia City	Battle Company (55F)	Ether		FV_FLD_ITEM_24
-0x465	FIELD ITEM	Castelia City	Game Freak (22F)	Revive		FV_FLD_ITEM_25
-0x466	FIELD ITEM	Castelia City	Building (47F)	Charcoal		FV_FLD_ITEM_26
-0x467	FIELD ITEM	Castelia City	Prime Pier	Heart Scale		FV_FLD_ITEM_27
-0x468	FIELD ITEM	Castelia City	Castelia Park	Miracle Seed		FV_FLD_ITEM_28
-0x469	FIELD ITEM	Castelia City	Back Alley	Black Glasses		FV_FLD_ITEM_29
-0x46A	FIELD ITEM	Castelia City	Back Alley	Repel		FV_FLD_ITEM_30
-0x46B	FIELD ITEM	Castelia Sewers		Leftovers		FV_FLD_ITEM_31
-0x46C	FIELD ITEM	Castelia Sewers		Twisted Spoon		FV_FLD_ITEM_32
-0x46D	FIELD ITEM	Castelia Sewers		Rare Bone		FV_FLD_ITEM_33
-0x46E	FIELD ITEM	Castelia Sewers		X Sp. Atk		FV_FLD_ITEM_34
-0x46F	FIELD ITEM	Castelia Sewers		X Sp. Def		FV_FLD_ITEM_35
-0x470	FIELD ITEM	Castelia Sewers		Pearl		FV_FLD_ITEM_36
-0x471	FIELD ITEM	Castelia Sewers		Heart Scale		FV_FLD_ITEM_37
-0x472	FIELD ITEM	Castelia Sewers		Black Sludge		FV_FLD_ITEM_38
-0x473	FIELD ITEM	Castelia Sewers		TM41 (Torment)		FV_FLD_ITEM_39
-0x474	FIELD ITEM	Relic Passage		Hard Stone		FV_FLD_ITEM_40
-0x475	FIELD ITEM	Relic Passage		Max Repel		FV_FLD_ITEM_41
-0x476	FIELD ITEM	Relic Passage		Rocky Helmet		FV_FLD_ITEM_42
-0x477	FIELD ITEM	Relic Passage		Rare Candy		FV_FLD_ITEM_43
-0x478	FIELD ITEM	Relic Passage		Ultra Ball		FV_FLD_ITEM_44
-0x479	FIELD ITEM	Relic Passage		Big Pearl		FV_FLD_ITEM_45
-0x47A	FIELD ITEM	Relic Passage		Protein		FV_FLD_ITEM_46
-0x47B	FIELD ITEM	Route 4		Stardust		FV_FLD_ITEM_47
-0x47C	FIELD ITEM	Route 4		TM28 (Dig)		FV_FLD_ITEM_48
-0x47D	FIELD ITEM	Route 4		Grip Claw (B2)		FV_FLD_ITEM_49
-0x47E	FIELD ITEM	Route 4		Light Clay (W2)		FV_FLD_ITEM_50
-0x47F	FIELD ITEM	Route 4	House	Wide Lens (B2)		FV_FLD_ITEM_51
-0x480	FIELD ITEM	Route 4	House	Bright Powder (W2)		FV_FLD_ITEM_52
-0x481	FIELD ITEM	Route 4		Mystic Water		FV_FLD_ITEM_53
-0x482	FIELD ITEM	Desert Resort		Red Shard		FV_FLD_ITEM_54
-0x483	FIELD ITEM	Desert Resort		Blue Shard		FV_FLD_ITEM_55
-0x484	FIELD ITEM	Desert Resort		Yellow Shard		FV_FLD_ITEM_56
-0x485	FIELD ITEM	Desert Resort		Max Ether		FV_FLD_ITEM_57
-0x486	FIELD ITEM	Desert Resort		Green Shard		FV_FLD_ITEM_58
-0x487	FIELD ITEM	Desert Resort		Stardust		FV_FLD_ITEM_59
-0x488	FIELD ITEM	Desert Resort		Heart Scale		FV_FLD_ITEM_60
-0x489	FIELD ITEM	Desert Resort		Nugget		FV_FLD_ITEM_61
-0x48A	FIELD ITEM	Nimbasa City		Paralyze Heal		FV_FLD_ITEM_62
-0x48B	FIELD ITEM	Route 16		TM66 (Payback)		FV_FLD_ITEM_63
-0x48C	FIELD ITEM	Route 16		Heal Ball		FV_FLD_ITEM_64
-0x48D	FIELD ITEM	Lostlorn Forest		Ultra Ball		FV_FLD_ITEM_65
-0x48E	FIELD ITEM	Lostlorn Forest		Rare Candy		FV_FLD_ITEM_66
-0x48F	FIELD ITEM	Lostlorn Forest		Net Ball		FV_FLD_ITEM_67
-0x490	FIELD ITEM	Route 5		Super Repel		FV_FLD_ITEM_68
-0x491	FIELD ITEM	Route 5		Hyper Potion		FV_FLD_ITEM_69
-0x492	FIELD ITEM	Driftveil City		Calcium		FV_FLD_ITEM_70
-0x493	FIELD ITEM	PWT	Exterior	PP Up		FV_FLD_ITEM_71
-0x494	FIELD ITEM	Route 6		Moon Stone		FV_FLD_ITEM_72
-0x495	FIELD ITEM	Route 6		Elixir		FV_FLD_ITEM_73
-0x496	FIELD ITEM	Route 6		Ultra Ball		FV_FLD_ITEM_74
-0x497	FIELD ITEM	Clay Tunnel		HP Up		FV_FLD_ITEM_75
-0x498	FIELD ITEM	Route 6		TM56 (Fling)		FV_FLD_ITEM_76
-0x499	FIELD ITEM	Route 6		Heart Scale		FV_FLD_ITEM_77
-0x49A	FIELD ITEM	Route 6		PP Up		FV_FLD_ITEM_78
-0x49B	FIELD ITEM	Mistralton Cave	1F	Yellow Shard		FV_FLD_ITEM_79
-0x49C	FIELD ITEM	Mistralton Cave	1F	Dusk Ball		FV_FLD_ITEM_80
-0x49D	FIELD ITEM	Mistralton Cave	3F	TM80 (Rock Slide)		FV_FLD_ITEM_81
-0x49E	FIELD ITEM	Mistralton Cave	3F	Escape Rope		FV_FLD_ITEM_82
-0x49F	FIELD ITEM	Clay Tunnel		Rare Bone		FV_FLD_ITEM_83
-0x4A0	FIELD ITEM	Mistralton Cave	2F	Hyper Potion		FV_FLD_ITEM_84
-0x4A1	FIELD ITEM	Clay Tunnel		Green Shard		FV_FLD_ITEM_85
-0x4A2	FIELD ITEM	Mistralton Cave	2F	Blue Shard		FV_FLD_ITEM_86
-0x4A3	FIELD ITEM	Clay Tunnel		Red Shard		FV_FLD_ITEM_87
-0x4A4	FIELD ITEM	Chargestone Cave	1F	Full Heal		FV_FLD_ITEM_88
-0x4A5	FIELD ITEM	Chargestone Cave	1F	Hyper Potion		FV_FLD_ITEM_89
-0x4A6	FIELD ITEM	Chargestone Cave	1F	Max Repel		FV_FLD_ITEM_90
-0x4A7	FIELD ITEM	Victory Road	Entrance	PP Up		FV_FLD_ITEM_91
-0x4A8	FIELD ITEM	Chargestone Cave	1F	Carbos		FV_FLD_ITEM_92
-0x4A9	FIELD ITEM	Chargestone Cave	1F	Magnet		FV_FLD_ITEM_93
-0x4AA	FIELD ITEM	Chargestone Cave	B1F	Revive		FV_FLD_ITEM_94
-0x4AB	FIELD ITEM	Chargestone Cave	B1F	Iron		FV_FLD_ITEM_95
-0x4AC	FIELD ITEM	Chargestone Cave	B2F	Thunder Stone		FV_FLD_ITEM_96
-0x4AD	FIELD ITEM	Chargestone Cave	B2F	Escape Rope		FV_FLD_ITEM_97
-0x4AE	FIELD ITEM	Chargestone Cave	B2F	Metal Coat		FV_FLD_ITEM_98
-0x4AF	FIELD ITEM	Mistralton City		TM58 (Sky Drop)		FV_FLD_ITEM_99
-0x4B0	FIELD ITEM	Mistralton City		Max Repel		FV_FLD_ITEM_100
-0x4B1	FIELD ITEM	Route 7		Zinc		FV_FLD_ITEM_101
-0x4B2	FIELD ITEM	Route 7		TM81 (X-Scissor)		FV_FLD_ITEM_102
-0x4B3	FIELD ITEM	Route 7		Leaf Stone		FV_FLD_ITEM_103
-0x4B4	FIELD ITEM	Route 7		Elixir		FV_FLD_ITEM_104
-0x4B5	FIELD ITEM	Celestial Tower	2F	Hyper Potion		FV_FLD_ITEM_105
-0x4B6	FIELD ITEM	Celestial Tower	2F	TM61 (Will-O-Wisp)		FV_FLD_ITEM_106
-0x4B7	FIELD ITEM	Celestial Tower	3F	Revive		FV_FLD_ITEM_107
-0x4B8	FIELD ITEM	Celestial Tower	4F	PP Up		FV_FLD_ITEM_108
-0x4B9	FIELD ITEM	Celestial Tower	4F	TM65 (Shadow Claw)		FV_FLD_ITEM_109
-0x4BA	FIELD ITEM	Lentimas Town		Fire Stone		FV_FLD_ITEM_110
-0x4BB	FIELD ITEM	Strange House		Spell Tag		FV_FLD_ITEM_111
-0x4BC	FIELD ITEM	Strange House		Rare Candy		FV_FLD_ITEM_112
-0x4BD	FIELD ITEM	Strange House		Dusk Stone		FV_FLD_ITEM_113
-0x4BE	FIELD ITEM	Strange House		Full Heal		FV_FLD_ITEM_114
-0x4BF	FIELD ITEM	Reversal Mountain	Exterior	TM30 (Shadow Ball)		FV_FLD_ITEM_115
-0x4C0	FIELD ITEM	Reversal Mountain	Exterior	Full Heal		FV_FLD_ITEM_116
-0x4C1	FIELD ITEM	Reversal Mountain	Exterior	Smoke Ball		FV_FLD_ITEM_117
-0x4C2	FIELD ITEM	Reversal Mountain	1F	Max Repel		FV_FLD_ITEM_118
-0x4C3	FIELD ITEM	Reversal Mountain	1F	Revive		FV_FLD_ITEM_119
-0x4C4	FIELD ITEM	Reversal Mountain	1F	TM69 (Rock Polish)		FV_FLD_ITEM_120
-0x4C5	FIELD ITEM	Reversal Mountain	1F	PP Up		FV_FLD_ITEM_121
-0x4C6	FIELD ITEM	Reversal Mountain	1F	Nugget		FV_FLD_ITEM_122
-0x4C7	FIELD ITEM	Reversal Mountain	1F	Hyper Potion		FV_FLD_ITEM_123
-0x4C8	FIELD ITEM	Reversal Mountain	B1F	Toxic Orb (B2)		FV_FLD_ITEM_124
-0x4C9	FIELD ITEM	Reversal Mountain	B1F	Flame Orb (W2)		FV_FLD_ITEM_125
-0x4CA	FIELD ITEM	Undella Town		Berry Juice		FV_FLD_ITEM_126
-0x4CB	FIELD ITEM	Undella Bay		Splash Plate		FV_FLD_ITEM_127
-0x4CC	FIELD ITEM	Undella Bay		Draco Plate		FV_FLD_ITEM_128
-0x4CD	FIELD ITEM	Route 14		Big Pearl		FV_FLD_ITEM_129
-0x4CE	FIELD ITEM	Route 14		Heart Scale		FV_FLD_ITEM_130
-0x4CF	FIELD ITEM	Route 14		Max Potion		FV_FLD_ITEM_131
-0x4D0	FIELD ITEM	Route 14		Nugget		FV_FLD_ITEM_132
-0x4D1	FIELD ITEM	Route 13		Max Repel		FV_FLD_ITEM_133
-0x4D2	FIELD ITEM	Route 13		Red Shard		FV_FLD_ITEM_134
-0x4D3	FIELD ITEM	Route 13		Star Piece		FV_FLD_ITEM_135
-0x4D4	FIELD ITEM	Route 13		Max Ether		FV_FLD_ITEM_136
-0x4D5	FIELD ITEM	Route 13		Hyper Potion		FV_FLD_ITEM_137
-0x4D6	FIELD ITEM	Route 13		Ultra Ball		FV_FLD_ITEM_138
-0x4D7	FIELD ITEM	Route 13		TM29 (Psychic)		FV_FLD_ITEM_139
-0x4D8	FIELD ITEM	Route 13		Luxury Ball		FV_FLD_ITEM_140
-0x4D9	FIELD ITEM	Lacunosa Town	House	Metronome		FV_FLD_ITEM_141
-0x4DA	FIELD ITEM	Lacunosa Town		Full Heal		FV_FLD_ITEM_142
-0x4DB	FIELD ITEM	Giant Chasm	Entrance	Yellow Shard		FV_FLD_ITEM_143
-0x4DC	FIELD ITEM	Route 12		Timer Ball		FV_FLD_ITEM_144
-0x4DD	FIELD ITEM	Route 12		PP Up		FV_FLD_ITEM_145
-0x4DE	FIELD ITEM	Route 12		Max Potion		FV_FLD_ITEM_146
-0x4DF	FIELD ITEM	Route 12		Green Shard		FV_FLD_ITEM_147
-0x4E0	FIELD ITEM	Village Bridge		Ultra Ball		FV_FLD_ITEM_148
-0x4E1	FIELD ITEM	Village Bridge		Heart Scale		FV_FLD_ITEM_149
-0x4E2	FIELD ITEM	Village Bridge		Big Pearl		FV_FLD_ITEM_150
-0x4E3	FIELD ITEM	Village Bridge		Carbos		FV_FLD_ITEM_151
-0x4E4	FIELD ITEM	Village Bridge		Rare Candy		FV_FLD_ITEM_152
-0x4E5	FIELD ITEM	Village Bridge		Blue Shard		FV_FLD_ITEM_153
-0x4E6	FIELD ITEM	Route 11		Razor Fang		FV_FLD_ITEM_154
-0x4E7	FIELD ITEM	Route 11		Zinc		FV_FLD_ITEM_155
-0x4E8	FIELD ITEM	Route 11		Full Heal		FV_FLD_ITEM_156
-0x4E9	FIELD ITEM	Route 9		HP Up		FV_FLD_ITEM_157
-0x4EA	FIELD ITEM	Route 9		Elixir		FV_FLD_ITEM_158
-0x4EB	FIELD ITEM	Route 9		Iron		FV_FLD_ITEM_159
-0x4EC	FIELD ITEM	Route 9		Quick Ball		FV_FLD_ITEM_160
-0x4ED	FIELD ITEM	Route 9		Nugget		FV_FLD_ITEM_161
-0x4EE	FIELD ITEM	Seaside Cave	B1F	Rare Candy		FV_FLD_ITEM_162
-0x4EF	FIELD ITEM	Seaside Cave	1F	Dive Ball		FV_FLD_ITEM_163
-0x4F0	FIELD ITEM	Humilau City		Protein		FV_FLD_ITEM_164
-0x4F1	FIELD ITEM	Seaside Cave	1F	Full Restore		FV_FLD_ITEM_165
-0x4F2	FIELD ITEM	Seaside Cave	1F	Heart Scale		FV_FLD_ITEM_166
-0x4F3	FIELD ITEM	Seaside Cave	1F	TM06 (Toxic)		FV_FLD_ITEM_167
-0x4F4	FIELD ITEM	Seaside Cave	B1F	Max Repel		FV_FLD_ITEM_168
-0x4F5	FIELD ITEM	Route 21		Big Pearl		FV_FLD_ITEM_169
-0x4F6	FIELD ITEM	Route 21		PP Up		FV_FLD_ITEM_170
-0x4F7	FIELD ITEM	Humilau City		Shell Bell		FV_FLD_ITEM_171
-0x4F8	FIELD ITEM	Route 22		Max Potion		FV_FLD_ITEM_172
-0x4F9	FIELD ITEM	Route 22		Calcium		FV_FLD_ITEM_173
-0x4FA	FIELD ITEM	Route 22		Rare Candy		FV_FLD_ITEM_174
-0x4FB	FIELD ITEM	Route 22		Poison Barb		FV_FLD_ITEM_175
-0x4FC	FIELD ITEM	Giant Chasm	Cave	Star Piece		FV_FLD_ITEM_176
-0x4FD	FIELD ITEM	Giant Chasm	Cave	Max Repel		FV_FLD_ITEM_177
-0x4FE	FIELD ITEM	Giant Chasm	Cave	TM13 (Ice Beam)		FV_FLD_ITEM_178
-0x4FF	FIELD ITEM	Giant Chasm	Forest	Carbos		FV_FLD_ITEM_179
-0x500	FIELD ITEM	Dragonspiral Tower	4F	Adamant Orb		FV_FLD_ITEM_180
-0x501	FIELD ITEM	Giant Chasm	Forest	Sun Stone		FV_FLD_ITEM_181
-0x502	FIELD ITEM	Giant Chasm	Forest	PP Up		FV_FLD_ITEM_182
-0x503	FIELD ITEM	Giant Chasm	Forest	TM03 (Psyshock)		FV_FLD_ITEM_183
-0x504	FIELD ITEM	Giant Chasm	Forest	Moon Stone		FV_FLD_ITEM_184
-0x505	FIELD ITEM	Giant Chasm	Forest	Razor Claw		FV_FLD_ITEM_185
-0x506	FIELD ITEM	Giant Chasm	Forest	Star Piece		FV_FLD_ITEM_186
-0x507	FIELD ITEM	Plasma Frigate	B2F	Zinc		FV_FLD_ITEM_187
-0x508	FIELD ITEM	Plasma Frigate	B2F	Max Elixir		FV_FLD_ITEM_188
-0x509	FIELD ITEM	Plasma Frigate	B1F	Electirizer (W2)		FV_FLD_ITEM_189
-0x50A	FIELD ITEM	Plasma Frigate	B2F	Max Revive		FV_FLD_ITEM_190
-0x50B	FIELD ITEM	Plasma Frigate	B1F	Magmarizer (B2)		FV_FLD_ITEM_191
-0x50C	FIELD ITEM	Plasma Frigate	B2F	Power Band (B2)		FV_FLD_ITEM_192
-0x50D	FIELD ITEM	Plasma Frigate	B2F	Power Belt (W2)		FV_FLD_ITEM_193
-0x50E	FIELD ITEM	Route 23		Star Piece		FV_FLD_ITEM_194
-0x50F	FIELD ITEM	Route 23		Iron		FV_FLD_ITEM_195
-0x510	FIELD ITEM	Route 23		TM05 (Roar)		FV_FLD_ITEM_196
-0x511	FIELD ITEM	Route 23		Heart Scale		FV_FLD_ITEM_197
-0x512	FIELD ITEM	Route 23		Repeat Ball		FV_FLD_ITEM_198
-0x513	FIELD ITEM	Route 23		Calcium		FV_FLD_ITEM_199
-0x514	FIELD ITEM	Route 23		Full Heal		FV_FLD_ITEM_200
-0x515	FIELD ITEM	Route 23		HP Up		FV_FLD_ITEM_201
-0x516	FIELD ITEM	Route 23		Max Potion		FV_FLD_ITEM_202
-0x517	FIELD ITEM	Route 23		TM12 (Taunt)		FV_FLD_ITEM_203
-0x518	FIELD ITEM	Victory Road	Outside Area 1	Max Repel		FV_FLD_ITEM_204
-0x519	FIELD ITEM	Victory Road	Outside Area 2	Dragon Fang		FV_FLD_ITEM_205
-0x51A	FIELD ITEM	Victory Road	Outside Area 1	Ultra Ball		FV_FLD_ITEM_206
-0x51B	FIELD ITEM	Victory Road	Cave	PP Max		FV_FLD_ITEM_207
-0x51C	FIELD ITEM	Victory Road	Grove	Full Restore		FV_FLD_ITEM_208
-0x51D	FIELD ITEM	Victory Road	Outside Area 1	Escape Rope		FV_FLD_ITEM_209
-0x51E	FIELD ITEM	Victory Road	Grove	Ultra Ball		FV_FLD_ITEM_210
-0x51F	FIELD ITEM	Victory Road	Outside Area 1	Max Repel		FV_FLD_ITEM_211
-0x520	FIELD ITEM	Victory Road	Outside Area 1	Full Restore		FV_FLD_ITEM_212
-0x521	FIELD ITEM	Victory Road	Outside Area 2	Max Elixir		FV_FLD_ITEM_213
-0x522	FIELD ITEM	Victory Road	Cave	Rare Candy		FV_FLD_ITEM_214
-0x523	FIELD ITEM	Victory Road	Outside Area 2	Max Revive		FV_FLD_ITEM_215
-0x524	FIELD ITEM	N's Castle	4F	Protein		FV_FLD_ITEM_216
-0x525	FIELD ITEM	N's Castle	4F	TM50 (Overheat)		FV_FLD_ITEM_217
-0x526	FIELD ITEM	Victory Road	1F	TM93 (Wild Charge)		FV_FLD_ITEM_218
-0x527	FIELD ITEM	N's Castle	4F	Luxury Ball		FV_FLD_ITEM_219
-0x528	FIELD ITEM	Route 8		TM36 (Sludge Bomb)		FV_FLD_ITEM_220
-0x529	FIELD ITEM	Route 8		Big Pearl		FV_FLD_ITEM_221
-0x52A	FIELD ITEM	Route 8		Nest Ball		FV_FLD_ITEM_222
-0x52B	FIELD ITEM	Icirrus City		PP Up		FV_FLD_ITEM_223
-0x52C	FIELD ITEM	Moor of Icirrus		Rare Candy		FV_FLD_ITEM_224
-0x52D	FIELD ITEM	Moor of Icirrus		TM84 (Poison Jab)		FV_FLD_ITEM_225
-0x52E	FIELD ITEM	Moor of Icirrus		Green Shard		FV_FLD_ITEM_226
-0x52F	FIELD ITEM	Moor of Icirrus		Heart Scale		FV_FLD_ITEM_227
-0x530	FIELD ITEM	Moor of Icirrus		Full Heal		FV_FLD_ITEM_228
-0x531	FIELD ITEM	Dragonspiral Tower		Carbos		FV_FLD_ITEM_229
-0x532	FIELD ITEM	Dragonspiral Tower	5F	TM02 (Dragon Claw)		FV_FLD_ITEM_230
-0x533	FIELD ITEM	Dragonspiral Tower	5F	Max Revive		FV_FLD_ITEM_231
-0x534	FIELD ITEM	Dragonspiral Tower	2F	Elixir		FV_FLD_ITEM_232
-0x535	FIELD ITEM	Dragonspiral Tower	3F	Protein		FV_FLD_ITEM_233
-0x536	FIELD ITEM	Dragonspiral Tower	5F	PP Max		FV_FLD_ITEM_234
-0x537	FIELD ITEM	Dragonspiral Tower	3F	Shiny Stone		FV_FLD_ITEM_235
-0x538	FIELD ITEM	Dragonspiral Tower	2F	Ultra Ball		FV_FLD_ITEM_236
-0x539	FIELD ITEM	Dragonspiral Tower	6F	Comet Shard		FV_FLD_ITEM_237
-0x53A	FIELD ITEM	Dragonspiral Tower		Never Melt Ice		FV_FLD_ITEM_238
-0x53B	FIELD ITEM	Icirrus City		Max Elixir		FV_FLD_ITEM_239
-0x53C	FIELD ITEM	Twist Mountain		Float Stone		FV_FLD_ITEM_240
-0x53D	FIELD ITEM	Twist Mountain		Dusk Stone		FV_FLD_ITEM_241
-0x53E	FIELD ITEM	Twist Mountain		TM90 (Substitute)		FV_FLD_ITEM_242
-0x53F	FIELD ITEM	Twist Mountain		Full Restore		FV_FLD_ITEM_243
-0x540	FIELD ITEM	Twist Mountain		Big Nugget		FV_FLD_ITEM_244
-0x541	FIELD ITEM	Twist Mountain		TM71 (Stone Edge)		FV_FLD_ITEM_245
-0x542	FIELD ITEM	Twist Mountain		TM91 (Flash Cannon)		FV_FLD_ITEM_246
-0x543	FIELD ITEM	Twist Mountain		Rare Bone		FV_FLD_ITEM_247
-0x544	FIELD ITEM	Twist Mountain		Eject Button		FV_FLD_ITEM_248
-0x545	FIELD ITEM	Twist Mountain		Dusk Ball		FV_FLD_ITEM_249
-0x546	FIELD ITEM	Twist Mountain		Red Shard		FV_FLD_ITEM_250
-0x547	FIELD ITEM	Route 15		TM26 (Earthquake)		FV_FLD_ITEM_251
-0x548	FIELD ITEM	Route 15		Max Potion		FV_FLD_ITEM_252
-0x549	FIELD ITEM	Abundant Shrine		Rare Candy		FV_FLD_ITEM_253
-0x54A	FIELD ITEM	Abundant Shrine		TM92 (Trick Room)		FV_FLD_ITEM_254
-0x54B	FIELD ITEM	Abundant Shrine		Max Revive		FV_FLD_ITEM_255
-0x54C	FIELD ITEM	Abundant Shrine		Shiny Stone		FV_FLD_ITEM_256
-0x54D	FIELD ITEM	Abundant Shrine		Heal Ball		FV_FLD_ITEM_257
-0x54E	FIELD ITEM	Pinwheel Forest	Inside	PP Max		FV_FLD_ITEM_258
-0x54F	FIELD ITEM	Pinwheel Forest	Inside	Net Ball		FV_FLD_ITEM_259
-0x550	FIELD ITEM	Pinwheel Forest	Inside	Max Repel		FV_FLD_ITEM_260
-0x551	FIELD ITEM	Relic Castle	Passage	Ultra Ball		FV_FLD_ITEM_261
-0x552	FIELD ITEM	Pinwheel Forest	Inside	TM22 (Solar Beam)		FV_FLD_ITEM_262
-0x553	FIELD ITEM	Pinwheel Forest	Inside	Sun Stone		FV_FLD_ITEM_263
-0x554	FIELD ITEM	Pinwheel Forest	Inside	TM86 (Grass Knot)		FV_FLD_ITEM_264
-0x555	FIELD ITEM	Pinwheel Forest	Inside	Ultra Ball		FV_FLD_ITEM_265
-0x556	FIELD ITEM	Pinwheel Forest	Inside	Max Revive		FV_FLD_ITEM_266
-0x557	FIELD ITEM	Pinwheel Forest	Outside	Full Heal		FV_FLD_ITEM_267
-0x558	FIELD ITEM	Pinwheel Forest	Outside	Nugget		FV_FLD_ITEM_268
-0x559	FIELD ITEM	Pinwheel Forest	Outside	HP Up		FV_FLD_ITEM_269
-0x55A	FIELD ITEM	Pinwheel Forest	Outside	Protein (W2) / Iron (B2)		FV_FLD_ITEM_270
-0x55B	FIELD ITEM	Pinwheel Forest	Outside	PP Max		FV_FLD_ITEM_271
-0x55C	FIELD ITEM	Nature Preserve		Max Potion		FV_FLD_ITEM_272
-0x55D	FIELD ITEM	Nature Preserve		Big Nugget		FV_FLD_ITEM_273
-0x55E	FIELD ITEM	Route 3		Big Nugget		FV_FLD_ITEM_274
-0x55F	FIELD ITEM	Route 3		Quick Ball		FV_FLD_ITEM_275
-0x560	FIELD ITEM	Route 3		Full Restore		FV_FLD_ITEM_276
-0x561	FIELD ITEM	Route 3		Calcium		FV_FLD_ITEM_277
-0x562	FIELD ITEM	Route 3		Zinc		FV_FLD_ITEM_278
-0x563	FIELD ITEM	Route 3		Ultra Ball		FV_FLD_ITEM_279
-0x564	FIELD ITEM	Route 3	School	Rare Candy		FV_FLD_ITEM_280
-0x565	FIELD ITEM	Wellspring Cave	1F	Escape Rope		FV_FLD_ITEM_281
-0x566	FIELD ITEM	Wellspring Cave	B1F	Protector		FV_FLD_ITEM_282
-0x567	FIELD ITEM	Wellspring Cave	B1F	Max Revive		FV_FLD_ITEM_283
-0x568	FIELD ITEM	Wellspring Cave	B1F	TM52 (Focus Blast)		FV_FLD_ITEM_284
-0x569	FIELD ITEM	Wellspring Cave	1F	Max Repel		FV_FLD_ITEM_285
-0x56A	FIELD ITEM	Nature Preserve		Rare Candy		FV_FLD_ITEM_286
-0x56B	FIELD ITEM	Wellspring Cave	B1F	TM47 (Low Sweep)		FV_FLD_ITEM_287
-0x56C	FIELD ITEM	Striaton City		Yellow Shard		FV_FLD_ITEM_288
-0x56D	FIELD ITEM	Striaton City		Timer Ball		FV_FLD_ITEM_289
-0x56E	FIELD ITEM	Striaton City		Up-Grade		FV_FLD_ITEM_290
-0x56F	FIELD ITEM	Dreamyard		TM85 (Dream Eater)		FV_FLD_ITEM_291
-0x570	FIELD ITEM	Dreamyard		Ultra Ball		FV_FLD_ITEM_292
-0x571	FIELD ITEM	Dreamyard		Moon Stone		FV_FLD_ITEM_293
-0x572	FIELD ITEM	Striaton City		Max Elixir		FV_FLD_ITEM_294
-0x573	FIELD ITEM	Dreamyard		Rare Candy		FV_FLD_ITEM_295
-0x574	FIELD ITEM	Dreamyard		Reaper Cloth		FV_FLD_ITEM_296
-0x575	FIELD ITEM	Dreamyard	Basement	HP Up		FV_FLD_ITEM_297
-0x576	FIELD ITEM	Dreamyard	Basement	Iron		FV_FLD_ITEM_298
-0x577	FIELD ITEM	Dreamyard	Basement	Dawn Stone		FV_FLD_ITEM_299
-0x578	FIELD ITEM	Route 2		Full Heal		FV_FLD_ITEM_300
-0x579	FIELD ITEM	Route 2		Ultra Ball		FV_FLD_ITEM_301
-0x57A	FIELD ITEM	Route 2		Calcium		FV_FLD_ITEM_302
-0x57B	FIELD ITEM	Route 2		Carbos		FV_FLD_ITEM_303
-0x57C	FIELD ITEM	Humilau City		Heart Scale		FV_FLD_ITEM_304
-0x57D	FIELD ITEM	Route 2		Repeat Ball		FV_FLD_ITEM_305
-0x57E	FIELD ITEM	Route 2		Max Revive		FV_FLD_ITEM_306
-0x57F	FIELD ITEM	Route 1		Full Restore		FV_FLD_ITEM_307
-0x580	FIELD ITEM	Route 1		Prism Scale		FV_FLD_ITEM_308
-0x581	FIELD ITEM	Nuvema Town	Hilbert/Hilda House	King's Rock		FV_FLD_ITEM_309
-0x582	FIELD ITEM	Route 17		Blue Shard		FV_FLD_ITEM_310
-0x583	FIELD ITEM	Route 17		Dive Ball		FV_FLD_ITEM_311
-0x584	FIELD ITEM	Route 17		Pearl String		FV_FLD_ITEM_312
-0x585	FIELD ITEM	Route 18		Iron		FV_FLD_ITEM_313
-0x586	FIELD ITEM	Route 18		Star Piece		FV_FLD_ITEM_314
-0x587	FIELD ITEM	Route 18		Zinc		FV_FLD_ITEM_315
-0x588	FIELD ITEM	Route 18		TM19 (Telekinesis)		FV_FLD_ITEM_316
-0x589	FIELD ITEM	Route 18		PP Max		FV_FLD_ITEM_317
-0x58A	FIELD ITEM	Relic Castle	B1F	TM39 (Rock Tomb)		FV_FLD_ITEM_318
-0x58B	FIELD ITEM	Clay Tunnel		Nugget		FV_FLD_ITEM_319
-0x58C	FIELD ITEM	Clay Tunnel		Metal Coat		FV_FLD_ITEM_320
-0x58D	FIELD ITEM	Clay Tunnel		Max Revive		FV_FLD_ITEM_321
-0x58E	FIELD ITEM	Victory Road	3F	Dragon Scale		FV_FLD_ITEM_322
-0x58F	FIELD ITEM	Route 19		Potion		FV_FLD_ITEM_323
-0x590	FIELD ITEM	Abyssal Ruins	1F	Flame Plate		FV_FLD_ITEM_324
-0x591	FIELD ITEM	Abyssal Ruins	1F	Zap Plate		FV_FLD_ITEM_325
-0x592	FIELD ITEM	Abyssal Ruins	1F	Meadow Plate		FV_FLD_ITEM_326
-0x593	FIELD ITEM	Abyssal Ruins	1F	Relic Silver		FV_FLD_ITEM_327
-0x594	FIELD ITEM	Abyssal Ruins	1F	Fist Plate		FV_FLD_ITEM_328
-0x595	FIELD ITEM	Abyssal Ruins	1F	Toxic Plate		FV_FLD_ITEM_329
-0x596	FIELD ITEM	Abyssal Ruins	1F	Relic Vase		FV_FLD_ITEM_330
-0x597	FIELD ITEM	Abyssal Ruins	1F	Sky Plate		FV_FLD_ITEM_331
-0x598	FIELD ITEM	Abyssal Ruins	1F	Mind Plate		FV_FLD_ITEM_332
-0x599	FIELD ITEM	Abyssal Ruins	1F	Insect Plate		FV_FLD_ITEM_333
-0x59A	FIELD ITEM	Abyssal Ruins	1F	Stone Plate		FV_FLD_ITEM_334
-0x59B	FIELD ITEM	Abyssal Ruins	1F	Icicle Plate		FV_FLD_ITEM_335
-0x59C	FIELD ITEM	Abyssal Ruins	1F	Dread Plate		FV_FLD_ITEM_336
-0x59D	FIELD ITEM	Abyssal Ruins	1F	Iron Plate		FV_FLD_ITEM_337
-0x59E	FIELD ITEM	Abyssal Ruins	1F	Relic Copper		FV_FLD_ITEM_338
-0x59F	FIELD ITEM	Abyssal Ruins	1F	Relic Copper		FV_FLD_ITEM_339
-0x5A0	FIELD ITEM	Abyssal Ruins	1F	Relic Copper		FV_FLD_ITEM_340
-0x5A1	FIELD ITEM	Abyssal Ruins	1F	Relic Copper		FV_FLD_ITEM_341
-0x5A2	FIELD ITEM	Abyssal Ruins	1F	Relic Silver		FV_FLD_ITEM_342
-0x5A3	FIELD ITEM	Abyssal Ruins	1F	Relic Silver		FV_FLD_ITEM_343
-0x5A4	FIELD ITEM	Abyssal Ruins	1F	Earth Plate		FV_FLD_ITEM_344
-0x5A5	FIELD ITEM	Abyssal Ruins	1F	Spooky Plate		FV_FLD_ITEM_345
-0x5A6	FIELD ITEM	Abyssal Ruins	1F	Relic Gold		FV_FLD_ITEM_346
-0x5A7	FIELD ITEM	Abyssal Ruins	1F	Relic Gold		FV_FLD_ITEM_347
-0x5A8	FIELD ITEM	Abyssal Ruins	1F	Relic Gold		FV_FLD_ITEM_348
-0x5A9	FIELD ITEM	Abyssal Ruins	1F	Relic Statue		FV_FLD_ITEM_349
-0x5AA	FIELD ITEM	Abyssal Ruins	2F	Relic Copper		FV_FLD_ITEM_350
-0x5AB	FIELD ITEM	Abyssal Ruins	2F	Relic Copper		FV_FLD_ITEM_351
-0x5AC	FIELD ITEM	Abyssal Ruins	2F	Relic Silver		FV_FLD_ITEM_352
-0x5AD	FIELD ITEM	Abyssal Ruins	2F	Relic Silver		FV_FLD_ITEM_353
-0x5AE	FIELD ITEM	Abyssal Ruins	2F	Relic Gold		FV_FLD_ITEM_354
-0x5AF	FIELD ITEM	Abyssal Ruins	2F	Relic Gold		FV_FLD_ITEM_355
-0x5B0	FIELD ITEM	Abyssal Ruins	2F	Relic Gold		FV_FLD_ITEM_356
-0x5B1	FIELD ITEM	Abyssal Ruins	2F	Relic Vase		FV_FLD_ITEM_357
-0x5B2	FIELD ITEM	Abyssal Ruins	2F	Relic Band		FV_FLD_ITEM_358
-0x5B3	FIELD ITEM	Abyssal Ruins	2F	Relic Band		FV_FLD_ITEM_359
-0x5B4	FIELD ITEM	Abyssal Ruins	2F	Relic Statue		FV_FLD_ITEM_360
-0x5B5	FIELD ITEM	Abyssal Ruins	3F	Relic Silver		FV_FLD_ITEM_361
-0x5B6	FIELD ITEM	Abyssal Ruins	3F	Relic Gold		FV_FLD_ITEM_362
-0x5B7	FIELD ITEM	Abyssal Ruins	3F	Relic Vase		FV_FLD_ITEM_363
-0x5B8	FIELD ITEM	Abyssal Ruins	3F	Relic Vase		FV_FLD_ITEM_364
-0x5B9	FIELD ITEM	Abyssal Ruins	3F	Relic Band		FV_FLD_ITEM_365
-0x5BA	FIELD ITEM	Abyssal Ruins	3F	Relic Band		FV_FLD_ITEM_366
-0x5BB	FIELD ITEM	Abyssal Ruins	3F	Relic Band		FV_FLD_ITEM_367
-0x5BC	FIELD ITEM	Abyssal Ruins	3F	Relic Statue		FV_FLD_ITEM_368
-0x5BD	FIELD ITEM	Abyssal Ruins	4F	Relic Crown		FV_FLD_ITEM_369
-0x5BE	FIELD ITEM	Route 22		PP Up		FV_FLD_ITEM_370
-0x5BF	FIELD ITEM	Route 22		Red Shard		FV_FLD_ITEM_371
-0x5C0	FIELD ITEM	Route 23		Green Shard		FV_FLD_ITEM_372
-0x5C1	FIELD ITEM	Route 13		Blue Shard		FV_FLD_ITEM_373
-0x5C2	FIELD ITEM	Route 12		Yellow Shard		FV_FLD_ITEM_374
-0x5C3	FIELD ITEM	Driftveil City	Market	TM63 (Embargo)		FV_FLD_ITEM_375
-0x5C4	FIELD ITEM	Shopping Mall		Poké Doll		FV_FLD_ITEM_376
-0x5C5	FIELD ITEM	P2 Laboratory		Dubious Disc		FV_FLD_ITEM_377
-0x5C6	FIELD ITEM	Plasma Frigate	1F	Revive		FV_FLD_ITEM_378
-0x5C7	FIELD ITEM	Plasma Frigate	1F	TM67 (Retaliate)		FV_FLD_ITEM_379
-0x5C8	FIELD ITEM	Dragonspiral Tower	4F	Griseous Orb		FV_FLD_ITEM_380
-0x5C9	FIELD ITEM	Dragonspiral Tower	4F	Lustrous Orb		FV_FLD_ITEM_381
-0x5CA	FIELD ITEM	Reversal Mountain	Exterior	Escape Rope		FV_FLD_ITEM_382
-0x5CB	FIELD ITEM	Relic Passage		Escape Rope		FV_FLD_ITEM_383
+0x44C	FIELD ITEM	Aspertia City		TM53 (Energy Ball) item ball disappeared		FV_FLD_ITEM_0
+0x44D	FIELD ITEM	Route 19		Water Stone item ball disappeared		FV_FLD_ITEM_1
+0x44E	FIELD ITEM	Route 19		Nest Ball item ball disappeared		FV_FLD_ITEM_2
+0x44F	FIELD ITEM	Route 20		Paralyze Heal item ball disappeared		FV_FLD_ITEM_3
+0x450	FIELD ITEM	Route 20		Poké Ball item ball disappeared		FV_FLD_ITEM_4
+0x451	FIELD ITEM	Route 20		Antidote item ball disappeared		FV_FLD_ITEM_5
+0x452	FIELD ITEM	Route 20		Dire Hit item ball disappeared		FV_FLD_ITEM_6
+0x453	FIELD ITEM	Route 20		Rare Candy item ball disappeared		FV_FLD_ITEM_7
+0x454	FIELD ITEM	Route 20		Max Revive item ball disappeared		FV_FLD_ITEM_8
+0x455	FIELD ITEM	Route 20		Great Ball item ball disappeared		FV_FLD_ITEM_9
+0x456	FIELD ITEM	Route 20		Sticky Barb item ball disappeared		FV_FLD_ITEM_10
+0x457	FIELD ITEM	Floccesy Town		X Speed item ball disappeared		FV_FLD_ITEM_11
+0x458	FIELD ITEM	Victory Road	Entrance	TM01 (Hone Claws) item ball disappeared		FV_FLD_ITEM_12
+0x459	FIELD ITEM	Floccesy Ranch		Poké Ball item ball disappeared		FV_FLD_ITEM_13
+0x45A	FIELD ITEM	Floccesy Ranch		X Attack item ball disappeared		FV_FLD_ITEM_14
+0x45B	FIELD ITEM	Floccesy Ranch		Potion item ball disappeared		FV_FLD_ITEM_15
+0x45C	FIELD ITEM	Virbank City		Rare Candy item ball disappeared		FV_FLD_ITEM_16
+0x45D	FIELD ITEM	Virbank Complex	Outside	Silk Scarf item ball disappeared		FV_FLD_ITEM_17
+0x45E	FIELD ITEM	Victory Road	Entrance	Star Piece item ball disappeared		FV_FLD_ITEM_18
+0x45F	FIELD ITEM	Virbank Complex	Outside	X Accuracy item ball disappeared		FV_FLD_ITEM_19
+0x460	FIELD ITEM	Virbank Complex	Inside	Super Potion item ball disappeared		FV_FLD_ITEM_20
+0x461	FIELD ITEM	Virbank Complex	Inside	TM46 (Thief) item ball disappeared		FV_FLD_ITEM_21
+0x462	FIELD ITEM	Virbank City		Poké Toy item ball disappeared		FV_FLD_ITEM_22
+0x463	FIELD ITEM	Castelia City	Battle Company (47F)	Guard Spec. item ball disappeared		FV_FLD_ITEM_23
+0x464	FIELD ITEM	Castelia City	Battle Company (55F)	Ether item ball disappeared		FV_FLD_ITEM_24
+0x465	FIELD ITEM	Castelia City	Game Freak (22F)	Revive item ball disappeared		FV_FLD_ITEM_25
+0x466	FIELD ITEM	Castelia City	Building (47F)	Charcoal item ball disappeared		FV_FLD_ITEM_26
+0x467	FIELD ITEM	Castelia City	Prime Pier	Heart Scale item ball disappeared		FV_FLD_ITEM_27
+0x468	FIELD ITEM	Castelia City	Castelia Park	Miracle Seed item ball disappeared		FV_FLD_ITEM_28
+0x469	FIELD ITEM	Castelia City	Back Alley	Black Glasses item ball disappeared		FV_FLD_ITEM_29
+0x46A	FIELD ITEM	Castelia City	Back Alley	Repel item ball disappeared		FV_FLD_ITEM_30
+0x46B	FIELD ITEM	Castelia Sewers		Leftovers item ball disappeared		FV_FLD_ITEM_31
+0x46C	FIELD ITEM	Castelia Sewers		Twisted Spoon item ball disappeared		FV_FLD_ITEM_32
+0x46D	FIELD ITEM	Castelia Sewers		Rare Bone item ball disappeared		FV_FLD_ITEM_33
+0x46E	FIELD ITEM	Castelia Sewers		X Sp. Atk item ball disappeared		FV_FLD_ITEM_34
+0x46F	FIELD ITEM	Castelia Sewers		X Sp. Def item ball disappeared		FV_FLD_ITEM_35
+0x470	FIELD ITEM	Castelia Sewers		Pearl item ball disappeared		FV_FLD_ITEM_36
+0x471	FIELD ITEM	Castelia Sewers		Heart Scale item ball disappeared		FV_FLD_ITEM_37
+0x472	FIELD ITEM	Castelia Sewers		Black Sludge item ball disappeared		FV_FLD_ITEM_38
+0x473	FIELD ITEM	Castelia Sewers		TM41 (Torment) item ball disappeared		FV_FLD_ITEM_39
+0x474	FIELD ITEM	Relic Passage		Hard Stone item ball disappeared		FV_FLD_ITEM_40
+0x475	FIELD ITEM	Relic Passage		Max Repel item ball disappeared		FV_FLD_ITEM_41
+0x476	FIELD ITEM	Relic Passage		Rocky Helmet item ball disappeared		FV_FLD_ITEM_42
+0x477	FIELD ITEM	Relic Passage		Rare Candy item ball disappeared		FV_FLD_ITEM_43
+0x478	FIELD ITEM	Relic Passage		Ultra Ball item ball disappeared		FV_FLD_ITEM_44
+0x479	FIELD ITEM	Relic Passage		Big Pearl item ball disappeared		FV_FLD_ITEM_45
+0x47A	FIELD ITEM	Relic Passage		Protein item ball disappeared		FV_FLD_ITEM_46
+0x47B	FIELD ITEM	Route 4		Stardust item ball disappeared		FV_FLD_ITEM_47
+0x47C	FIELD ITEM	Route 4		TM28 (Dig) item ball disappeared		FV_FLD_ITEM_48
+0x47D	FIELD ITEM	Route 4		Grip Claw (B2) item ball disappeared		FV_FLD_ITEM_49
+0x47E	FIELD ITEM	Route 4		Light Clay (W2) item ball disappeared		FV_FLD_ITEM_50
+0x47F	FIELD ITEM	Route 4	House	Wide Lens (B2) item ball disappeared		FV_FLD_ITEM_51
+0x480	FIELD ITEM	Route 4	House	Bright Powder (W2) item ball disappeared		FV_FLD_ITEM_52
+0x481	FIELD ITEM	Route 4		Mystic Water item ball disappeared		FV_FLD_ITEM_53
+0x482	FIELD ITEM	Desert Resort		Red Shard item ball disappeared		FV_FLD_ITEM_54
+0x483	FIELD ITEM	Desert Resort		Blue Shard item ball disappeared		FV_FLD_ITEM_55
+0x484	FIELD ITEM	Desert Resort		Yellow Shard item ball disappeared		FV_FLD_ITEM_56
+0x485	FIELD ITEM	Desert Resort		Max Ether item ball disappeared		FV_FLD_ITEM_57
+0x486	FIELD ITEM	Desert Resort		Green Shard item ball disappeared		FV_FLD_ITEM_58
+0x487	FIELD ITEM	Desert Resort		Stardust item ball disappeared		FV_FLD_ITEM_59
+0x488	FIELD ITEM	Desert Resort		Heart Scale item ball disappeared		FV_FLD_ITEM_60
+0x489	FIELD ITEM	Desert Resort		Nugget item ball disappeared		FV_FLD_ITEM_61
+0x48A	FIELD ITEM	Nimbasa City		Paralyze Heal item ball disappeared		FV_FLD_ITEM_62
+0x48B	FIELD ITEM	Route 16		TM66 (Payback) item ball disappeared		FV_FLD_ITEM_63
+0x48C	FIELD ITEM	Route 16		Heal Ball item ball disappeared		FV_FLD_ITEM_64
+0x48D	FIELD ITEM	Lostlorn Forest		Ultra Ball item ball disappeared		FV_FLD_ITEM_65
+0x48E	FIELD ITEM	Lostlorn Forest		Rare Candy item ball disappeared		FV_FLD_ITEM_66
+0x48F	FIELD ITEM	Lostlorn Forest		Net Ball item ball disappeared		FV_FLD_ITEM_67
+0x490	FIELD ITEM	Route 5		Super Repel item ball disappeared		FV_FLD_ITEM_68
+0x491	FIELD ITEM	Route 5		Hyper Potion item ball disappeared		FV_FLD_ITEM_69
+0x492	FIELD ITEM	Driftveil City		Calcium item ball disappeared		FV_FLD_ITEM_70
+0x493	FIELD ITEM	PWT	Exterior	PP Up item ball disappeared		FV_FLD_ITEM_71
+0x494	FIELD ITEM	Route 6		Moon Stone item ball disappeared		FV_FLD_ITEM_72
+0x495	FIELD ITEM	Route 6		Elixir item ball disappeared		FV_FLD_ITEM_73
+0x496	FIELD ITEM	Route 6		Ultra Ball item ball disappeared		FV_FLD_ITEM_74
+0x497	FIELD ITEM	Clay Tunnel		HP Up item ball disappeared		FV_FLD_ITEM_75
+0x498	FIELD ITEM	Route 6		TM56 (Fling) item ball disappeared		FV_FLD_ITEM_76
+0x499	FIELD ITEM	Route 6		Heart Scale item ball disappeared		FV_FLD_ITEM_77
+0x49A	FIELD ITEM	Route 6		PP Up item ball disappeared		FV_FLD_ITEM_78
+0x49B	FIELD ITEM	Mistralton Cave	1F	Yellow Shard item ball disappeared		FV_FLD_ITEM_79
+0x49C	FIELD ITEM	Mistralton Cave	1F	Dusk Ball item ball disappeared		FV_FLD_ITEM_80
+0x49D	FIELD ITEM	Mistralton Cave	3F	TM80 (Rock Slide) item ball disappeared		FV_FLD_ITEM_81
+0x49E	FIELD ITEM	Mistralton Cave	3F	Escape Rope item ball disappeared		FV_FLD_ITEM_82
+0x49F	FIELD ITEM	Clay Tunnel		Rare Bone item ball disappeared		FV_FLD_ITEM_83
+0x4A0	FIELD ITEM	Mistralton Cave	2F	Hyper Potion item ball disappeared		FV_FLD_ITEM_84
+0x4A1	FIELD ITEM	Clay Tunnel		Green Shard item ball disappeared		FV_FLD_ITEM_85
+0x4A2	FIELD ITEM	Mistralton Cave	2F	Blue Shard item ball disappeared		FV_FLD_ITEM_86
+0x4A3	FIELD ITEM	Clay Tunnel		Red Shard item ball disappeared		FV_FLD_ITEM_87
+0x4A4	FIELD ITEM	Chargestone Cave	1F	Full Heal item ball disappeared		FV_FLD_ITEM_88
+0x4A5	FIELD ITEM	Chargestone Cave	1F	Hyper Potion item ball disappeared		FV_FLD_ITEM_89
+0x4A6	FIELD ITEM	Chargestone Cave	1F	Max Repel item ball disappeared		FV_FLD_ITEM_90
+0x4A7	FIELD ITEM	Victory Road	Entrance	PP Up item ball disappeared		FV_FLD_ITEM_91
+0x4A8	FIELD ITEM	Chargestone Cave	1F	Carbos item ball disappeared		FV_FLD_ITEM_92
+0x4A9	FIELD ITEM	Chargestone Cave	1F	Magnet item ball disappeared		FV_FLD_ITEM_93
+0x4AA	FIELD ITEM	Chargestone Cave	B1F	Revive item ball disappeared		FV_FLD_ITEM_94
+0x4AB	FIELD ITEM	Chargestone Cave	B1F	Iron item ball disappeared		FV_FLD_ITEM_95
+0x4AC	FIELD ITEM	Chargestone Cave	B2F	Thunder Stone item ball disappeared		FV_FLD_ITEM_96
+0x4AD	FIELD ITEM	Chargestone Cave	B2F	Escape Rope item ball disappeared		FV_FLD_ITEM_97
+0x4AE	FIELD ITEM	Chargestone Cave	B2F	Metal Coat item ball disappeared		FV_FLD_ITEM_98
+0x4AF	FIELD ITEM	Mistralton City		TM58 (Sky Drop) item ball disappeared		FV_FLD_ITEM_99
+0x4B0	FIELD ITEM	Mistralton City		Max Repel item ball disappeared		FV_FLD_ITEM_100
+0x4B1	FIELD ITEM	Route 7		Zinc item ball disappeared		FV_FLD_ITEM_101
+0x4B2	FIELD ITEM	Route 7		TM81 (X-Scissor) item ball disappeared		FV_FLD_ITEM_102
+0x4B3	FIELD ITEM	Route 7		Leaf Stone item ball disappeared		FV_FLD_ITEM_103
+0x4B4	FIELD ITEM	Route 7		Elixir item ball disappeared		FV_FLD_ITEM_104
+0x4B5	FIELD ITEM	Celestial Tower	2F	Hyper Potion item ball disappeared		FV_FLD_ITEM_105
+0x4B6	FIELD ITEM	Celestial Tower	2F	TM61 (Will-O-Wisp) item ball disappeared		FV_FLD_ITEM_106
+0x4B7	FIELD ITEM	Celestial Tower	3F	Revive item ball disappeared		FV_FLD_ITEM_107
+0x4B8	FIELD ITEM	Celestial Tower	4F	PP Up item ball disappeared		FV_FLD_ITEM_108
+0x4B9	FIELD ITEM	Celestial Tower	4F	TM65 (Shadow Claw) item ball disappeared		FV_FLD_ITEM_109
+0x4BA	FIELD ITEM	Lentimas Town		Fire Stone item ball disappeared		FV_FLD_ITEM_110
+0x4BB	FIELD ITEM	Strange House		Spell Tag item ball disappeared		FV_FLD_ITEM_111
+0x4BC	FIELD ITEM	Strange House		Rare Candy item ball disappeared		FV_FLD_ITEM_112
+0x4BD	FIELD ITEM	Strange House		Dusk Stone item ball disappeared		FV_FLD_ITEM_113
+0x4BE	FIELD ITEM	Strange House		Full Heal item ball disappeared		FV_FLD_ITEM_114
+0x4BF	FIELD ITEM	Reversal Mountain	Exterior	TM30 (Shadow Ball) item ball disappeared		FV_FLD_ITEM_115
+0x4C0	FIELD ITEM	Reversal Mountain	Exterior	Full Heal item ball disappeared		FV_FLD_ITEM_116
+0x4C1	FIELD ITEM	Reversal Mountain	Exterior	Smoke Ball item ball disappeared		FV_FLD_ITEM_117
+0x4C2	FIELD ITEM	Reversal Mountain	1F	Max Repel item ball disappeared		FV_FLD_ITEM_118
+0x4C3	FIELD ITEM	Reversal Mountain	1F	Revive item ball disappeared		FV_FLD_ITEM_119
+0x4C4	FIELD ITEM	Reversal Mountain	1F	TM69 (Rock Polish) item ball disappeared		FV_FLD_ITEM_120
+0x4C5	FIELD ITEM	Reversal Mountain	1F	PP Up item ball disappeared		FV_FLD_ITEM_121
+0x4C6	FIELD ITEM	Reversal Mountain	1F	Nugget item ball disappeared		FV_FLD_ITEM_122
+0x4C7	FIELD ITEM	Reversal Mountain	1F	Hyper Potion item ball disappeared		FV_FLD_ITEM_123
+0x4C8	FIELD ITEM	Reversal Mountain	B1F	Toxic Orb (B2) item ball disappeared		FV_FLD_ITEM_124
+0x4C9	FIELD ITEM	Reversal Mountain	B1F	Flame Orb (W2) item ball disappeared		FV_FLD_ITEM_125
+0x4CA	FIELD ITEM	Undella Town		Berry Juice item ball disappeared		FV_FLD_ITEM_126
+0x4CB	FIELD ITEM	Undella Bay		Splash Plate item ball disappeared		FV_FLD_ITEM_127
+0x4CC	FIELD ITEM	Undella Bay		Draco Plate item ball disappeared		FV_FLD_ITEM_128
+0x4CD	FIELD ITEM	Route 14		Big Pearl item ball disappeared		FV_FLD_ITEM_129
+0x4CE	FIELD ITEM	Route 14		Heart Scale item ball disappeared		FV_FLD_ITEM_130
+0x4CF	FIELD ITEM	Route 14		Max Potion item ball disappeared		FV_FLD_ITEM_131
+0x4D0	FIELD ITEM	Route 14		Nugget item ball disappeared		FV_FLD_ITEM_132
+0x4D1	FIELD ITEM	Route 13		Max Repel item ball disappeared		FV_FLD_ITEM_133
+0x4D2	FIELD ITEM	Route 13		Red Shard item ball disappeared		FV_FLD_ITEM_134
+0x4D3	FIELD ITEM	Route 13		Star Piece item ball disappeared		FV_FLD_ITEM_135
+0x4D4	FIELD ITEM	Route 13		Max Ether item ball disappeared		FV_FLD_ITEM_136
+0x4D5	FIELD ITEM	Route 13		Hyper Potion item ball disappeared		FV_FLD_ITEM_137
+0x4D6	FIELD ITEM	Route 13		Ultra Ball item ball disappeared		FV_FLD_ITEM_138
+0x4D7	FIELD ITEM	Route 13		TM29 (Psychic) item ball disappeared		FV_FLD_ITEM_139
+0x4D8	FIELD ITEM	Route 13		Luxury Ball item ball disappeared		FV_FLD_ITEM_140
+0x4D9	FIELD ITEM	Lacunosa Town	House	Metronome item ball disappeared		FV_FLD_ITEM_141
+0x4DA	FIELD ITEM	Lacunosa Town		Full Heal item ball disappeared		FV_FLD_ITEM_142
+0x4DB	FIELD ITEM	Giant Chasm	Entrance	Yellow Shard item ball disappeared		FV_FLD_ITEM_143
+0x4DC	FIELD ITEM	Route 12		Timer Ball item ball disappeared		FV_FLD_ITEM_144
+0x4DD	FIELD ITEM	Route 12		PP Up item ball disappeared		FV_FLD_ITEM_145
+0x4DE	FIELD ITEM	Route 12		Max Potion item ball disappeared		FV_FLD_ITEM_146
+0x4DF	FIELD ITEM	Route 12		Green Shard item ball disappeared		FV_FLD_ITEM_147
+0x4E0	FIELD ITEM	Village Bridge		Ultra Ball item ball disappeared		FV_FLD_ITEM_148
+0x4E1	FIELD ITEM	Village Bridge		Heart Scale item ball disappeared		FV_FLD_ITEM_149
+0x4E2	FIELD ITEM	Village Bridge		Big Pearl item ball disappeared		FV_FLD_ITEM_150
+0x4E3	FIELD ITEM	Village Bridge		Carbos item ball disappeared		FV_FLD_ITEM_151
+0x4E4	FIELD ITEM	Village Bridge		Rare Candy item ball disappeared		FV_FLD_ITEM_152
+0x4E5	FIELD ITEM	Village Bridge		Blue Shard item ball disappeared		FV_FLD_ITEM_153
+0x4E6	FIELD ITEM	Route 11		Razor Fang item ball disappeared		FV_FLD_ITEM_154
+0x4E7	FIELD ITEM	Route 11		Zinc item ball disappeared		FV_FLD_ITEM_155
+0x4E8	FIELD ITEM	Route 11		Full Heal item ball disappeared		FV_FLD_ITEM_156
+0x4E9	FIELD ITEM	Route 9		HP Up item ball disappeared		FV_FLD_ITEM_157
+0x4EA	FIELD ITEM	Route 9		Elixir item ball disappeared		FV_FLD_ITEM_158
+0x4EB	FIELD ITEM	Route 9		Iron item ball disappeared		FV_FLD_ITEM_159
+0x4EC	FIELD ITEM	Route 9		Quick Ball item ball disappeared		FV_FLD_ITEM_160
+0x4ED	FIELD ITEM	Route 9		Nugget item ball disappeared		FV_FLD_ITEM_161
+0x4EE	FIELD ITEM	Seaside Cave	B1F	Rare Candy item ball disappeared		FV_FLD_ITEM_162
+0x4EF	FIELD ITEM	Seaside Cave	1F	Dive Ball item ball disappeared		FV_FLD_ITEM_163
+0x4F0	FIELD ITEM	Humilau City		Protein item ball disappeared		FV_FLD_ITEM_164
+0x4F1	FIELD ITEM	Seaside Cave	1F	Full Restore item ball disappeared		FV_FLD_ITEM_165
+0x4F2	FIELD ITEM	Seaside Cave	1F	Heart Scale item ball disappeared		FV_FLD_ITEM_166
+0x4F3	FIELD ITEM	Seaside Cave	1F	TM06 (Toxic) item ball disappeared		FV_FLD_ITEM_167
+0x4F4	FIELD ITEM	Seaside Cave	B1F	Max Repel item ball disappeared		FV_FLD_ITEM_168
+0x4F5	FIELD ITEM	Route 21		Big Pearl item ball disappeared		FV_FLD_ITEM_169
+0x4F6	FIELD ITEM	Route 21		PP Up item ball disappeared		FV_FLD_ITEM_170
+0x4F7	FIELD ITEM	Humilau City		Shell Bell item ball disappeared		FV_FLD_ITEM_171
+0x4F8	FIELD ITEM	Route 22		Max Potion item ball disappeared		FV_FLD_ITEM_172
+0x4F9	FIELD ITEM	Route 22		Calcium item ball disappeared		FV_FLD_ITEM_173
+0x4FA	FIELD ITEM	Route 22		Rare Candy item ball disappeared		FV_FLD_ITEM_174
+0x4FB	FIELD ITEM	Route 22		Poison Barb item ball disappeared		FV_FLD_ITEM_175
+0x4FC	FIELD ITEM	Giant Chasm	Cave	Star Piece item ball disappeared		FV_FLD_ITEM_176
+0x4FD	FIELD ITEM	Giant Chasm	Cave	Max Repel item ball disappeared		FV_FLD_ITEM_177
+0x4FE	FIELD ITEM	Giant Chasm	Cave	TM13 (Ice Beam) item ball disappeared		FV_FLD_ITEM_178
+0x4FF	FIELD ITEM	Giant Chasm	Forest	Carbos item ball disappeared		FV_FLD_ITEM_179
+0x500	FIELD ITEM	Dragonspiral Tower	4F	Adamant Orb item ball disappeared		FV_FLD_ITEM_180
+0x501	FIELD ITEM	Giant Chasm	Forest	Sun Stone item ball disappeared		FV_FLD_ITEM_181
+0x502	FIELD ITEM	Giant Chasm	Forest	PP Up item ball disappeared		FV_FLD_ITEM_182
+0x503	FIELD ITEM	Giant Chasm	Forest	TM03 (Psyshock) item ball disappeared		FV_FLD_ITEM_183
+0x504	FIELD ITEM	Giant Chasm	Forest	Moon Stone item ball disappeared		FV_FLD_ITEM_184
+0x505	FIELD ITEM	Giant Chasm	Forest	Razor Claw item ball disappeared		FV_FLD_ITEM_185
+0x506	FIELD ITEM	Giant Chasm	Forest	Star Piece item ball disappeared		FV_FLD_ITEM_186
+0x507	FIELD ITEM	Plasma Frigate	B2F	Zinc item ball disappeared		FV_FLD_ITEM_187
+0x508	FIELD ITEM	Plasma Frigate	B2F	Max Elixir item ball disappeared		FV_FLD_ITEM_188
+0x509	FIELD ITEM	Plasma Frigate	B1F	Electirizer (W2) item ball disappeared		FV_FLD_ITEM_189
+0x50A	FIELD ITEM	Plasma Frigate	B2F	Max Revive item ball disappeared		FV_FLD_ITEM_190
+0x50B	FIELD ITEM	Plasma Frigate	B1F	Magmarizer (B2) item ball disappeared		FV_FLD_ITEM_191
+0x50C	FIELD ITEM	Plasma Frigate	B2F	Power Band (B2) item ball disappeared		FV_FLD_ITEM_192
+0x50D	FIELD ITEM	Plasma Frigate	B2F	Power Belt (W2) item ball disappeared		FV_FLD_ITEM_193
+0x50E	FIELD ITEM	Route 23		Star Piece item ball disappeared		FV_FLD_ITEM_194
+0x50F	FIELD ITEM	Route 23		Iron item ball disappeared		FV_FLD_ITEM_195
+0x510	FIELD ITEM	Route 23		TM05 (Roar) item ball disappeared		FV_FLD_ITEM_196
+0x511	FIELD ITEM	Route 23		Heart Scale item ball disappeared		FV_FLD_ITEM_197
+0x512	FIELD ITEM	Route 23		Repeat Ball item ball disappeared		FV_FLD_ITEM_198
+0x513	FIELD ITEM	Route 23		Calcium item ball disappeared		FV_FLD_ITEM_199
+0x514	FIELD ITEM	Route 23		Full Heal item ball disappeared		FV_FLD_ITEM_200
+0x515	FIELD ITEM	Route 23		HP Up item ball disappeared		FV_FLD_ITEM_201
+0x516	FIELD ITEM	Route 23		Max Potion item ball disappeared		FV_FLD_ITEM_202
+0x517	FIELD ITEM	Route 23		TM12 (Taunt) item ball disappeared		FV_FLD_ITEM_203
+0x518	FIELD ITEM	Victory Road	Outside Area 1	Max Repel item ball disappeared		FV_FLD_ITEM_204
+0x519	FIELD ITEM	Victory Road	Outside Area 2	Dragon Fang item ball disappeared		FV_FLD_ITEM_205
+0x51A	FIELD ITEM	Victory Road	Outside Area 1	Ultra Ball item ball disappeared		FV_FLD_ITEM_206
+0x51B	FIELD ITEM	Victory Road	Cave	PP Max item ball disappeared		FV_FLD_ITEM_207
+0x51C	FIELD ITEM	Victory Road	Grove	Full Restore item ball disappeared		FV_FLD_ITEM_208
+0x51D	FIELD ITEM	Victory Road	Outside Area 1	Escape Rope item ball disappeared		FV_FLD_ITEM_209
+0x51E	FIELD ITEM	Victory Road	Grove	Ultra Ball item ball disappeared		FV_FLD_ITEM_210
+0x51F	FIELD ITEM	Victory Road	Outside Area 1	Max Repel item ball disappeared		FV_FLD_ITEM_211
+0x520	FIELD ITEM	Victory Road	Outside Area 1	Full Restore item ball disappeared		FV_FLD_ITEM_212
+0x521	FIELD ITEM	Victory Road	Outside Area 2	Max Elixir item ball disappeared		FV_FLD_ITEM_213
+0x522	FIELD ITEM	Victory Road	Cave	Rare Candy item ball disappeared		FV_FLD_ITEM_214
+0x523	FIELD ITEM	Victory Road	Outside Area 2	Max Revive item ball disappeared		FV_FLD_ITEM_215
+0x524	FIELD ITEM	N's Castle	4F	Protein item ball disappeared		FV_FLD_ITEM_216
+0x525	FIELD ITEM	N's Castle	4F	TM50 (Overheat) item ball disappeared		FV_FLD_ITEM_217
+0x526	FIELD ITEM	Victory Road	1F	TM93 (Wild Charge) item ball disappeared		FV_FLD_ITEM_218
+0x527	FIELD ITEM	N's Castle	4F	Luxury Ball item ball disappeared		FV_FLD_ITEM_219
+0x528	FIELD ITEM	Route 8		TM36 (Sludge Bomb) item ball disappeared		FV_FLD_ITEM_220
+0x529	FIELD ITEM	Route 8		Big Pearl item ball disappeared		FV_FLD_ITEM_221
+0x52A	FIELD ITEM	Route 8		Nest Ball item ball disappeared		FV_FLD_ITEM_222
+0x52B	FIELD ITEM	Icirrus City		PP Up item ball disappeared		FV_FLD_ITEM_223
+0x52C	FIELD ITEM	Moor of Icirrus		Rare Candy item ball disappeared		FV_FLD_ITEM_224
+0x52D	FIELD ITEM	Moor of Icirrus		TM84 (Poison Jab) item ball disappeared		FV_FLD_ITEM_225
+0x52E	FIELD ITEM	Moor of Icirrus		Green Shard item ball disappeared		FV_FLD_ITEM_226
+0x52F	FIELD ITEM	Moor of Icirrus		Heart Scale item ball disappeared		FV_FLD_ITEM_227
+0x530	FIELD ITEM	Moor of Icirrus		Full Heal item ball disappeared		FV_FLD_ITEM_228
+0x531	FIELD ITEM	Dragonspiral Tower		Carbos item ball disappeared		FV_FLD_ITEM_229
+0x532	FIELD ITEM	Dragonspiral Tower	5F	TM02 (Dragon Claw) item ball disappeared		FV_FLD_ITEM_230
+0x533	FIELD ITEM	Dragonspiral Tower	5F	Max Revive item ball disappeared		FV_FLD_ITEM_231
+0x534	FIELD ITEM	Dragonspiral Tower	2F	Elixir item ball disappeared		FV_FLD_ITEM_232
+0x535	FIELD ITEM	Dragonspiral Tower	3F	Protein item ball disappeared		FV_FLD_ITEM_233
+0x536	FIELD ITEM	Dragonspiral Tower	5F	PP Max item ball disappeared		FV_FLD_ITEM_234
+0x537	FIELD ITEM	Dragonspiral Tower	3F	Shiny Stone item ball disappeared		FV_FLD_ITEM_235
+0x538	FIELD ITEM	Dragonspiral Tower	2F	Ultra Ball item ball disappeared		FV_FLD_ITEM_236
+0x539	FIELD ITEM	Dragonspiral Tower	6F	Comet Shard item ball disappeared		FV_FLD_ITEM_237
+0x53A	FIELD ITEM	Dragonspiral Tower		Never Melt Ice item ball disappeared		FV_FLD_ITEM_238
+0x53B	FIELD ITEM	Icirrus City		Max Elixir item ball disappeared		FV_FLD_ITEM_239
+0x53C	FIELD ITEM	Twist Mountain		Float Stone item ball disappeared		FV_FLD_ITEM_240
+0x53D	FIELD ITEM	Twist Mountain		Dusk Stone item ball disappeared		FV_FLD_ITEM_241
+0x53E	FIELD ITEM	Twist Mountain		TM90 (Substitute) item ball disappeared		FV_FLD_ITEM_242
+0x53F	FIELD ITEM	Twist Mountain		Full Restore item ball disappeared		FV_FLD_ITEM_243
+0x540	FIELD ITEM	Twist Mountain		Big Nugget item ball disappeared		FV_FLD_ITEM_244
+0x541	FIELD ITEM	Twist Mountain		TM71 (Stone Edge) item ball disappeared		FV_FLD_ITEM_245
+0x542	FIELD ITEM	Twist Mountain		TM91 (Flash Cannon) item ball disappeared		FV_FLD_ITEM_246
+0x543	FIELD ITEM	Twist Mountain		Rare Bone item ball disappeared		FV_FLD_ITEM_247
+0x544	FIELD ITEM	Twist Mountain		Eject Button item ball disappeared		FV_FLD_ITEM_248
+0x545	FIELD ITEM	Twist Mountain		Dusk Ball item ball disappeared		FV_FLD_ITEM_249
+0x546	FIELD ITEM	Twist Mountain		Red Shard item ball disappeared		FV_FLD_ITEM_250
+0x547	FIELD ITEM	Route 15		TM26 (Earthquake) item ball disappeared		FV_FLD_ITEM_251
+0x548	FIELD ITEM	Route 15		Max Potion item ball disappeared		FV_FLD_ITEM_252
+0x549	FIELD ITEM	Abundant Shrine		Rare Candy item ball disappeared		FV_FLD_ITEM_253
+0x54A	FIELD ITEM	Abundant Shrine		TM92 (Trick Room) item ball disappeared		FV_FLD_ITEM_254
+0x54B	FIELD ITEM	Abundant Shrine		Max Revive item ball disappeared		FV_FLD_ITEM_255
+0x54C	FIELD ITEM	Abundant Shrine		Shiny Stone item ball disappeared		FV_FLD_ITEM_256
+0x54D	FIELD ITEM	Abundant Shrine		Heal Ball item ball disappeared		FV_FLD_ITEM_257
+0x54E	FIELD ITEM	Pinwheel Forest	Inside	PP Max item ball disappeared		FV_FLD_ITEM_258
+0x54F	FIELD ITEM	Pinwheel Forest	Inside	Net Ball item ball disappeared		FV_FLD_ITEM_259
+0x550	FIELD ITEM	Pinwheel Forest	Inside	Max Repel item ball disappeared		FV_FLD_ITEM_260
+0x551	FIELD ITEM	Relic Castle	Passage	Ultra Ball item ball disappeared		FV_FLD_ITEM_261
+0x552	FIELD ITEM	Pinwheel Forest	Inside	TM22 (Solar Beam) item ball disappeared		FV_FLD_ITEM_262
+0x553	FIELD ITEM	Pinwheel Forest	Inside	Sun Stone item ball disappeared		FV_FLD_ITEM_263
+0x554	FIELD ITEM	Pinwheel Forest	Inside	TM86 (Grass Knot) item ball disappeared		FV_FLD_ITEM_264
+0x555	FIELD ITEM	Pinwheel Forest	Inside	Ultra Ball item ball disappeared		FV_FLD_ITEM_265
+0x556	FIELD ITEM	Pinwheel Forest	Inside	Max Revive item ball disappeared		FV_FLD_ITEM_266
+0x557	FIELD ITEM	Pinwheel Forest	Outside	Full Heal item ball disappeared		FV_FLD_ITEM_267
+0x558	FIELD ITEM	Pinwheel Forest	Outside	Nugget item ball disappeared		FV_FLD_ITEM_268
+0x559	FIELD ITEM	Pinwheel Forest	Outside	HP Up item ball disappeared		FV_FLD_ITEM_269
+0x55A	FIELD ITEM	Pinwheel Forest	Outside	Protein (W2) / Iron (B2) item ball disappeared		FV_FLD_ITEM_270
+0x55B	FIELD ITEM	Pinwheel Forest	Outside	PP Max item ball disappeared		FV_FLD_ITEM_271
+0x55C	FIELD ITEM	Nature Preserve		Max Potion item ball disappeared		FV_FLD_ITEM_272
+0x55D	FIELD ITEM	Nature Preserve		Big Nugget item ball disappeared		FV_FLD_ITEM_273
+0x55E	FIELD ITEM	Route 3		Big Nugget item ball disappeared		FV_FLD_ITEM_274
+0x55F	FIELD ITEM	Route 3		Quick Ball item ball disappeared		FV_FLD_ITEM_275
+0x560	FIELD ITEM	Route 3		Full Restore item ball disappeared		FV_FLD_ITEM_276
+0x561	FIELD ITEM	Route 3		Calcium item ball disappeared		FV_FLD_ITEM_277
+0x562	FIELD ITEM	Route 3		Zinc item ball disappeared		FV_FLD_ITEM_278
+0x563	FIELD ITEM	Route 3		Ultra Ball item ball disappeared		FV_FLD_ITEM_279
+0x564	FIELD ITEM	Route 3	School	Rare Candy item ball disappeared		FV_FLD_ITEM_280
+0x565	FIELD ITEM	Wellspring Cave	1F	Escape Rope item ball disappeared		FV_FLD_ITEM_281
+0x566	FIELD ITEM	Wellspring Cave	B1F	Protector item ball disappeared		FV_FLD_ITEM_282
+0x567	FIELD ITEM	Wellspring Cave	B1F	Max Revive item ball disappeared		FV_FLD_ITEM_283
+0x568	FIELD ITEM	Wellspring Cave	B1F	TM52 (Focus Blast) item ball disappeared		FV_FLD_ITEM_284
+0x569	FIELD ITEM	Wellspring Cave	1F	Max Repel item ball disappeared		FV_FLD_ITEM_285
+0x56A	FIELD ITEM	Nature Preserve		Rare Candy item ball disappeared		FV_FLD_ITEM_286
+0x56B	FIELD ITEM	Wellspring Cave	B1F	TM47 (Low Sweep) item ball disappeared		FV_FLD_ITEM_287
+0x56C	FIELD ITEM	Striaton City		Yellow Shard item ball disappeared		FV_FLD_ITEM_288
+0x56D	FIELD ITEM	Striaton City		Timer Ball item ball disappeared		FV_FLD_ITEM_289
+0x56E	FIELD ITEM	Striaton City		Up-Grade item ball disappeared		FV_FLD_ITEM_290
+0x56F	FIELD ITEM	Dreamyard		TM85 (Dream Eater) item ball disappeared		FV_FLD_ITEM_291
+0x570	FIELD ITEM	Dreamyard		Ultra Ball item ball disappeared		FV_FLD_ITEM_292
+0x571	FIELD ITEM	Dreamyard		Moon Stone item ball disappeared		FV_FLD_ITEM_293
+0x572	FIELD ITEM	Striaton City		Max Elixir item ball disappeared		FV_FLD_ITEM_294
+0x573	FIELD ITEM	Dreamyard		Rare Candy item ball disappeared		FV_FLD_ITEM_295
+0x574	FIELD ITEM	Dreamyard		Reaper Cloth item ball disappeared		FV_FLD_ITEM_296
+0x575	FIELD ITEM	Dreamyard	Basement	HP Up item ball disappeared		FV_FLD_ITEM_297
+0x576	FIELD ITEM	Dreamyard	Basement	Iron item ball disappeared		FV_FLD_ITEM_298
+0x577	FIELD ITEM	Dreamyard	Basement	Dawn Stone item ball disappeared		FV_FLD_ITEM_299
+0x578	FIELD ITEM	Route 2		Full Heal item ball disappeared		FV_FLD_ITEM_300
+0x579	FIELD ITEM	Route 2		Ultra Ball item ball disappeared		FV_FLD_ITEM_301
+0x57A	FIELD ITEM	Route 2		Calcium item ball disappeared		FV_FLD_ITEM_302
+0x57B	FIELD ITEM	Route 2		Carbos item ball disappeared		FV_FLD_ITEM_303
+0x57C	FIELD ITEM	Humilau City		Heart Scale item ball disappeared		FV_FLD_ITEM_304
+0x57D	FIELD ITEM	Route 2		Repeat Ball item ball disappeared		FV_FLD_ITEM_305
+0x57E	FIELD ITEM	Route 2		Max Revive item ball disappeared		FV_FLD_ITEM_306
+0x57F	FIELD ITEM	Route 1		Full Restore item ball disappeared		FV_FLD_ITEM_307
+0x580	FIELD ITEM	Route 1		Prism Scale item ball disappeared		FV_FLD_ITEM_308
+0x581	FIELD ITEM	Nuvema Town	Hilbert/Hilda House	King's Rock item ball disappeared		FV_FLD_ITEM_309
+0x582	FIELD ITEM	Route 17		Blue Shard item ball disappeared		FV_FLD_ITEM_310
+0x583	FIELD ITEM	Route 17		Dive Ball item ball disappeared		FV_FLD_ITEM_311
+0x584	FIELD ITEM	Route 17		Pearl String item ball disappeared		FV_FLD_ITEM_312
+0x585	FIELD ITEM	Route 18		Iron item ball disappeared		FV_FLD_ITEM_313
+0x586	FIELD ITEM	Route 18		Star Piece item ball disappeared		FV_FLD_ITEM_314
+0x587	FIELD ITEM	Route 18		Zinc item ball disappeared		FV_FLD_ITEM_315
+0x588	FIELD ITEM	Route 18		TM19 (Telekinesis) item ball disappeared		FV_FLD_ITEM_316
+0x589	FIELD ITEM	Route 18		PP Max item ball disappeared		FV_FLD_ITEM_317
+0x58A	FIELD ITEM	Relic Castle	B1F	TM39 (Rock Tomb) item ball disappeared		FV_FLD_ITEM_318
+0x58B	FIELD ITEM	Clay Tunnel		Nugget item ball disappeared		FV_FLD_ITEM_319
+0x58C	FIELD ITEM	Clay Tunnel		Metal Coat item ball disappeared		FV_FLD_ITEM_320
+0x58D	FIELD ITEM	Clay Tunnel		Max Revive item ball disappeared		FV_FLD_ITEM_321
+0x58E	FIELD ITEM	Victory Road	3F	Dragon Scale item ball disappeared		FV_FLD_ITEM_322
+0x58F	FIELD ITEM	Route 19		Potion item ball disappeared		FV_FLD_ITEM_323
+0x590	FIELD ITEM	Abyssal Ruins	1F	Flame Plate item ball disappeared		FV_FLD_ITEM_324
+0x591	FIELD ITEM	Abyssal Ruins	1F	Zap Plate item ball disappeared		FV_FLD_ITEM_325
+0x592	FIELD ITEM	Abyssal Ruins	1F	Meadow Plate item ball disappeared		FV_FLD_ITEM_326
+0x593	FIELD ITEM	Abyssal Ruins	1F	Relic Silver item ball disappeared		FV_FLD_ITEM_327
+0x594	FIELD ITEM	Abyssal Ruins	1F	Fist Plate item ball disappeared		FV_FLD_ITEM_328
+0x595	FIELD ITEM	Abyssal Ruins	1F	Toxic Plate item ball disappeared		FV_FLD_ITEM_329
+0x596	FIELD ITEM	Abyssal Ruins	1F	Relic Vase item ball disappeared		FV_FLD_ITEM_330
+0x597	FIELD ITEM	Abyssal Ruins	1F	Sky Plate item ball disappeared		FV_FLD_ITEM_331
+0x598	FIELD ITEM	Abyssal Ruins	1F	Mind Plate item ball disappeared		FV_FLD_ITEM_332
+0x599	FIELD ITEM	Abyssal Ruins	1F	Insect Plate item ball disappeared		FV_FLD_ITEM_333
+0x59A	FIELD ITEM	Abyssal Ruins	1F	Stone Plate item ball disappeared		FV_FLD_ITEM_334
+0x59B	FIELD ITEM	Abyssal Ruins	1F	Icicle Plate item ball disappeared		FV_FLD_ITEM_335
+0x59C	FIELD ITEM	Abyssal Ruins	1F	Dread Plate item ball disappeared		FV_FLD_ITEM_336
+0x59D	FIELD ITEM	Abyssal Ruins	1F	Iron Plate item ball disappeared		FV_FLD_ITEM_337
+0x59E	FIELD ITEM	Abyssal Ruins	1F	Relic Copper item ball disappeared		FV_FLD_ITEM_338
+0x59F	FIELD ITEM	Abyssal Ruins	1F	Relic Copper item ball disappeared		FV_FLD_ITEM_339
+0x5A0	FIELD ITEM	Abyssal Ruins	1F	Relic Copper item ball disappeared		FV_FLD_ITEM_340
+0x5A1	FIELD ITEM	Abyssal Ruins	1F	Relic Copper item ball disappeared		FV_FLD_ITEM_341
+0x5A2	FIELD ITEM	Abyssal Ruins	1F	Relic Silver item ball disappeared		FV_FLD_ITEM_342
+0x5A3	FIELD ITEM	Abyssal Ruins	1F	Relic Silver item ball disappeared		FV_FLD_ITEM_343
+0x5A4	FIELD ITEM	Abyssal Ruins	1F	Earth Plate item ball disappeared		FV_FLD_ITEM_344
+0x5A5	FIELD ITEM	Abyssal Ruins	1F	Spooky Plate item ball disappeared		FV_FLD_ITEM_345
+0x5A6	FIELD ITEM	Abyssal Ruins	1F	Relic Gold item ball disappeared		FV_FLD_ITEM_346
+0x5A7	FIELD ITEM	Abyssal Ruins	1F	Relic Gold item ball disappeared		FV_FLD_ITEM_347
+0x5A8	FIELD ITEM	Abyssal Ruins	1F	Relic Gold item ball disappeared		FV_FLD_ITEM_348
+0x5A9	FIELD ITEM	Abyssal Ruins	1F	Relic Statue item ball disappeared		FV_FLD_ITEM_349
+0x5AA	FIELD ITEM	Abyssal Ruins	2F	Relic Copper item ball disappeared		FV_FLD_ITEM_350
+0x5AB	FIELD ITEM	Abyssal Ruins	2F	Relic Copper item ball disappeared		FV_FLD_ITEM_351
+0x5AC	FIELD ITEM	Abyssal Ruins	2F	Relic Silver item ball disappeared		FV_FLD_ITEM_352
+0x5AD	FIELD ITEM	Abyssal Ruins	2F	Relic Silver item ball disappeared		FV_FLD_ITEM_353
+0x5AE	FIELD ITEM	Abyssal Ruins	2F	Relic Gold item ball disappeared		FV_FLD_ITEM_354
+0x5AF	FIELD ITEM	Abyssal Ruins	2F	Relic Gold item ball disappeared		FV_FLD_ITEM_355
+0x5B0	FIELD ITEM	Abyssal Ruins	2F	Relic Gold item ball disappeared		FV_FLD_ITEM_356
+0x5B1	FIELD ITEM	Abyssal Ruins	2F	Relic Vase item ball disappeared		FV_FLD_ITEM_357
+0x5B2	FIELD ITEM	Abyssal Ruins	2F	Relic Band item ball disappeared		FV_FLD_ITEM_358
+0x5B3	FIELD ITEM	Abyssal Ruins	2F	Relic Band item ball disappeared		FV_FLD_ITEM_359
+0x5B4	FIELD ITEM	Abyssal Ruins	2F	Relic Statue item ball disappeared		FV_FLD_ITEM_360
+0x5B5	FIELD ITEM	Abyssal Ruins	3F	Relic Silver item ball disappeared		FV_FLD_ITEM_361
+0x5B6	FIELD ITEM	Abyssal Ruins	3F	Relic Gold item ball disappeared		FV_FLD_ITEM_362
+0x5B7	FIELD ITEM	Abyssal Ruins	3F	Relic Vase item ball disappeared		FV_FLD_ITEM_363
+0x5B8	FIELD ITEM	Abyssal Ruins	3F	Relic Vase item ball disappeared		FV_FLD_ITEM_364
+0x5B9	FIELD ITEM	Abyssal Ruins	3F	Relic Band item ball disappeared		FV_FLD_ITEM_365
+0x5BA	FIELD ITEM	Abyssal Ruins	3F	Relic Band item ball disappeared		FV_FLD_ITEM_366
+0x5BB	FIELD ITEM	Abyssal Ruins	3F	Relic Band item ball disappeared		FV_FLD_ITEM_367
+0x5BC	FIELD ITEM	Abyssal Ruins	3F	Relic Statue item ball disappeared		FV_FLD_ITEM_368
+0x5BD	FIELD ITEM	Abyssal Ruins	4F	Relic Crown item ball disappeared		FV_FLD_ITEM_369
+0x5BE	FIELD ITEM	Route 22		PP Up item ball disappeared		FV_FLD_ITEM_370
+0x5BF	FIELD ITEM	Route 22		Red Shard item ball disappeared		FV_FLD_ITEM_371
+0x5C0	FIELD ITEM	Route 23		Green Shard item ball disappeared		FV_FLD_ITEM_372
+0x5C1	FIELD ITEM	Route 13		Blue Shard item ball disappeared		FV_FLD_ITEM_373
+0x5C2	FIELD ITEM	Route 12		Yellow Shard item ball disappeared		FV_FLD_ITEM_374
+0x5C3	FIELD ITEM	Driftveil City	Market	TM63 (Embargo) item ball disappeared		FV_FLD_ITEM_375
+0x5C4	FIELD ITEM	Shopping Mall		Poké Doll item ball disappeared		FV_FLD_ITEM_376
+0x5C5	FIELD ITEM	P2 Laboratory		Dubious Disc item ball disappeared		FV_FLD_ITEM_377
+0x5C6	FIELD ITEM	Plasma Frigate	1F	Revive item ball disappeared		FV_FLD_ITEM_378
+0x5C7	FIELD ITEM	Plasma Frigate	1F	TM67 (Retaliate) item ball disappeared		FV_FLD_ITEM_379
+0x5C8	FIELD ITEM	Dragonspiral Tower	4F	Griseous Orb item ball disappeared		FV_FLD_ITEM_380
+0x5C9	FIELD ITEM	Dragonspiral Tower	4F	Lustrous Orb item ball disappeared		FV_FLD_ITEM_381
+0x5CA	FIELD ITEM	Reversal Mountain	Exterior	Escape Rope item ball disappeared		FV_FLD_ITEM_382
+0x5CB	FIELD ITEM	Relic Passage		Escape Rope item ball disappeared		FV_FLD_ITEM_383
 0x5CC	_UNUSED					FV_FLD_ITEM_384
 0x5CD	_UNUSED					FV_FLD_ITEM_385
 0x5CE	_UNUSED					FV_FLD_ITEM_386
@@ -2819,219 +2819,219 @@
 0xB01	_UNUSED					
 0xB02	_UNUSED					
 0xB03	_UNUSED					
-0xB04	HIDDEN ITEM	Striaton City		PP Up		FLAG_HIDEITEM_000
-0xB05	HIDDEN ITEM	Nacrene City		PP Up		FLAG_HIDEITEM_001
-0xB06	HIDDEN ITEM	Nimbasa City		Thunder Stone		FLAG_HIDEITEM_002
-0xB07	HIDDEN ITEM	Nimbasa City		Revive		FLAG_HIDEITEM_003
-0xB08	HIDDEN ITEM	Driftveil City		Ultra Ball		FLAG_HIDEITEM_004
-0xB09	HIDDEN ITEM	Driftveil City		Rare Bone		FLAG_HIDEITEM_005
-0xB0A	HIDDEN ITEM	Mistralton City		Flying Gem		FLAG_HIDEITEM_006
-0xB0B	HIDDEN ITEM	Mistralton City	House	Iron		FLAG_HIDEITEM_007
-0xB0C	HIDDEN ITEM	Humilau City	House	Full Restore		FLAG_HIDEITEM_008
-0xB0D	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_009
-0xB0E	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_010
-0xB0F	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_011
-0xB10	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_012
-0xB11	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_013
-0xB12	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_014
-0xB13	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_015
-0xB14	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_016
-0xB15	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_017
-0xB16	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_018
-0xB17	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_019
-0xB18	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_020
-0xB19	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_021
-0xB1A	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_022
-0xB1B	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_023
-0xB1C	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_024
-0xB1D	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_025
-0xB1E	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_026
-0xB1F	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_027
-0xB20	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_028
-0xB21	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_029
-0xB22	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_030
-0xB23	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_031
-0xB24	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_032
-0xB25	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_033
-0xB26	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_034
-0xB27	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_035
-0xB28	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_036
-0xB29	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_037
-0xB2A	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_038
-0xB2B	HIDDEN ITEM			Pass Orb		FLAG_HIDEITEM_039
-0xB2C	HIDDEN ITEM	Virbank City		Antidote		FLAG_HIDEITEM_040
-0xB2D	HIDDEN ITEM	Dreamyard		PP Up		FLAG_HIDEITEM_041
-0xB2E	HIDDEN ITEM	Dreamyard	Basement	Psychic Gem		FLAG_HIDEITEM_042
-0xB2F	HIDDEN ITEM	Pinwheel Forest	Outside	Max Elixir		FLAG_HIDEITEM_043
-0xB30	HIDDEN ITEM	Pinwheel Forest	Outside	Ultra Ball		FLAG_HIDEITEM_044
-0xB31	HIDDEN ITEM	Pinwheel Forest	Outside	Fighting Gem		FLAG_HIDEITEM_045
-0xB32	HIDDEN ITEM	Pinwheel Forest	Inside	Bug Gem		FLAG_HIDEITEM_046
-0xB33	HIDDEN ITEM	Pinwheel Forest	Inside	Balm Mushroom		FLAG_HIDEITEM_047
-0xB34	HIDDEN ITEM	Pinwheel Forest	Inside	Rare Candy		FLAG_HIDEITEM_048
-0xB35	HIDDEN ITEM	Pinwheel Forest	Inside	Green Shard		FLAG_HIDEITEM_049
-0xB36	HIDDEN ITEM	Pinwheel Forest	Inside	Ultra Ball		FLAG_HIDEITEM_050
-0xB37	HIDDEN ITEM	Desert Resort		Ground Gem		FLAG_HIDEITEM_051
-0xB38	HIDDEN ITEM	Desert Resort		Red Shard		FLAG_HIDEITEM_052
-0xB39	HIDDEN ITEM	Desert Resort		Blue Shard		FLAG_HIDEITEM_053
-0xB3A	HIDDEN ITEM	Desert Resort		Star Piece		FLAG_HIDEITEM_054
-0xB3B	HIDDEN ITEM	Desert Resort		Fire Stone		FLAG_HIDEITEM_055
-0xB3C	HIDDEN ITEM	Desert Resort		Super Repel		FLAG_HIDEITEM_056
-0xB3D	HIDDEN ITEM	Relic Castle	B1F	Heart Scale		FLAG_HIDEITEM_057
-0xB3E	HIDDEN ITEM	Relic Castle	Passage	Sun Stone		FLAG_HIDEITEM_058
-0xB3F	HIDDEN ITEM	PWT	Exterior	Zinc		FLAG_HIDEITEM_059
-0xB40	HIDDEN ITEM	PWT	Exterior	Ether		FLAG_HIDEITEM_060
-0xB41	HIDDEN ITEM	Chargestone Cave	1F	Yellow Shard		FLAG_HIDEITEM_061
-0xB42	HIDDEN ITEM	Chargestone Cave	1F	Hyper Potion		FLAG_HIDEITEM_062
-0xB43	HIDDEN ITEM	Chargestone Cave	1F	Carbos		FLAG_HIDEITEM_063
-0xB44	HIDDEN ITEM	Chargestone Cave	B1F	Ultra Ball		FLAG_HIDEITEM_064
-0xB45	HIDDEN ITEM	Chargestone Cave	B2F	Electric Gem		FLAG_HIDEITEM_065
-0xB46	HIDDEN ITEM	Twist Mountain		Full Restore		FLAG_HIDEITEM_066
-0xB47	HIDDEN ITEM	Twist Mountain		Yellow Shard		FLAG_HIDEITEM_067
-0xB48	HIDDEN ITEM	Twist Mountain		Rare Candy		FLAG_HIDEITEM_068
-0xB49	HIDDEN ITEM	Twist Mountain		Ultra Ball		FLAG_HIDEITEM_069
-0xB4A	HIDDEN ITEM	Twist Mountain		Rare Bone		FLAG_HIDEITEM_070
-0xB4B	HIDDEN ITEM	Dragonspiral Tower	2F	Red Shard		FLAG_HIDEITEM_071
-0xB4C	HIDDEN ITEM	Dragonspiral Tower	7F	Comet Shard		FLAG_HIDEITEM_072
-0xB4D	HIDDEN ITEM	Giant Chasm	Entrance	Max Potion		FLAG_HIDEITEM_073
-0xB4E	HIDDEN ITEM	Giant Chasm	Entrance	Moon Stone		FLAG_HIDEITEM_074
-0xB4F	HIDDEN ITEM	Giant Chasm	Cave	Ice Gem		FLAG_HIDEITEM_075
-0xB50	HIDDEN ITEM	Giant Chasm	Cave	Star Piece		FLAG_HIDEITEM_076
-0xB51	HIDDEN ITEM	Giant Chasm	Cave	Ultra Ball		FLAG_HIDEITEM_077
-0xB52	HIDDEN ITEM	Castelia Sewers		Ultra Ball		FLAG_HIDEITEM_078
-0xB53	HIDDEN ITEM	Castelia Sewers		Poison Gem		FLAG_HIDEITEM_079
-0xB54	HIDDEN ITEM	Castelia Sewers		Nugget		FLAG_HIDEITEM_080
-0xB55	HIDDEN ITEM	Castelia Sewers		Max Repel		FLAG_HIDEITEM_081
-0xB56	HIDDEN ITEM	Castelia Sewers		HP Up		FLAG_HIDEITEM_082
-0xB57	HIDDEN ITEM	Undella Bay		Heart Scale		FLAG_HIDEITEM_083
-0xB58	HIDDEN ITEM	Virbank Complex	Outside	Pearl		FLAG_HIDEITEM_084
-0xB59	HIDDEN ITEM	Virbank Complex	Inside	Great Ball		FLAG_HIDEITEM_085
-0xB5A	HIDDEN ITEM	Virbank Complex	Inside	Tiny Mushroom		FLAG_HIDEITEM_086
-0xB5B	HIDDEN ITEM	Reversal Mountain	B1F	Water Gem (B2)		FLAG_HIDEITEM_087
-0xB5C	HIDDEN ITEM	Reversal Mountain	1F	Green Shard (B2)		FLAG_HIDEITEM_088
-0xB5D	HIDDEN ITEM	Reversal Mountain	1F	Elixir (B2)		FLAG_HIDEITEM_089
-0xB5E	HIDDEN ITEM	Reversal Mountain	1F	Star Piece (B2)		FLAG_HIDEITEM_090
-0xB5F	HIDDEN ITEM	Reversal Mountain	1F	Calcium (B2)		FLAG_HIDEITEM_091
-0xB60	HIDDEN ITEM	Reversal Mountain	1F	Blue Shard (B2)		FLAG_HIDEITEM_092
-0xB61	HIDDEN ITEM	Reversal Mountain	B1F	Fire Gem (W2)		FLAG_HIDEITEM_093
-0xB62	HIDDEN ITEM	Reversal Mountain	1F	Elixir (W2)		FLAG_HIDEITEM_094
-0xB63	HIDDEN ITEM	Reversal Mountain	1F	Yellow Shard (W2)		FLAG_HIDEITEM_095
-0xB64	HIDDEN ITEM	Reversal Mountain	1F	Calcium (W2)		FLAG_HIDEITEM_096
-0xB65	HIDDEN ITEM	Reversal Mountain	1F	Star Piece (W2)		FLAG_HIDEITEM_097
-0xB66	HIDDEN ITEM	Reversal Mountain	1F	Red Shard (W2)		FLAG_HIDEITEM_098
-0xB67	HIDDEN ITEM	Route 23		Yellow Shard		FLAG_HIDEITEM_099
-0xB68	HIDDEN ITEM	Route 23		Ultra Ball		FLAG_HIDEITEM_100
-0xB69	HIDDEN ITEM	Route 23		PP Up		FLAG_HIDEITEM_101
-0xB6A	HIDDEN ITEM	Victory Road	Entrance	Dusk Stone		FLAG_HIDEITEM_102
-0xB6B	HIDDEN ITEM	Victory Road	Entrance	Iron		FLAG_HIDEITEM_103
-0xB6C	HIDDEN ITEM	Victory Road	2F	Full Restore		FLAG_HIDEITEM_104
-0xB6D	HIDDEN ITEM	Victory Road	2F	Max Revive		FLAG_HIDEITEM_105
-0xB6E	HIDDEN ITEM	Victory Road	Cave	Red Shard		FLAG_HIDEITEM_106
-0xB6F	HIDDEN ITEM	Victory Road	Cave	Max Elixir		FLAG_HIDEITEM_107
-0xB70	HIDDEN ITEM	Victory Road	Outside Area 2	Rare Candy		FLAG_HIDEITEM_108
-0xB71	HIDDEN ITEM	Victory Road	Outside Area 2	Normal Gem		FLAG_HIDEITEM_109
-0xB72	HIDDEN ITEM	Relic Passage		Escape Rope		FLAG_HIDEITEM_110
-0xB73	HIDDEN ITEM	Relic Passage		Max Repel		FLAG_HIDEITEM_111
-0xB74	HIDDEN ITEM	Relic Passage		Blue Shard		FLAG_HIDEITEM_112
-0xB75	HIDDEN ITEM	Relic Passage		Green Shard		FLAG_HIDEITEM_113
-0xB76	HIDDEN ITEM	Relic Passage		Red Shard		FLAG_HIDEITEM_114
-0xB77	HIDDEN ITEM	Relic Passage		Yellow Shard		FLAG_HIDEITEM_115
-0xB78	HIDDEN ITEM	Relic Passage		Rock Gem		FLAG_HIDEITEM_116
-0xB79	HIDDEN ITEM	Clay Tunnel		Blue Shard		FLAG_HIDEITEM_117
-0xB7A	HIDDEN ITEM	Clay Tunnel		Full Heal		FLAG_HIDEITEM_118
-0xB7B	HIDDEN ITEM	Clay Tunnel		Water Stone		FLAG_HIDEITEM_119
-0xB7C	HIDDEN ITEM	Clay Tunnel		Steel Gem		FLAG_HIDEITEM_120
-0xB7D	HIDDEN ITEM	Clay Tunnel		Big Nugget		FLAG_HIDEITEM_121
-0xB7E	HIDDEN ITEM	Clay Tunnel		Iron		FLAG_HIDEITEM_122
-0xB7F	HIDDEN ITEM	Seaside Cave	1F	Calcium		FLAG_HIDEITEM_123
-0xB80	HIDDEN ITEM	Seaside Cave	1F	Blue Shard		FLAG_HIDEITEM_124
-0xB81	HIDDEN ITEM	Village Bridge		PP Up		FLAG_HIDEITEM_125
-0xB82	HIDDEN ITEM	Village Bridge		Max Ether		FLAG_HIDEITEM_126
-0xB83	HIDDEN ITEM	Village Bridge		Big Mushroom		FLAG_HIDEITEM_127
-0xB84	HIDDEN ITEM	Route 1		Ultra Ball		FLAG_HIDEITEM_128
-0xB85	HIDDEN ITEM	Route 1		Protein		FLAG_HIDEITEM_129
-0xB86	HIDDEN ITEM	Route 2		Max Revive		FLAG_HIDEITEM_130
-0xB87	HIDDEN ITEM	Route 2		PP Max		FLAG_HIDEITEM_131
-0xB88	HIDDEN ITEM	Route 3		Rare Candy		FLAG_HIDEITEM_132
-0xB89	HIDDEN ITEM	Route 3		Ultra Ball		FLAG_HIDEITEM_133
-0xB8A	HIDDEN ITEM	Wellspring Cave	B1F	Carbos		FLAG_HIDEITEM_134
-0xB8B	HIDDEN ITEM	Wellspring Cave	B1F	Max Revive		FLAG_HIDEITEM_135
-0xB8C	HIDDEN ITEM	Wellspring Cave	B1F	Ultra Ball		FLAG_HIDEITEM_136
-0xB8D	HIDDEN ITEM	Route 4		Red Shard (B2)		FLAG_HIDEITEM_137
-0xB8E	HIDDEN ITEM	Route 4		Hyper Potion (B2)		FLAG_HIDEITEM_138
-0xB8F	HIDDEN ITEM	Route 4		Stardust (B2)		FLAG_HIDEITEM_139
-0xB90	HIDDEN ITEM	Route 4		Yellow Shard (B2)		FLAG_HIDEITEM_140
-0xB91	HIDDEN ITEM	Route 4		Green Shard (B2)		FLAG_HIDEITEM_141
-0xB92	HIDDEN ITEM	Route 4		Red Shard (W2)		FLAG_HIDEITEM_142
-0xB93	HIDDEN ITEM	Route 4		Hyper Potion (W2)		FLAG_HIDEITEM_143
-0xB94	HIDDEN ITEM	Route 4		Stardust (W2)		FLAG_HIDEITEM_144
-0xB95	HIDDEN ITEM	Route 4		Yellow Shard (W2)		FLAG_HIDEITEM_145
-0xB96	HIDDEN ITEM	Route 4		Green Shard (W2)		FLAG_HIDEITEM_146
-0xB97	HIDDEN ITEM	Route 5		Hyper Potion		FLAG_HIDEITEM_147
-0xB98	HIDDEN ITEM	Route 6		Tiny Mushroom		FLAG_HIDEITEM_148
-0xB99	HIDDEN ITEM	Route 6		Big Mushroom		FLAG_HIDEITEM_149
-0xB9A	HIDDEN ITEM	Route 6		Protein		FLAG_HIDEITEM_150
-0xB9B	HIDDEN ITEM	Mistralton Cave	1F	Super Repel		FLAG_HIDEITEM_151
-0xB9C	HIDDEN ITEM	Mistralton Cave	2F	Green Shard		FLAG_HIDEITEM_152
-0xB9D	HIDDEN ITEM	Mistralton Cave	2F	Ultra Ball		FLAG_HIDEITEM_153
-0xB9E	HIDDEN ITEM	Mistralton Cave	3F	Full Heal		FLAG_HIDEITEM_154
-0xB9F	HIDDEN ITEM	Mistralton Cave	3F	Dragon Gem		FLAG_HIDEITEM_155
-0xBA0	HIDDEN ITEM	Route 7		Tiny Mushroom		FLAG_HIDEITEM_156
-0xBA1	HIDDEN ITEM	Route 7		Revive		FLAG_HIDEITEM_157
-0xBA2	HIDDEN ITEM	Celestial Tower	5F	Ghost Gem		FLAG_HIDEITEM_158
-0xBA3	HIDDEN ITEM	Route 8		Max Repel		FLAG_HIDEITEM_159
-0xBA4	HIDDEN ITEM	Route 8		Rare Candy		FLAG_HIDEITEM_160
-0xBA5	HIDDEN ITEM	Moor of Icirrus		Dawn Stone		FLAG_HIDEITEM_161
-0xBA6	HIDDEN ITEM	Moor of Icirrus		Big Mushroom		FLAG_HIDEITEM_162
-0xBA7	HIDDEN ITEM	Moor of Icirrus		Tiny Mushroom		FLAG_HIDEITEM_163
-0xBA8	HIDDEN ITEM	Route 9		Dark Gem		FLAG_HIDEITEM_164
-0xBA9	HIDDEN ITEM	Route 11		HP Up		FLAG_HIDEITEM_165
-0xBAA	HIDDEN ITEM	Route 11		Max Potion		FLAG_HIDEITEM_166
-0xBAB	HIDDEN ITEM	Route 12		Rare Candy		FLAG_HIDEITEM_167
-0xBAC	HIDDEN ITEM	Route 12		Max Repel		FLAG_HIDEITEM_168
-0xBAD	HIDDEN ITEM	Route 12		Ultra Ball		FLAG_HIDEITEM_169
-0xBAE	HIDDEN ITEM	Route 13		Big Pearl		FLAG_HIDEITEM_170
-0xBAF	HIDDEN ITEM	Route 13		Zinc		FLAG_HIDEITEM_171
-0xBB0	HIDDEN ITEM	Route 13		Pearl		FLAG_HIDEITEM_172
-0xBB1	HIDDEN ITEM	Route 13		Heart Scale		FLAG_HIDEITEM_173
-0xBB2	HIDDEN ITEM	Route 13		Heart Scale		FLAG_HIDEITEM_174
-0xBB3	HIDDEN ITEM	Route 14		Nugget		FLAG_HIDEITEM_175
-0xBB4	HIDDEN ITEM	Route 14		Protein		FLAG_HIDEITEM_176
-0xBB5	HIDDEN ITEM	Abundant Shrine		Big Mushroom		FLAG_HIDEITEM_177
-0xBB6	HIDDEN ITEM	Abundant Shrine		Calcium		FLAG_HIDEITEM_178
-0xBB7	HIDDEN ITEM	Abundant Shrine		Tiny Mushroom		FLAG_HIDEITEM_179
-0xBB8	HIDDEN ITEM	Abundant Shrine		PP Max		FLAG_HIDEITEM_180
-0xBB9	HIDDEN ITEM	Route 15		Ultra Ball		FLAG_HIDEITEM_181
-0xBBA	HIDDEN ITEM	Route 15		HP Up		FLAG_HIDEITEM_182
-0xBBB	HIDDEN ITEM	Route 16		Tiny Mushroom		FLAG_HIDEITEM_183
-0xBBC	HIDDEN ITEM	Lostlorn Forest		Leaf Stone		FLAG_HIDEITEM_184
-0xBBD	HIDDEN ITEM	Lostlorn Forest		Grass Gem		FLAG_HIDEITEM_185
-0xBBE	HIDDEN ITEM	Route 18		PP Max		FLAG_HIDEITEM_186
-0xBBF	HIDDEN ITEM	Route 18		Rare Candy		FLAG_HIDEITEM_187
-0xBC0	HIDDEN ITEM	Route 18		Prism Scale (recurring)		FLAG_HIDEITEM_188
-0xBC1	HIDDEN ITEM	Route 18		Heart Scale		FLAG_HIDEITEM_189
-0xBC2	HIDDEN ITEM	Route 18		Pearl String		FLAG_HIDEITEM_190
-0xBC3	HIDDEN ITEM	Route 18		Pearl (recurring)		FLAG_HIDEITEM_191
-0xBC4	HIDDEN ITEM	Route 19		Expert Belt		FLAG_HIDEITEM_192
-0xBC5	HIDDEN ITEM	Route 20		Heart Scale		FLAG_HIDEITEM_193
-0xBC6	HIDDEN ITEM	Route 20		Big Mushroom		FLAG_HIDEITEM_194
-0xBC7	HIDDEN ITEM	Route 22		Carbos		FLAG_HIDEITEM_195
-0xBC8	HIDDEN ITEM	Route 22		Green Shard		FLAG_HIDEITEM_196
-0xBC9	HIDDEN ITEM	Route 23		Star Piece		FLAG_HIDEITEM_197
-0xBCA	HIDDEN ITEM	Route 23		Rare Candy		FLAG_HIDEITEM_198
-0xBCB	HIDDEN ITEM	Nuvema Town		Zinc		FLAG_HIDEITEM_199
-0xBCC	HIDDEN ITEM	Accumula Town		Max Repel		FLAG_HIDEITEM_200
-0xBCD	HIDDEN ITEM	Undella Town		Shiny Stone		FLAG_HIDEITEM_201
-0xBCE	HIDDEN ITEM	Undella Town		Heart Scale		FLAG_HIDEITEM_202
-0xBCF	HIDDEN ITEM	Undella Town		Pearl		FLAG_HIDEITEM_203
-0xBD0	HIDDEN ITEM	Undella Town		Pearl		FLAG_HIDEITEM_204
-0xBD1	HIDDEN ITEM	Route 17		Blue Shard		FLAG_HIDEITEM_205
-0xBD2	HIDDEN ITEM	Route 17		Shoal Salt (recurring)		FLAG_HIDEITEM_206
-0xBD3	HIDDEN ITEM	Route 17		Shoal Shell (recurring)		FLAG_HIDEITEM_207
-0xBD4	HIDDEN ITEM	Humilau City		Heart Scale		FLAG_HIDEITEM_208
-0xBD5	HIDDEN ITEM	Striaton City		Full Restore		FLAG_HIDEITEM_209
-0xBD6	HIDDEN ITEM	Route 3		Nugget		FLAG_HIDEITEM_210
-0xBD7	HIDDEN ITEM	Route 20		Poké Ball		FLAG_HIDEITEM_211
-0xBD8	HIDDEN ITEM	Floccesy Town		Potion		FLAG_HIDEITEM_212
+0xB04	HIDDEN ITEM	Striaton City		Found PP Up		FLAG_HIDEITEM_000
+0xB05	HIDDEN ITEM	Nacrene City		Found PP Up		FLAG_HIDEITEM_001
+0xB06	HIDDEN ITEM	Nimbasa City		Found Thunder Stone		FLAG_HIDEITEM_002
+0xB07	HIDDEN ITEM	Nimbasa City		Found Revive		FLAG_HIDEITEM_003
+0xB08	HIDDEN ITEM	Driftveil City		Found Ultra Ball		FLAG_HIDEITEM_004
+0xB09	HIDDEN ITEM	Driftveil City		Found Rare Bone		FLAG_HIDEITEM_005
+0xB0A	HIDDEN ITEM	Mistralton City		Found Flying Gem		FLAG_HIDEITEM_006
+0xB0B	HIDDEN ITEM	Mistralton City	House	Found Iron		FLAG_HIDEITEM_007
+0xB0C	HIDDEN ITEM	Humilau City	House	Found Full Restore		FLAG_HIDEITEM_008
+0xB0D	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_009
+0xB0E	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_010
+0xB0F	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_011
+0xB10	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_012
+0xB11	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_013
+0xB12	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_014
+0xB13	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_015
+0xB14	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_016
+0xB15	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_017
+0xB16	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_018
+0xB17	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_019
+0xB18	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_020
+0xB19	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_021
+0xB1A	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_022
+0xB1B	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_023
+0xB1C	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_024
+0xB1D	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_025
+0xB1E	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_026
+0xB1F	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_027
+0xB20	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_028
+0xB21	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_029
+0xB22	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_030
+0xB23	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_031
+0xB24	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_032
+0xB25	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_033
+0xB26	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_034
+0xB27	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_035
+0xB28	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_036
+0xB29	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_037
+0xB2A	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_038
+0xB2B	HIDDEN ITEM			Found Pass Orb		FLAG_HIDEITEM_039
+0xB2C	HIDDEN ITEM	Virbank City		Found Antidote		FLAG_HIDEITEM_040
+0xB2D	HIDDEN ITEM	Dreamyard		Found PP Up		FLAG_HIDEITEM_041
+0xB2E	HIDDEN ITEM	Dreamyard	Basement	Found Psychic Gem		FLAG_HIDEITEM_042
+0xB2F	HIDDEN ITEM	Pinwheel Forest	Outside	Found Max Elixir		FLAG_HIDEITEM_043
+0xB30	HIDDEN ITEM	Pinwheel Forest	Outside	Found Ultra Ball		FLAG_HIDEITEM_044
+0xB31	HIDDEN ITEM	Pinwheel Forest	Outside	Found Fighting Gem		FLAG_HIDEITEM_045
+0xB32	HIDDEN ITEM	Pinwheel Forest	Inside	Found Bug Gem		FLAG_HIDEITEM_046
+0xB33	HIDDEN ITEM	Pinwheel Forest	Inside	Found Balm Mushroom		FLAG_HIDEITEM_047
+0xB34	HIDDEN ITEM	Pinwheel Forest	Inside	Found Rare Candy		FLAG_HIDEITEM_048
+0xB35	HIDDEN ITEM	Pinwheel Forest	Inside	Found Green Shard		FLAG_HIDEITEM_049
+0xB36	HIDDEN ITEM	Pinwheel Forest	Inside	Found Ultra Ball		FLAG_HIDEITEM_050
+0xB37	HIDDEN ITEM	Desert Resort		Found Ground Gem		FLAG_HIDEITEM_051
+0xB38	HIDDEN ITEM	Desert Resort		Found Red Shard		FLAG_HIDEITEM_052
+0xB39	HIDDEN ITEM	Desert Resort		Found Blue Shard		FLAG_HIDEITEM_053
+0xB3A	HIDDEN ITEM	Desert Resort		Found Star Piece		FLAG_HIDEITEM_054
+0xB3B	HIDDEN ITEM	Desert Resort		Found Fire Stone		FLAG_HIDEITEM_055
+0xB3C	HIDDEN ITEM	Desert Resort		Found Super Repel		FLAG_HIDEITEM_056
+0xB3D	HIDDEN ITEM	Relic Castle	B1F	Found Heart Scale		FLAG_HIDEITEM_057
+0xB3E	HIDDEN ITEM	Relic Castle	Passage	Found Sun Stone		FLAG_HIDEITEM_058
+0xB3F	HIDDEN ITEM	PWT	Exterior	Found Zinc		FLAG_HIDEITEM_059
+0xB40	HIDDEN ITEM	PWT	Exterior	Found Ether		FLAG_HIDEITEM_060
+0xB41	HIDDEN ITEM	Chargestone Cave	1F	Found Yellow Shard		FLAG_HIDEITEM_061
+0xB42	HIDDEN ITEM	Chargestone Cave	1F	Found Hyper Potion		FLAG_HIDEITEM_062
+0xB43	HIDDEN ITEM	Chargestone Cave	1F	Found Carbos		FLAG_HIDEITEM_063
+0xB44	HIDDEN ITEM	Chargestone Cave	B1F	Found Ultra Ball		FLAG_HIDEITEM_064
+0xB45	HIDDEN ITEM	Chargestone Cave	B2F	Found Electric Gem		FLAG_HIDEITEM_065
+0xB46	HIDDEN ITEM	Twist Mountain		Found Full Restore		FLAG_HIDEITEM_066
+0xB47	HIDDEN ITEM	Twist Mountain		Found Yellow Shard		FLAG_HIDEITEM_067
+0xB48	HIDDEN ITEM	Twist Mountain		Found Rare Candy		FLAG_HIDEITEM_068
+0xB49	HIDDEN ITEM	Twist Mountain		Found Ultra Ball		FLAG_HIDEITEM_069
+0xB4A	HIDDEN ITEM	Twist Mountain		Found Rare Bone		FLAG_HIDEITEM_070
+0xB4B	HIDDEN ITEM	Dragonspiral Tower	2F	Found Red Shard		FLAG_HIDEITEM_071
+0xB4C	HIDDEN ITEM	Dragonspiral Tower	7F	Found Comet Shard		FLAG_HIDEITEM_072
+0xB4D	HIDDEN ITEM	Giant Chasm	Entrance	Found Max Potion		FLAG_HIDEITEM_073
+0xB4E	HIDDEN ITEM	Giant Chasm	Entrance	Found Moon Stone		FLAG_HIDEITEM_074
+0xB4F	HIDDEN ITEM	Giant Chasm	Cave	Found Ice Gem		FLAG_HIDEITEM_075
+0xB50	HIDDEN ITEM	Giant Chasm	Cave	Found Star Piece		FLAG_HIDEITEM_076
+0xB51	HIDDEN ITEM	Giant Chasm	Cave	Found Ultra Ball		FLAG_HIDEITEM_077
+0xB52	HIDDEN ITEM	Castelia Sewers		Found Ultra Ball		FLAG_HIDEITEM_078
+0xB53	HIDDEN ITEM	Castelia Sewers		Found Poison Gem		FLAG_HIDEITEM_079
+0xB54	HIDDEN ITEM	Castelia Sewers		Found Nugget		FLAG_HIDEITEM_080
+0xB55	HIDDEN ITEM	Castelia Sewers		Found Max Repel		FLAG_HIDEITEM_081
+0xB56	HIDDEN ITEM	Castelia Sewers		Found HP Up		FLAG_HIDEITEM_082
+0xB57	HIDDEN ITEM	Undella Bay		Found Heart Scale		FLAG_HIDEITEM_083
+0xB58	HIDDEN ITEM	Virbank Complex	Outside	Found Pearl		FLAG_HIDEITEM_084
+0xB59	HIDDEN ITEM	Virbank Complex	Inside	Found Great Ball		FLAG_HIDEITEM_085
+0xB5A	HIDDEN ITEM	Virbank Complex	Inside	Found Tiny Mushroom		FLAG_HIDEITEM_086
+0xB5B	HIDDEN ITEM	Reversal Mountain	B1F	Found Water Gem (B2)		FLAG_HIDEITEM_087
+0xB5C	HIDDEN ITEM	Reversal Mountain	1F	Found Green Shard (B2)		FLAG_HIDEITEM_088
+0xB5D	HIDDEN ITEM	Reversal Mountain	1F	Found Elixir (B2)		FLAG_HIDEITEM_089
+0xB5E	HIDDEN ITEM	Reversal Mountain	1F	Found Star Piece (B2)		FLAG_HIDEITEM_090
+0xB5F	HIDDEN ITEM	Reversal Mountain	1F	Found Calcium (B2)		FLAG_HIDEITEM_091
+0xB60	HIDDEN ITEM	Reversal Mountain	1F	Found Blue Shard (B2)		FLAG_HIDEITEM_092
+0xB61	HIDDEN ITEM	Reversal Mountain	B1F	Found Fire Gem (W2)		FLAG_HIDEITEM_093
+0xB62	HIDDEN ITEM	Reversal Mountain	1F	Found Elixir (W2)		FLAG_HIDEITEM_094
+0xB63	HIDDEN ITEM	Reversal Mountain	1F	Found Yellow Shard (W2)		FLAG_HIDEITEM_095
+0xB64	HIDDEN ITEM	Reversal Mountain	1F	Found Calcium (W2)		FLAG_HIDEITEM_096
+0xB65	HIDDEN ITEM	Reversal Mountain	1F	Found Star Piece (W2)		FLAG_HIDEITEM_097
+0xB66	HIDDEN ITEM	Reversal Mountain	1F	Found Red Shard (W2)		FLAG_HIDEITEM_098
+0xB67	HIDDEN ITEM	Route 23		Found Yellow Shard		FLAG_HIDEITEM_099
+0xB68	HIDDEN ITEM	Route 23		Found Ultra Ball		FLAG_HIDEITEM_100
+0xB69	HIDDEN ITEM	Route 23		Found PP Up		FLAG_HIDEITEM_101
+0xB6A	HIDDEN ITEM	Victory Road	Entrance	Found Dusk Stone		FLAG_HIDEITEM_102
+0xB6B	HIDDEN ITEM	Victory Road	Entrance	Found Iron		FLAG_HIDEITEM_103
+0xB6C	HIDDEN ITEM	Victory Road	2F	Found Full Restore		FLAG_HIDEITEM_104
+0xB6D	HIDDEN ITEM	Victory Road	2F	Found Max Revive		FLAG_HIDEITEM_105
+0xB6E	HIDDEN ITEM	Victory Road	Cave	Found Red Shard		FLAG_HIDEITEM_106
+0xB6F	HIDDEN ITEM	Victory Road	Cave	Found Max Elixir		FLAG_HIDEITEM_107
+0xB70	HIDDEN ITEM	Victory Road	Outside Area 2	Found Rare Candy		FLAG_HIDEITEM_108
+0xB71	HIDDEN ITEM	Victory Road	Outside Area 2	Found Normal Gem		FLAG_HIDEITEM_109
+0xB72	HIDDEN ITEM	Relic Passage		Found Escape Rope		FLAG_HIDEITEM_110
+0xB73	HIDDEN ITEM	Relic Passage		Found Max Repel		FLAG_HIDEITEM_111
+0xB74	HIDDEN ITEM	Relic Passage		Found Blue Shard		FLAG_HIDEITEM_112
+0xB75	HIDDEN ITEM	Relic Passage		Found Green Shard		FLAG_HIDEITEM_113
+0xB76	HIDDEN ITEM	Relic Passage		Found Red Shard		FLAG_HIDEITEM_114
+0xB77	HIDDEN ITEM	Relic Passage		Found Yellow Shard		FLAG_HIDEITEM_115
+0xB78	HIDDEN ITEM	Relic Passage		Found Rock Gem		FLAG_HIDEITEM_116
+0xB79	HIDDEN ITEM	Clay Tunnel		Found Blue Shard		FLAG_HIDEITEM_117
+0xB7A	HIDDEN ITEM	Clay Tunnel		Found Full Heal		FLAG_HIDEITEM_118
+0xB7B	HIDDEN ITEM	Clay Tunnel		Found Water Stone		FLAG_HIDEITEM_119
+0xB7C	HIDDEN ITEM	Clay Tunnel		Found Steel Gem		FLAG_HIDEITEM_120
+0xB7D	HIDDEN ITEM	Clay Tunnel		Found Big Nugget		FLAG_HIDEITEM_121
+0xB7E	HIDDEN ITEM	Clay Tunnel		Found Iron		FLAG_HIDEITEM_122
+0xB7F	HIDDEN ITEM	Seaside Cave	1F	Found Calcium		FLAG_HIDEITEM_123
+0xB80	HIDDEN ITEM	Seaside Cave	1F	Found Blue Shard		FLAG_HIDEITEM_124
+0xB81	HIDDEN ITEM	Village Bridge		Found PP Up		FLAG_HIDEITEM_125
+0xB82	HIDDEN ITEM	Village Bridge		Found Max Ether		FLAG_HIDEITEM_126
+0xB83	HIDDEN ITEM	Village Bridge		Found Big Mushroom		FLAG_HIDEITEM_127
+0xB84	HIDDEN ITEM	Route 1		Found Ultra Ball		FLAG_HIDEITEM_128
+0xB85	HIDDEN ITEM	Route 1		Found Protein		FLAG_HIDEITEM_129
+0xB86	HIDDEN ITEM	Route 2		Found Max Revive		FLAG_HIDEITEM_130
+0xB87	HIDDEN ITEM	Route 2		Found PP Max		FLAG_HIDEITEM_131
+0xB88	HIDDEN ITEM	Route 3		Found Rare Candy		FLAG_HIDEITEM_132
+0xB89	HIDDEN ITEM	Route 3		Found Ultra Ball		FLAG_HIDEITEM_133
+0xB8A	HIDDEN ITEM	Wellspring Cave	B1F	Found Carbos		FLAG_HIDEITEM_134
+0xB8B	HIDDEN ITEM	Wellspring Cave	B1F	Found Max Revive		FLAG_HIDEITEM_135
+0xB8C	HIDDEN ITEM	Wellspring Cave	B1F	Found Ultra Ball		FLAG_HIDEITEM_136
+0xB8D	HIDDEN ITEM	Route 4		Found Red Shard (B2)		FLAG_HIDEITEM_137
+0xB8E	HIDDEN ITEM	Route 4		Found Hyper Potion (B2)		FLAG_HIDEITEM_138
+0xB8F	HIDDEN ITEM	Route 4		Found Stardust (B2)		FLAG_HIDEITEM_139
+0xB90	HIDDEN ITEM	Route 4		Found Yellow Shard (B2)		FLAG_HIDEITEM_140
+0xB91	HIDDEN ITEM	Route 4		Found Green Shard (B2)		FLAG_HIDEITEM_141
+0xB92	HIDDEN ITEM	Route 4		Found Red Shard (W2)		FLAG_HIDEITEM_142
+0xB93	HIDDEN ITEM	Route 4		Found Hyper Potion (W2)		FLAG_HIDEITEM_143
+0xB94	HIDDEN ITEM	Route 4		Found Stardust (W2)		FLAG_HIDEITEM_144
+0xB95	HIDDEN ITEM	Route 4		Found Yellow Shard (W2)		FLAG_HIDEITEM_145
+0xB96	HIDDEN ITEM	Route 4		Found Green Shard (W2)		FLAG_HIDEITEM_146
+0xB97	HIDDEN ITEM	Route 5		Found Hyper Potion		FLAG_HIDEITEM_147
+0xB98	HIDDEN ITEM	Route 6		Found Tiny Mushroom		FLAG_HIDEITEM_148
+0xB99	HIDDEN ITEM	Route 6		Found Big Mushroom		FLAG_HIDEITEM_149
+0xB9A	HIDDEN ITEM	Route 6		Found Protein		FLAG_HIDEITEM_150
+0xB9B	HIDDEN ITEM	Mistralton Cave	1F	Found Super Repel		FLAG_HIDEITEM_151
+0xB9C	HIDDEN ITEM	Mistralton Cave	2F	Found Green Shard		FLAG_HIDEITEM_152
+0xB9D	HIDDEN ITEM	Mistralton Cave	2F	Found Ultra Ball		FLAG_HIDEITEM_153
+0xB9E	HIDDEN ITEM	Mistralton Cave	3F	Found Full Heal		FLAG_HIDEITEM_154
+0xB9F	HIDDEN ITEM	Mistralton Cave	3F	Found Dragon Gem		FLAG_HIDEITEM_155
+0xBA0	HIDDEN ITEM	Route 7		Found Tiny Mushroom		FLAG_HIDEITEM_156
+0xBA1	HIDDEN ITEM	Route 7		Found Revive		FLAG_HIDEITEM_157
+0xBA2	HIDDEN ITEM	Celestial Tower	5F	Found Ghost Gem		FLAG_HIDEITEM_158
+0xBA3	HIDDEN ITEM	Route 8		Found Max Repel		FLAG_HIDEITEM_159
+0xBA4	HIDDEN ITEM	Route 8		Found Rare Candy		FLAG_HIDEITEM_160
+0xBA5	HIDDEN ITEM	Moor of Icirrus		Found Dawn Stone		FLAG_HIDEITEM_161
+0xBA6	HIDDEN ITEM	Moor of Icirrus		Found Big Mushroom		FLAG_HIDEITEM_162
+0xBA7	HIDDEN ITEM	Moor of Icirrus		Found Tiny Mushroom		FLAG_HIDEITEM_163
+0xBA8	HIDDEN ITEM	Route 9		Found Dark Gem		FLAG_HIDEITEM_164
+0xBA9	HIDDEN ITEM	Route 11		Found HP Up		FLAG_HIDEITEM_165
+0xBAA	HIDDEN ITEM	Route 11		Found Max Potion		FLAG_HIDEITEM_166
+0xBAB	HIDDEN ITEM	Route 12		Found Rare Candy		FLAG_HIDEITEM_167
+0xBAC	HIDDEN ITEM	Route 12		Found Max Repel		FLAG_HIDEITEM_168
+0xBAD	HIDDEN ITEM	Route 12		Found Ultra Ball		FLAG_HIDEITEM_169
+0xBAE	HIDDEN ITEM	Route 13		Found Big Pearl		FLAG_HIDEITEM_170
+0xBAF	HIDDEN ITEM	Route 13		Found Zinc		FLAG_HIDEITEM_171
+0xBB0	HIDDEN ITEM	Route 13		Found Pearl		FLAG_HIDEITEM_172
+0xBB1	HIDDEN ITEM	Route 13		Found Heart Scale		FLAG_HIDEITEM_173
+0xBB2	HIDDEN ITEM	Route 13		Found Heart Scale		FLAG_HIDEITEM_174
+0xBB3	HIDDEN ITEM	Route 14		Found Nugget		FLAG_HIDEITEM_175
+0xBB4	HIDDEN ITEM	Route 14		Found Protein		FLAG_HIDEITEM_176
+0xBB5	HIDDEN ITEM	Abundant Shrine		Found Big Mushroom		FLAG_HIDEITEM_177
+0xBB6	HIDDEN ITEM	Abundant Shrine		Found Calcium		FLAG_HIDEITEM_178
+0xBB7	HIDDEN ITEM	Abundant Shrine		Found Tiny Mushroom		FLAG_HIDEITEM_179
+0xBB8	HIDDEN ITEM	Abundant Shrine		Found PP Max		FLAG_HIDEITEM_180
+0xBB9	HIDDEN ITEM	Route 15		Found Ultra Ball		FLAG_HIDEITEM_181
+0xBBA	HIDDEN ITEM	Route 15		Found HP Up		FLAG_HIDEITEM_182
+0xBBB	HIDDEN ITEM	Route 16		Found Tiny Mushroom		FLAG_HIDEITEM_183
+0xBBC	HIDDEN ITEM	Lostlorn Forest		Found Leaf Stone		FLAG_HIDEITEM_184
+0xBBD	HIDDEN ITEM	Lostlorn Forest		Found Grass Gem		FLAG_HIDEITEM_185
+0xBBE	HIDDEN ITEM	Route 18		Found PP Max		FLAG_HIDEITEM_186
+0xBBF	HIDDEN ITEM	Route 18		Found Rare Candy		FLAG_HIDEITEM_187
+0xBC0	HIDDEN ITEM	Route 18		Found Prism Scale (recurring)		FLAG_HIDEITEM_188
+0xBC1	HIDDEN ITEM	Route 18		Found Heart Scale		FLAG_HIDEITEM_189
+0xBC2	HIDDEN ITEM	Route 18		Found Pearl String		FLAG_HIDEITEM_190
+0xBC3	HIDDEN ITEM	Route 18		Found Pearl (recurring)		FLAG_HIDEITEM_191
+0xBC4	HIDDEN ITEM	Route 19		Found Expert Belt		FLAG_HIDEITEM_192
+0xBC5	HIDDEN ITEM	Route 20		Found Heart Scale		FLAG_HIDEITEM_193
+0xBC6	HIDDEN ITEM	Route 20		Found Big Mushroom		FLAG_HIDEITEM_194
+0xBC7	HIDDEN ITEM	Route 22		Found Carbos		FLAG_HIDEITEM_195
+0xBC8	HIDDEN ITEM	Route 22		Found Green Shard		FLAG_HIDEITEM_196
+0xBC9	HIDDEN ITEM	Route 23		Found Star Piece		FLAG_HIDEITEM_197
+0xBCA	HIDDEN ITEM	Route 23		Found Rare Candy		FLAG_HIDEITEM_198
+0xBCB	HIDDEN ITEM	Nuvema Town		Found Zinc		FLAG_HIDEITEM_199
+0xBCC	HIDDEN ITEM	Accumula Town		Found Max Repel		FLAG_HIDEITEM_200
+0xBCD	HIDDEN ITEM	Undella Town		Found Shiny Stone		FLAG_HIDEITEM_201
+0xBCE	HIDDEN ITEM	Undella Town		Found Heart Scale		FLAG_HIDEITEM_202
+0xBCF	HIDDEN ITEM	Undella Town		Found Pearl		FLAG_HIDEITEM_203
+0xBD0	HIDDEN ITEM	Undella Town		Found Pearl		FLAG_HIDEITEM_204
+0xBD1	HIDDEN ITEM	Route 17		Found Blue Shard		FLAG_HIDEITEM_205
+0xBD2	HIDDEN ITEM	Route 17		Found Shoal Salt (recurring)		FLAG_HIDEITEM_206
+0xBD3	HIDDEN ITEM	Route 17		Found Shoal Shell (recurring)		FLAG_HIDEITEM_207
+0xBD4	HIDDEN ITEM	Humilau City		Found Heart Scale		FLAG_HIDEITEM_208
+0xBD5	HIDDEN ITEM	Striaton City		Found Full Restore		FLAG_HIDEITEM_209
+0xBD6	HIDDEN ITEM	Route 3		Found Nugget		FLAG_HIDEITEM_210
+0xBD7	HIDDEN ITEM	Route 20		Found Poké Ball		FLAG_HIDEITEM_211
+0xBD8	HIDDEN ITEM	Floccesy Town		Found Potion		FLAG_HIDEITEM_212
 0xBD9	_UNUSED					FLAG_HIDEITEM_213
 0xBDA	_UNUSED					FLAG_HIDEITEM_214
 0xBDB	_UNUSED					FLAG_HIDEITEM_215
