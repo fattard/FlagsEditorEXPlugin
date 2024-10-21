@@ -1,36 +1,36 @@
 //	Event Flags					
 0x000	_UNUSED					
-0x001	EVENT					FLAG_TEMP_1
-0x002	EVENT					FLAG_TEMP_2
-0x003	EVENT					FLAG_TEMP_3
-0x004	EVENT					FLAG_TEMP_4
-0x005	EVENT					FLAG_TEMP_5
-0x006	EVENT					FLAG_TEMP_6
-0x007	EVENT					FLAG_TEMP_7
-0x008	EVENT					FLAG_TEMP_8
-0x009	EVENT					FLAG_TEMP_9
-0x00A	EVENT					FLAG_TEMP_A
-0x00B	EVENT					FLAG_TEMP_B
-0x00C	EVENT					FLAG_TEMP_C
-0x00D	EVENT					FLAG_TEMP_D
-0x00E	EVENT					FLAG_TEMP_E
-0x00F	EVENT					FLAG_TEMP_F
-0x010	EVENT					FLAG_TEMP_10
-0x011	EVENT					FLAG_TEMP_11
-0x012	EVENT					FLAG_TEMP_12
-0x013	EVENT					FLAG_TEMP_13
-0x014	EVENT					FLAG_TEMP_14
-0x015	EVENT					FLAG_TEMP_15
-0x016	EVENT					FLAG_TEMP_16
-0x017	EVENT					FLAG_TEMP_17
-0x018	EVENT					FLAG_TEMP_18
-0x019	EVENT					FLAG_TEMP_19
-0x01A	EVENT					FLAG_TEMP_1A
-0x01B	EVENT					FLAG_TEMP_1B
-0x01C	EVENT					FLAG_TEMP_1C
-0x01D	EVENT					FLAG_TEMP_1D
-0x01E	EVENT					FLAG_TEMP_1E
-0x01F	EVENT					FLAG_TEMP_1F
+0x001	EVENT			Temporary scratch flag		FLAG_TEMP_1
+0x002	EVENT			Temporary scratch flag		FLAG_TEMP_2
+0x003	EVENT			Temporary scratch flag		FLAG_TEMP_3
+0x004	EVENT			Temporary scratch flag		FLAG_TEMP_4
+0x005	EVENT			Temporary scratch flag		FLAG_TEMP_5
+0x006	EVENT			Temporary scratch flag		FLAG_TEMP_6
+0x007	EVENT			Temporary scratch flag		FLAG_TEMP_7
+0x008	EVENT			Temporary scratch flag		FLAG_TEMP_8
+0x009	EVENT			Temporary scratch flag		FLAG_TEMP_9
+0x00A	EVENT			Temporary scratch flag		FLAG_TEMP_A
+0x00B	EVENT			Temporary scratch flag		FLAG_TEMP_B
+0x00C	EVENT			Temporary scratch flag		FLAG_TEMP_C
+0x00D	EVENT			Temporary scratch flag		FLAG_TEMP_D
+0x00E	EVENT			Temporary scratch flag		FLAG_TEMP_E
+0x00F	EVENT			Temporary scratch flag		FLAG_TEMP_F
+0x010	EVENT			Temporary scratch flag		FLAG_TEMP_10
+0x011	EVENT			Temporary scratch flag		FLAG_TEMP_11
+0x012	EVENT			Temporary scratch flag		FLAG_TEMP_12
+0x013	EVENT			Temporary scratch flag		FLAG_TEMP_13
+0x014	EVENT			Temporary scratch flag		FLAG_TEMP_14
+0x015	EVENT			Temporary scratch flag		FLAG_TEMP_15
+0x016	EVENT			Temporary scratch flag		FLAG_TEMP_16
+0x017	EVENT			Temporary scratch flag		FLAG_TEMP_17
+0x018	EVENT			Temporary scratch flag		FLAG_TEMP_18
+0x019	EVENT			Temporary scratch flag		FLAG_TEMP_19
+0x01A	EVENT			Temporary scratch flag		FLAG_TEMP_1A
+0x01B	EVENT			Temporary scratch flag		FLAG_TEMP_1B
+0x01C	EVENT			Temporary scratch flag		FLAG_TEMP_1C
+0x01D	EVENT			Temporary scratch flag		FLAG_TEMP_1D
+0x01E	EVENT			Temporary scratch flag		FLAG_TEMP_1E
+0x01F	EVENT			Temporary scratch flag		FLAG_TEMP_1F
 0x020	_UNUSED					
 0x021	_UNUSED					
 0x022	_UNUSED					
@@ -46,18 +46,18 @@
 0x02C	EVENT	Pallet Town	Pallet Town	Prof. Oak sprite disappeared		FLAG_HIDE_OAK_IN_PALLET_TOWN
 0x02D	EVENT	Pallet Town	Oak's Lab	Rival sprite disappeared		FLAG_HIDE_RIVAL_IN_LAB
 0x02E	EVENT	Pewter City		Boy guide sprite disappeared		FLAG_HIDE_PEWTER_CITY_GYM_GUIDE
-0x02F	EVENT	Mt. Moon	?	Dome Fossil sprite disappeared		FLAG_HIDE_DOME_FOSSIL
-0x030	EVENT	Mt. Moon	?	Helix Fossil sprite disappeared		FLAG_HIDE_HELIX_FOSSIL
+0x02F	EVENT	Mt. Moon	B2F	Dome Fossil sprite disappeared		FLAG_HIDE_DOME_FOSSIL
+0x030	EVENT	Mt. Moon	B2F	Helix Fossil sprite disappeared		FLAG_HIDE_HELIX_FOSSIL
 0x031	EVENT	Route 24		Team Rocket Grunt sprite disappeared		FLAG_HIDE_NUGGET_BRIDGE_ROCKET
 0x032	EVENT	Route 25	Sea Cottage	Bill (Clefairy Form) sprite disappeared		FLAG_HIDE_BILL_CLEFAIRY
 0x033	EVENT	Route 25	Sea Cottage	Bill sprite disappeared		FLAG_HIDE_BILL_HUMAN_SEA_COTTAGE
-0x034	EVENT	Pokémon Tower	?	Mr. Fuji sprite disappeared		FLAG_HIDE_TOWER_FUJI
+0x034	EVENT	Pokémon Tower	7F	Mr. Fuji sprite disappeared		FLAG_HIDE_TOWER_FUJI
 0x035	EVENT	Lavender Town	Mr. Fuji's House	Mr. Fuji sprite disappeared		FLAG_HIDE_POKEHOUSE_FUJI
 0x036	EVENT	Rocket Hideout	?	Lift Key item ball disappeared		FLAG_HIDE_LIFT_KEY
 0x037	EVENT	Rocket Hideout	?	Silph Scope item ball disappeared		FLAG_HIDE_SILPH_SCOPE
 0x038	EVENT	Rocket Hideout	?	Giovanni sprite disappeared		FLAG_HIDE_HIDEOUT_GIOVANNI
-0x039	EVENT	Pallet Town	Blue's house	Map on table sprite disappeared		FLAG_HIDE_TOWN_MAP
-0x03A	EVENT	Pallet Town	Oak's Lab	Pokédexes on desk sprite disappeared		FLAG_HIDE_POKEDEX
+0x039	EVENT	Pallet Town	Rival's House	Town Map sprite over the table disappeared		FLAG_HIDE_TOWN_MAP
+0x03A	EVENT	Pallet Town	Oak's Lab	Pokédexes over the desk sprites disappeared		FLAG_HIDE_POKEDEX
 0x03B	EVENT	Cerulean City		Team Rocket Grunt sprite disappeared		FLAG_HIDE_CERULEAN_ROCKET
 0x03C	EVENT	Cerulean City		Rival sprite disappeared		FLAG_HIDE_CERULEAN_RIVAL
 0x03D	EVENT			Rival sprite disappeared		FLAG_HIDE_SS_ANNE_RIVAL
@@ -77,23 +77,23 @@
 0x04B	EVENT	Seafoam Islands	B3F	Boulder 4 sprite disappeared		FLAG_HIDE_SEAFOAM_B3F_BOULDER_6
 0x04C	EVENT	Seafoam Islands	B4F	West Boulder sprite disappeared		FLAG_HIDE_SEAFOAM_B4F_BOULDER_1
 0x04D	EVENT	Seafoam Islands	B4F	East Boulder sprite disappeared		FLAG_HIDE_SEAFOAM_B4F_BOULDER_2
-0x04E	EVENT	Silph Co.	?	Rival sprite disappeared		FLAG_HIDE_SILPH_RIVAL
+0x04E	EVENT	Silph Co.	7F	Rival sprite disappeared		FLAG_HIDE_SILPH_RIVAL
 0x04F	EVENT	Route 22		Rival sprite disappeared		FLAG_HIDE_ROUTE_22_RIVAL
 0x050	EVENT	Pewter City		Museum guide man sprite disappeared		FLAG_HIDE_PEWTER_MUSEUM_GUIDE
-0x051	EVENT	Pokémon Tower	?	Rival sprite disappeared		FLAG_HIDE_TOWER_RIVAL
+0x051	EVENT	Pokémon Tower	2F	Rival sprite disappeared		FLAG_HIDE_TOWER_RIVAL
 0x052	STATIC ENCOUNTER	Mt. Ember	?	Moltres sprite disappeared		FLAG_HIDE_MOLTRES
-0x053	EVENT	Silph Co.		Team Rocket sprite disappeared		FLAG_HIDE_SILPH_ROCKETS
+0x053	EVENT	Silph Co.		Team Rocket sprites disappeared		FLAG_HIDE_SILPH_ROCKETS
 0x054	STATIC ENCOUNTER	Route 12		Snorlax sprite disappeared		FLAG_HIDE_ROUTE_12_SNORLAX
 0x055	EVENT	Viridian City	Gym	Giovanni sprite disappeared		FLAG_HIDE_VIRIDIAN_GIOVANNI
 0x056	EVENT	Pewter City	Museum	Old Amber sprite disappeared		FLAG_HIDE_OLD_AMBER
 0x057	PKMN GIFT		Celadon Mansion	Item ball with Eevee disappeared		FLAG_HIDE_EEVEE_BALL
-0x058	EVENT		Victory Road 2F	Boulder sprite disappeared		FLAG_HIDE_VICTORY_ROAD_2F_BOULDER
-0x059	EVENT		Victory Road 3F	Boulder sprite disappeared		FLAG_HIDE_VICTORY_ROAD_3F_BOULDER
+0x058	EVENT	Victory Road	2F	Boulder sprite disappeared		FLAG_HIDE_VICTORY_ROAD_2F_BOULDER
+0x059	EVENT	Victory Road	3F	Boulder sprite disappeared		FLAG_HIDE_VICTORY_ROAD_3F_BOULDER
 0x05A	EVENT	Indigo Plateau	Champion Room	Prof. Oak sprite disappeared		FLAG_HIDE_OAK_IN_CHAMP_ROOM
 0x05B	EVENT	Celadon City	Rocket Game Corner	Team Rocket Grunt sprite disappeared		FLAG_HIDE_GAME_CORNER_ROCKET
 0x05C	EVENT	Cerulean City		Guy blocking Cerulean cave disappeared after player becomes the Champion		FLAG_HIDE_CERULEAN_CAVE_GUARD
 0x05D	STATIC ENCOUNTER	Power Plant		Zapdos sprite disappeared		FLAG_HIDE_ZAPDOS
-0x05E	EVENT	Pokémon Tower	?	Team Rocket Grunt sprite disappeared		FLAG_HIDE_TOWER_ROCKET_1
+0x05E	EVENT	Pokémon Tower	7F	Team Rocket Grunt sprite disappeared		FLAG_HIDE_TOWER_ROCKET_1
 0x05F	EVENT	Celadon City		Team Rocket related NPC sprites disappeared		FLAG_HIDE_CELADON_ROCKETS
 0x060	PKMN GIFT	Saffron City	Dojo	Item ball with Hitmonlee disappeared		FLAG_HIDE_DOJO_HITMONLEE_BALL
 0x061	PKMN GIFT	Saffron City	Dojo	Item ball with Hitmonchan disappeared		FLAG_HIDE_DOJO_HITMONCHAN_BALL
@@ -128,10 +128,10 @@
 0x07E	EVENT	Three Island		Men NPC sprites disappeared		FLAG_HIDE_THREE_ISLAND_ANTIBIKERS
 0x07F	_UNUSED					
 0x080	STATIC ENCOUNTER	Route 16		Snorlax sprite disappeared		FLAG_HIDE_ROUTE_16_SNORLAX
-0x081	STATIC ENCOUNTER	Cerulean Cave	?	Mewtwo sprite disappeared		FLAG_HIDE_MEWTWO
+0x081	STATIC ENCOUNTER	Cerulean Cave	B1F	Mewtwo sprite disappeared		FLAG_HIDE_MEWTWO
 0x082	STATIC ENCOUNTER	Seafoam Islands	?	Articuno sprite disappeared		FLAG_HIDE_ARTICUNO
-0x083	EVENT	Pokémon Tower	?	Team Rocket Grunt sprite disappeared		FLAG_HIDE_TOWER_ROCKET_2
-0x084	EVENT	Pokémon Tower	?	Team Rocket Grunt sprite disappeared		FLAG_HIDE_TOWER_ROCKET_3
+0x083	EVENT	Pokémon Tower	7F	Team Rocket Grunt sprite disappeared		FLAG_HIDE_TOWER_ROCKET_2
+0x084	EVENT	Pokémon Tower	7F	Team Rocket Grunt sprite disappeared		FLAG_HIDE_TOWER_ROCKET_3
 0x085	STATIC ENCOUNTER	Power Plant		Electrode sprite disappeared		FLAG_HIDE_POWER_PLANT_ELECTRODE_1
 0x086	STATIC ENCOUNTER	Power Plant		Electrode sprite disappeared		FLAG_HIDE_POWER_PLANT_ELECTRODE_2
 0x087	EVENT	Vermilion City	Harbor	S.S. Anne disappeared		FLAG_HIDE_SS_ANNE
@@ -344,134 +344,134 @@
 0x156	FIELD ITEM	Viridian Forest		Poké Ball item ball disappeared		FLAG_HIDE_VIRIDIAN_FOREST_POKE_BALL
 0x157	FIELD ITEM	Viridian Forest		Antidote item ball disappeared		FLAG_HIDE_VIRIDIAN_FOREST_ANTIDOTE
 0x158	FIELD ITEM	Viridian Forest		Potion item ball disappeared		FLAG_HIDE_VIRIDIAN_FOREST_POTION
-0x159	FIELD ITEM	Mt. Moon		Paralyz Heal item ball disappeared		FLAG_HIDE_MT_MOON_1F_PARALYZE_HEAL
-0x15A	FIELD ITEM	Mt. Moon		TM09 item ball disappeared		FLAG_HIDE_MT_MOON_1F_TM09
-0x15B	FIELD ITEM	Mt. Moon		Potion item ball disappeared		FLAG_HIDE_MT_MOON_1F_POTION
-0x15C	FIELD ITEM	Mt. Moon		Rare Candy item ball disappeared		FLAG_HIDE_MT_MOON_1F_RARE_CANDY
-0x15D	FIELD ITEM	Mt. Moon		Escape Rope item ball disappeared		FLAG_HIDE_MT_MOON_1F_ESCAPE_ROPE
-0x15E	FIELD ITEM	Mt. Moon		Moon Stone item ball disappeared		FLAG_HIDE_MT_MOON_1F_MOON_STONE
-0x15F	FIELD ITEM	Mt. Moon		Star Piece item ball disappeared		FLAG_HIDE_MT_MOON_B2F_STAR_PIECE
-0x160	FIELD ITEM	Mt. Moon		TM46 item ball disappeared		FLAG_HIDE_MT_MOON_B2F_TM46
-0x161	FIELD ITEM	Route 4		TM05 item ball disappeared		FLAG_HIDE_ROUTE4_TM05
-0x162	FIELD ITEM	Route 24		TM45 item ball disappeared		FLAG_HIDE_ROUTE24_TM45
-0x163	FIELD ITEM	Route 25		TM43 item ball disappeared		FLAG_HIDE_ROUTE25_TM43
-0x164	FIELD ITEM	S.S. Anne		TM31 item ball disappeared		FLAG_HIDE_SSANNE_1F_ROOM2_TM31
-0x165	FIELD ITEM	S.S. Anne		Stardust item ball disappeared		FLAG_HIDE_SSANNE_2F_ROOM2_STARDUST
-0x166	FIELD ITEM	S.S. Anne		X Attack item ball disappeared		FLAG_HIDE_SSANNE_2F_ROOM4_X_ATTACK
-0x167	FIELD ITEM	S.S. Anne		TM44 item ball disappeared		FLAG_HIDE_SSANNE_B1F_ROOM2_TM44
-0x168	FIELD ITEM	S.S. Anne		Ether item ball disappeared		FLAG_HIDE_SSANNE_B1F_ROOM3_ETHER
-0x169	FIELD ITEM	S.S. Anne		Super Potion item ball disappeared		FLAG_HIDE_SSANNE_B1F_ROOM5_SUPER_POTION
-0x16A	FIELD ITEM	S.S. Anne		Great Ball item ball disappeared		FLAG_HIDE_SSANNE_KITCHEN_GREAT_BALL
-0x16B	FIELD ITEM	Route 9		TM40 item ball disappeared		FLAG_HIDE_ROUTE9_TM40
-0x16C	FIELD ITEM	Rocket Hideout		Escape Rope item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B1F_ESCAPE_ROPE
-0x16D	FIELD ITEM	Rocket Hideout		Hyper Potion item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B1F_HYPER_POTION
-0x16E	FIELD ITEM	Rocket Hideout		X Speed item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B2F_X_SPEED
-0x16F	FIELD ITEM	Rocket Hideout		Moon Stone item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B2F_MOON_STONE
-0x170	FIELD ITEM	Rocket Hideout		TM12 item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B2F_TM12
-0x171	FIELD ITEM	Rocket Hideout		Super Potion item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B2F_SUPER_POTION
-0x172	FIELD ITEM	Rocket Hideout		Rare Candy item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B3F_RARE_CANDY
-0x173	FIELD ITEM	Rocket Hideout		TM21 item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B3F_TM21
-0x174	FIELD ITEM	Rocket Hideout		TM49 item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B4F_TM49
-0x175	FIELD ITEM	Rocket Hideout		Max Ether item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B4F_MAX_ETHER
-0x176	FIELD ITEM	Rocket Hideout		Calcium item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B4F_CALCIUM
-0x177	FIELD ITEM	Pokémon Tower		Escape Rope item ball disappeared		FLAG_HIDE_POKEMON_TOWER_3F_ESCAPE_ROPE
-0x178	FIELD ITEM	Pokémon Tower		Elixir item ball disappeared		FLAG_HIDE_POKEMON_TOWER_4F_ELIXIR
-0x179	FIELD ITEM	Pokémon Tower		Awakening item ball disappeared		FLAG_HIDE_POKEMON_TOWER_4F_AWAKENING
-0x17A	FIELD ITEM	Pokémon Tower		Great Ball item ball disappeared		FLAG_HIDE_POKEMON_TOWER_4F_GREAT_BALL
-0x17B	FIELD ITEM	Pokémon Tower		Nugget item ball disappeared		FLAG_HIDE_POKEMON_TOWER_5F_NUGGET
-0x17C	FIELD ITEM	Pokémon Tower		Rare Candy item ball disappeared		FLAG_HIDE_POKEMON_TOWER_6F_RARE_CANDY
-0x17D	FIELD ITEM	Pokémon Tower		X Accuracy item ball disappeared		FLAG_HIDE_POKEMON_TOWER_6F_X_ACCURACY
-0x17E	FIELD ITEM	Route 12		TM48 item ball disappeared		FLAG_HIDE_ROUTE12_TM48
+0x159	FIELD ITEM	Mt. Moon	1F	Paralyz Heal item ball disappeared		FLAG_HIDE_MT_MOON_1F_PARALYZE_HEAL
+0x15A	FIELD ITEM	Mt. Moon	1F	TM09 (Bullet Seed) item ball disappeared		FLAG_HIDE_MT_MOON_1F_TM09
+0x15B	FIELD ITEM	Mt. Moon	1F	Potion item ball disappeared		FLAG_HIDE_MT_MOON_1F_POTION
+0x15C	FIELD ITEM	Mt. Moon	1F	Rare Candy item ball disappeared		FLAG_HIDE_MT_MOON_1F_RARE_CANDY
+0x15D	FIELD ITEM	Mt. Moon	1F	Escape Rope item ball disappeared		FLAG_HIDE_MT_MOON_1F_ESCAPE_ROPE
+0x15E	FIELD ITEM	Mt. Moon	1F	Moon Stone item ball disappeared		FLAG_HIDE_MT_MOON_1F_MOON_STONE
+0x15F	FIELD ITEM	Mt. Moon	B2F	Star Piece item ball disappeared		FLAG_HIDE_MT_MOON_B2F_STAR_PIECE
+0x160	FIELD ITEM	Mt. Moon	B2F	TM46 (Thief) item ball disappeared		FLAG_HIDE_MT_MOON_B2F_TM46
+0x161	FIELD ITEM	Route 4		TM05 (Roar) item ball disappeared		FLAG_HIDE_ROUTE4_TM05
+0x162	FIELD ITEM	Route 24		TM45 (Attract) item ball disappeared		FLAG_HIDE_ROUTE24_TM45
+0x163	FIELD ITEM	Route 25		TM43 (Secret Power) item ball disappeared		FLAG_HIDE_ROUTE25_TM43
+0x164	FIELD ITEM	S.S. Anne	1F	TM31 (Brick Break) item ball disappeared		FLAG_HIDE_SSANNE_1F_ROOM2_TM31
+0x165	FIELD ITEM	S.S. Anne	2F	Stardust item ball disappeared		FLAG_HIDE_SSANNE_2F_ROOM2_STARDUST
+0x166	FIELD ITEM	S.S. Anne	2F	X Attack item ball disappeared		FLAG_HIDE_SSANNE_2F_ROOM4_X_ATTACK
+0x167	FIELD ITEM	S.S. Anne	B1F	TM44 (Rest) item ball disappeared		FLAG_HIDE_SSANNE_B1F_ROOM2_TM44
+0x168	FIELD ITEM	S.S. Anne	B1F	Ether item ball disappeared		FLAG_HIDE_SSANNE_B1F_ROOM3_ETHER
+0x169	FIELD ITEM	S.S. Anne	B1F	Super Potion item ball disappeared		FLAG_HIDE_SSANNE_B1F_ROOM5_SUPER_POTION
+0x16A	FIELD ITEM	S.S. Anne	Kitchen	Great Ball item ball disappeared		FLAG_HIDE_SSANNE_KITCHEN_GREAT_BALL
+0x16B	FIELD ITEM	Route 9		TM40 (Aerial Ace) item ball disappeared		FLAG_HIDE_ROUTE9_TM40
+0x16C	FIELD ITEM	Rocket Hideout	B1F	Escape Rope item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B1F_ESCAPE_ROPE
+0x16D	FIELD ITEM	Rocket Hideout	B1F	Hyper Potion item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B1F_HYPER_POTION
+0x16E	FIELD ITEM	Rocket Hideout	B2F	X Speed item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B2F_X_SPEED
+0x16F	FIELD ITEM	Rocket Hideout	B2F	Moon Stone item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B2F_MOON_STONE
+0x170	FIELD ITEM	Rocket Hideout	B2F	TM12 (Taunt) item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B2F_TM12
+0x171	FIELD ITEM	Rocket Hideout	B2F	Super Potion item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B2F_SUPER_POTION
+0x172	FIELD ITEM	Rocket Hideout	B3F	Rare Candy item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B3F_RARE_CANDY
+0x173	FIELD ITEM	Rocket Hideout	B3F	TM21 (Frustration) item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B3F_TM21
+0x174	FIELD ITEM	Rocket Hideout	B4F	TM49 (Snatch) item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B4F_TM49
+0x175	FIELD ITEM	Rocket Hideout	B4F	Max Ether item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B4F_MAX_ETHER
+0x176	FIELD ITEM	Rocket Hideout	B4F	Calcium item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B4F_CALCIUM
+0x177	FIELD ITEM	Pokémon Tower	3F	Escape Rope item ball disappeared		FLAG_HIDE_POKEMON_TOWER_3F_ESCAPE_ROPE
+0x178	FIELD ITEM	Pokémon Tower	4F	Elixir item ball disappeared		FLAG_HIDE_POKEMON_TOWER_4F_ELIXIR
+0x179	FIELD ITEM	Pokémon Tower	4F	Awakening item ball disappeared		FLAG_HIDE_POKEMON_TOWER_4F_AWAKENING
+0x17A	FIELD ITEM	Pokémon Tower	4F	Great Ball item ball disappeared		FLAG_HIDE_POKEMON_TOWER_4F_GREAT_BALL
+0x17B	FIELD ITEM	Pokémon Tower	5F	Nugget item ball disappeared		FLAG_HIDE_POKEMON_TOWER_5F_NUGGET
+0x17C	FIELD ITEM	Pokémon Tower	6F	Rare Candy item ball disappeared		FLAG_HIDE_POKEMON_TOWER_6F_RARE_CANDY
+0x17D	FIELD ITEM	Pokémon Tower	6F	X Accuracy item ball disappeared		FLAG_HIDE_POKEMON_TOWER_6F_X_ACCURACY
+0x17E	FIELD ITEM	Route 12		TM48 (Skill Swap) item ball disappeared		FLAG_HIDE_ROUTE12_TM48
 0x17F	FIELD ITEM	Route 12		Iron item ball disappeared		FLAG_HIDE_ROUTE12_IRON
-0x180	FIELD ITEM	Route 15		TM18 item ball disappeared		FLAG_HIDE_ROUTE15_TM18
+0x180	FIELD ITEM	Route 15		TM18 (Rain Dance) item ball disappeared		FLAG_HIDE_ROUTE15_TM18
 0x181	FIELD ITEM	Safari Zone		Nugget item ball disappeared		FLAG_HIDE_SAFARI_ZONE_CENTER_NUGGET
 0x182	FIELD ITEM	Safari Zone		Max Potion item ball disappeared		FLAG_HIDE_SAFARI_ZONE_EAST_MAX_POTION
 0x183	FIELD ITEM	Safari Zone		Full Restore item ball disappeared		FLAG_HIDE_SAFARI_ZONE_EAST_FULL_RESTORE
-0x184	FIELD ITEM	Safari Zone		TM11 item ball disappeared		FLAG_HIDE_SAFARI_ZONE_EAST_TM11
+0x184	FIELD ITEM	Safari Zone		TM11 (Sunny Day) item ball disappeared		FLAG_HIDE_SAFARI_ZONE_EAST_TM11
 0x185	FIELD ITEM	Safari Zone		Leaf Stone item ball disappeared		FLAG_HIDE_SAFARI_ZONE_EAST_LEAF_STONE
 0x186	FIELD ITEM	Safari Zone		Protein item ball disappeared		FLAG_HIDE_SAFARI_ZONE_NORTH_PROTEIN
-0x187	FIELD ITEM	Safari Zone		TM47 item ball disappeared		FLAG_HIDE_SAFARI_ZONE_NORTH_TM47
-0x188	FIELD ITEM	Safari Zone		TM32 item ball disappeared		FLAG_HIDE_SAFARI_ZONE_WEST_TM32
+0x187	FIELD ITEM	Safari Zone		TM47 (Steel Wing) item ball disappeared		FLAG_HIDE_SAFARI_ZONE_NORTH_TM47
+0x188	FIELD ITEM	Safari Zone		TM32 (Double Team) item ball disappeared		FLAG_HIDE_SAFARI_ZONE_WEST_TM32
 0x189	FIELD ITEM			Gold Teeth item ball disappeared		FLAG_HIDE_SAFARI_ZONE_WEST_GOLD_TEETH
 0x18A	FIELD ITEM	Safari Zone		Max Potion item ball disappeared		FLAG_HIDE_SAFARI_ZONE_WEST_MAX_POTION
 0x18B	FIELD ITEM	Safari Zone		Max Revive item ball disappeared		FLAG_HIDE_SAFARI_ZONE_WEST_MAX_REVIVE
-0x18C	FIELD ITEM	Silph Co.		Hyper Potion item ball disappeared		FLAG_HIDE_SILPH_CO_3F_HYPER_POTION
-0x18D	FIELD ITEM	Silph Co.		Max Revive item ball disappeared		FLAG_HIDE_SILPH_CO_4F_MAX_REVIVE
-0x18E	FIELD ITEM	Silph Co.		Escape Rope item ball disappeared		FLAG_HIDE_SILPH_CO_4F_ESCAPE_ROPE
-0x18F	FIELD ITEM	Silph Co.		Full Heal item ball disappeared		FLAG_HIDE_SILPH_CO_4F_FULL_HEAL
-0x190	FIELD ITEM	Silph Co.		Protein item ball disappeared		FLAG_HIDE_SILPH_CO_5F_PROTEIN
-0x191	FIELD ITEM	Silph Co.		TM01 item ball disappeared		FLAG_HIDE_SILPH_CO_5F_TM01
-0x192	FIELD ITEM	Silph Co.		Card Key item ball disappeared		FLAG_HIDE_SILPH_CO_5F_CARD_KEY
-0x193	FIELD ITEM	Silph Co.		HP Up item ball disappeared		FLAG_HIDE_SILPH_CO_6F_HP_UP
-0x194	FIELD ITEM	Silph Co.		X Special item ball disappeared		FLAG_HIDE_SILPH_CO_6F_X_SPECIAL
-0x195	FIELD ITEM	Silph Co.		Calcium item ball disappeared		FLAG_HIDE_SILPH_CO_7F_CALCIUM
-0x196	FIELD ITEM	Silph Co.		TM08 item ball disappeared		FLAG_HIDE_SILPH_CO_7F_TM08
-0x197	FIELD ITEM	Silph Co.		Carbos item ball disappeared		FLAG_HIDE_SILPH_CO_10F_CARBOS
-0x198	FIELD ITEM	Silph Co.		Ultra Ball item ball disappeared		FLAG_HIDE_SILPH_CO_10F_ULTRA_BALL
-0x199	FIELD ITEM	Silph Co.		Rare Candy item ball disappeared		FLAG_HIDE_SILPH_CO_10F_RARE_CANDY
+0x18C	FIELD ITEM	Silph Co.	3F	Hyper Potion item ball disappeared		FLAG_HIDE_SILPH_CO_3F_HYPER_POTION
+0x18D	FIELD ITEM	Silph Co.	4F	Max Revive item ball disappeared		FLAG_HIDE_SILPH_CO_4F_MAX_REVIVE
+0x18E	FIELD ITEM	Silph Co.	4F	Escape Rope item ball disappeared		FLAG_HIDE_SILPH_CO_4F_ESCAPE_ROPE
+0x18F	FIELD ITEM	Silph Co.	4F	Full Heal item ball disappeared		FLAG_HIDE_SILPH_CO_4F_FULL_HEAL
+0x190	FIELD ITEM	Silph Co.	5F	Protein item ball disappeared		FLAG_HIDE_SILPH_CO_5F_PROTEIN
+0x191	FIELD ITEM	Silph Co.	5F	TM01 (Focus Punch) item ball disappeared		FLAG_HIDE_SILPH_CO_5F_TM01
+0x192	FIELD ITEM	Silph Co.	5F	Card Key item ball disappeared		FLAG_HIDE_SILPH_CO_5F_CARD_KEY
+0x193	FIELD ITEM	Silph Co.	6F	HP Up item ball disappeared		FLAG_HIDE_SILPH_CO_6F_HP_UP
+0x194	FIELD ITEM	Silph Co.	6F	X Special item ball disappeared		FLAG_HIDE_SILPH_CO_6F_X_SPECIAL
+0x195	FIELD ITEM	Silph Co.	7F	Calcium item ball disappeared		FLAG_HIDE_SILPH_CO_7F_CALCIUM
+0x196	FIELD ITEM	Silph Co.	7F	TM08 (Bulk Up) item ball disappeared		FLAG_HIDE_SILPH_CO_7F_TM08
+0x197	FIELD ITEM	Silph Co.	10F	Carbos item ball disappeared		FLAG_HIDE_SILPH_CO_10F_CARBOS
+0x198	FIELD ITEM	Silph Co.	10F	Ultra Ball item ball disappeared		FLAG_HIDE_SILPH_CO_10F_ULTRA_BALL
+0x199	FIELD ITEM	Silph Co.	10F	Rare Candy item ball disappeared		FLAG_HIDE_SILPH_CO_10F_RARE_CANDY
 0x19A	FIELD ITEM	Power Plant		Max Potion item ball disappeared		FLAG_HIDE_POWER_PLANT_MAX_POTION
-0x19B	FIELD ITEM	Power Plant		TM17 item ball disappeared		FLAG_HIDE_POWER_PLANT_TM17
-0x19C	FIELD ITEM	Power Plant		TM25 item ball disappeared		FLAG_HIDE_POWER_PLANT_TM25
+0x19B	FIELD ITEM	Power Plant		TM17 (Protect) item ball disappeared		FLAG_HIDE_POWER_PLANT_TM17
+0x19C	FIELD ITEM	Power Plant		TM25 (Thunder) item ball disappeared		FLAG_HIDE_POWER_PLANT_TM25
 0x19D	FIELD ITEM	Power Plant		Thunder Stone item ball disappeared		FLAG_HIDE_POWER_PLANT_THUNDER_STONE
 0x19E	FIELD ITEM	Power Plant		Elixir item ball disappeared		FLAG_HIDE_POWER_PLANT_ELIXIR
-0x19F	FIELD ITEM	Pokémon Mansion		Carbos item ball disappeared		FLAG_HIDE_POKEMON_MANSION_1F_CARBOS
-0x1A0	FIELD ITEM	Pokémon Mansion		Escape Rope item ball disappeared		FLAG_HIDE_POKEMON_MANSION_1F_ESCAPE_ROPE
-0x1A1	FIELD ITEM	Pokémon Mansion		Calcium item ball disappeared		FLAG_HIDE_POKEMON_MANSION_2F_CALCIUM
-0x1A2	FIELD ITEM	Pokémon Mansion		Max Potion item ball disappeared		FLAG_HIDE_POKEMON_MANSION_3F_MAX_POTION
-0x1A3	FIELD ITEM	Pokémon Mansion		Iron item ball disappeared		FLAG_HIDE_POKEMON_MANSION_3F_IRON
-0x1A4	FIELD ITEM	Pokémon Mansion		TM14 item ball disappeared		FLAG_HIDE_POKEMON_MANSION_B1F_TM14
-0x1A5	FIELD ITEM	Pokémon Mansion		Full Restore item ball disappeared		FLAG_HIDE_POKEMON_MANSION_B1F_FULL_RESTORE
+0x19F	FIELD ITEM	Pokémon Mansion	1F	Carbos item ball disappeared		FLAG_HIDE_POKEMON_MANSION_1F_CARBOS
+0x1A0	FIELD ITEM	Pokémon Mansion	1F	Escape Rope item ball disappeared		FLAG_HIDE_POKEMON_MANSION_1F_ESCAPE_ROPE
+0x1A1	FIELD ITEM	Pokémon Mansion	2F	Calcium item ball disappeared		FLAG_HIDE_POKEMON_MANSION_2F_CALCIUM
+0x1A2	FIELD ITEM	Pokémon Mansion	3F	Max Potion item ball disappeared		FLAG_HIDE_POKEMON_MANSION_3F_MAX_POTION
+0x1A3	FIELD ITEM	Pokémon Mansion	3F	Iron item ball disappeared		FLAG_HIDE_POKEMON_MANSION_3F_IRON
+0x1A4	FIELD ITEM	Pokémon Mansion	B1F	TM14 (Blizzard) item ball disappeared		FLAG_HIDE_POKEMON_MANSION_B1F_TM14
+0x1A5	FIELD ITEM	Pokémon Mansion	B1F	Full Restore item ball disappeared		FLAG_HIDE_POKEMON_MANSION_B1F_FULL_RESTORE
 0x1A6	_UNUSED					
-0x1A7	FIELD ITEM	Pokémon Mansion		TM22 item ball disappeared		FLAG_HIDE_POKEMON_MANSION_B1F_TM22
-0x1A8	FIELD ITEM	Pokémon Mansion		Secret Key item ball disappeared		FLAG_HIDE_POKEMON_MANSION_B1F_SECRET_KEY
-0x1A9	FIELD ITEM	Victory Road		Rare Candy item ball disappeared		FLAG_HIDE_VICTORY_ROAD_1F_RARE_CANDY
-0x1AA	FIELD ITEM	Victory Road		TM02 item ball disappeared		FLAG_HIDE_VICTORY_ROAD_1F_TM02
-0x1AB	FIELD ITEM	Victory Road		Guard Spec. item ball disappeared		FLAG_HIDE_VICTORY_ROAD_2F_GUARD_SPEC
-0x1AC	FIELD ITEM	Victory Road		TM07 item ball disappeared		FLAG_HIDE_VICTORY_ROAD_2F_TM07
-0x1AD	FIELD ITEM	Victory Road		Full Heal item ball disappeared		FLAG_HIDE_VICTORY_ROAD_2F_FULL_HEAL
-0x1AE	FIELD ITEM	Victory Road		TM37 item ball disappeared		FLAG_HIDE_VICTORY_ROAD_2F_TM37
-0x1AF	FIELD ITEM	Victory Road		Max Revive item ball disappeared		FLAG_HIDE_VICTORY_ROAD_3F_MAX_REVIVE
-0x1B0	FIELD ITEM	Victory Road		TM50 item ball disappeared		FLAG_HIDE_VICTORY_ROAD_3F_TM50
-0x1B1	FIELD ITEM	Cerulean Cave		Max Elixir item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_1F_MAX_ELIXIR
-0x1B2	FIELD ITEM	Cerulean Cave		Nugget item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_1F_NUGGET
-0x1B3	FIELD ITEM	Cerulean Cave 1F		Full Restore item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_1F_FULL_RESTORE
-0x1B4	FIELD ITEM	Cerulean Cave 2F		Full Restore item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_2F_FULL_RESTORE
-0x1B5	FIELD ITEM	Cerulean Cave		PP Up item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_2F_PP_UP
-0x1B6	FIELD ITEM	Cerulean Cave 2F		Ultra Ball item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_2F_ULTRA_BALL
-0x1B7	FIELD ITEM	Cerulean Cave		Max Revive item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_B1F_MAX_REVIVE
-0x1B8	FIELD ITEM	Cerulean Cave B1F		Ultra Ball item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_B1F_ULTRA_BALL
+0x1A7	FIELD ITEM	Pokémon Mansion	B1F	TM22 (Solarbeam) item ball disappeared		FLAG_HIDE_POKEMON_MANSION_B1F_TM22
+0x1A8	FIELD ITEM	Pokémon Mansion	B1F	Secret Key item ball disappeared		FLAG_HIDE_POKEMON_MANSION_B1F_SECRET_KEY
+0x1A9	FIELD ITEM	Victory Road	1F	Rare Candy item ball disappeared		FLAG_HIDE_VICTORY_ROAD_1F_RARE_CANDY
+0x1AA	FIELD ITEM	Victory Road	1F	TM02 (Dragon Claw) item ball disappeared		FLAG_HIDE_VICTORY_ROAD_1F_TM02
+0x1AB	FIELD ITEM	Victory Road	2F	Guard Spec. item ball disappeared		FLAG_HIDE_VICTORY_ROAD_2F_GUARD_SPEC
+0x1AC	FIELD ITEM	Victory Road	2F	TM07 (Hail) item ball disappeared		FLAG_HIDE_VICTORY_ROAD_2F_TM07
+0x1AD	FIELD ITEM	Victory Road	2F	Full Heal item ball disappeared		FLAG_HIDE_VICTORY_ROAD_2F_FULL_HEAL
+0x1AE	FIELD ITEM	Victory Road	2F	TM37 (Sandstorm) item ball disappeared		FLAG_HIDE_VICTORY_ROAD_2F_TM37
+0x1AF	FIELD ITEM	Victory Road	3F	Max Revive item ball disappeared		FLAG_HIDE_VICTORY_ROAD_3F_MAX_REVIVE
+0x1B0	FIELD ITEM	Victory Road	3F	TM50 (Overheat) item ball disappeared		FLAG_HIDE_VICTORY_ROAD_3F_TM50
+0x1B1	FIELD ITEM	Cerulean Cave	1F	Max Elixir item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_1F_MAX_ELIXIR
+0x1B2	FIELD ITEM	Cerulean Cave	1F	Nugget item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_1F_NUGGET
+0x1B3	FIELD ITEM	Cerulean Cave	1F	Full Restore item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_1F_FULL_RESTORE
+0x1B4	FIELD ITEM	Cerulean Cave	2F	Full Restore item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_2F_FULL_RESTORE
+0x1B5	FIELD ITEM	Cerulean Cave	2F	PP Up item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_2F_PP_UP
+0x1B6	FIELD ITEM	Cerulean Cave	2F	Ultra Ball item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_2F_ULTRA_BALL
+0x1B7	FIELD ITEM	Cerulean Cave	B1F	Max Revive item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_B1F_MAX_REVIVE
+0x1B8	FIELD ITEM	Cerulean Cave	B1F	Ultra Ball item ball disappeared		FLAG_HIDE_CERULEAN_CAVE_B1F_ULTRA_BALL
 0x1B9	FIELD ITEM	Fuchsia City		Rare Candy item ball disappeared		FLAG_HIDE_FUCHSIA_CITY_WARDENS_HOUSE_RARE_CANDY
 0x1BA	FIELD ITEM	Two Island		Revive item ball disappeared		FLAG_HIDE_TWO_ISLAND_REVIVE
 0x1BB	FIELD ITEM	Three Island		Zinc item ball disappeared		FLAG_HIDE_THREE_ISLAND_ZINC
 0x1BC	_UNUSED					
 0x1BD	_UNUSED					
-0x1BE	FIELD ITEM	Viridian Forest		Potion (southeast) item ball disappeared		FLAG_HIDE_VIRIDIAN_FOREST_POTION_2
-0x1BF	FIELD ITEM	Mt. Moon		Revive item ball disappeared		FLAG_HIDE_MT_MOON_B2F_REVIVE
-0x1C0	FIELD ITEM	Mt. Moon		Antidote item ball disappeared		FLAG_HIDE_MT_MOON_B2F_ANTIDOTE
+0x1BE	FIELD ITEM	Viridian Forest		Potion item ball disappeared		FLAG_HIDE_VIRIDIAN_FOREST_POTION_2
+0x1BF	FIELD ITEM	Mt. Moon	B2F	Revive item ball disappeared		FLAG_HIDE_MT_MOON_B2F_REVIVE
+0x1C0	FIELD ITEM	Mt. Moon	B2F	Antidote item ball disappeared		FLAG_HIDE_MT_MOON_B2F_ANTIDOTE
 0x1C1	FIELD ITEM	Route 11		X Defend item ball disappeared		FLAG_HIDE_ROUTE11_X_DEFEND
 0x1C2	FIELD ITEM	Route 9		Burn Heal item ball disappeared		FLAG_HIDE_ROUTE9_BURN_HEAL
-0x1C3	FIELD ITEM	Rock Tunnel		Repel item ball disappeared		FLAG_HIDE_ROCK_TUNNEL_1F_REPEL
-0x1C4	FIELD ITEM	Rock Tunnel		Pearl item ball disappeared		FLAG_HIDE_ROCK_TUNNEL_1F_PEARL
-0x1C5	FIELD ITEM	Rock Tunnel		Escape Rope item ball disappeared		FLAG_HIDE_ROCK_TUNNEL_1F_ESCAPE_ROPE
-0x1C6	FIELD ITEM	Rock Tunnel		Revive item ball disappeared		FLAG_HIDE_ROCK_TUNNEL_B1F_REVIVE
-0x1C7	FIELD ITEM	Rock Tunnel		Max Ether item ball disappeared		FLAG_HIDE_ROCK_TUNNEL_B1F_MAX_ETHER
-0x1C8	FIELD ITEM	Silph Co.		Iron item ball disappeared		FLAG_HIDE_SILPH_CO_8F_IRON
-0x1C9	FIELD ITEM	Silph Co.		Zinc item ball disappeared		FLAG_HIDE_SILPH_CO_11F_ZINC
-0x1CA	FIELD ITEM	Pokémon Mansion		Protein item ball disappeared		FLAG_HIDE_POKEMON_MANSION_1F_PROTEIN
-0x1CB	FIELD ITEM	Pokémon Mansion		Zinc item ball disappeared		FLAG_HIDE_POKEMON_MANSION_2F_ZINC
-0x1CC	FIELD ITEM	Pokémon Mansion		HP Up item ball disappeared		FLAG_HIDE_POKEMON_MANSION_2F_HP_UP
+0x1C3	FIELD ITEM	Rock Tunnel	1F	Repel item ball disappeared		FLAG_HIDE_ROCK_TUNNEL_1F_REPEL
+0x1C4	FIELD ITEM	Rock Tunnel	1F	Pearl item ball disappeared		FLAG_HIDE_ROCK_TUNNEL_1F_PEARL
+0x1C5	FIELD ITEM	Rock Tunnel	1F	Escape Rope item ball disappeared		FLAG_HIDE_ROCK_TUNNEL_1F_ESCAPE_ROPE
+0x1C6	FIELD ITEM	Rock Tunnel	B1F	Revive item ball disappeared		FLAG_HIDE_ROCK_TUNNEL_B1F_REVIVE
+0x1C7	FIELD ITEM	Rock Tunnel	B1F	Max Ether item ball disappeared		FLAG_HIDE_ROCK_TUNNEL_B1F_MAX_ETHER
+0x1C8	FIELD ITEM	Silph Co.	8F	Iron item ball disappeared		FLAG_HIDE_SILPH_CO_8F_IRON
+0x1C9	FIELD ITEM	Silph Co.	11F	Zinc item ball disappeared		FLAG_HIDE_SILPH_CO_11F_ZINC
+0x1CA	FIELD ITEM	Pokémon Mansion	1F	Protein item ball disappeared		FLAG_HIDE_POKEMON_MANSION_1F_PROTEIN
+0x1CB	FIELD ITEM	Pokémon Mansion	2F	Zinc item ball disappeared		FLAG_HIDE_POKEMON_MANSION_2F_ZINC
+0x1CC	FIELD ITEM	Pokémon Mansion	2F	HP Up item ball disappeared		FLAG_HIDE_POKEMON_MANSION_2F_HP_UP
 0x1CD	FIELD ITEM	Viridian City		Potion item ball disappeared		FLAG_HIDE_VIRIDIAN_CITY_POTION
 0x1CE	FIELD ITEM	Route 11		Great Ball item ball disappeared		FLAG_HIDE_ROUTE11_GREAT_BALL
 0x1CF	FIELD ITEM	Route 11		Awakening item ball disappeared		FLAG_HIDE_ROUTE11_AWAKENING
-0x1D0	FIELD ITEM	Pokémon Tower		Cleanse Tag item ball disappeared		FLAG_HIDE_POKEMON_TOWER_5F_CLEANSE_TAG
+0x1D0	FIELD ITEM	Pokémon Tower	5F	Cleanse Tag item ball disappeared		FLAG_HIDE_POKEMON_TOWER_5F_CLEANSE_TAG
 0x1D1	FIELD ITEM	Celadon City		Ether item ball disappeared		FLAG_HIDE_CELADON_CITY_ETHER
-0x1D2	FIELD ITEM	Rocket Hideout		BlackGlasses item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B3F_BLACK_GLASSES
+0x1D2	FIELD ITEM	Rocket Hideout	B3F	BlackGlasses item ball disappeared		FLAG_HIDE_ROCKET_HIDEOUT_B3F_BLACK_GLASSES
 0x1D3	FIELD ITEM	Safari Zone		Quick Claw item ball disappeared		FLAG_HIDE_SAFARI_ZONE_NORTH_QUICK_CLAW
-0x1D4	FIELD ITEM	Seafoam Islands		Ice Heal item ball disappeared		FLAG_HIDE_SEAFOAM_ISLANDS_1F_ICE_HEAL
-0x1D5	FIELD ITEM	Seafoam Islands		Water Stone item ball disappeared		FLAG_HIDE_SEAFOAM_ISLANDS_B1F_WATER_STONE
-0x1D6	FIELD ITEM	Seafoam Islands		Revive item ball disappeared		FLAG_HIDE_SEAFOAM_ISLANDS_B1F_REVIVE
-0x1D7	FIELD ITEM	Seafoam Islands		Big Pearl item ball disappeared		FLAG_HIDE_SEAFOAM_ISLANDS_B2F_BIG_PEARL
-0x1D8	FIELD ITEM	Seafoam Islands		Ultra Ball item ball disappeared		FLAG_HIDE_SEAFOAM_ISLANDS_B4F_ULTRA_BALL
+0x1D4	FIELD ITEM	Seafoam Islands	1F	Ice Heal item ball disappeared		FLAG_HIDE_SEAFOAM_ISLANDS_1F_ICE_HEAL
+0x1D5	FIELD ITEM	Seafoam Islands	B1F	Water Stone item ball disappeared		FLAG_HIDE_SEAFOAM_ISLANDS_B1F_WATER_STONE
+0x1D6	FIELD ITEM	Seafoam Islands	B1F	Revive item ball disappeared		FLAG_HIDE_SEAFOAM_ISLANDS_B1F_REVIVE
+0x1D7	FIELD ITEM	Seafoam Islands	B2F	Big Pearl item ball disappeared		FLAG_HIDE_SEAFOAM_ISLANDS_B2F_BIG_PEARL
+0x1D8	FIELD ITEM	Seafoam Islands	B4F	Ultra Ball item ball disappeared		FLAG_HIDE_SEAFOAM_ISLANDS_B4F_ULTRA_BALL
 0x1D9	FIELD ITEM	Four Island		Star Piece item ball disappeared		FLAG_HIDE_FOUR_ISLAND_STAR_PIECE
 0x1DA	FIELD ITEM	Four Island		Stardust item ball disappeared		FLAG_HIDE_FOUR_ISLAND_STARDUST
 0x1DB	FIELD ITEM	Kindle Road		Ether item ball disappeared		FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_ETHER
@@ -496,11 +496,11 @@
 0x1EE	FIELD ITEM	Mt. Ember		Fire Stone item ball disappeared		FLAG_HIDE_MT_EMBER_EXTERIOR_FIRE_STONE
 0x1EF	FIELD ITEM	Mt. Ember		Dire Hit item ball disappeared		FLAG_HIDE_MT_EMBER_EXTERIOR_DIRE_HIT
 0x1F0	FIELD ITEM	Icefall Cave		Ultra Ball item ball disappeared		FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_1F_ULTRA_BALL
-0x1F1	FIELD ITEM			HM07 item ball disappeared		FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_1F_HM07
+0x1F1	FIELD ITEM			HM07 (Waterfall) item ball disappeared		FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_1F_HM07
 0x1F2	FIELD ITEM	Icefall Cave		Full Restore item ball disappeared		FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_B1F_FULL_RESTORE
 0x1F3	FIELD ITEM	Icefall Cave		NeverMeltIce item ball disappeared		FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_B1F_NEVER_MELT_ICE
 0x1F4	FIELD ITEM	Rocket Warehouse		Big Pearl item ball disappeared		FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_BIG_PEARL
-0x1F5	FIELD ITEM	Rocket Warehouse		TM36 item ball disappeared		FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_TM36
+0x1F5	FIELD ITEM	Rocket Warehouse		TM36 (Sludge Bomb) item ball disappeared		FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_TM36
 0x1F6	FIELD ITEM	Rocket Warehouse		Pearl item ball disappeared		FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_PEARL
 0x1F7	FIELD ITEM	Rocket Warehouse		Up-Grade item ball disappeared		FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_UP_GRADE
 0x1F8	FIELD ITEM	Lost Cave		Silk Scarf item ball disappeared		FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM10_SILK_SCARF
@@ -509,7 +509,7 @@
 0x1FB	FIELD ITEM	Lost Cave		Max Revive item ball disappeared		FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM13_MAX_REVIVE
 0x1FC	FIELD ITEM	Lost Cave		Rare Candy item ball disappeared		FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM14_RARE_CANDY
 0x1FD	FIELD ITEM	Sevault Canyon		Lucky Punch item ball disappeared		FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_HOUSE_LUCKY_PUNCH
-0x1FE	FIELD ITEM	Silph Co.		TM41 item ball disappeared		FLAG_HIDE_SILPH_CO_4F_TM41
+0x1FE	FIELD ITEM	Silph Co.	4F	TM41 (Torment) item ball disappeared		FLAG_HIDE_SILPH_CO_4F_TM41
 0x1FF	_UNUSED					
 0x200	_UNUSED					
 0x201	_UNUSED					
@@ -565,7 +565,7 @@
 0x233	EVENT			Change Text of Bill		FLAG_HELPED_BILL_IN_SEA_COTTAGE
 0x234	ITEM GIFT	Route 25	Sea Cottage	Received S.S. Ticket from Bill		FLAG_GOT_SS_TICKET
 0x235	EVENT			???		FLAG_GOT_SS_TICKET_DUP
-0x236	ITEM GIFT			TM42 on Memorial Pillar received		FLAG_GOT_TM42_AT_MEMORIAL_PILLAR
+0x236	ITEM GIFT			TM42 (Facade) on Memorial Pillar received		FLAG_GOT_TM42_AT_MEMORIAL_PILLAR
 0x237	ITEM GIFT	S.S. Anne	3F	Received HM01 (Cut) from captain		FLAG_GOT_HM01
 0x238	ITEM GIFT	Route 16	House	Received HM02 (Fly) from girl		FLAG_GOT_HM02
 0x239	ITEM GIFT	Safari Zone	West	Received HM03 (Surf) from man in Secret House		FLAG_GOT_HM03
@@ -600,9 +600,9 @@
 0x256	ITEM GIFT	Route 15	Gate	Received Exp. Share from Oak's Aide		FLAG_GOT_EXP_SHARE_FROM_OAKS_AIDE
 0x257	IN-GAME TRADE			Traded on Route 18		FLAG_DID_MARC_TRADE
 0x258	EVENT			Change Text of Player's Mom (Let you heal Pokémon)		FLAG_BEAT_RIVAL_IN_OAKS_LAB
-0x259	ITEM GIFT	Fuchsia City	Gym	TM06 (Toxic) from Koga		FLAG_GOT_TM06_FROM_KOGA
+0x259	ITEM GIFT	Fuchsia City	Gym	Received TM06 (Toxic) from Koga		FLAG_GOT_TM06_FROM_KOGA
 0x25A	_UNUSED					
-0x25B	ITEM GIFT	Route 12	Gate	TM27 (Return) from girl		FLAG_GOT_TM27
+0x25B	ITEM GIFT	Route 12	Gate	Received TM27 (Return) from girl		FLAG_GOT_TM27
 0x25C	_UNUSED					
 0x25D	_UNUSED					
 0x25E	ITEM GIFT	Pewter City	Museum	Received Old Amber from scientist		FLAG_GOT_OLD_AMBER
@@ -999,49 +999,49 @@
 0x3E5	EVENT					FLAG_MYSTERY_GIFT_13
 0x3E6	EVENT					FLAG_MYSTERY_GIFT_14
 0x3E7	EVENT					FLAG_MYSTERY_GIFT_15
-0x3E8	HIDDEN ITEM	Viridian Forest		Potion		HIDDEN_ITEM_VIRIDIAN_FOREST_POTION
-0x3E9	HIDDEN ITEM	Viridian Forest		Antidote		HIDDEN_ITEM_VIRIDIAN_FOREST_ANTIDOTE
-0x3EA	HIDDEN ITEM	Mt. Moon		Moon Stone		HIDDEN_ITEM_MT_MOON_B2F_MOON_STONE
-0x3EB	HIDDEN ITEM	Mt. Moon		Ether		HIDDEN_ITEM_MT_MOON_B2F_ETHER
-0x3EC	HIDDEN ITEM	Route 25		Elixir		HIDDEN_ITEM_ROUTE25_ELIXIR
-0x3ED	HIDDEN ITEM	Route 25		Ether		HIDDEN_ITEM_ROUTE25_ETHER
-0x3EE	HIDDEN ITEM	Route 9		Ether		HIDDEN_ITEM_ROUTE9_ETHER
+0x3E8	HIDDEN ITEM	Viridian Forest		Found Potion		HIDDEN_ITEM_VIRIDIAN_FOREST_POTION
+0x3E9	HIDDEN ITEM	Viridian Forest		Found Antidote		HIDDEN_ITEM_VIRIDIAN_FOREST_ANTIDOTE
+0x3EA	HIDDEN ITEM	Mt. Moon		Found Moon Stone		HIDDEN_ITEM_MT_MOON_B2F_MOON_STONE
+0x3EB	HIDDEN ITEM	Mt. Moon		Found Ether		HIDDEN_ITEM_MT_MOON_B2F_ETHER
+0x3EC	HIDDEN ITEM	Route 25		Found Elixir		HIDDEN_ITEM_ROUTE25_ELIXIR
+0x3ED	HIDDEN ITEM	Route 25		Found Ether		HIDDEN_ITEM_ROUTE25_ETHER
+0x3EE	HIDDEN ITEM	Route 9		Found Ether		HIDDEN_ITEM_ROUTE9_ETHER
 0x3EF	_UNUSED					HIDDEN_ITEM_UNUSED_0x07
-0x3F0	HIDDEN ITEM	S.S. Anne		Hyper Potion		HIDDEN_ITEM_SSANNE_B1F_CORRIDOR_HYPER_POTION
-0x3F1	HIDDEN ITEM	Route 10		Super Potion		HIDDEN_ITEM_ROUTE10_SUPER_POTION
-0x3F2	HIDDEN ITEM	Route 10		Max Ether		HIDDEN_ITEM_ROUTE10_MAX_ETHER
-0x3F3	HIDDEN ITEM	Rocket Hideout		PP Up		HIDDEN_ITEM_ROCKET_HIDEOUT_B1F_PP_UP
-0x3F4	HIDDEN ITEM	Rocket Hideout		Nugget		HIDDEN_ITEM_ROCKET_HIDEOUT_B3F_NUGGET
-0x3F5	HIDDEN ITEM	Rocket Hideout		Nest Ball		HIDDEN_ITEM_ROCKET_HIDEOUT_B4F_NEST_BALL
-0x3F6	HIDDEN ITEM	Pokémon Tower		Big Mushroom		HIDDEN_ITEM_POKEMON_TOWER_5F_BIG_MUSHROOM
-0x3F7	HIDDEN ITEM	Route 13		PP Up		HIDDEN_ITEM_ROUTE13_PP_UP
+0x3F0	HIDDEN ITEM	S.S. Anne	B1F	Found Hyper Potion		HIDDEN_ITEM_SSANNE_B1F_CORRIDOR_HYPER_POTION
+0x3F1	HIDDEN ITEM	Route 10		Found Super Potion		HIDDEN_ITEM_ROUTE10_SUPER_POTION
+0x3F2	HIDDEN ITEM	Route 10		Found Max Ether		HIDDEN_ITEM_ROUTE10_MAX_ETHER
+0x3F3	HIDDEN ITEM	Rocket Hideout		Found PP Up		HIDDEN_ITEM_ROCKET_HIDEOUT_B1F_PP_UP
+0x3F4	HIDDEN ITEM	Rocket Hideout		Found Nugget		HIDDEN_ITEM_ROCKET_HIDEOUT_B3F_NUGGET
+0x3F5	HIDDEN ITEM	Rocket Hideout		Found Nest Ball		HIDDEN_ITEM_ROCKET_HIDEOUT_B4F_NEST_BALL
+0x3F6	HIDDEN ITEM	Pokémon Tower	5F	Found Big Mushroom		HIDDEN_ITEM_POKEMON_TOWER_5F_BIG_MUSHROOM
+0x3F7	HIDDEN ITEM	Route 13		Found PP Up		HIDDEN_ITEM_ROUTE13_PP_UP
 0x3F8	_UNUSED					HIDDEN_ITEM_UNUSED_0x10
-0x3F9	HIDDEN ITEM	Route 17		Rare Candy		HIDDEN_ITEM_ROUTE17_RARE_CANDY
-0x3FA	HIDDEN ITEM	Route 17		Full Restore		HIDDEN_ITEM_ROUTE17_FULL_RESTORE
-0x3FB	HIDDEN ITEM	Route 17		PP Up		HIDDEN_ITEM_ROUTE17_PP_UP
-0x3FC	HIDDEN ITEM	Route 17		Max Revive		HIDDEN_ITEM_ROUTE17_MAX_REVIVE
-0x3FD	HIDDEN ITEM	Route 17		Max Elixir		HIDDEN_ITEM_ROUTE17_MAX_ELIXIR
-0x3FE	HIDDEN ITEM	Safari Zone		Leaf Stone		HIDDEN_ITEM_SAFARI_ZONE_CENTER_LEAF_STONE
-0x3FF	HIDDEN ITEM	Safari Zone		Revive		HIDDEN_ITEM_SAFARI_ZONE_WEST_REVIVE
-0x400	HIDDEN ITEM	Silph Co.		Elixir		HIDDEN_ITEM_SILPH_CO_5F_ELIXIR
-0x401	HIDDEN ITEM	Silph Co.		Max Potion		HIDDEN_ITEM_SILPH_CO_9F_MAX_POTION
-0x402	HIDDEN ITEM	Saffron City		Nugget		HIDDEN_ITEM_SAFFRON_CITY_COPYCATS_HOUSE_2F_NUGGET
-0x403	HIDDEN ITEM	Power Plant		Max Elixir		HIDDEN_ITEM_POWER_PLANT_MAX_ELIXIR
-0x404	HIDDEN ITEM	Power Plant		Thunder Stone		HIDDEN_ITEM_POWER_PLANT_THUNDER_STONE
-0x405	HIDDEN ITEM	Seafoam Islands		Nugget		HIDDEN_ITEM_SEAFOAM_ISLANDS_B3F_NUGGET
-0x406	HIDDEN ITEM	Seafoam Islands		Water Stone		HIDDEN_ITEM_SEAFOAM_ISLANDS_B4F_WATER_STONE
-0x407	HIDDEN ITEM	Pokémon Mansion		Moon Stone		HIDDEN_ITEM_POKEMON_MANSION_1F_MOON_STONE
-0x408	HIDDEN ITEM	Pokémon Mansion		Rare Candy		HIDDEN_ITEM_POKEMON_MANSION_3F_RARE_CANDY
-0x409	HIDDEN ITEM	Pokémon Mansion		Elixir		HIDDEN_ITEM_POKEMON_MANSION_B1F_ELIXIR
-0x40A	HIDDEN ITEM	Route 23		Full Restore		HIDDEN_ITEM_ROUTE23_FULL_RESTORE
-0x40B	HIDDEN ITEM	Route 23		Ultra Ball		HIDDEN_ITEM_ROUTE23_ULTRA_BALL
-0x40C	HIDDEN ITEM	Route 23		Max Ether		HIDDEN_ITEM_ROUTE23_MAX_ETHER
-0x40D	HIDDEN ITEM	Victory Road		Ultra Ball		HIDDEN_ITEM_VICTORY_ROAD_1F_ULTRA_BALL
-0x40E	HIDDEN ITEM	Victory Road		Full Restore		HIDDEN_ITEM_VICTORY_ROAD_1F_FULL_RESTORE
-0x40F	HIDDEN ITEM	Cerulean Cave		Ultra Ball		HIDDEN_ITEM_CERULEAN_CAVE_1F_ULTRA_BALL
+0x3F9	HIDDEN ITEM	Route 17		Found Rare Candy		HIDDEN_ITEM_ROUTE17_RARE_CANDY
+0x3FA	HIDDEN ITEM	Route 17		Found Full Restore		HIDDEN_ITEM_ROUTE17_FULL_RESTORE
+0x3FB	HIDDEN ITEM	Route 17		Found PP Up		HIDDEN_ITEM_ROUTE17_PP_UP
+0x3FC	HIDDEN ITEM	Route 17		Found Max Revive		HIDDEN_ITEM_ROUTE17_MAX_REVIVE
+0x3FD	HIDDEN ITEM	Route 17		Found Max Elixir		HIDDEN_ITEM_ROUTE17_MAX_ELIXIR
+0x3FE	HIDDEN ITEM	Safari Zone		Found Leaf Stone		HIDDEN_ITEM_SAFARI_ZONE_CENTER_LEAF_STONE
+0x3FF	HIDDEN ITEM	Safari Zone		Found Revive		HIDDEN_ITEM_SAFARI_ZONE_WEST_REVIVE
+0x400	HIDDEN ITEM	Silph Co.	5F	Found Elixir		HIDDEN_ITEM_SILPH_CO_5F_ELIXIR
+0x401	HIDDEN ITEM	Silph Co.	9F	Found Max Potion		HIDDEN_ITEM_SILPH_CO_9F_MAX_POTION
+0x402	HIDDEN ITEM	Saffron City		Found Nugget		HIDDEN_ITEM_SAFFRON_CITY_COPYCATS_HOUSE_2F_NUGGET
+0x403	HIDDEN ITEM	Power Plant		Found Max Elixir		HIDDEN_ITEM_POWER_PLANT_MAX_ELIXIR
+0x404	HIDDEN ITEM	Power Plant		Found Thunder Stone		HIDDEN_ITEM_POWER_PLANT_THUNDER_STONE
+0x405	HIDDEN ITEM	Seafoam Islands		Found Nugget		HIDDEN_ITEM_SEAFOAM_ISLANDS_B3F_NUGGET
+0x406	HIDDEN ITEM	Seafoam Islands		Found Water Stone		HIDDEN_ITEM_SEAFOAM_ISLANDS_B4F_WATER_STONE
+0x407	HIDDEN ITEM	Pokémon Mansion		Found Moon Stone		HIDDEN_ITEM_POKEMON_MANSION_1F_MOON_STONE
+0x408	HIDDEN ITEM	Pokémon Mansion		Found Rare Candy		HIDDEN_ITEM_POKEMON_MANSION_3F_RARE_CANDY
+0x409	HIDDEN ITEM	Pokémon Mansion		Found Elixir		HIDDEN_ITEM_POKEMON_MANSION_B1F_ELIXIR
+0x40A	HIDDEN ITEM	Route 23		Found Full Restore		HIDDEN_ITEM_ROUTE23_FULL_RESTORE
+0x40B	HIDDEN ITEM	Route 23		Found Ultra Ball		HIDDEN_ITEM_ROUTE23_ULTRA_BALL
+0x40C	HIDDEN ITEM	Route 23		Found Max Ether		HIDDEN_ITEM_ROUTE23_MAX_ETHER
+0x40D	HIDDEN ITEM	Victory Road		Found Ultra Ball		HIDDEN_ITEM_VICTORY_ROAD_1F_ULTRA_BALL
+0x40E	HIDDEN ITEM	Victory Road		Found Full Restore		HIDDEN_ITEM_VICTORY_ROAD_1F_FULL_RESTORE
+0x40F	HIDDEN ITEM	Cerulean Cave	1F	Found Ultra Ball		HIDDEN_ITEM_CERULEAN_CAVE_1F_ULTRA_BALL
 0x410	_UNUSED					HIDDEN_ITEM_UNUSED_0x28
-0x411	HIDDEN ITEM	Route 11		Escape Rope		HIDDEN_ITEM_ROUTE11_ESCAPE_ROPE
-0x412	HIDDEN ITEM	Route 12		Hyper Potion		HIDDEN_ITEM_ROUTE12_HYPER_POTION
+0x411	HIDDEN ITEM	Route 11		Found Escape Rope		HIDDEN_ITEM_ROUTE11_ESCAPE_ROPE
+0x412	HIDDEN ITEM	Route 12		Found Hyper Potion		HIDDEN_ITEM_ROUTE12_HYPER_POTION
 0x413	_UNUSED					HIDDEN_ITEM_UNUSED_0x2B
 0x414	_UNUSED					HIDDEN_ITEM_UNUSED_0x2C
 0x415	_UNUSED					HIDDEN_ITEM_UNUSED_0x2D
@@ -1119,9 +1119,9 @@
 0x45D	HIDDEN ITEM	Route 25		Found Bluk Berry		HIDDEN_ITEM_ROUTE25_BLUK_BERRY
 0x45E	HIDDEN ITEM	Route 6		Found Sitrus Berry		HIDDEN_ITEM_ROUTE6_SITRUS_BERRY
 0x45F	HIDDEN ITEM	Route 6		Found Rare Candy		HIDDEN_ITEM_ROUTE6_RARE_CANDY
-0x460	HIDDEN ITEM	S.S. Anne		Found Pecha Berry		HIDDEN_ITEM_SSANNE_KITCHEN_PECHA_BERRY
-0x461	HIDDEN ITEM	S.S. Anne		Found Cheri Berry		HIDDEN_ITEM_SSANNE_KITCHEN_CHERI_BERRY
-0x462	HIDDEN ITEM	S.S. Anne		Found Chesto Berry		HIDDEN_ITEM_SSANNE_KITCHEN_CHESTO_BERRY
+0x460	HIDDEN ITEM	S.S. Anne	Kitchen	Found Pecha Berry		HIDDEN_ITEM_SSANNE_KITCHEN_PECHA_BERRY
+0x461	HIDDEN ITEM	S.S. Anne	Kitchen	Found Cheri Berry		HIDDEN_ITEM_SSANNE_KITCHEN_CHERI_BERRY
+0x462	HIDDEN ITEM	S.S. Anne	Kitchen	Found Chesto Berry		HIDDEN_ITEM_SSANNE_KITCHEN_CHESTO_BERRY
 0x463	HIDDEN ITEM	Route 9		Found Rare Candy		HIDDEN_ITEM_ROUTE9_RARE_CANDY
 0x464	_UNUSED					HIDDEN_ITEM_UNUSED_0x7C
 0x465	HIDDEN ITEM	Route 10		Found Persim Berry		HIDDEN_ITEM_ROUTE10_PERSIM_BERRY
@@ -1134,16 +1134,16 @@
 0x46C	HIDDEN ITEM	Route 16		Found Leftovers		HIDDEN_ITEM_ROUTE16_LEFTOVERS
 0x46D	HIDDEN ITEM	Fuchsia City		Found Max Revive		HIDDEN_ITEM_FUCHSIA_CITY_MAX_REVIVE
 0x46E	HIDDEN ITEM	Rocket Hideout		Found Net Ball		HIDDEN_ITEM_ROCKET_HIDEOUT_B4F_NET_BALL
-0x46F	HIDDEN ITEM	Silph Co.		Found Ultra Ball		HIDDEN_ITEM_SILPH_CO_2F_ULTRA_BALL
-0x470	HIDDEN ITEM	Silph Co.		Found Protein		HIDDEN_ITEM_SILPH_CO_3F_PROTEIN
-0x471	HIDDEN ITEM	Silph Co.		Found Iron		HIDDEN_ITEM_SILPH_CO_4F_IRON
-0x472	HIDDEN ITEM	Silph Co.		Found PP Up		HIDDEN_ITEM_SILPH_CO_5F_PP_UP
-0x473	HIDDEN ITEM	Silph Co.		Found Carbos		HIDDEN_ITEM_SILPH_CO_6F_CARBOS
-0x474	HIDDEN ITEM	Silph Co.		Found Zinc		HIDDEN_ITEM_SILPH_CO_7F_ZINC
-0x475	HIDDEN ITEM	Silph Co.		Found Nugget		HIDDEN_ITEM_SILPH_CO_8F_NUGGET
-0x476	HIDDEN ITEM	Silph Co.		Found Calcium		HIDDEN_ITEM_SILPH_CO_9F_CALCIUM
-0x477	HIDDEN ITEM	Silph Co.		Found HP Up		HIDDEN_ITEM_SILPH_CO_10F_HP_UP
-0x478	HIDDEN ITEM	Silph Co.		Found Revive		HIDDEN_ITEM_SILPH_CO_11F_REVIVE
+0x46F	HIDDEN ITEM	Silph Co.	2F	Found Ultra Ball		HIDDEN_ITEM_SILPH_CO_2F_ULTRA_BALL
+0x470	HIDDEN ITEM	Silph Co.	3F	Found Protein		HIDDEN_ITEM_SILPH_CO_3F_PROTEIN
+0x471	HIDDEN ITEM	Silph Co.	4F	Found Iron		HIDDEN_ITEM_SILPH_CO_4F_IRON
+0x472	HIDDEN ITEM	Silph Co.	5F	Found PP Up		HIDDEN_ITEM_SILPH_CO_5F_PP_UP
+0x473	HIDDEN ITEM	Silph Co.	6F	Found Carbos		HIDDEN_ITEM_SILPH_CO_6F_CARBOS
+0x474	HIDDEN ITEM	Silph Co.	7F	Found Zinc		HIDDEN_ITEM_SILPH_CO_7F_ZINC
+0x475	HIDDEN ITEM	Silph Co.	8F	Found Nugget		HIDDEN_ITEM_SILPH_CO_8F_NUGGET
+0x476	HIDDEN ITEM	Silph Co.	9F	Found Calcium		HIDDEN_ITEM_SILPH_CO_9F_CALCIUM
+0x477	HIDDEN ITEM	Silph Co.	10F	Found HP Up		HIDDEN_ITEM_SILPH_CO_10F_HP_UP
+0x478	HIDDEN ITEM	Silph Co.	11F	Found Revive		HIDDEN_ITEM_SILPH_CO_11F_REVIVE
 0x479	HIDDEN ITEM	Route 23		Found Lum Berry		HIDDEN_ITEM_ROUTE23_LUM_BERRY
 0x47A	HIDDEN ITEM	Route 23		Found Sitrus Berry		HIDDEN_ITEM_ROUTE23_SITRUS_BERRY
 0x47B	HIDDEN ITEM	Route 23		Found Aspear Berry		HIDDEN_ITEM_ROUTE23_ASPEAR_BERRY
@@ -1158,7 +1158,7 @@
 0x484	HIDDEN ITEM	Route 4		Found Razz Berry		HIDDEN_ITEM_ROUTE4_RAZZ_BERRY
 0x485	HIDDEN ITEM	Route 14		Found Pinap Berry		HIDDEN_ITEM_ROUTE14_PINAP_BERRY
 0x486	HIDDEN ITEM	Mt. Ember		Found Fire Stone		HIDDEN_ITEM_MT_EMBER_EXTERIOR_FIRE_STONE
-0x487	HIDDEN ITEM	Pokémon Tower		Found Soothe Bell		HIDDEN_ITEM_POKEMON_TOWER_7F_SOOTHE_BELL
+0x487	HIDDEN ITEM	Pokémon Tower	7F	Found Soothe Bell		HIDDEN_ITEM_POKEMON_TOWER_7F_SOOTHE_BELL
 0x488	HIDDEN ITEM	Navel Rock		Found Sacred Ash		HIDDEN_ITEM_NAVEL_ROCK_SUMMIT_SACRED_ASH
 0x489	HIDDEN ITEM	Cape Brink		Found PP Max		HIDDEN_ITEM_TWO_ISLAND_CAPE_BRINK_PP_MAX
 0x48A	HIDDEN ITEM	Mt. Ember		Found Ultra Ball		HIDDEN_ITEM_MT_EMBER_EXTERIOR_ULTRA_BALL
@@ -1188,7 +1188,7 @@
 0x4A2	HIDDEN ITEM	Trainer Tower		Found Pearl (recurring)		HIDDEN_ITEM_SEVEN_ISLAND_TRAINER_TOWER_PEARL
 0x4A3	HIDDEN ITEM	Trainer Tower		Found Nanab Berry		HIDDEN_ITEM_SEVEN_ISLAND_TRAINER_TOWER_NANAB_BERRY
 0x4A4	HIDDEN ITEM	Canyon Entrance		Found Rawst Berry		HIDDEN_ITEM_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE_RAWST_BERRY
-0x4A5	HIDDEN ITEM	Viridian Gym		Found Macho Brace		HIDDEN_ITEM_VIRIDIAN_CITY_GYM_MACHO_BRACE
+0x4A5	HIDDEN ITEM	Viridian City	Gym	Found Macho Brace		HIDDEN_ITEM_VIRIDIAN_CITY_GYM_MACHO_BRACE
 0x4A6	HIDDEN ITEM	S.S. Anne Port		Found Lava Cookie		HIDDEN_ITEM_SSANNE_EXTERIOR_LAVA_COOKIE
 0x4A7	_UNUSED					
 0x4A8	_UNUSED					
@@ -1411,8 +1411,8 @@
 0x581	TRAINER BATTLE	Route 8		Lass Andrea		TRAINER_LASS_ANDREA
 0x582	TRAINER BATTLE	Route 8		Lass Megan		TRAINER_LASS_MEGAN
 0x583	TRAINER BATTLE	Route 8		Lass Julia		TRAINER_LASS_JULIA
-0x584	TRAINER BATTLE	Celadon Gym		Lass Kay		TRAINER_LASS_KAY
-0x585	TRAINER BATTLE	Celadon Gym		Lass Lisa		TRAINER_LASS_LISA
+0x584	TRAINER BATTLE	Celadon City	Gym	Lass Kay		TRAINER_LASS_KAY
+0x585	TRAINER BATTLE	Celadon City	Gym	Lass Lisa		TRAINER_LASS_LISA
 0x586	TRAINER BATTLE	S.S. Anne	?	Sailor Edmond		TRAINER_SAILOR_EDMOND
 0x587	TRAINER BATTLE	S.S. Anne	?	Sailor Trevor		TRAINER_SAILOR_TREVOR
 0x588	TRAINER BATTLE	S.S. Anne	?	Sailor Leonard		TRAINER_SAILOR_LEONARD
@@ -1420,8 +1420,8 @@
 0x58A	TRAINER BATTLE	S.S. Anne	?	Sailor Huey		TRAINER_SAILOR_HUEY
 0x58B	TRAINER BATTLE	S.S. Anne	?	Sailor Dylan		TRAINER_SAILOR_DYLAN
 0x58C	TRAINER BATTLE	S.S. Anne	?	Sailor Phillip		TRAINER_SAILOR_PHILLIP
-0x58D	TRAINER BATTLE	Vermilion Gym		Sailor Dwayne		TRAINER_SAILOR_DWAYNE
-0x58E	TRAINER BATTLE	Pewter City Gym		Camper Liam		TRAINER_CAMPER_LIAM
+0x58D	TRAINER BATTLE	Vermilion City	Gym	Sailor Dwayne		TRAINER_SAILOR_DWAYNE
+0x58E	TRAINER BATTLE	Pewter City	Gym	Camper Liam		TRAINER_CAMPER_LIAM
 0x58F	TRAINER BATTLE	Route 24		Camper Shane		TRAINER_CAMPER_SHANE
 0x590	TRAINER BATTLE	Route 24		Camper Ethan		TRAINER_CAMPER_ETHAN
 0x591	TRAINER BATTLE	Route 6		Camper Ricky		TRAINER_CAMPER_RICKY
@@ -1429,7 +1429,7 @@
 0x593	_UNUSED					TRAINER_CAMPER_2
 0x594	TRAINER BATTLE	Route 9		Camper Chris		TRAINER_CAMPER_CHRIS
 0x595	TRAINER BATTLE	Route 9		Camper Drew		TRAINER_CAMPER_DREW
-0x596	TRAINER BATTLE	Cerulean Gym		Picnicker Diana		TRAINER_PICNICKER_DIANA
+0x596	TRAINER BATTLE	Cerulean City	Gym	Picnicker Diana		TRAINER_PICNICKER_DIANA
 0x597	TRAINER BATTLE	Route 6		Picnicker Nancy		TRAINER_PICNICKER_NANCY
 0x598	TRAINER BATTLE	Route 6		Picnicker Isabelle		TRAINER_PICNICKER_ISABELLE
 0x599	TRAINER BATTLE	Route 25		Picnicker Kelsey		TRAINER_PICNICKER_KELSEY
@@ -1439,7 +1439,7 @@
 0x59D	TRAINER BATTLE	Route 10		Picnicker Carol		TRAINER_PICNICKER_CAROL
 0x59E	TRAINER BATTLE	Rock Tunnel	?	Picnicker Sofia		TRAINER_PICNICKER_SOFIA
 0x59F	TRAINER BATTLE	Rock Tunnel	?	Picnicker Martha		TRAINER_PICNICKER_MARTHA
-0x5A0	TRAINER BATTLE	Celadon Gym		Picnicker Tina		TRAINER_PICNICKER_TINA
+0x5A0	TRAINER BATTLE	Celadon City	Gym	Picnicker Tina		TRAINER_PICNICKER_TINA
 0x5A1	_UNUSED					TRAINER_PICNICKER_HANNAH
 0x5A2	TRAINER BATTLE	Route 10		PokéManiac Mark		TRAINER_POKEMANIAC_MARK
 0x5A3	TRAINER BATTLE	Route 10		PokéManiac Herman		TRAINER_POKEMANIAC_HERMAN
@@ -1456,10 +1456,10 @@
 0x5AE	_UNUSED					TRAINER_SUPER_NERD_1
 0x5AF	_UNUSED					TRAINER_SUPER_NERD_2
 0x5B0	_UNUSED					TRAINER_SUPER_NERD_3
-0x5B1	TRAINER BATTLE	Cinnabar Gym		Super Nerd Erik		TRAINER_SUPER_NERD_ERIK
-0x5B2	TRAINER BATTLE	Cinnabar Gym		Super Nerd Avery		TRAINER_SUPER_NERD_AVERY
-0x5B3	TRAINER BATTLE	Cinnabar Gym		Super Nerd Derek		TRAINER_SUPER_NERD_DEREK
-0x5B4	TRAINER BATTLE	Cinnabar Gym		Super Nerd Zac		TRAINER_SUPER_NERD_ZAC
+0x5B1	TRAINER BATTLE	Cinnabar Island	Gym	Super Nerd Erik		TRAINER_SUPER_NERD_ERIK
+0x5B2	TRAINER BATTLE	Cinnabar Island	Gym	Super Nerd Avery		TRAINER_SUPER_NERD_AVERY
+0x5B3	TRAINER BATTLE	Cinnabar Island	Gym	Super Nerd Derek		TRAINER_SUPER_NERD_DEREK
+0x5B4	TRAINER BATTLE	Cinnabar Island	Gym	Super Nerd Zac		TRAINER_SUPER_NERD_ZAC
 0x5B5	TRAINER BATTLE	Mt. Moon	?	Hiker Marcos		TRAINER_HIKER_MARCOS
 0x5B6	TRAINER BATTLE	Route 25		Hiker Franklin		TRAINER_HIKER_FRANKLIN
 0x5B7	TRAINER BATTLE	Route 25		Hiker Nob		TRAINER_HIKER_NOB
@@ -1492,14 +1492,14 @@
 0x5D2	_UNUSED					TRAINER_BURGLAR_1
 0x5D3	_UNUSED					TRAINER_BURGLAR_2
 0x5D4	_UNUSED					TRAINER_BURGLAR_3
-0x5D5	TRAINER BATTLE	Cinnabar Gym		Burglar Quinn		TRAINER_BURGLAR_QUINN
-0x5D6	TRAINER BATTLE	Cinnabar Gym		Burglar Ramon		TRAINER_BURGLAR_RAMON
-0x5D7	TRAINER BATTLE	Cinnabar Gym		Burglar Dusty		TRAINER_BURGLAR_DUSTY
+0x5D5	TRAINER BATTLE	Cinnabar Island	Gym	Burglar Quinn		TRAINER_BURGLAR_QUINN
+0x5D6	TRAINER BATTLE	Cinnabar Island	Gym	Burglar Ramon		TRAINER_BURGLAR_RAMON
+0x5D7	TRAINER BATTLE	Cinnabar Island	Gym	Burglar Dusty		TRAINER_BURGLAR_DUSTY
 0x5D8	TRAINER BATTLE	Pokémon Mansion	?	Burglar Arnie		TRAINER_BURGLAR_ARNIE
 0x5D9	_UNUSED					TRAINER_BURGLAR_4
 0x5DA	TRAINER BATTLE	Pokémon Mansion	?	Burglar Simon		TRAINER_BURGLAR_SIMON
 0x5DB	TRAINER BATTLE	Pokémon Mansion	?	Burglar Lewis		TRAINER_BURGLAR_LEWIS
-0x5DC	TRAINER BATTLE	Vermilion Gym		Engineer Baily		TRAINER_ENGINEER_BAILY
+0x5DC	TRAINER BATTLE	Vermilion City	Gym	Engineer Baily		TRAINER_ENGINEER_BAILY
 0x5DD	TRAINER BATTLE	Route 11		Engineer Braxton		TRAINER_ENGINEER_BRAXTON
 0x5DE	TRAINER BATTLE	Route 11		Engineer Bernie		TRAINER_ENGINEER_BERNIE
 0x5DF	TRAINER BATTLE	S.S. Anne	?	Fisherman Dale		TRAINER_FISHERMAN_DALE
@@ -1513,7 +1513,7 @@
 0x5E7	TRAINER BATTLE	Route 21		Fisherman Wade		TRAINER_FISHERMAN_WADE
 0x5E8	TRAINER BATTLE	Route 21		Fisherman Nolan		TRAINER_FISHERMAN_NOLAN
 0x5E9	TRAINER BATTLE	Route 12		Fisherman Andrew		TRAINER_FISHERMAN_ANDREW
-0x5EA	TRAINER BATTLE	Cerulean Gym		Swimmer♂ Luis		TRAINER_SWIMMER_MALE_LUIS
+0x5EA	TRAINER BATTLE	Cerulean City	Gym	Swimmer♂ Luis		TRAINER_SWIMMER_MALE_LUIS
 0x5EB	TRAINER BATTLE	Route 19		Swimmer♂ Richard		TRAINER_SWIMMER_MALE_RICHARD
 0x5EC	TRAINER BATTLE	Route 19		Swimmer♂ Reece		TRAINER_SWIMMER_MALE_REECE
 0x5ED	TRAINER BATTLE	Route 19		Swimmer♂ Matthew		TRAINER_SWIMMER_MALE_MATTHEW
@@ -1544,9 +1544,9 @@
 0x606	TRAINER BATTLE	Route 8		Gamer Stan		TRAINER_GAMER_STAN
 0x607	_UNUSED					TRAINER_GAMER_1
 0x608	TRAINER BATTLE	Route 8		Gamer Rich		TRAINER_GAMER_RICH
-0x609	TRAINER BATTLE	Celadon Gym		Beauty Bridget		TRAINER_BEAUTY_BRIDGET
-0x60A	TRAINER BATTLE	Celadon Gym		Beauty Tamia		TRAINER_BEAUTY_TAMIA
-0x60B	TRAINER BATTLE	Celadon Gym		Beauty Lori		TRAINER_BEAUTY_LORI
+0x609	TRAINER BATTLE	Celadon City	Gym	Beauty Bridget		TRAINER_BEAUTY_BRIDGET
+0x60A	TRAINER BATTLE	Celadon City	Gym	Beauty Tamia		TRAINER_BEAUTY_TAMIA
+0x60B	TRAINER BATTLE	Celadon City	Gym	Beauty Lori		TRAINER_BEAUTY_LORI
 0x60C	TRAINER BATTLE	Route 13		Beauty Lola		TRAINER_BEAUTY_LOLA
 0x60D	TRAINER BATTLE	Route 13		Beauty Sheila		TRAINER_BEAUTY_SHEILA
 0x60E	TRAINER BATTLE	Route 20		Swimmer♀ Tiffany		TRAINER_SWIMMER_FEMALE_TIFFANY
@@ -1559,24 +1559,24 @@
 0x615	TRAINER BATTLE	Route 19		Swimmer♀ Alice		TRAINER_SWIMMER_FEMALE_ALICE
 0x616	TRAINER BATTLE	Route 19		Swimmer♀ Connie		TRAINER_SWIMMER_FEMALE_CONNIE
 0x617	TRAINER BATTLE	Route 20		Swimmer♀ Shirley		TRAINER_SWIMMER_FEMALE_SHIRLEY
-0x618	TRAINER BATTLE	Saffron Gym		Psychic Johan		TRAINER_PSYCHIC_JOHAN
-0x619	TRAINER BATTLE	Saffron Gym		Psychic Tyorn		TRAINER_PSYCHIC_TYRON
-0x61A	TRAINER BATTLE	Saffron Gym		Psychic Cameron		TRAINER_PSYCHIC_CAMERON
-0x61B	TRAINER BATTLE	Saffron Gym		Psychic Preston		TRAINER_PSYCHIC_PRESTON
+0x618	TRAINER BATTLE	Saffron City	Gym	Psychic Johan		TRAINER_PSYCHIC_JOHAN
+0x619	TRAINER BATTLE	Saffron City	Gym	Psychic Tyorn		TRAINER_PSYCHIC_TYRON
+0x61A	TRAINER BATTLE	Saffron City	Gym	Psychic Cameron		TRAINER_PSYCHIC_CAMERON
+0x61B	TRAINER BATTLE	Saffron City	Gym	Psychic Preston		TRAINER_PSYCHIC_PRESTON
 0x61C	_UNUSED					TRAINER_ROCKER_RANDALL
 0x61D	TRAINER BATTLE	Route 12		Rocker Luca		TRAINER_ROCKER_LUCA
 0x61E	TRAINER BATTLE	Silph Co.	5F	Juggler Dalton		TRAINER_JUGGLER_DALTON
 0x61F	TRAINER BATTLE	Victory Road	?	Juggler Nelson		TRAINER_JUGGLER_NELSON
-0x620	TRAINER BATTLE	Fuchsia Gym		Juggler Kirk		TRAINER_JUGGLER_KIRK
-0x621	TRAINER BATTLE	Fuchsia Gym		Juggler Shawn		TRAINER_JUGGLER_SHAWN
+0x620	TRAINER BATTLE	Fuchsia City	Gym	Juggler Kirk		TRAINER_JUGGLER_KIRK
+0x621	TRAINER BATTLE	Fuchsia City	Gym	Juggler Shawn		TRAINER_JUGGLER_SHAWN
 0x622	TRAINER BATTLE	Victory Road	?	Juggler Gregory		TRAINER_JUGGLER_GREGORY
 0x623	TRAINER BATTLE	Water Path		Juggler Edward		TRAINER_JUGGLER_EDWARD
-0x624	TRAINER BATTLE	Fuchsia Gym		Juggler Kayden		TRAINER_JUGGLER_KAYDEN
-0x625	TRAINER BATTLE	Fuchsia Gym		Juggler Nate		TRAINER_JUGGLER_NATE
-0x626	TRAINER BATTLE	Fuchsia Gym		Tamer Phil		TRAINER_TAMER_PHIL
-0x627	TRAINER BATTLE	Fuchsia Gym		Tamer Edgar		TRAINER_TAMER_EDGAR
-0x628	TRAINER BATTLE	Viridian Gym		Tamer Jason		TRAINER_TAMER_JASON
-0x629	TRAINER BATTLE	Viridian Gym		Tamer Cole		TRAINER_TAMER_COLE
+0x624	TRAINER BATTLE	Fuchsia City	Gym	Juggler Kayden		TRAINER_JUGGLER_KAYDEN
+0x625	TRAINER BATTLE	Fuchsia City	Gym	Juggler Nate		TRAINER_JUGGLER_NATE
+0x626	TRAINER BATTLE	Fuchsia City	Gym	Tamer Phil		TRAINER_TAMER_PHIL
+0x627	TRAINER BATTLE	Fuchsia City	Gym	Tamer Edgar		TRAINER_TAMER_EDGAR
+0x628	TRAINER BATTLE	Viridian City	Gym	Tamer Jason		TRAINER_TAMER_JASON
+0x629	TRAINER BATTLE	Viridian City	Gym	Tamer Cole		TRAINER_TAMER_COLE
 0x62A	TRAINER BATTLE	Victory Road	?	Tamer Vincent		TRAINER_TAMER_VINCENT
 0x62B	_UNUSED					TRAINER_TAMER_JOHN
 0x62C	TRAINER BATTLE	Route 13		Bird Keeper Sebastian		TRAINER_BIRD_KEEPER_SEBASTIAN
@@ -1601,9 +1601,9 @@
 0x63F	TRAINER BATTLE	Fighting Dojo		Black Belt Hideki		TRAINER_BLACK_BELT_HIDEKI
 0x640	TRAINER BATTLE	Fighting Dojo		Black Belt Aaron		TRAINER_BLACK_BELT_AARON
 0x641	TRAINER BATTLE	Fighting Dojo		Black Belt Hitoshi		TRAINER_BLACK_BELT_HITOSHI
-0x642	TRAINER BATTLE	Viridian Gym		Black Belt Atsushi		TRAINER_BLACK_BELT_ATSUSHI
-0x643	TRAINER BATTLE	Viridian Gym		Black Belt Kiyo		TRAINER_BLACK_BELT_KIYO
-0x644	TRAINER BATTLE	Viridian Gym		Black Belt Takashi		TRAINER_BLACK_BELT_TAKASHI
+0x642	TRAINER BATTLE	Viridian City	Gym	Black Belt Atsushi		TRAINER_BLACK_BELT_ATSUSHI
+0x643	TRAINER BATTLE	Viridian City	Gym	Black Belt Kiyo		TRAINER_BLACK_BELT_KIYO
+0x644	TRAINER BATTLE	Viridian City	Gym	Black Belt Takashi		TRAINER_BLACK_BELT_TAKASHI
 0x645	TRAINER BATTLE	Victory Road	?	Black Belt Daisuke		TRAINER_BLACK_BELT_DAISUKE
 0x646	TRAINER BATTLE	Prof. Oak's Lab/lost (Starter Charmander)		Blue		TRAINER_RIVAL_OAKS_LAB_SQUIRTLE
 0x647	TRAINER BATTLE	Prof. Oak's Lab/lost (Starter Squirtle)		Blue		TRAINER_RIVAL_OAKS_LAB_BULBASAUR
@@ -1648,9 +1648,9 @@
 0x66E	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_16
 0x66F	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_17
 0x670	TRAINER BATTLE	Rocket Hideout	B4F	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_18
-0x671	TRAINER BATTLE	Pokémon Tower	?	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_19
-0x672	TRAINER BATTLE	Pokémon Tower	?	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_20
-0x673	TRAINER BATTLE	Pokémon Tower	?	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_21
+0x671	TRAINER BATTLE	Pokémon Tower	7F	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_19
+0x672	TRAINER BATTLE	Pokémon Tower	7F	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_20
+0x673	TRAINER BATTLE	Pokémon Tower	7F	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_21
 0x674	_UNUSED					TRAINER_TEAM_ROCKET_GRUNT_22
 0x675	TRAINER BATTLE	Silph Co.	2F	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_23
 0x676	TRAINER BATTLE	Silph Co.	2F	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_24
@@ -1671,7 +1671,7 @@
 0x685	TRAINER BATTLE	Silph Co.	10F	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_39
 0x686	TRAINER BATTLE	Silph Co.	11F	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_40
 0x687	TRAINER BATTLE	Silph Co.	11F	Team Rocket Grunt		TRAINER_TEAM_ROCKET_GRUNT_41
-0x688	TRAINER BATTLE	Viridian Gym		Cooltrainer Samuel		TRAINER_COOLTRAINER_SAMUEL
+0x688	TRAINER BATTLE	Viridian City	Gym	Cooltrainer Samuel		TRAINER_COOLTRAINER_SAMUEL
 0x689	TRAINER BATTLE	Victory Road	?	Cooltrainer George		TRAINER_COOLTRAINER_GEORGE
 0x68A	TRAINER BATTLE	Victory Road	?	Cooltrainer Colby		TRAINER_COOLTRAINER_COLBY
 0x68B	_UNUSED					TRAINER_COOLTRAINER_PAUL
@@ -1679,9 +1679,9 @@
 0x68D	_UNUSED					TRAINER_COOLTRAINER_GILBERT
 0x68E	_UNUSED					TRAINER_COOLTRAINER_OWEN
 0x68F	_UNUSED					TRAINER_COOLTRAINER_BERKE
-0x690	TRAINER BATTLE	Viridian Gym		Cooltrainer Yuji		TRAINER_COOLTRAINER_YUJI
-0x691	TRAINER BATTLE	Viridian Gym		Cooltrainer Warren		TRAINER_COOLTRAINER_WARREN
-0x692	TRAINER BATTLE	Celadon Gym		Cooltrainer Mary		TRAINER_COOLTRAINER_MARY
+0x690	TRAINER BATTLE	Viridian City	Gym	Cooltrainer Yuji		TRAINER_COOLTRAINER_YUJI
+0x691	TRAINER BATTLE	Viridian City	Gym	Cooltrainer Warren		TRAINER_COOLTRAINER_WARREN
+0x692	TRAINER BATTLE	Celadon City	Gym	Cooltrainer Mary		TRAINER_COOLTRAINER_MARY
 0x693	TRAINER BATTLE	Victory Road	?	Cooltrainer Caroline		TRAINER_COOLTRAINER_CAROLINE
 0x694	TRAINER BATTLE	Victory Road	?	Cooltrainer Alexa		TRAINER_COOLTRAINER_ALEXA
 0x695	_UNUSED					TRAINER_COOLTRAINER_SHANNON
@@ -1702,7 +1702,7 @@
 0x6A4	TRAINER BATTLE			Leader Sabrina defeated		TRAINER_LEADER_SABRINA
 0x6A5	TRAINER BATTLE	S.S. Anne	?	Gentleman Thomas		TRAINER_GENTLEMAN_THOMAS
 0x6A6	TRAINER BATTLE	S.S. Anne	?	Gentleman Arthur		TRAINER_GENTLEMAN_ARTHUR
-0x6A7	TRAINER BATTLE	Vermilion Gym		Gentleman Tucker		TRAINER_GENTLEMAN_TUCKER
+0x6A7	TRAINER BATTLE	Vermilion City	Gym	Gentleman Tucker		TRAINER_GENTLEMAN_TUCKER
 0x6A8	_UNUSED					TRAINER_GENTLEMAN_NORTON
 0x6A9	_UNUSED					TRAINER_GENTLEMAN_WALTER
 0x6AA	TRAINER BATTLE	S.S. Anne (Starter Charmander)		Blue		TRAINER_RIVAL_SS_ANNE_SQUIRTLE
@@ -1741,9 +1741,9 @@
 0x6CB	_UNUSED					TRAINER_CHANNELER_6
 0x6CC	_UNUSED					TRAINER_CHANNELER_7
 0x6CD	_UNUSED					TRAINER_CHANNELER_8
-0x6CE	TRAINER BATTLE	Saffron Gym		Channeler Amanda		TRAINER_CHANNELER_AMANDA
-0x6CF	TRAINER BATTLE	Saffron Gym		Channeler Stacy		TRAINER_CHANNELER_STACY
-0x6D0	TRAINER BATTLE	Saffron Gym		Channeler Tasha		TRAINER_CHANNELER_TASHA
+0x6CE	TRAINER BATTLE	Saffron City	Gym	Channeler Amanda		TRAINER_CHANNELER_AMANDA
+0x6CF	TRAINER BATTLE	Saffron City	Gym	Channeler Stacy		TRAINER_CHANNELER_STACY
+0x6D0	TRAINER BATTLE	Saffron City	Gym	Channeler Tasha		TRAINER_CHANNELER_TASHA
 0x6D1	TRAINER BATTLE	Route 9		Hiker Jeremy		TRAINER_HIKER_JEREMY
 0x6D2	TRAINER BATTLE	Route 13		Picnicker Alma		TRAINER_PICNICKER_ALMA
 0x6D3	TRAINER BATTLE	Route 13		Picnicker Susie		TRAINER_PICNICKER_SUSIE

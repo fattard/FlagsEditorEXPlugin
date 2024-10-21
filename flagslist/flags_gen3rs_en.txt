@@ -1,37 +1,37 @@
 //	Event Flags					
 0x000	_UNUSED					
-0x001	EVENT					FLAG_TEMP_1
-0x002	EVENT					FLAG_TEMP_2
-0x003	EVENT					FLAG_TEMP_3
-0x004	EVENT					FLAG_TEMP_4
-0x005	EVENT					FLAG_TEMP_5
-0x006	EVENT					FLAG_TEMP_6
-0x007	EVENT					FLAG_TEMP_7
-0x008	EVENT					FLAG_TEMP_8
-0x009	EVENT					FLAG_TEMP_9
-0x00A	EVENT					FLAG_TEMP_A
-0x00B	EVENT					FLAG_TEMP_B
-0x00C	EVENT					FLAG_TEMP_C
-0x00D	EVENT					FLAG_TEMP_D
-0x00E	EVENT					FLAG_TEMP_E
-0x00F	EVENT					FLAG_TEMP_F
-0x010	EVENT					FLAG_TEMP_10
-0x011	EVENT					FLAG_TEMP_11
-0x012	EVENT					FLAG_TEMP_12
-0x013	EVENT					FLAG_TEMP_13
-0x014	EVENT					FLAG_TEMP_14
-0x015	EVENT					FLAG_TEMP_15
-0x016	EVENT					FLAG_TEMP_16
-0x017	EVENT					FLAG_TEMP_17
-0x018	EVENT					FLAG_TEMP_18
-0x019	EVENT					FLAG_TEMP_19
-0x01A	EVENT					FLAG_TEMP_1A
-0x01B	EVENT					FLAG_TEMP_1B
-0x01C	EVENT					FLAG_TEMP_1C
-0x01D	EVENT					FLAG_TEMP_1D
-0x01E	EVENT					FLAG_TEMP_1E
-0x01F	EVENT					FLAG_TEMP_1F
-0x020	EVENT					FLAG_VICTORY_ROAD_ROCK
+0x001	EVENT			Temporary scratch flag		FLAG_TEMP_1
+0x002	EVENT			Temporary scratch flag		FLAG_TEMP_2
+0x003	EVENT			Temporary scratch flag		FLAG_TEMP_3
+0x004	EVENT			Temporary scratch flag		FLAG_TEMP_4
+0x005	EVENT			Temporary scratch flag		FLAG_TEMP_5
+0x006	EVENT			Temporary scratch flag		FLAG_TEMP_6
+0x007	EVENT			Temporary scratch flag		FLAG_TEMP_7
+0x008	EVENT			Temporary scratch flag		FLAG_TEMP_8
+0x009	EVENT			Temporary scratch flag		FLAG_TEMP_9
+0x00A	EVENT			Temporary scratch flag		FLAG_TEMP_A
+0x00B	EVENT			Temporary scratch flag		FLAG_TEMP_B
+0x00C	EVENT			Temporary scratch flag		FLAG_TEMP_C
+0x00D	EVENT			Temporary scratch flag		FLAG_TEMP_D
+0x00E	EVENT			Temporary scratch flag		FLAG_TEMP_E
+0x00F	EVENT			Temporary scratch flag		FLAG_TEMP_F
+0x010	EVENT			Temporary scratch flag		FLAG_TEMP_10
+0x011	EVENT			Temporary scratch flag		FLAG_TEMP_11
+0x012	EVENT			Temporary scratch flag		FLAG_TEMP_12
+0x013	EVENT			Temporary scratch flag		FLAG_TEMP_13
+0x014	EVENT			Temporary scratch flag		FLAG_TEMP_14
+0x015	EVENT			Temporary scratch flag		FLAG_TEMP_15
+0x016	EVENT			Temporary scratch flag		FLAG_TEMP_16
+0x017	EVENT			Temporary scratch flag		FLAG_TEMP_17
+0x018	EVENT			Temporary scratch flag		FLAG_TEMP_18
+0x019	EVENT			Temporary scratch flag		FLAG_TEMP_19
+0x01A	EVENT			Temporary scratch flag		FLAG_TEMP_1A
+0x01B	EVENT			Temporary scratch flag		FLAG_TEMP_1B
+0x01C	EVENT			Temporary scratch flag		FLAG_TEMP_1C
+0x01D	EVENT			Temporary scratch flag		FLAG_TEMP_1D
+0x01E	EVENT			Temporary scratch flag		FLAG_TEMP_1E
+0x01F	EVENT			Temporary scratch flag		FLAG_TEMP_1F
+0x020	EVENT			Temporary scratch flag		FLAG_VICTORY_ROAD_ROCK
 0x021	_UNUSED					
 0x022	_UNUSED					
 0x023	_UNUSED					
@@ -647,8 +647,8 @@
 0x285	HIDDEN ITEM	Route 116		Found Super Potion		FLAG_HIDDEN_ITEM_2D
 0x286	HIDDEN ITEM	Route 106		Found Stardust		FLAG_HIDDEN_ITEM_2E
 0x287	HIDDEN ITEM	Route 106		Found Heart Scale		FLAG_HIDDEN_ITEM_2F
-0x288	HIDDEN ITEM	Granite Cave		Found Everstone		FLAG_HIDDEN_ITEM_30
-0x289	HIDDEN ITEM	Granite Cave		Found Everstone		FLAG_HIDDEN_ITEM_31
+0x288	HIDDEN ITEM	Granite Cave	B2F	Found Everstone		FLAG_HIDDEN_ITEM_30
+0x289	HIDDEN ITEM	Granite Cave	B2F	Found Everstone		FLAG_HIDDEN_ITEM_31
 0x28A	HIDDEN ITEM	Route 109		Found Revive		FLAG_HIDDEN_ITEM_32
 0x28B	HIDDEN ITEM	Route 109		Found Great Ball		FLAG_HIDDEN_ITEM_33
 0x28C	HIDDEN ITEM	Route 109		Found Heart Scale		FLAG_HIDDEN_ITEM_34
