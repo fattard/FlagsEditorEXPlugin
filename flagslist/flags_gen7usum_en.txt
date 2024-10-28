@@ -1729,9 +1729,9 @@
 0x06BF	EVENT					FV_F0201S1101_EV0545
 0x06C0	EVENT					FV_SUB375_NPC
 0x06C1	EVENT					FV_F0501I0101_CLEANING_02
-0x06C2	STATIC ENCOUNTER			Electrode Disappeared (Team Rocket's Castle Southwest Wing, side room 2)		FV_F0801D0207_MARUMAIN
-0x06C3	STATIC ENCOUNTER			Electrode Disappeared (Team Rocket's Castle Southwest Wing, side room 11)		FV_F0801D0217_MARUMAIN
-0x06C4	STATIC ENCOUNTER			Electrode Disappeared (Team Rocket's Castle Southeast Wing, side room)		FV_F0801D0106_MARUMAIN
+0x06C2	STATIC ENCOUNTER	Team Rocket's Castle		Electrode Disappeared (Team Rocket's Castle Southwest Wing, side room 2)		FV_F0801D0207_MARUMAIN
+0x06C3	STATIC ENCOUNTER	Team Rocket's Castle		Electrode Disappeared (Team Rocket's Castle Southwest Wing, side room 11)		FV_F0801D0217_MARUMAIN
+0x06C4	STATIC ENCOUNTER	Team Rocket's Castle		Electrode Disappeared (Team Rocket's Castle Southeast Wing, side room)		FV_F0801D0106_MARUMAIN
 0x06C5	EVENT					FV_F0301C0501_SIP_SKULL
 0x06C6						
 0x06C7						
@@ -2523,518 +2523,518 @@
 0x09D9						
 0x09DA						
 0x09DB						
-0x09DC	FIELD ITEM					FV_FLD_ITEM_0
-0x09DD	FIELD ITEM					FV_FLD_ITEM_1
-0x09DE	FIELD ITEM					FV_FLD_ITEM_2
-0x09DF	FIELD ITEM					FV_FLD_ITEM_3
-0x09E0	FIELD ITEM					FV_FLD_ITEM_4
-0x09E1	FIELD ITEM					FV_FLD_ITEM_5
-0x09E2	FIELD ITEM					FV_FLD_ITEM_6
-0x09E3	FIELD ITEM					FV_FLD_ITEM_7
-0x09E4	FIELD ITEM					FV_FLD_ITEM_8
-0x09E5	FIELD ITEM					FV_FLD_ITEM_9
-0x09E6	FIELD ITEM					FV_FLD_ITEM_10
-0x09E7	FIELD ITEM					FV_FLD_ITEM_11
-0x09E8	FIELD ITEM					FV_FLD_ITEM_12
-0x09E9	FIELD ITEM					FV_FLD_ITEM_13
-0x09EA	FIELD ITEM					FV_FLD_ITEM_14
-0x09EB	FIELD ITEM					FV_FLD_ITEM_15
-0x09EC	FIELD ITEM					FV_FLD_ITEM_16
-0x09ED	FIELD ITEM					FV_FLD_ITEM_17
-0x09EE	FIELD ITEM					FV_FLD_ITEM_18
-0x09EF	FIELD ITEM					FV_FLD_ITEM_19
-0x09F0	FIELD ITEM					FV_FLD_ITEM_20
-0x09F1	FIELD ITEM					FV_FLD_ITEM_21
-0x09F2	FIELD ITEM					FV_FLD_ITEM_22
-0x09F3	FIELD ITEM					FV_FLD_ITEM_23
-0x09F4	FIELD ITEM					FV_FLD_ITEM_24
-0x09F5	FIELD ITEM					FV_FLD_ITEM_25
-0x09F6	FIELD ITEM					FV_FLD_ITEM_26
-0x09F7	FIELD ITEM					FV_FLD_ITEM_27
-0x09F8	FIELD ITEM					FV_FLD_ITEM_28
-0x09F9	FIELD ITEM					FV_FLD_ITEM_29
-0x09FA	FIELD ITEM					FV_FLD_ITEM_30
-0x09FB	FIELD ITEM					FV_FLD_ITEM_31
-0x09FC	FIELD ITEM					FV_FLD_ITEM_32
-0x09FD	FIELD ITEM					FV_FLD_ITEM_33
-0x09FE	FIELD ITEM					FV_FLD_ITEM_34
-0x09FF	FIELD ITEM					FV_FLD_ITEM_35
-0x0A00	FIELD ITEM					FV_FLD_ITEM_36
-0x0A01	FIELD ITEM					FV_FLD_ITEM_37
-0x0A02	FIELD ITEM					FV_FLD_ITEM_38
-0x0A03	FIELD ITEM					FV_FLD_ITEM_39
-0x0A04	FIELD ITEM					FV_FLD_ITEM_40
-0x0A05	FIELD ITEM					FV_FLD_ITEM_41
-0x0A06	FIELD ITEM					FV_FLD_ITEM_42
-0x0A07	FIELD ITEM					FV_FLD_ITEM_43
-0x0A08	FIELD ITEM					FV_FLD_ITEM_44
-0x0A09	FIELD ITEM					FV_FLD_ITEM_45
-0x0A0A	FIELD ITEM					FV_FLD_ITEM_46
-0x0A0B	FIELD ITEM					FV_FLD_ITEM_47
-0x0A0C	FIELD ITEM					FV_FLD_ITEM_48
-0x0A0D	FIELD ITEM					FV_FLD_ITEM_49
-0x0A0E	FIELD ITEM					FV_FLD_ITEM_50
-0x0A0F	FIELD ITEM					FV_FLD_ITEM_51
-0x0A10	FIELD ITEM					FV_FLD_ITEM_52
-0x0A11	FIELD ITEM					FV_FLD_ITEM_53
-0x0A12	FIELD ITEM					FV_FLD_ITEM_54
-0x0A13	FIELD ITEM					FV_FLD_ITEM_55
-0x0A14	FIELD ITEM					FV_FLD_ITEM_56
-0x0A15	FIELD ITEM					FV_FLD_ITEM_57
-0x0A16	FIELD ITEM					FV_FLD_ITEM_58
-0x0A17	FIELD ITEM					FV_FLD_ITEM_59
-0x0A18	FIELD ITEM					FV_FLD_ITEM_60
-0x0A19	FIELD ITEM					FV_FLD_ITEM_61
-0x0A1A	FIELD ITEM					FV_FLD_ITEM_62
-0x0A1B	FIELD ITEM					FV_FLD_ITEM_63
-0x0A1C	FIELD ITEM					FV_FLD_ITEM_64
-0x0A1D	FIELD ITEM					FV_FLD_ITEM_65
-0x0A1E	FIELD ITEM					FV_FLD_ITEM_66
-0x0A1F	FIELD ITEM					FV_FLD_ITEM_67
-0x0A20	FIELD ITEM					FV_FLD_ITEM_68
-0x0A21	FIELD ITEM					FV_FLD_ITEM_69
-0x0A22	FIELD ITEM					FV_FLD_ITEM_70
-0x0A23	FIELD ITEM					FV_FLD_ITEM_71
-0x0A24	FIELD ITEM					FV_FLD_ITEM_72
-0x0A25	FIELD ITEM					FV_FLD_ITEM_73
-0x0A26	FIELD ITEM					FV_FLD_ITEM_74
-0x0A27	FIELD ITEM					FV_FLD_ITEM_75
-0x0A28	FIELD ITEM					FV_FLD_ITEM_76
-0x0A29	FIELD ITEM					FV_FLD_ITEM_77
-0x0A2A	FIELD ITEM					FV_FLD_ITEM_78
-0x0A2B	FIELD ITEM					FV_FLD_ITEM_79
-0x0A2C	FIELD ITEM					FV_FLD_ITEM_80
-0x0A2D	FIELD ITEM					FV_FLD_ITEM_81
-0x0A2E	FIELD ITEM					FV_FLD_ITEM_82
-0x0A2F	FIELD ITEM					FV_FLD_ITEM_83
-0x0A30	FIELD ITEM					FV_FLD_ITEM_84
-0x0A31	FIELD ITEM					FV_FLD_ITEM_85
-0x0A32	FIELD ITEM					FV_FLD_ITEM_86
-0x0A33	FIELD ITEM					FV_FLD_ITEM_87
-0x0A34	FIELD ITEM					FV_FLD_ITEM_88
-0x0A35	FIELD ITEM					FV_FLD_ITEM_89
-0x0A36	FIELD ITEM					FV_FLD_ITEM_90
-0x0A37	FIELD ITEM					FV_FLD_ITEM_91
-0x0A38	FIELD ITEM					FV_FLD_ITEM_92
-0x0A39	FIELD ITEM					FV_FLD_ITEM_93
-0x0A3A	FIELD ITEM					FV_FLD_ITEM_94
-0x0A3B	FIELD ITEM					FV_FLD_ITEM_95
-0x0A3C	FIELD ITEM					FV_FLD_ITEM_96
-0x0A3D	FIELD ITEM					FV_FLD_ITEM_97
-0x0A3E	FIELD ITEM					FV_FLD_ITEM_98
-0x0A3F	FIELD ITEM					FV_FLD_ITEM_99
-0x0A40	FIELD ITEM					FV_FLD_ITEM_100
-0x0A41	FIELD ITEM					FV_FLD_ITEM_101
-0x0A42	FIELD ITEM					FV_FLD_ITEM_102
-0x0A43	FIELD ITEM					FV_FLD_ITEM_103
-0x0A44	FIELD ITEM					FV_FLD_ITEM_104
-0x0A45	FIELD ITEM					FV_FLD_ITEM_105
-0x0A46	FIELD ITEM					FV_FLD_ITEM_106
-0x0A47	FIELD ITEM					FV_FLD_ITEM_107
-0x0A48	FIELD ITEM					FV_FLD_ITEM_108
-0x0A49	FIELD ITEM					FV_FLD_ITEM_109
-0x0A4A	FIELD ITEM					FV_FLD_ITEM_110
-0x0A4B	FIELD ITEM					FV_FLD_ITEM_111
-0x0A4C	FIELD ITEM					FV_FLD_ITEM_112
-0x0A4D	FIELD ITEM					FV_FLD_ITEM_113
-0x0A4E	FIELD ITEM					FV_FLD_ITEM_114
-0x0A4F	FIELD ITEM					FV_FLD_ITEM_115
-0x0A50	FIELD ITEM					FV_FLD_ITEM_116
-0x0A51	FIELD ITEM					FV_FLD_ITEM_117
-0x0A52	FIELD ITEM					FV_FLD_ITEM_118
-0x0A53	FIELD ITEM					FV_FLD_ITEM_119
-0x0A54	FIELD ITEM					FV_FLD_ITEM_120
-0x0A55	FIELD ITEM					FV_FLD_ITEM_121
-0x0A56	FIELD ITEM					FV_FLD_ITEM_122
-0x0A57	FIELD ITEM					FV_FLD_ITEM_123
-0x0A58	FIELD ITEM					FV_FLD_ITEM_124
-0x0A59	FIELD ITEM					FV_FLD_ITEM_125
-0x0A5A	FIELD ITEM					FV_FLD_ITEM_126
-0x0A5B	FIELD ITEM					FV_FLD_ITEM_127
-0x0A5C	FIELD ITEM					FV_FLD_ITEM_128
-0x0A5D	FIELD ITEM					FV_FLD_ITEM_129
-0x0A5E	FIELD ITEM					FV_FLD_ITEM_130
-0x0A5F	FIELD ITEM					FV_FLD_ITEM_131
-0x0A60	FIELD ITEM					FV_FLD_ITEM_132
-0x0A61	FIELD ITEM					FV_FLD_ITEM_133
-0x0A62	FIELD ITEM					FV_FLD_ITEM_134
-0x0A63	FIELD ITEM					FV_FLD_ITEM_135
-0x0A64	FIELD ITEM					FV_FLD_ITEM_136
-0x0A65	FIELD ITEM					FV_FLD_ITEM_137
-0x0A66	FIELD ITEM					FV_FLD_ITEM_138
-0x0A67	FIELD ITEM					FV_FLD_ITEM_139
-0x0A68	FIELD ITEM					FV_FLD_ITEM_140
-0x0A69	FIELD ITEM					FV_FLD_ITEM_141
-0x0A6A	FIELD ITEM					FV_FLD_ITEM_142
-0x0A6B	FIELD ITEM					FV_FLD_ITEM_143
-0x0A6C	FIELD ITEM					FV_FLD_ITEM_144
-0x0A6D	FIELD ITEM					FV_FLD_ITEM_145
-0x0A6E	FIELD ITEM					FV_FLD_ITEM_146
-0x0A6F	FIELD ITEM					FV_FLD_ITEM_147
-0x0A70	FIELD ITEM					FV_FLD_ITEM_148
-0x0A71	FIELD ITEM					FV_FLD_ITEM_149
-0x0A72	FIELD ITEM					FV_FLD_ITEM_150
-0x0A73	FIELD ITEM					FV_FLD_ITEM_151
-0x0A74	FIELD ITEM					FV_FLD_ITEM_152
-0x0A75	FIELD ITEM					FV_FLD_ITEM_153
-0x0A76	FIELD ITEM					FV_FLD_ITEM_154
-0x0A77	FIELD ITEM					FV_FLD_ITEM_155
-0x0A78	FIELD ITEM					FV_FLD_ITEM_156
-0x0A79	FIELD ITEM					FV_FLD_ITEM_157
-0x0A7A	FIELD ITEM					FV_FLD_ITEM_158
-0x0A7B	FIELD ITEM					FV_FLD_ITEM_159
-0x0A7C	FIELD ITEM					FV_FLD_ITEM_160
-0x0A7D	FIELD ITEM					FV_FLD_ITEM_161
-0x0A7E	FIELD ITEM					FV_FLD_ITEM_162
-0x0A7F	FIELD ITEM					FV_FLD_ITEM_163
-0x0A80	FIELD ITEM					FV_FLD_ITEM_164
-0x0A81	FIELD ITEM					FV_FLD_ITEM_165
-0x0A82	FIELD ITEM					FV_FLD_ITEM_166
-0x0A83	FIELD ITEM					FV_FLD_ITEM_167
-0x0A84	FIELD ITEM					FV_FLD_ITEM_168
-0x0A85	FIELD ITEM					FV_FLD_ITEM_169
-0x0A86	FIELD ITEM					FV_FLD_ITEM_170
-0x0A87	FIELD ITEM					FV_FLD_ITEM_171
-0x0A88	FIELD ITEM					FV_FLD_ITEM_172
-0x0A89	FIELD ITEM					FV_FLD_ITEM_173
-0x0A8A	FIELD ITEM					FV_FLD_ITEM_174
-0x0A8B	FIELD ITEM					FV_FLD_ITEM_175
-0x0A8C	FIELD ITEM					FV_FLD_ITEM_176
-0x0A8D	FIELD ITEM					FV_FLD_ITEM_177
-0x0A8E	FIELD ITEM					FV_FLD_ITEM_178
-0x0A8F	FIELD ITEM					FV_FLD_ITEM_179
-0x0A90	FIELD ITEM					FV_FLD_ITEM_180
-0x0A91	FIELD ITEM					FV_FLD_ITEM_181
-0x0A92	FIELD ITEM					FV_FLD_ITEM_182
-0x0A93	FIELD ITEM					FV_FLD_ITEM_183
-0x0A94	FIELD ITEM					FV_FLD_ITEM_184
-0x0A95	FIELD ITEM					FV_FLD_ITEM_185
-0x0A96	FIELD ITEM					FV_FLD_ITEM_186
-0x0A97	FIELD ITEM					FV_FLD_ITEM_187
-0x0A98	FIELD ITEM					FV_FLD_ITEM_188
-0x0A99	FIELD ITEM					FV_FLD_ITEM_189
-0x0A9A	FIELD ITEM					FV_FLD_ITEM_190
-0x0A9B	FIELD ITEM					FV_FLD_ITEM_191
-0x0A9C	FIELD ITEM					FV_FLD_ITEM_192
-0x0A9D	FIELD ITEM					FV_FLD_ITEM_193
-0x0A9E	FIELD ITEM					FV_FLD_ITEM_194
-0x0A9F	FIELD ITEM					FV_FLD_ITEM_195
-0x0AA0	FIELD ITEM					FV_FLD_ITEM_196
-0x0AA1	FIELD ITEM					FV_FLD_ITEM_197
-0x0AA2	FIELD ITEM					FV_FLD_ITEM_198
-0x0AA3	FIELD ITEM					FV_FLD_ITEM_199
-0x0AA4	FIELD ITEM					FV_FLD_ITEM_200
-0x0AA5	FIELD ITEM					FV_FLD_ITEM_201
-0x0AA6	FIELD ITEM					FV_FLD_ITEM_202
-0x0AA7	FIELD ITEM					FV_FLD_ITEM_203
-0x0AA8	FIELD ITEM					FV_FLD_ITEM_204
-0x0AA9	FIELD ITEM					FV_FLD_ITEM_205
-0x0AAA	FIELD ITEM					FV_FLD_ITEM_206
-0x0AAB	FIELD ITEM					FV_FLD_ITEM_207
-0x0AAC	FIELD ITEM					FV_FLD_ITEM_208
-0x0AAD	FIELD ITEM					FV_FLD_ITEM_209
-0x0AAE	FIELD ITEM					FV_FLD_ITEM_210
-0x0AAF	FIELD ITEM					FV_FLD_ITEM_211
-0x0AB0	FIELD ITEM					FV_FLD_ITEM_212
-0x0AB1	FIELD ITEM					FV_FLD_ITEM_213
-0x0AB2	FIELD ITEM					FV_FLD_ITEM_214
-0x0AB3	FIELD ITEM					FV_FLD_ITEM_215
-0x0AB4	FIELD ITEM					FV_FLD_ITEM_216
-0x0AB5	FIELD ITEM					FV_FLD_ITEM_217
-0x0AB6	FIELD ITEM					FV_FLD_ITEM_218
-0x0AB7	FIELD ITEM					FV_FLD_ITEM_219
-0x0AB8	FIELD ITEM					FV_FLD_ITEM_220
-0x0AB9	FIELD ITEM					FV_FLD_ITEM_221
-0x0ABA	FIELD ITEM					FV_FLD_ITEM_222
-0x0ABB	FIELD ITEM					FV_FLD_ITEM_223
-0x0ABC	FIELD ITEM					FV_FLD_ITEM_224
-0x0ABD	FIELD ITEM					FV_FLD_ITEM_225
-0x0ABE	FIELD ITEM					FV_FLD_ITEM_226
-0x0ABF	FIELD ITEM					FV_FLD_ITEM_227
-0x0AC0	FIELD ITEM					FV_FLD_ITEM_228
-0x0AC1	FIELD ITEM					FV_FLD_ITEM_229
-0x0AC2	FIELD ITEM					FV_FLD_ITEM_230
-0x0AC3	FIELD ITEM					FV_FLD_ITEM_231
-0x0AC4	FIELD ITEM					FV_FLD_ITEM_232
-0x0AC5	FIELD ITEM					FV_FLD_ITEM_233
-0x0AC6	FIELD ITEM					FV_FLD_ITEM_234
-0x0AC7	FIELD ITEM					FV_FLD_ITEM_235
-0x0AC8	FIELD ITEM					FV_FLD_ITEM_236
-0x0AC9	FIELD ITEM					FV_FLD_ITEM_237
-0x0ACA	FIELD ITEM					FV_FLD_ITEM_238
-0x0ACB	FIELD ITEM					FV_FLD_ITEM_239
-0x0ACC	FIELD ITEM					FV_FLD_ITEM_240
-0x0ACD	FIELD ITEM					FV_FLD_ITEM_241
-0x0ACE	FIELD ITEM					FV_FLD_ITEM_242
-0x0ACF	FIELD ITEM					FV_FLD_ITEM_243
-0x0AD0	FIELD ITEM					FV_FLD_ITEM_244
-0x0AD1	FIELD ITEM					FV_FLD_ITEM_245
-0x0AD2	FIELD ITEM					FV_FLD_ITEM_246
-0x0AD3	FIELD ITEM					FV_FLD_ITEM_247
-0x0AD4	FIELD ITEM					FV_FLD_ITEM_248
-0x0AD5	FIELD ITEM					FV_FLD_ITEM_249
-0x0AD6	FIELD ITEM					FV_FLD_ITEM_250
-0x0AD7	FIELD ITEM					FV_FLD_ITEM_251
-0x0AD8	FIELD ITEM					FV_FLD_ITEM_252
-0x0AD9	FIELD ITEM					FV_FLD_ITEM_253
-0x0ADA	FIELD ITEM					FV_FLD_ITEM_254
-0x0ADB	FIELD ITEM					FV_FLD_ITEM_255
-0x0ADC	FIELD ITEM					FV_FLD_ITEM_256
-0x0ADD	FIELD ITEM					FV_FLD_ITEM_257
-0x0ADE	FIELD ITEM					FV_FLD_ITEM_258
-0x0ADF	FIELD ITEM					FV_FLD_ITEM_259
-0x0AE0	FIELD ITEM					FV_FLD_ITEM_260
-0x0AE1	FIELD ITEM					FV_FLD_ITEM_261
-0x0AE2	FIELD ITEM					FV_FLD_ITEM_262
-0x0AE3	FIELD ITEM					FV_FLD_ITEM_263
-0x0AE4	FIELD ITEM					FV_FLD_ITEM_264
-0x0AE5	FIELD ITEM					FV_FLD_ITEM_265
-0x0AE6	FIELD ITEM					FV_FLD_ITEM_266
-0x0AE7	FIELD ITEM					FV_FLD_ITEM_267
-0x0AE8	FIELD ITEM					FV_FLD_ITEM_268
-0x0AE9	FIELD ITEM					FV_FLD_ITEM_269
-0x0AEA	FIELD ITEM					FV_FLD_ITEM_270
-0x0AEB	FIELD ITEM					FV_FLD_ITEM_271
-0x0AEC	FIELD ITEM					FV_FLD_ITEM_272
-0x0AED	FIELD ITEM					FV_FLD_ITEM_273
-0x0AEE	FIELD ITEM					FV_FLD_ITEM_274
-0x0AEF	FIELD ITEM					FV_FLD_ITEM_275
-0x0AF0	FIELD ITEM					FV_FLD_ITEM_276
-0x0AF1	FIELD ITEM					FV_FLD_ITEM_277
-0x0AF2	FIELD ITEM					FV_FLD_ITEM_278
-0x0AF3	FIELD ITEM					FV_FLD_ITEM_279
-0x0AF4	FIELD ITEM					FV_FLD_ITEM_280
-0x0AF5	FIELD ITEM					FV_FLD_ITEM_281
-0x0AF6	FIELD ITEM					FV_FLD_ITEM_282
-0x0AF7	FIELD ITEM					FV_FLD_ITEM_283
-0x0AF8	FIELD ITEM					FV_FLD_ITEM_284
-0x0AF9	FIELD ITEM					FV_FLD_ITEM_285
-0x0AFA	FIELD ITEM					FV_FLD_ITEM_286
-0x0AFB	FIELD ITEM					FV_FLD_ITEM_287
-0x0AFC	FIELD ITEM					FV_FLD_ITEM_288
-0x0AFD	FIELD ITEM					FV_FLD_ITEM_289
-0x0AFE	FIELD ITEM					FV_FLD_ITEM_290
-0x0AFF	FIELD ITEM					FV_FLD_ITEM_291
-0x0B00	FIELD ITEM					FV_FLD_ITEM_292
-0x0B01	FIELD ITEM					FV_FLD_ITEM_293
-0x0B02	FIELD ITEM					FV_FLD_ITEM_294
-0x0B03	FIELD ITEM					FV_FLD_ITEM_295
-0x0B04	FIELD ITEM					FV_FLD_ITEM_296
-0x0B05	FIELD ITEM					FV_FLD_ITEM_297
-0x0B06	FIELD ITEM					FV_FLD_ITEM_298
-0x0B07	FIELD ITEM					FV_FLD_ITEM_299
-0x0B08	FIELD ITEM					FV_FLD_ITEM_300
-0x0B09	FIELD ITEM					FV_FLD_ITEM_301
-0x0B0A	FIELD ITEM					FV_FLD_ITEM_302
-0x0B0B	FIELD ITEM					FV_FLD_ITEM_303
-0x0B0C	FIELD ITEM					FV_FLD_ITEM_304
-0x0B0D	FIELD ITEM					FV_FLD_ITEM_305
-0x0B0E	FIELD ITEM					FV_FLD_ITEM_306
-0x0B0F	FIELD ITEM					FV_FLD_ITEM_307
-0x0B10	FIELD ITEM					FV_FLD_ITEM_308
-0x0B11	FIELD ITEM					FV_FLD_ITEM_309
-0x0B12	FIELD ITEM					FV_FLD_ITEM_310
-0x0B13	FIELD ITEM					FV_FLD_ITEM_311
-0x0B14	FIELD ITEM					FV_FLD_ITEM_312
-0x0B15	FIELD ITEM					FV_FLD_ITEM_313
-0x0B16	FIELD ITEM					FV_FLD_ITEM_314
-0x0B17	FIELD ITEM					FV_FLD_ITEM_315
-0x0B18	FIELD ITEM					FV_FLD_ITEM_316
-0x0B19	FIELD ITEM					FV_FLD_ITEM_317
-0x0B1A	FIELD ITEM					FV_FLD_ITEM_318
-0x0B1B	FIELD ITEM					FV_FLD_ITEM_319
-0x0B1C	FIELD ITEM					FV_FLD_ITEM_320
-0x0B1D	FIELD ITEM					FV_FLD_ITEM_321
-0x0B1E	FIELD ITEM					FV_FLD_ITEM_322
-0x0B1F	FIELD ITEM					FV_FLD_ITEM_323
-0x0B20	FIELD ITEM					FV_FLD_ITEM_324
-0x0B21	FIELD ITEM					FV_FLD_ITEM_325
-0x0B22	FIELD ITEM					FV_FLD_ITEM_326
-0x0B23	FIELD ITEM					FV_FLD_ITEM_327
-0x0B24	FIELD ITEM					FV_FLD_ITEM_328
-0x0B25	FIELD ITEM					FV_FLD_ITEM_329
-0x0B26	FIELD ITEM					FV_FLD_ITEM_330
-0x0B27	FIELD ITEM					FV_FLD_ITEM_331
-0x0B28	FIELD ITEM					FV_FLD_ITEM_332
-0x0B29	FIELD ITEM					FV_FLD_ITEM_333
-0x0B2A	FIELD ITEM					FV_FLD_ITEM_334
-0x0B2B	FIELD ITEM					FV_FLD_ITEM_335
-0x0B2C	FIELD ITEM					FV_FLD_ITEM_336
-0x0B2D	FIELD ITEM					FV_FLD_ITEM_337
-0x0B2E	FIELD ITEM					FV_FLD_ITEM_338
-0x0B2F	FIELD ITEM					FV_FLD_ITEM_339
-0x0B30	FIELD ITEM					FV_FLD_ITEM_340
-0x0B31	FIELD ITEM					FV_FLD_ITEM_341
+0x09DC	FIELD ITEM			[unused?]		FV_FLD_ITEM_0
+0x09DD	FIELD ITEM	Route 1	Hau'oli Outskirts	Awakening item ball disappeared		FV_FLD_ITEM_1
+0x09DE	HIDDEN ITEM	Malie Garden		Found Rare Bone		FV_FLD_ITEM_2
+0x09DF	FIELD ITEM	Route 1		Poké Ball item ball disappeared		FV_FLD_ITEM_3
+0x09E0	FIELD ITEM	Route 1		Potion item ball disappeared		FV_FLD_ITEM_4
+0x09E1	FIELD ITEM	Route 1		Paralyze Heal item ball disappeared		FV_FLD_ITEM_5
+0x09E2	FIELD ITEM	Route 1		Nugget item ball disappeared		FV_FLD_ITEM_6
+0x09E3	FIELD ITEM	Route 1		Nest Ball item ball disappeared		FV_FLD_ITEM_7
+0x09E4	_UNUSED	Route 1		Antidote (unused)		FV_FLD_ITEM_8
+0x09E5	FIELD ITEM	Route 1		Potion item ball disappeared		FV_FLD_ITEM_9
+0x09E6	FIELD ITEM	Route 2		Revive item ball disappeared		FV_FLD_ITEM_10
+0x09E7	FIELD ITEM	Route 2		Super Potion item ball disappeared		FV_FLD_ITEM_11
+0x09E8	FIELD ITEM	Route 2		Star Piece item ball disappeared		FV_FLD_ITEM_12
+0x09E9	FIELD ITEM	Route 2		Heal Ball item ball disappeared		FV_FLD_ITEM_13
+0x09EA	HIDDEN ITEM	Route 2		Found Repel		FV_FLD_ITEM_14
+0x09EB	FIELD ITEM	Route 3		TM83 (Infestation) item ball disappeared		FV_FLD_ITEM_15
+0x09EC	FIELD ITEM	Route 3		Sharp Beak item ball disappeared		FV_FLD_ITEM_16
+0x09ED	FIELD ITEM	Route 3		Heal Ball item ball disappeared		FV_FLD_ITEM_17
+0x09EE	HIDDEN ITEM	Route 3		Found Stardust		FV_FLD_ITEM_18
+0x09EF	FIELD ITEM	Route 3		Super Potion item ball disappeared		FV_FLD_ITEM_19
+0x09F0	FIELD ITEM	Route 3		Nest Ball item ball disappeared		FV_FLD_ITEM_20
+0x09F1	FIELD ITEM	Kala'e Bay		TM05 (Roar) item ball disappeared		FV_FLD_ITEM_21
+0x09F2	FIELD ITEM	Kala'e Bay		Prism Scale item ball disappeared		FV_FLD_ITEM_22
+0x09F3	FIELD ITEM	Kala'e Bay		Net Ball item ball disappeared		FV_FLD_ITEM_23
+0x09F4	FIELD ITEM	Route 11		Big Mushroom item ball disappeared		FV_FLD_ITEM_24
+0x09F5	FIELD ITEM	Ten Carat Hill	Cave	Super Potion item ball disappeared		FV_FLD_ITEM_25
+0x09F6	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Nugget item ball disappeared		FV_FLD_ITEM_26
+0x09F7	FIELD ITEM	Melemele Sea		Soft Sand item ball disappeared		FV_FLD_ITEM_27
+0x09F8	FIELD ITEM	Melemele Sea		Pearl String item ball disappeared		FV_FLD_ITEM_28
+0x09F9	FIELD ITEM	Seaward Cave		Super Potion item ball disappeared		FV_FLD_ITEM_29
+0x09FA	FIELD ITEM	Hau'oli City	Beachfront	Poké Ball item ball disappeared		FV_FLD_ITEM_30
+0x09FB	FIELD ITEM	Hau'oli City	Shopping District	Ether item ball disappeared		FV_FLD_ITEM_31
+0x09FC	FIELD ITEM	Hau'oli City	Marina	Super Potion item ball disappeared		FV_FLD_ITEM_32
+0x09FD	FIELD ITEM	Ten Carat Hill	Cave	X Attack item ball disappeared		FV_FLD_ITEM_33
+0x09FE	FIELD ITEM	Ten Carat Hill	Cave	Ultra Ball item ball disappeared		FV_FLD_ITEM_34
+0x09FF	HIDDEN ITEM	Ten Carat Hill	Cave	Found Elixir		FV_FLD_ITEM_35
+0x0A00	FIELD ITEM	Ten Carat Hill	Farthest Hollow	TM23 (Smack Down) item ball disappeared		FV_FLD_ITEM_36
+0x0A01	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Great Ball item ball disappeared		FV_FLD_ITEM_37
+0x0A02	FIELD ITEM	Ten Carat Hill	Cave	TM64 (Explosion) item ball disappeared		FV_FLD_ITEM_38
+0x0A03	HIDDEN ITEM	Ten Carat Hill	Farthest Hollow	Found Star Piece		FV_FLD_ITEM_39
+0x0A04	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Hard Stone item ball disappeared		FV_FLD_ITEM_40
+0x0A05	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Burn Heal item ball disappeared		FV_FLD_ITEM_41
+0x0A06	FIELD ITEM	Hau'oli Cemetery		TM100 (Confide) item ball disappeared		FV_FLD_ITEM_42
+0x0A07	FIELD ITEM	Hau'oli Cemetery		Paralyze Heal item ball disappeared		FV_FLD_ITEM_43
+0x0A08	FIELD ITEM	Hau'oli Cemetery		Super Potion item ball disappeared		FV_FLD_ITEM_44
+0x0A09	FIELD ITEM	Hau'oli Cemetery		Big Mushroom item ball disappeared		FV_FLD_ITEM_45
+0x0A0A	HIDDEN ITEM	Hau'oli Cemetery		Found Ether		FV_FLD_ITEM_46
+0x0A0B	HIDDEN ITEM	Hau'oli Cemetery		Found Great Ball		FV_FLD_ITEM_47
+0x0A0C	FIELD ITEM	Melemele Meadow		Poison Barb item ball disappeared		FV_FLD_ITEM_48
+0x0A0D	FIELD ITEM	Melemele Meadow		Net Ball item ball disappeared		FV_FLD_ITEM_49
+0x0A0E	FIELD ITEM	Melemele Meadow		Great Ball item ball disappeared		FV_FLD_ITEM_50
+0x0A0F	HIDDEN ITEM	Melemele Meadow		Found Honey		FV_FLD_ITEM_51
+0x0A10	HIDDEN ITEM	Melemele Meadow		Found Honey		FV_FLD_ITEM_52
+0x0A11	HIDDEN ITEM	Melemele Meadow		Found Honey		FV_FLD_ITEM_53
+0x0A12	FIELD ITEM	Seaward Cave		Expert Belt item ball disappeared		FV_FLD_ITEM_54
+0x0A13	FIELD ITEM	Seaward Cave		Never-Melt Ice item ball disappeared		FV_FLD_ITEM_55
+0x0A14	FIELD ITEM	Seaward Cave		Escape Rope item ball disappeared		FV_FLD_ITEM_56
+0x0A15	FIELD ITEM	Seaward Cave		Heal Ball item ball disappeared		FV_FLD_ITEM_57
+0x0A16	FIELD ITEM	Seaward Cave		TM79 (Frost Breath) item ball disappeared		FV_FLD_ITEM_58
+0x0A17	HIDDEN ITEM	Seaward Cave		Found Star Piece		FV_FLD_ITEM_59
+0x0A18	HIDDEN ITEM	Seaward Cave		Found Stardust		FV_FLD_ITEM_60
+0x0A19	FIELD ITEM	Berry Fields		Silver Powder item ball disappeared		FV_FLD_ITEM_61
+0x0A1A	FIELD ITEM	Berry Fields		Big Mushroom item ball disappeared		FV_FLD_ITEM_62
+0x0A1B	HIDDEN ITEM	Berry Fields		Found Repel		FV_FLD_ITEM_63
+0x0A1C	FIELD ITEM	Verdant Cavern	Trial Site	Super Potion item ball disappeared		FV_FLD_ITEM_64
+0x0A1D	FIELD ITEM	Verdant Cavern	Trial Site	TM31 (Brick Break) item ball disappeared		FV_FLD_ITEM_65
+0x0A1E	FIELD ITEM	Verdant Cavern	Trial Site	Super Potion item ball disappeared		FV_FLD_ITEM_66
+0x0A1F	FIELD ITEM	Verdant Cavern	Trial Site	X Defense item ball disappeared		FV_FLD_ITEM_67
+0x0A20	HIDDEN ITEM	Verdant Cavern	Trial Site	Found Revive		FV_FLD_ITEM_68
+0x0A21	FIELD ITEM	Verdant Cavern	Totem's Den	TM46 (Thief) item ball disappeared		FV_FLD_ITEM_69
+0x0A22	HIDDEN ITEM	Verdant Cavern	Totem's Den	Found Energy Root		FV_FLD_ITEM_70
+0x0A23	FIELD ITEM	Route 1	Trainer's School	Potion item ball disappeared		FV_FLD_ITEM_71
+0x0A24	FIELD ITEM	Route 1	Trainer's School	Antidote item ball disappeared		FV_FLD_ITEM_72
+0x0A25	FIELD ITEM	Route 1	Trainer's School	Potion item ball disappeared		FV_FLD_ITEM_73
+0x0A26	HIDDEN ITEM	Route 1	Trainer's School	Found Great Ball		FV_FLD_ITEM_74
+0x0A27	FIELD ITEM	Brooklet Hill		Rare Candy item ball disappeared		FV_FLD_ITEM_75
+0x0A28	FIELD ITEM	Brooklet Hill		Net Ball item ball disappeared		FV_FLD_ITEM_76
+0x0A29	HIDDEN ITEM	Brooklet Hill		Found Elixir		FV_FLD_ITEM_77
+0x0A2A	FIELD ITEM	Brooklet Hill		X Sp. Attack item ball disappeared		FV_FLD_ITEM_78
+0x0A2B	HIDDEN ITEM	Brooklet Hill		Found Max Repel		FV_FLD_ITEM_79
+0x0A2C	FIELD ITEM	Brooklet Hill		Revive item ball disappeared		FV_FLD_ITEM_80
+0x0A2D	FIELD ITEM	Brooklet Hill		TM57 (Charge Beam) item ball disappeared		FV_FLD_ITEM_81
+0x0A2E	FIELD ITEM	Brooklet Hill	Totem's Den	Hyper Potion item ball disappeared		FV_FLD_ITEM_82
+0x0A2F	_UNUSED	Lush Jungle		Big Root (unused)		FV_FLD_ITEM_83
+0x0A30	FIELD ITEM	Lush Jungle		X Attack item ball disappeared		FV_FLD_ITEM_84
+0x0A31	FIELD ITEM	Lush Jungle		PP Up item ball disappeared		FV_FLD_ITEM_85
+0x0A32	HIDDEN ITEM	Lush Jungle		Found Big Mushroom		FV_FLD_ITEM_86
+0x0A33	FIELD ITEM	Lush Jungle		TM86 (Grass Knot) item ball disappeared		FV_FLD_ITEM_87
+0x0A34	HIDDEN ITEM	Lush Jungle		Found Hyper Potion		FV_FLD_ITEM_88
+0x0A35	FIELD ITEM	Lush Jungle		Super Potion item ball disappeared		FV_FLD_ITEM_89
+0x0A36	FIELD ITEM	Lush Jungle		Max Revive item ball disappeared		FV_FLD_ITEM_90
+0x0A37	FIELD ITEM	Lush Jungle		X Defense item ball disappeared		FV_FLD_ITEM_91
+0x0A38	HIDDEN ITEM	Lush Jungle	Cave	Found Rare Candy		FV_FLD_ITEM_92
+0x0A39	FIELD ITEM	Lush Jungle	Cave	Hyper Potion item ball disappeared		FV_FLD_ITEM_93
+0x0A3A	FIELD ITEM	Route 4		Great Ball item ball disappeared		FV_FLD_ITEM_94
+0x0A3B	FIELD ITEM	Route 4		Revive item ball disappeared		FV_FLD_ITEM_95
+0x0A3C	FIELD ITEM	Route 4		Adrenaline Orb item ball disappeared		FV_FLD_ITEM_96
+0x0A3D	HIDDEN ITEM	Route 4		Found Tiny Mushroom		FV_FLD_ITEM_97
+0x0A3E	FIELD ITEM	Route 4		Energy Root item ball disappeared		FV_FLD_ITEM_98
+0x0A3F	FIELD ITEM	Route 5		Revive item ball disappeared		FV_FLD_ITEM_99
+0x0A40	FIELD ITEM	Route 5		TM41 (Torment) item ball disappeared		FV_FLD_ITEM_100
+0x0A41	FIELD ITEM	Route 5		Full Heal item ball disappeared		FV_FLD_ITEM_101
+0x0A42	FIELD ITEM	Route 5		Hyper Potion item ball disappeared		FV_FLD_ITEM_102
+0x0A43	FIELD ITEM	Route 5		Super Potion item ball disappeared		FV_FLD_ITEM_103
+0x0A44	HIDDEN ITEM	Route 5		Found PP Up		FV_FLD_ITEM_104
+0x0A45	HIDDEN ITEM	Route 5		Found Nugget		FV_FLD_ITEM_105
+0x0A46	HIDDEN ITEM	Route 5		Found Star Piece		FV_FLD_ITEM_106
+0x0A47	FIELD ITEM	Route 5		TM59 (Brutal Swing) item ball disappeared		FV_FLD_ITEM_107
+0x0A48	FIELD ITEM	Route 6		Revive item ball disappeared		FV_FLD_ITEM_108
+0x0A49	FIELD ITEM	Route 6		Rare Candy item ball disappeared		FV_FLD_ITEM_109
+0x0A4A	HIDDEN ITEM	Route 6		Found X Speed		FV_FLD_ITEM_110
+0x0A4B	FIELD ITEM	Route 7		TM32 (Double Team) item ball disappeared		FV_FLD_ITEM_111
+0x0A4C	FIELD ITEM	Route 7		Max Repel item ball disappeared		FV_FLD_ITEM_112
+0x0A4D	FIELD ITEM	Hano Beach		Black Glasses item ball disappeared		FV_FLD_ITEM_113
+0x0A4E	FIELD ITEM	Route 8		Big Pearl item ball disappeared		FV_FLD_ITEM_114
+0x0A4F	_UNUSED	Route 8		Miracle Seed (unused)		FV_FLD_ITEM_115
+0x0A50	FIELD ITEM	Route 8		Ultra Ball item ball disappeared		FV_FLD_ITEM_116
+0x0A51	FIELD ITEM	Route 8		Dive Ball item ball disappeared		FV_FLD_ITEM_117
+0x0A52	FIELD ITEM	Route 8		Hyper Potion item ball disappeared		FV_FLD_ITEM_118
+0x0A53	FIELD ITEM	Route 8		Water Stone item ball disappeared		FV_FLD_ITEM_119
+0x0A54	HIDDEN ITEM	Route 8		Found Max Repel		FV_FLD_ITEM_120
+0x0A55	HIDDEN ITEM	Route 8		Found Iron		FV_FLD_ITEM_121
+0x0A56	FIELD ITEM	Route 8		TM53 (Energy Ball) item ball disappeared		FV_FLD_ITEM_122
+0x0A57	FIELD ITEM	Route 9		Net Ball item ball disappeared		FV_FLD_ITEM_123
+0x0A58	FIELD ITEM	Konikoni City		Eviolite item ball disappeared		FV_FLD_ITEM_124
+0x0A59	FIELD ITEM	Konikoni City		TM61 (Will-O-Wisp) item ball disappeared		FV_FLD_ITEM_125
+0x0A5A	FIELD ITEM	Paniola Town		TM88 (Sleep Talk) item ball disappeared		FV_FLD_ITEM_126
+0x0A5B	HIDDEN ITEM	Hano Beach		Found Pearl		FV_FLD_ITEM_127
+0x0A5C	FIELD ITEM	Royal Avenue		HP Up item ball disappeared		FV_FLD_ITEM_128
+0x0A5D	FIELD ITEM	Royal Avenue		Ultra Ball item ball disappeared		FV_FLD_ITEM_129
+0x0A5E	FIELD ITEM	Memorial Hill		Spell Tag item ball disappeared		FV_FLD_ITEM_130
+0x0A5F	FIELD ITEM	Memorial Hill		Cleanse Tag item ball disappeared		FV_FLD_ITEM_131
+0x0A60	FIELD ITEM	Memorial Hill		Hyper Potion item ball disappeared		FV_FLD_ITEM_132
+0x0A61	HIDDEN ITEM	Memorial Hill		Found Adrenaline Orb		FV_FLD_ITEM_133
+0x0A62	FIELD ITEM	Diglett's Tunnel		Fire Stone item ball disappeared		FV_FLD_ITEM_134
+0x0A63	FIELD ITEM	Diglett's Tunnel		Dusk Ball item ball disappeared		FV_FLD_ITEM_135
+0x0A64	FIELD ITEM	Diglett's Tunnel		Hyper Potion item ball disappeared		FV_FLD_ITEM_136
+0x0A65	HIDDEN ITEM	Diglett's Tunnel		Found X Attack		FV_FLD_ITEM_137
+0x0A66	FIELD ITEM	Route 8	Fossil Restoration Center	Rare Bone item ball disappeared		FV_FLD_ITEM_138
+0x0A67	FIELD ITEM	Paniola Ranch		Heal Ball item ball disappeared		FV_FLD_ITEM_139
+0x0A68	FIELD ITEM	Paniola Ranch		Paralyze Heal item ball disappeared		FV_FLD_ITEM_140
+0x0A69	FIELD ITEM	Wela Volcano Park		Burn Heal item ball disappeared		FV_FLD_ITEM_141
+0x0A6A	FIELD ITEM	Route 1	Trainer's School	Paralyze Heal item ball disappeared		FV_FLD_ITEM_142
+0x0A6B	HIDDEN ITEM	Route 2		Found Stardust		FV_FLD_ITEM_143
+0x0A6C	FIELD ITEM	Route 2		Super Potion item ball disappeared		FV_FLD_ITEM_144
+0x0A6D	HIDDEN ITEM	Berry Fields		Found Paralyze Heal		FV_FLD_ITEM_145
+0x0A6E	HIDDEN ITEM	Route 1	Trainer's School	Found Poké Ball		FV_FLD_ITEM_146
+0x0A6F	HIDDEN ITEM	Route 4		Found Dire Hit		FV_FLD_ITEM_147
+0x0A70	HIDDEN ITEM	Route 4		Found Big Mushroom		FV_FLD_ITEM_148
+0x0A71	HIDDEN ITEM	Route 6		Found Carbos		FV_FLD_ITEM_149
+0x0A72	FIELD ITEM	Route 11		Tiny Mushroom item ball disappeared		FV_FLD_ITEM_150
+0x0A73	HIDDEN ITEM	Route 8		Found Adrenaline Orb		FV_FLD_ITEM_151
+0x0A74	HIDDEN ITEM	Konikoni City		Found Big Pearl		FV_FLD_ITEM_152
+0x0A75	HIDDEN ITEM	Paniola Town		Found Fresh Water		FV_FLD_ITEM_153
+0x0A76	HIDDEN ITEM	Paniola Town		Found Revive		FV_FLD_ITEM_154
+0x0A77	HIDDEN ITEM	Royal Avenue		Found Soda Pop		FV_FLD_ITEM_155
+0x0A78	HIDDEN ITEM	Royal Avenue		Found Rare Candy		FV_FLD_ITEM_156
+0x0A79	HIDDEN ITEM	Memorial Hill		Found Revival Herb		FV_FLD_ITEM_157
+0x0A7A	HIDDEN ITEM	Diglett's Tunnel		Found Nugget		FV_FLD_ITEM_158
+0x0A7B	HIDDEN ITEM	Diglett's Tunnel		Found Escape Rope		FV_FLD_ITEM_159
+0x0A7C	HIDDEN ITEM	Route 8	Fossil Restoration Center	Found Awakening		FV_FLD_ITEM_160
+0x0A7D	HIDDEN ITEM	Paniola Ranch		Found X Sp. Defense		FV_FLD_ITEM_161
+0x0A7E	FIELD ITEM	Route 11		Big Mushroom item ball disappeared		FV_FLD_ITEM_162
+0x0A7F	FIELD ITEM	Wela Volcano Park		TM39 (Rock Tomb) item ball disappeared		FV_FLD_ITEM_163
+0x0A80	FIELD ITEM	Wela Volcano Park		Hyper Potion item ball disappeared		FV_FLD_ITEM_164
+0x0A81	HIDDEN ITEM	Route 9		Found X Accuracy		FV_FLD_ITEM_165
+0x0A82	FIELD ITEM	Akala Outskirts		TM28 (Leach Life) item ball disappeared		FV_FLD_ITEM_166
+0x0A83	FIELD ITEM	Route 10		Super Potion item ball disappeared		FV_FLD_ITEM_167
+0x0A84	FIELD ITEM	Route 10		Max Revive item ball disappeared		FV_FLD_ITEM_168
+0x0A85	HIDDEN ITEM	Route 10		Found Tiny Mushroom		FV_FLD_ITEM_169
+0x0A86	HIDDEN ITEM	Route 10		Found Lemonade		FV_FLD_ITEM_170
+0x0A87	FIELD ITEM	Route 11		TM74 (Gyro Ball) item ball disappeared		FV_FLD_ITEM_171
+0x0A88	FIELD ITEM	Route 11		Quick Ball item ball disappeared		FV_FLD_ITEM_172
+0x0A89	HIDDEN ITEM	Route 11		Found Star Piece		FV_FLD_ITEM_173
+0x0A8A	FIELD ITEM	Route 12		Hyper Potion item ball disappeared		FV_FLD_ITEM_174
+0x0A8B	FIELD ITEM	Route 12		Elixir item ball disappeared		FV_FLD_ITEM_175
+0x0A8C	FIELD ITEM	Route 12		X Attack item ball disappeared		FV_FLD_ITEM_176
+0x0A8D	HIDDEN ITEM	Route 12		Found PP Up		FV_FLD_ITEM_177
+0x0A8E	FIELD ITEM	Route 14		Max Potion item ball disappeared		FV_FLD_ITEM_178
+0x0A8F	FIELD ITEM	Route 14		TM30 (Shadow Ball) item ball disappeared		FV_FLD_ITEM_179
+0x0A90	FIELD ITEM	Mount Hokulani		Fast Ball item ball disappeared		FV_FLD_ITEM_180
+0x0A91	FIELD ITEM	Mount Hokulani		Heavy Ball item ball disappeared		FV_FLD_ITEM_181
+0x0A92	FIELD ITEM	Route 15		Dive Ball item ball disappeared		FV_FLD_ITEM_182
+0x0A93	FIELD ITEM	Route 15		Hyper Potion item ball disappeared		FV_FLD_ITEM_183
+0x0A94	FIELD ITEM	Malie City	Outer Cape	X Speed item ball disappeared		FV_FLD_ITEM_184
+0x0A95	FIELD ITEM	Route 16		TM81 (X-Scissor) item ball disappeared		FV_FLD_ITEM_185
+0x0A96	FIELD ITEM	Route 17		Full Heal item ball disappeared		FV_FLD_ITEM_186
+0x0A97	FIELD ITEM	Route 17		TM80 (Rock Slide) item ball disappeared		FV_FLD_ITEM_187
+0x0A98	FIELD ITEM	Malie City	Outer Cape	Antidote item ball disappeared		FV_FLD_ITEM_188
+0x0A99	FIELD ITEM	Malie City	Outer Cape	Nugget item ball disappeared		FV_FLD_ITEM_189
+0x0A9A	FIELD ITEM	Ula'ula Meadow		X Sp. Defense item ball disappeared		FV_FLD_ITEM_190
+0x0A9B	FIELD ITEM	Mount Hokulani		Max Potion item ball disappeared		FV_FLD_ITEM_191
+0x0A9C	FIELD ITEM	Blush Mountain		Sun Stone item ball disappeared		FV_FLD_ITEM_192
+0x0A9D	FIELD ITEM	Blush Mountain		Timer Ball item ball disappeared		FV_FLD_ITEM_193
+0x0A9E	HIDDEN ITEM	Blush Mountain		Found Zinc		FV_FLD_ITEM_194
+0x0A9F	FIELD ITEM	Lake of Sunne / Moone		TM03 (Psyshock) item ball disappeared		FV_FLD_ITEM_195
+0x0AA0	FIELD ITEM	Route 12		Burn Heal item ball disappeared		FV_FLD_ITEM_196
+0x0AA1	FIELD ITEM	Mount Lanakila		Escape Rope item ball disappeared		FV_FLD_ITEM_197
+0x0AA2	FIELD ITEM	Mount Lanakila		Max Revive item ball disappeared		FV_FLD_ITEM_198
+0x0AA3	FIELD ITEM	Mount Lanakila	Cave	Full Restore item ball disappeared		FV_FLD_ITEM_199
+0x0AA4	HIDDEN ITEM	Mount Lanakila		Found PP Max		FV_FLD_ITEM_200
+0x0AA5	FIELD ITEM			[unused?]		FV_FLD_ITEM_201
+0x0AA6	FIELD ITEM			[unused?]		FV_FLD_ITEM_202
+0x0AA7	FIELD ITEM			[unused?]		FV_FLD_ITEM_203
+0x0AA8	FIELD ITEM			[unused?]		FV_FLD_ITEM_204
+0x0AA9	FIELD ITEM			[unused?]		FV_FLD_ITEM_205
+0x0AAA	FIELD ITEM			[unused?]		FV_FLD_ITEM_206
+0x0AAB	FIELD ITEM	Mount Lanakila	Cave	TM13 (Ice Beam) item ball disappeared		FV_FLD_ITEM_207
+0x0AAC	FIELD ITEM	Hano Beach		Antidote item ball disappeared		FV_FLD_ITEM_208
+0x0AAD	FIELD ITEM	Hano Beach		Dive Ball item ball disappeared		FV_FLD_ITEM_209
+0x0AAE	FIELD ITEM	Hano Beach		Pearl String item ball disappeared		FV_FLD_ITEM_210
+0x0AAF	FIELD ITEM	Ancient Poni Path		Adrenaline Orb item ball disappeared		FV_FLD_ITEM_211
+0x0AB0	FIELD ITEM	Ancient Poni Path		TM55 (Scald) item ball disappeared		FV_FLD_ITEM_212
+0x0AB1	FIELD ITEM	Ancient Poni Path		Shiny Stone item ball disappeared		FV_FLD_ITEM_213
+0x0AB2	HIDDEN ITEM	Ancient Poni Path		Found Revival Herb		FV_FLD_ITEM_214
+0x0AB3	HIDDEN ITEM	Ancient Poni Path		Found PP Up		FV_FLD_ITEM_215
+0x0AB4	HIDDEN ITEM	Poni Breaker Coast		Found Calcium		FV_FLD_ITEM_216
+0x0AB5	FIELD ITEM	Poni Grove		Max Potion item ball disappeared		FV_FLD_ITEM_217
+0x0AB6	FIELD ITEM	Poni Grove		X Sp. Attack item ball disappeared		FV_FLD_ITEM_218
+0x0AB7	FIELD ITEM	Poni Plains		Comet Shard item ball disappeared		FV_FLD_ITEM_219
+0x0AB8	FIELD ITEM	Poni Plains		Power Anklet item ball disappeared		FV_FLD_ITEM_220
+0x0AB9	FIELD ITEM	Poni Plains		X Defense item ball disappeared		FV_FLD_ITEM_221
+0x0ABA	HIDDEN ITEM	Poni Plains		Found PP Max		FV_FLD_ITEM_222
+0x0ABB	FIELD ITEM	Poni Coast		Power Bracer item ball disappeared		FV_FLD_ITEM_223
+0x0ABC	FIELD ITEM	Poni Coast		TM97 (Dark Pulse) item ball disappeared		FV_FLD_ITEM_224
+0x0ABD	FIELD ITEM	Poni Gauntlet		Metal Coat item ball disappeared		FV_FLD_ITEM_225
+0x0ABE	FIELD ITEM	Poni Meadow		Power Herb item ball disappeared		FV_FLD_ITEM_226
+0x0ABF	FIELD ITEM	Poni Meadow		Power Lens item ball disappeared		FV_FLD_ITEM_227
+0x0AC0	FIELD ITEM	Poni Meadow		TM50 (Overheat) item ball disappeared		FV_FLD_ITEM_228
+0x0AC1	FIELD ITEM	Vast Poni Canyon	Outside	Full Heal item ball disappeared		FV_FLD_ITEM_229
+0x0AC2	HIDDEN ITEM	Vast Poni Canyon	Outside	Found PP Max		FV_FLD_ITEM_230
+0x0AC3	HIDDEN ITEM	Vast Poni Canyon	Outside	Found X Defense		FV_FLD_ITEM_231
+0x0AC4	FIELD ITEM	Vast Poni Canyon	Outside	TM93 (Wild Charge) item ball disappeared		FV_FLD_ITEM_232
+0x0AC5	FIELD ITEM	Vast Poni Canyon	Cave	Protein item ball disappeared		FV_FLD_ITEM_233
+0x0AC6	FIELD ITEM	Vast Poni Canyon	Cave	Max Potion item ball disappeared		FV_FLD_ITEM_234
+0x0AC7	HIDDEN ITEM	Vast Poni Canyon	Cave	Found Nugget		FV_FLD_ITEM_235
+0x0AC8	FIELD ITEM	Vast Poni Canyon	Cave	Escape Rope item ball disappeared		FV_FLD_ITEM_236
+0x0AC9	FIELD ITEM	Vast Poni Canyon	Cave	Rare Candy item ball disappeared		FV_FLD_ITEM_237
+0x0ACA	FIELD ITEM	Vast Poni Canyon	Cave	TM35 (Flamathrower) item ball disappeared		FV_FLD_ITEM_238
+0x0ACB	FIELD ITEM	Vast Poni Canyon	Cave	Full Restore item ball disappeared		FV_FLD_ITEM_239
+0x0ACC	FIELD ITEM	Resolution Cave		Terrain Extender item ball disappeared		FV_FLD_ITEM_240
+0x0ACD	FIELD ITEM	Resolution Cave		TM26 (Earthquake) item ball disappeared		FV_FLD_ITEM_241
+0x0ACE	FIELD ITEM	Exeggutor Island		Revive item ball disappeared		FV_FLD_ITEM_242
+0x0ACF	FIELD ITEM	Vast Poni Canyon	Trial Site	TM02 (Dragon Claw) item ball disappeared		FV_FLD_ITEM_243
+0x0AD0	FIELD ITEM	Aether Paradise	B1F: Docks	X Sp. Attack item ball disappeared		FV_FLD_ITEM_244
+0x0AD1	FIELD ITEM	Poni Wilds		Rare Candy item ball disappeared		FV_FLD_ITEM_245
+0x0AD2	_UNUSED	Poni Wilds		Max Repel (unused)		FV_FLD_ITEM_246
+0x0AD3	FIELD ITEM	Poni Wilds		Max Potion item ball disappeared		FV_FLD_ITEM_247
+0x0AD4	FIELD ITEM	Poni Plains		Carbos item ball disappeared		FV_FLD_ITEM_248
+0x0AD5	FIELD ITEM	Vast Poni Canyon	Outside	Dusk Ball item ball disappeared		FV_FLD_ITEM_249
+0x0AD6	FIELD ITEM	Vast Poni Canyon	Outside	TM99 (Dazzling Gleam) item ball disappeared		FV_FLD_ITEM_250
+0x0AD7	FIELD ITEM	Vast Poni Canyon	Outside	Max Revive item ball disappeared		FV_FLD_ITEM_251
+0x0AD8	HIDDEN ITEM	Vast Poni Canyon	Outside	Found X Sp. Defense		FV_FLD_ITEM_252
+0x0AD9	HIDDEN ITEM	Vast Poni Canyon	Outside	Found X Attack		FV_FLD_ITEM_253
+0x0ADA	FIELD ITEM	Poni Gauntlet		Guard Spec. item ball disappeared		FV_FLD_ITEM_254
+0x0ADB	FIELD ITEM	Mount Hokulani		TM72 (Volt Switch) item ball disappeared		FV_FLD_ITEM_255
+0x0ADC	FIELD ITEM	Aether Paradise	B1F: Docks	Rare Candy item ball disappeared		FV_FLD_ITEM_256
+0x0ADD	FIELD ITEM	Haina Desert		Max Potion item ball disappeared		FV_FLD_ITEM_257
+0x0ADE	FIELD ITEM	Haina Desert		Comet Shard item ball disappeared		FV_FLD_ITEM_258
+0x0ADF	FIELD ITEM	Haina Desert		TM85 (Dream Eater) item ball disappeared		FV_FLD_ITEM_259
+0x0AE0	FIELD ITEM	Malie Garden		Grassy Seed item ball disappeared		FV_FLD_ITEM_260
+0x0AE1	FIELD ITEM	Malie Garden		Big Mushroom item ball disappeared		FV_FLD_ITEM_261
+0x0AE2	FIELD ITEM	Malie Garden		Rage Candy Bar item ball disappeared		FV_FLD_ITEM_262
+0x0AE3	FIELD ITEM	Malie Garden		Luxury Ball item ball disappeared		FV_FLD_ITEM_263
+0x0AE4	FIELD ITEM	Melemele Sea		Super Repel item ball disappeared		FV_FLD_ITEM_264
+0x0AE5	FIELD ITEM	Hau'oli City	Shopping District	TM49 (Echoed Voice) item ball disappeared		FV_FLD_ITEM_265
+0x0AE6	FIELD ITEM	Hau'oli City	Shopping District	Tiny Mushroom item ball disappeared		FV_FLD_ITEM_266
+0x0AE7	FIELD ITEM	Hau'oli City	Shopping District	Revive item ball disappeared		FV_FLD_ITEM_267
+0x0AE8	HIDDEN ITEM	Hau'oli City	Shopping District	Found Stardust		FV_FLD_ITEM_268
+0x0AE9	FIELD ITEM	Mahalo Trail	Plank Bridge	Electric Seed item ball disappeared		FV_FLD_ITEM_269
+0x0AEA	HIDDEN ITEM	Ten Carat Hill	Cave	Found Protein		FV_FLD_ITEM_270
+0x0AEB	FIELD ITEM	Route 7		Antidote item ball disappeared		FV_FLD_ITEM_271
+0x0AEC	FIELD ITEM	Heahea City		Big Mushroom item ball disappeared		FV_FLD_ITEM_272
+0x0AED	FIELD ITEM	Paniola Ranch		Amulet Coin item ball disappeared		FV_FLD_ITEM_273
+0x0AEE	HIDDEN ITEM	Paniola Ranch		Found Fresh Water		FV_FLD_ITEM_274
+0x0AEF	FIELD ITEM	Wela Volcano Park		Float Stone item ball disappeared		FV_FLD_ITEM_275
+0x0AF0	FIELD ITEM	Route 13		Moon Stone item ball disappeared		FV_FLD_ITEM_276
+0x0AF1	HIDDEN ITEM	Route 11		Found Stardust		FV_FLD_ITEM_277
+0x0AF2	FIELD ITEM	Route 15		TM62 (Acrobatics) item ball disappeared		FV_FLD_ITEM_278
+0x0AF3	FIELD ITEM	Route 16		PP Up item ball disappeared		FV_FLD_ITEM_279
+0x0AF4	HIDDEN ITEM	Route 17		Found X Attack		FV_FLD_ITEM_280
+0x0AF5	HIDDEN ITEM	Route 17		Found Dire Hit		FV_FLD_ITEM_281
+0x0AF6	FIELD ITEM	Po Town		Max Repel item ball disappeared		FV_FLD_ITEM_282
+0x0AF7	FIELD ITEM	Po Town		Full Restore item ball disappeared		FV_FLD_ITEM_283
+0x0AF8	FIELD ITEM	Po Town		Smoke Ball item ball disappeared		FV_FLD_ITEM_284
+0x0AF9	FIELD ITEM	Po Town		Ice Stone item ball disappeared		FV_FLD_ITEM_285
+0x0AFA	HIDDEN ITEM	Mount Hokulani		Found Rare Candy		FV_FLD_ITEM_286
+0x0AFB	FIELD ITEM	Shady House	1F	Heal Powder item ball disappeared		FV_FLD_ITEM_287
+0x0AFC	FIELD ITEM	Shady House	1F	Max Revive item ball disappeared		FV_FLD_ITEM_288
+0x0AFD	FIELD ITEM	Shady House	2F	TM36 (Sludge Bomb) item ball disappeared		FV_FLD_ITEM_289
+0x0AFE	FIELD ITEM	Shady House	2F	Iron item ball disappeared		FV_FLD_ITEM_290
+0x0AFF	FIELD ITEM	Shady House	Roof	Escape Rope item ball disappeared		FV_FLD_ITEM_291
+0x0B00	HIDDEN ITEM	Route 11		Found Stardust		FV_FLD_ITEM_292
+0x0B01	_UNUSED	Poni Wilds		Dusk Stone (unused)		FV_FLD_ITEM_293
+0x0B02	HIDDEN ITEM	Ultra Plant		Found Thunder Stone		FV_FLD_ITEM_294
+0x0B03	HIDDEN ITEM	Poni Grove		Found Max Elixir		FV_FLD_ITEM_295
+0x0B04	HIDDEN ITEM	Poni Coast		Found Max Revive		FV_FLD_ITEM_296
+0x0B05	FIELD ITEM	Poni Gauntlet		Misty Seed item ball disappeared		FV_FLD_ITEM_297
+0x0B06	HIDDEN ITEM	Poni Gauntlet		Found PP Up		FV_FLD_ITEM_298
+0x0B07	FIELD ITEM	Aether Paradise	B1F: Docks	TM06 (Toxic) item ball disappeared		FV_FLD_ITEM_299
+0x0B08	HIDDEN ITEM	Resolution Cave		Found HP Up		FV_FLD_ITEM_300
+0x0B09	FIELD ITEM	Resolution Cave	Inner	Adrenaline Orb item ball disappeared		FV_FLD_ITEM_301
+0x0B0A	FIELD ITEM	Resolution Cave	Inner	Light Ball item ball disappeared		FV_FLD_ITEM_302
+0x0B0B	FIELD ITEM	Resolution Cave	Inner	Toxic Orb item ball disappeared		FV_FLD_ITEM_303
+0x0B0C	HIDDEN ITEM	Resolution Cave	Inner	Found Big Nugget		FV_FLD_ITEM_304
+0x0B0D	HIDDEN ITEM	Exeggutor Island		Found PP Up		FV_FLD_ITEM_305
+0x0B0E	FIELD ITEM	Seafolk Village	Steelix Ship	TM91 (Flash Cannon) item ball disappeared		FV_FLD_ITEM_306
+0x0B0F	FIELD ITEM	Aether Paradise	Outside	Full Heal item ball disappeared		FV_FLD_ITEM_307
+0x0B10	FIELD ITEM	Aether Paradise	Outside	Hyper Potion item ball disappeared		FV_FLD_ITEM_308
+0x0B11	FIELD ITEM	Aether Paradise	B2F: Lab Area	Full Restore item ball disappeared		FV_FLD_ITEM_309
+0x0B12	FIELD ITEM	Route 17		Lemonade item ball disappeared		FV_FLD_ITEM_310
+0x0B13	HIDDEN ITEM	Paniola Ranch		Found Super Repel		FV_FLD_ITEM_311
+0x0B14	HIDDEN ITEM	Paniola Ranch		Found Soda Pop		FV_FLD_ITEM_312
+0x0B15	HIDDEN ITEM	Paniola Ranch		Found Big Mushroom		FV_FLD_ITEM_313
+0x0B16	HIDDEN ITEM	Paniola Ranch		Found Repel		FV_FLD_ITEM_314
+0x0B17	HIDDEN ITEM	Paniola Ranch		Found Moomoo Milk		FV_FLD_ITEM_315
+0x0B18	FIELD ITEM	Ula'ula Meadow		Adrenaline Orb item ball disappeared		FV_FLD_ITEM_316
+0x0B19	FIELD ITEM	Ula'ula Meadow		Repeat Ball item ball disappeared		FV_FLD_ITEM_317
+0x0B1A	HIDDEN ITEM	Route 1	Hau'oli Outskirts	Found Earth Plate		FV_FLD_ITEM_318
+0x0B1B	HIDDEN ITEM	Hau'oli City	Shopping District	Found Insect Plate		FV_FLD_ITEM_319
+0x0B1C	HIDDEN ITEM	Hau'oli City	Beachfront	Found Icicle Plate		FV_FLD_ITEM_320
+0x0B1D	HIDDEN ITEM	Route 1	Trainer's School	Found Flame Plate		FV_FLD_ITEM_321
+0x0B1E	HIDDEN ITEM	Route 1	Hau'oli Outskirts	Found Mind Plate		FV_FLD_ITEM_322
+0x0B1F	HIDDEN ITEM	Hau'oli City	Shopping District	Found Meadow Plate		FV_FLD_ITEM_323
+0x0B20	HIDDEN ITEM	Hau'oli City	Shopping District	Found Toxic Plate		FV_FLD_ITEM_324
+0x0B21	HIDDEN ITEM	Hau'oli Cemetery		Found Spooky Plate		FV_FLD_ITEM_325
+0x0B22	HIDDEN ITEM	Hau'oli City	Shopping District	Found Draco Plate		FV_FLD_ITEM_326
+0x0B23	HIDDEN ITEM	Paniola Town		Found Super Repel		FV_FLD_ITEM_327
+0x0B24	FIELD ITEM	Memorial Hill		Dusk Ball item ball disappeared		FV_FLD_ITEM_328
+0x0B25	HIDDEN ITEM	Memorial Hill		Found Heal Powder		FV_FLD_ITEM_329
+0x0B26	HIDDEN ITEM	Memorial Hill		Found Super Repel		FV_FLD_ITEM_330
+0x0B27	HIDDEN ITEM	Akala Outskirts		Found Big Mushroom		FV_FLD_ITEM_331
+0x0B28	HIDDEN ITEM	Akala Outskirts		Found Tiny Mushroom		FV_FLD_ITEM_332
+0x0B29	HIDDEN ITEM	Akala Outskirts		Found Tiny Mushroom		FV_FLD_ITEM_333
+0x0B2A	FIELD ITEM	Mount Hokulani		Level Ball item ball disappeared		FV_FLD_ITEM_334
+0x0B2B	FIELD ITEM	Route 13		Guard Spec. item ball disappeared		FV_FLD_ITEM_335
+0x0B2C	FIELD ITEM	Resolution Cave		Power Weight item ball disappeared		FV_FLD_ITEM_336
+0x0B2D	HIDDEN ITEM	Exeggutor Island		Found Big Pearl		FV_FLD_ITEM_337
+0x0B2E	FIELD ITEM	Big Wave Beach		White Herb item ball disappeared		FV_FLD_ITEM_338
+0x0B2F	HIDDEN ITEM	Big Wave Beach		Found Pearl		FV_FLD_ITEM_339
+0x0B30	HIDDEN ITEM	Big Wave Beach		Found Pearl		FV_FLD_ITEM_340
+0x0B31	HIDDEN ITEM	Ultra Plant		Found Thunder Stone		FV_FLD_ITEM_341
 0x0B32	FIELD ITEM					FV_FLD_ITEM_342
 0x0B33	FIELD ITEM					FV_FLD_ITEM_343
-0x0B34	FIELD ITEM					FV_FLD_ITEM_344
-0x0B35	FIELD ITEM					FV_FLD_ITEM_345
-0x0B36	FIELD ITEM					FV_FLD_ITEM_346
-0x0B37	FIELD ITEM					FV_FLD_ITEM_347
-0x0B38	FIELD ITEM					FV_FLD_ITEM_348
-0x0B39	FIELD ITEM					FV_FLD_ITEM_349
-0x0B3A	FIELD ITEM					FV_FLD_ITEM_350
-0x0B3B	FIELD ITEM					FV_FLD_ITEM_351
-0x0B3C	FIELD ITEM					FV_FLD_ITEM_352
-0x0B3D	FIELD ITEM					FV_FLD_ITEM_353
-0x0B3E	FIELD ITEM					FV_FLD_ITEM_354
-0x0B3F	FIELD ITEM					FV_FLD_ITEM_355
-0x0B40	FIELD ITEM					FV_FLD_ITEM_356
-0x0B41	FIELD ITEM					FV_FLD_ITEM_357
-0x0B42	FIELD ITEM					FV_FLD_ITEM_358
-0x0B43	FIELD ITEM					FV_FLD_ITEM_359
-0x0B44	FIELD ITEM					FV_FLD_ITEM_360
-0x0B45	FIELD ITEM					FV_FLD_ITEM_361
-0x0B46	FIELD ITEM					FV_FLD_ITEM_362
-0x0B47	FIELD ITEM					FV_FLD_ITEM_363
-0x0B48	FIELD ITEM					FV_FLD_ITEM_364
-0x0B49	FIELD ITEM					FV_FLD_ITEM_365
-0x0B4A	FIELD ITEM					FV_FLD_ITEM_366
-0x0B4B	FIELD ITEM					FV_FLD_ITEM_367
-0x0B4C	FIELD ITEM					FV_FLD_ITEM_368
-0x0B4D	FIELD ITEM					FV_FLD_ITEM_369
-0x0B4E	FIELD ITEM					FV_FLD_ITEM_370
-0x0B4F	FIELD ITEM					FV_FLD_ITEM_371
-0x0B50	FIELD ITEM					FV_FLD_ITEM_372
-0x0B51	FIELD ITEM					FV_FLD_ITEM_373
-0x0B52	FIELD ITEM					FV_FLD_ITEM_374
-0x0B53	FIELD ITEM					FV_FLD_ITEM_375
-0x0B54	FIELD ITEM					FV_FLD_ITEM_376
-0x0B55	FIELD ITEM					FV_FLD_ITEM_377
-0x0B56	FIELD ITEM					FV_FLD_ITEM_378
-0x0B57	FIELD ITEM					FV_FLD_ITEM_379
-0x0B58	FIELD ITEM					FV_FLD_ITEM_380
-0x0B59	FIELD ITEM					FV_FLD_ITEM_381
-0x0B5A	FIELD ITEM					FV_FLD_ITEM_382
-0x0B5B	FIELD ITEM					FV_FLD_ITEM_383
-0x0B5C	FIELD ITEM					FV_FLD_ITEM_384
-0x0B5D	FIELD ITEM					FV_FLD_ITEM_385
-0x0B5E	FIELD ITEM					FV_FLD_ITEM_386
-0x0B5F	FIELD ITEM					FV_FLD_ITEM_387
-0x0B60	FIELD ITEM					FV_FLD_ITEM_388
-0x0B61	FIELD ITEM					FV_FLD_ITEM_389
-0x0B62	FIELD ITEM					FV_FLD_ITEM_390
-0x0B63	FIELD ITEM					FV_FLD_ITEM_391
-0x0B64	FIELD ITEM					FV_FLD_ITEM_392
-0x0B65	FIELD ITEM					FV_FLD_ITEM_393
-0x0B66	FIELD ITEM					FV_FLD_ITEM_394
-0x0B67	FIELD ITEM					FV_FLD_ITEM_395
-0x0B68	FIELD ITEM					FV_FLD_ITEM_396
-0x0B69	FIELD ITEM					FV_FLD_ITEM_397
-0x0B6A	FIELD ITEM					FV_FLD_ITEM_398
-0x0B6B	FIELD ITEM					FV_FLD_ITEM_399
-0x0B6C	FIELD ITEM					FV_FLD_ITEM_400
-0x0B6D	FIELD ITEM					FV_FLD_ITEM_401
-0x0B6E	FIELD ITEM					FV_FLD_ITEM_402
-0x0B6F	FIELD ITEM					FV_FLD_ITEM_403
-0x0B70	FIELD ITEM					FV_FLD_ITEM_404
-0x0B71	FIELD ITEM					FV_FLD_ITEM_405
-0x0B72	FIELD ITEM					FV_FLD_ITEM_406
-0x0B73	FIELD ITEM					FV_FLD_ITEM_407
+0x0B34	FIELD ITEM	Lush Jungle		Big Root item ball disappeared		FV_FLD_ITEM_344
+0x0B35	HIDDEN ITEM	Lush Jungle		Found Tiny Mushroom		FV_FLD_ITEM_345
+0x0B36	HIDDEN ITEM	Lush Jungle		Found Revival Herb		FV_FLD_ITEM_346
+0x0B37	HIDDEN ITEM	Lush Jungle		Found Heal Powder		FV_FLD_ITEM_347
+0x0B38	FIELD ITEM	Route 8		Miracle Seed item ball disappeared		FV_FLD_ITEM_348
+0x0B39	FIELD ITEM	Ula'ula Beach		Revive item ball disappeared		FV_FLD_ITEM_349
+0x0B3A	HIDDEN ITEM	Ula'ula Beach		Found Dive Ball		FV_FLD_ITEM_350
+0x0B3B	FIELD ITEM	Mount Lanakila		TM84 (Poison Jab) item ball disappeared		FV_FLD_ITEM_351
+0x0B3C	FIELD ITEM	Mount Lanakila		PP Max item ball disappeared		FV_FLD_ITEM_352
+0x0B3D	HIDDEN ITEM	Mount Lanakila		Found Full Restore		FV_FLD_ITEM_353
+0x0B3E	FIELD ITEM	Mount Lanakila	Cave	Max Elixir item ball disappeared		FV_FLD_ITEM_354
+0x0B3F	FIELD ITEM	Mount Lanakila	Cave	Max Revive item ball disappeared		FV_FLD_ITEM_355
+0x0B40	HIDDEN ITEM	Mount Lanakila	Cave	Found Rare Candy		FV_FLD_ITEM_356
+0x0B41	FIELD ITEM	Mount Lanakila	Crater	X Sp. Defense item ball disappeared		FV_FLD_ITEM_357
+0x0B42	FIELD ITEM	Poni Wilds		Dusk Stone item ball disappeared		FV_FLD_ITEM_358
+0x0B43	FIELD ITEM	Poni Beach		Max Repel item ball disappeared		FV_FLD_ITEM_359
+0x0B44	HIDDEN ITEM	Ultra Plant		Found Thunder Stone		FV_FLD_ITEM_360
+0x0B45	HIDDEN ITEM	Ultra Plant		Found Thunder Stone		FV_FLD_ITEM_361
+0x0B46	FIELD ITEM	Team Rocket's Castle		Full Heal item ball disappeared		FV_FLD_ITEM_362
+0x0B47	FIELD ITEM	Team Rocket's Castle		X Attack item ball disappeared		FV_FLD_ITEM_363
+0x0B48	FIELD ITEM	Team Rocket's Castle		Full Restore item ball disappeared		FV_FLD_ITEM_364
+0x0B49	HIDDEN ITEM	Ultra Plant		Found Thunder Stone		FV_FLD_ITEM_365
+0x0B4A	FIELD ITEM	Team Rocket's Castle		Revive item ball disappeared		FV_FLD_ITEM_366
+0x0B4B	FIELD ITEM	Team Rocket's Castle		Rare Candy item ball disappeared		FV_FLD_ITEM_367
+0x0B4C	FIELD ITEM	Team Rocket's Castle		Iron Ball item ball disappeared		FV_FLD_ITEM_368
+0x0B4D	FIELD ITEM	Team Rocket's Castle		Guard Spec. item ball disappeared		FV_FLD_ITEM_369
+0x0B4E	FIELD ITEM	Team Rocket's Castle		Max Potion item ball disappeared		FV_FLD_ITEM_370
+0x0B4F	FIELD ITEM	Team Rocket's Castle		Full Restore item ball disappeared		FV_FLD_ITEM_371
+0x0B50	HIDDEN ITEM	Ultra Plant		Found Thunder Stone		FV_FLD_ITEM_372
+0x0B51	FIELD ITEM	Team Rocket's Castle		Revive item ball disappeared		FV_FLD_ITEM_373
+0x0B52	FIELD ITEM	Team Rocket's Castle		Zinc item ball disappeared		FV_FLD_ITEM_374
+0x0B53	FIELD ITEM	Team Rocket's Castle		HP Up item ball disappeared		FV_FLD_ITEM_375
+0x0B54	FIELD ITEM	Team Rocket's Castle		Hyper Potion item ball disappeared		FV_FLD_ITEM_376
+0x0B55	HIDDEN ITEM	Po Town		Found Rare Candy		FV_FLD_ITEM_377
+0x0B56	FIELD ITEM	Team Rocket's Castle		Calcium item ball disappeared		FV_FLD_ITEM_378
+0x0B57	FIELD ITEM	Team Rocket's Castle		PP Up item ball disappeared		FV_FLD_ITEM_379
+0x0B58	FIELD ITEM	Team Rocket's Castle		Cell Battery item ball disappeared		FV_FLD_ITEM_380
+0x0B59	FIELD ITEM	Team Rocket's Castle		Max Revive item ball disappeared		FV_FLD_ITEM_381
+0x0B5A	FIELD ITEM	Poni Breaker Coast		Max Revive item ball disappeared		FV_FLD_ITEM_382
+0x0B5B	FIELD ITEM	Haina Desert		Big Nugget item ball disappeared		FV_FLD_ITEM_383
+0x0B5C	HIDDEN ITEM	Route 4		Found Super Potion		FV_FLD_ITEM_384
+0x0B5D	HIDDEN ITEM	Paniola Ranch		Found X Defense		FV_FLD_ITEM_385
+0x0B5E	FIELD ITEM	Wela Volcano Park		Antidote item ball disappeared		FV_FLD_ITEM_386
+0x0B5F	HIDDEN ITEM	Route 7		Found Star Piece		FV_FLD_ITEM_387
+0x0B60	HIDDEN ITEM	Heahea City		Found Super Repel		FV_FLD_ITEM_388
+0x0B61	FIELD ITEM	Malie Garden		TM73 (Thunder Wave) item ball disappeared		FV_FLD_ITEM_389
+0x0B62	FIELD ITEM	Haina Desert		Hyper Potion item ball disappeared		FV_FLD_ITEM_390
+0x0B63	FIELD ITEM	Route 14		Max Revive item ball disappeared		FV_FLD_ITEM_391
+0x0B64	FIELD ITEM	Route 17		Nest Ball item ball disappeared		FV_FLD_ITEM_392
+0x0B65	HIDDEN ITEM	Route 13		Found Rare Candy		FV_FLD_ITEM_393
+0x0B66	HIDDEN ITEM	Ancient Poni Path		Found Max Potion		FV_FLD_ITEM_394
+0x0B67	FIELD ITEM	Poni Meadow		Max Revive item ball disappeared		FV_FLD_ITEM_395
+0x0B68	FIELD ITEM	Poni Gauntlet		Full Restore item ball disappeared		FV_FLD_ITEM_396
+0x0B69	FIELD ITEM	Poni Gauntlet		Power Band item ball disappeared		FV_FLD_ITEM_397
+0x0B6A	FIELD ITEM	Vast Poni Canyon	Cave	Nugget item ball disappeared		FV_FLD_ITEM_398
+0x0B6B	FIELD ITEM	Vast Poni Canyon	Cave	X Defense item ball disappeared		FV_FLD_ITEM_399
+0x0B6C	HIDDEN ITEM	Poni Breaker Coast		Found Pearl String		FV_FLD_ITEM_400
+0x0B6D	FIELD ITEM	Aether Paradise	Outside	Full Heal item ball disappeared		FV_FLD_ITEM_401
+0x0B6E	FIELD ITEM	Aether Paradise	Outside	Heal Ball item ball disappeared		FV_FLD_ITEM_402
+0x0B6F	FIELD ITEM	Kala'e Bay		Hyper Potion item ball disappeared		FV_FLD_ITEM_403
+0x0B70	FIELD ITEM	Sandy Cave		Big Pearl item ball disappeared		FV_FLD_ITEM_404
+0x0B71	FIELD ITEM	Sandy Cave		Light Clay item ball disappeared		FV_FLD_ITEM_405
+0x0B72	FIELD ITEM	Sandy Cave		TM24 (Thunderbolt) item ball disappeared		FV_FLD_ITEM_406
+0x0B73	FIELD ITEM	Poni Meadow		Max Potion item ball disappeared		FV_FLD_ITEM_407
 0x0B74	FIELD ITEM					FV_FLD_ITEM_408
 0x0B75	FIELD ITEM					FV_FLD_ITEM_409
-0x0B76	FIELD ITEM					FV_FLD_ITEM_410
-0x0B77	FIELD ITEM					FV_FLD_ITEM_411
-0x0B78	FIELD ITEM					FV_FLD_ITEM_412
-0x0B79	FIELD ITEM					FV_FLD_ITEM_413
-0x0B7A	FIELD ITEM					FV_FLD_ITEM_414
-0x0B7B	FIELD ITEM					
-0x0B7C	FIELD ITEM					
-0x0B7D	FIELD ITEM					
-0x0B7E	FIELD ITEM					
-0x0B7F	FIELD ITEM					
-0x0B80	FIELD ITEM					
-0x0B81	FIELD ITEM					
-0x0B82	FIELD ITEM					
-0x0B83	FIELD ITEM					
-0x0B84	FIELD ITEM					
-0x0B85	FIELD ITEM					
-0x0B86	FIELD ITEM					
-0x0B87	FIELD ITEM					
-0x0B88	FIELD ITEM					
-0x0B89	FIELD ITEM					
-0x0B8A	FIELD ITEM					
-0x0B8B	FIELD ITEM					
-0x0B8C	FIELD ITEM					
-0x0B8D	FIELD ITEM					
-0x0B8E	FIELD ITEM					
-0x0B8F	FIELD ITEM					
-0x0B90	FIELD ITEM					
-0x0B91	FIELD ITEM					
-0x0B92	FIELD ITEM					
-0x0B93	FIELD ITEM					
-0x0B94	FIELD ITEM					
-0x0B95	FIELD ITEM					
-0x0B96	FIELD ITEM					
-0x0B97	FIELD ITEM					
-0x0B98	FIELD ITEM					
-0x0B99	FIELD ITEM					
-0x0B9A	FIELD ITEM					
-0x0B9B	FIELD ITEM					
-0x0B9C	FIELD ITEM					
-0x0B9D	FIELD ITEM					
-0x0B9E	FIELD ITEM					
-0x0B9F	FIELD ITEM					
-0x0BA0	FIELD ITEM					FV_FLD_REVIVE_ITEM_00
-0x0BA1	FIELD ITEM					FV_FLD_REVIVE_ITEM_01
-0x0BA2	FIELD ITEM					FV_FLD_REVIVE_ITEM_02
-0x0BA3	FIELD ITEM					FV_FLD_REVIVE_ITEM_03
-0x0BA4	FIELD ITEM					FV_FLD_REVIVE_ITEM_04
-0x0BA5	FIELD ITEM					FV_FLD_REVIVE_ITEM_05
-0x0BA6	FIELD ITEM					FV_FLD_REVIVE_ITEM_06
-0x0BA7	FIELD ITEM					FV_FLD_REVIVE_ITEM_07
-0x0BA8	FIELD ITEM					FV_FLD_REVIVE_ITEM_08
-0x0BA9	FIELD ITEM					FV_FLD_REVIVE_ITEM_09
-0x0BAA	FIELD ITEM					FV_FLD_REVIVE_ITEM_10
-0x0BAB	FIELD ITEM					FV_FLD_REVIVE_ITEM_11
-0x0BAC	FIELD ITEM					FV_FLD_REVIVE_ITEM_12
-0x0BAD	FIELD ITEM					FV_FLD_REVIVE_ITEM_13
-0x0BAE	FIELD ITEM					FV_FLD_REVIVE_ITEM_14
-0x0BAF	FIELD ITEM					FV_FLD_REVIVE_ITEM_15
-0x0BB0	FIELD ITEM					FV_FLD_REVIVE_ITEM_16
-0x0BB1	FIELD ITEM					FV_FLD_REVIVE_ITEM_17
-0x0BB2	FIELD ITEM					FV_FLD_REVIVE_ITEM_18
-0x0BB3	FIELD ITEM					FV_FLD_REVIVE_ITEM_19
-0x0BB4	FIELD ITEM					FV_FLD_REVIVE_ITEM_20
-0x0BB5	FIELD ITEM					FV_FLD_REVIVE_ITEM_21
-0x0BB6	FIELD ITEM					FV_FLD_REVIVE_ITEM_22
-0x0BB7	FIELD ITEM					FV_FLD_REVIVE_ITEM_23
-0x0BB8	FIELD ITEM					FV_FLD_REVIVE_ITEM_24
-0x0BB9	FIELD ITEM					FV_FLD_REVIVE_ITEM_25
-0x0BBA	FIELD ITEM					FV_FLD_REVIVE_ITEM_26
-0x0BBB	FIELD ITEM					FV_FLD_REVIVE_ITEM_27
-0x0BBC	FIELD ITEM					FV_FLD_REVIVE_ITEM_28
-0x0BBD	FIELD ITEM					FV_FLD_REVIVE_ITEM_29
-0x0BBE	FIELD ITEM					FV_FLD_REVIVE_ITEM_30
-0x0BBF	FIELD ITEM					FV_FLD_REVIVE_ITEM_31
-0x0BC0	FIELD ITEM					FV_FLD_REVIVE_ITEM_32
-0x0BC1	FIELD ITEM					FV_FLD_REVIVE_ITEM_33
-0x0BC2	FIELD ITEM					FV_FLD_REVIVE_ITEM_34
-0x0BC3	FIELD ITEM					FV_FLD_REVIVE_ITEM_35
-0x0BC4	FIELD ITEM					FV_FLD_REVIVE_ITEM_36
-0x0BC5	FIELD ITEM					FV_FLD_REVIVE_ITEM_37
-0x0BC6	FIELD ITEM					FV_FLD_REVIVE_ITEM_38
-0x0BC7	FIELD ITEM					FV_FLD_REVIVE_ITEM_39
-0x0BC8	FIELD ITEM					FV_FLD_REVIVE_ITEM_40
-0x0BC9	FIELD ITEM					FV_FLD_REVIVE_ITEM_41
-0x0BCA	FIELD ITEM					FV_FLD_REVIVE_ITEM_42
-0x0BCB	FIELD ITEM					FV_FLD_REVIVE_ITEM_43
-0x0BCC	FIELD ITEM					FV_FLD_REVIVE_ITEM_44
-0x0BCD	FIELD ITEM					FV_FLD_REVIVE_ITEM_45
-0x0BCE	FIELD ITEM					FV_FLD_REVIVE_ITEM_46
-0x0BCF	FIELD ITEM					FV_FLD_REVIVE_ITEM_47
-0x0BD0	FIELD ITEM					FV_FLD_REVIVE_ITEM_48
-0x0BD1	FIELD ITEM					FV_FLD_REVIVE_ITEM_49
-0x0BD2	FIELD ITEM					FV_FLD_REVIVE_ITEM_50
-0x0BD3	FIELD ITEM					FV_FLD_REVIVE_ITEM_51
-0x0BD4	FIELD ITEM					FV_FLD_REVIVE_ITEM_52
-0x0BD5	FIELD ITEM					FV_FLD_REVIVE_ITEM_53
-0x0BD6	FIELD ITEM					FV_FLD_REVIVE_ITEM_54
-0x0BD7	FIELD ITEM					FV_FLD_REVIVE_ITEM_55
-0x0BD8	FIELD ITEM					FV_FLD_REVIVE_ITEM_56
-0x0BD9	FIELD ITEM					FV_FLD_REVIVE_ITEM_57
-0x0BDA	FIELD ITEM					FV_FLD_REVIVE_ITEM_58
-0x0BDB	FIELD ITEM					FV_FLD_REVIVE_ITEM_59
+0x0B76	HIDDEN ITEM	Big Wave Beach		Found Soda Pop		FV_FLD_ITEM_410
+0x0B77	HIDDEN ITEM	Kala'e Bay		Found Star Piece		FV_FLD_ITEM_411
+0x0B78	FIELD ITEM	Heahea Beach		Soda Pop item ball disappeared		FV_FLD_ITEM_412
+0x0B79	FIELD ITEM	Pikachu Valley		Magnet item ball disappeared		FV_FLD_ITEM_413
+0x0B7A	FIELD ITEM			[unused?]		FV_FLD_ITEM_414
+0x0B7B						
+0x0B7C						
+0x0B7D						
+0x0B7E						
+0x0B7F						
+0x0B80						
+0x0B81						
+0x0B82						
+0x0B83						
+0x0B84						
+0x0B85						
+0x0B86						
+0x0B87						
+0x0B88						
+0x0B89						
+0x0B8A						
+0x0B8B						
+0x0B8C						
+0x0B8D						
+0x0B8E						
+0x0B8F						
+0x0B90						
+0x0B91						
+0x0B92						
+0x0B93						
+0x0B94						
+0x0B95						
+0x0B96						
+0x0B97						
+0x0B98						
+0x0B99						
+0x0B9A						
+0x0B9B						
+0x0B9C						
+0x0B9D						
+0x0B9E						
+0x0B9F						
+0x0BA0	HIDDEN ITEM	Ula'ula Beach		Found Big Pearl (recurring)		FV_FLD_REVIVE_ITEM_00
+0x0BA1	HIDDEN ITEM	Ula'ula Beach		Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_01
+0x0BA2	HIDDEN ITEM	Ula'ula Beach		Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_02
+0x0BA3	HIDDEN ITEM	Ula'ula Beach		Found Big Pearl (recurring)		FV_FLD_REVIVE_ITEM_03
+0x0BA4	HIDDEN ITEM	Hano Beach		Found Heart Scale (recurring)		FV_FLD_REVIVE_ITEM_04
+0x0BA5	HIDDEN ITEM	Hano Beach		Found Heart Scale (recurring)		FV_FLD_REVIVE_ITEM_05
+0x0BA6	HIDDEN ITEM	Hano Beach		Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_06
+0x0BA7	HIDDEN ITEM	Hano Beach		Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_07
+0x0BA8	HIDDEN ITEM	Hano Beach		Found Soda Pop (recurring)		FV_FLD_REVIVE_ITEM_08
+0x0BA9	HIDDEN ITEM	Route 1	Hau'oli Outskirts	Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_09
+0x0BAA	HIDDEN ITEM	Kala'e Bay		Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_10
+0x0BAB	HIDDEN ITEM	Kala'e Bay		Found Big Pearl (recurring)		FV_FLD_REVIVE_ITEM_11
+0x0BAC	HIDDEN ITEM	Melemele Sea		Found Rare Candy (recurring)		FV_FLD_REVIVE_ITEM_12
+0x0BAD	HIDDEN ITEM	Hau'oli City	Beachfront	Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_13
+0x0BAE	HIDDEN ITEM	Hau'oli City	Beachfront	Found Fresh Water (recurring)		FV_FLD_REVIVE_ITEM_14
+0x0BAF	HIDDEN ITEM	Route 7		Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_15
+0x0BB0	HIDDEN ITEM	Route 7		Found Net Ball (recurring)		FV_FLD_REVIVE_ITEM_16
+0x0BB1	HIDDEN ITEM	Route 14		Found Big Pearl (recurring)		FV_FLD_REVIVE_ITEM_17
+0x0BB2	HIDDEN ITEM	Route 14		Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_18
+0x0BB3	HIDDEN ITEM	Route 15		Found Normal Gem (recurring)		FV_FLD_REVIVE_ITEM_19
+0x0BB4	HIDDEN ITEM	Route 15		Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_20
+0x0BB5	_UNUSED	Poni Wilds		Big Pearl (recurring) (unused)		FV_FLD_REVIVE_ITEM_21
+0x0BB6	_UNUSED	Poni Wilds		Repeat Ball (recurring) (unused)		FV_FLD_REVIVE_ITEM_22
+0x0BB7	_UNUSED	Poni Wilds		Pearl (recurring) (unused)		FV_FLD_REVIVE_ITEM_23
+0x0BB8	HIDDEN ITEM	Big Wave Beach		Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_24
+0x0BB9	HIDDEN ITEM	Big Wave Beach		Found Fresh Water (recurring)		FV_FLD_REVIVE_ITEM_25
+0x0BBA	HIDDEN ITEM	Heahea Beach		Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_26
+0x0BBB	HIDDEN ITEM	Heahea Beach		Found Revive (recurring)		FV_FLD_REVIVE_ITEM_27
+0x0BBC	HIDDEN ITEM	Poni Beach		Found Big Pearl (recurring)		FV_FLD_REVIVE_ITEM_28
+0x0BBD	HIDDEN ITEM	Poni Beach		Found Big Pearl (recurring)		FV_FLD_REVIVE_ITEM_29
+0x0BBE	HIDDEN ITEM	Poni Beach		Found Pearl (recurring)		FV_FLD_REVIVE_ITEM_30
+0x0BBF	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_31
+0x0BC0	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_32
+0x0BC1	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_33
+0x0BC2	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_34
+0x0BC3	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_35
+0x0BC4	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_36
+0x0BC5	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_37
+0x0BC6	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_38
+0x0BC7	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_39
+0x0BC8	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_40
+0x0BC9	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_41
+0x0BCA	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_42
+0x0BCB	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_43
+0x0BCC	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_44
+0x0BCD	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_45
+0x0BCE	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_46
+0x0BCF	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_47
+0x0BD0	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_48
+0x0BD1	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_49
+0x0BD2	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_50
+0x0BD3	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_51
+0x0BD4	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_52
+0x0BD5	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_53
+0x0BD6	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_54
+0x0BD7	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_55
+0x0BD8	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_56
+0x0BD9	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_57
+0x0BDA	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_58
+0x0BDB	HIDDEN ITEM			[unused?]		FV_FLD_REVIVE_ITEM_59
 0x0BDC	_UNUSED					TR_FLAG_000
 0x0BDD	TRAINER BATTLE	Hau'oli Outskirts		Lass Madison		TR_FLAG_001
 0x0BDE	TRAINER BATTLE					TR_FLAG_002
@@ -3645,8 +3645,8 @@
 0x0E3B	TRAINER BATTLE					TR_FLAG_607
 0x0E3C	TRAINER BATTLE					TR_FLAG_608
 0x0E3D	TRAINER BATTLE					TR_FLAG_609
-0x0E3E	TRAINER BATTLE					TR_FLAG_610
-0x0E3F	TRAINER BATTLE					TR_FLAG_611
+0x0E3E	TRAINER BATTLE	Ultra Forest		Ultra Forest Kartenvoy (US)		TR_FLAG_610
+0x0E3F	TRAINER BATTLE	Ultra Forest		Ultra Forest Kartenvoy (US)		TR_FLAG_611
 0x0E40	TRAINER BATTLE					TR_FLAG_612
 0x0E41	TRAINER BATTLE					TR_FLAG_613
 0x0E42	TRAINER BATTLE					TR_FLAG_614
@@ -4671,22 +4671,22 @@
 0x123D						
 0x123E						
 0x123F						
-0x1240	EVENT					TMFLG_ID_KUJI
-0x1241	EVENT					TMFLG_FES_TICKET
+0x1240	ITEM GIFT	Hau'oli City	Alola Tourist Bureau	[Daily] Has drawn Loto Ticket		TMFLG_ID_KUJI
+0x1241	ITEM GIFT	Festival Plaza		[Daily] Received Festival Ticket (x3) from girl		TMFLG_FES_TICKET
 0x1242	EVENT					TMFLG_COUPON_FS
-0x1243	EVENT					TMFLG_Z_F0102D0501_MITSU01
-0x1244	EVENT					TMFLG_Z_F0102D0501_MITSU02
-0x1245	EVENT					TMFLG_Z_F0201_C0401_MITSU01
-0x1246	EVENT					TMFLG_Z_F0201_C0401_MITSU02
-0x1247	EVENT					TMFLG_Z_F0301D0201_MITSU01
-0x1248	EVENT					TMFLG_Z_F0301D0201_MITSU02
-0x1249	EVENT					TMFLG_Z_F0401D0101_MITSU01
-0x124A	EVENT					TMFLG_Z_F0401D0101_MITSU02
+0x1243	FIELD ITEM	Melemele Meadow		[Daily] Yellow Nectar essence disappeared		TMFLG_Z_F0102D0501_MITSU01
+0x1244	FIELD ITEM	Melemele Meadow		[Daily] Yellow Nectar essence disappeared		TMFLG_Z_F0102D0501_MITSU02
+0x1245	FIELD ITEM	Royal Avenue		[Daily] Pink Nectar essence disappeared		TMFLG_Z_F0201_C0401_MITSU01
+0x1246	FIELD ITEM	Royal Avenue		[Daily] Pink Nectar essence disappeared		TMFLG_Z_F0201_C0401_MITSU02
+0x1247	FIELD ITEM	Ula'ula Meadow		[Daily] Red Nectar essence disappeared		TMFLG_Z_F0301D0201_MITSU01
+0x1248	FIELD ITEM	Ula'ula Meadow		[Daily] Red Nectar essence disappeared		TMFLG_Z_F0301D0201_MITSU02
+0x1249	FIELD ITEM	Poni Meadow		[Daily] Purple Nectar essence disappeared		TMFLG_Z_F0401D0101_MITSU01
+0x124A	FIELD ITEM	Poni Meadow		[Daily] Purple Nectar essence disappeared		TMFLG_Z_F0401D0101_MITSU02
 0x124B	EVENT					TMFLG_OOKIIMARASADA
 0x124C	EVENT					TMFLG_OOKIIMARASADA2
 0x124D	EVENT					TMFLG_OOKIIMARASADA3
 0x124E	EVENT					TMFLG_OOKIIMARASADA4
-0x124F	EVENT					TMFLG_CAFE_SWEETS
+0x124F	ITEM GIFT	Poké Center Café		[Daily] Received regional item from man		TMFLG_CAFE_SWEETS
 0x1250	EVENT					TMFLG_BINST_PRIZE_CHECK
 0x1251						
 0x1252						
