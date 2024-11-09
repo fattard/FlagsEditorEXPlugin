@@ -14,11 +14,6 @@ It allows you to edit all sorts of Flags and Event Work data from save files.
 
 **Note: The lists may contain unused data, which will be filtered out later, as documentation on the flags progresses.**  
 
-### Dump all Flags
-
-This action will export the entire flag database with the current flag states (True/False) and event work values, with additional description (when available).  
-This action is mainly for researching flag states and diffing previous/current states to discover and document the flag usages, that will be added as human readable information.  
-
 ### Edit Flags
 
 This action opens the main window of the plugin.  
@@ -33,6 +28,11 @@ After finishing editing, export your save data from the base application.
 
 **No safety checks are done at all, so any combination of changes may cause issues like softlocks, crashes and permanent data loss.**
 **Save data backups are strongly recommended before going into flags editing.**
+
+### Dump all Flags
+
+This action will export the entire flag database with the current flag states (True/False) and event work values, with additional description (when available).  
+This action is mainly for researching flag states and diffing previous/current states to discover and document the flag usages, that will be added as human readable information.  
 
 ## Supported Games
 All mainline games are supported (limited descriptions for many of them)
@@ -77,7 +77,7 @@ The flags resources database can also be localized, but it is not recommended at
 Those files are simple _tsv_ text files located at  [_flagslist_](/flagslist) folder.
 
 The header of the files, with some examples:
-| Raw Idx | Event Type | Location     | Complement | Text Description                             | Valid Values                    | Internal Name           |
+| Raw Idx | Event Type | Location     | Complement | Text Description                             | Valid Values                    | Identifier              |
 |---------|------------|--------------|------------|----------------------------------------------|---------------------------------|-------------------------|
 | 0x0008  | ITEM GIFT  | Violet City  | Gym        | Received TM31 (Mud Slap) from Leader Falkner |                                 | EVENT_GOT_TM31_MUD_SLAP |
 | 0x0034  |            | Victory Road | 1F         | Rival state                                  | 0:Will battle you,1:Disappeared | wVictoryRoadSceneID     |
@@ -85,7 +85,7 @@ The header of the files, with some examples:
 The following columns should **NOT** be modified, as they are part of internal logic
 - Raw Idx
 - Event Type
-- Internal Name
+- Identifier
 
 The localizable columns are:
 - Location (the major location for this event flag, like a town name, city, dungeon)
@@ -105,7 +105,7 @@ All research work can be checked here
 To contribute, create a copy of the above, fill the info you researched, and contact back with the information of what needs to be merged.
 
 Priority for community contribution would be the 3DS games.  
-B2W2 had some progress right now.
+Switch games had some progress right now.
 
 ## Credits
 
