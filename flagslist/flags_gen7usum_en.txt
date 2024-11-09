@@ -2546,7 +2546,7 @@
 0x09F0	FIELD ITEM	Route 3		Nest Ball item ball disappeared		FV_FLD_ITEM_20
 0x09F1	FIELD ITEM	Kala'e Bay		TM05 (Roar) item ball disappeared		FV_FLD_ITEM_21
 0x09F2	FIELD ITEM	Kala'e Bay		Prism Scale item ball disappeared		FV_FLD_ITEM_22
-0x09F3	FIELD ITEM	Kala'e Bay		Net Ball item ball disappeared		FV_FLD_ITEM_23
+0x09F3	FIELD ITEM	Kala'e Bay		Dive Ball item ball disappeared		FV_FLD_ITEM_23
 0x09F4	FIELD ITEM	Route 11		Big Mushroom item ball disappeared		FV_FLD_ITEM_24
 0x09F5	FIELD ITEM	Ten Carat Hill	Cave	Super Potion item ball disappeared		FV_FLD_ITEM_25
 0x09F6	FIELD ITEM	Ten Carat Hill	Farthest Hollow	Nugget item ball disappeared		FV_FLD_ITEM_26
@@ -2865,8 +2865,8 @@
 0x0B2F	HIDDEN ITEM	Big Wave Beach		Found Pearl		FV_FLD_ITEM_339
 0x0B30	HIDDEN ITEM	Big Wave Beach		Found Pearl		FV_FLD_ITEM_340
 0x0B31	HIDDEN ITEM	Ultra Plant		Found Thunder Stone		FV_FLD_ITEM_341
-0x0B32	FIELD ITEM					FV_FLD_ITEM_342
-0x0B33	FIELD ITEM					FV_FLD_ITEM_343
+0x0B32	FIELD ITEM	Heahea City	Tide Song Hotel (3F)	Fresh Water item ball disappeared		FV_FLD_ITEM_342
+0x0B33	FIELD ITEM	Heahea City	Tide Song Hotel (3F)	Revive item ball disappeared		FV_FLD_ITEM_343
 0x0B34	FIELD ITEM	Lush Jungle		Big Root item ball disappeared		FV_FLD_ITEM_344
 0x0B35	HIDDEN ITEM	Lush Jungle		Found Tiny Mushroom		FV_FLD_ITEM_345
 0x0B36	HIDDEN ITEM	Lush Jungle		Found Revival Herb		FV_FLD_ITEM_346
@@ -2931,8 +2931,8 @@
 0x0B71	FIELD ITEM	Sandy Cave		Light Clay item ball disappeared		FV_FLD_ITEM_405
 0x0B72	FIELD ITEM	Sandy Cave		TM24 (Thunderbolt) item ball disappeared		FV_FLD_ITEM_406
 0x0B73	FIELD ITEM	Poni Meadow		Max Potion item ball disappeared		FV_FLD_ITEM_407
-0x0B74	FIELD ITEM					FV_FLD_ITEM_408
-0x0B75	FIELD ITEM					FV_FLD_ITEM_409
+0x0B74	FIELD ITEM	Heahea City	Tide Song Hotel (3F)	Swift Wing item ball disappeared		FV_FLD_ITEM_408
+0x0B75	FIELD ITEM	Heahea City	Tide Song Hotel (3F)	Health Wing item ball disappeared		FV_FLD_ITEM_409
 0x0B76	HIDDEN ITEM	Big Wave Beach		Found Soda Pop		FV_FLD_ITEM_410
 0x0B77	HIDDEN ITEM	Kala'e Bay		Found Star Piece		FV_FLD_ITEM_411
 0x0B78	FIELD ITEM	Heahea Beach		Soda Pop item ball disappeared		FV_FLD_ITEM_412
@@ -4674,10 +4674,10 @@
 0x1240	ITEM GIFT	Hau'oli City	Alola Tourist Bureau	[Daily] Has drawn Loto Ticket		TMFLG_ID_KUJI
 0x1241	ITEM GIFT	Festival Plaza		[Daily] Received Festival Ticket (x3) from girl		TMFLG_FES_TICKET
 0x1242	EVENT					TMFLG_COUPON_FS
-0x1243	FIELD ITEM	Melemele Meadow		[Daily] Yellow Nectar essence disappeared		TMFLG_Z_F0102D0501_MITSU01
-0x1244	FIELD ITEM	Melemele Meadow		[Daily] Yellow Nectar essence disappeared		TMFLG_Z_F0102D0501_MITSU02
-0x1245	FIELD ITEM	Royal Avenue		[Daily] Pink Nectar essence disappeared		TMFLG_Z_F0201_C0401_MITSU01
-0x1246	FIELD ITEM	Royal Avenue		[Daily] Pink Nectar essence disappeared		TMFLG_Z_F0201_C0401_MITSU02
+0x1243	FIELD ITEM	Melemele Meadow		[Night Daily] Yellow Nectar essence disappeared		TMFLG_Z_F0102D0501_MITSU01
+0x1244	FIELD ITEM	Melemele Meadow		[Night Daily] Yellow Nectar essence disappeared		TMFLG_Z_F0102D0501_MITSU02
+0x1245	FIELD ITEM	Royal Avenue		[Day Daily] Pink Nectar essence disappeared		TMFLG_Z_F0201_C0401_MITSU01
+0x1246	FIELD ITEM	Royal Avenue		[Day Daily] Pink Nectar essence disappeared		TMFLG_Z_F0201_C0401_MITSU02
 0x1247	FIELD ITEM	Ula'ula Meadow		[Daily] Red Nectar essence disappeared		TMFLG_Z_F0301D0201_MITSU01
 0x1248	FIELD ITEM	Ula'ula Meadow		[Daily] Red Nectar essence disappeared		TMFLG_Z_F0301D0201_MITSU02
 0x1249	FIELD ITEM	Poni Meadow		[Daily] Purple Nectar essence disappeared		TMFLG_Z_F0401D0101_MITSU01
@@ -4686,7 +4686,7 @@
 0x124C	EVENT					TMFLG_OOKIIMARASADA2
 0x124D	EVENT					TMFLG_OOKIIMARASADA3
 0x124E	EVENT					TMFLG_OOKIIMARASADA4
-0x124F	ITEM GIFT	Poké Center Café		[Daily] Received regional item from man		TMFLG_CAFE_SWEETS
+0x124F	ITEM GIFT	Poké Center Café		[Daily] Received bonus item from man		TMFLG_CAFE_SWEETS
 0x1250	EVENT					TMFLG_BINST_PRIZE_CHECK
 0x1251						
 0x1252						

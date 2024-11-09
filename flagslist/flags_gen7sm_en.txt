@@ -3714,10 +3714,10 @@
 0xE80	ITEM GIFT	Hau'oli City	Alola Tourist Bureau	[Daily] Has drawn Loto Ticket		TMFLG_ID_KUJI
 0xE81	ITEM GIFT	Festival Plaza		[Daily] Received Festival Ticket (x3) from girl		TMFLG_FES_TICKET
 0xE82	EVENT					TMFLG_COUPON_FS
-0xE83	FIELD ITEM	Melemele Meadow		[Daily] Yellow Nectar essence disappeared		TMFLG_Z_F0102D0501_MITSU01
-0xE84	FIELD ITEM	Melemele Meadow		[Daily] Yellow Nectar essence disappeared		TMFLG_Z_F0102D0501_MITSU02
-0xE85	FIELD ITEM	Royal Avenue		[Daily] Pink Nectar essence disappeared		TMFLG_Z_F0201_C0401_MITSU01
-0xE86	FIELD ITEM	Royal Avenue		[Daily] Pink Nectar essence disappeared		TMFLG_Z_F0201_C0401_MITSU02
+0xE83	FIELD ITEM	Melemele Meadow		[Night Daily] Yellow Nectar essence disappeared		TMFLG_Z_F0102D0501_MITSU01
+0xE84	FIELD ITEM	Melemele Meadow		[Night Daily] Yellow Nectar essence disappeared		TMFLG_Z_F0102D0501_MITSU02
+0xE85	FIELD ITEM	Royal Avenue		[Day Daily] Pink Nectar essence disappeared		TMFLG_Z_F0201_C0401_MITSU01
+0xE86	FIELD ITEM	Royal Avenue		[Day Daily] Pink Nectar essence disappeared		TMFLG_Z_F0201_C0401_MITSU02
 0xE87	FIELD ITEM	Ula'ula Meadow		[Daily] Red Nectar essence disappeared		TMFLG_Z_F0301D0201_MITSU01
 0xE88	FIELD ITEM	Ula'ula Meadow		[Daily] Red Nectar essence disappeared		TMFLG_Z_F0301D0201_MITSU02
 0xE89	FIELD ITEM	Poni Meadow		[Daily] Purple Nectar essence disappeared		TMFLG_Z_F0401D0101_MITSU01
@@ -3726,7 +3726,7 @@
 0xE8C	EVENT					TMFLG_OOKIIMARASADA2
 0xE8D	EVENT					TMFLG_OOKIIMARASADA3
 0xE8E	EVENT					TMFLG_OOKIIMARASADA4
-0xE8F	ITEM GIFT	Poké Center Café		[Daily] Received regional item from man		TMFLG_CAFE_SWEETS
+0xE8F	ITEM GIFT	Poké Center Café		[Daily] Received bonus item from man		TMFLG_CAFE_SWEETS
 0xE90	EVENT					TMFLG_BINST_PRIZE_CHECK
 0xE91						
 0xE92						
