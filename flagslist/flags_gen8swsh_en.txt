@@ -1,5 +1,5 @@
 //	Hidden Items Flags					
-0x000	HIDDEN ITEM					FH_0000
+0x000	HIDDEN ITEM			[unused?]		FH_0000
 0x001	HIDDEN ITEM	Wedgehurst		Found Revive		FH_0001
 0x002	HIDDEN ITEM	Route 2		Found Fresh Water		FH_0002
 0x003	HIDDEN ITEM	Route 2		Found Repel		FH_0003
@@ -19,10 +19,10 @@
 0x011	HIDDEN ITEM	Route 3		Found Revive		FH_0017
 0x012	HIDDEN ITEM	Route 3		Found X Defense (x2)		FH_0018
 0x013	HIDDEN ITEM	Motostoke Outskirts		Found PP Up		FH_0019
-0x014	HIDDEN ITEM	Motostoke Outskirts	Bridge	Found (Random Feather) (recurring)		FH_0020
-0x015	HIDDEN ITEM	Motostoke Outskirts	Bridge	Found (Random Feather) (recurring)		FH_0021
-0x016	HIDDEN ITEM	Motostoke Outskirts	Bridge	Found (Random Feather) (recurring)		FH_0022
-0x017	HIDDEN ITEM	Motostoke Outskirts	Bridge	Found (Random Feather) (recurring)		FH_0023
+0x014	HIDDEN ITEM	Motostoke Outskirts	Bridge	Found (random feather) (recurring)		FH_0020
+0x015	HIDDEN ITEM	Motostoke Outskirts	Bridge	Found (random feather) (recurring)		FH_0021
+0x016	HIDDEN ITEM	Motostoke Outskirts	Bridge	Found (random feather) (recurring)		FH_0022
+0x017	HIDDEN ITEM	Motostoke Outskirts	Bridge	Found (random feather) (recurring)		FH_0023
 0x018	HIDDEN ITEM	Galar Mine		Found Revive		FH_0024
 0x019	HIDDEN ITEM	Galar Mine		Found Stardust		FH_0025
 0x01A	HIDDEN ITEM	Galar Mine		Found Hard Stone		FH_0026
@@ -44,13 +44,13 @@
 0x02A	HIDDEN ITEM	Turffield		Found Energy Root		FH_0042
 0x02B	HIDDEN ITEM	Turffield		Found Everstone		FH_0043
 0x02C	HIDDEN ITEM	Turffield		Found Fresh Water		FH_0044
-0x02D	HIDDEN ITEM	Route 5	Bridge	Found (Random Feather) (recurring)		FH_0045
+0x02D	HIDDEN ITEM	Route 5	Bridge	Found (random feather) (recurring)		FH_0045
 0x02E	HIDDEN ITEM	Hulbury		Found X Sp. Defense		FH_0046
 0x02F	HIDDEN ITEM	Hulbury		Found X Speed (x2)		FH_0047
 0x030	HIDDEN ITEM	Galar Mine No. 2		Found Soft Sand		FH_0048
 0x031	HIDDEN ITEM	Galar Mine No. 2		Found Star Piece		FH_0049
 0x032	HIDDEN ITEM	Hammerlocke		Found Rare Candy		FH_0050
-0x033	HIDDEN ITEM			?		FH_0051
+0x033	HIDDEN ITEM	Route 6		Found (fossil spot)		FH_0051
 0x034	HIDDEN ITEM	Route 6		Found Rare Candy		FH_0052
 0x035	HIDDEN ITEM	Route 6		Found Rare Bone (x2)		FH_0053
 0x036	HIDDEN ITEM	Stow-on-Side		Found Rare Bone (x3)		FH_0054
@@ -80,15 +80,15 @@
 0x04E	HIDDEN ITEM	Wyndon	Tower Exterior	Found Rare Candy		FH_0078
 0x04F	HIDDEN ITEM	Route 10		Found Comet Shard		FH_0079
 0x050	HIDDEN ITEM	Route 10		Found PP Up		FH_0080
-0x051	HIDDEN ITEM	Route 5	Bridge	Found (Random Feather) (recurring)		FH_0081
-0x052	HIDDEN ITEM	Route 5	Bridge	Found (Random Feather) (recurring)		FH_0082
-0x053	HIDDEN ITEM	Route 5	Bridge	Found (Random Feather) (recurring)		FH_0083
-0x054	HIDDEN ITEM	Route 5	Bridge	Found (Random Feather) (recurring)		FH_0084
-0x055	HIDDEN ITEM	Route 5	Bridge	Found (Random Feather) (recurring)		FH_0085
-0x056	HIDDEN ITEM	Route 5	Bridge	Found (Random Feather) (recurring)		FH_0086
-0x057	HIDDEN ITEM	Route 5	Bridge	Found (Random Feather) (recurring)		FH_0087
-0x058	HIDDEN ITEM	Route 5	Bridge	Found (Random Feather) (recurring)		FH_0088
-0x059	HIDDEN ITEM	Route 5	Bridge	Found (Random Feather) (recurring)		FH_0089
+0x051	HIDDEN ITEM	Route 5	Bridge	Found (random feather) (recurring)		FH_0081
+0x052	HIDDEN ITEM	Route 5	Bridge	Found (random feather) (recurring)		FH_0082
+0x053	HIDDEN ITEM	Route 5	Bridge	Found (random feather) (recurring)		FH_0083
+0x054	HIDDEN ITEM	Route 5	Bridge	Found (random feather) (recurring)		FH_0084
+0x055	HIDDEN ITEM	Route 5	Bridge	Found (random feather) (recurring)		FH_0085
+0x056	HIDDEN ITEM	Route 5	Bridge	Found (random feather) (recurring)		FH_0086
+0x057	HIDDEN ITEM	Route 5	Bridge	Found (random feather) (recurring)		FH_0087
+0x058	HIDDEN ITEM	Route 5	Bridge	Found (random feather) (recurring)		FH_0088
+0x059	HIDDEN ITEM	Route 5	Bridge	Found (random feather) (recurring)		FH_0089
 0x05A	HIDDEN ITEM	Route 3		Found Burn Heal		FH_0090
 0x05B	HIDDEN ITEM	Route 8		Found Big Nugget		FH_0091
 0x05C	HIDDEN ITEM	Ballonlea		Found Balm Mushroom		FH_0092
@@ -100,295 +100,295 @@
 0x062	HIDDEN ITEM	Hammerlocke		Found Nugget		FH_0098
 0x063	HIDDEN ITEM	Route 5		Found Big Mushroom (x2)		FH_0099
 0x064	HIDDEN ITEM	Route 5		Found Absorb Bulb		FH_0100
-0x065	HIDDEN ITEM					FH_0101
-0x066	HIDDEN ITEM					FH_0102
-0x067	HIDDEN ITEM					FH_0103
-0x068	HIDDEN ITEM					FH_0104
-0x069	HIDDEN ITEM					FH_0105
-0x06A	HIDDEN ITEM					FH_0106
-0x06B	HIDDEN ITEM					FH_0107
-0x06C	HIDDEN ITEM					FH_0108
-0x06D	HIDDEN ITEM					FH_0109
-0x06E	HIDDEN ITEM					FH_0110
-0x06F	HIDDEN ITEM					FH_0111
-0x070	HIDDEN ITEM					FH_0112
-0x071	HIDDEN ITEM					FH_0113
-0x072	HIDDEN ITEM					FH_0114
-0x073	HIDDEN ITEM					FH_0115
-0x074	HIDDEN ITEM					FH_0116
-0x075	HIDDEN ITEM					FH_0117
-0x076	HIDDEN ITEM					FH_0118
-0x077	HIDDEN ITEM					FH_0119
-0x078	HIDDEN ITEM					FH_0120
-0x079	HIDDEN ITEM					FH_0121
-0x07A	HIDDEN ITEM					FH_0122
-0x07B	HIDDEN ITEM					FH_0123
-0x07C	HIDDEN ITEM					FH_0124
-0x07D	HIDDEN ITEM					FH_0125
-0x07E	HIDDEN ITEM					FH_0126
-0x07F	HIDDEN ITEM					FH_0127
-0x080	HIDDEN ITEM					FH_0128
-0x081	HIDDEN ITEM					FH_0129
-0x082	HIDDEN ITEM					FH_0130
-0x083	HIDDEN ITEM					FH_0131
-0x084	HIDDEN ITEM					FH_0132
-0x085	HIDDEN ITEM					FH_0133
-0x086	HIDDEN ITEM					FH_0134
+0x065	HIDDEN ITEM	Rolling Fields		Found Tiny Mushroom (recurring)		FH_0101
+0x066	HIDDEN ITEM	Rolling Fields		Found Tiny Mushroom (recurring)		FH_0102
+0x067	HIDDEN ITEM	Rolling Fields		Found (random root/honey) (recurring)		FH_0103
+0x068	HIDDEN ITEM	Rolling Fields		Found (random mushroom) (recurring)		FH_0104
+0x069	HIDDEN ITEM	Rolling Fields		Found Poké Ball (recurring)		FH_0105
+0x06A	HIDDEN ITEM	Rolling Fields		Found (random root/honey) (recurring)		FH_0106
+0x06B	HIDDEN ITEM	Rolling Fields		Found Poké Ball (recurring)		FH_0107
+0x06C	HIDDEN ITEM	Rolling Fields		Found Tiny Mushroom (recurring)		FH_0108
+0x06D	HIDDEN ITEM	Dappled Grove		Found (random mushroom) (recurring)		FH_0109
+0x06E	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0110
+0x06F	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0111
+0x070	HIDDEN ITEM	Dappled Grove		Found (random mushroom) (recurring)		FH_0112
+0x071	HIDDEN ITEM	Dappled Grove		Found (random mushroom) (recurring)		FH_0113
+0x072	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0114
+0x073	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0115
+0x074	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0116
+0x075	HIDDEN ITEM	Dappled Grove		Found (random root/herb/shed shell) (recurring)		FH_0117
+0x076	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0118
+0x077	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0119
+0x078	HIDDEN ITEM	Watchtower Ruins		Found (random mushroom) (recurring)		FH_0120
+0x079	HIDDEN ITEM	Dappled Grove		Found (random mushroom) (recurring)		FH_0121
+0x07A	HIDDEN ITEM	Dappled Grove		Found (random mushroom) (recurring)		FH_0122
+0x07B	HIDDEN ITEM			[unused?]		FH_0123
+0x07C	HIDDEN ITEM	Watchtower Ruins		Found Revive (recurring)		FH_0124
+0x07D	HIDDEN ITEM	Watchtower Ruins		Found Poké Ball (recurring)		FH_0125
+0x07E	HIDDEN ITEM	Watchtower Ruins		Found (random mushroom) (recurring)		FH_0126
+0x07F	HIDDEN ITEM			[unused?]		FH_0127
+0x080	HIDDEN ITEM	East Lake Axewell		Found Poké Ball (recurring)		FH_0128
+0x081	HIDDEN ITEM	East Lake Axewell		Found Revive (recurring)		FH_0129
+0x082	HIDDEN ITEM	East Lake Axewell		Found Pungent Root (recurring)		FH_0130
+0x083	HIDDEN ITEM	East Lake Axewell		Found Pungent Root (recurring)		FH_0131
+0x084	HIDDEN ITEM	East Lake Axewell		Found Revive (recurring)		FH_0132
+0x085	HIDDEN ITEM	East Lake Axewell		Found (random root/feather) (recurring)		FH_0133
+0x086	HIDDEN ITEM	East Lake Axewell		Found (random mushroom) (recurring)		FH_0134
 0x087	HIDDEN ITEM	Hulbury		Found Super Potion (x2)		FH_0135
-0x088	HIDDEN ITEM					FH_0136
-0x089	HIDDEN ITEM					FH_0137
-0x08A	HIDDEN ITEM					FH_0138
-0x08B	HIDDEN ITEM					FH_0139
+0x088	HIDDEN ITEM	West Lake Axewell		Found Pungent Root (recurring)		FH_0136
+0x089	HIDDEN ITEM	West Lake Axewell		Found Pungent Root (recurring)		FH_0137
+0x08A	HIDDEN ITEM	West Lake Axewell		Found Pungent Root (recurring)		FH_0138
+0x08B	HIDDEN ITEM	West Lake Axewell		Found Pungent Root (recurring)		FH_0139
 0x08C	HIDDEN ITEM	Wyndon		Found X Sp. Attack (x2)		FH_0140
-0x08D	HIDDEN ITEM					FH_0141
-0x08E	HIDDEN ITEM					FH_0142
+0x08D	HIDDEN ITEM	Axew's Eye		Found Fancy Apple (recurring)		FH_0141
+0x08E	HIDDEN ITEM	Axew's Eye		Found Fancy Apple (recurring)		FH_0142
 0x08F	HIDDEN ITEM	Wyndon		Found X Speed		FH_0143
-0x090	HIDDEN ITEM					FH_0144
-0x091	HIDDEN ITEM					FH_0145
-0x092	HIDDEN ITEM					FH_0146
-0x093	HIDDEN ITEM					FH_0147
-0x094	HIDDEN ITEM					FH_0148
-0x095	HIDDEN ITEM					FH_0149
-0x096	HIDDEN ITEM					FH_0150
-0x097	HIDDEN ITEM					FH_0151
-0x098	HIDDEN ITEM					FH_0152
-0x099	HIDDEN ITEM					FH_0153
-0x09A	HIDDEN ITEM					FH_0154
-0x09B	HIDDEN ITEM					FH_0155
-0x09C	HIDDEN ITEM					FH_0156
-0x09D	HIDDEN ITEM					FH_0157
-0x09E	HIDDEN ITEM					FH_0158
-0x09F	HIDDEN ITEM					FH_0159
-0x0A0	HIDDEN ITEM					FH_0160
-0x0A1	HIDDEN ITEM					FH_0161
-0x0A2	HIDDEN ITEM					FH_0162
-0x0A3	HIDDEN ITEM					FH_0163
-0x0A4	HIDDEN ITEM					FH_0164
-0x0A5	HIDDEN ITEM					FH_0165
-0x0A6	HIDDEN ITEM					FH_0166
-0x0A7	HIDDEN ITEM					FH_0167
-0x0A8	HIDDEN ITEM					FH_0168
-0x0A9	HIDDEN ITEM					FH_0169
-0x0AA	HIDDEN ITEM					FH_0170
-0x0AB	HIDDEN ITEM					FH_0171
-0x0AC	HIDDEN ITEM					FH_0172
-0x0AD	HIDDEN ITEM					FH_0173
-0x0AE	HIDDEN ITEM					FH_0174
-0x0AF	HIDDEN ITEM					FH_0175
-0x0B0	HIDDEN ITEM					FH_0176
-0x0B1	HIDDEN ITEM					FH_0177
-0x0B2	HIDDEN ITEM					FH_0178
-0x0B3	HIDDEN ITEM					FH_0179
-0x0B4	HIDDEN ITEM					FH_0180
-0x0B5	HIDDEN ITEM					FH_0181
-0x0B6	HIDDEN ITEM					FH_0182
-0x0B7	HIDDEN ITEM					FH_0183
-0x0B8	HIDDEN ITEM					FH_0184
-0x0B9	HIDDEN ITEM					FH_0185
-0x0BA	HIDDEN ITEM					FH_0186
-0x0BB	HIDDEN ITEM					FH_0187
-0x0BC	HIDDEN ITEM					FH_0188
-0x0BD	HIDDEN ITEM					FH_0189
-0x0BE	HIDDEN ITEM					FH_0190
-0x0BF	HIDDEN ITEM					FH_0191
-0x0C0	HIDDEN ITEM					FH_0192
-0x0C1	HIDDEN ITEM					FH_0193
-0x0C2	HIDDEN ITEM					FH_0194
-0x0C3	HIDDEN ITEM					FH_0195
-0x0C4	HIDDEN ITEM					FH_0196
-0x0C5	HIDDEN ITEM					FH_0197
-0x0C6	HIDDEN ITEM					FH_0198
-0x0C7	HIDDEN ITEM					FH_0199
-0x0C8	HIDDEN ITEM					FH_0200
+0x090	HIDDEN ITEM	South Lake Miloch		Found (random mushroom) (recurring)		FH_0144
+0x091	HIDDEN ITEM	South Lake Miloch		Found Poké Ball (recurring)		FH_0145
+0x092	HIDDEN ITEM	South Lake Miloch		Found (random root/honey) (recurring)		FH_0146
+0x093	HIDDEN ITEM	Giant's Seat		Found (random revive) (recurring)		FH_0147
+0x094	HIDDEN ITEM	Giant's Seat		Found (random root/feather) (recurring)		FH_0148
+0x095	HIDDEN ITEM	Giant's Seat		Found (random root/herb/feather) (recurring)		FH_0149
+0x096	HIDDEN ITEM	Giant's Seat		Found (random pearl) (recurring)		FH_0150
+0x097	HIDDEN ITEM	Giant's Seat		Found (random pearl) (recurring)		FH_0151
+0x098	HIDDEN ITEM	North Lake Miloch		Found (random mushroom) (recurring)		FH_0152
+0x099	HIDDEN ITEM	North Lake Miloch		Found (random mushroom) (recurring)		FH_0153
+0x09A	HIDDEN ITEM	North Lake Miloch		Found (random root/herb/honey) (recurring)		FH_0154
+0x09B	HIDDEN ITEM	North Lake Miloch		Found (random mushroom) (recurring)		FH_0155
+0x09C	HIDDEN ITEM	North Lake Miloch		Found Revive (recurring)		FH_0156
+0x09D	HIDDEN ITEM	Motostoke Riverbank		Found (random mushroom) (recurring)		FH_0157
+0x09E	HIDDEN ITEM	Motostoke Riverbank		Found (random ball) (recurring)		FH_0158
+0x09F	HIDDEN ITEM	Motostoke Riverbank		Found Pungent Root (recurring)		FH_0159
+0x0A0	HIDDEN ITEM	Motostoke Riverbank		Found Pungent Root (recurring)		FH_0160
+0x0A1	HIDDEN ITEM	Motostoke Riverbank		Found (random root/herb/feather) (recurring)		FH_0161
+0x0A2	HIDDEN ITEM	Motostoke Riverbank		Found (random revive) (recurring)		FH_0162
+0x0A3	HIDDEN ITEM	Bridge Field		Found (random ball) (recurring)		FH_0163
+0x0A4	HIDDEN ITEM	Bridge Field		Found Pungent Root (recurring)		FH_0164
+0x0A5	HIDDEN ITEM	Motostoke Riverbank		Found (random ball) (recurring)		FH_0165
+0x0A6	HIDDEN ITEM	Bridge Field		Found Pungent Root (recurring)		FH_0166
+0x0A7	HIDDEN ITEM	Bridge Field		Found Pungent Root (recurring)		FH_0167
+0x0A8	HIDDEN ITEM	Bridge Field		Found (random ball) (recurring)		FH_0168
+0x0A9	HIDDEN ITEM	Bridge Field		Found (random ball) (recurring)		FH_0169
+0x0AA	HIDDEN ITEM	Stony Wilderness		Found (random ball) (recurring)		FH_0170
+0x0AB	HIDDEN ITEM	Stony Wilderness		Found Revive (recurring)		FH_0171
+0x0AC	HIDDEN ITEM	Stony Wilderness		Found Poké Ball (recurring)		FH_0172
+0x0AD	HIDDEN ITEM	Stony Wilderness		Found Poké Ball (recurring)		FH_0173
+0x0AE	HIDDEN ITEM	Stony Wilderness		Found Poké Ball (recurring)		FH_0174
+0x0AF	HIDDEN ITEM	Stony Wilderness		Found Revive (recurring)		FH_0175
+0x0B0	HIDDEN ITEM	Bridge Field		Found (random mushroom) (recurring)		FH_0176
+0x0B1	HIDDEN ITEM	Bridge Field		Found (random revive) (recurring)		FH_0177
+0x0B2	HIDDEN ITEM	Bridge Field		Found (random ball) (recurring)		FH_0178
+0x0B3	HIDDEN ITEM	Stony Wilderness		Found (random star) (recurring)		FH_0179
+0x0B4	HIDDEN ITEM	Stony Wilderness		Found (random star) (recurring)		FH_0180
+0x0B5	HIDDEN ITEM	Stony Wilderness		Found (random star) (recurring)		FH_0181
+0x0B6	HIDDEN ITEM	Stony Wilderness		Found (random star) (recurring)		FH_0182
+0x0B7	HIDDEN ITEM	Stony Wilderness		Found (random ball) (recurring)		FH_0183
+0x0B8	HIDDEN ITEM	Stony Wilderness		Found (random revive) (recurring)		FH_0184
+0x0B9	HIDDEN ITEM	Stony Wilderness		Found (random ball) (recurring)		FH_0185
+0x0BA	HIDDEN ITEM	Stony Wilderness		Found Revive (recurring)		FH_0186
+0x0BB	HIDDEN ITEM	Stony Wilderness		Found (random star) (recurring)		FH_0187
+0x0BC	HIDDEN ITEM	Dusty Bowl		Found (random ball) (recurring)		FH_0188
+0x0BD	HIDDEN ITEM	Dusty Bowl		Found (random ball) (recurring)		FH_0189
+0x0BE	HIDDEN ITEM	Dusty Bowl		Found (random ball) (recurring)		FH_0190
+0x0BF	HIDDEN ITEM	Dusty Bowl		Found Pungent Root (recurring)		FH_0191
+0x0C0	HIDDEN ITEM	Dusty Bowl		Found Pungent Root (recurring)		FH_0192
+0x0C1	HIDDEN ITEM	Dusty Bowl		Found Pungent Root (recurring)		FH_0193
+0x0C2	HIDDEN ITEM	Dusty Bowl		Found (random mushroom) (recurring)		FH_0194
+0x0C3	HIDDEN ITEM	Dusty Bowl		Found (random mushroom) (recurring)		FH_0195
+0x0C4	HIDDEN ITEM	Dusty Bowl		Found Rare Bone (recurring)		FH_0196
+0x0C5	HIDDEN ITEM	Dusty Bowl		Found (random star) (recurring)		FH_0197
+0x0C6	HIDDEN ITEM	Dusty Bowl		Found Rare Bone (recurring)		FH_0198
+0x0C7	HIDDEN ITEM	Dusty Bowl		Found (random star/bone) (recurring)		FH_0199
+0x0C8	HIDDEN ITEM	Dusty Bowl		Found (random star) (recurring)		FH_0200
 0x0C9	HIDDEN ITEM	Route 10		Found X Attack (x2)		FH_0201
-0x0CA	HIDDEN ITEM					FH_0202
-0x0CB	HIDDEN ITEM					FH_0203
-0x0CC	HIDDEN ITEM					FH_0204
-0x0CD	HIDDEN ITEM					FH_0205
-0x0CE	HIDDEN ITEM					FH_0206
-0x0CF	HIDDEN ITEM					FH_0207
-0x0D0	HIDDEN ITEM					FH_0208
-0x0D1	HIDDEN ITEM					FH_0209
-0x0D2	HIDDEN ITEM					FH_0210
-0x0D3	HIDDEN ITEM					FH_0211
-0x0D4	HIDDEN ITEM					FH_0212
-0x0D5	HIDDEN ITEM					FH_0213
-0x0D6	HIDDEN ITEM					FH_0214
-0x0D7	HIDDEN ITEM					FH_0215
-0x0D8	HIDDEN ITEM					FH_0216
-0x0D9	HIDDEN ITEM					FH_0217
-0x0DA	HIDDEN ITEM					FH_0218
-0x0DB	HIDDEN ITEM					FH_0219
-0x0DC	HIDDEN ITEM					FH_0220
-0x0DD	HIDDEN ITEM					FH_0221
-0x0DE	HIDDEN ITEM					FH_0222
-0x0DF	HIDDEN ITEM					FH_0223
-0x0E0	HIDDEN ITEM					FH_0224
-0x0E1	HIDDEN ITEM					FH_0225
-0x0E2	HIDDEN ITEM					FH_0226
-0x0E3	HIDDEN ITEM					FH_0227
-0x0E4	HIDDEN ITEM					FH_0228
-0x0E5	HIDDEN ITEM					FH_0229
-0x0E6	HIDDEN ITEM					FH_0230
-0x0E7	HIDDEN ITEM					FH_0231
-0x0E8	HIDDEN ITEM					FH_0232
-0x0E9	HIDDEN ITEM					FH_0233
-0x0EA	HIDDEN ITEM					FH_0234
-0x0EB	HIDDEN ITEM					FH_0235
-0x0EC	HIDDEN ITEM					FH_0236
-0x0ED	HIDDEN ITEM					FH_0237
-0x0EE	HIDDEN ITEM					FH_0238
-0x0EF	HIDDEN ITEM					FH_0239
-0x0F0	HIDDEN ITEM					FH_0240
-0x0F1	HIDDEN ITEM					FH_0241
-0x0F2	HIDDEN ITEM					FH_0242
-0x0F3	HIDDEN ITEM					FH_0243
-0x0F4	HIDDEN ITEM					FH_0244
-0x0F5	HIDDEN ITEM					FH_0245
-0x0F6	HIDDEN ITEM					FH_0246
-0x0F7	HIDDEN ITEM					FH_0247
-0x0F8	HIDDEN ITEM					FH_0248
-0x0F9	HIDDEN ITEM					FH_0249
-0x0FA	HIDDEN ITEM					FH_0250
-0x0FB	HIDDEN ITEM					FH_0251
-0x0FC	HIDDEN ITEM					FH_0252
-0x0FD	HIDDEN ITEM					FH_0253
-0x0FE	HIDDEN ITEM					FH_0254
-0x0FF	HIDDEN ITEM					FH_0255
-0x100	HIDDEN ITEM					FH_0256
-0x101	HIDDEN ITEM					FH_0257
-0x102	HIDDEN ITEM					FH_0258
-0x103	HIDDEN ITEM					FH_0259
-0x104	HIDDEN ITEM					FH_0260
-0x105	HIDDEN ITEM					FH_0261
-0x106	HIDDEN ITEM					FH_0262
-0x107	HIDDEN ITEM					FH_0263
-0x108	HIDDEN ITEM					FH_0264
-0x109	HIDDEN ITEM					FH_0265
-0x10A	HIDDEN ITEM					FH_0266
-0x10B	HIDDEN ITEM					FH_0267
-0x10C	HIDDEN ITEM					FH_0268
-0x10D	HIDDEN ITEM					FH_0269
-0x10E	HIDDEN ITEM					FH_0270
-0x10F	HIDDEN ITEM					FH_0271
-0x110	HIDDEN ITEM					FH_0272
-0x111	HIDDEN ITEM					FH_0273
-0x112	HIDDEN ITEM					FH_0274
-0x113	HIDDEN ITEM					FH_0275
-0x114	HIDDEN ITEM					FH_0276
-0x115	HIDDEN ITEM					FH_0277
-0x116	HIDDEN ITEM					FH_0278
-0x117	HIDDEN ITEM					FH_0279
-0x118	HIDDEN ITEM					FH_0280
-0x119	HIDDEN ITEM					FH_0281
-0x11A	HIDDEN ITEM					FH_0282
-0x11B	HIDDEN ITEM					FH_0283
-0x11C	HIDDEN ITEM					FH_0284
-0x11D	HIDDEN ITEM					FH_0285
-0x11E	HIDDEN ITEM					FH_0286
-0x11F	HIDDEN ITEM					FH_0287
-0x120	HIDDEN ITEM					FH_0288
-0x121	HIDDEN ITEM					FH_0289
-0x122	HIDDEN ITEM					FH_0290
-0x123	HIDDEN ITEM					FH_0291
-0x124	HIDDEN ITEM					FH_0292
-0x125	HIDDEN ITEM					FH_0293
-0x126	HIDDEN ITEM					FH_0294
-0x127	HIDDEN ITEM					FH_0295
-0x128	HIDDEN ITEM					FH_0296
-0x129	HIDDEN ITEM					FH_0297
-0x12A	HIDDEN ITEM					FH_0298
-0x12B	HIDDEN ITEM					FH_0299
-0x12C	HIDDEN ITEM					FH_0300
-0x12D	HIDDEN ITEM					FH_0301
-0x12E	HIDDEN ITEM					FH_0302
-0x12F	HIDDEN ITEM					FH_0303
-0x130	HIDDEN ITEM					FH_0304
-0x131	HIDDEN ITEM					FH_0305
-0x132	HIDDEN ITEM					FH_0306
-0x133	HIDDEN ITEM					FH_0307
-0x134	HIDDEN ITEM					FH_0308
-0x135	HIDDEN ITEM					FH_0309
-0x136	HIDDEN ITEM					FH_0310
-0x137	HIDDEN ITEM					FH_0311
-0x138	HIDDEN ITEM					FH_0312
-0x139	HIDDEN ITEM					FH_0313
-0x13A	HIDDEN ITEM					FH_0314
-0x13B	HIDDEN ITEM					FH_0315
-0x13C	HIDDEN ITEM					FH_0316
-0x13D	HIDDEN ITEM					FH_0317
-0x13E	HIDDEN ITEM					FH_0318
-0x13F	HIDDEN ITEM					FH_0319
-0x140	HIDDEN ITEM					FH_0320
-0x141	HIDDEN ITEM					FH_0321
-0x142	HIDDEN ITEM					FH_0322
-0x143	HIDDEN ITEM					FH_0323
-0x144	HIDDEN ITEM					FH_0324
-0x145	HIDDEN ITEM					FH_0325
-0x146	HIDDEN ITEM					FH_0326
-0x147	HIDDEN ITEM					FH_0327
-0x148	HIDDEN ITEM					FH_0328
-0x149	HIDDEN ITEM					FH_0329
-0x14A	HIDDEN ITEM					FH_0330
-0x14B	HIDDEN ITEM					FH_0331
-0x14C	HIDDEN ITEM					FH_0332
+0x0CA	HIDDEN ITEM	Dusty Bowl		Found (random root/herb/honey) (recurring)		FH_0202
+0x0CB	HIDDEN ITEM	Dusty Bowl		Found (random ball) (recurring)		FH_0203
+0x0CC	HIDDEN ITEM			[unused?]		FH_0204
+0x0CD	HIDDEN ITEM	Giant's Mirror		Found Pungent Root (recurring)		FH_0205
+0x0CE	HIDDEN ITEM			[unused?]		FH_0206
+0x0CF	HIDDEN ITEM	Giant's Mirror		Found Pungent Root (recurring)		FH_0207
+0x0D0	HIDDEN ITEM	Giant's Mirror		Found Pungent Root (recurring)		FH_0208
+0x0D1	HIDDEN ITEM	Giant's Mirror		Found Pungent Root (recurring)		FH_0209
+0x0D2	HIDDEN ITEM	Giant's Mirror		Found (random ball) (recurring)		FH_0210
+0x0D3	HIDDEN ITEM	Giant's Mirror		Found Rare Bone (recurring)		FH_0211
+0x0D4	HIDDEN ITEM	Hammerlocke Hills		Found (random mushroom) (recurring)		FH_0212
+0x0D5	HIDDEN ITEM	Hammerlocke Hills		Found Revive (recurring)		FH_0213
+0x0D6	HIDDEN ITEM	Hammerlocke Hills		Found (random star) (recurring)		FH_0214
+0x0D7	HIDDEN ITEM	Hammerlocke Hills		Found (random root/herb/feather) (recurring)		FH_0215
+0x0D8	HIDDEN ITEM	Hammerlocke Hills		Found (random mushroom) (recurring)		FH_0216
+0x0D9	HIDDEN ITEM	Giant's Cap		Found Large Leek (recurring)		FH_0217
+0x0DA	HIDDEN ITEM	Giant's Cap		Found Large Leek (recurring)		FH_0218
+0x0DB	HIDDEN ITEM	Giant's Cap		Found Large Leek (recurring)		FH_0219
+0x0DC	HIDDEN ITEM	Giant's Cap		Found Large Leek (recurring)		FH_0220
+0x0DD	HIDDEN ITEM	Giant's Cap		Found Large Leek (recurring)		FH_0221
+0x0DE	HIDDEN ITEM	Giant's Cap		Found (random star) (recurring)		FH_0222
+0x0DF	HIDDEN ITEM	Giant's Cap		Found Large Leek (recurring)		FH_0223
+0x0E0	HIDDEN ITEM	Giant's Cap		Found Pungent Root (recurring)		FH_0224
+0x0E1	HIDDEN ITEM	Giant's Cap		Found Pungent Root (recurring)		FH_0225
+0x0E2	HIDDEN ITEM	Giant's Cap		Found (random ball) (recurring)		FH_0226
+0x0E3	HIDDEN ITEM	Giant's Cap		Found Pungent Root (recurring)		FH_0227
+0x0E4	HIDDEN ITEM	Giant's Cap		Found (random root/herb/feather) (recurring)		FH_0228
+0x0E5	HIDDEN ITEM	Lake of Outrage		Found (random mushroom) (recurring)		FH_0229
+0x0E6	HIDDEN ITEM	Lake of Outrage		Found (random revive) (recurring)		FH_0230
+0x0E7	HIDDEN ITEM	Lake of Outrage		Found Shiny Stone (recurring)		FH_0231
+0x0E8	HIDDEN ITEM	Lake of Outrage		Found Dusk Stone (recurring)		FH_0232
+0x0E9	HIDDEN ITEM	Lake of Outrage		Found Fire Stone (recurring)		FH_0233
+0x0EA	HIDDEN ITEM	Lake of Outrage		Found Thunder Stone (recurring)		FH_0234
+0x0EB	HIDDEN ITEM	Lake of Outrage		Found Water Stone (recurring)		FH_0235
+0x0EC	HIDDEN ITEM	Lake of Outrage		Found Leaf Stone (recurring)		FH_0236
+0x0ED	HIDDEN ITEM	Lake of Outrage		Found Ice Stone (recurring)		FH_0237
+0x0EE	HIDDEN ITEM	Lake of Outrage		Found Dawn Stone (recurring)		FH_0238
+0x0EF	HIDDEN ITEM	Rolling Fields		Found Tiny Mushroom (recurring)		FH_0239
+0x0F0	HIDDEN ITEM	Rolling Fields		Found Tiny Mushroom (recurring)		FH_0240
+0x0F1	HIDDEN ITEM	Rolling Fields		Found Tiny Mushroom (recurring)		FH_0241
+0x0F2	HIDDEN ITEM	Dappled Grove		Found (random mushroom) (recurring)		FH_0242
+0x0F3	HIDDEN ITEM	Dappled Grove		Found (random mushroom) (recurring)		FH_0243
+0x0F4	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0244
+0x0F5	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0245
+0x0F6	HIDDEN ITEM	Dappled Grove		Found (random mushroom) (recurring)		FH_0246
+0x0F7	HIDDEN ITEM	Dappled Grove		Found (random root/herb/shed shell) (recurring)		FH_0247
+0x0F8	HIDDEN ITEM	Dappled Grove		Found (random root/herb/feather) (recurring)		FH_0248
+0x0F9	HIDDEN ITEM	East Lake Axewell		Found (random pearl) (recurring)		FH_0249
+0x0FA	HIDDEN ITEM	East Lake Axewell		Found (random pearl) (recurring)		FH_0250
+0x0FB	HIDDEN ITEM	East Lake Axewell		Found (random pearl) (recurring)		FH_0251
+0x0FC	HIDDEN ITEM	East Lake Axewell		Found (random pearl) (recurring)		FH_0252
+0x0FD	HIDDEN ITEM	East Lake Axewell		Found (random pearl) (recurring)		FH_0253
+0x0FE	HIDDEN ITEM	West Lake Axewell		Found (random pearl) (recurring)		FH_0254
+0x0FF	HIDDEN ITEM	West Lake Axewell		Found (random pearl) (recurring)		FH_0255
+0x100	HIDDEN ITEM	West Lake Axewell		Found (random pearl) (recurring)		FH_0256
+0x101	HIDDEN ITEM	West Lake Axewell		Found (random pearl) (recurring)		FH_0257
+0x102	HIDDEN ITEM	West Lake Axewell		Found (random pearl) (recurring)		FH_0258
+0x103	HIDDEN ITEM	West Lake Axewell		Found (random pearl) (recurring)		FH_0259
+0x104	HIDDEN ITEM	West Lake Axewell		Found (random pearl) (recurring)		FH_0260
+0x105	HIDDEN ITEM	South Lake Miloch		Found Poké Ball (recurring)		FH_0261
+0x106	HIDDEN ITEM	South Lake Miloch		Found (random pearl) (recurring)		FH_0262
+0x107	HIDDEN ITEM	South Lake Miloch		Found (random pearl) (recurring)		FH_0263
+0x108	HIDDEN ITEM	South Lake Miloch		Found Prism Scale (recurring)		FH_0264
+0x109	HIDDEN ITEM	South Lake Miloch		Found (random pearl) (recurring)		FH_0265
+0x10A	HIDDEN ITEM	South Lake Miloch		Found (random pearl) (recurring)		FH_0266
+0x10B	HIDDEN ITEM	South Lake Miloch		Found (random mushroom) (recurring)		FH_0267
+0x10C	HIDDEN ITEM	South Lake Miloch		Found (random pearl) (recurring)		FH_0268
+0x10D	HIDDEN ITEM	South Lake Miloch		Found (random pearl) (recurring)		FH_0269
+0x10E	HIDDEN ITEM	Giant's Seat		Found (random root/herb/feather) (recurring)		FH_0270
+0x10F	HIDDEN ITEM	Giant's Seat		Found (random root/feather) (recurring)		FH_0271
+0x110	HIDDEN ITEM	Giant's Seat		Found (random ball) (recurring)		FH_0272
+0x111	HIDDEN ITEM	Giant's Seat		Found (random mushroom) (recurring)		FH_0273
+0x112	HIDDEN ITEM	Giant's Seat		Found (random root/herb/feather) (recurring)		FH_0274
+0x113	HIDDEN ITEM	North Lake Miloch		Found (random ball) (recurring)		FH_0275
+0x114	HIDDEN ITEM	North Lake Miloch		Found (random mushroom) (recurring)		FH_0276
+0x115	HIDDEN ITEM	North Lake Miloch		Found (random pearl) (recurring)		FH_0277
+0x116	HIDDEN ITEM	North Lake Miloch		Found (random pearl) (recurring)		FH_0278
+0x117	HIDDEN ITEM	North Lake Miloch		Found (random pearl) (recurring)		FH_0279
+0x118	HIDDEN ITEM	North Lake Miloch		Found (random pearl) (recurring)		FH_0280
+0x119	HIDDEN ITEM	Bridge Field		Found (random root/honey) (recurring)		FH_0281
+0x11A	HIDDEN ITEM	Bridge Field		Found (random root/herb/honey) (recurring)		FH_0282
+0x11B	HIDDEN ITEM	Motostoke Riverbank		Found (random root/herb/feather) (recurring)		FH_0283
+0x11C	HIDDEN ITEM			[unused?]		FH_0284
+0x11D	HIDDEN ITEM	Bridge Field		Found (random mushroom) (recurring)		FH_0285
+0x11E	HIDDEN ITEM	Bridge Field		Found (random mushroom) (recurring)		FH_0286
+0x11F	HIDDEN ITEM	Bridge Field		Found (random root/herb/feather) (recurring)		FH_0287
+0x120	HIDDEN ITEM			[unused?]		FH_0288
+0x121	HIDDEN ITEM	Bridge Field		Found (random mushroom) (recurring)		FH_0289
+0x122	HIDDEN ITEM	Bridge Field		Found (random mushroom) (recurring)		FH_0290
+0x123	HIDDEN ITEM			[unused?]		FH_0291
+0x124	HIDDEN ITEM			[unused?]		FH_0292
+0x125	HIDDEN ITEM	Bridge Field		Found (random pearl) (recurring)		FH_0293
+0x126	HIDDEN ITEM	Bridge Field		Found (random pearl) (recurring)		FH_0294
+0x127	HIDDEN ITEM	Bridge Field		Found (random mushroom) (recurring)		FH_0295
+0x128	HIDDEN ITEM	Stony Wilderness		Found (random star) (recurring)		FH_0296
+0x129	HIDDEN ITEM	Stony Wilderness		Found (random ball) (recurring)		FH_0297
+0x12A	HIDDEN ITEM	Stony Wilderness		Found (random star) (recurring)		FH_0298
+0x12B	HIDDEN ITEM	Stony Wilderness		Found (random mushroom) (recurring)		FH_0299
+0x12C	HIDDEN ITEM	Dusty Bowl		Found Rare Bone (recurring)		FH_0300
+0x12D	HIDDEN ITEM	Dusty Bowl		Found (random ball) (recurring)		FH_0301
+0x12E	HIDDEN ITEM			[unused?]		FH_0302
+0x12F	HIDDEN ITEM	Dusty Bowl		Found (random star) (recurring)		FH_0303
+0x130	HIDDEN ITEM			[unused?]		FH_0304
+0x131	HIDDEN ITEM	Dusty Bowl		Found Rare Bone (recurring)		FH_0305
+0x132	HIDDEN ITEM	Dusty Bowl		Found Rare Bone (recurring)		FH_0306
+0x133	HIDDEN ITEM	Dusty Bowl		Found (random star) (recurring)		FH_0307
+0x134	HIDDEN ITEM			[unused?]		FH_0308
+0x135	HIDDEN ITEM			[unused?]		FH_0309
+0x136	HIDDEN ITEM			[unused?]		FH_0310
+0x137	HIDDEN ITEM			[unused?]		FH_0311
+0x138	HIDDEN ITEM	Giant's Mirror		Found (random star) (recurring)		FH_0312
+0x139	HIDDEN ITEM	Giant's Mirror		Found (random mushroom) (recurring)		FH_0313
+0x13A	HIDDEN ITEM	Hammerlocke Hills		Found (random mushroom) (recurring)		FH_0314
+0x13B	HIDDEN ITEM	Hammerlocke Hills		Found (random root/herb/feather) (recurring)		FH_0315
+0x13C	HIDDEN ITEM	Lake of Outrage		Found (random pearl) (recurring)		FH_0316
+0x13D	HIDDEN ITEM	Lake of Outrage		Found (random pearl) (recurring)		FH_0317
+0x13E	HIDDEN ITEM	Lake of Outrage		Found (random pearl) (recurring)		FH_0318
+0x13F	HIDDEN ITEM	Lake of Outrage		Found (random pearl) (recurring)		FH_0319
+0x140	HIDDEN ITEM	Rolling Fields		Found Honey (recurring)		FH_0320
+0x141	HIDDEN ITEM	Rolling Fields		Found Poké Ball (recurring)		FH_0321
+0x142	HIDDEN ITEM	Rolling Fields		Found Honey (recurring)		FH_0322
+0x143	HIDDEN ITEM			[unused?]		FH_0323
+0x144	HIDDEN ITEM			[unused?]		FH_0324
+0x145	HIDDEN ITEM			[unused?]		FH_0325
+0x146	HIDDEN ITEM			[unused?]		FH_0326
+0x147	HIDDEN ITEM			[unused?]		FH_0327
+0x148	HIDDEN ITEM			[unused?]		FH_0328
+0x149	HIDDEN ITEM			[unused?]		FH_0329
+0x14A	HIDDEN ITEM			[unused?]		FH_0330
+0x14B	HIDDEN ITEM			[unused?]		FH_0331
+0x14C	HIDDEN ITEM			[unused?]		FH_0332
 0x14D	HIDDEN ITEM	Glimwood Tangle		Found Full Heal (x2)		FH_0333
 0x14E	HIDDEN ITEM	Glimwood Tangle		Found Luminous Moss		FH_0334
-0x14F	HIDDEN ITEM					FH_0335
-0x150	HIDDEN ITEM					FH_0336
-0x151	HIDDEN ITEM					FH_0337
-0x152	HIDDEN ITEM					FH_0338
-0x153	HIDDEN ITEM					FH_0339
-0x154	HIDDEN ITEM					FH_0340
-0x155	HIDDEN ITEM					FH_0341
-0x156	HIDDEN ITEM					FH_0342
-0x157	HIDDEN ITEM					FH_0343
-0x158	HIDDEN ITEM					FH_0344
-0x159	HIDDEN ITEM					FH_0345
-0x15A	HIDDEN ITEM					FH_0346
-0x15B	HIDDEN ITEM					FH_0347
-0x15C	HIDDEN ITEM					FH_0348
-0x15D	HIDDEN ITEM					FH_0349
+0x14F	HIDDEN ITEM			[unused?]		FH_0335
+0x150	HIDDEN ITEM			[unused?]		FH_0336
+0x151	HIDDEN ITEM			[unused?]		FH_0337
+0x152	HIDDEN ITEM			[unused?]		FH_0338
+0x153	HIDDEN ITEM			[unused?]		FH_0339
+0x154	HIDDEN ITEM			[unused?]		FH_0340
+0x155	HIDDEN ITEM			[unused?]		FH_0341
+0x156	HIDDEN ITEM			[unused?]		FH_0342
+0x157	HIDDEN ITEM			[unused?]		FH_0343
+0x158	HIDDEN ITEM			[unused?]		FH_0344
+0x159	HIDDEN ITEM			[unused?]		FH_0345
+0x15A	HIDDEN ITEM			[unused?]		FH_0346
+0x15B	HIDDEN ITEM			[unused?]		FH_0347
+0x15C	HIDDEN ITEM			[unused?]		FH_0348
+0x15D	HIDDEN ITEM			[unused?]		FH_0349
 0x15E	HIDDEN ITEM	Stow-on-Side		Found Max Revive		FH_0350
-0x15F	HIDDEN ITEM					FH_0351
-0x160	HIDDEN ITEM					FH_0352
-0x161	HIDDEN ITEM					FH_0353
-0x162	HIDDEN ITEM					FH_0354
-0x163	HIDDEN ITEM					FH_0355
-0x164	HIDDEN ITEM					FH_0356
-0x165	HIDDEN ITEM					FH_0357
-0x166	HIDDEN ITEM					FH_0358
-0x167	HIDDEN ITEM					FH_0359
-0x168	HIDDEN ITEM					FH_0360
-0x169	HIDDEN ITEM					FH_0361
-0x16A	HIDDEN ITEM					FH_0362
-0x16B	HIDDEN ITEM					FH_0363
-0x16C	HIDDEN ITEM					FH_0364
-0x16D	HIDDEN ITEM					FH_0365
-0x16E	HIDDEN ITEM					FH_0366
-0x16F	HIDDEN ITEM					FH_0367
-0x170	HIDDEN ITEM					FH_0368
-0x171	HIDDEN ITEM					FH_0369
-0x172	HIDDEN ITEM					FH_0370
-0x173	HIDDEN ITEM					FH_0371
-0x174	HIDDEN ITEM					FH_0372
-0x175	HIDDEN ITEM					FH_0373
-0x176	HIDDEN ITEM					FH_0374
-0x177	HIDDEN ITEM					FH_0375
-0x178	HIDDEN ITEM					FH_0376
-0x179	HIDDEN ITEM					FH_0377
-0x17A	HIDDEN ITEM					FH_0378
-0x17B	HIDDEN ITEM					FH_0379
-0x17C	HIDDEN ITEM					FH_0380
-0x17D	HIDDEN ITEM					FH_0381
-0x17E	HIDDEN ITEM					FH_0382
-0x17F	HIDDEN ITEM					FH_0383
-0x180	HIDDEN ITEM					FH_0384
-0x181	HIDDEN ITEM					FH_0385
+0x15F	HIDDEN ITEM			[unused?]		FH_0351
+0x160	HIDDEN ITEM			[unused?]		FH_0352
+0x161	HIDDEN ITEM			[unused?]		FH_0353
+0x162	HIDDEN ITEM			[unused?]		FH_0354
+0x163	HIDDEN ITEM			[unused?]		FH_0355
+0x164	HIDDEN ITEM			[unused?]		FH_0356
+0x165	HIDDEN ITEM			[unused?]		FH_0357
+0x166	HIDDEN ITEM			[unused?]		FH_0358
+0x167	HIDDEN ITEM			[unused?]		FH_0359
+0x168	HIDDEN ITEM			[unused?]		FH_0360
+0x169	HIDDEN ITEM			[unused?]		FH_0361
+0x16A	HIDDEN ITEM			[unused?]		FH_0362
+0x16B	HIDDEN ITEM			[unused?]		FH_0363
+0x16C	HIDDEN ITEM			[unused?]		FH_0364
+0x16D	HIDDEN ITEM			[unused?]		FH_0365
+0x16E	HIDDEN ITEM			[unused?]		FH_0366
+0x16F	HIDDEN ITEM			[unused?]		FH_0367
+0x170	HIDDEN ITEM			[unused?]		FH_0368
+0x171	HIDDEN ITEM			[unused?]		FH_0369
+0x172	HIDDEN ITEM			[unused?]		FH_0370
+0x173	HIDDEN ITEM			[unused?]		FH_0371
+0x174	HIDDEN ITEM			[unused?]		FH_0372
+0x175	HIDDEN ITEM			[unused?]		FH_0373
+0x176	HIDDEN ITEM			[unused?]		FH_0374
+0x177	HIDDEN ITEM			[unused?]		FH_0375
+0x178	HIDDEN ITEM			[unused?]		FH_0376
+0x179	HIDDEN ITEM			[unused?]		FH_0377
+0x17A	HIDDEN ITEM			[unused?]		FH_0378
+0x17B	HIDDEN ITEM			[unused?]		FH_0379
+0x17C	HIDDEN ITEM			[unused?]		FH_0380
+0x17D	HIDDEN ITEM			[unused?]		FH_0381
+0x17E	HIDDEN ITEM			[unused?]		FH_0382
+0x17F	HIDDEN ITEM			[unused?]		FH_0383
+0x180	HIDDEN ITEM			[unused?]		FH_0384
+0x181	HIDDEN ITEM			[unused?]		FH_0385
 0x182	HIDDEN ITEM	Stow-on-Side		Found X Sp. Attack (x2)		FH_0386
 0x183	HIDDEN ITEM	Hammerlocke		Found Super Repel		FH_0387
 0x184	HIDDEN ITEM	Hammerlocke		Found X Attack (x2)		FH_0388
-0x185	HIDDEN ITEM					FH_0389
+0x185	HIDDEN ITEM			[unused?]		FH_0389
 0x186	HIDDEN ITEM	Wyndon		Found Rare Candy		FH_0390
 0x187	HIDDEN ITEM	Circhester		Found Poké Doll		FH_0391
 0x188	HIDDEN ITEM	Route 9	Circhester Bay	Found Big Pearl		FH_0392
@@ -399,118 +399,118 @@
 0x18D	HIDDEN ITEM	Route 9	Circhester Bay	Found Ice Stone		FH_0397
 0x18E	HIDDEN ITEM	Route 9	Circhester Bay	Found Big Pearl		FH_0398
 0x18F	HIDDEN ITEM	Route 9	Circhester Bay	Found PP Up		FH_0399
-0x190	HIDDEN ITEM					FH_0400
-0x191	HIDDEN ITEM					FH_0401
-0x192	HIDDEN ITEM					FH_0402
-0x193	HIDDEN ITEM					FH_0403
-0x194	HIDDEN ITEM					FH_0404
+0x190	HIDDEN ITEM			[unused?]		FH_0400
+0x191	HIDDEN ITEM	West Lake Axewell		Found (random mushroom) (recurring)		FH_0401
+0x192	HIDDEN ITEM	Axew's Eye		Found (random pearl) (recurring)		FH_0402
+0x193	HIDDEN ITEM	Axew's Eye		Found (random pearl) (recurring)		FH_0403
+0x194	HIDDEN ITEM	Axew's Eye		Found Rare Candy (recurring)		FH_0404
 0x195	HIDDEN ITEM	Stow-on-Side		Found Metal Coat		FH_0405
 0x196	HIDDEN ITEM	Hammerlocke		Found Dire Hit		FH_0406
 0x197	HIDDEN ITEM	Slumbering Weald		Found Full Restore		FH_0407
 0x198	HIDDEN ITEM	Slumbering Weald		Found Elixir		FH_0408
-0x199	HIDDEN ITEM					FH_0409
-0x19A	HIDDEN ITEM					FH_0410
-0x19B	HIDDEN ITEM					FH_0411
-0x19C	HIDDEN ITEM					FH_0412
-0x19D	HIDDEN ITEM					FH_0413
-0x19E	HIDDEN ITEM					FH_0414
-0x19F	HIDDEN ITEM					FH_0415
-0x1A0	HIDDEN ITEM					FH_0416
-0x1A1	HIDDEN ITEM					FH_0417
-0x1A2	HIDDEN ITEM					FH_0418
-0x1A3	HIDDEN ITEM					FH_0419
-0x1A4	HIDDEN ITEM					FH_0420
-0x1A5	HIDDEN ITEM					FH_0421
-0x1A6	HIDDEN ITEM					FH_0422
-0x1A7	HIDDEN ITEM					FH_0423
-0x1A8	HIDDEN ITEM					FH_0424
-0x1A9	HIDDEN ITEM					FH_0425
-0x1AA	HIDDEN ITEM					FH_0426
-0x1AB	HIDDEN ITEM					FH_0427
-0x1AC	HIDDEN ITEM					FH_0428
-0x1AD	HIDDEN ITEM					FH_0429
-0x1AE	HIDDEN ITEM					FH_0430
-0x1AF	HIDDEN ITEM					FH_0431
-0x1B0	HIDDEN ITEM					FH_0432
-0x1B1	HIDDEN ITEM					FH_0433
-0x1B2	HIDDEN ITEM					FH_0434
-0x1B3	HIDDEN ITEM					FH_0435
-0x1B4	HIDDEN ITEM					FH_0436
-0x1B5	HIDDEN ITEM					FH_0437
-0x1B6	HIDDEN ITEM					FH_0438
-0x1B7	HIDDEN ITEM					FH_0439
-0x1B8	HIDDEN ITEM					FH_0440
-0x1B9	HIDDEN ITEM					FH_0441
-0x1BA	HIDDEN ITEM					FH_0442
-0x1BB	HIDDEN ITEM					FH_0443
-0x1BC	HIDDEN ITEM					FH_0444
-0x1BD	HIDDEN ITEM					FH_0445
-0x1BE	HIDDEN ITEM					FH_0446
-0x1BF	HIDDEN ITEM					FH_0447
-0x1C0	HIDDEN ITEM					FH_0448
-0x1C1	HIDDEN ITEM					FH_0449
-0x1C2	HIDDEN ITEM					FH_0450
-0x1C3	HIDDEN ITEM					FH_0451
-0x1C4	HIDDEN ITEM					FH_0452
-0x1C5	HIDDEN ITEM					FH_0453
-0x1C6	HIDDEN ITEM					FH_0454
-0x1C7	HIDDEN ITEM					FH_0455
-0x1C8	HIDDEN ITEM					FH_0456
-0x1C9	HIDDEN ITEM					FH_0457
-0x1CA	HIDDEN ITEM					FH_0458
-0x1CB	HIDDEN ITEM					FH_0459
-0x1CC	HIDDEN ITEM					FH_0460
-0x1CD	HIDDEN ITEM					FH_0461
-0x1CE	HIDDEN ITEM					FH_0462
-0x1CF	HIDDEN ITEM					FH_0463
-0x1D0	HIDDEN ITEM					FH_0464
-0x1D1	HIDDEN ITEM					FH_0465
-0x1D2	HIDDEN ITEM					FH_0466
-0x1D3	HIDDEN ITEM					FH_0467
-0x1D4	HIDDEN ITEM					FH_0468
-0x1D5	HIDDEN ITEM					FH_0469
-0x1D6	HIDDEN ITEM					FH_0470
-0x1D7	HIDDEN ITEM					FH_0471
-0x1D8	HIDDEN ITEM					FH_0472
-0x1D9	HIDDEN ITEM					FH_0473
-0x1DA	HIDDEN ITEM					FH_0474
-0x1DB	HIDDEN ITEM					FH_0475
-0x1DC	HIDDEN ITEM					FH_0476
-0x1DD	HIDDEN ITEM					FH_0477
-0x1DE	HIDDEN ITEM					FH_0478
-0x1DF	HIDDEN ITEM					FH_0479
-0x1E0	HIDDEN ITEM					FH_0480
-0x1E1	HIDDEN ITEM					FH_0481
-0x1E2	HIDDEN ITEM					FH_0482
-0x1E3	HIDDEN ITEM					FH_0483
-0x1E4	HIDDEN ITEM					FH_0484
-0x1E5	HIDDEN ITEM					FH_0485
-0x1E6	HIDDEN ITEM					FH_0486
-0x1E7	HIDDEN ITEM					FH_0487
-0x1E8	HIDDEN ITEM					FH_0488
-0x1E9	HIDDEN ITEM					FH_0489
-0x1EA	HIDDEN ITEM					FH_0490
-0x1EB	HIDDEN ITEM					FH_0491
-0x1EC	HIDDEN ITEM					FH_0492
-0x1ED	HIDDEN ITEM					FH_0493
-0x1EE	HIDDEN ITEM					FH_0494
-0x1EF	HIDDEN ITEM					FH_0495
-0x1F0	HIDDEN ITEM					FH_0496
-0x1F1	HIDDEN ITEM					FH_0497
-0x1F2	HIDDEN ITEM					FH_0498
-0x1F3	HIDDEN ITEM					FH_0499
-0x1F4	HIDDEN ITEM					FH_0500
-0x1F5	HIDDEN ITEM					FH_0501
-0x1F6	HIDDEN ITEM					FH_0502
-0x1F7	HIDDEN ITEM					FH_0503
-0x1F8	HIDDEN ITEM					FH_0504
-0x1F9	HIDDEN ITEM					FH_0505
-0x1FA	HIDDEN ITEM					FH_0506
-0x1FB	HIDDEN ITEM					FH_0507
-0x1FC	HIDDEN ITEM					FH_0508
-0x1FD	HIDDEN ITEM					FH_0509
-0x1FE	HIDDEN ITEM					FH_0510
-0x1FF	HIDDEN ITEM					FH_0511
+0x199	HIDDEN ITEM	Axew's Eye		Found Fancy Apple (recurring)		FH_0409
+0x19A	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0410
+0x19B	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0411
+0x19C	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0412
+0x19D	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0413
+0x19E	HIDDEN ITEM	Dappled Grove		Found Fancy Apple (recurring)		FH_0414
+0x19F	HIDDEN ITEM	Stony Wilderness		Found (random star) (recurring)		FH_0415
+0x1A0	HIDDEN ITEM	Stony Wilderness		Found (random star) (recurring)		FH_0416
+0x1A1	HIDDEN ITEM	Stony Wilderness		Found (random star) (recurring)		FH_0417
+0x1A2	HIDDEN ITEM	Stony Wilderness		Found (random star) (recurring)		FH_0418
+0x1A3	HIDDEN ITEM	Stony Wilderness		Found (random ball) (recurring)		FH_0419
+0x1A4	HIDDEN ITEM	Dusty Bowl		Found (random revive) (recurring)		FH_0420
+0x1A5	HIDDEN ITEM	Dusty Bowl		Found (random star) (recurring)		FH_0421
+0x1A6	HIDDEN ITEM	Dusty Bowl		Found (fossil spot) (recurring)		FH_0422
+0x1A7	HIDDEN ITEM			[unused?]		FH_0423
+0x1A8	HIDDEN ITEM	Dusty Bowl		Found (fossil spot) (recurring)		FH_0424
+0x1A9	HIDDEN ITEM			[unused?]		FH_0425
+0x1AA	HIDDEN ITEM	Giant's Mirror		Found (random star) (recurring)		FH_0426
+0x1AB	HIDDEN ITEM	Hammerlocke Hills		Found (random ball) (recurring)		FH_0427
+0x1AC	HIDDEN ITEM	Hammerlocke Hills		Found (random ball) (recurring)		FH_0428
+0x1AD	HIDDEN ITEM	Dusty Bowl		Found Razor Claw (recurring)		FH_0429
+0x1AE	HIDDEN ITEM			[unused?]		FH_0430
+0x1AF	HIDDEN ITEM			[unused?]		FH_0431
+0x1B0	HIDDEN ITEM			[unused?]		FH_0432
+0x1B1	HIDDEN ITEM			[unused?]		FH_0433
+0x1B2	HIDDEN ITEM			[unused?]		FH_0434
+0x1B3	HIDDEN ITEM			[unused?]		FH_0435
+0x1B4	HIDDEN ITEM			[unused?]		FH_0436
+0x1B5	HIDDEN ITEM			[unused?]		FH_0437
+0x1B6	HIDDEN ITEM			[unused?]		FH_0438
+0x1B7	HIDDEN ITEM			[unused?]		FH_0439
+0x1B8	HIDDEN ITEM			[unused?]		FH_0440
+0x1B9	HIDDEN ITEM			[unused?]		FH_0441
+0x1BA	HIDDEN ITEM			[unused?]		FH_0442
+0x1BB	HIDDEN ITEM			[unused?]		FH_0443
+0x1BC	HIDDEN ITEM			[unused?]		FH_0444
+0x1BD	HIDDEN ITEM			[unused?]		FH_0445
+0x1BE	HIDDEN ITEM			[unused?]		FH_0446
+0x1BF	HIDDEN ITEM			[unused?]		FH_0447
+0x1C0	HIDDEN ITEM			[unused?]		FH_0448
+0x1C1	HIDDEN ITEM			[unused?]		FH_0449
+0x1C2	HIDDEN ITEM			[unused?]		FH_0450
+0x1C3	HIDDEN ITEM			[unused?]		FH_0451
+0x1C4	HIDDEN ITEM			[unused?]		FH_0452
+0x1C5	HIDDEN ITEM			[unused?]		FH_0453
+0x1C6	HIDDEN ITEM			[unused?]		FH_0454
+0x1C7	HIDDEN ITEM			[unused?]		FH_0455
+0x1C8	HIDDEN ITEM			[unused?]		FH_0456
+0x1C9	HIDDEN ITEM			[unused?]		FH_0457
+0x1CA	HIDDEN ITEM			[unused?]		FH_0458
+0x1CB	HIDDEN ITEM			[unused?]		FH_0459
+0x1CC	HIDDEN ITEM			[unused?]		FH_0460
+0x1CD	HIDDEN ITEM			[unused?]		FH_0461
+0x1CE	HIDDEN ITEM			[unused?]		FH_0462
+0x1CF	HIDDEN ITEM			[unused?]		FH_0463
+0x1D0	HIDDEN ITEM			[unused?]		FH_0464
+0x1D1	HIDDEN ITEM			[unused?]		FH_0465
+0x1D2	HIDDEN ITEM			[unused?]		FH_0466
+0x1D3	HIDDEN ITEM			[unused?]		FH_0467
+0x1D4	HIDDEN ITEM			[unused?]		FH_0468
+0x1D5	HIDDEN ITEM			[unused?]		FH_0469
+0x1D6	HIDDEN ITEM			[unused?]		FH_0470
+0x1D7	HIDDEN ITEM			[unused?]		FH_0471
+0x1D8	HIDDEN ITEM			[unused?]		FH_0472
+0x1D9	HIDDEN ITEM			[unused?]		FH_0473
+0x1DA	HIDDEN ITEM			[unused?]		FH_0474
+0x1DB	HIDDEN ITEM			[unused?]		FH_0475
+0x1DC	HIDDEN ITEM			[unused?]		FH_0476
+0x1DD	HIDDEN ITEM			[unused?]		FH_0477
+0x1DE	HIDDEN ITEM			[unused?]		FH_0478
+0x1DF	HIDDEN ITEM			[unused?]		FH_0479
+0x1E0	HIDDEN ITEM			[unused?]		FH_0480
+0x1E1	HIDDEN ITEM			[unused?]		FH_0481
+0x1E2	HIDDEN ITEM			[unused?]		FH_0482
+0x1E3	HIDDEN ITEM			[unused?]		FH_0483
+0x1E4	HIDDEN ITEM			[unused?]		FH_0484
+0x1E5	HIDDEN ITEM			[unused?]		FH_0485
+0x1E6	HIDDEN ITEM			[unused?]		FH_0486
+0x1E7	HIDDEN ITEM			[unused?]		FH_0487
+0x1E8	HIDDEN ITEM			[unused?]		FH_0488
+0x1E9	HIDDEN ITEM			[unused?]		FH_0489
+0x1EA	HIDDEN ITEM			[unused?]		FH_0490
+0x1EB	HIDDEN ITEM			[unused?]		FH_0491
+0x1EC	HIDDEN ITEM			[unused?]		FH_0492
+0x1ED	HIDDEN ITEM			[unused?]		FH_0493
+0x1EE	HIDDEN ITEM			[unused?]		FH_0494
+0x1EF	HIDDEN ITEM			[unused?]		FH_0495
+0x1F0	HIDDEN ITEM			[unused?]		FH_0496
+0x1F1	HIDDEN ITEM			[unused?]		FH_0497
+0x1F2	HIDDEN ITEM			[unused?]		FH_0498
+0x1F3	HIDDEN ITEM			[unused?]		FH_0499
+0x1F4	HIDDEN ITEM			[unused?]		FH_0500
+0x1F5	HIDDEN ITEM			[unused?]		FH_0501
+0x1F6	HIDDEN ITEM			[unused?]		FH_0502
+0x1F7	HIDDEN ITEM			[unused?]		FH_0503
+0x1F8	HIDDEN ITEM			[unused?]		FH_0504
+0x1F9	HIDDEN ITEM			[unused?]		FH_0505
+0x1FA	HIDDEN ITEM			[unused?]		FH_0506
+0x1FB	HIDDEN ITEM			[unused?]		FH_0507
+0x1FC	HIDDEN ITEM			[unused?]		FH_0508
+0x1FD	HIDDEN ITEM			[unused?]		FH_0509
+0x1FE	HIDDEN ITEM			[unused?]		FH_0510
+0x1FF	HIDDEN ITEM			[unused?]		FH_0511
 0x200	HIDDEN ITEM					FH_0512_DLC1
 0x201	HIDDEN ITEM					FH_0513_DLC1
 0x202	HIDDEN ITEM					FH_0514_DLC1
@@ -3929,7 +3929,7 @@
 0x95EDC591DEA7C82C	EVENT					z_wr0101_ASSISTANT
 0x6EB659D457C06108	EVENT					z_wr0101_RIVAL
 0x2CA50A74B8CE0A81	EVENT					z_wr0101_WR_CIRCUIT_NPC
-0xB240E1CC6F874CF8	FIELD ITEM					z_wr0102_ItemNormal_0
+0xB240E1CC6F874CF8	FIELD ITEM	Rolling Fields		TM84 (Tail Slap) item ball disappeared		z_wr0102_ItemNormal_0
 0xE916E23DA591D984	EVENT					z_wr0102_WR_ANGLER_NPC
 0x0E2062D38C3EF9E3	EVENT					z_wr0102_WR_ANGLER_NPC_0
 0xAF666D0266259780	EVENT					z_wr0102_WR_ARTIST_NPC
@@ -3946,7 +3946,7 @@
 0xEE8F8250BCA3DAA4	EVENT					z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_2
 0xEE8F8350BCA3DC57	EVENT					z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_Common_3
 0x60D1D4F9E7BFD1DF	EVENT					z_wr0102_SymbolEncountPokemonGimmickSpawner_WR_GameClear
-0x33502E6C557983E9	FIELD ITEM					z_wr0103_ItemNormal_0
+0x33502E6C557983E9	FIELD ITEM	Watchtower Ruins		White Herb item ball disappeared		z_wr0103_ItemNormal_0
 0xCCB2A7102B591C9B	EVENT					z_wr0103_WR_ARTIST_NPC
 0x58A2B6B92F4FB8F4	EVENT					z_wr0103_WR_ARTIST_NPC_0
 0x49D3F2310889349B	EVENT					z_wr0103_WR_ANGLER_NPC
@@ -3955,7 +3955,7 @@
 0x40623887619A7B1F	EVENT					z_wr0103_SymbolEncountPokemonGimmickSpawner_WR_Common_0
 0x1380DA5C62565A44	EVENT					z_wr0103_SymbolEncountPokemonGimmickSpawner_WR_GameClear
 0x40623787619A796C	EVENT					z_wr0103_SymbolEncountPokemonGimmickSpawner_WR_Common_1
-0xF22BA7BF6EC452B6	FIELD ITEM					z_wr0104_ItemNormal_0
+0xF22BA7BF6EC452B6	FIELD ITEM	Watchtower Ruins		Max Revive item ball disappeared		z_wr0104_ItemNormal_0
 0x55128B14CD11B3EB	EVENT					z_wr0104_SymbolEncountPokemonGimmickSpawner
 0x502B1A4EF1967F04	EVENT					z_wr0104_SymbolEncountPokemonGimmickSpawner_0
 0xAEB57D1C32145D6D	EVENT					z_wr0104_SymbolEncountPokemonGimmickSpawner_WR_GameClear
@@ -3989,10 +3989,10 @@
 0xF76345D43E71B69A	EVENT					z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_0
 0xF76346D43E71B84D	EVENT					z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_1
 0x9810AF505E3A68E3	EVENT					z_wr0106_SymbolEncountPokemonGimmickSpawner_WR_GameClear
-0xF86FD468669B82A2	FIELD ITEM					z_wr0107_ItemRare_0
+0xF86FD468669B82A2	FIELD ITEM	Axew's Eye		TM95 (Air Slash) item ball disappeared		z_wr0107_ItemRare_0
 0x9597FE90D43DF315	EVENT					z_wr0107_WR_LEAGUESTAFFF_NPC
-0x707E94CAD3530B48	HIDDEN ITEM					z_wr0107_HiddenItem_K_0
-0x885847CA505253B1	HIDDEN ITEM					z_wr0107_HiddenItem_T_0
+0x707E94CAD3530B48	HIDDEN ITEM	Axew's Eye		Found Tart Apple (recurring) (Sw)		z_wr0107_HiddenItem_K_0
+0x885847CA505253B1	HIDDEN ITEM	Axew's Eye		Found Sweet Apple (recurring) (Sh)		z_wr0107_HiddenItem_T_0
 0xBA7AAE8701AA6584	EVENT					z_wr0107_SymbolEncountPokemonGimmickSpawner_WR_Common
 0xF80DFFA510FBC928	EVENT					z_wr0107_SymbolEncountPokemonGimmickSpawner_WR_GameClear
 0xEC9CB45BFD5ED38E	EVENT					z_wr0108_WR_ANGLER_NPC
@@ -4009,8 +4009,8 @@
 0x625C2F0F8595ADBB	EVENT					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_Water_1
 0x7485C2AA46EEBC51	EVENT					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_GameClear
 0x44DB2E59D1234014	EVENT					z_wr0108_SymbolEncountPokemonGimmickSpawner_WR_Common_4
-0xAB0D44A724CBFAFC	FIELD ITEM					z_wr0109_ItemRare_0
-0x1C78724ACA6EEC63	FIELD ITEM					z_wr0109_ItemNormal_0
+0xAB0D44A724CBFAFC	FIELD ITEM	Giant's Seat		TM81 (Bulldoze) item ball disappeared		z_wr0109_ItemRare_0
+0x1C78724ACA6EEC63	FIELD ITEM	Giant's Seat		Leftovers item ball disappeared		z_wr0109_ItemNormal_0
 0xB225E08614ED9B9B	EVENT					z_wr0109_WR_LEAGUESTAFFF_NPC
 0xF9089D0BD3767135	EVENT					z_wr0109_WR_ANGLER_NPC
 0x3166D3448524C532	EVENT					z_wr0109_SymbolEncountPokemonGimmickSpawner_WR_Common
@@ -4018,7 +4018,7 @@
 0xFD324BECFC65485A	EVENT					z_wr0109_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0
 0xF0FC138CCB1EA63D	EVENT					z_wr0109_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0
 0xB9F19C3ADDFB5CD6	EVENT					z_wr0109_SymbolEncountPokemonGimmickSpawner_WR_GameClear
-0xD2ACD6E13390B759	FIELD ITEM					z_wr0110_ItemNormal_0
+0xD2ACD6E13390B759	FIELD ITEM	North Lake Miloch		Thunder Stone item ball disappeared		z_wr0110_ItemNormal_0
 0x0F57836FEFB770AB	EVENT					z_wr0110_WR_ANGLER_NPC
 0x7F4D75EBEF718E44	EVENT					z_wr0110_WR_ANGLER_NPC_0
 0x47DE6BB6C7464E58	EVENT					z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common
@@ -4030,8 +4030,8 @@
 0x80BB9D85DD809C55	EVENT					z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_2
 0x70C3CE0F2E605E90	EVENT					z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_Common_Water
 0x74543C38747EBA94	EVENT					z_wr0110_SymbolEncountPokemonGimmickSpawner_WR_GameClear
-0xAD1EDC79806F7775	FIELD ITEM					z_wr0121_ItemRare_0_0
-0x17493CD9038E2BE5	FIELD ITEM					z_wr0121_ItemNormal_0
+0xAD1EDC79806F7775	FIELD ITEM	Motostoke Riverbank		TM39 (Facade) item ball disappeared		z_wr0121_ItemRare_0_0
+0x17493CD9038E2BE5	FIELD ITEM	Motostoke Riverbank		Fire Stone item ball disappeared		z_wr0121_ItemNormal_0
 0x4FF060F6FDCEBBFF	EVENT					z_wr0121_WR_ANGLER_NPC
 0x05C0FA9D712019F5	EVENT					z_wr0121_WR_LEAGUESTAFFF_NPC
 0x0FE9609E0A4722A4	EVENT					z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common
@@ -4042,8 +4042,8 @@
 0x421B0963873F7964	EVENT					z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_1_1
 0xFF29E3FAFF5F7E76	EVENT					z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_Common_3
 0xD37E83D434DF6788	EVENT					z_wr0121_SymbolEncountPokemonGimmickSpawner_WR_GameClear
-0x8F301E4E3A35ADCD	FIELD ITEM					z_wr0122_ItemRare_0
-0x420EE89046A55D92	FIELD ITEM					z_wr0122_ItemRare_0_0
+0x8F301E4E3A35ADCD	FIELD ITEM	Bridge Field		TM75 (Low Sweep) item ball disappeared		z_wr0122_ItemRare_0
+0x420EE89046A55D92	FIELD ITEM	Bridge Field		Water Stone item ball disappeared		z_wr0122_ItemRare_0_0
 0x1EF2A08E3CD07728	EVENT					z_wr0122_WR_LEAGUESTAFFF_NPC
 0xE40A30302D976A6A	EVENT					z_wr0122_WR_ARTIST_NPC
 0xD0548A55863F557F	EVENT					z_wr0122_WR_LEAGUESTAFFF_NPC_0
@@ -4076,16 +4076,16 @@
 0xDB93988A94A39CCE	EVENT					z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_2
 0xDB93998A94A39E81	EVENT					z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_Common_3
 0x034527E5C6E458F1	EVENT					z_wr0131_SymbolEncountPokemonGimmickSpawner_WR_GameClear
-0xE4AFA8054FE25616	FIELD ITEM					z_wr0132_ItemRare_0
-0xFDDE8420FC22B961	FIELD ITEM					z_wr0132_ItemNormal_0
-0x019725209E4DC01E	FIELD ITEM					z_wr0132_ItemNormal_0_0
+0xE4AFA8054FE25616	FIELD ITEM	Dusty Bowl		TM73 (Cross Poison) item ball disappeared		z_wr0132_ItemRare_0
+0xFDDE8420FC22B961	FIELD ITEM	Dusty Bowl		Moon Stone item ball disappeared		z_wr0132_ItemNormal_0
+0x019725209E4DC01E	FIELD ITEM	Dusty Bowl		Sun Stone item ball disappeared		z_wr0132_ItemNormal_0_0
 0x555E98E074244D53	EVENT					z_wr0132_WR_ARTIST_NPC
 0x950EF0E12A785683	EVENT					z_wr0132_WR_ANGLER_NPC
 0x1D4D23376439DFBC	EVENT					z_wr0132_WR_ARTIST_NPC_0
-0x32CA446A9510CCFC	HIDDEN ITEM					z_wr0132_HiddenItem_K_0
-0x2C1A7F6B21BE6F3D	HIDDEN ITEM					z_wr0132_HiddenItem_T_0
-0x1D5663615E6AFD8B	HIDDEN ITEM					z_wr0132_HiddenItem_K_0_0
-0xBC97E69123080E42	HIDDEN ITEM					z_wr0132_HiddenItem_T_0_0
+0x32CA446A9510CCFC	HIDDEN ITEM	Dusty Bowl		Found Fossilized Bird (recurring) (Sw)		z_wr0132_HiddenItem_K_0
+0x2C1A7F6B21BE6F3D	HIDDEN ITEM	Dusty Bowl		Found Fossilized Fish (recurring) (Sh)		z_wr0132_HiddenItem_T_0
+0x1D5663615E6AFD8B	HIDDEN ITEM	Dusty Bowl		Found Fossilized Dino (recurring) (Sw)		z_wr0132_HiddenItem_K_0_0
+0xBC97E69123080E42	HIDDEN ITEM	Dusty Bowl		Found Fossilized Drake (recurring) (Sh)		z_wr0132_HiddenItem_T_0_0
 0x3B73DD2D4E934608	EVENT					z_wr0132_SymbolEncountPokemonGimmickSpawner
 0x7E13F014B9A3841F	EVENT					z_wr0132_SymbolEncountPokemonGimmickSpawner_0
 0x7E13EF14B9A3826C	EVENT					z_wr0132_SymbolEncountPokemonGimmickSpawner_1
@@ -4120,7 +4120,7 @@
 0x37675AA5569E17FE	EVENT					z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_Common_0_0_0_0
 0xB2D4858027AB3B16	EVENT					z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_Common_1
 0x7C376045494861DA	EVENT					z_wr0134_SymbolEncountPokemonGimmickSpawner_WR_GameClear
-0x2BF50809784E39CE	FIELD ITEM					z_wr0135_ItemNormal_0
+0x2BF50809784E39CE	FIELD ITEM	Giant's Cap		Dawn Stone item ball disappeared		z_wr0135_ItemNormal_0
 0xA8413FF58D7B14C0	EVENT					z_wr0135_WR_LEAGUESTAFFF_NPC
 0x85B11FF80B3FD882	EVENT					z_wr0135_WR_ARTIST_NPC
 0x7C3667213965FB63	EVENT					z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common
@@ -4130,9 +4130,9 @@
 0x8439280395932425	EVENT					z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common_3
 0x8439210395931840	EVENT					z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_Common_4
 0x9CDD11E38DBDD185	EVENT					z_wr0135_SymbolEncountPokemonGimmickSpawner_WR_GameClear
-0x5213735CE4D7E05A	FIELD ITEM					z_wr0136_ItemRare_0
-0x110D965DDA93C65D	FIELD ITEM					z_wr0136_ItemNormal_0
-0x2728BF0096426122	FIELD ITEM					z_wr0136_ItemNormal_0_0
+0x5213735CE4D7E05A	FIELD ITEM	Lake of Outrage		TM65 (Shadow Claw) item ball disappeared		z_wr0136_ItemRare_0
+0x110D965DDA93C65D	FIELD ITEM	Lake of Outrage		Focus Sash item ball disappeared		z_wr0136_ItemNormal_0
+0x2728BF0096426122	FIELD ITEM	Lake of Outrage		Assault Vest item ball disappeared		z_wr0136_ItemNormal_0_0
 0x5C9D67D79F90CF8D	EVENT					z_wr0136_WR_LEAGUESTAFFF_NPC
 0x8B74ADD81302E847	EVENT					z_wr0136_WR_ANGLER_NPC
 0x6DE67722C901D65C	EVENT					z_wr0136_SymbolEncountPokemonGimmickSpawner_WR_Common
