@@ -1010,7 +1010,7 @@
 0x3F0	FIELD ITEM	Old Chateau	2F Room	Old Gateau item ball disappeared		FV_FLD_ITEM_22
 0x3F1	FIELD ITEM	Route 205		Potion item ball disappeared		FV_FLD_ITEM_23
 0x3F2	FIELD ITEM	Eterna City		TM46 (Thief) item ball disappeared		FV_FLD_ITEM_24
-0x3F3	FIELD ITEM	Eterna City		PP Up item ball disappeared		FV_FLD_ITEM_25
+0x3F3	_UNUSED	Eterna City		PP Up (unused)		FV_FLD_ITEM_25
 0x3F4	FIELD ITEM	Eterna City		Super Potion item ball disappeared		FV_FLD_ITEM_26
 0x3F5	FIELD ITEM	Route 211		TM12 (Taunt) item ball disappeared		FV_FLD_ITEM_27
 0x3F6	FIELD ITEM	Eterna Forest	Outside	TM82 (Sleep Talk) item ball disappeared		FV_FLD_ITEM_28
@@ -1164,7 +1164,7 @@
 0x48A	FIELD ITEM	Route 222		Honey item ball disappeared		FV_FLD_ITEM_176
 0x48B	FIELD ITEM	Sunyshore City		Thunder Stone item ball disappeared		FV_FLD_ITEM_177
 0x48C	FIELD ITEM	Route 223		Pearl item ball disappeared		FV_FLD_ITEM_178
-0x48D	FIELD ITEM	Route 223		Pearl item ball disappeared		FV_FLD_ITEM_179
+0x48D	_UNUSED	Route 223		Pearl (unused)		FV_FLD_ITEM_179
 0x48E	FIELD ITEM	Route 223		TM18 (Rain Dance) item ball disappeared		FV_FLD_ITEM_180
 0x48F	FIELD ITEM	Victory Road	1F	TM41 (Torment) item ball disappeared		FV_FLD_ITEM_181
 0x490	FIELD ITEM	Victory Road	1F	Full Heal item ball disappeared		FV_FLD_ITEM_182
