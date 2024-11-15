@@ -10,8 +10,8 @@
         readonly uint[] HiddenItemsBlockKeys =
         [
             0x6148F6AC, // Core
-            0xE479EE37,
-            0xE579EFCA,
+            0xE479EE37, // DLC1
+            0xE579EFCA, // DLC2
         ];
 
         protected override void InitFlagsData(SaveFile savFile, string? resData)
@@ -26,8 +26,8 @@
             s_flagsList_res = resData ?? s_flagsList_res ?? ReadFlagsResFile("flags_gen8swsh");
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
-            int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
             int idxHiddenItemsFlagsSection = s_flagsList_res.IndexOf("//\tHidden Items Flags");
+            int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
 
             AssembleList(s_flagsList_res[idxEventFlagsSection..], Src_EventFlags, "Event Flags", []);
             AssembleList(s_flagsList_res[idxHiddenItemsFlagsSection..], Src_HiddenItemsFlags, "Hidden Items Flags", []);
@@ -91,10 +91,10 @@
                                     // Hidden Item data
                                     // [0] - state 0: active
                                     //             1: active (respawned)
-                                    //             2: to be recycled
-                                    //             3: found
-                                    // [1] - ??
-                                    // [2] - ??
+                                    //             2: obtained (will recycle)
+                                    //             3: obtained (permanently)
+                                    // [1] - respawn ratio (random)
+                                    // [2] - item slot (random)
                                     // [3] - always zero (padding?)
 
                                     var flagDetail = new FlagDetail(s);
@@ -105,8 +105,8 @@
                                         value = hiddenItemsBlocks[HiddenItemsBlockKeys[1]][(flagDetail.FlagIdx - 512) * 4];
                                     else if (flagDetail.FlagIdx < 1536)
                                         value = hiddenItemsBlocks[HiddenItemsBlockKeys[2]][(flagDetail.FlagIdx - 1024) * 4];
-                                    
-                                    
+
+
                                     flagDetail.IsSet = value >= 2;
                                     flagDetail.SourceIdx = sourceIdx;
                                     flagsGroup.Flags.Add(flagDetail);
@@ -261,17 +261,20 @@
                                     if (ms1.Position < ms1.Length)
                                     {
                                         writer1.Write(f.IsSet ? (byte)3 : (byte)0);
-                                        ms1.Position += 3;
+                                        writer1.Write((byte)100);
+                                        ms1.Position += 2;
                                     }
                                     else if (ms2.Position < ms2.Length)
                                     {
                                         writer2.Write(f.IsSet ? (byte)3 : (byte)0);
-                                        ms2.Position += 3;
+                                        writer2.Write((byte)100);
+                                        ms2.Position += 2;
                                     }
                                     else if (ms3.Position < ms3.Length)
                                     {
                                         writer3.Write(f.IsSet ? (byte)3 : (byte)0);
-                                        ms3.Position += 3;
+                                        writer3.Write((byte)100);
+                                        ms3.Position += 2;
                                     }
                                 }
                             }
@@ -299,6 +302,18 @@
 
             for (int k = 0; k < HiddenItemsBlockKeys.Length; k++)
             {
+                // Skip DLC1 on older saves
+                if (k > 0 && ((SAV8SWSH)m_savFile).SaveRevision < 1)
+                {
+                    continue;
+                }
+
+                // Skip DLC2 on older saves
+                if (k > 1 && ((SAV8SWSH)m_savFile).SaveRevision < 2)
+                {
+                    continue;
+                }
+
                 var data = savEventBlocks.GetBlockSafe(HiddenItemsBlockKeys[k]).Data;
                 if (data.Length > 0)
                 {
