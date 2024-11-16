@@ -112,10 +112,6 @@
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
-            //TODO: temporarily support July PKHeX release that still uses old langCodes
-            if (langCode == "zh")
-                langCode = "zh-Hans";
-
             string resName = $"lang_{langCode}.txt";
 
             // Try outside file first
