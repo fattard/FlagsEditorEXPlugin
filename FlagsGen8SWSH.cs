@@ -101,10 +101,12 @@
                                     byte value = 0;
                                     if (flagDetail.FlagIdx < 512)
                                         value = hiddenItemsBlocks[HiddenItemsBlockKeys[0]][flagDetail.FlagIdx * 4];
-                                    else if (flagDetail.FlagIdx < 1024)
+                                    else if (flagDetail.FlagIdx < 1024 && hiddenItemsBlocks.Count > 1)
                                         value = hiddenItemsBlocks[HiddenItemsBlockKeys[1]][(flagDetail.FlagIdx - 512) * 4];
-                                    else if (flagDetail.FlagIdx < 1536)
+                                    else if (flagDetail.FlagIdx < 1536 && hiddenItemsBlocks.Count > 2)
                                         value = hiddenItemsBlocks[HiddenItemsBlockKeys[2]][(flagDetail.FlagIdx - 1024) * 4];
+                                    else
+                                        break;
 
 
                                     flagDetail.IsSet = value >= 2;
