@@ -122,6 +122,13 @@
                 } while (s != null);
 
                 m_flagsGroupsList.Add(flagsGroup);
+
+#if DEBUG
+                if (sourceIdx == Src_HiddenItemsFlags)
+                {
+                    DumpHiddenItemsData("kHiddenItems_status.txt", hiddenItemsBlocks!, HiddenItemsBlockKeys, m_flagsGroupsList[Src_HiddenItemsFlags]);
+                }
+#endif
             }
 
         }
@@ -168,6 +175,45 @@
                 } while (s != null);
             }
         }
+
+#if DEBUG
+        static void DumpHiddenItemsData(string filePath, Dictionary<ulong, byte[]> hiddenItemsBlocks, uint[] hiddenItemsBlocksKeys, FlagsGroup hiddenItemsFlagsGroup)
+        {
+            StringBuilder sb = new StringBuilder(512 * 1024);
+            foreach (var f in hiddenItemsFlagsGroup.Flags)
+            {
+                if (f.FlagTypeVal == EventFlagType.HiddenItem)
+                {
+                    byte v1, v2, v3 = 0;
+
+                    if (f.FlagIdx < 512)
+                    {
+                        v1 = hiddenItemsBlocks[hiddenItemsBlocksKeys[0]][f.FlagIdx * 4];
+                        v2 = hiddenItemsBlocks[hiddenItemsBlocksKeys[0]][(f.FlagIdx * 4) + 1];
+                        v3 = hiddenItemsBlocks[hiddenItemsBlocksKeys[0]][(f.FlagIdx * 4) + 2];
+                    }
+                    else if (f.FlagIdx < 1024 && hiddenItemsBlocks.Count > 1)
+                    {
+                        v1 = hiddenItemsBlocks[hiddenItemsBlocksKeys[1]][(f.FlagIdx - 512) * 4];
+                        v2 = hiddenItemsBlocks[hiddenItemsBlocksKeys[1]][((f.FlagIdx - 512) * 4) + 1];
+                        v3 = hiddenItemsBlocks[hiddenItemsBlocksKeys[1]][((f.FlagIdx - 512) * 4) + 2];
+                    }
+                    else if (f.FlagIdx < 1536 && hiddenItemsBlocks.Count > 2)
+                    {
+                        v1 = hiddenItemsBlocks[hiddenItemsBlocksKeys[2]][(f.FlagIdx - 1024) * 4];
+                        v2 = hiddenItemsBlocks[hiddenItemsBlocksKeys[2]][((f.FlagIdx - 1024) * 4) + 1];
+                        v3 = hiddenItemsBlocks[hiddenItemsBlocksKeys[2]][((f.FlagIdx - 1024) * 4) + 2];
+                    }
+                    else
+                        continue;
+
+                    sb.AppendFormat("0x{0:X4}\t{1}\t=>\t{2:D2} {3:D2} {4:D2}\t{5}\r\n", f.FlagIdx, f.IsSet, v1, v2, v3, f.ToString());
+                }
+            }
+
+            System.IO.File.WriteAllText($"{filePath}", sb.ToString());
+        }
+#endif
 
         public override bool SupportsBulkEditingFlags(EventFlagType flagType) => flagType switch
         {
@@ -260,22 +306,22 @@
                             {
                                 foreach (var f in fGroup.Flags)
                                 {
-                                    if (ms1.Position < ms1.Length)
+                                    if (f.FlagIdx < 512 && ms1.Position < ms1.Length)
                                     {
-                                        writer1.Write(f.IsSet ? (byte)3 : (byte)0);
-                                        writer1.Write((byte)100);
+                                        writer1.Write(f.IsSet ? (byte)2 : (byte)0);
+                                        writer1.Write(f.IsSet ? (byte)0 : (byte)100);
                                         ms1.Position += 2;
                                     }
-                                    else if (ms2.Position < ms2.Length)
+                                    else if (f.FlagIdx < 1024 && ms2.Position < ms2.Length)
                                     {
-                                        writer2.Write(f.IsSet ? (byte)3 : (byte)0);
-                                        writer2.Write((byte)100);
+                                        writer2.Write(f.IsSet ? (byte)2 : (byte)0);
+                                        writer2.Write(f.IsSet ? (byte)0 : (byte)100);
                                         ms2.Position += 2;
                                     }
-                                    else if (ms3.Position < ms3.Length)
+                                    else if (f.FlagIdx < 1536 && ms3.Position < ms3.Length)
                                     {
-                                        writer3.Write(f.IsSet ? (byte)3 : (byte)0);
-                                        writer3.Write((byte)100);
+                                        writer3.Write(f.IsSet ? (byte)2 : (byte)0);
+                                        writer3.Write(f.IsSet ? (byte)0 : (byte)100);
                                         ms3.Position += 2;
                                     }
                                 }
