@@ -37,6 +37,7 @@
             public string DetailMsg { get; private set; }
             public string InternalName { get; private set; }
             public bool IsSet { get; set; }
+            public bool OriginalState { get; set; }
 
 
             public FlagDetail(string detailEntry)
@@ -57,6 +58,7 @@
                 DetailMsg = info[4];
                 InternalName = info[6];
                 IsSet = false;
+                OriginalState = false;
                 SourceIdx = 0;
             }
 
@@ -68,6 +70,7 @@
                 DetailMsg = detailMsg;
                 InternalName = internalName;
                 IsSet = false;
+                OriginalState = false;
                 SourceIdx = source;
             }
 
@@ -306,6 +309,7 @@
 
                         var flagDetail = new FlagDetail(s);
                         flagDetail.IsSet = flagValues[flagDetail.FlagIdx];
+                        flagDetail.OriginalState = flagDetail.IsSet;
                         flagDetail.SourceIdx = sourceIdx;
                         flagsGroup.Flags.Add(flagDetail);
                     }

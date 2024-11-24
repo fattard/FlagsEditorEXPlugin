@@ -57,6 +57,7 @@
                         if (savEventBlocks.HasBlock((uint)flagDetail.FlagIdx))
                         {
                             flagDetail.IsSet = (savEventBlocks.GetBlockSafe((uint)flagDetail.FlagIdx).Type == SCTypeCode.Bool2);
+                            flagDetail.OriginalState = flagDetail.IsSet;
                             flagDetail.SourceIdx = sourceIdx;
                             flagsGroup.Flags.Add(flagDetail);
                         }

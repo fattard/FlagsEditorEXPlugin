@@ -75,6 +75,7 @@
                                     if (savEventBlocks.HasBlock((uint)flagDetail.FlagIdx))
                                     {
                                         flagDetail.IsSet = (savEventBlocks.GetBlockSafe((uint)flagDetail.FlagIdx).Type == SCTypeCode.Bool2);
+                                        flagDetail.OriginalState = flagDetail.IsSet;
                                         flagDetail.SourceIdx = sourceIdx;
                                         flagsGroup.Flags.Add(flagDetail);
                                     }
@@ -110,6 +111,7 @@
 
 
                                     flagDetail.IsSet = value >= 2;
+                                    flagDetail.OriginalState = flagDetail.IsSet;
                                     flagDetail.SourceIdx = sourceIdx;
                                     flagsGroup.Flags.Add(flagDetail);
                                 }
@@ -308,24 +310,45 @@
                                 {
                                     if (f.FlagIdx < 512 && ms1.Position < ms1.Length)
                                     {
-                                        writer1.Write(f.IsSet ? (byte)2 : (byte)0);
-                                        writer1.Write(f.IsSet ? (byte)0 : (byte)100);
-                                        writer1.Write(f.IsSet ? (byte)0 : (byte)10);
-                                        ms1.Position += 1;
+                                        if (f.IsSet != f.OriginalState)
+                                        {
+                                            writer1.Write(f.IsSet ? (byte)2 : (byte)0);
+                                            writer1.Write(f.IsSet ? (byte)0 : (byte)100);
+                                            writer1.Write(f.IsSet ? (byte)0 : (byte)10);
+                                            ms1.Position += 1;
+                                        }
+                                        else // Skip if unmodified
+                                        {
+                                            ms1.Position += 4;
+                                        }
                                     }
                                     else if (f.FlagIdx < 1024 && ms2.Position < ms2.Length)
                                     {
-                                        writer2.Write(f.IsSet ? (byte)2 : (byte)0);
-                                        writer2.Write(f.IsSet ? (byte)0 : (byte)100);
-                                        writer2.Write(f.IsSet ? (byte)0 : (byte)10);
-                                        ms2.Position += 1;
+                                        if (f.IsSet != f.OriginalState)
+                                        {
+                                            writer2.Write(f.IsSet ? (byte)2 : (byte)0);
+                                            writer2.Write(f.IsSet ? (byte)0 : (byte)100);
+                                            writer2.Write(f.IsSet ? (byte)0 : (byte)10);
+                                            ms2.Position += 1;
+                                        }
+                                        else // Skip if unmodified
+                                        {
+                                            ms2.Position += 4;
+                                        }
                                     }
                                     else if (f.FlagIdx < 1536 && ms3.Position < ms3.Length)
                                     {
-                                        writer3.Write(f.IsSet ? (byte)2 : (byte)0);
-                                        writer3.Write(f.IsSet ? (byte)0 : (byte)100);
-                                        writer3.Write(f.IsSet ? (byte)0 : (byte)10);
-                                        ms3.Position += 1;
+                                        if (f.IsSet != f.OriginalState)
+                                        {
+                                            writer3.Write(f.IsSet ? (byte)2 : (byte)0);
+                                            writer3.Write(f.IsSet ? (byte)0 : (byte)100);
+                                            writer3.Write(f.IsSet ? (byte)0 : (byte)10);
+                                            ms3.Position += 1;
+                                        }
+                                        else // Skip if unmodified
+                                        {
+                                            ms3.Position += 4;
+                                        }
                                     }
                                 }
                             }
