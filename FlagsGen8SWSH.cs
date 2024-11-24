@@ -10,8 +10,8 @@
         readonly uint[] HiddenItemsBlockKeys =
         [
             0x6148F6AC, // Core
-            0xE479EE37, // DLC1
-            0xE579EFCA, // DLC2
+            0xE479EE37, // Extended 1
+            0xE579EFCA, // Extended 2
         ];
 
         protected override void InitFlagsData(SaveFile savFile, string? resData)
@@ -310,19 +310,22 @@
                                     {
                                         writer1.Write(f.IsSet ? (byte)2 : (byte)0);
                                         writer1.Write(f.IsSet ? (byte)0 : (byte)100);
-                                        ms1.Position += 2;
+                                        writer1.Write(f.IsSet ? (byte)0 : (byte)10);
+                                        ms1.Position += 1;
                                     }
                                     else if (f.FlagIdx < 1024 && ms2.Position < ms2.Length)
                                     {
                                         writer2.Write(f.IsSet ? (byte)2 : (byte)0);
                                         writer2.Write(f.IsSet ? (byte)0 : (byte)100);
-                                        ms2.Position += 2;
+                                        writer2.Write(f.IsSet ? (byte)0 : (byte)10);
+                                        ms2.Position += 1;
                                     }
                                     else if (f.FlagIdx < 1536 && ms3.Position < ms3.Length)
                                     {
                                         writer3.Write(f.IsSet ? (byte)2 : (byte)0);
                                         writer3.Write(f.IsSet ? (byte)0 : (byte)100);
-                                        ms3.Position += 2;
+                                        writer3.Write(f.IsSet ? (byte)0 : (byte)10);
+                                        ms3.Position += 1;
                                     }
                                 }
                             }
