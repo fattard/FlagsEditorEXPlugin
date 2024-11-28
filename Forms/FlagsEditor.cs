@@ -188,11 +188,12 @@
 
             List<DataGridViewRow> rowsToAdd = [];
 
-            string searchTerm = searchTermBox.Text.ToUpperInvariant();
+            bool isNegatedSearch = searchTermBox.Text.StartsWith("^");
+            string searchTerm = searchTermBox.Text.ToUpperInvariant().Replace("^", "");
             ulong? searchIdx;
             try
             {
-                searchIdx = FlagsOrganizer.ParseDecOrHex(searchTermBox.Text);
+                searchIdx = FlagsOrganizer.ParseDecOrHex(searchTerm);
             }
             catch (Exception)
             {
@@ -216,9 +217,16 @@
                     continue;
                 }
 
-                if (filterBySearch && ((!searchIdx.HasValue || searchIdx.Value != f.FlagIdx) && !f.ToString().Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase)))
+                if (filterBySearch)
                 {
-                    continue;
+                    if (!isNegatedSearch && ((!searchIdx.HasValue || searchIdx.Value != f.FlagIdx) && !f.ToString().Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase)))
+                    {
+                        continue;
+                    }
+                    else if (isNegatedSearch && ((searchIdx.HasValue && searchIdx.Value == f.FlagIdx) || f.ToString().Contains(searchTerm, StringComparison.InvariantCultureIgnoreCase)))
+                    {
+                        continue;
+                    }
                 }
 
                 var curRow = new DataGridViewRow();
