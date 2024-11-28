@@ -1,4 +1,9 @@
 # FlagsEditorEX(pert) Plugin
+
+<div>
+  <span>English</span> / <a href="README-ko.md">한국어</a>
+</div>
+<br>
 This is a [PKHeX](https://github.com/kwsch/PKHeX) plugin for advanced users.
 It allows you to edit all sorts of Flags and Event Work data from save files.
 
