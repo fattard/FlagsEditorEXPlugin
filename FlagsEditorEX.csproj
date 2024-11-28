@@ -51,6 +51,7 @@
     <EmbeddedResource Include="flagslist\flags_gen9sv_en.txt" />
     <EmbeddedResource Include="localization\lang_br.txt" />
     <EmbeddedResource Include="localization\lang_en.txt" />
+    <EmbeddedResource Include="localization\lang_ko.txt" />
     <EmbeddedResource Include="localization\lang_zh-Hans.txt" />
   </ItemGroup>
   <ItemGroup>
