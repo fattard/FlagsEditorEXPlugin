@@ -48,5 +48,17 @@
         {
             return LocalizedStrings.Find($"EventFlagType.{flagType}", flagType.ToString());
         }
+
+        public static byte[] AsByteArray(this PKHeX.Core.SCBlock block)
+        {
+            if (System.Runtime.InteropServices.MemoryMarshal.TryGetArray(block.Raw, out ArraySegment<byte> segment))
+            {
+                return segment.Array!;
+            }
+            else
+            {
+                throw new System.InvalidOperationException("Memory is not backed by an array.");
+            }
+        }
     }
 }

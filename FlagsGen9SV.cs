@@ -117,7 +117,7 @@
                                 {
                                     if (listOfStatuses is null)
                                     {
-                                        listOfStatuses = RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0x2482AD60).Data, emptyKey: 0x0000000000000000);
+                                        listOfStatuses = RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0x2482AD60).AsByteArray(), emptyKey: 0x0000000000000000);
 #if DEBUG
                                         DumpListOfStatuses("kFieldItems_status.txt", listOfStatuses);
 #endif
@@ -141,9 +141,9 @@
                                         listOfStatuses = new Dictionary<ulong, bool>(400);
 
                                         // Trainer statuses tracker (base+)
-                                        var trStatuses = RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0xF018C4AC).Data, emptyKey: 0xCBF29CE484222645);
+                                        var trStatuses = RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0xF018C4AC).AsByteArray(), emptyKey: 0xCBF29CE484222645);
                                         // Trainer statuses tracker (v2.0.2+)
-                                        var trStatuses2 = RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0x28E475DE).Data, emptyKey: 0xCBF29CE484222645);
+                                        var trStatuses2 = RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0x28E475DE).AsByteArray(), emptyKey: 0xCBF29CE484222645);
 
                                         foreach (var _ in trStatuses)
                                             listOfStatuses.Add(_.Key, _.Value);
@@ -443,7 +443,7 @@
                                     continue;
                                 }
 
-                                var data = savEventBlocks.GetBlockSafe(HiddenItemsBlockKeys[k]).Data;
+                                var data = savEventBlocks.GetBlockSafe(HiddenItemsBlockKeys[k]).AsByteArray();
                                 if (data.Length > 0)
                                 {
                                     Array.Fill<byte>(data, value ? (byte)0x00 : (byte)0x80);
@@ -512,7 +512,7 @@
 
                 case Src_FieldItemFlags:
                     {
-                        var bdata = savEventBlocks.GetBlockSafe(0x2482AD60).Data;
+                        var bdata = savEventBlocks.GetBlockSafe(0x2482AD60).AsByteArray();
                         using (var ms = new System.IO.MemoryStream(bdata))
                         {
                             using (var writer = new System.IO.BinaryWriter(ms))
@@ -532,8 +532,8 @@
 
                 case Src_TrainerFlags:
                     {
-                        var bdata1 = savEventBlocks.GetBlockSafe(0xF018C4AC).Data;
-                        var bdata2 = savEventBlocks.GetBlockSafe(0x28E475DE).Data;
+                        var bdata1 = savEventBlocks.GetBlockSafe(0xF018C4AC).AsByteArray();
+                        var bdata2 = savEventBlocks.GetBlockSafe(0x28E475DE).AsByteArray();
 
                         using (var ms1 = new System.IO.MemoryStream(bdata1))
                         using (var ms2 = new System.IO.MemoryStream(bdata2))
@@ -593,7 +593,7 @@
 
             foreach (var b in editedBlocks)
             {
-                var data = savEventBlocks.GetBlockSafe((uint)b.Key).Data;
+                var data = savEventBlocks.GetBlockSafe((uint)b.Key).AsByteArray();
                 Array.Copy(b.Value, data, data.Length);
             }
         }
@@ -618,7 +618,7 @@
                     continue;
                 }
 
-                var data = savEventBlocks.GetBlockSafe(HiddenItemsBlockKeys[k]).Data;
+                var data = savEventBlocks.GetBlockSafe(HiddenItemsBlockKeys[k]).AsByteArray();
                 if (data.Length > 0)
                 {
                     byte[] dataCopy = new byte[data.Length];

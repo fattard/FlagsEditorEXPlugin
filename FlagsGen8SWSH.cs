@@ -293,9 +293,9 @@
 
                 case Src_HiddenItemsFlags:
                     {
-                        var bdata1 = savEventBlocks.GetBlockSafe(0x6148F6AC).Data;
-                        var bdata2 = savEventBlocks.GetBlockSafe(0xE479EE37).Data;
-                        var bdata3 = savEventBlocks.GetBlockSafe(0xE579EFCA).Data;
+                        var bdata1 = savEventBlocks.GetBlockSafe(0x6148F6AC).AsByteArray();
+                        var bdata2 = savEventBlocks.GetBlockSafe(0xE479EE37).AsByteArray();
+                        var bdata3 = savEventBlocks.GetBlockSafe(0xE579EFCA).AsByteArray();
 
 
                         using (var ms1 = new System.IO.MemoryStream(bdata1))
@@ -388,7 +388,7 @@
                     continue;
                 }
 
-                var data = savEventBlocks.GetBlockSafe(HiddenItemsBlockKeys[k]).Data;
+                var data = savEventBlocks.GetBlockSafe(HiddenItemsBlockKeys[k]).AsByteArray();
                 if (data.Length > 0)
                 {
                     byte[] dataCopy = new byte[data.Length];
