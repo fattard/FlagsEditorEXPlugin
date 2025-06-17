@@ -53,6 +53,35 @@
             _ => false
         };
 
+        public override EditableEventInfo[] GetSpecialEditableEvents()
+        {
+            int idx = 0;
+            return
+            [
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGenLGPE.specialEvtBtn_{idx}", "Bypass Fuchsia Gym requirement")),
+            ];
+        }
+
+        public override void ProcessSpecialEventEdit(EditableEventInfo eventInfo)
+        {
+            int idx;
+
+            switch (eventInfo.Index)
+            {
+                case 0: // Bypass Fuchsia Gym 50 species caught requirement
+                    {
+                        idx = 0x5D3; // t008gym01_tr0012_poison
+                        m_eventWorkData!.SetFlag(idx, false);
+                        m_flagsGroupsList[0].Flags[idx].IsSet = false;
+
+                        idx = 0x0B0; // WK_SCENE_MAIN_M_KYO
+                        m_eventWorkData!.SetWork(idx, 20);
+                        m_eventWorkList[idx].Value = 20;
+                    }
+                    break;
+            }
+        }
+
         public override void BulkMarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: true);

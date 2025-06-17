@@ -1490,7 +1490,7 @@
 0x5D0	EVENT	Team Rocked Hideout	B4F			t007r0804_pm0104_karakara
 0x5D1	EVENT	Team Rocked Hideout	B4F			t007r0804_pm0052_nyarth
 0x5D2	EVENT	Team Rocked Hideout	B4F			t007r0804_ball_mons_0
-0x5D3	EVENT					t008gym01_tr0012_poison
+0x5D3	EVENT	Fuchsia City	Gym	Leader Koga model disappeared		t008gym01_tr0012_poison
 0x5D4	EVENT					t008gym01_tr0064_oldm
 0x5D5	EVENT					t008gym01_tr0064_oldm_0
 0x5D6	EVENT					t008gym01_tr0066_fat
@@ -4276,7 +4276,7 @@
 0x0AD						WK_SCENE_MAIN_M_MATIS
 0x0AE						WK_SCENE_MAIN_M_ERIKA
 0x0AF						WK_SCENE_MAIN_M_NATSUME
-0x0B0						WK_SCENE_MAIN_M_KYO
+0x0B0		Fuchsia City	Gym	Gym access requirement check	1:First explanation,10:Requirement check is active,20:Requirement check fulfilled	WK_SCENE_MAIN_M_KYO
 0x0B1						WK_SCENE_SUB_032
 0x0B2						WK_SCENE_NIBI_POS_EVENT
 0x0B3						WK_SCENE_STOPPER_MAIN

@@ -110,5 +110,10 @@ SpecialEditsGen2.specialEvtBtn_6=Unblock Mt. Silver access
 SpecialEditsGen2.specialEvtBtn_7=Unblock Tin Tower stairs
 SpecialEditsGen2.specialEvtBtn_8=Reset Celebi event
 
+SpecialEditsGenLGPE.specialEvtBtn_1=Bypass Fuchsia Gym requirement
+
+SpecialEditsGenSV.specialEvtBtn_1=Unlock Kitakami map access
+SpecialEditsGenSV.specialEvtBtn_2=Unlock Blueberry map access
+
 MiscEdits.miscEvtBtn_BlockDataEditor=Block Data Editor
 MiscEditsSV.miscEvtBtn_1=Daily Hidden Items Editor
