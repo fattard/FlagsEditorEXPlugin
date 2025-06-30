@@ -1022,9 +1022,9 @@
 0x3FC	FIELD ITEM	Wayward Cave	1F	TM32 (Double Team) item ball disappeared		FV_FLD_ITEM_34
 0x3FD	FIELD ITEM	Wayward Cave	1F	Rare Candy item ball disappeared		FV_FLD_ITEM_35
 0x3FE	FIELD ITEM	Wayward Cave	1F	Escape Rope item ball disappeared		FV_FLD_ITEM_36
-0x3FF	FIELD ITEM	Spear Pillar		Adamant Orb item ball disappeared		FV_FLD_ITEM_37
+0x3FF	FIELD ITEM	Spear Pillar		Adamant Orb (D) item ball disappeared		FV_FLD_ITEM_37
 0x400	FIELD ITEM	Wayward Cave	1F	TM26 (Earthquake) item ball disappeared		FV_FLD_ITEM_38
-0x401	FIELD ITEM	Spear Pillar		Lustrous Orb item ball disappeared		FV_FLD_ITEM_39
+0x401	FIELD ITEM	Spear Pillar		Lustrous Orb (P) item ball disappeared		FV_FLD_ITEM_39
 0x402	FIELD ITEM	Wayward Cave	B1F	Max Ether item ball disappeared		FV_FLD_ITEM_40
 0x403	FIELD ITEM	Wayward Cave	B1F	Revive item ball disappeared		FV_FLD_ITEM_41
 0x404	FIELD ITEM	Wayward Cave	B1F	Grip Claw item ball disappeared		FV_FLD_ITEM_42

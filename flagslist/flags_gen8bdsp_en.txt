@@ -707,7 +707,7 @@
 0x2C1	HIDDEN ITEM	Iron Island	B2F 2	Found Full Restore		FT_DROP_ITEM_102
 0x2C2	HIDDEN ITEM	Iron Island	B2F 2	Found Revive		FT_DROP_ITEM_103
 0x2C3	HIDDEN ITEM	Iron Island	B2F 2	Found Iron Plate		FT_DROP_ITEM_104
-0x2C4	HIDDEN ITEM			[unused?]		FT_DROP_ITEM_105
+0x2C4	HIDDEN ITEM	Lake Valor	Dried	Found HP Up		FT_DROP_ITEM_105
 0x2C5	HIDDEN ITEM	Floarama Meadow		Found Honey		FT_DROP_ITEM_106
 0x2C6	HIDDEN ITEM	Floarama Meadow		Found Honey		FT_DROP_ITEM_107
 0x2C7	HIDDEN ITEM	Floarama Meadow		Found Hyper Potion		FT_DROP_ITEM_108
