@@ -3444,7 +3444,7 @@
 0x06D	_UNUSED					
 0x06E	_UNUSED					
 0x06F	_UNUSED					
-0x070				Hoenn Starters	1:Not Recieved 	WK_SCENE_T101
+0x070				Hoenn Starters	1:Not Recieved	WK_SCENE_T101
 0x071						WK_SCENE_T101R0101
 0x072						WK_SCENE_T101R0102
 0x073						WK_SCENE_T101R0201
@@ -3517,8 +3517,8 @@
 0x0B6						WK_SCENE_D111R0104
 0x0B7						WK_SCENE_D111R0105
 0x0B8						WK_SCENE_SPTRUCK
-0x0B9		Team Aqua Hideout (OR)		Horde Movement 	0:Pre-Battle,1:Horde defeated	WK_SCENE_D120R0104
-0x0BA		Team Magma Hideout (AS)		Horde Movement 	0:Pre-Battle,1:Horde defeated	WK_SCENE_D109R0104
+0x0B9		Team Aqua Hideout (OR)		Horde Movement	0:Pre-Battle,1:Horde defeated	WK_SCENE_D120R0104
+0x0BA		Team Magma Hideout (AS)		Horde Movement	0:Pre-Battle,1:Horde defeated	WK_SCENE_D109R0104
 0x0BB						WK_SCENE_C108A
 0x0BC						WK_SCENE_C108B
 0x0BD						WK_SCENE_D112R0101
