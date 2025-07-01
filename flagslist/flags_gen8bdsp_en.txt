@@ -883,7 +883,7 @@
 0x371	FIELD ITEM	Old Chateau	2F Room	Old Gateau item ball disappeared		FV_FLD_ITEM_22
 0x372	FIELD ITEM	Route 205		Potion item ball disappeared		FV_FLD_ITEM_23
 0x373	FIELD ITEM	Eterna City		TM46 (Thief) item ball disappeared		FV_FLD_ITEM_24
-0x374	FIELD ITEM			[unused?]		FV_FLD_ITEM_25
+0x374	_UNUSED					FV_FLD_ITEM_25
 0x375	FIELD ITEM	Eterna City		Super Potion item ball disappeared		FV_FLD_ITEM_26
 0x376	FIELD ITEM	Route 211		TM12 (Taunt) item ball disappeared		FV_FLD_ITEM_27
 0x377	FIELD ITEM	Eterna Forest	Outside	TM82 (Sleep Talk) item ball disappeared		FV_FLD_ITEM_28
@@ -1037,7 +1037,7 @@
 0x40B	FIELD ITEM	Route 222		Honey item ball disappeared		FV_FLD_ITEM_176
 0x40C	FIELD ITEM	Sunyshore City		Thunder Stone item ball disappeared		FV_FLD_ITEM_177
 0x40D	FIELD ITEM	Route 223		Pearl item ball disappeared		FV_FLD_ITEM_178
-0x40E	FIELD ITEM			[unused?]		FV_FLD_ITEM_179
+0x40E	_UNUSED					FV_FLD_ITEM_179
 0x40F	FIELD ITEM	Route 223		TM18 (Rain Dance) item ball disappeared		FV_FLD_ITEM_180
 0x410	FIELD ITEM	Victory Road	1F	TM41 (Torment) item ball disappeared		FV_FLD_ITEM_181
 0x411	FIELD ITEM	Victory Road	1F	Full Heal item ball disappeared		FV_FLD_ITEM_182
@@ -1113,7 +1113,7 @@
 0x457	FIELD ITEM	Valley Windworks		Potion item ball disappeared		FV_FLD_ITEM_252
 0x458	FIELD ITEM	Route 205		Super Potion item ball disappeared		FV_FLD_ITEM_253
 0x459	FIELD ITEM	Route 204		Awakening item ball disappeared		FV_FLD_ITEM_254
-0x45A	FIELD ITEM			[unused?]		FV_FLD_ITEM_255
+0x45A	_UNUSED					FV_FLD_ITEM_255
 0x45B	EVENT					TMFLG_SEED_PRESENT
 0x45C	ITEM GIFT					TMFLG_T05PC0101_ITEM_GET
 0x45D	EVENT					TMFLG_URANIWA_ENCOUNT
@@ -1454,41 +1454,41 @@
 0x5AC	EVENT					FE_SEE_ANNOUN_FORM_Z
 0x5AD	EVENT					FE_SEE_ANNOUN_FORM_SP1
 0x5AE	EVENT					FE_SEE_ANNOUN_FORM_SP2
-0x5AF	FIELD ITEM			[unused?]		FV_FLD_ITEM_257
-0x5B0	FIELD ITEM			[unused?]		FV_FLD_ITEM_258
-0x5B1	FIELD ITEM			[unused?]		FV_FLD_ITEM_259
-0x5B2	FIELD ITEM			[unused?]		FV_FLD_ITEM_260
-0x5B3	FIELD ITEM			[unused?]		FV_FLD_ITEM_261
-0x5B4	FIELD ITEM			[unused?]		FV_FLD_ITEM_262
-0x5B5	FIELD ITEM			[unused?]		FV_FLD_ITEM_263
-0x5B6	FIELD ITEM			[unused?]		FV_FLD_ITEM_264
-0x5B7	FIELD ITEM			[unused?]		FV_FLD_ITEM_265
-0x5B8	FIELD ITEM			[unused?]		FV_FLD_ITEM_266
-0x5B9	FIELD ITEM			[unused?]		FV_FLD_ITEM_267
-0x5BA	FIELD ITEM			[unused?]		FV_FLD_ITEM_268
-0x5BB	FIELD ITEM			[unused?]		FV_FLD_ITEM_269
-0x5BC	FIELD ITEM			[unused?]		FV_FLD_ITEM_270
-0x5BD	FIELD ITEM			[unused?]		FV_FLD_ITEM_271
-0x5BE	FIELD ITEM			[unused?]		FV_FLD_ITEM_272
-0x5BF	FIELD ITEM			[unused?]		FV_FLD_ITEM_273
-0x5C0	FIELD ITEM			[unused?]		FV_FLD_ITEM_274
-0x5C1	FIELD ITEM			[unused?]		FV_FLD_ITEM_275
-0x5C2	FIELD ITEM			[unused?]		FV_FLD_ITEM_276
-0x5C3	FIELD ITEM			[unused?]		FV_FLD_ITEM_277
-0x5C4	FIELD ITEM			[unused?]		FV_FLD_ITEM_278
-0x5C5	FIELD ITEM			[unused?]		FV_FLD_ITEM_279
-0x5C6	FIELD ITEM			[unused?]		FV_FLD_ITEM_280
-0x5C7	FIELD ITEM			[unused?]		FV_FLD_ITEM_281
-0x5C8	FIELD ITEM			[unused?]		FV_FLD_ITEM_282
-0x5C9	FIELD ITEM			[unused?]		FV_FLD_ITEM_283
-0x5CA	FIELD ITEM			[unused?]		FV_FLD_ITEM_284
-0x5CB	FIELD ITEM			[unused?]		FV_FLD_ITEM_285
-0x5CC	FIELD ITEM			[unused?]		FV_FLD_ITEM_286
-0x5CD	FIELD ITEM			[unused?]		FV_FLD_ITEM_287
-0x5CE	FIELD ITEM			[unused?]		FV_FLD_ITEM_288
-0x5CF	FIELD ITEM			[unused?]		FV_FLD_ITEM_289
-0x5D0	FIELD ITEM			[unused?]		FV_FLD_ITEM_290
-0x5D1	FIELD ITEM			[unused?]		FV_FLD_ITEM_291
+0x5AF	FIELD ITEM	Grand Underground	Spacious Cave	Rare Candy item ball disappeared		FV_FLD_ITEM_257
+0x5B0	FIELD ITEM	Grand Underground	Riverbank Cave	Big Mushroom item ball disappeared		FV_FLD_ITEM_258
+0x5B1	FIELD ITEM	Grand Underground	Fountainspring Cave	TM87 (Swagger) item ball disappeared		FV_FLD_ITEM_259
+0x5B2	FIELD ITEM	Grand Underground	Still-Water Cavern	TM09 (Bullet Seed) item ball disappeared		FV_FLD_ITEM_260
+0x5B3	FIELD ITEM	Grand Underground	Still-Water Cavern	Big Mushroom item ball disappeared		FV_FLD_ITEM_261
+0x5B4	FIELD ITEM	Grand Underground	Rocky Cave	TM04 (Calm Mind) item ball disappeared		FV_FLD_ITEM_262
+0x5B5	FIELD ITEM	Grand Underground	Rocky Cave	TM37 (Sandstorm) item ball disappeared		FV_FLD_ITEM_263
+0x5B6	FIELD ITEM	Grand Underground	Rocky Cave	PP Up item ball disappeared		FV_FLD_ITEM_264
+0x5B7	FIELD ITEM	Grand Underground	Sandsear Cave	Charcoal item ball disappeared		FV_FLD_ITEM_265
+0x5B8	FIELD ITEM	Grand Underground	Rocky Cave	Nugget item ball disappeared		FV_FLD_ITEM_266
+0x5B9	FIELD ITEM	Grand Underground	Big Bluff Cavern	TM34 (Shock Wave) item ball disappeared		FV_FLD_ITEM_267
+0x5BA	FIELD ITEM	Grand Underground	Grassland Cave	TM62 (Bug Buzz) item ball disappeared		FV_FLD_ITEM_268
+0x5BB	FIELD ITEM	Grand Underground	Swampy Cave	TM01 (Focus Punch) item ball disappeared		FV_FLD_ITEM_269
+0x5BC	FIELD ITEM	Grand Underground	Spacious Cave	Rare Candy item ball disappeared		FV_FLD_ITEM_270
+0x5BD	FIELD ITEM	Grand Underground	Swampy Cave	TM06 (Toxic) item ball disappeared		FV_FLD_ITEM_271
+0x5BE	FIELD ITEM	Grand Underground	Sunlit Cavern	TM81 (X-Scissor) item ball disappeared		FV_FLD_ITEM_272
+0x5BF	FIELD ITEM	Grand Underground	Sunlit Cavern	PP Up item ball disappeared		FV_FLD_ITEM_273
+0x5C0	FIELD ITEM	Grand Underground	Stargleam Cavern	TM59 (Dragon Pulse) item ball disappeared		FV_FLD_ITEM_274
+0x5C1	FIELD ITEM	Grand Underground	Stargleam Cavern	Nugget item ball disappeared		FV_FLD_ITEM_275
+0x5C2	FIELD ITEM	Grand Underground	Dazzling Cave	TM45 (Attract) item ball disappeared		FV_FLD_ITEM_276
+0x5C3	FIELD ITEM	Grand Underground	Icy Cave	Lucky Egg item ball disappeared		FV_FLD_ITEM_277
+0x5C4	FIELD ITEM	Grand Underground	Whiteout Cave	Sharp Beak item ball disappeared		FV_FLD_ITEM_278
+0x5C5	FIELD ITEM	Grand Underground	Whiteout Cave	Dawn Stone item ball disappeared		FV_FLD_ITEM_279
+0x5C6	FIELD ITEM	Grand Underground	Glacial Cavern	Leftovers item ball disappeared		FV_FLD_ITEM_280
+0x5C7	FIELD ITEM	Grand Underground	Glacial Cavern	TM80 (Rock Slide) item ball disappeared		FV_FLD_ITEM_281
+0x5C8	FIELD ITEM	Grand Underground	Spacious Cave	PP Max item ball disappeared		FV_FLD_ITEM_282
+0x5C9	FIELD ITEM	Grand Underground	Rocky Cave	TM39 (Rock Tomb) item ball disappeared		FV_FLD_ITEM_283
+0x5CA	FIELD ITEM	Grand Underground	Sandsear Cave	Dragon Fang item ball disappeared		FV_FLD_ITEM_284
+0x5CB	FIELD ITEM	Grand Underground	Bogsunk Cavern	TM19 (Giga Drain) item ball disappeared		FV_FLD_ITEM_285
+0x5CC	FIELD ITEM	Grand Underground	Bogsunk Cavern	Dusk Stone item ball disappeared		FV_FLD_ITEM_286
+0x5CD	FIELD ITEM	Grand Underground	Dazzling Cave	Twisted Spoon item ball disappeared		FV_FLD_ITEM_287
+0x5CE	FIELD ITEM	Grand Underground	Spacious Cave	Shiny Stone item ball disappeared		FV_FLD_ITEM_288
+0x5CF	FIELD ITEM	Grand Underground	Volcanic Cave	TM49 (Scald) item ball disappeared		FV_FLD_ITEM_289
+0x5D0	FIELD ITEM	Grand Underground	Typhlo Cavern	TM50 (Overheat) item ball disappeared		FV_FLD_ITEM_290
+0x5D1	FIELD ITEM	Grand Underground	Typhlo Cavern	TM71 (Stone Edge) item ball disappeared		FV_FLD_ITEM_291
 0x5D2	EVENT					TMFLG_R213_POOL
 0x5D3	EVENT					FE_R213_POOL_TALKED
 0x5D4	ITEM GIFT					FE_HOKAKU_OMAMORI_GET
@@ -1629,8 +1629,8 @@
 0x65B	EVENT					FE_UG_FIRST_GAMEOVER_B
 0x65C	EVENT					FE_T01_OUT_FIRST
 0x65D	ITEM GIFT					FE_HAMAPOKE_GET
-0x65E	FIELD ITEM			[unused?]		FV_FLD_ITEM_292
-0x65F	FIELD ITEM			[unused?]		FV_FLD_ITEM_293
+0x65E	FIELD ITEM	Grand Underground	Fountainspring Cave	Deep Sea Tooth item ball disappeared		FV_FLD_ITEM_292
+0x65F	FIELD ITEM	Grand Underground	Icy Cave	Deep Sea Scale item ball disappeared		FV_FLD_ITEM_293
 0x660	EVENT					FV_C10R0101_VETERAN1
 0x661	EVENT					FV_C10R0101_VETERAN2
 0x662	EVENT					FE_UNIONROOM_TIPS_LOOK
