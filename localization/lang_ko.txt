@@ -110,10 +110,10 @@ SpecialEditsGen2.specialEvtBtn_6=은빛산 액세스 차단 해제
 SpecialEditsGen2.specialEvtBtn_7=방울탑 계단 차단 해제
 SpecialEditsGen2.specialEvtBtn_8=세레비 이벤트 재설정
 
-SpecialEditsGenLGPE.specialEvtBtn_1=Bypass Fuchsia Gym requirement
+SpecialEditsGenLGPE.specialEvtBtn_1=후추체육관 요구조건 우회
 
-SpecialEditsGenSV.specialEvtBtn_1=Unlock Kitakami map access
-SpecialEditsGenSV.specialEvtBtn_2=Unlock Blueberry map access
+SpecialEditsGenSV.specialEvtBtn_1=키타카미 지도 접근 해제
+SpecialEditsGenSV.specialEvtBtn_2=블루베리 지도 접근 해제
 
 MiscEdits.miscEvtBtn_BlockDataEditor=블록 데이터 편집
 MiscEditsSV.miscEvtBtn_1=일일 숨겨진 아이템 에디터

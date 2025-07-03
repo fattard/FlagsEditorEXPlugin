@@ -1,0 +1,119 @@
+EventFlagType.FieldItem=Objet sur le terrain
+EventFlagType.HiddenItem=Objet caché
+EventFlagType.SpecialItem=Objet spécial
+EventFlagType.TrainerBattle=Combat d’entraîneur
+EventFlagType.StaticEncounter=Rencontre fixe
+EventFlagType.InGameTrade=Échange en jeu
+EventFlagType.ItemGift=Cadeau d’objet
+EventFlagType.PkmnGift=Cadeau de Pokémon
+EventFlagType.GeneralEvent=Événement
+EventFlagType.SideEvent=Événement secondaire
+EventFlagType.StoryEvent=Événement principal
+EventFlagType.FlySpot=Point de vol
+EventFlagType.BerryTree=Arbre à baies
+EventFlagType.Collectable=Collectionnable
+EventFlagType._Unused=INUTILISÉ
+
+FlagsEditorEX.menuEntry_EditFlags=Modifier les flags...
+FlagsEditorEX.menuEntry_DumpAllFlags=Exporter tous les flags
+
+FlagsGen1RB.JapSavDetection_msg=Votre fichier de sauvegarde vient-il de la version Bleue japonaise,|au lieu de la version Rouge/Verte japonaise ?
+FlagsGen1RB.JapSavDetection_caption=Fichier de sauvegarde Gen1 japonais détecté
+
+EventWorkEditor.TitleName=Éditeur de Event Work
+EventWorkEditor.filterUnusedChk=Masquer les inutilisés
+EventWorkEditor.restoreBtn=Restaurer l’état
+EventWorkEditor.saveBtn=Enregistrer
+EventWorkEditor.cancelBtn=Annuler
+EventWorkEditor.filterBySearchChk=Filtrer par recherche
+EventWorkEditor.dgv_ref=Réf
+EventWorkEditor.dgv_id=Identifiant
+EventWorkEditor.dgv_location=Lieu
+EventWorkEditor.dgv_txtDesc=Description
+EventWorkEditor.dgv_validValues=Valeurs valides
+EventWorkEditor.dgv_rawValue=Valeur brute
+
+FlagsEditor.TitleName=Éditeur de flags
+FlagsEditor.filterUnusedChk=Masquer les inutilisés
+FlagsEditor.restoreBtn=Restaurer l’état
+FlagsEditor.saveBtn=Enregistrer
+FlagsEditor.cancelBtn=Annuler
+FlagsEditor.filterBySearchChk=Filtrer par recherche
+FlagsEditor.setAllBtn=Tout activer
+FlagsEditor.unsetAllBtn=Tout désactiver
+FlagsEditor.totalSetLabel=Total activés :
+FlagsEditor.totalUnsetLabel=Total désactivés :
+FlagsEditor.showOnlySetChk=Afficher uniquement activés
+FlagsEditor.showOnlyUnsetChk=Afficher uniquement désactivés
+FlagsEditor.dgv_val=Valeur
+FlagsEditor.dgv_ref=Réf
+FlagsEditor.dgv_id=Identifiant
+FlagsEditor.dgv_location=Lieu
+FlagsEditor.dgv_txtDesc=Description
+
+MainWin.TitleName=Flags Editor EX
+MainWin.tabPage1=Édition brute des flags
+MainWin.tabPage2=Édition groupée des flags
+MainWin.tabPage3=Édition de Event Work
+MainWin.tabPage4=Édition spéciale
+MainWin.tabPage5=Divers
+MainWin.groupBox1=Groupe de flags
+MainWin.groupBox2=Catégorie de flags
+MainWin.flagsCategoryComboAll=- Tous -
+MainWin.rawFlagsEditBtn=Modifier...
+MainWin.eventWorkEditBtn=Modifier...
+MainWin.markFlagsBtn=Activer sélection groupée
+MainWin.unmarkFlagsBtn=Désactiver sélection groupée
+MainWin.fieldItemsChk=Objets sur le terrain
+MainWin.hiddenItemsChk=Objets cachés
+MainWin.specialItemsChk=Objets spéciaux
+MainWin.itemGiftsChk=Cadeaux d’objet
+MainWin.pkmnGiftsChk=Cadeaux de Pokémon
+MainWin.trainerBattlesChk=Combats d’entraîneur
+MainWin.staticEncounterChk=Rencontres fixes
+MainWin.inGameTradesChk=Échanges en jeu
+MainWin.sideEventsChk=Événements secondaires
+MainWin.flySpotsChk=Points de vol
+MainWin.berryTreesChk=Arbres à baies
+MainWin.collectablesChk=Collectionnables
+MainWin.warnLabel=Modifier les valeurs des flags peut provoquer des blocages,|des plantages ou une perte de données permanente.|Il est fortement recommandé de sauvegarder.
+MainWin.BulkOperation_caption=Modifications irréversibles
+MainWin.BulkOperation_msg=Cette opération ne peut pas être annulée.|Êtes-vous sûr ?
+MainWin.BulkOperationDone_msg=Opération terminée
+
+DailyHiddenItemsEditorSV.TitleName=Éditeur d’objets cachés quotidiens
+DailyHiddenItemsEditorSV.filterByItemChk=Filtrer par objet
+DailyHiddenItemsEditorSV.restoreBtn=Restaurer l’état
+DailyHiddenItemsEditorSV.saveBtn=Enregistrer
+DailyHiddenItemsEditorSV.cancelBtn=Annuler
+DailyHiddenItemsEditorSV.setAllBtn=Tout définir sur
+DailyHiddenItemsEditorSV.selectBlockLabel=Sélectionner la source du bloc
+DailyHiddenItemsEditorSV.dgv_ref=Réf
+DailyHiddenItemsEditorSV.dgv_location=Lieu
+DailyHiddenItemsEditorSV.dgv_item=Objet caché
+
+SpecialEditsGen1.specialEvtBtn_1=Réinitialiser le choix du fossile
+SpecialEditsGen1.specialEvtBtn_2=Réinitialiser le choix du dojo
+SpecialEditsGen1.specialEvtBtn_3=Réinitialiser les événements de Bill
+SpecialEditsGen1.specialEvtBtn_4=Réinitialiser les événements du S.S. Anne
+SpecialEditsGen1.specialEvtBtn_5=Réinitialiser les événements du QG Rocket
+SpecialEditsGen1.specialEvtBtn_6=Réinitialiser les événements de la Tour Pokémon
+SpecialEditsGen1.specialEvtBtn_7=Réinitialiser les événements de la Sylphe SARL
+SpecialEditsGen1.specialEvtBtn_8=Débloquer la Grotte Azurée
+
+SpecialEditsGen2.specialEvtBtn_1=Réinitialiser les événements du Puits Slowpoke
+SpecialEditsGen2.specialEvtBtn_2=Réinitialiser les événements du Lac Colère
+SpecialEditsGen2.specialEvtBtn_3=Réinitialiser les événements de la Tour Radio
+SpecialEditsGen2.specialEvtBtn_4=Réinitialiser le premier voyage du S.S. Aqua
+SpecialEditsGen2.specialEvtBtn_5=Réinitialiser les événements des Bêtes Légendaires
+SpecialEditsGen2.specialEvtBtn_6=Débloquer l’accès au Mont Argenté
+SpecialEditsGen2.specialEvtBtn_7=Débloquer les escaliers de la Tour Ferraille
+SpecialEditsGen2.specialEvtBtn_8=Réinitialiser l’événement de Celebi
+
+SpecialEditsGenLGPE.specialEvtBtn_1=Contourner l’exigence de l’Arène de Parmanie
+
+SpecialEditsGenSV.specialEvtBtn_1=Débloquer l’accès à la carte de Septentria
+SpecialEditsGenSV.specialEvtBtn_2=Débloquer l’accès à la carte de Myrtille
+
+MiscEdits.miscEvtBtn_BlockDataEditor=Éditeur de données de blocs
+MiscEditsSV.miscEvtBtn_1=Éditeur d’objets cachés quotidiens

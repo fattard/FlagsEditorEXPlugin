@@ -110,10 +110,10 @@ SpecialEditsGen2.specialEvtBtn_6=解锁白银山通行
 SpecialEditsGen2.specialEvtBtn_7=解锁铃铛塔楼梯
 SpecialEditsGen2.specialEvtBtn_8=重置时拉比事件
 
-SpecialEditsGenLGPE.specialEvtBtn_1=Bypass Fuchsia Gym requirement
+SpecialEditsGenLGPE.specialEvtBtn_1=绕过紫苑道馆要求
 
-SpecialEditsGenSV.specialEvtBtn_1=Unlock Kitakami map access
-SpecialEditsGenSV.specialEvtBtn_2=Unlock Blueberry map access
+SpecialEditsGenSV.specialEvtBtn_1=解锁北上地图访问
+SpecialEditsGenSV.specialEvtBtn_2=解锁蓝莓地图访问
 
 MiscEdits.miscEvtBtn_BlockDataEditor=块数据编辑器
 MiscEditsSV.miscEvtBtn_1=每日隐藏道具编辑器

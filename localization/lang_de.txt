@@ -1,0 +1,119 @@
+EventFlagType.FieldItem=Feld‑Item
+EventFlagType.HiddenItem=Verstecktes Item
+EventFlagType.SpecialItem=Spezial‑Item
+EventFlagType.TrainerBattle=Trainer‑Kampf
+EventFlagType.StaticEncounter=Fester Fund
+EventFlagType.InGameTrade=In‑Game Tausch
+EventFlagType.ItemGift=Item‑Geschenk
+EventFlagType.PkmnGift=Pokémon‑Geschenk
+EventFlagType.GeneralEvent=Event
+EventFlagType.SideEvent=Neben‑Event
+EventFlagType.StoryEvent=Story‑Event
+EventFlagType.FlySpot=Flugpunkt
+EventFlagType.BerryTree=Beerenbaum
+EventFlagType.Collectable=Sammelobjekt
+EventFlagType._Unused=NICHT VERWENDET
+
+FlagsEditorEX.menuEntry_EditFlags=Flags bearbeiten...
+FlagsEditorEX.menuEntry_DumpAllFlags=Alle Flags exportieren
+
+FlagsGen1RB.JapSavDetection_msg=Ist deine Save‑Datei aus der japanischen Blue‑Version|und nicht aus Red/Green entstanden?
+FlagsGen1RB.JapSavDetection_caption=Japan‑Gen1 Save erkannt
+
+EventWorkEditor.TitleName=Event‑Work‑Editor
+EventWorkEditor.filterUnusedChk=Unerw. Flags ausblenden
+EventWorkEditor.restoreBtn=Zustand wiederherstellen
+EventWorkEditor.saveBtn=Speichern
+EventWorkEditor.cancelBtn=Abbrechen
+EventWorkEditor.filterBySearchChk=Nach Suche filtern
+EventWorkEditor.dgv_ref=Ref
+EventWorkEditor.dgv_id=Bezeichner
+EventWorkEditor.dgv_location=Ort
+EventWorkEditor.dgv_txtDesc=Beschreibung
+EventWorkEditor.dgv_validValues=Gültige Werte
+EventWorkEditor.dgv_rawValue=Rohwert
+
+FlagsEditor.TitleName=Flags‑Editor
+FlagsEditor.filterUnusedChk=Unerw. Flags ausblenden
+FlagsEditor.restoreBtn=Zustand wiederherstellen
+FlagsEditor.saveBtn=Speichern
+FlagsEditor.cancelBtn=Abbrechen
+FlagsEditor.filterBySearchChk=Nach Suche filtern
+FlagsEditor.setAllBtn=Alle setzen
+FlagsEditor.unsetAllBtn=Alle zurücksetzen
+FlagsEditor.totalSetLabel=Gesetzt:
+FlagsEditor.totalUnsetLabel=Nicht gesetzt:
+FlagsEditor.showOnlySetChk=Nur gesetzte anzeigen
+FlagsEditor.showOnlyUnsetChk=Nur nicht gesetzte anzeigen
+FlagsEditor.dgv_val=Wert
+FlagsEditor.dgv_ref=Ref
+FlagsEditor.dgv_id=Bezeichner
+FlagsEditor.dgv_location=Ort
+FlagsEditor.dgv_txtDesc=Beschreibung
+
+MainWin.TitleName=Flags Editor EX
+MainWin.tabPage1=Raw‑Flags
+MainWin.tabPage2=Bündel‑Edit
+MainWin.tabPage3=Event‑Work Editieren
+MainWin.tabPage4=Spezial‑Edit
+MainWin.tabPage5=Sonstiges
+MainWin.groupBox1=Flag‑Gruppen
+MainWin.groupBox2=Flag‑Kategorie
+MainWin.flagsCategoryComboAll=- Alle -
+MainWin.rawFlagsEditBtn=Bearbeiten...
+MainWin.eventWorkEditBtn=Bearbeiten...
+MainWin.markFlagsBtn=Markierte setzen
+MainWin.unmarkFlagsBtn=Markierung aufheben
+MainWin.fieldItemsChk=Feld‑Items
+MainWin.hiddenItemsChk=Versteckte Items
+MainWin.specialItemsChk=Spezial‑Items
+MainWin.itemGiftsChk=Item‑Geschenke
+MainWin.pkmnGiftsChk=Pokémon‑Geschenke
+MainWin.trainerBattlesChk=Trainer‑Kämpfe
+MainWin.staticEncounterChk=Feste Funde
+MainWin.inGameTradesChk=In‑Game Tausch
+MainWin.sideEventsChk=Neben‑Events
+MainWin.flySpotsChk=Flugpunkte
+MainWin.berryTreesChk=Beerenbäume
+MainWin.collectablesChk=Sammelobjekte
+MainWin.warnLabel=Das Ändern von Flags kann Softlocks, Abstürze oder Datenverlust verursachen.|Backup dringend empfohlen.
+MainWin.BulkOperation_caption=Irreversible Aktionen
+MainWin.BulkOperation_msg=Diese Aktion kann nicht rückgängig gemacht werden.|Fortfahren?
+MainWin.BulkOperationDone_msg=Vorgang abgeschlossen
+
+DailyHiddenItemsEditorSV.TitleName=Täglicher Versteckter‑Item‑Editor
+DailyHiddenItemsEditorSV.filterByItemChk=Nach Item filtern
+DailyHiddenItemsEditorSV.restoreBtn=Zustand wiederherstellen
+DailyHiddenItemsEditorSV.saveBtn=Speichern
+DailyHiddenItemsEditorSV.cancelBtn=Abbrechen
+DailyHiddenItemsEditorSV.setAllBtn=Alle setzen auf
+DailyHiddenItemsEditorSV.selectBlockLabel=Block‑Quelle wählen
+DailyHiddenItemsEditorSV.dgv_ref=Ref
+DailyHiddenItemsEditorSV.dgv_location=Ort
+DailyHiddenItemsEditorSV.dgv_item=Verstecktes Item
+
+SpecialEditsGen1.specialEvtBtn_1=Fossil‑Wahl zurücksetzen
+SpecialEditsGen1.specialEvtBtn_2=Dojo‑Wahl zurücksetzen
+SpecialEditsGen1.specialEvtBtn_3=Bill‑Events zurücksetzen
+SpecialEditsGen1.specialEvtBtn_4=S.S. Anne‑Events zurücksetzen
+SpecialEditsGen1.specialEvtBtn_5=Rocket‑Versteck‑Events zurücksetzen
+SpecialEditsGen1.specialEvtBtn_6=Pokémon‑Turm‑Events zurücksetzen
+SpecialEditsGen1.specialEvtBtn_7=Silph Co.‑Events zurücksetzen
+SpecialEditsGen1.specialEvtBtn_8=Azuria‑Höhle freischalten
+
+SpecialEditsGen2.specialEvtBtn_1=Slowpoke‑Brunnen‑Events zurücksetzen
+SpecialEditsGen2.specialEvtBtn_2=Lake of Rage‑Events zurücksetzen
+SpecialEditsGen2.specialEvtBtn_3=Radio‑Tower‑Events zurücksetzen
+SpecialEditsGen2.specialEvtBtn_4=S.S. Aqua‑erste Fahrt zurücksetzen
+SpecialEditsGen2.specialEvtBtn_5=Legendary Beasts‑Events zurücksetzen
+SpecialEditsGen2.specialEvtBtn_6=Mt. Silver Zugang freischalten
+SpecialEditsGen2.specialEvtBtn_7=Tin Tower Treppen freischalten
+SpecialEditsGen2.specialEvtBtn_8=Celebi‑Event zurücksetzen
+
+SpecialEditsGenLGPE.specialEvtBtn_1=Fuchsia‑Gym Bedingung umgehen
+
+SpecialEditsGenSV.specialEvtBtn_1=Kitakami‑Karten‑Zugang freischalten
+SpecialEditsGenSV.specialEvtBtn_2=Blueberry‑Karten‑Zugang freischalten
+
+MiscEdits.miscEvtBtn_BlockDataEditor=Block‑Daten‑Editor
+MiscEditsSV.miscEvtBtn_1=Täglicher Versteckter‑Item‑Editor
