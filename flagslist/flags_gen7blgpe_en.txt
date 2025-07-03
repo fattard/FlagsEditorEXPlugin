@@ -397,8 +397,8 @@
 0x18B	EVENT					FV_T03_RED
 0x18C	EVENT					FV_T03_GREEN
 0x18D	EVENT					FV_R04_D0103_MUSAKOJI
-0x18E	EVENT			Helix Fossil Claimed at Mt. Moon		FV_R04_D0103_KAINOKASEKI
-0x18F	EVENT			Dome Fossil Claimed at Mt. Moon		FV_R04_D0103_KOURANOKASEKI
+0x18E	EVENT	Mt. Moon	B2F	Helix Fossil sprite disappeared		FV_R04_D0103_KAINOKASEKI
+0x18F	EVENT	Mt. Moon	B2F	Dome Fossil sprite disappeared		FV_R04_D0103_KOURANOKASEKI
 0x190	EVENT					FV_R24_RIVAL
 0x191	EVENT					FV_R24_ROCKET
 0x192	EVENT					FV_T006R0302_RIVAL
@@ -425,8 +425,8 @@
 0x1A7	EVENT					FV_T02_CLERK_M
 0x1A8	EVENT					FV_ROAD001_SHORTPANTS_NPC
 0x1A9	EVENT					FV_ROAD001_SHORTPANTS_BTL
-0x1AA	EVENT			Dome Fossil in Fuchsia City		FV_TOWN008_KABUTO
-0x1AB	EVENT			Helix Fossil in Fuchsia City		FV_TOWN008_OMUNAITO
+0x1AA	EVENT	Fuchsia City		Kabuto sprite disappeared		FV_TOWN008_KABUTO
+0x1AB	EVENT	Fuchsia City		Omanyte sprite disappeared		FV_TOWN008_OMUNAITO
 0x1AC	EVENT					FV_CARDKEY_R0402_01
 0x1AD	EVENT					FV_CARDKEY_R0402_02
 0x1AE	EVENT					FV_CARDKEY_R0403_01
@@ -456,10 +456,10 @@
 0x1C6	EVENT					FV_T009GYM_FIRE_DOLL_3
 0x1C7	EVENT					FV_T009GYM_FIRE_DOLL_4
 0x1C8	EVENT					FV_T009GYM_FIRE_DOLL_5
-0x1C9	EVENT					FV_R020D003_KAIRIKI_GIMMICK_1
-0x1CA	EVENT					FV_R020D003_KAIRIKI_GIMMICK_2
-0x1CB	EVENT					FV_R020D004_KAIRIKI_GIMMICK_1
-0x1CC	EVENT					FV_R020D004_KAIRIKI_GIMMICK_2
+0x1C9	EVENT	Seafoam Islands				FV_R020D003_KAIRIKI_GIMMICK_1
+0x1CA	EVENT	Seafoam Islands				FV_R020D003_KAIRIKI_GIMMICK_2
+0x1CB	EVENT	Seafoam Islands				FV_R020D004_KAIRIKI_GIMMICK_1
+0x1CC	EVENT	Seafoam Islands				FV_R020D004_KAIRIKI_GIMMICK_2
 0x1CD	EVENT					FV_T007R0601_ACCESSORY_WALL
 0x1CE	EVENT					FV_TOWN007_OBJ_HARNESS
 0x1CF	EVENT					FV_T007R0801_GATE
@@ -522,29 +522,29 @@
 0x208	EVENT					FV_T007R0804_BG_06
 0x209	EVENT					FV_T007R0804_BG_07
 0x20A	EVENT					FV_T007R0804_BG_08
-0x20B	EVENT					FV_R020D0104_ITEM_01
-0x20C	EVENT					FV_R020D0104_ITEM_02
-0x20D	EVENT					FV_R020D0104_ITEM_03
-0x20E	EVENT					FV_R020D0104_ITEM_04
-0x20F	EVENT					FV_R020D0104_ITEM_05
-0x210	HIDDEN ITEM	Seafoam Islands	B3F	Found Revive		FV_R020D0104_ITEM_06
-0x211	EVENT					FV_R020D0105_ITEM_01
-0x212	EVENT					FV_R020D0105_ITEM_02
+0x20B	FIELD ITEM	Seafoam Islands	B3F	Ultra Ball (x3) item ball disappeared		FV_R020D0104_ITEM_01
+0x20C	FIELD ITEM	Seafoam Islands	B3F	Super Lure item ball disappeared		FV_R020D0104_ITEM_02
+0x20D	FIELD ITEM	Seafoam Islands	B3F	Hyper Potion item ball disappeared		FV_R020D0104_ITEM_03
+0x20E	FIELD ITEM	Seafoam Islands	B3F	Super Repel item ball disappeared		FV_R020D0104_ITEM_04
+0x20F	FIELD ITEM	Seafoam Islands	B3F	X Speed item ball disappeared		FV_R020D0104_ITEM_05
+0x210	HIDDEN ITEM	Seafoam Islands	B3F	Found Revive (recurring)		FV_R020D0104_ITEM_06
+0x211	FIELD ITEM	Seafoam Islands	B4F	Big Pearl item ball disappeared		FV_R020D0105_ITEM_01
+0x212	FIELD ITEM	Seafoam Islands	B4F	Big Pearl item ball disappeared		FV_R020D0105_ITEM_02
 0x213	FIELD ITEM	Seafoam Islands	B4F	Big Pearl item ball disappeared		FV_R020D0105_ITEM_03
-0x214	EVENT					FV_R020D0105_ITEM_04
+0x214	HIDDEN ITEM	Seafoam Islands	B4F	Found Pretty Wing (recurring)		FV_R020D0105_ITEM_04
 0x215	EVENT					FV_YAMABUKI_NPC_RESPAWN
-0x216	EVENT					FV_R020D0101_KAIRIKI_ROCK_A
-0x217	EVENT					FV_R020D0101_KAIRIKI_ROCK_B
-0x218	EVENT					FV_R020D0102_KAIRIKI_ROCK_A
-0x219	EVENT					FV_R020D0102_KAIRIKI_ROCK_B
-0x21A	EVENT					FV_R020D0103_KAIRIKI_ROCK_A
-0x21B	EVENT					FV_R020D0103_KAIRIKI_ROCK_B
-0x21C	EVENT					FV_R020D0104_KAIRIKI_ROCK_A
-0x21D	EVENT					FV_R020D0104_KAIRIKI_ROCK_B
-0x21E	EVENT					FV_R020D0104_KAIRIKI_ROCK_FALL_A
-0x21F	EVENT					FV_R020D0104_KAIRIKI_ROCK_FALL_B
-0x220	EVENT					FV_R020D0105_KAIRIKI_ROCK_FALL_A
-0x221	EVENT					FV_R020D0105_KAIRIKI_ROCK_FALL_B
+0x216	EVENT	Seafoam Islands				FV_R020D0101_KAIRIKI_ROCK_A
+0x217	EVENT	Seafoam Islands				FV_R020D0101_KAIRIKI_ROCK_B
+0x218	EVENT	Seafoam Islands				FV_R020D0102_KAIRIKI_ROCK_A
+0x219	EVENT	Seafoam Islands				FV_R020D0102_KAIRIKI_ROCK_B
+0x21A	EVENT	Seafoam Islands				FV_R020D0103_KAIRIKI_ROCK_A
+0x21B	EVENT	Seafoam Islands				FV_R020D0103_KAIRIKI_ROCK_B
+0x21C	EVENT	Seafoam Islands				FV_R020D0104_KAIRIKI_ROCK_A
+0x21D	EVENT	Seafoam Islands				FV_R020D0104_KAIRIKI_ROCK_B
+0x21E	EVENT	Seafoam Islands				FV_R020D0104_KAIRIKI_ROCK_FALL_A
+0x21F	EVENT	Seafoam Islands				FV_R020D0104_KAIRIKI_ROCK_FALL_B
+0x220	EVENT	Seafoam Islands				FV_R020D0105_KAIRIKI_ROCK_FALL_A
+0x221	EVENT	Seafoam Islands				FV_R020D0105_KAIRIKI_ROCK_FALL_B
 0x222	EVENT					FV_R023D0103_KAIRIKI_ROCK
 0x223	EVENT					FV_R023D0102_KAIRIKI_ROCK_FALL
 0x224	EVENT					FV_FOR_NOT_DELETE_EVENT
@@ -647,8 +647,8 @@
 0x285	EVENT					indoor_tr0061_adultm
 0x286	FIELD ITEM	Route 23		Golden Razz Berry (x5) item ball disappeared		road023_Item
 0x287	FIELD ITEM	Route 23		Golden Nanab Berry (x5) item ball disappeared		road023_Item_0
-0x288	FIELD ITEM	Route 23		Golden Pinap Berry (x3) item ball disappeared		road023_Item_1
-0x289	FIELD ITEM	Route 23		Golden Razz Berry (x5) item ball disappeared		road023_Item_2
+0x288	FIELD ITEM	Route 23		Golden Pinap Berry (x5) item ball disappeared		road023_Item_1
+0x289	FIELD ITEM	Route 23		Golden Razz Berry (x3) item ball disappeared		road023_Item_2
 0x28A	FIELD ITEM	Route 23		Golden Nanab Berry (x3) item ball disappeared		road023_Item_3
 0x28B	FIELD ITEM	Route 23		Golden Pinap Berry (x3) item ball disappeared		road023_Item_4
 0x28C	EVENT	Route 23				road023_tr0075_guard
@@ -673,7 +673,7 @@
 0x29F	EVENT	Pallet Town				town001_tr0084_juveniles_0
 0x2A0	FIELD ITEM	Route 2		Leaf Stone item ball disappeared		road002_1_Item
 0x2A1	FIELD ITEM	Route 2		Super Potion item ball disappeared		road002_1_Item_0
-0x2A2	HIDDEN ITEM	Viridian City		Found Potion		town002_HideItem
+0x2A2	HIDDEN ITEM	Viridian City		Found Potion (recurring)		town002_HideItem
 0x2A3	EVENT	Viridian City				town002_tr0066_fat
 0x2A4	EVENT	Viridian City				town002_tr0027_shortpants
 0x2A5	EVENT	Viridian City				town002_tr0026_bugcatcher
@@ -691,23 +691,23 @@
 0x2B1	SIDE EVENT	Viridian City				town002_PartnerStop_0
 0x2B2	SIDE EVENT	Viridian City				town002_PartnerStop_1
 0x2B3	FIELD ITEM	Route 22		Poké Ball (x5) item ball disappeared		road022_Item
-0x2B4	HIDDEN ITEM	Route 22		Found Antidote		road022_HideItem
+0x2B4	HIDDEN ITEM	Route 22		Found Antidote (recurring)		road022_HideItem
 0x2B5	FIELD ITEM	Route 21		Water Stone item ball disappeared		road021_Item
 0x2B6	FIELD ITEM	Route 21		Hyper Potion item ball disappeared		road021_Item_0
 0x2B7	FIELD ITEM	Route 21		PP Up item ball disappeared		road021_Item_1
-0x2B8	HIDDEN ITEM	Route 21		Found Stardust (x5)		road021_HideItem
-0x2B9	HIDDEN ITEM	Route 21	Water	Found Revive		road021_HideItem_0
+0x2B8	HIDDEN ITEM	Route 21		Found Stardust (x3) (recurring)		road021_HideItem
+0x2B9	HIDDEN ITEM	Route 21	Water	Found Revive (recurring)		road021_HideItem_0
 0x2BA	FIELD ITEM	Cinnabar Island		Antidote item ball disappeared		town009_Item
 0x2BB	EVENT	Cinnabar Island				town009_tr0003_rival
 0x2BC	EVENT	Cinnabar Island				town009_tr0060_youngf
 0x2BD	EVENT	Cinnabar Island				town009_tr0064_oldm
 0x2BE	EVENT	Cinnabar Island				town009_pm0126_boober
 0x2BF	EVENT	Cinnabar Island				town009_pm0120_hitodeman
-0x2C0	HIDDEN ITEM	Route 20	Water	Found Revive		road020_HideItem
+0x2C0	HIDDEN ITEM	Route 20	Water	Found Revive (recurring)		road020_HideItem
 0x2C1	EVENT	Route 20				road020_tr0072_clerkf
 0x2C2	FIELD ITEM	Route 19		Full Heal item ball disappeared		road019_Item
-0x2C3	HIDDEN ITEM	Route 19	Water	Found Revive		road019_HideItem
-0x2C4	HIDDEN ITEM	Route 19	Water	Found Revive		road019_HideItem_0
+0x2C3	HIDDEN ITEM	Route 19	Water	Found Revive (recurring)		road019_HideItem
+0x2C4	HIDDEN ITEM	Route 19	Water	Found Revive (recurring)		road019_HideItem_0
 0x2C5	EVENT	Route 19				road019_tr0016_musashi
 0x2C6	EVENT	Route 19				road019_tr0017_kojiro
 0x2C7	EVENT	Route 19				road019_pm0052_nyarth
@@ -732,9 +732,9 @@
 0x2DA	FIELD ITEM	Route 18		Elixir item ball disappeared		road018_2_Item
 0x2DB	FIELD ITEM	Route 20		Max Repel item ball disappeared		road020_2_Item
 0x2DC	FIELD ITEM	Route 20		Ultra Ball (x3) item ball disappeared		road020_2_Item_0
-0x2DD	HIDDEN ITEM	Route 20	Water	Found Revive		road020_2_HideItem
-0x2DE	HIDDEN ITEM	Route 20	Water	Found Revive		road020_2_HideItem_0
-0x2DF	HIDDEN ITEM	Route 20		Found Stardust		road020_2_HideItem_1
+0x2DD	HIDDEN ITEM	Route 20	Water	Found Revive (recurring)		road020_2_HideItem
+0x2DE	HIDDEN ITEM	Route 20	Water	Found Revive (recurring)		road020_2_HideItem_0
+0x2DF	HIDDEN ITEM	Route 20		Found Stardust (recurring)		road020_2_HideItem_1
 0x2E0	FIELD ITEM	Route 20		Heart Scale item ball disappeared		road020_2_Item_1
 0x2E1	FIELD ITEM	Route 2		Great Ball (x3) item ball disappeared		road002_2_Item
 0x2E2	EVENT	Route 2				road002_2_tr0003_rival
@@ -765,7 +765,7 @@
 0x2FB	EVENT	Pewter City				town003_tr0065_oldf
 0x2FC	SIDE EVENT	Pewter City		Razz Berry		town003_PartnerStop
 0x2FD	FIELD ITEM	Route 4		Poké Ball (x5) item ball disappeared		road004_2_Item
-0x2FE	HIDDEN ITEM	Route 4		Found PP Up		road004_2_HideItem_0
+0x2FE	HIDDEN ITEM	Route 4		Found PP Up (recurring)		road004_2_HideItem_0
 0x2FF	FIELD ITEM	Route 4		Paralyze Heal item ball disappeared		road004_2_Item_0
 0x300	FIELD ITEM	Route 4		PP Max item ball disappeared		road004_2_Item_1
 0x301	FIELD ITEM	Route 4		Great Ball (x3) item ball disappeared		road004_2_Item_2
@@ -774,15 +774,15 @@
 0x304	SIDE EVENT	Route 4		Nanab Berry (Partner Findings)		road004_2_PartnerStop
 0x305	FIELD ITEM	Route 5		Great Ball (x3) item ball disappeared		road005_Item
 0x306	FIELD ITEM	Route 5		Ether item ball disappeared		road005_Item_0
-0x307	HIDDEN ITEM	Route 5		Found Razz Berry (x3)		road005_HideItem
+0x307	HIDDEN ITEM	Route 5		Found Razz Berry (x3) (recurring)		road005_HideItem
 0x308	FIELD ITEM	Route 5		Nanab Berry (x3) item ball disappeared		road005_Item_1
 0x309	EVENT	Route 5				road005_tr0003_rival
 0x30A	FIELD ITEM	Route 9		Super Potion item ball disappeared		road009_Item
-0x30B	HIDDEN ITEM	Route 9		Found Pinap Berry (x5)		road009_HideItem
+0x30B	HIDDEN ITEM	Route 9		Found Pinap Berry (x5) (recurring)		road009_HideItem
 0x30C	FIELD ITEM	Route 9		Ether item ball disappeared		road009_Item_0
 0x30D	FIELD ITEM	Route 9		Super Potion item ball disappeared		road009_Item_1
 0x30E	FIELD ITEM	Route 9		Poké Ball (x5) item ball disappeared		road009_Item_2
-0x30F	HIDDEN ITEM	Route 10		Found Super Lure		road010_2_HideItem
+0x30F	HIDDEN ITEM	Route 10		Found Super Lure (recurring)		road010_2_HideItem
 0x310	FIELD ITEM	Route 10		Great Ball (x3) item ball disappeared		road010_2_Item
 0x311	FIELD ITEM	Route 10		Super Potion item ball disappeared		road010_2_Item_0
 0x312	FIELD ITEM	Route 10		Poké Ball (x5) item ball disappeared		road010_2_Item_1
@@ -795,12 +795,12 @@
 0x319	EVENT	Route 10				road010_2_pm0131_laplace
 0x31A	FIELD ITEM	Route 24		X Sp. Def item ball disappeared		road024_Item
 0x31B	FIELD ITEM	Route 24		Razz Berry (x3) item ball disappeared		road024_Item_0
-0x31C	HIDDEN ITEM	Route 24		Found Pinap Berry (x3)		road024_HideItem
+0x31C	HIDDEN ITEM	Route 24		Found Pinap Berry (x3) (recurring)		road024_HideItem
 0x31D	EVENT	Route 24				road024_pm0004_hitokage
 0x31E	EVENT	Route 24				road024_tr0061_adultm_0
 0x31F	EVENT	Route 24				road024_tr0055_rocketm
 0x320	SIDE EVENT	Route 24		Razz Berry (Partner Findings)		road024_PartnerStop
-0x321	HIDDEN ITEM	Route 25		Found Nanab Berry (x3)		road025_HideItem_0
+0x321	HIDDEN ITEM	Route 25		Found Nanab Berry (x3) (recurring)		road025_HideItem_0
 0x322	FIELD ITEM	Route 25		TM16 (Thunder Waver) item ball disappeared		road025_Item
 0x323	FIELD ITEM	Route 25		Lure item ball disappeared		road025_Item_0
 0x324	FIELD ITEM	Route 25		Super Potion item ball disappeared		road025_Item_1
@@ -827,12 +827,12 @@
 0x339	SIDE EVENT	Cerulean City				town004_PartnerStop_2
 0x33A	FIELD ITEM	Route 16		Super Potion item ball disappeared		road016_1_Item
 0x33B	FIELD ITEM	Route 16		Great Ball (x3) item ball disappeared		road016_1_Item_0
-0x33C	HIDDEN ITEM	Route 17		Found Razz Berry (x5)		road017_HideItem
-0x33D	HIDDEN ITEM	Route 17		Found Nanab Berry (x5)		road017_HideItem_0
-0x33E	HIDDEN ITEM	Route 17		Found Pinap Berry (x5)		road017_HideItem_1
-0x33F	HIDDEN ITEM	Route 17		Found Nanab Berry		road017_HideItem_2
-0x340	HIDDEN ITEM	Route 17		Found Nanab Berry		road017_HideItem_3
-0x341	HIDDEN ITEM	Route 17		Found Silver Pinap Berry (x3)		road017_HideItem_4
+0x33C	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem
+0x33D	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem_0
+0x33E	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem_1
+0x33F	HIDDEN ITEM	Route 17		Found Silver Razz Berry (x3) (recurring)		road017_HideItem_2
+0x340	HIDDEN ITEM	Route 17		Found Silver Nanab Berry (x3) (recurring)		road017_HideItem_3
+0x341	HIDDEN ITEM	Route 17		Found Silver Pinap Berry (x3) (recurring)		road017_HideItem_4
 0x342	FIELD ITEM	Route 17		Great Ball (x3) item ball disappeared		road017_Item
 0x343	FIELD ITEM	Route 17		Super Repel item ball disappeared		road017_Item_0
 0x344	FIELD ITEM	Route 17		Super Potion item ball disappeared		road017_Item_1
@@ -854,20 +854,20 @@
 0x354	EVENT	Route 17				road017_pm0135_thunders
 0x355	EVENT	Route 17				road017_pm0037_rokon
 0x356	SIDE EVENT	Route 17		Pinap Berry (Partner Findings)		road017_PartnerStop
-0x357	EVENT	Route 17				road017_PartnerStop_0
+0x357	SIDE EVENT	Route 17				road017_PartnerStop_0
 0x358	SIDE EVENT	Route 17				road017_PartnerStop_1
 0x359	SIDE EVENT	Route 17				road017_PartnerStop_2
-0x35A	HIDDEN ITEM	Route 18		Found Razz Berry (x3)		road018_1_HideItem
-0x35B	EVENT	Route 18				road018_1_PartnerStop
+0x35A	HIDDEN ITEM	Route 18		Found Silver Razz Berry (x3) (recurring)		road018_1_HideItem
+0x35B	SIDE EVENT	Route 18				road018_1_PartnerStop
 0x35C	FIELD ITEM	Route 7		Elixir item ball disappeared		road007_Item
-0x35D	HIDDEN ITEM	Route 7		Found Pinap Berry (x5)		road007_HideItem
+0x35D	HIDDEN ITEM	Route 7		Found Pinap Berry (x5) (recurring)		road007_HideItem
 0x35E	SIDE EVENT	Route 7		Nanab Berry (Partner Findings)		road007_PartnerStop
 0x35F	FIELD ITEM	Route 16		PP Up item ball disappeared		road016_2_Item
-0x360	HIDDEN ITEM	Route 16		Found Awakening		road016_2_HideItem
+0x360	HIDDEN ITEM	Route 16		Found Awakening (recurring)		road016_2_HideItem
 0x361	EVENT	Route 16		Capture/Defeat Snorlax		road016_2_pm0143_kabigon
 0x362	EVENT	Route 16				road016_2_tr0007_fuji
 0x363	SIDE EVENT	Route 16				road016_2_PartnerStop
-0x364	HIDDEN ITEM	Celadon City		Found Razz Berry (x5)		town007_HideItem
+0x364	HIDDEN ITEM	Celadon City		Found Razz Berry (x5) (recurring)		town007_HideItem
 0x365	FIELD ITEM	Celadon City		Nugget item ball disappeared		town007_Item
 0x366	FIELD ITEM	Celadon City		Rare Candy item ball disappeared		town007_Item_0
 0x367	EVENT	Celadon City				town007_tr0066_fat
@@ -903,14 +903,14 @@
 0x385	SIDE EVENT	Saffron City				town011_PartnerStop_0
 0x386	FIELD ITEM	Route 8		Fire Stone item ball disappeared		road008_Item
 0x387	FIELD ITEM	Route 8		Big Mushroom item ball disappeared		road008_Item_0
-0x388	HIDDEN ITEM	Route 8		Found Silver Pinap Berry (x3)		road008_HideItem
+0x388	HIDDEN ITEM	Route 8		Found Silver Pinap Berry (x3) (recurring)		road008_HideItem
 0x389	FIELD ITEM	Route 8		X Speed item ball disappeared		road008_Item_1
 0x38A	SIDE EVENT	Route 8		Golden Pinap Berry (Partner Findings)		road008_PartnerStop
-0x38B	HIDDEN ITEM	Route 10		Found Nanab Berry (x5)		road010_1_HideItem
+0x38B	HIDDEN ITEM	Route 10		Found Nanab Berry (x5) (recurring)		road010_1_HideItem
 0x38C	FIELD ITEM	Route 10		Great Ball (x3) item ball disappeared		road010_1_Item
 0x38D	FIELD ITEM	Route 12		TM24 (X-Scissor) item ball disappeared		road012_Item
 0x38E	FIELD ITEM	Route 12		Water Stone item ball disappeared		road012_Item_0
-0x38F	HIDDEN ITEM	Route 12		Found Silver Pinap Berry (x5)		road012_HideItem
+0x38F	HIDDEN ITEM	Route 12		Found Silver Pinap Berry (x5) (recurring)		road012_HideItem
 0x390	FIELD ITEM	Route 12		Ultra Ball (x3) item ball disappeared		road012_Item_1
 0x391	FIELD ITEM	Route 12		Lure item ball disappeared		road012_Item_2
 0x392	FIELD ITEM	Route 12		Repel item ball disappeared		road012_Item_3
@@ -920,43 +920,43 @@
 0x396	EVENT	Route 12				road012_tr0039_pokemaniac
 0x397	EVENT	Route 12				road012_tr0007_fuji
 0x398	SIDE EVENT	Route 12				road012_PartnerStop
-0x399	HIDDEN ITEM	Route 13		Found Silver Nanab Berry (x5)		road013_HideItem
-0x39A	HIDDEN ITEM	Route 13		Found Golden Pinap Berry		road013_HideItem_0
+0x399	HIDDEN ITEM	Route 13		Found Silver Nanab Berry (x5) (recurring)		road013_HideItem
+0x39A	HIDDEN ITEM	Route 13		Found Golden Pinap Berry (recurring)		road013_HideItem_0
 0x39B	FIELD ITEM	Route 13		Full Heal item ball disappeared		road013_Item
 0x39C	FIELD ITEM	Route 13		PP Up item ball disappeared		road013_Item_0
 0x39D	FIELD ITEM	Route 14		Hyper Potion item ball disappeared		road014_Item
 0x39E	FIELD ITEM	Route 14		Nugget item ball disappeared		road014_Item_0
-0x39F	HIDDEN ITEM	Route 14		Found Golden Razz Berry		road014_HideItem
+0x39F	HIDDEN ITEM	Route 14		Found Golden Razz Berry (recurring)		road014_HideItem
 0x3A0	SIDE EVENT	Route 14		Nanab Berry		road014_PartnerStop
 0x3A1	FIELD ITEM	Route 15		TM47 (Surf) item ball disappeared		road015_1_Item
 0x3A2	FIELD ITEM	Route 15		Hyper Potion item ball disappeared		road015_1_Item_0
 0x3A3	FIELD ITEM	Route 15		Ultra Ball (x3) item ball disappeared		road015_1_Item_1
-0x3A4	HIDDEN ITEM	Route 15		Found Golden Nanab Berry		road015_1_HideItem
+0x3A4	HIDDEN ITEM	Route 15		Found Golden Nanab Berry (recurring)		road015_1_HideItem
 0x3A5	SIDE EVENT	Route 15		Silver Pinap Berry		road015_1_PartnerStop
-0x3A6	EVENT					town005_tr0059_youngm
-0x3A7	EVENT					town005_tr0061_adultm
-0x3A8	EVENT					town005_tr0060_youngf
-0x3A9	EVENT					town005_pm0104_karakara
-0x3AA	EVENT					town005_tr0016_musashi
-0x3AB	EVENT					town005_tr0017_kojiro
-0x3AC	EVENT					town005_pm0052_nyarth
-0x3AD	EVENT					town005_tr0065_oldf
-0x3AE	EVENT					town005_pm0029_nidoranF
-0x3AF	EVENT					town005_tr0058_childf
-0x3B0	SIDE EVENT					town005_PartnerStop
+0x3A6	EVENT	Lavender Town				town005_tr0059_youngm
+0x3A7	EVENT	Lavender Town				town005_tr0061_adultm
+0x3A8	EVENT	Lavender Town				town005_tr0060_youngf
+0x3A9	EVENT	Lavender Town				town005_pm0104_karakara
+0x3AA	EVENT	Lavender Town				town005_tr0016_musashi
+0x3AB	EVENT	Lavender Town				town005_tr0017_kojiro
+0x3AC	EVENT	Lavender Town				town005_pm0052_nyarth
+0x3AD	EVENT	Lavender Town				town005_tr0065_oldf
+0x3AE	EVENT	Lavender Town				town005_pm0029_nidoranF
+0x3AF	EVENT	Lavender Town				town005_tr0058_childf
+0x3B0	SIDE EVENT	Lavender Town				town005_PartnerStop
 0x3B1	FIELD ITEM	Route 6		Super Potion item ball disappeared		road006_Item
 0x3B2	FIELD ITEM	Route 6		Paralyze Heal item ball disappeared		road006_Item_0
-0x3B3	HIDDEN ITEM	Route 6		Found Rare Candy		road006_HideItem
+0x3B3	HIDDEN ITEM	Route 6		Found Rare Candy (recurring)		road006_HideItem
 0x3B4	FIELD ITEM	Route 6		Guard Spec. item ball disappeared		road006_Item_1
-0x3B5	HIDDEN ITEM	Route 11		Found Revive		road011_1_HideItem
+0x3B5	HIDDEN ITEM	Route 11		Found Revive (recurring)		road011_1_HideItem
 0x3B6	FIELD ITEM	Route 11		Great Ball (x5) item ball disappeared		road011_1_Item
 0x3B7	FIELD ITEM	Route 11		Super Potion item ball disappeared		road011_1_Item_0
 0x3B8	FIELD ITEM	Route 11		X Defense item ball disappeared		road011_1_Item_1
 0x3B9	FIELD ITEM	Route 11		Lure item ball disappeared		road011_1_Item_2
 0x3BA	FIELD ITEM	Route 11		Super Repel item ball disappeared		road011_1_Item_3
 0x3BB	SIDE EVENT	Route 11		Golden Razz Berry (Partner Findings)		road011_1_PartnerStop
-0x3BC	HIDDEN ITEM	Vermilion City		Found Big Pearl		town006_HideItem
-0x3BD	HIDDEN ITEM	Vermilion City		Found Full Heal		town006_HideItem_0
+0x3BC	HIDDEN ITEM	Vermilion City		Found Big Pearl (recurring)		town006_HideItem
+0x3BD	HIDDEN ITEM	Vermilion City		Found Full Heal (recurring)		town006_HideItem_0
 0x3BE	EVENT	Vermilion City				town006_tr0064_oldm
 0x3BF	EVENT	Vermilion City				town006_tr0028_miniskirt
 0x3C0	EVENT	Vermilion City				town006_tr0064_oldm_0
@@ -977,21 +977,21 @@
 0x3CF	EVENT	Vermilion City				t006r0301_tr0090_fairy
 0x3D0	FIELD ITEM	Route 7	Underground Path (East-West)	X Accuracy item ball disappeared		underground01_Item
 0x3D1	FIELD ITEM	Route 7	Underground Path (East-West)	X Defense item ball disappeared		underground01_Item_0
-0x3D2	HIDDEN ITEM	Route 7	Underground Path (East-West)	Found Potion		underground01_HideItem
-0x3D3	HIDDEN ITEM	Route 7	Underground Path (East-West)	Found Nugget		underground01_HideItem_0
-0x3D4	HIDDEN ITEM	Route 7	Underground Path (East-West)	Found Big Pearl		underground01_HideItem_1
-0x3D5	HIDDEN ITEM	Route 7	Underground Path (East-West)	Found Lure		underground01_HideItem_2
-0x3D6	HIDDEN ITEM	Route 5	Underground Path (North-South)	Found Lure		underground02_HideItem
-0x3D7	HIDDEN ITEM	Route 5	Underground Path (North-South)	Found Fresh Water		underground02_HideItem_0
-0x3D8	HIDDEN ITEM	Route 5	Underground Path (North-South)	Found Pretty Wing		underground02_HideItem_1
-0x3D9	HIDDEN ITEM	Route 5	Underground Path (North-South)	Found Pearl		underground02_HideItem_2
-0x3DA	HIDDEN ITEM	Route 5	Underground Path (North-South)	Found Nugget		underground02_HideItem_3
+0x3D2	HIDDEN ITEM	Route 7	Underground Path (East-West)	Found (random item) (recurring)		underground01_HideItem
+0x3D3	HIDDEN ITEM	Route 7	Underground Path (East-West)	Found (random item) (recurring)		underground01_HideItem_0
+0x3D4	HIDDEN ITEM	Route 7	Underground Path (East-West)	Found (random item) (recurring)		underground01_HideItem_1
+0x3D5	HIDDEN ITEM	Route 7	Underground Path (East-West)	Found (random item) (recurring)		underground01_HideItem_2
+0x3D6	HIDDEN ITEM	Route 5	Underground Path (North-South)	Found (random item) (recurring)		underground02_HideItem
+0x3D7	HIDDEN ITEM	Route 5	Underground Path (North-South)	Found (random item) (recurring)		underground02_HideItem_0
+0x3D8	HIDDEN ITEM	Route 5	Underground Path (North-South)	Found (random item) (recurring)		underground02_HideItem_1
+0x3D9	HIDDEN ITEM	Route 5	Underground Path (North-South)	Found (random item) (recurring)		underground02_HideItem_2
+0x3DA	HIDDEN ITEM	Route 5	Underground Path (North-South)	Found Nugget (recurring)		underground02_HideItem_3
 0x3DB	FIELD ITEM	Route 5	Underground Path (North-South)	Repel item ball disappeared		underground02_Item
 0x3DC	FIELD ITEM	Route 5	Underground Path (North-South)	Lure item ball disappeared		underground02_Item_0
 0x3DD	FIELD ITEM	Viridian Forest		Antidote item ball disappeared		forest001_Item
 0x3DE	FIELD ITEM	Viridian Forest		Potion item ball disappeared		forest001_Item_0
 0x3DF	FIELD ITEM	Viridian Forest		Lure item ball disappeared		forest001_Item_1
-0x3E0	HIDDEN ITEM	Viridian Forest		Found Potion		forest001_HideItem
+0x3E0	HIDDEN ITEM	Viridian Forest		Found Potion (recurring)		forest001_HideItem
 0x3E1	FIELD ITEM	Viridian Forest		Razz Berry (x3) item ball disappeared		forest001_Item_4
 0x3E2	FIELD ITEM	Viridian Forest		Poké Ball (x5) item ball disappeared		forest001_Item_3
 0x3E3	FIELD ITEM	Viridian Forest		Tiny Mushroom item ball disappeared		forest001_Item_2
@@ -1014,22 +1014,22 @@
 0x3F4	FIELD ITEM	Mt. Moon	1F	Pearl item ball disappeared		r004d0101_Item_2
 0x3F5	FIELD ITEM	Mt. Moon	1F	Ether item ball disappeared		r004d0101_Item_3
 0x3F6	FIELD ITEM	Mt. Moon	1F	Great Ball (x5) item ball disappeared		r004d0101_Item_4
-0x3F7	HIDDEN ITEM	Mt. Moon	1F	Found Stardust		r004d0101_HideItem
+0x3F7	HIDDEN ITEM	Mt. Moon	1F	Found Stardust (recurring)		r004d0101_HideItem
 0x3F8	EVENT	Mt. Moon	1F			r004d0101_pm0052_nyarth
 0x3F9	EVENT	Mt. Moon	1F			r004d0101_tr0016_musashi
 0x3FA	EVENT	Mt. Moon	1F			r004d0101_tr0017_kojiro
 0x3FB	EVENT	Mt. Moon	1F			r004d0101_tr0067_middlem
 0x3FC	SIDE EVENT	Mt. Moon	1F			r004d0101_PartnerStop
 0x3FD	SIDE EVENT	Mt. Moon	1F			r004d0101_PartnerStop_0
-0x3FE	HIDDEN ITEM	Mt. Moon	B1F	Found Big Mushroom		r004d0102_HideItem
+0x3FE	HIDDEN ITEM	Mt. Moon	B1F	Found Big Mushroom (recurring)		r004d0102_HideItem
 0x3FF	EVENT	Mt. Moon	B1F			r004d0102_pm0052_nyarth
 0x400	SIDE EVENT	Mt. Moon	B1F			r004d0102_PartnerStop
 0x401	SIDE EVENT	Mt. Moon	B1F			r004d0102_PartnerStop_0
 0x402	SIDE EVENT	Mt. Moon	B1F			r004d0102_PartnerStop_1
 0x403	FIELD ITEM	Mt. Moon	B2F	Rare Candy item ball disappeared		r004d0103_Item
 0x404	FIELD ITEM	Mt. Moon	B2F	Nugget item ball disappeared		r004d0103_Item_0
-0x405	HIDDEN ITEM	Mt. Moon	B2F	Found Moon Stone		r004d0103_HideItem
-0x406	HIDDEN ITEM	Mt. Moon	B2F	Found Moon Stone		r004d0103_HideItem_0
+0x405	HIDDEN ITEM	Mt. Moon	B2F	Found Moon Stone (recurring)		r004d0103_HideItem
+0x406	HIDDEN ITEM	Mt. Moon	B2F	Found Moon Stone (recurring)		r004d0103_HideItem_0
 0x407	FIELD ITEM	Mt. Moon	B2F	Revive item ball disappeared		r004d0103_Item_1
 0x408	FIELD ITEM	Mt. Moon	B2F	Potion item ball disappeared		r004d0103_Item_2
 0x409	FIELD ITEM	Mt. Moon	B2F	Revive item ball disappeared		r004d0103_Item_3
@@ -1048,7 +1048,7 @@
 0x416	FIELD ITEM	Rock Tunnel	1F	Super Potion item ball disappeared		r010d0101_Item_1
 0x417	FIELD ITEM	Rock Tunnel	1F	Pearl item ball disappeared		r010d0101_Item_2
 0x418	FIELD ITEM	Rock Tunnel	1F	Stardust item ball disappeared		r010d0101_Item_3
-0x419	HIDDEN ITEM	Rock Tunnel	1F	Found Revive		r010d0101_HideItem
+0x419	HIDDEN ITEM	Rock Tunnel	1F	Found Revive (recurring)		r010d0101_HideItem
 0x41A	EVENT	Rock Tunnel	1F			r010d0101_tr0067_middlem
 0x41B	SIDE EVENT	Rock Tunnel	1F			r010d0101_PartnerStop
 0x41C	SIDE EVENT	Rock Tunnel	1F			r010d0101_PartnerStop_0
@@ -1060,7 +1060,7 @@
 0x422	FIELD ITEM	Rock Tunnel	B1F	Full Heal item ball disappeared		r010d0102_Item_1
 0x423	FIELD ITEM	Rock Tunnel	B1F	Super Potion item ball disappeared		r010d0102_Item_2
 0x424	FIELD ITEM	Rock Tunnel	B1F	Dire Hit item ball disappeared		r010d0102_Item_3
-0x425	HIDDEN ITEM	Rock Tunnel	B1F	Found Super Potion		r010d0102_HideItem
+0x425	HIDDEN ITEM	Rock Tunnel	B1F	Found Super Potion (recurring)		r010d0102_HideItem
 0x426	FIELD ITEM	Rock Tunnel	B1F	Stardust item ball disappeared		r010d0102_Item_4
 0x427	SIDE EVENT	Rock Tunnel	B1F			r010d0102_PartnerStop
 0x428	SIDE EVENT	Rock Tunnel	B1F			r010d0102_PartnerStop_0
@@ -1072,14 +1072,14 @@
 0x42E	FIELD ITEM	Power Plant		TM38 (Thunder) item ball disappeared		r010r0101_Item_1
 0x42F	FIELD ITEM	Power Plant		Max Potion item ball disappeared		r010r0101_Item_2
 0x430	FIELD ITEM	Power Plant		Thunder Stone item ball disappeared		r010r0101_Item_3
-0x431	HIDDEN ITEM	Power Plant		Found Voltorb Candy		r010r0101_HideItem
-0x432	HIDDEN ITEM	Power Plant		Found Pretty Wing		r010r0101_HideItem_0
+0x431	HIDDEN ITEM	Power Plant		Found Voltorb Candy (recurring)		r010r0101_HideItem
+0x432	HIDDEN ITEM	Power Plant		Found Pretty Wing (recurring)		r010r0101_HideItem_0
 0x433	FIELD ITEM	Power Plant		Paralyze Heal item ball disappeared		r010r0101_Item_4
 0x434	FIELD ITEM	Power Plant		X Sp. Def item ball disappeared		r010r0101_Item_5
 0x435	FIELD ITEM	Power Plant		Max Potion item ball disappeared		r010r0101_Item_6
-0x436	HIDDEN ITEM	Power Plant		Found Voltorb Candy		r010r0101_HideItem_1
-0x437	HIDDEN ITEM	Power Plant		Found Voltorb Candy		r010r0101_HideItem_2
-0x438	HIDDEN ITEM	Power Plant		Found Voltorb Candy		r010r0101_HideItem_3
+0x436	HIDDEN ITEM	Power Plant		Found Voltorb Candy (recurring)		r010r0101_HideItem_1
+0x437	HIDDEN ITEM	Power Plant		Found Voltorb Candy (recurring)		r010r0101_HideItem_2
+0x438	HIDDEN ITEM	Power Plant		Found Voltorb Candy (recurring)		r010r0101_HideItem_3
 0x439	EVENT	Power Plant		Capture/Defeat Zapdos		r010r0101_pm0145_thunder
 0x43A	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode		r010r0101_marumain_01
 0x43B	STATIC ENCOUNTER	Power Plant		Capture/Defeat Electrode		r010r0101_marumain_02
@@ -1121,21 +1121,21 @@
 0x45F	EVENT					r018g0102_tr0035_girlscout
 0x460	FIELD ITEM	Seafoam Islands	1F	Ice Heal item ball disappeared		r020d0101_Item
 0x461	FIELD ITEM	Seafoam Islands	1F	Escape Rope item ball disappeared		r020d0101_Item_0
-0x462	HIDDEN ITEM	Seafoam Islands	1F	Found Heart Scale		r020d0101_HideItem
-0x463	HIDDEN ITEM	Seafoam Islands	1F	Found Heart Scale		r020d0101_HideItem_0
+0x462	HIDDEN ITEM	Seafoam Islands	1F	Found Heart Scale (recurring)		r020d0101_HideItem
+0x463	HIDDEN ITEM	Seafoam Islands	1F	Found Heart Scale (recurring)		r020d0101_HideItem_0
 0x464	EVENT	Seafoam Islands	1F			r020d0101_tr0067_middlem
 0x465	FIELD ITEM	Seafoam Islands	B1F	Super Lure item ball disappeared		r020d0102_Item
 0x466	FIELD ITEM	Seafoam Islands	B1F	Great Ball (x5) item ball disappeared		r020d0102_Item_0
 0x467	FIELD ITEM	Seafoam Islands	B1F	Super Repel item ball disappeared		r020d0102_Item_1
 0x468	FIELD ITEM	Seafoam Islands	B1F	Max Potion item ball disappeared		r020d0102_Item_2
-0x469	HIDDEN ITEM	Seafoam Islands	B1F	Found Max Revive		r020d0102_HideItem
+0x469	HIDDEN ITEM	Seafoam Islands	B1F	Found Max Revive (recurring)		r020d0102_HideItem
 0x46A	SIDE EVENT	Seafoam Islands	B1F			r020d0102_PartnerStop
-0x46B	HIDDEN ITEM	Seafoam Islands	B2F	Found Pearl		r020d0103_HideItem
+0x46B	HIDDEN ITEM	Seafoam Islands	B2F	Found Pearl (recurring)		r020d0103_HideItem
 0x46C	FIELD ITEM	Seafoam Islands	B2F	TM55 (Ice Beam) item ball disappeared		r020d0103_Item
 0x46D	FIELD ITEM	Seafoam Islands	B2F	Ice Stone item ball disappeared		r020d0103_Item_0
-0x46E	HIDDEN ITEM	Seafoam Islands	B2F			r020d0103_HideItem_0
-0x46F	HIDDEN ITEM	Seafoam Islands	B2F	Found Heart Scale		r020d0103_HideItem_1
-0x470	HIDDEN ITEM	Seafoam Islands	B2F	Found Heart Scale		r020d0103_HideItem_2
+0x46E	HIDDEN ITEM	Seafoam Islands	B2F	Found Heart Scale (recurring)		r020d0103_HideItem_0
+0x46F	HIDDEN ITEM	Seafoam Islands	B2F	Found Heart Scale (recurring)		r020d0103_HideItem_1
+0x470	HIDDEN ITEM	Seafoam Islands	B2F	Found Heart Scale (recurring)		r020d0103_HideItem_2
 0x471	SIDE EVENT	Seafoam Islands	B2F			r020d0103_PartnerStop
 0x472	SIDE EVENT	Seafoam Islands	B2F			r020d0103_PartnerStop_0
 0x473	EVENT	Seafoam Islands	B4F			r020d0105_1_pm0144_freezer
@@ -1143,15 +1143,15 @@
 0x475	EVENT	Route 22				r022g0101_tr0075_guard
 0x476	FIELD ITEM	Victory Road	1F	Leaf Stone item ball disappeared		r023d0101_Item
 0x477	FIELD ITEM	Victory Road	1F	TM56 (Stealth Rock) item ball disappeared		r023d0101_Item_0
-0x478	HIDDEN ITEM	Victory Road	1F	Found Mighty Candy		r023d0101_HideItem
+0x478	HIDDEN ITEM	Victory Road	1F	Found (random candy) (recurring)		r023d0101_HideItem
 0x479	FIELD ITEM	Victory Road	1F	Ultra Ball (x3) item ball disappeared		r023d0101_Item_1
 0x47A	SIDE EVENT	Victory Road	1F			r023d0101_PartnerStop
 0x47B	FIELD ITEM	Victory Road	2F	PP Max item ball disappeared		r023d0102_Item
 0x47C	FIELD ITEM	Victory Road	2F	Full Restore item ball disappeared		r023d0102_Item_0
 0x47D	FIELD ITEM	Victory Road	2F	TM49 (Superpower) item ball disappeared		r023d0102_Item_1
 0x47E	FIELD ITEM	Victory Road	2F	TM45 (Solar Beam) item ball disappeared		r023d0102_Item_2
-0x47F	HIDDEN ITEM	Victory Road	2F	Found Mighty Candy		r023d0102_HideItem
-0x480	HIDDEN ITEM	Victory Road	2F	Found Pretty Wing		r023d0102_HideItem_0
+0x47F	HIDDEN ITEM	Victory Road	2F	Found (random candy) (recurring)		r023d0102_HideItem
+0x480	HIDDEN ITEM	Victory Road	2F	Found Pretty Wing (recurring)		r023d0102_HideItem_0
 0x481	EVENT	Victory Road	2F			r023d0102_pm0146_fire
 0x482	SIDE EVENT	Victory Road	2F			r023d0102_PartnerStop
 0x483	FIELD ITEM	Victory Road	3F	TM51 (Blizzard) item ball disappeared		r023d0103_Item
@@ -1160,7 +1160,7 @@
 0x486	FIELD ITEM	Victory Road	3F	Full Restore item ball disappeared		r023d0103_Item_2
 0x487	FIELD ITEM	Victory Road	3F	Max Potion item ball disappeared		r023d0103_Item_3
 0x488	HIDDEN ITEM	Victory Road	3F	Found Fresh Water (recurring)		r023d0103_HideItem
-0x489	HIDDEN ITEM	Victory Road	3F	Found Tough Candy		r023d0103_HideItem_0
+0x489	HIDDEN ITEM	Victory Road	3F	Found (random candy) (recurring)		r023d0103_HideItem_0
 0x48A	EVENT	Victory Road	3F			r023d0103_tr0074_policef
 0x48B	SIDE EVENT	Victory Road	3F			r023d0103_PartnerStop
 0x48C	SIDE EVENT	Victory Road	3F			r023d0103_PartnerStop_0
@@ -1189,44 +1189,44 @@
 0x4A3	EVENT					t002r0201_tr0067_middlem
 0x4A4	EVENT					t002r0201_tr0058_childf
 0x4A5	EVENT					t002r0201_pm0021_onisuzume
-0x4A6	EVENT					t003gym01_tr0027_shortpants
-0x4A7	EVENT					t003gym01_tr0027_shortpants_0
-0x4A8	EVENT					t003gym01_tr0028_miniskirt_0
-0x4A9	EVENT					t003gym01_tr0061_adultm
-0x4AA	EVENT					t003gym01_tr0061_adultm_0
-0x4AB	EVENT					t003gym01_tr0008_rock
-0x4AC	EVENT					t003gym01_tr0070_gym
-0x4AD	EVENT					t003gym01_tr0034_boyscout
-0x4AE	EVENT					t003gym01_tr0035_girlscout
-0x4AF	EVENT					t003r0101_tr0064_oldm
-0x4B0	EVENT					t003r0101_tr0044_researcher
-0x4B1	EVENT					t003r0101_tr0044_researcher_0
-0x4B2	EVENT					t003r0101_tr0054_scientist
-0x4B3	EVENT					t003r0101_tr0044_researcher_1
-0x4B4	SIDE EVENT					t003r0101_PartnerStop
-0x4B5	EVENT					t003r0102_tr0086_nresearcher
-0x4B6	EVENT					t003r0102_tr0064_oldm
-0x4B7	EVENT					t003r0102_tr0083_juvenilem
-0x4B8	EVENT					t003r0102_tr0084_juveniles
-0x4B9	EVENT					t003r0102_tr0066_fat
+0x4A6	EVENT	Pewter City				t003gym01_tr0027_shortpants
+0x4A7	EVENT	Pewter City				t003gym01_tr0027_shortpants_0
+0x4A8	EVENT	Pewter City				t003gym01_tr0028_miniskirt_0
+0x4A9	EVENT	Pewter City				t003gym01_tr0061_adultm
+0x4AA	EVENT	Pewter City				t003gym01_tr0061_adultm_0
+0x4AB	EVENT	Pewter City				t003gym01_tr0008_rock
+0x4AC	EVENT	Pewter City				t003gym01_tr0070_gym
+0x4AD	EVENT	Pewter City				t003gym01_tr0034_boyscout
+0x4AE	EVENT	Pewter City				t003gym01_tr0035_girlscout
+0x4AF	EVENT	Pewter City				t003r0101_tr0064_oldm
+0x4B0	EVENT	Pewter City				t003r0101_tr0044_researcher
+0x4B1	EVENT	Pewter City				t003r0101_tr0044_researcher_0
+0x4B2	EVENT	Pewter City				t003r0101_tr0054_scientist
+0x4B3	EVENT	Pewter City				t003r0101_tr0044_researcher_1
+0x4B4	SIDE EVENT	Pewter City				t003r0101_PartnerStop
+0x4B5	EVENT	Pewter City				t003r0102_tr0086_nresearcher
+0x4B6	EVENT	Pewter City				t003r0102_tr0064_oldm
+0x4B7	EVENT	Pewter City				t003r0102_tr0083_juvenilem
+0x4B8	EVENT	Pewter City				t003r0102_tr0084_juveniles
+0x4B9	EVENT	Pewter City				t003r0102_tr0066_fat
 0x4BA	SIDE EVENT	Pewter City	Museum	Bring a partner that can evolve with a Moon Stone (Partner Findings)		t003r0102_PartnerStop
-0x4BB	EVENT					t003r0201_tr0057_childm
-0x4BC	EVENT					t003r0201_tr0067_middlem
-0x4BD	EVENT					t003r0201_pm0032_nidoranM
-0x4BE	EVENT					t003r0301_tr0064_oldm
-0x4BF	EVENT					t003r0301_tr0026_bugcatcher
+0x4BB	EVENT	Pewter City				t003r0201_tr0057_childm
+0x4BC	EVENT	Pewter City				t003r0201_tr0067_middlem
+0x4BD	EVENT	Pewter City				t003r0201_pm0032_nidoranM
+0x4BE	EVENT	Pewter City				t003r0301_tr0064_oldm
+0x4BF	EVENT	Pewter City				t003r0301_tr0026_bugcatcher
 0x4C0	FIELD ITEM	Cerulean Cave	1F	Max Revive item ball disappeared		t004d0101_Item
 0x4C1	FIELD ITEM	Cerulean Cave	1F	Max Repel item ball disappeared		t004d0101_Item_0
 0x4C2	FIELD ITEM	Cerulean Cave	1F	Full Heal item ball disappeared		t004d0101_Item_1
 0x4C3	FIELD ITEM	Cerulean Cave	1F	PP Max item ball disappeared		t004d0101_Item_2
-0x4C4	HIDDEN ITEM	Cerulean Cave	1F			t004d0101_HideItem
-0x4C5	HIDDEN ITEM	Cerulean Cave	1F			t004d0101_HideItem_0
+0x4C4	HIDDEN ITEM	Cerulean Cave	1F	Found Full Restore (recurring)		t004d0101_HideItem
+0x4C5	HIDDEN ITEM	Cerulean Cave	1F	Found Rare Candy (recurring)		t004d0101_HideItem_0
 0x4C6	SIDE EVENT	Cerulean Cave	1F	Pearl (Partner Findings)		t004d0101_PartnerStop
 0x4C7	FIELD ITEM	Cerulean Cave	2F	Full Restore item ball disappeared		t004d0102_Item
 0x4C8	FIELD ITEM	Cerulean Cave	2F	Rare Candy item ball disappeared		t004d0102_Item_0
 0x4C9	FIELD ITEM	Cerulean Cave	2F	Max Revive item ball disappeared		t004d0102_Item_1
 0x4CA	FIELD ITEM	Cerulean Cave	2F	Max Lure item ball disappeared		t004d0102_Item_2
-0x4CB	HIDDEN ITEM	Cerulean Cave	2F			t004d0102_HideItem
+0x4CB	HIDDEN ITEM	Cerulean Cave	2F	Found (random fossil / Max Revive) (recurring)		t004d0102_HideItem
 0x4CC	FIELD ITEM	Cerulean Cave	2F	Ultra Balls (x5) item ball disappeared		t004d0102_Item_3
 0x4CD	SIDE EVENT	Cerulean Cave	2F	Pearl (Partner Findings)		t004d0102_PartnerStop
 0x4CE	SIDE EVENT	Cerulean Cave	2F	Stardust (Partner Findings)		t004d0102_PartnerStop_0
@@ -1234,9 +1234,9 @@
 0x4D0	FIELD ITEM	Cerulean Cave	B1F	Full Restore item ball disappeared		t004d0103_Item_0
 0x4D1	FIELD ITEM	Cerulean Cave	B1F	Max Elixir item ball disappeared		t004d0103_Item_1
 0x4D2	FIELD ITEM	Cerulean Cave	B1F	[unused?]		t004d0103_Item_2
-0x4D3	HIDDEN ITEM	Cerulean Cave	B1F	Found Max Revive		t004d0103_HideItem
-0x4D4	HIDDEN ITEM	Cerulean Cave	B1F	Found Fossil (Random)		t004d0103_HideItem_0
-0x4D5	HIDDEN ITEM	Cerulean Cave	B1F	Found PP Max		t004d0103_HideItem_1
+0x4D3	HIDDEN ITEM	Cerulean Cave	B1F	Found Max Revive (recurring)		t004d0103_HideItem
+0x4D4	HIDDEN ITEM	Cerulean Cave	B1F	Found (random fossil) (recurring)		t004d0103_HideItem_0
+0x4D5	HIDDEN ITEM	Cerulean Cave	B1F	Found PP Max (recurring)		t004d0103_HideItem_1
 0x4D6	FIELD ITEM	Cerulean Cave	B1F	Poké Ball item ball disappeared		t004d0103_Item_3
 0x4D7	FIELD ITEM	Cerulean Cave	B1F	Poké Ball item ball disappeared		t004d0103_Item_4
 0x4D8	FIELD ITEM	Cerulean Cave	B1F	Poké Ball item ball disappeared		t004d0103_Item_5
@@ -1283,13 +1283,13 @@
 0x501	EVENT	Pokémon Tower	1F			t005r0301_tr0060_youngf
 0x502	EVENT	Pokémon Tower	1F			t005r0301_tr0050_shaman
 0x503	EVENT	Pokémon Tower	1F			t005r0301_tr0065_oldf_0
-0x504	HIDDEN ITEM	Pokémon Tower	2F	Found Pearl		t005r0302_HideItem
+0x504	HIDDEN ITEM	Pokémon Tower	2F	Found Pearl (recurring)		t005r0302_HideItem
 0x505	FIELD ITEM	Pokémon Tower	2F	X Attack item ball disappeared		t005r0302_Item
 0x506	FIELD ITEM	Pokémon Tower	2F	Elixir item ball disappeared		t005r0302_Item_0
 0x507	EVENT	Pokémon Tower	2F			t005r0302_tr0050_shaman
 0x508	FIELD ITEM	Pokémon Tower	3F	Awakening item ball disappeared		t005r0303_Item
 0x509	FIELD ITEM	Pokémon Tower	3F	Super Potion item ball disappeared		t005r0303_Item_0
-0x50A	HIDDEN ITEM	Pokémon Tower	3F	Found Star Piece		t005r0303_HideItem
+0x50A	HIDDEN ITEM	Pokémon Tower	3F	Found Star Piece (recurring)		t005r0303_HideItem
 0x50B	EVENT	Pokémon Tower	3F			t005r0303_tr0092_pghosts
 0x50C	EVENT	Pokémon Tower	3F			t005r0303_tr0092_pghosts_0
 0x50D	EVENT	Pokémon Tower	3F			t005r0303_tr0092_pghosts_1
@@ -1300,9 +1300,9 @@
 0x512	FIELD ITEM	Pokémon Tower	4F	Escape Rope item ball disappeared		t005r0304_Item
 0x513	FIELD ITEM	Pokémon Tower	4F	TM04 (Teleport) item ball disappeared		t005r0304_Item_0
 0x514	FIELD ITEM	Pokémon Tower	4F	Full Heal item ball disappeared		t005r0304_Item_1
-0x515	HIDDEN ITEM	Pokémon Tower	4F	Found Super Potion		t005r0304_HideItem
+0x515	HIDDEN ITEM	Pokémon Tower	4F	Found Super Potion (recurring)		t005r0304_HideItem
 0x516	SIDE EVENT	Pokémon Tower	4F			t005r0304_PartnerStop
-0x517	HIDDEN ITEM	Pokémon Tower	5F	Found Big Pearl		t005r0305_HideItem
+0x517	HIDDEN ITEM	Pokémon Tower	5F	Found Big Pearl (recurring)		t005r0305_HideItem
 0x518	FIELD ITEM	Pokémon Tower	5F	Ice Stone item ball disappeared		t005r0305_Item
 0x519	FIELD ITEM	Pokémon Tower	5F	Nugget item ball disappeared		t005r0305_Item_0
 0x51A	EVENT	Pokémon Tower	5F			t005r0305_tr0050_shaman
@@ -1310,7 +1310,7 @@
 0x51C	FIELD ITEM	Pokémon Tower	6F	Rare Candy item ball disappeared		t005r0306_Item_0
 0x51D	FIELD ITEM	Pokémon Tower	6F	Ultra Ball (x3) item ball disappeared		t005r0306_Item_1
 0x51E	FIELD ITEM	Pokémon Tower	6F	Hyper Potion item ball disappeared		t005r0306_Item_2
-0x51F	HIDDEN ITEM	Pokémon Tower	6F	Found PP Up		t005r0306_HideItem
+0x51F	HIDDEN ITEM	Pokémon Tower	6F	Found PP Up (recurring)		t005r0306_HideItem
 0x520	EVENT	Pokémon Tower	7F			t005r0307_pm0052_nyarth
 0x521	EVENT					t005r0401_tr0064_oldm
 0x522	EVENT					t006gym01_tr0010_volt
@@ -1348,7 +1348,7 @@
 0x542	EVENT	S.S. Anne	Dock			t006r0306_tr0045_sailor
 0x543	EVENT	S.S. Anne	Dock			t006r0306_tr0029_elitem
 0x544	FIELD ITEM	S.S. Anne	Kitchen	Super Repel item ball disappeared		t006r0307_Item
-0x545	HIDDEN ITEM	S.S. Anne	Kitchen	Found Tiny Mushroom		t006r0307_HideItem
+0x545	HIDDEN ITEM	S.S. Anne	Kitchen	Found Tiny Mushroom (recurring)		t006r0307_HideItem
 0x546	EVENT	S.S. Anne	Kitchen			t006r0307_tr0088_cook
 0x547	EVENT	S.S. Anne	Kitchen			t006r0307_tr0088_cook_0
 0x548	EVENT	S.S. Anne	Kitchen			t006r0307_tr0088_cook_1
@@ -1440,12 +1440,12 @@
 0x59E	EVENT					t007r0506_tr0059_youngm
 0x59F	EVENT					t007r0506_pm0016_poppo
 0x5A0	EVENT					t007r0506_pm0016_poppo_0
-0x5A1	HIDDEN ITEM	Celadon City	Game Corner	Found Health Candy		t007r0601_HideItem
-0x5A2	HIDDEN ITEM	Celadon City	Game Corner	Found PP Max		t007r0601_HideItem_0
-0x5A3	HIDDEN ITEM	Celadon City	Game Corner	Found Tough Candy		t007r0601_HideItem_1
-0x5A4	HIDDEN ITEM	Celadon City	Game Corner	Found Nanab Berry		t007r0601_HideItem_2
-0x5A5	HIDDEN ITEM	Celadon City	Game Corner	Found Courage Candy		t007r0601_HideItem_3
-0x5A6	HIDDEN ITEM	Celadon City	Game Corner	Found Pinap Berry		t007r0601_HideItem_4
+0x5A1	HIDDEN ITEM	Celadon City	Game Corner	Found (random item) (recurring)		t007r0601_HideItem
+0x5A2	HIDDEN ITEM	Celadon City	Game Corner	Found (random item) (recurring)		t007r0601_HideItem_0
+0x5A3	HIDDEN ITEM	Celadon City	Game Corner	Found (random item) (recurring)		t007r0601_HideItem_1
+0x5A4	HIDDEN ITEM	Celadon City	Game Corner	Found (random item) (recurring)		t007r0601_HideItem_2
+0x5A5	HIDDEN ITEM	Celadon City	Game Corner	Found (random item) (recurring)		t007r0601_HideItem_3
+0x5A6	HIDDEN ITEM	Celadon City	Game Corner	Found (random item) (recurring)		t007r0601_HideItem_4
 0x5A7	EVENT					t007r0601_tr0070_gym
 0x5A8	EVENT					t007r0601_tr0067_middlem
 0x5A9	EVENT					t007r0601_tr0051_gambler
@@ -1460,36 +1460,36 @@
 0x5B2	EVENT					t007r0601_tr0031_karate
 0x5B3	EVENT					t007r0601_tr0041_denkigroup
 0x5B4	EVENT					t007r0701_tr0064_oldm
-0x5B5	FIELD ITEM	Team Rocked Hideout	B1F	Ultra Ball (x5) item ball disappeared		t007r0801_Item
-0x5B6	HIDDEN ITEM	Team Rocked Hideout	B1F	Found Full Heal		t007r0801_HideItem
-0x5B7	FIELD ITEM	Team Rocked Hideout	B1F	Hyper Potion item ball disappeared		t007r0801_Item_0
-0x5B8	FIELD ITEM	Team Rocked Hideout	B1F	Great Ball (x5) item ball disappeared		t007r0801_Item_1
-0x5B9	FIELD ITEM	Team Rocked Hideout	B1F	Mighty Candy (x3) item ball disappeared		t007r0801_Item_2
-0x5BA	EVENT	Team Rocked Hideout	B1F			t007r0801_tr0056_rocketf
-0x5BB	FIELD ITEM	Team Rocked Hideout	B2F	Nugget item ball disappeared		t007r0802_Item
-0x5BC	FIELD ITEM	Team Rocked Hideout	B2F	Awakening item ball disappeared		t007r0802_Item_0
-0x5BD	FIELD ITEM	Team Rocked Hideout	B2F	TM05 (Rest) item ball disappeared		t007r0802_Item_1
-0x5BE	FIELD ITEM	Team Rocked Hideout	B2F	PP Up item ball disappeared		t007r0802_Item_2
-0x5BF	HIDDEN ITEM	Team Rocked Hideout	B2F	Found X Accuracy		t007r0802_HideItem
-0x5C0	FIELD ITEM	Team Rocked Hideout	B3F	TM20 (Dark Pulse) item ball disappeared		t007r0803_Item
-0x5C1	FIELD ITEM	Team Rocked Hideout	B3F	Rare Candy item ball disappeared		t007r0803_Item_0
-0x5C2	HIDDEN ITEM	Team Rocked Hideout	B3F	Found Guard Spec.		t007r0803_HideItem
-0x5C3	FIELD ITEM	Team Rocked Hideout	B3F	Revive item ball disappeared		t007r0803_Item_1
-0x5C4	FIELD ITEM	Team Rocked Hideout	B3F	X Speed item ball disappeared		t007r0803_Item_2
-0x5C5	FIELD ITEM	Team Rocked Hideout	B4F	PP Up item ball disappeared		t007r0804_Item_0
-0x5C6	FIELD ITEM	Team Rocked Hideout	B4F	Hyper Potion item ball disappeared		t007r0804_Item_1
-0x5C7	FIELD ITEM	Team Rocked Hideout	B4F	Elixir item ball disappeared		t007r0804_Item_2
-0x5C8	HIDDEN ITEM	Team Rocked Hideout	B4F	Found Max Revive		t007r0804_HideItem
-0x5C9	EVENT	Team Rocked Hideout	B4F			t007r0804_tr0015_rocketboss
-0x5CA	EVENT	Team Rocked Hideout	B4F			t007r0804_tr0016_musashi
-0x5CB	EVENT	Team Rocked Hideout	B4F			t007r0804_tr0017_kojiro
-0x5CC	EVENT	Team Rocked Hideout	B4F			t007r0804_tr0085_rocketcheif
-0x5CD	EVENT	Team Rocked Hideout	B4F			t007r0804_tr0055_rocketm
-0x5CE	EVENT	Team Rocked Hideout	B4F			t007r0804_tr0002_heroine
-0x5CF	EVENT	Team Rocked Hideout	B4F			t007r0804_ball_mons
-0x5D0	EVENT	Team Rocked Hideout	B4F			t007r0804_pm0104_karakara
-0x5D1	EVENT	Team Rocked Hideout	B4F			t007r0804_pm0052_nyarth
-0x5D2	EVENT	Team Rocked Hideout	B4F			t007r0804_ball_mons_0
+0x5B5	FIELD ITEM	Team Rocket Hideout	B1F	Ultra Ball (x5) item ball disappeared		t007r0801_Item
+0x5B6	HIDDEN ITEM	Team Rocket Hideout	B1F	Found Full Heal (recurring)		t007r0801_HideItem
+0x5B7	FIELD ITEM	Team Rocket Hideout	B1F	Hyper Potion item ball disappeared		t007r0801_Item_0
+0x5B8	FIELD ITEM	Team Rocket Hideout	B1F	Great Ball (x5) item ball disappeared		t007r0801_Item_1
+0x5B9	FIELD ITEM	Team Rocket Hideout	B1F	Mighty Candy (x3) item ball disappeared		t007r0801_Item_2
+0x5BA	EVENT	Team Rocket Hideout	B1F			t007r0801_tr0056_rocketf
+0x5BB	FIELD ITEM	Team Rocket Hideout	B2F	Nugget item ball disappeared		t007r0802_Item
+0x5BC	FIELD ITEM	Team Rocket Hideout	B2F	Awakening item ball disappeared		t007r0802_Item_0
+0x5BD	FIELD ITEM	Team Rocket Hideout	B2F	TM05 (Rest) item ball disappeared		t007r0802_Item_1
+0x5BE	FIELD ITEM	Team Rocket Hideout	B2F	PP Up item ball disappeared		t007r0802_Item_2
+0x5BF	HIDDEN ITEM	Team Rocket Hideout	B2F	Found X Accuracy (recurring)		t007r0802_HideItem
+0x5C0	FIELD ITEM	Team Rocket Hideout	B3F	TM20 (Dark Pulse) item ball disappeared		t007r0803_Item
+0x5C1	FIELD ITEM	Team Rocket Hideout	B3F	Rare Candy item ball disappeared		t007r0803_Item_0
+0x5C2	HIDDEN ITEM	Team Rocket Hideout	B3F	Found Guard Spec. (recurring)		t007r0803_HideItem
+0x5C3	FIELD ITEM	Team Rocket Hideout	B3F	Revive item ball disappeared		t007r0803_Item_1
+0x5C4	FIELD ITEM	Team Rocket Hideout	B3F	X Speed item ball disappeared		t007r0803_Item_2
+0x5C5	FIELD ITEM	Team Rocket Hideout	B4F	PP Up item ball disappeared		t007r0804_Item_0
+0x5C6	FIELD ITEM	Team Rocket Hideout	B4F	Hyper Potion item ball disappeared		t007r0804_Item_1
+0x5C7	FIELD ITEM	Team Rocket Hideout	B4F	Elixir item ball disappeared		t007r0804_Item_2
+0x5C8	HIDDEN ITEM	Team Rocket Hideout	B4F	Found Max Revive (recurring)		t007r0804_HideItem
+0x5C9	EVENT	Team Rocket Hideout	B4F			t007r0804_tr0015_rocketboss
+0x5CA	EVENT	Team Rocket Hideout	B4F			t007r0804_tr0016_musashi
+0x5CB	EVENT	Team Rocket Hideout	B4F			t007r0804_tr0017_kojiro
+0x5CC	EVENT	Team Rocket Hideout	B4F			t007r0804_tr0085_rocketcheif
+0x5CD	EVENT	Team Rocket Hideout	B4F			t007r0804_tr0055_rocketm
+0x5CE	EVENT	Team Rocket Hideout	B4F			t007r0804_tr0002_heroine
+0x5CF	EVENT	Team Rocket Hideout	B4F			t007r0804_ball_mons
+0x5D0	EVENT	Team Rocket Hideout	B4F			t007r0804_pm0104_karakara
+0x5D1	EVENT	Team Rocket Hideout	B4F			t007r0804_pm0052_nyarth
+0x5D2	EVENT	Team Rocket Hideout	B4F			t007r0804_ball_mons_0
 0x5D3	EVENT	Fuchsia City	Gym	Leader Koga model disappeared		t008gym01_tr0012_poison
 0x5D4	EVENT					t008gym01_tr0064_oldm
 0x5D5	EVENT					t008gym01_tr0064_oldm_0
@@ -1571,7 +1571,7 @@
 0x621	EVENT					t009r0104_tr0086_nresearcher
 0x622	EVENT					t009r0104_tr0086_nresearcher_0
 0x623	EVENT					t009r0104_tr0086_nresearcher_1
-0x624	HIDDEN ITEM	Pokémon Mansion	1F	Found Tough Candy		t009r0201_HideItem
+0x624	HIDDEN ITEM	Pokémon Mansion	1F	Found (random candy) (recurring)		t009r0201_HideItem
 0x625	FIELD ITEM	Pokémon Mansion	1F	Max Elixir item ball disappeared		t009r0201_Item
 0x626	FIELD ITEM	Pokémon Mansion	1F	Fire Stone item ball disappeared		t009r0201_Item_0
 0x627	FIELD ITEM	Pokémon Mansion	1F	Max Repel item ball disappeared		t009r0201_Item_1
@@ -1582,23 +1582,23 @@
 0x62C	FIELD ITEM	Pokémon Mansion	2F	PP Up item ball disappeared		t009r0202_Item_0
 0x62D	FIELD ITEM	Pokémon Mansion	2F	Max Ether item ball disappeared		t009r0202_Item_1
 0x62E	FIELD ITEM	Pokémon Mansion	2F	Ultra Ball (x3) item ball disappeared		t009r0202_Item_2
-0x62F	HIDDEN ITEM	Pokémon Mansion	2F	Found Courage Candy		t009r0202_HideItem
+0x62F	HIDDEN ITEM	Pokémon Mansion	2F	Found (random candy) (recurring)		t009r0202_HideItem
 0x630	FIELD ITEM	Pokémon Mansion	2F	Hyper Potion item ball disappeared		t009r0202_Item_3
 0x631	FIELD ITEM	Pokémon Mansion	3F	TM21 (Foul Play) item ball disappeared		t009r0203_Item
 0x632	FIELD ITEM	Pokémon Mansion	3F	Rare Candy item ball disappeared		t009r0203_Item_0
-0x633	HIDDEN ITEM	Pokémon Mansion	3F	Found Courage Candy		t009r0203_HideItem
+0x633	HIDDEN ITEM	Pokémon Mansion	3F	Found (random candy) (recurring)		t009r0203_HideItem
 0x634	FIELD ITEM	Pokémon Mansion	3F	Full Heal item ball disappeared		t009r0203_Item_1
 0x635	FIELD ITEM	Pokémon Mansion	3F	X Accuracy item ball disappeared		t009r0203_Item_2
-0x636	FIELD ITEM	Pokémon Mansion	B1F	Secret Key (Key Item) item ball disappeared		t009r0204_Item
+0x636	FIELD ITEM	Pokémon Mansion	B1F	Secret Key item ball disappeared		t009r0204_Item
 0x637	FIELD ITEM	Pokémon Mansion	B1F	Max Potion item ball disappeared		t009r0204_Item_0
 0x638	FIELD ITEM	Pokémon Mansion	B1F	Rare Candy item ball disappeared		t009r0204_Item_1
 0x639	FIELD ITEM	Pokémon Mansion	B1F	Max Elixir item ball disappeared		t009r0204_Item_2
 0x63A	FIELD ITEM	Pokémon Mansion	B1F	TM52 (Sludge Bomb) item ball disappeared		t009r0204_Item_3
-0x63B	HIDDEN ITEM	Pokémon Mansion	B1F	Found Quick Candy		t009r0204_HideItem
-0x63C	HIDDEN ITEM	Pokémon Mansion	B1F	Found Smart Candy		t009r0204_HideItem_0
-0x63D	HIDDEN ITEM	Pokémon Mansion	B1F	Found Health Candy		t009r0204_HideItem_1
-0x63E	HIDDEN ITEM	Pokémon Mansion	B1F	Found Smart Candy		t009r0204_HideItem_2
-0x63F	HIDDEN ITEM	Pokémon Mansion	B1F	Found Quick Candy		t009r0204_HideItem_3
+0x63B	HIDDEN ITEM	Pokémon Mansion	B1F	Found (random candy) (recurring)		t009r0204_HideItem
+0x63C	HIDDEN ITEM	Pokémon Mansion	B1F	Found (random candy) (recurring)		t009r0204_HideItem_0
+0x63D	HIDDEN ITEM	Pokémon Mansion	B1F	Found (random candy) (recurring)		t009r0204_HideItem_1
+0x63E	HIDDEN ITEM	Pokémon Mansion	B1F	Found (random candy) (recurring)		t009r0204_HideItem_2
+0x63F	HIDDEN ITEM	Pokémon Mansion	B1F	Found (random candy) (recurring)		t009r0204_HideItem_3
 0x640	SIDE EVENT	Pokémon Mansion	B1F			t009r0204_PartnerStop
 0x641	SIDE EVENT	Pokémon Mansion	B1F			t009r0204_PartnerStop_0
 0x642	EVENT					t010champ01_tr0039_pokemaniac
@@ -1662,7 +1662,7 @@
 0x67C	EVENT					t011r0101_tr0067_middlem
 0x67D	EVENT					t011r0101_tr0068_middlef
 0x67E	EVENT					t011r0101_pm0113_lucky
-0x67F	HIDDEN ITEM	Saffron City	Copycat's House	Found Moon Stone		t011r0102_HideItem
+0x67F	HIDDEN ITEM	Saffron City	Copycat's House	Found Moon Stone (recurring)		t011r0102_HideItem
 0x680	EVENT					t011r0102_tr0058_childf
 0x681	EVENT					t011r0102_pm0084_dodo
 0x682	EVENT					t011r0201_tr0060_youngf
@@ -1682,7 +1682,7 @@
 0x690	EVENT	Silph Co.	2F			t011r0402_tr0080_stafff
 0x691	FIELD ITEM	Silph Co.	3F	Max Lure item ball disappeared		t011r0403_Item
 0x692	FIELD ITEM	Silph Co.	3F	X Sp. Def item ball disappeared		t011r0403_Item_0
-0x693	HIDDEN ITEM	Silph Co.	3F	Found Silver Razz Berry (x3)		t011r0403_HideItem
+0x693	HIDDEN ITEM	Silph Co.	3F	Found Silver Razz Berry (x3) (recurring)		t011r0403_HideItem
 0x694	EVENT	Silph Co.	3F			t011r0403_tr0079_staffm
 0x695	FIELD ITEM	Silph Co.	4F	Escape Rope item ball disappeared		t011r0404_Item
 0x696	FIELD ITEM	Silph Co.	4F	Star Piece item ball disappeared		t011r0404_Item_0
@@ -1692,7 +1692,7 @@
 0x69A	HIDDEN ITEM	Silph Co.	4F	Found Fresh Water (recurring)		t011r0404_HideItem
 0x69B	FIELD ITEM	Silph Co.	4F	Great Ball (x5) item ball disappeared		t011r0404_Item_4
 0x69C	EVENT	Silph Co.	4F			t011r0404_tr0079_staffm
-0x69D	HIDDEN ITEM	Silph Co.	5F	Found Silver Nanab Berry (x3)		t011r0405_HideItem
+0x69D	HIDDEN ITEM	Silph Co.	5F	Found Silver Nanab Berry (x3) (recurring)		t011r0405_HideItem
 0x69E	FIELD ITEM	Silph Co.	5F	Max Ether item ball disappeared		t011r0405_Item
 0x69F	FIELD ITEM	Silph Co.	5F	TM54 (Flash Cannon) item ball disappeared		t011r0405_Item_0
 0x6A0	FIELD ITEM	Silph Co.	5F	Guard Spec. item ball disappeared		t011r0405_Item_1
@@ -1707,7 +1707,7 @@
 0x6A9	FIELD ITEM	Silph Co.	6F	Max Repel item ball disappeared		t011r0406_Item
 0x6AA	FIELD ITEM	Silph Co.	6F	Hyper Potion item ball disappeared		t011r0406_Item_0
 0x6AB	HIDDEN ITEM	Silph Co.	6F	Found Fresh Water (recurring)		t011r0406_HideItem
-0x6AC	HIDDEN ITEM	Silph Co.	6F	Found Silver Pinap Berry (x3)		t011r0406_HideItem_0
+0x6AC	HIDDEN ITEM	Silph Co.	6F	Found Silver Pinap Berry (x3) (recurring)		t011r0406_HideItem_0
 0x6AD	FIELD ITEM	Silph Co.	6F	PP Up item ball disappeared		t011r0406_Item_1
 0x6AE	FIELD ITEM	Silph Co.	6F	X Sp. Atk item ball disappeared		t011r0406_Item_2
 0x6AF	FIELD ITEM	Silph Co.	6F	Super Potion item ball disappeared		t011r0406_Item_3
@@ -1720,7 +1720,7 @@
 0x6B6	FIELD ITEM	Silph Co.	7F	TM34 (Dragon Pulse) item ball disappeared		t011r0407_Item_0
 0x6B7	FIELD ITEM	Silph Co.	7F	Smart Candy (x3) item ball disappeared		t011r0407_Item_1
 0x6B8	FIELD ITEM	Silph Co.	7F	Rare Candy item ball disappeared		t011r0407_Item_2
-0x6B9	HIDDEN ITEM	Silph Co.	7F	Found Nanab Berry (x3)		t011r0407_HideItem
+0x6B9	HIDDEN ITEM	Silph Co.	7F	Found Nanab Berry (x3) (recurring)		t011r0407_HideItem
 0x6BA	EVENT	Silph Co.	7F			t011r0407_tr0085_rocketcheif
 0x6BB	EVENT	Silph Co.	7F			t011r0407_tr0003_rival
 0x6BC	EVENT	Silph Co.	7F			t011r0407_tr0079_staffm
@@ -1728,11 +1728,11 @@
 0x6BE	EVENT	Silph Co.	7F			t011r0407_tr0079_staffm_0_0
 0x6BF	EVENT	Silph Co.	7F			t011r0407_tr0079_staffm_0_0_0
 0x6C0	EVENT	Silph Co.	7F			t011r0407_tr0080_stafff
-0x6C1	HIDDEN ITEM	Silph Co.	8F	Found Silver Razz Berry (x3)		t011r0408_HideItem
+0x6C1	HIDDEN ITEM	Silph Co.	8F	Found Silver Razz Berry (x3) (recurring)		t011r0408_HideItem
 0x6C2	FIELD ITEM	Silph Co.	8F	Revive item ball disappeared		t011r0408_Item
 0x6C3	FIELD ITEM	Silph Co.	8F	X Attack item ball disappeared		t011r0408_Item_0
 0x6C4	EVENT	Silph Co.	8F			t011r0408_tr0079_staffm
-0x6C5	HIDDEN ITEM	Silph Co.	9F	Found Elixir		t011r0409_HideItem
+0x6C5	HIDDEN ITEM	Silph Co.	9F	Found Elixir (recurring)		t011r0409_HideItem
 0x6C6	FIELD ITEM	Silph Co.	9F	Great Ball (x3) item ball disappeared		t011r0409_Item
 0x6C7	FIELD ITEM	Silph Co.	9F	Poké Ball (x3) item ball disappeared		t011r0409_Item_0
 0x6C8	FIELD ITEM	Silph Co.	9F	Ultra Ball (x3) item ball disappeared		t011r0409_Item_1
@@ -1741,7 +1741,7 @@
 0x6CB	FIELD ITEM	Silph Co.	10F	Max Revive item ball disappeared		t011r0410_Item
 0x6CC	FIELD ITEM	Silph Co.	10F	TM37 (Flamethrower) item ball disappeared		t011r0410_Item_0
 0x6CD	FIELD ITEM	Silph Co.	10F	Rare Candy item ball disappeared		t011r0410_Item_1
-0x6CE	HIDDEN ITEM	Silph Co.	10F	Found X Accuracy		t011r0410_HideItem
+0x6CE	HIDDEN ITEM	Silph Co.	10F	Found X Accuracy (recurring)		t011r0410_HideItem
 0x6CF	FIELD ITEM	Silph Co.	10F	Full Heal item ball disappeared		t011r0410_Item_2
 0x6D0	EVENT	Silph Co.	10F			t011r0410_tr0080_stafff
 0x6D1	FIELD ITEM	Silph Co.	11F	Max Elixir item ball disappeared		t011r0411_Item
@@ -1946,32 +1946,32 @@
 0x798	EVENT					t002gym01_pm0053_persian
 0x799	EVENT					r020d0101_tr0035_girlscout
 0x79A	EVENT					t011gym01_tr0046_gang_1
-0x79B	HIDDEN ITEM	Vermilion City	Harbor	Found Revive		t006r0301_HideItem
-0x79C	HIDDEN ITEM	Celadon City	Condominiums 3F	Found Fresh Water		t007r0103_HideItem
+0x79B	HIDDEN ITEM	Vermilion City	Harbor	Found Revive (recurring)		t006r0301_HideItem
+0x79C	HIDDEN ITEM	Celadon City	Condominiums 3F	Found Fresh Water (recurring)		t007r0103_HideItem
 0x79D	FIELD ITEM	Celadon City	Condominiums Rooftop	Health Candy (x3) item ball disappeared		t007r0104_Item
 0x79E	EVENT	Celadon City				t007r0506_tr0032_wondervogel
-0x79F	HIDDEN ITEM	S.S. Anne	Dock	Found Pinap Berry (x3)		t006r0306_HideItem_0
+0x79F	HIDDEN ITEM	S.S. Anne	Dock	Found Pinap Berry (x3) (recurring)		t006r0306_HideItem_0
 0x7A0	FIELD ITEM	Pokémon Mansion	2F	Escape Rope item ball disappeared		t009r0202_Item_4
-0x7A1	HIDDEN ITEM	Road 17		Found Pinap Berry		road017_HideItem_5
-0x7A2	HIDDEN ITEM	Road 17		Found Pinap Berry		road017_HideItem_6
-0x7A3	HIDDEN ITEM	Road 17		Found Nanab Berry		road017_HideItem_7
-0x7A4	HIDDEN ITEM	Road 17		Found Pinap Berry		road017_HideItem_8
-0x7A5	HIDDEN ITEM	Road 17		Found Silver Razz Berry (x3)		road017_HideItem_9
-0x7A6	HIDDEN ITEM	Road 17				road017_HideItem_10
-0x7A7	HIDDEN ITEM	Road 17		Found Pinap Berry		road017_HideItem_11
-0x7A8	HIDDEN ITEM	Road 17				road017_HideItem_12
-0x7A9	HIDDEN ITEM	Road 17		Found Razz Berry (x3)		road017_HideItem_13
-0x7AA	HIDDEN ITEM	Road 17				road017_HideItem_14
-0x7AB	HIDDEN ITEM	Cerulean Cave	2F			t004d0102_HideItem_0_1
-0x7AC	HIDDEN ITEM	Cerulean Cave	2F			t004d0102_HideItem_0_2
-0x7AD	HIDDEN ITEM	Cerulean Cave	2F			t004d0102_HideItem_0_3
-0x7AE	HIDDEN ITEM	Cerulean Cave	2F	Found Golden Pinap Berry		t004d0102_HideItem_0_4
-0x7AF	HIDDEN ITEM	Cerulean Cave	2F	Found Golden Nanab Berry		t004d0102_HideItem_0_5
-0x7B0	HIDDEN ITEM	Cerulean Cave	2F			t004d0102_HideItem_1_1
-0x7B1	HIDDEN ITEM	Cerulean Cave	2F	Found Ultra Ball		t004d0102_HideItem_1_2
-0x7B2	HIDDEN ITEM	Cerulean Cave	2F	Found Ultra Ball		t004d0102_HideItem_1_3
-0x7B3	HIDDEN ITEM	Cerulean Cave	2F	Found Ultra Ball		t004d0102_HideItem_1_4
-0x7B4	HIDDEN ITEM	Cerulean Cave	2F	Found Ultra Ball		t004d0102_HideItem_1_5
+0x7A1	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem_5
+0x7A2	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem_6
+0x7A3	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem_7
+0x7A4	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem_8
+0x7A5	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem_9
+0x7A6	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem_10
+0x7A7	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem_11
+0x7A8	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem_12
+0x7A9	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem_13
+0x7AA	HIDDEN ITEM	Route 17		Found (random berry) (recurring)		road017_HideItem_14
+0x7AB	HIDDEN ITEM	Cerulean Cave	2F	Found (random berry) (recurring)		t004d0102_HideItem_0_1
+0x7AC	HIDDEN ITEM	Cerulean Cave	2F	Found (random berry) (recurring)		t004d0102_HideItem_0_2
+0x7AD	HIDDEN ITEM	Cerulean Cave	2F	Found (random berry) (recurring)		t004d0102_HideItem_0_3
+0x7AE	HIDDEN ITEM	Cerulean Cave	2F	Found (random berry) (recurring)		t004d0102_HideItem_0_4
+0x7AF	HIDDEN ITEM	Cerulean Cave	2F	Found (random berry) (recurring)		t004d0102_HideItem_0_5
+0x7B0	HIDDEN ITEM	Cerulean Cave	2F	Found (random ball) (recurring)		t004d0102_HideItem_1_1
+0x7B1	HIDDEN ITEM	Cerulean Cave	2F	Found (random ball) (recurring)		t004d0102_HideItem_1_2
+0x7B2	HIDDEN ITEM	Cerulean Cave	2F	Found (random ball) (recurring)		t004d0102_HideItem_1_3
+0x7B3	HIDDEN ITEM	Cerulean Cave	2F	Found (random ball) (recurring)		t004d0102_HideItem_1_4
+0x7B4	HIDDEN ITEM	Cerulean Cave	2F	Found (random ball) (recurring)		t004d0102_HideItem_1_5
 0x7B5	_UNUSED					
 0x7B6	_UNUSED					
 0x7B7	_UNUSED					
