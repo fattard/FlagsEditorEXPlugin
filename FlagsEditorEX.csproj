@@ -50,9 +50,15 @@
     <EmbeddedResource Include="flagslist\flags_gen8swsh_en.txt" />
     <EmbeddedResource Include="flagslist\flags_gen9sv_en.txt" />
     <EmbeddedResource Include="localization\lang_br.txt" />
+    <EmbeddedResource Include="localization\lang_de.txt" />
     <EmbeddedResource Include="localization\lang_en.txt" />
+    <EmbeddedResource Include="localization\lang_es.txt" />
+    <EmbeddedResource Include="localization\lang_fr.txt" />
+    <EmbeddedResource Include="localization\lang_it.txt" />
+    <EmbeddedResource Include="localization\lang_ja.txt" />
     <EmbeddedResource Include="localization\lang_ko.txt" />
     <EmbeddedResource Include="localization\lang_zh-Hans.txt" />
+    <EmbeddedResource Include="localization\lang_zh-Hant.txt" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="PKHeX.Core" Version="25.6.9" />
