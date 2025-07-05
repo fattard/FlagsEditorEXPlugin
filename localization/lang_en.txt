@@ -9,7 +9,7 @@ EventFlagType.PkmnGift=PKMN Gift
 EventFlagType.GeneralEvent=Event
 EventFlagType.SideEvent=Side Event
 EventFlagType.StoryEvent=Story Event
-EventFlagType.FlySpot=Fly Spot
+EventFlagType.FlySpot=Fly Destination
 EventFlagType.BerryTree=Berry Tree
 EventFlagType.Collectable=Collectible
 EventFlagType._Unused=UNUSED
@@ -17,8 +17,8 @@ EventFlagType._Unused=UNUSED
 FlagsEditorEX.menuEntry_EditFlags=Edit flags...
 FlagsEditorEX.menuEntry_DumpAllFlags=Dump all Flags
 
-FlagsGen1RB.JapSavDetection_msg=Do your save file comes from Jap Blue version,|instead of a Jap Red/Green version?
-FlagsGen1RB.JapSavDetection_caption=Jap Gen1 Save File Detected
+FlagsGen1RB.JapSavDetection_msg=Is your save file from the Japanese Blue version,|rather than the Japanese Red/Green version?
+FlagsGen1RB.JapSavDetection_caption=Japanese Gen1 Save File Detected
 
 EventWorkEditor.TitleName=Event Work Editor
 EventWorkEditor.filterUnusedChk=Hide Unused
@@ -52,7 +52,7 @@ FlagsEditor.dgv_location=Location
 FlagsEditor.dgv_txtDesc=Description
 
 MainWin.TitleName=Flags Editor EX
-MainWin.tabPage1=Raw Flags Edit
+MainWin.tabPage1=Direct Flags Edit
 MainWin.tabPage2=Bulk Flags Edit
 MainWin.tabPage3=Event Work Edit
 MainWin.tabPage4=Special Edit
@@ -73,7 +73,7 @@ MainWin.trainerBattlesChk=Trainer Battles
 MainWin.staticEncounterChk=Static Encounters
 MainWin.inGameTradesChk=In-Game Trades
 MainWin.sideEventsChk=Side Events
-MainWin.flySpotsChk=Fly Spots
+MainWin.flySpotsChk=Fly Destinations
 MainWin.berryTreesChk=Berry Trees
 MainWin.collectablesChk=Collectibles
 MainWin.warnLabel=Changing the flags values may cause softlock,|crashes, and permanent data loss.|Save file backups is strongly recommended.

@@ -9,7 +9,7 @@ EventFlagType.PkmnGift=PKMN Presenteado
 EventFlagType.GeneralEvent=Evento
 EventFlagType.SideEvent=Evento Secundário
 EventFlagType.StoryEvent=Evento da Estória
-EventFlagType.FlySpot=Ponto de Voo
+EventFlagType.FlySpot=Destino de Fly
 EventFlagType.BerryTree=Árvore de Bagas
 EventFlagType.Collectable=Colecionável
 EventFlagType._Unused=NÃO USADO
@@ -18,7 +18,7 @@ FlagsEditorEX.menuEntry_EditFlags=Editar flags...
 FlagsEditorEX.menuEntry_DumpAllFlags=Fazer Dump de todas as Flags
 
 FlagsGen1RB.JapSavDetection_msg=Seu arquivo de save veio da versão Jap Blue,|ao invés da versão Jap Red/Green?
-FlagsGen1RB.JapSavDetection_caption=Jap Gen1 Arquivo de Save Detectado
+FlagsGen1RB.JapSavDetection_caption=Arquivo de Save Gen 1 Japonês Detectado
 
 EventWorkEditor.TitleName=Editor de Event Work
 EventWorkEditor.filterUnusedChk=Ocultar não usados
@@ -52,11 +52,11 @@ FlagsEditor.dgv_location=Local
 FlagsEditor.dgv_txtDesc=Descrição
 
 MainWin.TitleName=Flags Editor EX
-MainWin.tabPage1=Editar Flags Puras
-MainWin.tabPage2=Editar Flags em lote
-MainWin.tabPage3=Editar Event Work
-MainWin.tabPage4=Editar coisas Especiais
-MainWin.tabPage5=Editar Extras
+MainWin.tabPage1=Edição direta de flags
+MainWin.tabPage2=Edição de Flags em lote
+MainWin.tabPage3=Edição de Event Work
+MainWin.tabPage4=Edições Especiais
+MainWin.tabPage5=Edições Extras
 MainWin.groupBox1=Grupo de Flags
 MainWin.groupBox2=Categoria dos Flags
 MainWin.flagsCategoryComboAll=- Todas -

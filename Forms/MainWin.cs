@@ -77,14 +77,16 @@ namespace FlagsEditorEXPlugin.Forms
                 var newBtn = new Button
                 {
                     Anchor = AnchorStyles.Top | AnchorStyles.Left,
-                    Location = new System.Drawing.Point(i < 16 ? 20 : 274, 2 + ((i % 16) * 27)),
+                    Location = new System.Drawing.Point(i < 16 ? 20 : 274, 2 + ((i % 16) * 37)),
                     Name = "specialEvtBtn_" + evt.Index,
-                    Size = new System.Drawing.Size(210, 23),
+                    Size = new System.Drawing.Size(210, 37),
                     //newBtn.TabIndex = 1;
                     Text = evt.Label,
                     UseVisualStyleBackColor = true,
                     Enabled = evt.IsAvailable
                 };
+                float newSize = 8.0f;
+                newBtn.Font = new Font(newBtn.Font.FontFamily, newSize, newBtn.Font.Style);
                 newBtn.Click += (object? sender, EventArgs e) =>
                 {
                     var result = MessageBox.Show(LocalizedStrings.Find("MainWin.BulkOperation_msg", "This operation cannot be undone.|Are you sure?").Replace("|", "\r\n"),
@@ -114,13 +116,17 @@ namespace FlagsEditorEXPlugin.Forms
             var blockEditorBtn = new Button
             {
                 Anchor = AnchorStyles.Top | AnchorStyles.Left,
-                Location = new System.Drawing.Point(0 < 16 ? 20 : 274, 2 + ((0 % 16) * 27)),
+                Location = new System.Drawing.Point(0 < 16 ? 20 : 274, 2 + ((0 % 16) * 37)),
                 Name = "miscEvtBtn_BlockDataEditor",
-                Size = new System.Drawing.Size(210, 23),
+                Size = new System.Drawing.Size(210, 37),
                 //TabIndex = 1;
                 Text = LocalizedStrings.Find($"MiscEdits.miscEvtBtn_BlockDataEditor", "Block Data Editor"),
                 UseVisualStyleBackColor = true
             };
+            {
+                float newSize = 8.0f;
+                blockEditorBtn.Font = new Font(blockEditorBtn.Font.FontFamily, newSize, blockEditorBtn.Font.Style);
+            }
             blockEditorBtn.Click += (object? sender, EventArgs e) =>
             {
                 try
@@ -147,13 +153,17 @@ namespace FlagsEditorEXPlugin.Forms
                 var newBtn = new Button
                 {
                     Anchor = AnchorStyles.Top | AnchorStyles.Left,
-                    Location = new System.Drawing.Point(btnIdx < 16 ? 20 : 274, 2 + ((btnIdx % 16) * 27)),
+                    Location = new System.Drawing.Point(btnIdx < 16 ? 20 : 274, 2 + ((btnIdx % 16) * 37)),
                     Name = "miscEvtBtn_" + evt.Index,
-                    Size = new System.Drawing.Size(210, 23),
+                    Size = new System.Drawing.Size(210, 37),
                     //TabIndex = 1;
                     Text = evt.Label,
                     UseVisualStyleBackColor = true
                 };
+                {
+                    float newSize = 8.0f;
+                    newBtn.Font = new Font(newBtn.Font.FontFamily, newSize, newBtn.Font.Style);
+                }
                 newBtn.Click += (object? sender, EventArgs e) =>
                 {
                     Form newEditorForm = (Form)Activator.CreateInstance(evt.EditorClassType!, m_organizer)!;

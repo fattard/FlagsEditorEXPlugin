@@ -1,4 +1,4 @@
-EventFlagType.FieldItem=Boden-Item
+EventFlagType.FieldItem=Feld-Item
 EventFlagType.HiddenItem=Verstecktes Item
 EventFlagType.SpecialItem=Spezial-Item
 EventFlagType.TrainerBattle=Trainer-Kampf
@@ -9,7 +9,7 @@ EventFlagType.PkmnGift=Pokémon-Geschenk
 EventFlagType.GeneralEvent=Event
 EventFlagType.SideEvent=Neben-Event
 EventFlagType.StoryEvent=Story-Event
-EventFlagType.FlySpot=Flugpunkt
+EventFlagType.FlySpot=Flugziel
 EventFlagType.BerryTree=Beerenbaum
 EventFlagType.Collectable=Sammelobjekt
 EventFlagType._Unused=NICHT VERWENDET
@@ -64,7 +64,7 @@ MainWin.rawFlagsEditBtn=Bearbeiten...
 MainWin.eventWorkEditBtn=Bearbeiten...
 MainWin.markFlagsBtn=Markierte aktivieren
 MainWin.unmarkFlagsBtn=Markierte deaktivieren
-MainWin.fieldItemsChk=Boden-Items
+MainWin.fieldItemsChk=Feld-Items
 MainWin.hiddenItemsChk=Versteckte Items
 MainWin.specialItemsChk=Spezial-Items
 MainWin.itemGiftsChk=Item-Geschenke
@@ -95,24 +95,24 @@ DailyHiddenItemsEditorSV.dgv_item=Verstecktes Item
 SpecialEditsGen1.specialEvtBtn_1=Fossilwahl zurücksetzen
 SpecialEditsGen1.specialEvtBtn_2=Dojowahl zurücksetzen
 SpecialEditsGen1.specialEvtBtn_3=Bill-Ereignisse zurücksetzen
-SpecialEditsGen1.specialEvtBtn_4=S.S.-Anne-Ereignisse zurücksetzen
+SpecialEditsGen1.specialEvtBtn_4=M.S.-Anne-Ereignisse zurücksetzen
 SpecialEditsGen1.specialEvtBtn_5=Rocket-Versteck-Ereignisse zurücksetzen
 SpecialEditsGen1.specialEvtBtn_6=Pokémon-Turm-Ereignisse zurücksetzen
 SpecialEditsGen1.specialEvtBtn_7=Silph-Co.-Ereignisse zurücksetzen
-SpecialEditsGen1.specialEvtBtn_8=Azurhöhle freischalten
+SpecialEditsGen1.specialEvtBtn_8=Azuria-Höhle freischalten
 
-SpecialEditsGen2.specialEvtBtn_1=Felilou-Brunnen-Ereignisse zurücksetzen
+SpecialEditsGen2.specialEvtBtn_1=Flegmon-Brunnen-Ereignisse zurücksetzen
 SpecialEditsGen2.specialEvtBtn_2=See-des-Zorns-Ereignisse zurücksetzen
 SpecialEditsGen2.specialEvtBtn_3=Radioturm-Ereignisse zurücksetzen
-SpecialEditsGen2.specialEvtBtn_4=S.S.-Aqua-Erste-Fahrt zurücksetzen
-SpecialEditsGen2.specialEvtBtn_5=Legendäre-Bestien-Ereignisse zurücksetzen
+SpecialEditsGen2.specialEvtBtn_4=M.S.-Aqua-Erste-Fahrt zurücksetzen
+SpecialEditsGen2.specialEvtBtn_5=Legendären-Drei-Ereignisse zurücksetzen
 SpecialEditsGen2.specialEvtBtn_6=Silberberg-Zugang freischalten
-SpecialEditsGen2.specialEvtBtn_7=Glockenturm-Treppen freischalten
+SpecialEditsGen2.specialEvtBtn_7=Zinnturm-Treppen freischalten
 SpecialEditsGen2.specialEvtBtn_8=Celebi-Ereignis zurücksetzen
 
 SpecialEditsGenLGPE.specialEvtBtn_1=Fuchsania-Arena-Bedingung umgehen
 
-SpecialEditsGenSV.specialEvtBtn_1=Nordkia-Kartenzugang freischalten
+SpecialEditsGenSV.specialEvtBtn_1=Kitakami-Kartenzugang freischalten
 SpecialEditsGenSV.specialEvtBtn_2=Blaubeere-Kartenzugang freischalten
 
 MiscEdits.miscEvtBtn_BlockDataEditor=Blockdaten-Editor
