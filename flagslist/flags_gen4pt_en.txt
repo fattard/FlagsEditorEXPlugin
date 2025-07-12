@@ -1251,7 +1251,7 @@
 0x4E1	FIELD ITEM	Oreburgh Mine	B1F	Poké Ball item ball disappeared		FV_FLD_ITEM_235
 0x4E2	FIELD ITEM	Veilstone City	Galactic Warehouse	HM02 (Fly) item ball disappeared		FV_FLD_ITEM_236
 0x4E3	FIELD ITEM	Team Galactic HQ	Underpass	Galactic Key item ball disappeared		FV_FLD_ITEM_237
-0x4E4	_UNUSED	Veilstone City		Storage Key (Unused)		FV_FLD_ITEM_238
+0x4E4	STORY EVENT	Veilstone City		Storage Key obtained by Looker		FV_FLD_ITEM_238
 0x4E5	FIELD ITEM	Lake Verity		TM38 (Fire Blast) item ball disappeared		FV_FLD_ITEM_239
 0x4E6	FIELD ITEM	Lake Valor		TM25 (Thunder) item ball disappeared		FV_FLD_ITEM_240
 0x4E7	FIELD ITEM	Lake Acuity		TM14 (Blizzard) item ball disappeared		FV_FLD_ITEM_241
