@@ -200,7 +200,7 @@ namespace FlagsEditorEXPlugin.Forms
             unmarkFlagsBtn.Location = new Point(262, 365);
             unmarkFlagsBtn.Margin = new Padding(4, 3, 4, 3);
             unmarkFlagsBtn.Name = "unmarkFlagsBtn";
-            unmarkFlagsBtn.Size = new Size(231, 27);
+            unmarkFlagsBtn.Size = new Size(240, 27);
             unmarkFlagsBtn.TabIndex = 14;
             unmarkFlagsBtn.Text = "Bulk Unset Selected";
             unmarkFlagsBtn.UseVisualStyleBackColor = true;
@@ -209,10 +209,10 @@ namespace FlagsEditorEXPlugin.Forms
             // markFlagsBtn
             // 
             markFlagsBtn.Font = new Font("Segoe UI", 8F);
-            markFlagsBtn.Location = new Point(20, 365);
+            markFlagsBtn.Location = new Point(11, 365);
             markFlagsBtn.Margin = new Padding(4, 3, 4, 3);
             markFlagsBtn.Name = "markFlagsBtn";
-            markFlagsBtn.Size = new Size(231, 27);
+            markFlagsBtn.Size = new Size(240, 27);
             markFlagsBtn.TabIndex = 13;
             markFlagsBtn.Text = "Bulk Set Selected";
             markFlagsBtn.UseVisualStyleBackColor = true;
