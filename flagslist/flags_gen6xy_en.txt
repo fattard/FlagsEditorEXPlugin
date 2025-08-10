@@ -140,65 +140,65 @@
 0x08A						FE_BADGEGATE03_OPEN
 0x08B						FE_BADGEGATE04_OPEN
 0x08C	ITEM GIFT					FE_D12R0104_ITEMGET_01
-0x08D	ITEM GIFT					FE_C04R0401_ITEMGET_01
-0x08E	ITEM GIFT					FE_C03R0102_ITEMGET_01
+0x08D	ITEM GIFT	Shalour City	House	Exchanged a Sitrus Berry for a Leppa Berry with guy		FE_C04R0401_ITEMGET_01
+0x08E	ITEM GIFT	Cyllage City	Hotel 2F	Received Destiny Knot from maid		FE_C03R0102_ITEMGET_01
 0x08F	ITEM GIFT					FE_C03R0801_ITEMGET_01
-0x090						FE_C03R0801_FIRSTTALK_01
+0x090	ITEM GIFT	Cyllage City	House	Received Whipped Dream / Sachet from man		FE_C03R0801_FIRSTTALK_01
 0x091	ITEM GIFT					FE_C03R0901_ITEMGET_01
-0x092	ITEM GIFT					FE_C02R0102_ITEMGET_01
-0x093	ITEM GIFT					FE_C04R0201_ITEMGET_01
+0x092	ITEM GIFT	Lumiose City (South Boulevard)	Sycamore's Lab 2F	Received Luxury Ball (x5) from woman		FE_C02R0102_ITEMGET_01
+0x093	ITEM GIFT	Shalour City	House	Received Shoothe Bell from madame for showing her a Pokémon with good friendship		FE_C04R0201_ITEMGET_01
 0x094	ITEM GIFT					FE_T06R0301_ITEMGET_01
 0x095						FE_C09R0301_TRBTL_01
 0x096	ITEM GIFT					FE_T05R0201_ITEMGET_01
-0x097	ITEM GIFT					FE_C04R0301_ITEMGET_01
+0x097	ITEM GIFT	Shalour City	House	Received Eviolite from scientist for seeing at least 40 species in Coastal Pokédex		FE_C04R0301_ITEMGET_01
 0x098	ITEM GIFT					FE_D07_ITEMGET_01
 0x099	ITEM GIFT					FE_D07_ITEMGET_02
 0x09A						FE_TRIALHOUSE_RANKMASTER
 0x09B						FE_PLR0201_DOOR_CLOSE
 0x09C						FE_C09_HERO_FIRSTTALK_01
-0x09D						FE_C05R0302_AWARD_01
-0x09E						FE_C05R0302_AWARD_02
-0x09F						FE_C05R0302_AWARD_03
-0x0A0						FE_C05R0302_AWARD_04
-0x0A1						FE_C05R0302_AWARD_05
+0x09D		Coumarine City		[unused?]		FE_C05R0302_AWARD_01
+0x09E		Coumarine City		[unused?]		FE_C05R0302_AWARD_02
+0x09F		Coumarine City		[unused?]		FE_C05R0302_AWARD_03
+0x0A0		Coumarine City		[unused?]		FE_C05R0302_AWARD_04
+0x0A1		Coumarine City		[unused?]		FE_C05R0302_AWARD_05
 0x0A2	EVENT			Chose blue button in Lysandre Labs B3		FE_C02R0603_SWITCH_TRUE_01
 0x0A3						FE_HOTEL_INFO_FIRST_TALK
-0x0A4	ITEM GIFT					FE_T02_ITEMGET_01
+0x0A4	ITEM GIFT	Aquacorde Town		Received Potion from shopkeeper		FE_T02_ITEMGET_01
 0x0A5						FE_T09R0301_FIRSTTALK_01
 0x0A6	ITEM GIFT					FE_C08R0401_ITEMGET_01
 0x0A7						FE_HOTEL_ROOMSRV_FIRST_TALK
 0x0A8						FE_C06_BOY02_FIRSTTALK_01
 0x0A9						FE_C06_GIRL02_FIRSTTALK_01
-0x0AA						FE_C05R0701_QUIZFIRST_01
+0x0AA	ITEM GIFT	Coumarine City	(Hillcrest) House	Received Poké Toy from woman for answering her sound quiz first time		FE_C05R0701_QUIZFIRST_01
 0x0AB						FE_BEDMAKE_FIRSTTALK_01
 0x0AC						FE_CONCIERGE_FIRSTTALK_01
 0x0AD						FE_C02HOTEL_GOODCLEAR_01
 0x0AE	_UNUSED					
 0x0AF	_UNUSED					
 0x0B0	_UNUSED					
-0x0B1	ITEM GIFT					FE_C02R0103_ITEMGET_01
-0x0B2	ITEM GIFT					FE_T03_ITEMGET_01
-0x0B3	ITEM GIFT					FE_T03_ITEMGET_02
-0x0B4	ITEM GIFT					FE_T03R0201_ITEMGET_01
-0x0B5	ITEM GIFT					FE_T03R0301_ITEMGET_01
+0x0B1	ITEM GIFT	Lumiose City (South Boulevard)	Sycamore's Lab 3F	Received TM54 (False Swipe) from female scientist for seeing at least 20 species in Central Kalos Pokédex		FE_C02R0103_ITEMGET_01
+0x0B2	ITEM GIFT	Camphrier Town		Received Berry Juice from girl		FE_T03_ITEMGET_01
+0x0B3	ITEM GIFT	Camphrier Town		Received Ultra Ball from man		FE_T03_ITEMGET_02
+0x0B4	ITEM GIFT	Camphrier Town	Hotel 1F	Received Full Heal from boy		FE_T03R0201_ITEMGET_01
+0x0B5	ITEM GIFT	Camphrier Town	House	Received TM46 (Thief) from punk girl		FE_T03R0301_ITEMGET_01
 0x0B6	ITEM GIFT					FE_T06R0101_ITEMGET_01
-0x0B7	ITEM GIFT					FE_C05R0301_ITEMGET_01
+0x0B7	ITEM GIFT	Coumarine City	(Seaside) Hotel 1F	Received Lucky Egg from woman for showing her a Pokémon with maximum friendship		FE_C05R0301_ITEMGET_01
 0x0B8	SIDE EVENT			Perfect Clear: Making Beds Task on 5th Floor		FE_BEDMAKE_RANKMAX_FIRST_01
 0x0B9	IN-GAME TRADE			Traded for Bisharp in Snowbelle City		FE_C08R0301_POKETRADE_01
 0x0BA						FE_C08R0401_TRBTL_01
 0x0BB	ITEM GIFT					FE_C09R0101_ITEMGET_01
 0x0BC	_UNUSED					
 0x0BD	ITEM GIFT					FE_C09R0201_ITEMGET_01
-0x0BE	IN-GAME TRADE			Traded with Shauna		FE_T01_FRIEND_TRADE_01
-0x0BF	IN-GAME TRADE			Traded for Steelix in Cyllage City		FE_C03P0101_POKETRADE_01
+0x0BE	IN-GAME TRADE	Vaniville Town		Traded with Shauna		FE_T01_FRIEND_TRADE_01
+0x0BF	IN-GAME TRADE	Cyllage City	Poké Center	Traded Luvdisc for Steelix (Thumper)		FE_C03P0101_POKETRADE_01
 0x0C0						FE_C09R1003_FIRSTTALK_01
 0x0C1						FE_R16R0101_COMBO_CLEAR
 0x0C2						FE_R16R0101_COMBO_FIRSTTALK
-0x0C3						FE_C02R2401_FIRSTTALK_01
+0x0C3	EVENT	Lumiose City (Vernal Avenue)	Stone Emporium	Had first talk with owner		FE_C02R2401_FIRSTTALK_01
 0x0C4						FE_C02R3001_FIRSTTALK_01
 0x0C5	ITEM GIFT					FE_T03R0401_ITEMGET_01
-0x0C6	ITEM GIFT					FE_C02R0501_ITEMGET_01
-0x0C7	ITEM GIFT					FE_C02R0502_ITEMGET_01
+0x0C6	ITEM GIFT	Lumiose City (South Boulevard)	Office Building 1F	Received Quick Claw from woman		FE_C02R0501_ITEMGET_01
+0x0C7	ITEM GIFT	Lumiose City (South Boulevard)	Office Building 2F	Received Quick Ball (x3) from man		FE_C02R0502_ITEMGET_01
 0x0C8						FE_HANDSOME_QUEST_EP01_CLEAR
 0x0C9						FE_HANDSOME_QUEST_ALL_CLEAR
 0x0CA						FE_C02R0604_ELEVATOR_ADD_HIDE
@@ -212,9 +212,9 @@
 0x0D2	STATIC ENCOUNTER			Zygarde Captured		FE_EV_POKE03_CAPTURE
 0x0D3	STATIC ENCOUNTER			Mewtwo Captured		FE_MYUUTUU_CAPTURE
 0x0D4	ITEM GIFT					FE_C06_ITEMGET_02
-0x0D5	ITEM GIFT					FE_T09R0201_ITEMGET_02
+0x0D5	ITEM GIFT	Ambrette Town	Fossil Lab	Received the Douse Drive, Shock Drive, Burn Drive and Chill Drive from Hiker for showing Genesect		FE_T09R0201_ITEMGET_02
 0x0D6	ITEM GIFT					FE_PLR0801_ITEMGET_01
-0x0D7	ITEM GIFT					FE_D01_ITEMGET_01
+0x0D7	ITEM GIFT	Santalune Forest		Received Poké Ball from Calem/Serena if interacted		FE_D01_ITEMGET_01
 0x0D8	_UNUSED					
 0x0D9	_UNUSED					
 0x0DA	_UNUSED					
@@ -253,24 +253,24 @@
 0x0FB						FE_C02R0701_FIRSTTALK_01
 0x0FC						FE_D09R0101_TUTORIAL
 0x0FD						FE_D09R0101_CLEAR
-0x0FE	ITEM GIFT					FE_C02R0502_ITEMGET_02
-0x0FF	ITEM GIFT					FE_C03R0601_ITEMGET_01
+0x0FE	ITEM GIFT	Lumiose City (South Boulevard)	Office Building 2F	Received Timer Ball (x3) from man		FE_C02R0502_ITEMGET_02
+0x0FF	ITEM GIFT	Cyllage City	House	Received Persim Berry (x3) from girl for answering her quiz		FE_C03R0601_ITEMGET_01
 0x100	ITEM GIFT					FE_C02R1101_ITEMGET_01
 0x101	ITEM GIFT					FE_C02R1103_ITEMGET_01
 0x102	ITEM GIFT					FE_C02R1203_ITEMGET_01
 0x103	ITEM GIFT					FE_C02R1203_ITEMGET_02
 0x104	ITEM GIFT					FE_C02R1401_ITEMGET_01
 0x105	ITEM GIFT					FE_C02R3602_ITEMGET_01
-0x106	ITEM GIFT					FE_R06_ITEMGET_01
-0x107						FE_I01_MACHINE_FIRSTTALK_01
+0x106	ITEM GIFT	Parfum Palace	Entrance	Received Oran Berry from woman		FE_R06_ITEMGET_01
+0x107	EVENT	Route 7	Berry Fields	Interacted with the composter machine for the first time		FE_I01_MACHINE_FIRSTTALK_01
 0x108						FE_C07R0501_FIRSTTALK_01
-0x109	ITEM GIFT					FE_T09_ITEMGET_01
+0x109	ITEM GIFT	Ambrette Town		Received TM94 (Rock Smash) from girl		FE_T09_ITEMGET_01
 0x10A	ITEM GIFT					FE_C08P0101_ITEMGET_01
-0x10B	ITEM GIFT					FE_C01R0501_ITEMGET_01
+0x10B	ITEM GIFT	Santalune City	House	Received Great Ball from boy		FE_C01R0501_ITEMGET_01
 0x10C	ITEM GIFT					FE_C09R0601_ITEMGET_01
-0x10D	ITEM GIFT					FE_C02R2601_ITEMGET_01
-0x10E	ITEM GIFT					FE_C04R1005_ITEMGET_01
-0x10F						FE_C02R0202_FIRSTTALK_01
+0x10D	ITEM GIFT	Lumiose City (Vernal Avenue)	Café Woof	Received Pearl String (x2) from madame for showing her a Furfrou that has kept the same trim for 15 days		FE_C02R2601_ITEMGET_01
+0x10E	ITEM GIFT	Tower of Mastery	4F	Received TM47 (Low Sweep) from ace trainer		FE_C04R1005_ITEMGET_01
+0x10F	EVENT	Lumiose City (South Boulevard)	Transportation Office 2F	Had first talk with young man		FE_C02R0202_FIRSTTALK_01
 0x110						FE_C02R2001_STYLISH_01
 0x111						FE_C02R3701_NG_EVENT_01
 0x112						FE_C02R3701_OK_EVENT_01
@@ -281,11 +281,11 @@
 0x117	ITEM GIFT					FE_C02R0701_ITEMGET_01
 0x118						FE_I01R0101_FIRSTTALK_01
 0x119	ITEM GIFT					FE_C02R3105_ITEMGET_01
-0x11A	ITEM GIFT					FE_C05_ITEMGET_01
-0x11B						FE_C05_FIRSTTALK_01
-0x11C	ITEM GIFT					FE_D04R0101_ITEMGET_01
-0x11D	ITEM GIFT					FE_W01_ITEMGET_01
-0x11E	ITEM GIFT					FE_T09R0201_ITEMGET_01
+0x11A	ITEM GIFT	Coumarine City	(Seaside)	Received Good Rod from fisherman		FE_C05_ITEMGET_01
+0x11B	EVENT	Coumarine City	(Seaside)	Talked with the fisherman for the first time		FE_C05_FIRSTTALK_01
+0x11C	ITEM GIFT	Reflection Cave	1F	Received Reveal Glass from female scientist for showing her a Tornadus / Thundurus / Landorus		FE_D04R0101_ITEMGET_01
+0x11D	ITEM GIFT	Azure Bay		Received Ampharosite from old man		FE_W01_ITEMGET_01
+0x11E	ITEM GIFT	Ambrette Town	Fossil Lab	Received Aerodactylite from male scientist		FE_T09R0201_ITEMGET_01
 0x11F						FE_MAJIN_FIRSTTALK_01
 0x120						FE_STEAM_FIRSTTALK_01
 0x121	ITEM GIFT					FE_C09_ITEMGET_01
@@ -299,7 +299,7 @@
 0x129	ITEM GIFT					FE_C02R3401_ITEMGET_03
 0x12A	ITEM GIFT					FE_D06R0103_ITEMGET_01
 0x12B	PKMN GIFT			Claimed Diancie via Mystery Gift (PokéCenter Event Completed)		FE_PINKDIA_EVENT_01
-0x12C	PKMN GIFT					FE_C04R1002_POKEGET_01
+0x12C	PKMN GIFT	Tower of Mastery	Top	Received Lucario from Korrina		FE_C04R1002_POKEGET_01
 0x12D						FE_D13R0103_XYBATTLE_FIRST_01
 0x12E						FE_FLDITEM_MEGASTONE_UNLOCK
 0x12F	ITEM GIFT					FE_C02GYM0101_ITEMGET_01
@@ -318,14 +318,14 @@
 0x13C						FE_T04_FRIEND3_FIRSTTALK_01
 0x13D						FE_APPAREL_TICKET_TUTORIAL
 0x13E	ITEM GIFT					FE_C09_ITEMGET_02
-0x13F	STORY EVENT			Claimed Kanto Starter from Sycamore		FE_C02R0103_POKEGET_01
-0x140	IN-GAME TRADE			Traded with Diantha		FE_C02R2101_POKETRADE_01
-0x141	STATIC ENCOUNTER			Snorlax Captured		FE_R07_KABIGON_01
+0x13F	STORY EVENT	Lumiose City (South Boulevard)	Sycamore's Lab 3F	Claimed a Kanto partner from Prof. Sycamore		FE_C02R0103_POKEGET_01
+0x140	IN-GAME TRADE	Lumiose City (South Boulevard)	Café Soleil	Traded with Diantha for Ralts		FE_C02R2101_POKETRADE_01
+0x141	STATIC ENCOUNTER	Route 7		Captured Snorlax		FE_R07_KABIGON_01
 0x142						FE_C02R1601_PV_01
 0x143						FE_C02R2401_HUSIGIBANAITO_01
 0x144						FE_C02R2401_RIZAADONAITO_01
 0x145						FE_C02R2401_KAMEKKUSUNAITO_01
-0x146	ITEM GIFT					FE_C04_ITEMGET_01
+0x146	ITEM GIFT	Shalour City		Exchanged the Intriguing Stone for a Sun Stone with hiker		FE_C04_ITEMGET_01
 0x147	ITEM GIFT					FE_T06R0201_ITEMGET_01
 0x148	_UNUSED					
 0x149	_UNUSED					
@@ -369,8 +369,8 @@
 0x16F	_UNUSED					
 0x170	_UNUSED					
 0x171	_UNUSED					
-0x172						FE_KISEKAE_VISITED
-0x173						FE_R07_FRIEND3_IE_01
+0x172	EVENT			Entered a Boutique at last once		FE_KISEKAE_VISITED
+0x173	SIDE EVENT	Route 7		Compared Pokédex seen number with Trevor		FE_R07_FRIEND3_IE_01
 0x174						FE_C02R0601_DOOR_OPEN
 0x175						FE_C02R0602_CAGE_OPEN
 0x176						FE_C02R0602_ELEVATOR_ADD_01
@@ -390,46 +390,46 @@
 0x184	SIDE EVENT			Super Triples Unlocked		FE_BTLHOUSE_CLEAR_TRIPLE
 0x185	SIDE EVENT			Super Rotation Unlocked		FE_BTLHOUSE_CLEAR_ROTATION
 0x186	SIDE EVENT			Super Multi Unlocked		FE_BTLHOUSE_CLEAR_MULTI
-0x187						FE_CAMERAMAN_FIRSTTALK_01
+0x187	EVENT			Inspected a Photo Spot signpost at least once		FE_CAMERAMAN_FIRSTTALK_01
 0x188						FE_C02R0601_BTL_GARCON_01
 0x189	TRAINER BATTLE	Lumiose City	Lysandre Cafe	Team Flame Grunt M Battle		FE_C02R0601_BTL_WAITRESS_01
 0x18A	TRAINER BATTLE	Lumiose City	Lysandre Cafe	Team Flame Grunt F Battle		FE_SAKASA_BATTLE_FIRSTTALK_01
 0x18B	_UNUSED					
 0x18C						FE_WEATHER_FORCE_START
 0x18D						FE_WEATHER_FORCE_STOP
-0x18E						FE_KISEKAE_FIRST
+0x18E	EVENT	Vaniville Town	Player's House	Has changed out from the pajamas to default clothes		FE_KISEKAE_FIRST
 0x18F	ITEM GIFT					FE_C01_ITEMGET_01
 0x190						FE_R01_TOBIENC_01
-0x191	ITEM GIFT					FE_T09G0101_ITEMGET_01
-0x192						FE_T09R0201_FIRSTTALK_01
-0x193	ITEM GIFT					FE_C05G0101_ITEMGET_01
-0x194						FE_C05_MUJINSHOP_UNPAID
-0x195	ITEM GIFT					FE_C05R0401_ITEMGET_01
+0x191	ITEM GIFT	Ambrette Gate		Received Rocky Helmet from woman		FE_T09G0101_ITEMGET_01
+0x192	EVENT	Ambrette Aquarium		Had first talk with fisherman		FE_T09R0201_FIRSTTALK_01
+0x193	ITEM GIFT	Coumarine Gate		Received Black Sludge from punk guy		FE_C05G0101_ITEMGET_01
+0x194		Coumarine City	(Seaside)	[unused?]		FE_C05_MUJINSHOP_UNPAID
+0x195	ITEM GIFT	Coumarine City	(Seaside) House	Received Silk Scarf from old man		FE_C05R0401_ITEMGET_01
 0x196						FE_OSIE_DRAGON_FIRSTTALK_01
 0x197						FE_OSIE_ULTIMATE_FIRSTTALK_01
 0x198						FE_OSIE_GATTAI_FIRSTTALK_01
 0x199						FE_WASURE_FIRSTTALK_01
 0x19A						FE_OMOIDASI_FIRSTTALK_01
-0x19B	ITEM GIFT					FE_C05R0201_ITEMGET_01
-0x19C	ITEM GIFT					FE_R12R0101_ITEMGET_01
+0x19B	ITEM GIFT	Coumarine City	(Hillcrest) Station	Received Metronome from man		FE_C05R0201_ITEMGET_01
+0x19C	ITEM GIFT	Route 12	Ranch House	Received TM45 (Attract) from girl		FE_R12R0101_ITEMGET_01
 0x19D	ITEM GIFT					FE_C08R0601_ITEMGET_01
-0x19E	ITEM GIFT					FE_T09R0401_ITEMGET_01
+0x19E	ITEM GIFT	Ambrette Town	Hotel 1F	Received TM96 (Nature Power) from woman		FE_T09R0401_ITEMGET_01
 0x19F	ITEM GIFT					FE_R14_ITEMGET_01
 0x1A0	ITEM GIFT					FE_D12R0104_ITEMGET_02
-0x1A1	ITEM GIFT					FE_T04P0101_ITEMGET_01
-0x1A2						FE_T04R0101_GUIDE_FIRSTTALK
-0x1A3	ITEM GIFT					FE_C03R0101_ITEMGET_01
-0x1A4	ITEM GIFT					FE_C03R0101_ITEMGET_02
-0x1A5	ITEM GIFT					FE_D11R0101_ITEMGET_01
-0x1A6						FE_T03_FIRSTTALK_01
+0x1A1	ITEM GIFT	Geosenge Town	Poké Center	Received TM66 (Payback) from old man		FE_T04P0101_ITEMGET_01
+0x1A2	SIDE EVENT	Geosenge Town	Hotel 1F	Had a talk about rocks with woman		FE_T04R0101_GUIDE_FIRSTTALK
+0x1A3	ITEM GIFT	Cyllage City	Hotel 1F	Received TM44 (Rest) from guy		FE_C03R0101_ITEMGET_01
+0x1A4	ITEM GIFT	Cyllage City	Hotel 1F	Received TM88 (Sleep Talk) from girl		FE_C03R0101_ITEMGET_02
+0x1A5	ITEM GIFT	Connecting Cave		Received TM21 (Frustration) from Backpacker		FE_D11R0101_ITEMGET_01
+0x1A6	EVENT	Camphrier Town		Had first talk with man blocking exit to Route 7		FE_T03_FIRSTTALK_01
 0x1A7	ITEM GIFT					FE_D15R0101_ITEMGET_01
 0x1A8	_UNUSED					
 0x1A9						FE_D12R0103_FLARECLEAR
-0x1AA	IN-GAME TRADE			Traded for Farfetch'd in Santalune City		FE_C01R0401_POKETRADE_01
+0x1AA	IN-GAME TRADE	Santalune City	House	Traded Bunnelby for Farfetch'd (Quacklin')		FE_C01R0401_POKETRADE_01
 0x1AB						FE_R13_GATEOPEN_01
-0x1AC	ITEM GIFT					FE_C01R1001_ITEMGET_01
-0x1AD	ITEM GIFT					FE_C04R0101_ITEMGET_01
-0x1AE	ITEM GIFT					FE_T04R0201_ITEMGET_01
+0x1AC	ITEM GIFT	Santalune City	Trainer's School	Received X Attack (x3) and X Defense (x3) from old man		FE_C01R1001_ITEMGET_01
+0x1AD	ITEM GIFT	Shalour City	House	Received Stardust (x5) from girl for helping her		FE_C04R0101_ITEMGET_01
+0x1AE	ITEM GIFT	Geosenge Town	House	Received Everstone from female scientist		FE_T04R0201_ITEMGET_01
 0x1AF						FE_D01_IE00
 0x1B0						FE_C06R0501_FIRSTTALK_01
 0x1B1						FE_C02R2001_TALK_C_01_01_01
@@ -497,7 +497,7 @@
 0x1EF	SIDE EVENT			Perfect Clear: Sushi High Roller Rotation Battle		FE_RESTAURANT_4TH_ROTATION
 0x1F0						FE_T06_MEMO_FIRSTTALK_01
 0x1F1						FE_T05R0301_WAZA_FIRSTTALK_01
-0x1F2						FE_CAFE_FIRSTTALK_01
+0x1F2	EVENT			Entered a city Café at least once		FE_CAFE_FIRSTTALK_01
 0x1F3						FE_JUDGE_FIRSTTALK
 0x1F4	_UNUSED					
 0x1F5	_UNUSED					
@@ -599,84 +599,84 @@
 0x255	_UNUSED					
 0x256	_UNUSED					
 0x257	_UNUSED					
-0x258						FV_NONE
+0x258				[unused?]		FV_NONE
 0x259						FV_HERO_01
 0x25A						FV_HERO_02
-0x25B						FV_T02_HERO_01
-0x25C						FV_T02_FRIEND1_01
-0x25D						FV_T02_FRIEND2_01
-0x25E						FV_T02_FRIEND3_01
-0x25F						FV_R02_HERO_01
-0x260						FV_R02_FRIEND1_01
-0x261						FV_D01_HERO_01
-0x262						FV_D01_FRIEND1_01
-0x263						FV_D01_FRIEND2_01
-0x264						FV_D01_FRIEND3_01
-0x265						FV_R03_ROLLERM_01
-0x266						FV_T01_HERO_01
-0x267						FV_T01_FRIEND1_01
+0x25B	EVENT	Aquacorde Town		Calem/Serena obj disappeared		FV_T02_HERO_01
+0x25C	EVENT	Aquacorde Town		Shauna obj disappeared		FV_T02_FRIEND1_01
+0x25D	EVENT	Aquacorde Town		Tierno obj disappeared		FV_T02_FRIEND2_01
+0x25E	EVENT	Aquacorde Town		Trevor obj disappeared		FV_T02_FRIEND3_01
+0x25F	EVENT	Route 2		Calem/Serena obj disappeared		FV_R02_HERO_01
+0x260	EVENT	Route 2		Shauna obj disappeared		FV_R02_FRIEND1_01
+0x261	EVENT	Santalune Forest		Calem/Serena obj disappeared		FV_D01_HERO_01
+0x262	EVENT	Santalune Forest		Shauna obj disappeared		FV_D01_FRIEND1_01
+0x263	EVENT	Santalune Forest		Tierno obj disappeared		FV_D01_FRIEND2_01
+0x264	EVENT	Santalune Forest		Trevor obj disappeared		FV_D01_FRIEND3_01
+0x265	EVENT	Route 3		Roller Skater obj disappeared		FV_R03_ROLLERM_01
+0x266	EVENT	Vaniville Town		Calem/Serena obj disappeared		FV_T01_HERO_01
+0x267	EVENT	Vaniville Town		Shauna obj disappeared		FV_T01_FRIEND1_01
 0x268						FV_T03_CASTLE_01
-0x269						FV_C01GYM0102_STOPPER_01
-0x26A						FV_T01_MAMA_01
-0x26B						FV_T01R0101_MAMA_01
-0x26C						FV_I01R0101_ASSISTANTW_01
+0x269	EVENT	Santalune City	Gym	Curtain is open		FV_C01GYM0102_STOPPER_01
+0x26A	EVENT	Vaniville Town		Mom obj disappeared		FV_T01_MAMA_01
+0x26B	EVENT	Vaniville Town	Player's House	Mom obj disappeared		FV_T01R0101_MAMA_01
+0x26C	EVENT	Route 7	Berry Fields Hut	Female scientist obj disappeared		FV_I01R0101_ASSISTANTW_01
 0x26D						FV_C02R1202_OCCULTW_01
 0x26E						FV_I03_HAKASE_01
-0x26F						FV_R05_FRIEND2_01
-0x270						FV_R05_FRIEND3_01
-0x271						FV_D02A0101_FRIEND1_01
-0x272						FV_D02A0101_EV_POKE08_01
-0x273						FV_R07_HERO_01
-0x274						FV_R07_FRIEND1_01
-0x275						FV_R07_FRIEND2_01
-0x276						FV_R07_FRIEND3_01
-0x277	EVENT			Snorlax Disappeared		FV_R07_EV_POKE11_01
-0x278						FV_R07R0101_FRIEND2_01
-0x279						FV_R07R0101_FRIEND3_01
-0x27A						FV_R07_KABI_EV
-0x27B						FV_T03R0101_CASTLE_01
+0x26F	EVENT	Route 5		Tierno obj disappeared		FV_R05_FRIEND2_01
+0x270	EVENT	Route 5		Trevor obj disappeared		FV_R05_FRIEND3_01
+0x271	EVENT	Parfum Palace	Courtyard	Shauna obj disappeared		FV_D02A0101_FRIEND1_01
+0x272	EVENT	Parfum Palace	Courtyard	Furfrou obj disappeared		FV_D02A0101_EV_POKE08_01
+0x273	EVENT	Route 7		Calem/Serena obj disappeared		FV_R07_HERO_01
+0x274	EVENT	Route 7		Shauna obj disappeared		FV_R07_FRIEND1_01
+0x275	EVENT	Route 7		Tierno obj disappeared		FV_R07_FRIEND2_01
+0x276	EVENT	Route 7		Trevor obj disappeared		FV_R07_FRIEND3_01
+0x277	EVENT	Route 7		Snorlax obj Disappeared		FV_R07_EV_POKE11_01
+0x278	EVENT	Route 7	Day Care	Tierno obj disappeared		FV_R07R0101_FRIEND2_01
+0x279	EVENT	Route 7	Day Care	Trevor obj disappeared		FV_R07R0101_FRIEND3_01
+0x27A	EVENT	Route 7		Completed Snorlax event		FV_R07_KABI_EV
+0x27B	EVENT	Shabboneau Castle	1F	Shabboneau Castle's Owner obj disappeared		FV_T03R0101_CASTLE_01
 0x27C						FV_T03R0101_FRIEND1_01
 0x27D						FV_T03R0101_MAN1_01
-0x27E						FV_D02R0102_PALACE_01
-0x27F						FV_D02R0102_FRIEND1_01
-0x280						FV_T09_HERO_01
-0x281						FV_T09R0201_HERO_01
-0x282						FV_D03R0102_HERO_01
-0x283						FV_D03R0102_ASSISTANTM_01
-0x284						FV_D03R0102_FLARE_01
-0x285						FV_C03_LEADER2_01
-0x286						FV_C05A0101_HERO_01
+0x27E	EVENT	Parfum Palace	1F	Palace Owner obj disappeared		FV_D02R0102_PALACE_01
+0x27F	EVENT	Parfum Palace	1F	Shauna obj disappeared		FV_D02R0102_FRIEND1_01
+0x280	EVENT	Ambrette Town		Calem/Serena obj disappeared		FV_T09_HERO_01
+0x281	EVENT	Ambrette Town	Fossil Lab	Calem/Serena obj disappeared		FV_T09R0201_HERO_01
+0x282	EVENT	Glittering Cave		Calem/Serena obj disappeared		FV_D03R0102_HERO_01
+0x283	EVENT	Glittering Cave		Male scientist obj disappeared		FV_D03R0102_ASSISTANTM_01
+0x284	EVENT	Glittering Cave		Team Flare Grunts objs disappeared		FV_D03R0102_FLARE_01
+0x285	EVENT	Cyllage City		Leader Grant obj disappeared		FV_C03_LEADER2_01
+0x286		Coumarine City				FV_C05A0101_HERO_01
 0x287						FV_D02A0101_PALACE_01
 0x288						FV_D02_FRIEND1_01
 0x289						FV_D12R0102_FLARE_01
 0x28A						FV_D12R0103_FLARE_01
 0x28B						FV_D02R0204_FIREWORK_01
 0x28C						FV_R13_FLAREM_01
-0x28D						FV_R04_MYSTERY_01
-0x28E						FV_C04_FRIEND2_01
-0x28F						FV_C04_FRIEND3_01
+0x28D	EVENT	Route 4		Sina and Dexio objs disappeared		FV_R04_MYSTERY_01
+0x28E	EVENT	Shalour City		Tierno obj disappeared		FV_C04_FRIEND2_01
+0x28F	EVENT	Shalour City		Trevor obj disappeared		FV_C04_FRIEND3_01
 0x290						FV_C04R1002_FRIEND1_01
 0x291						FV_C04R1002_FRIEND2_01
 0x292						FV_C04R1002_FRIEND3_01
 0x293						FV_C04R1002_RIVAL_01
 0x294						FV_C04R1002_LEADER3_01
-0x295						FV_C02G0101_MYSTERY_01
-0x296						FV_C02Z01_MYSTERYM_01
-0x297						FV_C02Z01_MYSTERYW_01
-0x298						FV_C02Z01_FRIEND1_01
-0x299						FV_C02Z01_HERO_01
+0x295	EVENT	Lumiose Gate	(Route 4)	Sina and Dexio objs disappeared		FV_C02G0101_MYSTERY_01
+0x296	EVENT	Lumiose City (South Boulevard)		Dexio obj disappeared		FV_C02Z01_MYSTERYM_01
+0x297	EVENT	Lumiose City (South Boulevard)		Sina obj disappeared		FV_C02Z01_MYSTERYW_01
+0x298	EVENT	Lumiose City (South Boulevard)		Shauna obj disappeared		FV_C02Z01_FRIEND1_01
+0x299	EVENT	Lumiose City (South Boulevard)		Calem/Serena obj disappeared		FV_C02Z01_HERO_01
 0x29A						FV_C02R0101_HERO_01
-0x29B						FV_C02R0101_FLAREBOSS_01
-0x29C						FV_C02R0101_MYSTERYM_01
-0x29D						FV_C02R0101_MYSTERYW_01
-0x29E						FV_C02R2101_FLAREBOSS_01
-0x29F						FV_C02R2101_CHAMPION_01
+0x29B	EVENT	Lumiose City (South Boulevard)	Sycamore's Lab 1F	Lysandre obj disappeared		FV_C02R0101_FLAREBOSS_01
+0x29C	EVENT	Lumiose City (South Boulevard)	Sycamore's Lab 1F	Dexio obj disappeared		FV_C02R0101_MYSTERYM_01
+0x29D	EVENT	Lumiose City (South Boulevard)	Sycamore's Lab 1F	Sina obj disappeared		FV_C02R0101_MYSTERYW_01
+0x29E	EVENT	Lumiose City (South Boulevard)	Café Soleil	Lysandre obj disappeared		FV_C02R2101_FLAREBOSS_01
+0x29F	EVENT	Lumiose City (South Boulevard)	Café Soleil	Diantha obj disappeared		FV_C02R2101_CHAMPION_01
 0x2A0						FV_C04_HERO_01
-0x2A1						FV_C04R1001_FRIEND2_01
-0x2A2						FV_C04R1001_FRIEND3_01
+0x2A1	EVENT	Tower of Mastery		Tierno obj disappeared		FV_C04R1001_FRIEND2_01
+0x2A2	EVENT	Tower of Mastery		Trevor obj disappeared		FV_C04R1001_FRIEND3_01
 0x2A3						FV_C04_MONSBALL_01
-0x2A4						FV_T04_FLAREM_01
-0x2A5						FV_T04_STOPPER_01
+0x2A4	EVENT	Geosenge Town		Team Flare Grunt obj disappeared		FV_T04_FLAREM_01
+0x2A5	EVENT	Geosenge Town		Backpackers blocking exit to Route 11 objs disappeared		FV_T04_STOPPER_01
 0x2A6						FV_R10_FLAREM_01
 0x2A7						FV_D03_ENEMY3D_01
 0x2A8						FV_D03_ENEMY3D_02
@@ -695,13 +695,13 @@
 0x2B5						FV_R14_FRIEND2_01
 0x2B6						FV_R14_FRIEND3_01
 0x2B7						FV_R14_HERO_01
-0x2B8						FV_T09R0201_FOSSIL_01
-0x2B9						FV_C04R1006_MEGA_01
-0x2BA						FV_C04R1001_LEADER3_01
-0x2BB						FV_C04R1001_MEGA_01
-0x2BC						FV_C04R1001_HERO_01
-0x2BD						FV_C04R1001_FRIEND1_01
-0x2BE						FV_C04GYM0101_LEADER3_01
+0x2B8	EVENT	Ambrette Town	Fossil Lab	Fossil scientist obj disappeared		FV_T09R0201_FOSSIL_01
+0x2B9	EVENT	Tower of Mastery	Guru's Room	Guru obj disappeared		FV_C04R1006_MEGA_01
+0x2BA	EVENT	Tower of Mastery		Korrina obj disappeared		FV_C04R1001_LEADER3_01
+0x2BB	EVENT	Tower of Mastery		Guru obj disappeared		FV_C04R1001_MEGA_01
+0x2BC	EVENT	Tower of Mastery		Calem/Serena obj disappeared		FV_C04R1001_HERO_01
+0x2BD	EVENT	Tower of Mastery		Shauna obj disappeared		FV_C04R1001_FRIEND1_01
+0x2BE	EVENT	Shalour City	Gym	Korrina obj disappeared		FV_C04GYM0101_LEADER3_01
 0x2BF						FV_REBTL_PASSERBY_01
 0x2C0						FV_REBTL_PASSERBY_02
 0x2C1						FV_REBTL_PASSERBY_03
@@ -710,13 +710,13 @@
 0x2C4						FV_PINKDIA_EVENT_01
 0x2C5						FV_STEAM_EVENT_01
 0x2C6						FV_MAJIN_EVENT_01
-0x2C7						FV_C05G0101_MYSTERY_01
+0x2C7	EVENT	Coumarine Gate		Sina and Dexio objs disappeared		FV_C05G0101_MYSTERY_01
 0x2C8						FV_D12R0103_MYSTERY_01
 0x2C9						FV_D13R0101_XY_BEFORE_01
 0x2CA						FV_T04_LEADER3EVENT_01
-0x2CB						FV_T04_GUIDE_01
-0x2CC						FV_T04R0101_GUIDE_01
-0x2CD						FV_C01_FRIEND3_01
+0x2CB	EVENT	Geosenge Town		Guide obj disappeared		FV_T04_GUIDE_01
+0x2CC	EVENT	Geosenge Town	Hotel 1F	Guide obj disappeared		FV_T04R0101_GUIDE_01
+0x2CD	EVENT	Santalune City		Trevor obj disappeared		FV_C01_FRIEND3_01
 0x2CE						FV_C06_FRIEND1_01
 0x2CF						FV_C06_FRIEND2_01
 0x2D0						FV_C06_FRIEND3_01
@@ -751,14 +751,14 @@
 0x2ED						FV_T05_FRIEND3_01
 0x2EE						FV_T05_HAKASE_01
 0x2EF						FV_T05_MYSTERYM_01
-0x2F0						FV_HOTEL_RIBBON_01
-0x2F1	BERRY TREE					FV_FLDITEM_KINOMI_01
-0x2F2	BERRY TREE					FV_FLDITEM_KINOMI_02
-0x2F3	BERRY TREE					FV_FLDITEM_KINOMI_03
-0x2F4	BERRY TREE					FV_FLDITEM_KINOMI_04
-0x2F5	BERRY TREE					FV_FLDITEM_KINOMI_05
-0x2F6	BERRY TREE					FV_FLDITEM_KINOMI_06
-0x2F7	BERRY TREE					FV_FLDITEM_KINOMI_07
+0x2F0	EVENT	Kalos Hotels	Room	Ribbon giver obj disappeared		FV_HOTEL_RIBBON_01
+0x2F1	BERRY TREE	Route 5		[Weekly] Collected Oran Berry from Berry Tree		FV_FLDITEM_KINOMI_01
+0x2F2	BERRY TREE	Route 6		[Weekly] Collected Aguav Berry from Berry Tree		FV_FLDITEM_KINOMI_02
+0x2F3	BERRY TREE	Route 7		[Weekly] Collected Persim Berry from Berry Tree		FV_FLDITEM_KINOMI_03
+0x2F4	BERRY TREE	Route 8	(Coast)	[Weekly] Collected Mago Berry from Berry Tree		FV_FLDITEM_KINOMI_04
+0x2F5	BERRY TREE	Route 10		[Weekly] Collected Iapapa Berry from Berry Tree		FV_FLDITEM_KINOMI_05
+0x2F6	BERRY TREE	Route 11		[Weekly] Collected Sitrus Berry from Berry Tree		FV_FLDITEM_KINOMI_06
+0x2F7	BERRY TREE	Route 12		[Weekly] Collected Aspear Berry from Berry Tree		FV_FLDITEM_KINOMI_07
 0x2F8	BERRY TREE					FV_FLDITEM_KINOMI_08
 0x2F9	BERRY TREE					FV_FLDITEM_KINOMI_09
 0x2FA	BERRY TREE					FV_FLDITEM_KINOMI_10
@@ -766,12 +766,12 @@
 0x2FC	BERRY TREE					FV_FLDITEM_KINOMI_12
 0x2FD	BERRY TREE					FV_FLDITEM_KINOMI_13
 0x2FE	BERRY TREE					FV_FLDITEM_KINOMI_14
-0x2FF	BERRY TREE					FV_FLDITEM_KINOMI_15
+0x2FF	BERRY TREE	Route 22		[Weekly] Collected Tanga Berry from Berry Tree		FV_FLDITEM_KINOMI_15
 0x300						FV_T06_HAKASE_01
 0x301	TRAINER BATTLE	Victory Road	Entrance	Ace Trainer Robbie Battle		FV_C08_GLASSES_01
 0x302	EVENT	Victory Road	Entrance	Ace Trainer Robbie Movement		FV_C08_LEADER8_01
-0x303	SIDE EVENT			50 Streak: Beat Chatelaine		FV_POSTMAN
-0x304						FV_PGL_POSTMAN
+0x303	SIDE EVENT	Poké Center		Delivery man obj disappeared (50 Streak: Beat Chatelaine?)		FV_POSTMAN
+0x304	EVENT	Poké Center		PGL Delivery man obj disappeared		FV_PGL_POSTMAN
 0x305						FV_C02R0601_FLAREBOSS_01
 0x306						FV_C02R0601_HAKASE_01
 0x307						FV_C02R0601_STAFF_01
@@ -796,8 +796,8 @@
 0x31A						FV_CAMERAMAN
 0x31B						FV_T04_FRIENDS_01
 0x31C						FV_T04_AZ_01
-0x31D						FV_T04_HERO_01
-0x31E						FV_C04_GLASSES_01
+0x31D	EVENT	Geosenge Town		Calem/Serena obj disappeared		FV_T04_HERO_01
+0x31E	EVENT	Shalour City		Man blocking Gym entrance disappeared		FV_C04_GLASSES_01
 0x31F						FV_C07_MYSTERYW_01
 0x320						FV_D13R0101_FLAREBOSS_01
 0x321						FV_D13R0101_RIVAL_01
@@ -805,7 +805,7 @@
 0x323						FV_D13R0102_FRIEND1_01
 0x324						FV_D13R0104_RIVAL_01
 0x325						FV_R12_BREEDERM_01
-0x326						FV_C01P0101_FRIEND2_01
+0x326	EVENT	Santalune City	Poké Center	Tierno obj disappeared		FV_C01P0101_FRIEND2_01
 0x327						FV_TSUCHIKEMURI_ENC_01
 0x328						FV_TSUCHIKEMURI_ENC_02
 0x329						FV_TSUCHIKEMURI_ENC_03
@@ -821,28 +821,28 @@
 0x333						FV_TSUCHIKEMURI_ENC_13
 0x334						FV_TSUCHIKEMURI_ENC_14
 0x335						FV_TSUCHIKEMURI_ENC_15
-0x336						FV_C02G0201_KIZUNA_01
+0x336	EVENT	Lumiose Gate	(Route 5)	Mr. Bonding obj disappeared		FV_C02G0201_KIZUNA_01
 0x337						FV_D08G0101_VETERANW_01
 0x338						FV_D07_LEADER8_01
 0x339						FV_R03_HERO_01
-0x33A						FV_R03_FRIENDS_01
+0x33A	EVENT	Route 3		Group of friends objs disappeared		FV_R03_FRIENDS_01
 0x33B						FV_R05_LEADER3_01
 0x33C						FV_C02Z03_FRIEND1_01
 0x33D						FV_C02Z07_FRIEND1_01
 0x33E						FV_C02Z07_LEADER5_01
 0x33F						FV_C02G0301_MYSTERY_01
 0x340						FV_R08_MYSTERY_01
-0x341						FV_D02R0209_FRIEND1_01
-0x342						FV_D02R0209_PALACE_01
+0x341	EVENT	Parfum Palace	Balcony	Shauna obj disappeared		FV_D02R0209_FRIEND1_01
+0x342	EVENT	Parfum Palace	Balcony	Palace Owner obj disappeared		FV_D02R0209_PALACE_01
 0x343						FV_D08R0104_HERO_01
 0x344						FV_C02R0901_HAKASE_01
 0x345						FV_C02R0901_MYSTERY_01
-0x346						FV_T01R0102_AWARD_01
-0x347						FV_T01R0102_AWARD_02
-0x348						FV_T01R0102_AWARD_03
-0x349						FV_T01R0102_AWARD_04
-0x34A						FV_T01R0102_AWARD_05
-0x34B						FV_C01_STOPPER_01
+0x346	EVENT	Vaniville Town	Player's Bedroom	Diploma for completing Central Kalos Pokédex has disappeared		FV_T01R0102_AWARD_01
+0x347	EVENT	Vaniville Town	Player's Bedroom	Diploma for completing Coastal Kalos Pokédex has disappeared		FV_T01R0102_AWARD_02
+0x348	EVENT	Vaniville Town	Player's Bedroom	Diploma for completing Mountain Kalos Pokédex has disappeared		FV_T01R0102_AWARD_03
+0x349	EVENT	Vaniville Town	Player's Bedroom	Diploma for completing all Kalos Pokédexes has disappeared		FV_T01R0102_AWARD_04
+0x34A	EVENT	Vaniville Town	Player's Bedroom	Diploma for completing National Pokédex has disappeared		FV_T01R0102_AWARD_05
+0x34B	EVENT	Santalune City		Alexa obj disappeared		FV_C01_STOPPER_01
 0x34C						FV_C02R3101_GARCON_01
 0x34D						FV_C02R1601_LADY_01
 0x34E						FV_C02R1601_GIRL2_01
@@ -854,10 +854,10 @@
 0x354						FV_C02R4201_BACKPACKERM_01
 0x355						FV_C02R4201_TOURISTM_01
 0x356						FV_C02R4201_TOURISTW_01
-0x357						FV_D04R0102_FRIEND2_01
+0x357	EVENT	Reflection Cave	B1F	Tierno obj disappeared		FV_D04R0102_FRIEND2_01
 0x358						FV_R13_AZ_01
-0x359						FV_C05R0101_HAKASE_01
-0x35A						FV_C05R0101_CHAMPION_01
+0x359	EVENT	Coumarine City	(Seaside) Station	Prof. Sycamore obj disappeared		FV_C05R0101_HAKASE_01
+0x35A	EVENT	Coumarine City	(Seaside) Station	Diantha obj disappeared		FV_C05R0101_CHAMPION_01
 0x35B						FV_C09_RIVAL_01
 0x35C						FV_C02R3101_COOK_01
 0x35D						FV_C02R3101_BADGIRL_01
@@ -866,20 +866,20 @@
 0x360						FV_R14R0101_FRIEND3_01
 0x361						FV_BEDMAKE_NPC_01
 0x362						FV_CONCIERGE_NPC_01
-0x363						FV_R10_TRFLARE_01
-0x364						FV_D02R0102_MINSTREL_01
-0x365						FV_C03P0101_MINSTREL_01
+0x363	EVENT	Route 10		Team Flare Grunt obj disappeared		FV_R10_TRFLARE_01
+0x364	EVENT	Parfum Palace	1F	Taveling Minstrel obj disappeared		FV_D02R0102_MINSTREL_01
+0x365	EVENT	Cyllage City	Poké Center	Taveling Minstrel obj disappeared		FV_C03P0101_MINSTREL_01
 0x366						FV_C06P0101_MINSTREL_01
 0x367						FV_C08P0101_MINSTREL_01
 0x368						FV_C09P0101_MINSTREL_01
-0x369						FV_C04R1006_LEADER3_01
+0x369	EVENT	Tower of Mastery	Guru's Room	Korrina obj disappeared		FV_C04R1006_LEADER3_01
 0x36A						FV_C02Z01_EV_POKE05
 0x36B						FV_C02Z02_EV_POKE05
 0x36C						FV_C02Z03_EV_POKE05
 0x36D						FV_C02Z04_EV_POKE05
-0x36E						FV_I01_BABYGIRL1_01
-0x36F						FV_I01_MIDDLEMAN1_01
-0x370						FV_I01_ASSISTANTW_01
+0x36E	EVENT	Route 7	Berry Fields	Little girl obj disappeared		FV_I01_BABYGIRL1_01
+0x36F	EVENT	Route 7	Berry Fields	Man obj disappeared		FV_I01_MIDDLEMAN1_01
+0x370	EVENT	Route 7	Berry Fields	Female scientist obj disappeared		FV_I01_ASSISTANTW_01
 0x371						FV_C09R1003_BHBOSS1_01
 0x372						FV_C09R1003_BHBOSS2_01
 0x373						FV_C09R1003_BHBOSS3_01
@@ -889,10 +889,10 @@
 0x377						FV_C07R0501_ARTSTM_01
 0x378						FV_C07R0501_MONSBALL_01
 0x379						FV_C02GYM0101_LEADER5_SIS_01
-0x37A						FV_C02R0101_FRIEND1_01
-0x37B						FV_C02R0101_FRIEND2_01
-0x37C						FV_C02R0101_FRIEND3_01
-0x37D						FV_C02R2101_HERO_01
+0x37A	EVENT	Lumiose City (South Boulevard)	Sycamore's Lab 1F	Shauna obj disappeared		FV_C02R0101_FRIEND1_01
+0x37B	EVENT	Lumiose City (South Boulevard)	Sycamore's Lab 1F	Tierno obj disappeared		FV_C02R0101_FRIEND2_01
+0x37C	EVENT	Lumiose City (South Boulevard)	Sycamore's Lab 1F	Trevor obj disappeared		FV_C02R0101_FRIEND3_01
+0x37D	EVENT	Lumiose City (South Boulevard)	Café Soleil	Calem/Serena obj disappeared		FV_C02R2101_HERO_01
 0x37E						FV_C02Z01_FRIEND2_01
 0x37F						FV_C02Z01_FRIEND3_01
 0x380						FV_C02Z05_FRIEND1_01
@@ -904,12 +904,12 @@
 0x386						FV_C02R3901_MAID_01
 0x387						FV_C02R3901_EV_POKE15_01
 0x388						FV_C02R3901_NPC_01
-0x389						FV_T03R0202_KINUNA_01
-0x38A						FV_T09R0402_KIZUNA_01
-0x38B						FV_C03R0102_KIZUNA_01
-0x38C						FV_T04R0102_KIZUNA_01
-0x38D						FV_C04P0101_KIZUNA_01
-0x38E						FV_C05P0101_KIZUNA_01
+0x389	EVENT	Camprhier Town	Hotel Room	Mr. Bonding obj disappeared		FV_T03R0202_KINUNA_01
+0x38A	EVENT	Ambrette Town	Hotel Room	Mr. Bonding obj disappeared		FV_T09R0402_KIZUNA_01
+0x38B	EVENT	Cyllage City	Hotel Room	Mr. Bonding obj disappeared		FV_C03R0102_KIZUNA_01
+0x38C	EVENT	Geosenge Town	Hotel Room	Mr. Bonding obj disappeared		FV_T04R0102_KIZUNA_01
+0x38D	EVENT	Shalour City	Poké Center	Mr. Bonding obj disappeared		FV_C04P0101_KIZUNA_01
+0x38E	EVENT	Coumarine City	Poké Center	Mr. Bonding obj disappeared		FV_C05P0101_KIZUNA_01
 0x38F						FV_C06P0101_KIZUNA_01
 0x390						FV_T05P0101_KIZUNA_01
 0x391						FV_C02R3101_KIZUNA_01
@@ -917,9 +917,9 @@
 0x393						FV_T06R0102_KIZUNA_01
 0x394						FV_C08P0101_KIZUNA_01
 0x395						FV_C02R0301_KIZUNA_01
-0x396						FV_D17R0101_TRAVELING_POKE_01
+0x396	EVENT	Sea Spirit's Den		Articuno/Zapdos/Moltres obj disappeared		FV_D17R0101_TRAVELING_POKE_01
 0x397						FV_C02R2501_NPC_01
-0x398						FV_C02R0202_MIDDLEMAN1_01
+0x398	EVENT	Lumiose City (South Boulevard)	Transportation Office 2F	Garbage collector man obj disappeared		FV_C02R0202_MIDDLEMAN1_01
 0x399						FV_C02_STYLISH_LV2_01
 0x39A						FV_C02_STYLISH_LV3_01
 0x39B						FV_C02_STYLISH_LV4_01
@@ -928,8 +928,8 @@
 0x39E						FV_C02_STYLISH_LV7_01
 0x39F						FV_C02_STYLISH_LV8_01
 0x3A0						FV_C02Z05_FRIEND2_01
-0x3A1						FV_C02Z02_FRIEND3_01
-0x3A2						FV_C02R0103_FRIENDS_01
+0x3A1	EVENT	Lumiose City (South Boulevard)		Trevor obj disappeared		FV_C02Z02_FRIEND3_01
+0x3A2	EVENT	Lumiose City (South Boulevard)	Sycamore's Lab 3F	Shauna and Calem/Serena objs disappeared		FV_C02R0103_FRIENDS_01
 0x3A3						FV_C02R2101_NPC_01
 0x3A4						FV_C02R2901_WKOBJCODE01_01
 0x3A5						FV_D13R0103_XY_01
@@ -948,7 +948,7 @@
 0x3B2						FV_C04R1006_FRIEND2_01
 0x3B3						FV_C04R1006_FRIEND3_01
 0x3B4						FV_D13R0103_XY_BEFORE_01
-0x3B5	PKMN GIFT			Received Lucario Gift		FV_C04R1002_EV_POKE07
+0x3B5	PKMN GIFT	Tower of Mastery	Top	Lucario obj disappeared		FV_C04R1002_EV_POKE07
 0x3B6						FV_C02R2301_HANDSOME
 0x3B7						FV_C02R2301_C02GIRL
 0x3B8						FV_C02R2301_C02GIRL_EX
@@ -1012,7 +1012,7 @@
 0x3F2						FV_C02R0611_HANDSOME
 0x3F3						FV_C02R0601_CUSTOMERS
 0x3F4						FV_C02Z01_CORN_01
-0x3F5						FV_T03R0101_O_MODEL01
+0x3F5	EVENT	Shabboneau Castle	1F	Poké Flute obj disappeared		FV_T03R0101_O_MODEL01
 0x3F6						FV_R07_MODEL01_01
 0x3F7						FV_FLD_MEGASTONE_01
 0x3F8						FV_FLD_MEGASTONE_02
@@ -1029,12 +1029,12 @@
 0x403						FV_C02Z01_STOPPER_01
 0x404						FV_C02Z02_STOPPER_01
 0x405						FV_C02Z05_STOPPER_01
-0x406						FV_C02R0103_FRIENDS_02
+0x406	EVENT	Lumiose City (South Boulevard)	Sycamore's Lab 3F	Tierno and Trevor objs disappeared		FV_C02R0103_FRIENDS_02
 0x407						FV_T04_FRIEND3_01
 0x408						FV_C07_FLARE_01
 0x409						FV_C02Z05_FLAREW_01
 0x40A						FV_C02Z06_STOPPER_01
-0x40B						FV_C05A0101_FRIEND2_01
+0x40B		Coumarine City				FV_C05A0101_FRIEND2_01
 0x40C						FV_C02GYM0102_LEADER5_SIS_01
 0x40D						FV_YOBIDAYO_INIT_01
 0x40E						FV_YOBIDAYO_INIT_02
@@ -1104,9 +1104,9 @@
 0x44E	HIDDEN ITEM	Santalune City		Found Super Potion		FLAG_HIDEITEM_002
 0x44F	HIDDEN ITEM	Santalune City		Found Great Ball		FLAG_HIDEITEM_003
 0x450	HIDDEN ITEM	Santalune City		Found Antidote		FLAG_HIDEITEM_004
-0x451	HIDDEN ITEM	Route 4		Found Honey		FLAG_HIDEITEM_005
-0x452	HIDDEN ITEM	Route 4		Found Honey		FLAG_HIDEITEM_006
-0x453	HIDDEN ITEM	Route 4		Found Honey		FLAG_HIDEITEM_007
+0x451	HIDDEN ITEM	Route 4		Found Honey (recurring)		FLAG_HIDEITEM_005
+0x452	HIDDEN ITEM	Route 4		Found Honey (recurring)		FLAG_HIDEITEM_006
+0x453	HIDDEN ITEM	Route 4		Found Honey (recurring)		FLAG_HIDEITEM_007
 0x454	HIDDEN ITEM	Route 4		Found Super Potion		FLAG_HIDEITEM_008
 0x455	HIDDEN ITEM	Route 5		Found Paralyze Heal		FLAG_HIDEITEM_009
 0x456	HIDDEN ITEM	Route 5		Found Super Potion		FLAG_HIDEITEM_010
@@ -1116,14 +1116,14 @@
 0x45A	HIDDEN ITEM	Route 6		Found Tiny Mushroom		FLAG_HIDEITEM_014
 0x45B	HIDDEN ITEM	Parfum Palace	Courtyard	Found Rare Candy		FLAG_HIDEITEM_015
 0x45C	HIDDEN ITEM	Parfum Palace	Courtyard	Found X Sp. Atk		FLAG_HIDEITEM_016
-0x45D	HIDDEN ITEM	Parfum Palace	Courtyard	Found Pretty Wing		FLAG_HIDEITEM_017
-0x45E	HIDDEN ITEM	Route 8		Found Super Potion		FLAG_HIDEITEM_018
-0x45F	HIDDEN ITEM	Route 8		Found Escape Rope		FLAG_HIDEITEM_019
-0x460	HIDDEN ITEM	Route 8		Found Pearl		FLAG_HIDEITEM_020
-0x461	HIDDEN ITEM	Route 8		Found Ultra Ball		FLAG_HIDEITEM_021
-0x462	HIDDEN ITEM	Route 8		Found Heart Scale		FLAG_HIDEITEM_022
-0x463	HIDDEN ITEM	Route 8		Found Stardust		FLAG_HIDEITEM_023
-0x464	HIDDEN ITEM	Route 8		Found Heart Scale		FLAG_HIDEITEM_024
+0x45D	HIDDEN ITEM	Parfum Palace	Courtyard	Found Pretty Wing (recurring)		FLAG_HIDEITEM_017
+0x45E	HIDDEN ITEM	Route 8	(Cliffside)	Found Super Potion		FLAG_HIDEITEM_018
+0x45F	HIDDEN ITEM	Route 8	(Cliffside)	Found Escape Rope		FLAG_HIDEITEM_019
+0x460	HIDDEN ITEM	Route 8	(Coast)	Found Pearl (recurring)		FLAG_HIDEITEM_020
+0x461	HIDDEN ITEM	Route 8	(Coast)	Found Ultra Ball		FLAG_HIDEITEM_021
+0x462	HIDDEN ITEM	Route 8	(Coast)	Found Heart Scale		FLAG_HIDEITEM_022
+0x463	HIDDEN ITEM	Route 8	(Coast)	Found Stardust (recurring)		FLAG_HIDEITEM_023
+0x464	HIDDEN ITEM	Route 8	(Coast)	Found Heart Scale (recurring)		FLAG_HIDEITEM_024
 0x465	HIDDEN ITEM	Ambrette Town		Found Rare Candy		FLAG_HIDEITEM_025
 0x466	HIDDEN ITEM	Ambrette Town		Found X Attack		FLAG_HIDEITEM_026
 0x467	HIDDEN ITEM	Route 9		Found Super Repel		FLAG_HIDEITEM_027
@@ -1137,17 +1137,17 @@
 0x46F	HIDDEN ITEM	Route 11		Found Super Potion		FLAG_HIDEITEM_035
 0x470	HIDDEN ITEM	Route 11		Found Thunder Stone		FLAG_HIDEITEM_036
 0x471	HIDDEN ITEM	Shalour City		Found X Sp. Atk		FLAG_HIDEITEM_037
-0x472	HIDDEN ITEM	Shalour City		Found Stardust		FLAG_HIDEITEM_038
+0x472	HIDDEN ITEM	Shalour City		Found Stardust (recurring)		FLAG_HIDEITEM_038
 0x473	HIDDEN ITEM	Shalour City		Found Max Repel		FLAG_HIDEITEM_039
-0x474	HIDDEN ITEM	Route 12		Found Honey		FLAG_HIDEITEM_040
+0x474	HIDDEN ITEM	Route 12		Found Honey (recurring)		FLAG_HIDEITEM_040
 0x475	HIDDEN ITEM	Route 12		Found Net Ball		FLAG_HIDEITEM_041
 0x476	HIDDEN ITEM	Route 12		Found Water Stone		FLAG_HIDEITEM_042
 0x477	HIDDEN ITEM	Route 12		Found Ice Heal		FLAG_HIDEITEM_043
 0x478	HIDDEN ITEM	Azure Bay		Found Star Piece		FLAG_HIDEITEM_044
 0x479	HIDDEN ITEM	Azure Bay		Found Hyper Potion		FLAG_HIDEITEM_045
 0x47A	HIDDEN ITEM	Azure Bay		Found Heart Scale		FLAG_HIDEITEM_046
-0x47B	HIDDEN ITEM	Coumarine City		Found Elixir		FLAG_HIDEITEM_047
-0x47C	HIDDEN ITEM	Coumarine City		Found Awakening		FLAG_HIDEITEM_048
+0x47B	HIDDEN ITEM	Coumarine City	(Seaside)	Found Elixir		FLAG_HIDEITEM_047
+0x47C	HIDDEN ITEM	Coumarine City	(Seaside)	Found Awakening		FLAG_HIDEITEM_048
 0x47D	HIDDEN ITEM	Coumarine City		Found Max Repel		FLAG_HIDEITEM_049
 0x47E	HIDDEN ITEM	Route 13		Found Guard Spec.		FLAG_HIDEITEM_050
 0x47F	HIDDEN ITEM	Route 13		Found Heat Rock		FLAG_HIDEITEM_051
@@ -1233,8 +1233,8 @@
 0x4CF	HIDDEN ITEM	Route 22		Found PP Up		FLAG_HIDEITEM_131
 0x4D0	HIDDEN ITEM	Route 22		Found Pearl String		FLAG_HIDEITEM_132
 0x4D1	HIDDEN ITEM	Route 22		Found Elixir		FLAG_HIDEITEM_133
-0x4D2	HIDDEN ITEM	Route 23		Found Max Elixir		FLAG_HIDEITEM_134
-0x4D3	HIDDEN ITEM	Route 23		Found Full Restore		FLAG_HIDEITEM_135
+0x4D2	HIDDEN ITEM	Route 22		Found Max Elixir		FLAG_HIDEITEM_134
+0x4D3	HIDDEN ITEM	Route 22		Found Full Restore		FLAG_HIDEITEM_135
 0x4D4	HIDDEN ITEM	Victory Road	Inside	Found X Attack		FLAG_HIDEITEM_136
 0x4D5	HIDDEN ITEM	Victory Road	Outside	Found Full Heal		FLAG_HIDEITEM_137
 0x4D6	HIDDEN ITEM	Victory Road	Outside	Found Hyper Potion		FLAG_HIDEITEM_138
@@ -1310,9 +1310,9 @@
 0x51C	FIELD ITEM	Route 3		Super Potion item ball disappeared		FV_FLD_ITEM_2
 0x51D	FIELD ITEM	Route 3		Revive item ball disappeared		FV_FLD_ITEM_3
 0x51E	FIELD ITEM	Route 3		Dawn Stone item ball disappeared		FV_FLD_ITEM_4
-0x51F	FIELD ITEM	Route 23		Super Potion item ball disappeared		FV_FLD_ITEM_5
-0x520	FIELD ITEM	Route 23		Elixir item ball disappeared		FV_FLD_ITEM_6
-0x521	FIELD ITEM	Route 23		Draco Plate item ball disappeared		FV_FLD_ITEM_7
+0x51F	FIELD ITEM	Route 22		Super Potion item ball disappeared		FV_FLD_ITEM_5
+0x520	FIELD ITEM	Route 22		Elixir item ball disappeared		FV_FLD_ITEM_6
+0x521	FIELD ITEM	Route 22		Draco Plate item ball disappeared		FV_FLD_ITEM_7
 0x522	FIELD ITEM	Route 4		Great Ball item ball disappeared		FV_FLD_ITEM_8
 0x523	FIELD ITEM	Route 4		Antidote item ball disappeared		FV_FLD_ITEM_9
 0x524	FIELD ITEM	Route 4		Super Potion item ball disappeared		FV_FLD_ITEM_10
@@ -1339,11 +1339,11 @@
 0x539	FIELD ITEM	Route 7		Tiny Mushroom item ball disappeared		FV_FLD_ITEM_31
 0x53A	FIELD ITEM	Route 7		Silver Powder item ball disappeared		FV_FLD_ITEM_32
 0x53B	FIELD ITEM	Connecting Cave		TM40 (Aerial Ace) item ball disappeared		FV_FLD_ITEM_33
-0x53C	FIELD ITEM	Route 8		HP Up item ball disappeared		FV_FLD_ITEM_34
-0x53D	FIELD ITEM	Route 8		Leaf Stone item ball disappeared		FV_FLD_ITEM_35
-0x53E	FIELD ITEM	Route 8		Water Stone item ball disappeared		FV_FLD_ITEM_36
-0x53F	FIELD ITEM	Route 8		Heart Scale item ball disappeared		FV_FLD_ITEM_37
-0x540	FIELD ITEM	Route 8		TM19 (Roost) item ball disappeared		FV_FLD_ITEM_38
+0x53C	FIELD ITEM	Route 8	(Cliffside)	HP Up item ball disappeared		FV_FLD_ITEM_34
+0x53D	FIELD ITEM	Route 8	(Cliffside)	Leaf Stone item ball disappeared		FV_FLD_ITEM_35
+0x53E	FIELD ITEM	Route 8	(Cliffside)	Water Stone item ball disappeared		FV_FLD_ITEM_36
+0x53F	FIELD ITEM	Route 8	(Cliffside)	Heart Scale item ball disappeared		FV_FLD_ITEM_37
+0x540	FIELD ITEM	Route 8	(Coast)	TM19 (Roost) item ball disappeared		FV_FLD_ITEM_38
 0x541	FIELD ITEM	Route 9		X Defense item ball disappeared		FV_FLD_ITEM_39
 0x542	FIELD ITEM	Route 9		Paralyze Heal item ball disappeared		FV_FLD_ITEM_40
 0x543	FIELD ITEM	Route 9		Fire Stone item ball disappeared		FV_FLD_ITEM_41
@@ -1471,7 +1471,7 @@
 0x5BD	FIELD ITEM	Victory Road	Inside	Full Restore item ball disappeared		FV_FLD_ITEM_163
 0x5BE	FIELD ITEM	Victory Road	Outside 4	TM02 (Dragon Claw) item ball disappeared		FV_FLD_ITEM_164
 0x5BF	FIELD ITEM	Camphrier Town		X Attack item ball disappeared		FV_FLD_ITEM_165
-0x5C0	FIELD ITEM	Ambrette Town		Pearl item ball disappeared		FV_FLD_ITEM_166
+0x5C0	FIELD ITEM	Ambrette Town	(Coast)	Pearl item ball disappeared		FV_FLD_ITEM_166
 0x5C1	FIELD ITEM	Cyllage City		Super Potion item ball disappeared		FV_FLD_ITEM_167
 0x5C2	FIELD ITEM	Cyllage City		X Sp. Atk item ball disappeared		FV_FLD_ITEM_168
 0x5C3	FIELD ITEM	Cyllage City		X Defense item ball disappeared		FV_FLD_ITEM_169
@@ -1502,13 +1502,13 @@
 0x5DC	FIELD ITEM	Route 14		Rare Candy item ball disappeared		FV_FLD_ITEM_194
 0x5DD	FIELD ITEM	Santalune Forest		Potion item ball disappeared		FV_FLD_ITEM_195
 0x5DE	FIELD ITEM	Santalune Forest		Antidote item ball disappeared		FV_FLD_ITEM_196
-0x5DF	FIELD ITEM	Route 23		TM26 (Earthquake) item ball disappeared		FV_FLD_ITEM_197
+0x5DF	FIELD ITEM	Route 22		TM26 (Earthquake) item ball disappeared		FV_FLD_ITEM_197
 0x5E0	FIELD ITEM	Camphrier Town		Star Piece item ball disappeared		FV_FLD_ITEM_198
 0x5E1	FIELD ITEM	Azure Bay		Deep Sea Scale item ball disappeared		FV_FLD_ITEM_199
 0x5E2	FIELD ITEM	Terminus Cave	Big Chamber	Adamant Orb item ball disappeared		FV_FLD_ITEM_200
 0x5E3	FIELD ITEM	Terminus Cave	Big Chamber	Lustrous Orb item ball disappeared		FV_FLD_ITEM_201
 0x5E4	FIELD ITEM	Geosenge Town		Soft Sand item ball disappeared		FV_FLD_ITEM_202
-0x5E5	FIELD ITEM	Berry Fields		Miracle Seed item ball disappeared		FV_FLD_ITEM_203
+0x5E5	FIELD ITEM	Route 7	Berry Fields	Miracle Seed item ball disappeared		FV_FLD_ITEM_203
 0x5E6	FIELD ITEM	Glittering Cave		Escape Rope item ball disappeared		FV_FLD_ITEM_204
 0x5E7	FIELD ITEM	Parfum Palace	Courtyard	HM01 (Cut) item ball disappeared		FV_FLD_ITEM_205
 0x5E8	FIELD ITEM	Victory Road	Outside 3	Quick Ball item ball disappeared		FV_FLD_ITEM_206
@@ -1740,9 +1740,9 @@
 0x6CA	_UNUSED					
 0x6CB	_UNUSED					
 0x6CC	_UNUSED					TRID_NULL
-0x6CD	TRAINER BATTLE	Route 12		Youngster Aidan		TRID_TANPAN_11
+0x6CD	TRAINER BATTLE	Route 12		Battled Youngster Aidan		TRID_TANPAN_11
 0x6CE	TRAINER BATTLE					TRID_TANPAN_12
-0x6CF	TRAINER BATTLE	Santalune Forest		Lass Lise		TRID_MINI_05
+0x6CF	TRAINER BATTLE	Santalune Forest		Battled Lass Lise		TRID_MINI_05
 0x6D0	TRAINER BATTLE					TRID_MINI_06
 0x6D1	TRAINER BATTLE					TRID_MINI_07
 0x6D2	TRAINER BATTLE					TRID_XYLEADER1_01
@@ -1759,116 +1759,116 @@
 0x6DD	TRAINER BATTLE					TRID_MINI_19
 0x6DE	TRAINER BATTLE					TRID_MINI0
 0x6DF	TRAINER BATTLE					TRID_MINI1
-0x6E0	TRAINER BATTLE					TRID_SKYM_01
+0x6E0	TRAINER BATTLE	Route 8	(Cliffside)	Battled Sky Trainer Howe		TRID_SKYM_01
 0x6E1	TRAINER BATTLE					TRID_XYLEADER3_01
 0x6E2	TRAINER BATTLE					TRID_XYLEADER4_01
 0x6E3	TRAINER BATTLE					TRID_XYLEADER5_01
 0x6E4	TRAINER BATTLE					TRID_XYLEADER6_01
 0x6E5	TRAINER BATTLE					TRID_XYLEADER7_01
 0x6E6	TRAINER BATTLE					TRID_XYLEADER8_01
-0x6E7	TRAINER BATTLE	Reflection Cave	B1F	Ace Trainer Emil		TRID_ELITEM_02
-0x6E8	TRAINER BATTLE	Lumiose City	Gym	Ace Trainer Mathis		TRID_ELITEM_03
-0x6E9	TRAINER BATTLE					TRID_ELITEM_04
-0x6EA	TRAINER BATTLE	Lumiose City	Gym	Ace Trainer Rico		TRID_ELITEM_05
+0x6E7	TRAINER BATTLE	Reflection Cave	B1F	Battled Ace Trainer Emil		TRID_ELITEM_02
+0x6E8	TRAINER BATTLE	Lumiose City	Gym 4F	Ace Trainer Mathis		TRID_ELITEM_03
+0x6E9	TRAINER BATTLE	Lumiose City	Gym 4F	Ace Trainer Maxim		TRID_ELITEM_04
+0x6EA	TRAINER BATTLE	Lumiose City	Gym 4F	Ace Trainer Rico		TRID_ELITEM_05
 0x6EB	TRAINER BATTLE	Snowbelle City	Gym	Ace Trainer Theo		TRID_ELITEM_06
 0x6EC	TRAINER BATTLE	Snowbelle City	Gym	Ace Trainer Viktor		TRID_ELITEM_07
 0x6ED	TRAINER BATTLE					TRID_ELITEM_08
 0x6EE	TRAINER BATTLE					TRID_ELITEW_05
 0x6EF	TRAINER BATTLE					TRID_TANPAN_01
-0x6F0	TRAINER BATTLE	Santalune Forest		Youngster joey		TRID_TANPAN_02
-0x6F1	TRAINER BATTLE	Route 2		Youngster Austin		TRID_TANPAN_03
+0x6F0	TRAINER BATTLE	Santalune Forest		Battled Youngster Joey		TRID_TANPAN_02
+0x6F1	TRAINER BATTLE	Route 2		Battled Youngster Austin		TRID_TANPAN_03
 0x6F2	TRAINER BATTLE					TRID_TANPAN_04
-0x6F3	TRAINER BATTLE	Santalune City	Gym	Youngster David		TRID_TANPAN_05
-0x6F4	TRAINER BATTLE	Santalune City	Gym	Youngster Zachary		TRID_TANPAN_06
-0x6F5	TRAINER BATTLE	Route 5		Youngster Keita		TRID_TANPAN_07
-0x6F6	TRAINER BATTLE	Route 5		Youngster Anthony		TRID_TANPAN_08
-0x6F7	TRAINER BATTLE	Route 6		Youngster Jacob		TRID_TANPAN_09
-0x6F8	TRAINER BATTLE	Route 6		Youngster Tyler		TRID_TANPAN_10
-0x6F9	TRAINER BATTLE	Santalune Forest		Lass Anna		TRID_MINI_01
-0x6FA	TRAINER BATTLE	Route 22		Lass Elin		TRID_MINI_02
-0x6FB	TRAINER BATTLE	Route 22		Lass Elsa		TRID_MINI_03
-0x6FC	TRAINER BATTLE	Santalune City	Gym	Lass Charlott		TRID_MINI_04
-0x6FD	TRAINER BATTLE	Route 5		Schoolboy Brighton		TRID_SBOY_01
-0x6FE	TRAINER BATTLE	Route 22		Schoolboy Rabbie		TRID_SBOY_02
+0x6F3	TRAINER BATTLE	Santalune City	Gym	Battled Youngster David		TRID_TANPAN_05
+0x6F4	TRAINER BATTLE	Santalune City	Gym	Battled Youngster Zachary		TRID_TANPAN_06
+0x6F5	TRAINER BATTLE	Route 5		Battled Youngster Keita		TRID_TANPAN_07
+0x6F6	TRAINER BATTLE	Route 5		Battled Youngster Anthony		TRID_TANPAN_08
+0x6F7	TRAINER BATTLE	Route 6		Battled Youngster Jacob		TRID_TANPAN_09
+0x6F8	TRAINER BATTLE	Route 6		Battled Youngster Tyler		TRID_TANPAN_10
+0x6F9	TRAINER BATTLE	Santalune Forest		Battled Lass Anna		TRID_MINI_01
+0x6FA	TRAINER BATTLE	Route 22		Battled Lass Elin		TRID_MINI_02
+0x6FB	TRAINER BATTLE	Route 22		Battled Lass Elsa		TRID_MINI_03
+0x6FC	TRAINER BATTLE	Santalune City	Gym	Battled Lass Charlotte		TRID_MINI_04
+0x6FD	TRAINER BATTLE	Route 3		Battled Schoolboy Brighton		TRID_SBOY_01
+0x6FE	TRAINER BATTLE	Route 22		Battled Schoolboy Rabbie		TRID_SBOY_02
 0x6FF	TRAINER BATTLE					TRID_SBOY_03
-0x700	TRAINER BATTLE					TRID_SGIRL_01
-0x701	TRAINER BATTLE	Route 22		Schoolgirl Mackenzie		TRID_SGIRL_02
+0x700	TRAINER BATTLE	Route 3		Battled Schoolgirl Bridget		TRID_SGIRL_01
+0x701	TRAINER BATTLE	Route 22		Battled Schoolgirl Mackenzie		TRID_SGIRL_02
 0x702	TRAINER BATTLE					TRID_SGIRL_03
-0x703	TRAINER BATTLE	Route 3		Preschooler Oliver		TRID_SCHILDM_01
-0x704	TRAINER BATTLE	Route 4		Preschooler Adrian		TRID_SCHILDM_02
-0x705	TRAINER BATTLE	Route 4		Preschooler Ella		TRID_SCHILDW_01
-0x706	TRAINER BATTLE	Route 4		Preschooler Mia		TRID_SCHILDW_02
-0x707	TRAINER BATTLE	Route 22		Rising Star Loic		TRID_HOPEM_01
-0x708	TRAINER BATTLE	Route 5		Rising Star Hamish		TRID_HOPEM_02
-0x709	TRAINER BATTLE	Route 22		Rising Star Louise		TRID_HOPEW_01
+0x703	TRAINER BATTLE	Route 3		Battled Preschooler Oliver		TRID_SCHILDM_01
+0x704	TRAINER BATTLE	Route 4		Battled Preschooler Adrian		TRID_SCHILDM_02
+0x705	TRAINER BATTLE	Route 3		Battled Preschooler Ella		TRID_SCHILDW_01
+0x706	TRAINER BATTLE	Route 4		Battled Preschooler Mia		TRID_SCHILDW_02
+0x707	TRAINER BATTLE	Route 22		Battled Rising Star Loïc		TRID_HOPEM_01
+0x708	TRAINER BATTLE	Route 5		Battled Rising Star Hamish		TRID_HOPEM_02
+0x709	TRAINER BATTLE	Route 22		Battled Rising Star Louise		TRID_HOPEW_01
 0x70A	TRAINER BATTLE					TRID_HOPEW_02
-0x70B	TRAINER BATTLE	Cyllage City	Gym	Rising Star Manon		TRID_HOPEW_03
-0x70C	TRAINER BATTLE	Cyllage City	Gym	Rising Star Didier		TRID_HOPEM_03
-0x70D	TRAINER BATTLE	Route 22		Ace Trainer Adelbert		TRID_ELITEM_01
-0x70E	TRAINER BATTLE	Route 22		Ace Trainer Hilde		TRID_ELITEW_01
-0x70F	TRAINER BATTLE	Route 4		PokéFan Gabe		TRID_DAISUKIM_01
-0x710	TRAINER BATTLE	Route 4		PokéFan Agnes		TRID_DAISUKIW_01
-0x711	TRAINER BATTLE	Route 6		PokéFan Family Jan & Erin		TRID_WDAISUKI_01
-0x712	TRAINER BATTLE	Route 4		Gardener wheaton		TRID_GARDENER_01
-0x713	TRAINER BATTLE	Route 4		Gradener Fabian		TRID_GARDENER_02
-0x714	TRAINER BATTLE	Route 4		Gradener Grover		TRID_GARDENER_03
+0x70B	TRAINER BATTLE	Cyllage City	Gym	Battled Rising Star Manon		TRID_HOPEW_03
+0x70C	TRAINER BATTLE	Cyllage City	Gym	Battled Rising Star Didier		TRID_HOPEM_03
+0x70D	TRAINER BATTLE	Route 22		Battled Ace Trainer Adelbert		TRID_ELITEM_01
+0x70E	TRAINER BATTLE	Route 22		Battled Ace Trainer Hilde		TRID_ELITEW_01
+0x70F	TRAINER BATTLE	Route 4		Battled Poké Fan Gabe		TRID_DAISUKIM_01
+0x710	TRAINER BATTLE	Route 4		Battled Poké Fan Agnes		TRID_DAISUKIW_01
+0x711	TRAINER BATTLE	Route 6		Battled Poké Fan Family Jan & Erin		TRID_WDAISUKI_01
+0x712	TRAINER BATTLE	Route 4		Battled Gardener Wheaton		TRID_GARDENER_01
+0x713	TRAINER BATTLE	Route 4		Battled Gardener Fabian		TRID_GARDENER_02
+0x714	TRAINER BATTLE	Route 4		Battled Gardener Grover		TRID_GARDENER_03
 0x715	TRAINER BATTLE					TRID_GARDENER_04
 0x716	TRAINER BATTLE					TRID_GARDENER_05
 0x717	TRAINER BATTLE					TRID_GARDENER_06
 0x718	TRAINER BATTLE					TRID_XYLEADER2_01
-0x719	TRAINER BATTLE	Route 6		Tourist Takemi		TRID_TOURISTM_01
-0x71A	TRAINER BATTLE	Route 6		Tourist Mari		TRID_TOURISTW_01
-0x71B	TRAINER BATTLE	Route 6		Tourist Eriko		TRID_TRAVELERW_01
-0x71C	TRAINER BATTLE	Route 6		Tourist Hiroko		TRID_TRAVELERW_02
-0x71D	TRAINER BATTLE	Route 10		Tourist Fumiko		TRID_TRAVELERW_03
-0x71E	TRAINER BATTLE	Route 10		Tourist Tomoko		TRID_TRAVELERW_04
-0x71F	TRAINER BATTLE	Shalour City	Gym	Roller Skater Shun		TRID_ROLLERM_01
-0x720	TRAINER BATTLE	Shalour City	Gym	Roller Skater Rolanda		TRID_ROLLERW_01
-0x721	TRAINER BATTLE	Route 5		Backpacker Heike		TRID_BACKPACKERM_01
-0x722	TRAINER BATTLE	Route 6		Backpacker Jerome		TRID_BACKPACKERM_02
-0x723	TRAINER BATTLE	Route 6		Backpacker Roderick		TRID_BACKPACKERM_03
-0x724	TRAINER BATTLE	Route 5		Twins Faith & Joy		TRID_FUTAGO_01
-0x725	TRAINER BATTLE	Route 6		Beauty Brigitte		TRID_ADULTGIRL_01
-0x726	TRAINER BATTLE	Route 7		Artist Pierre		TRID_ARTISTM_01
-0x727	TRAINER BATTLE	Route 7		Artist Georgia		TRID_ARTISTW_01
-0x728	TRAINER BATTLE	Route 7		Artist Mona & Paolo		TRID_WARTIST_01
+0x719	TRAINER BATTLE	Route 6		Battled Tourist Takemi		TRID_TOURISTM_01
+0x71A	TRAINER BATTLE	Route 6		Battled Tourist Mari		TRID_TOURISTW_01
+0x71B	TRAINER BATTLE	Route 6		Battled Tourist Eriko		TRID_TRAVELERW_01
+0x71C	TRAINER BATTLE	Route 6		Battled Tourist Hiroko		TRID_TRAVELERW_02
+0x71D	TRAINER BATTLE	Route 10		Battled Tourist Fumiko		TRID_TRAVELERW_03
+0x71E	TRAINER BATTLE	Route 10		Battled Tourist Tomoko		TRID_TRAVELERW_04
+0x71F	TRAINER BATTLE	Shalour City	Gym	Battled Roller Skater Shun		TRID_ROLLERM_01
+0x720	TRAINER BATTLE	Shalour City	Gym	Battled Roller Skater Rolanda		TRID_ROLLERW_01
+0x721	TRAINER BATTLE	Route 5		Battled Backpacker Heike		TRID_BACKPACKERM_01
+0x722	TRAINER BATTLE	Route 6		Battled Backpacker Jerome		TRID_BACKPACKERM_02
+0x723	TRAINER BATTLE	Route 6		Battled Backpacker Roderick		TRID_BACKPACKERM_03
+0x724	TRAINER BATTLE	Route 5		Battled Twins Faith & Joy		TRID_FUTAGO_01
+0x725	TRAINER BATTLE	Route 6		Battled Beauty Brigitte		TRID_ADULTGIRL_01
+0x726	TRAINER BATTLE	Route 7		Battled Artist Pierre		TRID_ARTISTM_01
+0x727	TRAINER BATTLE	Route 7		Battled Artist Georgia		TRID_ARTISTW_01
+0x728	TRAINER BATTLE	Route 7		Battled Artist Family Mona & Paolo		TRID_WARTIST_01
 0x729	TRAINER BATTLE					TRID_KIMONO1_01
 0x72A	TRAINER BATTLE					TRID_BREEDERM_01
-0x72B	TRAINER BATTLE	Connecting Cave		Pokemon Breeder Mercy		TRID_BREEDERW_01
-0x72C	TRAINER BATTLE	Route 8		Fisherman Wharton		TRID_FISHING_01
-0x72D	TRAINER BATTLE	Route 8		Fisherman Shad		TRID_FISHING_02
-0x72E	TRAINER BATTLE	Azure Bay		Fisherman Ewan		TRID_FISHING_03
-0x72F	TRAINER BATTLE	Route 8		Swimmer F Genevieve		TRID_SWIMMERW_01
-0x730	TRAINER BATTLE	Route 8		Swimmer F Marissa		TRID_SWIMMERW_02
-0x731	TRAINER BATTLE	Route 8		Swimmer M Ramses		TRID_SWIMMERM_01
-0x732	TRAINER BATTLE	Route 8		Swimmer M Estaban		TRID_SWIMMERM_02
+0x72B	TRAINER BATTLE	Connecting Cave		Battled Pokemon Breeder Mercy		TRID_BREEDERW_01
+0x72C	TRAINER BATTLE	Route 8	(Coast)	Battled Fisherman Wharton		TRID_FISHING_01
+0x72D	TRAINER BATTLE	Route 8	(Coast)	Battled Fisherman Shad		TRID_FISHING_02
+0x72E	TRAINER BATTLE	Azure Bay		Battled Fisherman Ewan		TRID_FISHING_03
+0x72F	TRAINER BATTLE	Route 8	(Coast)	Battled Swimmer ♀ Genevieve		TRID_SWIMMERW_01
+0x730	TRAINER BATTLE	Route 8	(Coast)	Battled Swimmer ♀ Marissa		TRID_SWIMMERW_02
+0x731	TRAINER BATTLE	Route 8	(Coast)	Battled Swimmer ♂ Ramses		TRID_SWIMMERM_01
+0x732	TRAINER BATTLE	Route 8	(Coast)	Battled Swimmer ♂ Estaban		TRID_SWIMMERM_02
 0x733	TRAINER BATTLE					TRID_WSWIMMER_01
-0x734	TRAINER BATTLE					TRID_KARATE_01
-0x735	TRAINER BATTLE	Cyllage City	Gym	Hiker Bernard		TRID_BIGMAN_01
-0x736	TRAINER BATTLE	Cyllage City	Gym	Hiker Craig		TRID_BIGMAN_02
+0x734	TRAINER BATTLE	Route 8	(Cliffside)	Battled Black Belt Cadoc		TRID_KARATE_01
+0x735	TRAINER BATTLE	Cyllage City	Gym	Battled Hiker Bernard		TRID_BIGMAN_01
+0x736	TRAINER BATTLE	Cyllage City	Gym	Battled Hiker Craig		TRID_BIGMAN_02
 0x737	TRAINER BATTLE					TRID_FLAREM_01
 0x738	TRAINER BATTLE					TRID_FLAREM_02
 0x739	TRAINER BATTLE					TRID_FLAREM_03
-0x73A	TRAINER BATTLE	Glittering Cave		Team Flare Grunt F		TRID_FLAREW_01
+0x73A	TRAINER BATTLE	Glittering Cave		Battled Team Flare Grunt		TRID_FLAREW_01
 0x73B	TRAINER BATTLE					TRID_FLAREW_02
-0x73C	TRAINER BATTLE	Route 10		Team Flare Grunt F		TRID_FLAREW_03
-0x73D	TRAINER BATTLE	Route 10		Psychic Sayid		TRID_ESPERM_01
-0x73E	TRAINER BATTLE	Route 11		Brains & Brawn Frank & Sly		TRID_WFIGHTER_01
-0x73F	TRAINER BATTLE	Route 11		Psychic Emanuel		TRID_ESPERM_02
-0x740	TRAINER BATTLE	Route 11		Battle Girl Gerardine		TRID_BATTLEG_01
-0x741	TRAINER BATTLE	Route 8		Sky Trainer Colm		TRID_SKYM_02
-0x742	TRAINER BATTLE	Route 9		Sky Trainer Orion		TRID_SKYM_03
-0x743	TRAINER BATTLE					TRID_SKYW_01
-0x744	TRAINER BATTLE	Route 11		Sky Trainer Yvette		TRID_SKYW_02
-0x745	TRAINER BATTLE	Coumarine City	Gym	Pokémon Ranger Brooke		TRID_RANGERW_01
-0x746	TRAINER BATTLE	Coumarine City	Gym	Pokémon Ranger Twiggy		TRID_RANGERW_02
-0x747	TRAINER BATTLE	Coumarine City	Gym	Pokémon Ranger Chaise		TRID_RANGERM_01
-0x748	TRAINER BATTLE	Coumarine City	Gym	Pokémon Ranger Maurice		TRID_RANGERM_02
+0x73C	TRAINER BATTLE	Route 10		Battled Team Flare Grunt		TRID_FLAREW_03
+0x73D	TRAINER BATTLE	Route 10		Battled Psychic Sayid		TRID_ESPERM_01
+0x73E	TRAINER BATTLE	Route 11		Battled Brains & Brawn Frank & Sly		TRID_WFIGHTER_01
+0x73F	TRAINER BATTLE	Route 11		Battled Psychic Emanuel		TRID_ESPERM_02
+0x740	TRAINER BATTLE	Route 11		Battled Battle Girl Gerardine		TRID_BATTLEG_01
+0x741	TRAINER BATTLE	Route 8	(Coast)	Battled Sky Trainer Colm		TRID_SKYM_02
+0x742	TRAINER BATTLE	Route 9		Battled Sky Trainer Orion		TRID_SKYM_03
+0x743	TRAINER BATTLE	Route 8	(Coast)	Battled Sky Trainer Aveza		TRID_SKYW_01
+0x744	TRAINER BATTLE	Route 11		Battled Sky Trainer Yvette		TRID_SKYW_02
+0x745	TRAINER BATTLE	Coumarine City	Gym	Battled Pokémon Ranger Brooke		TRID_RANGERW_01
+0x746	TRAINER BATTLE	Coumarine City	Gym	Battled Pokémon Ranger Twiggy		TRID_RANGERW_02
+0x747	TRAINER BATTLE	Coumarine City	Gym	Battled Pokémon Ranger Chaise		TRID_RANGERM_01
+0x748	TRAINER BATTLE	Coumarine City	Gym	Battled Pokémon Ranger Maurice		TRID_RANGERM_02
 0x749	TRAINER BATTLE					TRID_OCCULTW_01
 0x74A	TRAINER BATTLE					TRID_FAIRYTALE_01
 0x74B	TRAINER BATTLE					TRID_FAIRYTALE_02
 0x74C	TRAINER BATTLE					TRID_OCCULTW_02
-0x74D	TRAINER BATTLE	Route 10		Team Flare Grunt F		TRID_FLAREW_04
+0x74D	TRAINER BATTLE	Route 10		Battled Team Flare Grunt		TRID_FLAREW_04
 0x74E	TRAINER BATTLE					TRID_RIVALM_01
 0x74F	TRAINER BATTLE					TRID_RIVALM_02
 0x750	TRAINER BATTLE					TRID_RIVALM_03
@@ -1879,20 +1879,20 @@
 0x755	TRAINER BATTLE					TRID_FRIEND1_01
 0x756	TRAINER BATTLE					TRID_FRIEND1_02
 0x757	TRAINER BATTLE					TRID_FRIEND1_03
-0x758	TRAINER BATTLE	Reflection Cave	B1F	Honeymooners Yuu & Ami		TRID_WLOVE_01
-0x759	TRAINER BATTLE	Reflection Cave	B1F	Tourist Haruto		TRID_TOURISTM_02
-0x75A	TRAINER BATTLE	Reflection Cave	B1F	Tourist Monami		TRID_TOURISTW_02
-0x75B	TRAINER BATTLE	Reflection Cave	B1F	Psychic Franz		TRID_ESPERM_03
-0x75C	TRAINER BATTLE	Reflection Cave	1F	Backpacker Lane		TRID_BACKPACKERM_04
-0x75D	TRAINER BATTLE	Reflection Cave	1F	Hiker Dunstan		TRID_BIGMAN_03
-0x75E	TRAINER BATTLE	Shalour City	Gym	Roller Skater Kate		TRID_ROLLERW_02
-0x75F	TRAINER BATTLE	Shalour City	Gym	Roller Skater Dash		TRID_ROLLERM_02
-0x760	TRAINER BATTLE	Route 12		Backpacker Joren		TRID_BACKPACKERM_05
-0x761	TRAINER BATTLE	Route 12		Fisherman Murray		TRID_FISHING_04
-0x762	TRAINER BATTLE	Route 12		Pokémon Breeder Foster		TRID_BREEDERM_02
-0x763	TRAINER BATTLE	Route 12		Pokémon Breeder Amala		TRID_BREEDERW_02
-0x764	TRAINER BATTLE	Route 12		Swimmer M Alessandro		TRID_SWIMMERM_03
-0x765	TRAINER BATTLE	Reflection Cave	1F	Ace Trainer Monique		TRID_ELITEW_02
+0x758	TRAINER BATTLE	Reflection Cave	B1F	Battled Honeymooners Yuu & Ami		TRID_WLOVE_01
+0x759	TRAINER BATTLE	Reflection Cave	B1F	Battled Tourist Haruto		TRID_TOURISTM_02
+0x75A	TRAINER BATTLE	Reflection Cave	B1F	Battled Tourist Monami		TRID_TOURISTW_02
+0x75B	TRAINER BATTLE	Reflection Cave	B1F	Battled Psychic Franz		TRID_ESPERM_03
+0x75C	TRAINER BATTLE	Reflection Cave	1F	Battled Backpacker Lane		TRID_BACKPACKERM_04
+0x75D	TRAINER BATTLE	Reflection Cave	1F	Battled Hiker Dunstan		TRID_BIGMAN_03
+0x75E	TRAINER BATTLE	Shalour City	Gym	Battled Roller Skater Kate		TRID_ROLLERW_02
+0x75F	TRAINER BATTLE	Shalour City	Gym	Battled Roller Skater Dash		TRID_ROLLERM_02
+0x760	TRAINER BATTLE	Route 12		Battled Backpacker Joren		TRID_BACKPACKERM_05
+0x761	TRAINER BATTLE	Route 12		Battled Fisherman Murray		TRID_FISHING_04
+0x762	TRAINER BATTLE	Route 12		Battled Pokémon Breeder Foster		TRID_BREEDERM_02
+0x763	TRAINER BATTLE	Route 12		Battled Pokémon Breeder Amala		TRID_BREEDERW_02
+0x764	TRAINER BATTLE	Route 12		Battled Swimmer ♂ Alessandro		TRID_SWIMMERM_03
+0x765	TRAINER BATTLE	Reflection Cave	1F	Battled Ace Trainer Monique		TRID_ELITEW_02
 0x766	TRAINER BATTLE					TRID_ELITEW_03
 0x767	TRAINER BATTLE					TRID_ELITEW_04
 0x768	TRAINER BATTLE	Route 14		Fairy Tale Girl Imogen		TRID_FAIRYTALE_03
@@ -1901,10 +1901,10 @@
 0x76B	TRAINER BATTLE					TRID_RANGERW_04
 0x76C	TRAINER BATTLE	Route 14		Pokémon Ranger Reed		TRID_RANGERM_03
 0x76D	TRAINER BATTLE	Route 14		Pokémon Ranger Nash		TRID_RANGERM_04
-0x76E	TRAINER BATTLE	Reflection Cave	1F	Battle Girl Hedvig		TRID_BATTLEG_03
-0x76F	TRAINER BATTLE	Reflection Cave	B1F	Black Belt Igor		TRID_KARATE_02
-0x770	TRAINER BATTLE	Route 5		Roller Skater Winnie		TRID_ROLLERW_03
-0x771	TRAINER BATTLE	Route 5		Roller Skater Florin		TRID_ROLLERM_03
+0x76E	TRAINER BATTLE	Reflection Cave	1F	Battled Battle Girl Hedvig		TRID_BATTLEG_03
+0x76F	TRAINER BATTLE	Reflection Cave	B1F	Battled Black Belt Igor		TRID_KARATE_02
+0x770	TRAINER BATTLE	Route 5		Battled Roller Skater Winnie		TRID_ROLLERW_03
+0x771	TRAINER BATTLE	Route 5		Battled Roller Skater Florin		TRID_ROLLERM_03
 0x772	TRAINER BATTLE					TRID_ROLLERW_04
 0x773	TRAINER BATTLE					TRID_ESPERM_04
 0x774	TRAINER BATTLE	Snowbelle City	Gym	Ace Trainer Shannon		TRID_ELITEW_06
@@ -2122,7 +2122,7 @@
 0x848	TRAINER BATTLE	Route 16		Sky Trainer Gavin		TRID_SKYM_04
 0x849	TRAINER BATTLE	Frost Cavern	Outside	Sky Trainer Celso		TRID_SKYM_05
 0x84A	TRAINER BATTLE	Route 18		Sky Trainer Jeremy		TRID_SKYM_06
-0x84B	TRAINER BATTLE	Azure Bay		Sky Trainer Indra		TRID_SKYM_07
+0x84B	TRAINER BATTLE	Azure Bay		Battled Sky Trainer Indra		TRID_SKYM_07
 0x84C	TRAINER BATTLE	Route 16		Sky Trainer Clara		TRID_SKYW_03
 0x84D	TRAINER BATTLE	Frost Cavern	Outside	Sky Trainer Era		TRID_SKYW_04
 0x84E	TRAINER BATTLE	Route 17		Sky Trainer Anila		TRID_SKYW_05
@@ -2198,17 +2198,17 @@
 0x894	TRAINER BATTLE					TRID_GARSON_01
 0x895	TRAINER BATTLE					TRID_GARSON_02
 0x896	TRAINER BATTLE					TRID_COCK_01
-0x897	TRAINER BATTLE	Route 4		Roller Skater Roland		TRID_ROLLERM_05
-0x898	TRAINER BATTLE	Route 4		Roller Skater Calida		TRID_ROLLERW_06
-0x899	TRAINER BATTLE					TRID_SBOY_04
-0x89A	TRAINER BATTLE					TRID_SBOY_05
-0x89B	TRAINER BATTLE	Lumiose City	Gym	Schoolboy Finian		TRID_SBOY_06
-0x89C	TRAINER BATTLE	Lumiose City	Gym	Rising Star Helene		TRID_HOPEW_04
-0x89D	TRAINER BATTLE					TRID_HOPEW_05
-0x89E	TRAINER BATTLE					TRID_HOPEW_06
-0x89F	TRAINER BATTLE					TRID_DAISUKIW_02
-0x8A0	TRAINER BATTLE	Lumiose City	Gym	Poké Fan Lydie		TRID_DAISUKIW_03
-0x8A1	TRAINER BATTLE					TRID_DAISUKIW_04
+0x897	TRAINER BATTLE	Route 4		Battled Roller Skater Roland		TRID_ROLLERM_05
+0x898	TRAINER BATTLE	Route 4		Battled Roller Skater Calida		TRID_ROLLERW_06
+0x899	TRAINER BATTLE	Lumiose City	Gym 2F	Schoolboy Arno		TRID_SBOY_04
+0x89A	TRAINER BATTLE	Lumiose City	Gym 2F	Schoolboy Sherlock		TRID_SBOY_05
+0x89B	TRAINER BATTLE	Lumiose City	Gym 2F	Schoolboy Finnian		TRID_SBOY_06
+0x89C	TRAINER BATTLE	Lumiose City	Gym 3F	Rising Star Estel		TRID_HOPEW_04
+0x89D	TRAINER BATTLE	Lumiose City	Gym 3F	Rising Star Nelly		TRID_HOPEW_05
+0x89E	TRAINER BATTLE	Lumiose City	Gym 3F	Rising Star Helene		TRID_HOPEW_06
+0x89F	TRAINER BATTLE	Lumiose City	Gym 5F	Poké Fan Abigail		TRID_DAISUKIW_02
+0x8A0	TRAINER BATTLE	Lumiose City	Gym 5F	Poké Fan Lydie		TRID_DAISUKIW_03
+0x8A1	TRAINER BATTLE	Lumiose City	Gym 5F	Poké Fan Tara		TRID_DAISUKIW_04
 0x8A2	TRAINER BATTLE					TRID_FLAREKANBU1_02
 0x8A3	TRAINER BATTLE					TRID_FLAREKANBU1_03
 0x8A4	TRAINER BATTLE					TRID_FLAREKANBU1_04
@@ -2219,11 +2219,11 @@
 0x8A9	TRAINER BATTLE					TRID_FLAREKANBU2_05
 0x8AA	TRAINER BATTLE					TRID_FLAREKANBU2_06
 0x8AB	TRAINER BATTLE					TRID_FLAREKANBU1_06
-0x8AC	TRAINER BATTLE	Route 8		Rising Star Rhys		TRID_HOPEM_04
-0x8AD	TRAINER BATTLE	Route 8		Rising Star Paulette		TRID_HOPEW_07
-0x8AE	TRAINER BATTLE	Azure Bay		Swimmer M Kieran		TRID_SWIMMERM_04
-0x8AF	TRAINER BATTLE	Azure Bay		Swimmer F Romy		TRID_SWIMMERW_04
-0x8B0	TRAINER BATTLE	Route 10		Psychic Robert		TRID_ESPERM_12
+0x8AC	TRAINER BATTLE	Route 8	(Cliffside)	Battled Rising Star Rhys		TRID_HOPEM_04
+0x8AD	TRAINER BATTLE	Route 8	(Cliffside)	Battled Rising Star Paulette		TRID_HOPEW_07
+0x8AE	TRAINER BATTLE	Azure Bay		Battled Swimmer ♂ Kieran		TRID_SWIMMERM_04
+0x8AF	TRAINER BATTLE	Azure Bay		Battled Swimmer ♀ Romy		TRID_SWIMMERW_04
+0x8B0	TRAINER BATTLE	Route 10		Battled Psychic Robert		TRID_ESPERM_12
 0x8B1	TRAINER BATTLE					TRID_HEADS_04
 0x8B2	TRAINER BATTLE					TRID_HEADS_05
 0x8B3	TRAINER BATTLE					TRID_HEADS_06
@@ -2261,9 +2261,9 @@
 0x8D3	TRAINER BATTLE					TRID_RIVALM5
 0x8D4	TRAINER BATTLE					TRID_RIVALM6
 0x8D5	TRAINER BATTLE					TRID_RIVALM7
-0x8D6	TRAINER BATTLE	Azure Bay		Sky Trainer Elata		TRID_SKYW_07
+0x8D6	TRAINER BATTLE	Azure Bay		Battled Sky Trainer Elata		TRID_SKYW_07
 0x8D7	TRAINER BATTLE					TRID_SWIMMERM_05
-0x8D8	TRAINER BATTLE	Azure Bay		Swimmer F Isla		TRID_SWIMMERW_06
+0x8D8	TRAINER BATTLE	Azure Bay		Battled Swimmer ♀ Isla		TRID_SWIMMERW_06
 0x8D9	TRAINER BATTLE					TRID_FLAREBOSS_02
 0x8DA	TRAINER BATTLE					TRID_FLAREBOSS_03
 0x8DB	TRAINER BATTLE	Victory Road	Inside 1	Ace Trainer Alanza		TRID_ELITEW_12
@@ -2342,7 +2342,7 @@
 0x924	TRAINER BATTLE					TRID_RIVALW6
 0x925	TRAINER BATTLE					TRID_RIVALW7
 0x926	TRAINER BATTLE					TRID_AZ_01
-0x927	TRAINER BATTLE	Route 5		Rising Star Tyson		TRID_HOPEM_05
+0x927	TRAINER BATTLE	Route 5		Battled Rising Star Tyson		TRID_HOPEM_05
 0x928	TRAINER BATTLE					TRID_RIVALM8
 0x929	TRAINER BATTLE					TRID_RIVALM9
 0x92A	TRAINER BATTLE					TRID_RIVALM_30
@@ -2641,10 +2641,10 @@
 0xA4F	_UNUSED					TR_FLAG_899
 0xA50	EVENT			Entered Hall of Fame/Zygarde Chamber Accessible		SYS_FLAG_GAME_CLEAR
 0xA51	_UNUSED					
-0xA52	EVENT			Pokédex Obtained		SYS_FLAG_ZUKAN_GET
+0xA52	STORY EVENT	Aquacorde Town		Can access PokéDex		SYS_FLAG_ZUKAN_GET
 0xA53	_UNUSED					
-0xA54	EVENT			strength active (can move rocks)		SYS_FLAG_KAIRIKI
-0xA55	EVENT			Roller Skates Enabled		SYS_FLAG_ROLLERSKATES
+0xA54	EVENT			Strength effect active (can move rocks)		SYS_FLAG_KAIRIKI
+0xA55	STORY EVENT	Santalune City		Can use Roller Skates		SYS_FLAG_ROLLERSKATES
 0xA56	_UNUSED					
 0xA57	_UNUSED					
 0xA58	_UNUSED					
@@ -2653,19 +2653,19 @@
 0xA5B						SYS_FLAG_ZUKAN_KAI_COMP
 0xA5C						SYS_FLAG_ZUKAN_SAN_COMP
 0xA5D						SYS_FLAG_ZUKAN_ALL_COMP
-0xA5E						SYS_FLAG_MARUIOMAMORI
-0xA5F						SYS_FLAG_HIKARUOMAMORI
+0xA5E	EVENT			Oval Charm effect is active		SYS_FLAG_MARUIOMAMORI
+0xA5F	EVENT			Shiny Charm effect is active		SYS_FLAG_HIKARUOMAMORI
 0xA60						SYS_FLAG_ZUKAN_HEI_CAP_COMP
 0xA61						SYS_FLAG_ZUKAN_KAI_CAP_COMP
 0xA62						SYS_FLAG_ZUKAN_SAN_CAP_COMP
-0xA63						SYS_FLAG_CONTACT_BROWN
-0xA64						SYS_FLAG_CONTACT_HAZEL
-0xA65						SYS_FLAG_CONTACT_GRAY
-0xA66						SYS_FLAG_CONTACT_GREEN
-0xA67						SYS_FLAG_CONTACT_BLUE
-0xA68						SYS_FLAG_PV_OPEN
+0xA63	EVENT			Can put the brown contact lens		SYS_FLAG_CONTACT_BROWN
+0xA64	EVENT			Can put the hazel contact lens		SYS_FLAG_CONTACT_HAZEL
+0xA65	EVENT			Can put the gray contact lens		SYS_FLAG_CONTACT_GRAY
+0xA66	EVENT			Can put the green contact lens		SYS_FLAG_CONTACT_GREEN
+0xA67	EVENT			Can put the blue contact lens		SYS_FLAG_CONTACT_BLUE
+0xA68	SIDE EVENT	Lumiose City (South Boulevard)	PR Video Studio	Trainer PR Videos can be created		SYS_FLAG_PV_OPEN
 0xA69						SYS_FLAG_PHOTO_OPEN
-0xA6A	SIDE EVENT			Unlocked Cassius's PC		SYS_FLAG_PCNAME_OPEN
+0xA6A	SIDE EVENT	Camphrier Town	House	Met Cassius, the PC Storage maintainer in Kalos (unlocked Cassius's PC name)		SYS_FLAG_PCNAME_OPEN
 0xA6B						SYS_FLAG_RIVAL_MEGARING_GET
 0xA6C						SYS_FLAG_BADGE_GATE_OPEN
 0xA6D						SYS_FLAG_BIGFOUR_ALLCLEAR
@@ -2677,15 +2677,15 @@
 0xA73	SIDE EVENT			Useable Roller Stake Trick: cosmic flip		SYS_FLAG_BIO540
 0xA74						SYS_FLAG_BIRTHDAY
 0xA75						SYS_FLAG_BD_POKECEN_FIRST
-0xA76						SYS_FLAG_AWARD_COMP_01
-0xA77						SYS_FLAG_AWARD_COMP_02
-0xA78						SYS_FLAG_AWARD_COMP_03
-0xA79						SYS_FLAG_AWARD_COMP_04
-0xA7A						SYS_FLAG_C05R0302_AWARD_01
-0xA7B						SYS_FLAG_C05R0302_AWARD_02
-0xA7C						SYS_FLAG_C05R0302_AWARD_03
-0xA7D						SYS_FLAG_C05R0302_AWARD_04
-0xA7E						SYS_FLAG_C05R0302_AWARD_05
+0xA76	ITEM GIFT	Coumarine City	(Seaside) Hotel Room	Received Diploma for completing Central Kalos Pokédex (native) from Game Director		SYS_FLAG_AWARD_COMP_01
+0xA77	ITEM GIFT	Coumarine City	(Seaside) Hotel Room	Received Diploma for completing Coastal Kalos Pokédex (native) from Game Director		SYS_FLAG_AWARD_COMP_02
+0xA78	ITEM GIFT	Coumarine City	(Seaside) Hotel Room	Received Diploma for completing Mountain Kalos Pokédex (native) from Game Director		SYS_FLAG_AWARD_COMP_03
+0xA79	ITEM GIFT	Coumarine City	(Seaside) Hotel Room	Received Diploma for completing all Kalos Pokédexes (native) from Game Director		SYS_FLAG_AWARD_COMP_04
+0xA7A	ITEM GIFT	Coumarine City	(Seaside) Hotel Room	Received Diploma for completing Central Kalos Pokédex from Game Director		SYS_FLAG_C05R0302_AWARD_01
+0xA7B	ITEM GIFT	Coumarine City	(Seaside) Hotel Room	Received Diploma for completing Coastal Kalos Pokédex from Game Director		SYS_FLAG_C05R0302_AWARD_02
+0xA7C	ITEM GIFT	Coumarine City	(Seaside) Hotel Room	Received Diploma for completing Mountain Kalos Pokédex from Game Director		SYS_FLAG_C05R0302_AWARD_03
+0xA7D	ITEM GIFT	Coumarine City	(Seaside) Hotel Room	Received Diploma for completing all Kalos Pokédexes from Game Director		SYS_FLAG_C05R0302_AWARD_04
+0xA7E	ITEM GIFT	Coumarine City	(Seaside) Hotel Room	Received Diploma for completing National Pokédex from Game Director		SYS_FLAG_C05R0302_AWARD_05
 0xA7F	EVENT	Lumiose City	Gym	Unset after defeating Ace Trainer Rico		SYS_FLAG_C02GYM_BGM_CHANGE
 0xA80						SYS_FLAG_WEATHER_CTR_01
 0xA81						SYS_FLAG_WEATHER_CTR_02
@@ -2698,10 +2698,10 @@
 0xA88						SYS_FLAG_WEATHER_CTR_09
 0xA89						SYS_FLAG_WEATHER_CTR_10
 0xA8A						SYS_FLAG_C02R0601_HQEP06_BGM
-0xA8B						SYS_FLAG_ENC_TUTORIAL
+0xA8B	STATIC ENCOUNTER	Route 2		Defeated/Captured Pidgey		SYS_FLAG_ENC_TUTORIAL
 0xA8C						SYS_FLAG_C02_BUS_BGM
 0xA8D						SYS_FLAG_C02_HQEP04_BGM
-0xA8E						SYS_FLAG_IE_PARENT_01
+0xA8E	EVENT					SYS_FLAG_IE_PARENT_01
 0xA8F						SYS_FLAG_IE_PARENT_02
 0xA90						SYS_FLAG_IE_PARENT_03
 0xA91						SYS_FLAG_IE_PARENT_04
@@ -2717,35 +2717,35 @@
 0xA9B						SYS_FLAG_IE_AI_STOP_06
 0xA9C						SYS_FLAG_IE_AI_STOP_07
 0xA9D						SYS_FLAG_IE_AI_STOP_08
-0xA9E						SYS_FLAG_C02R0103_BGM
+0xA9E	EVENT	Luminose City (South Boulevard)	Sycamore's Lab 3F	Change BGM to Prof. Sycamore's theme		SYS_FLAG_C02R0103_BGM
 0xA9F						SYS_FLAG_C02R0601_BGM
-0xAA0	FLY SPOT			Can Fly to Vaniville Town		SYS_FLAG_ARRIVE_T01
-0xAA1	FLY SPOT			Can Fly to Aquacorde Town		SYS_FLAG_ARRIVE_T02
-0xAA2	FLY SPOT			Can Fly to Santalune City		SYS_FLAG_ARRIVE_C01
+0xAA0	FLY SPOT	Vaniville Town		Can Fly to Vaniville Town		SYS_FLAG_ARRIVE_T01
+0xAA1	FLY SPOT	Aquacorde Town		Can Fly to Aquacorde Town		SYS_FLAG_ARRIVE_T02
+0xAA2	FLY SPOT	Santalune City		Can Fly to Santalune City		SYS_FLAG_ARRIVE_C01
 0xAA3	_UNUSED					
-0xAA4	FLY SPOT			Can Fly to Cyllage City		SYS_FLAG_ARRIVE_C03
-0xAA5	FLY SPOT			Can Fly to Shalour City		SYS_FLAG_ARRIVE_C04
-0xAA6	FLY SPOT			Can Fly to Coumarine City		SYS_FLAG_ARRIVE_C05
-0xAA7	FLY SPOT			Can Fly to Laverre City		SYS_FLAG_ARRIVE_C06
-0xAA8	FLY SPOT			Can Fly to Anistar City		SYS_FLAG_ARRIVE_C07
-0xAA9	FLY SPOT			Can Fly to Snowbelle City		SYS_FLAG_ARRIVE_C08
-0xAAA	FLY SPOT			Can Fly to Camphrier Town		SYS_FLAG_ARRIVE_T03
-0xAAB	FLY SPOT			Can Fly to Geosenge Town		SYS_FLAG_ARRIVE_T04
-0xAAC	FLY SPOT			Can Fly to Dendemille Town		SYS_FLAG_ARRIVE_T05
-0xAAD	FLY SPOT			Can Fly to Couriway Town		SYS_FLAG_ARRIVE_T06
-0xAAE	FLY SPOT			Can Fly to Ambrette Town		SYS_FLAG_ARRIVE_T09
-0xAAF	FLY SPOT			Can Fly to Pokémon League		SYS_FLAG_ARRIVE_PL
-0xAB0	FLY SPOT			Can Fly to Kiloude City		SYS_FLAG_ARRIVE_C09
-0xAB1	FLY SPOT			Can Fly to Lumiose City (South Boulevard)		SYS_FLAG_ARRIVE_C02P0101
-0xAB2	FLY SPOT			Can Fly to Lumiose City (North Boulevard)		SYS_FLAG_ARRIVE_C02P0201
-0xAB3	FLY SPOT			Can Fly to Lumiose City (Center)		SYS_FLAG_ARRIVE_C02P0301
+0xAA4	FLY SPOT	Cyllage City		Can Fly to Cyllage City		SYS_FLAG_ARRIVE_C03
+0xAA5	FLY SPOT	Shalour City		Can Fly to Shalour City		SYS_FLAG_ARRIVE_C04
+0xAA6	FLY SPOT	Coumarine City		Can Fly to Coumarine City		SYS_FLAG_ARRIVE_C05
+0xAA7	FLY SPOT	Laverre City		Can Fly to Laverre City		SYS_FLAG_ARRIVE_C06
+0xAA8	FLY SPOT	Anistar City		Can Fly to Anistar City		SYS_FLAG_ARRIVE_C07
+0xAA9	FLY SPOT	Snowbelle City		Can Fly to Snowbelle City		SYS_FLAG_ARRIVE_C08
+0xAAA	FLY SPOT	Camphrier Town		Can Fly to Camphrier Town		SYS_FLAG_ARRIVE_T03
+0xAAB	FLY SPOT	Geosenge Town		Can Fly to Geosenge Town		SYS_FLAG_ARRIVE_T04
+0xAAC	FLY SPOT	Dendemille Town		Can Fly to Dendemille Town		SYS_FLAG_ARRIVE_T05
+0xAAD	FLY SPOT	Couriway Town		Can Fly to Couriway Town		SYS_FLAG_ARRIVE_T06
+0xAAE	FLY SPOT	Ambrette Town		Can Fly to Ambrette Town		SYS_FLAG_ARRIVE_T09
+0xAAF	FLY SPOT	Pokémon League		Can Fly to Pokémon League		SYS_FLAG_ARRIVE_PL
+0xAB0	FLY SPOT	Kiloude City		Can Fly to Kiloude City		SYS_FLAG_ARRIVE_C09
+0xAB1	FLY SPOT	Lumiose City (South Boulevard)		Can Fly to Lumiose City (South Boulevard)		SYS_FLAG_ARRIVE_C02P0101
+0xAB2	FLY SPOT	Lumiose City (North Boulevard)		Can Fly to Lumiose City (North Boulevard)		SYS_FLAG_ARRIVE_C02P0201
+0xAB3	FLY SPOT	Lumiose City (Center)		Can Fly to Lumiose City (Center)		SYS_FLAG_ARRIVE_C02P0301
 0xAB4						SYS_FLAG_C02R2301_HQEP01_BGM
 0xAB5						SYS_FLAG_C02R2301_HQEP03_BGM
 0xAB6						SYS_FLAG_C02R0611_HQEP05_BGM
 0xAB7						SYS_FLAG_R07R0101_BGM
 0xAB8						SYS_FLAG_R14_BGM
-0xAB9						SYS_FLAG_PAJAMAS
-0xABA						SYS_FLAG_R01_BGM
+0xAB9	EVENT	Vaniville Town	Player's House	Has changed out from the pajamas		SYS_FLAG_PAJAMAS
+0xABA	EVENT	Route 1		Plays BGM without the intro		SYS_FLAG_R01_BGM
 0xABB						SYS_FLAG_LEAPER_BIRTHDAY
 0xABC						SYS_FLAG_T04_BGM
 0xABD	_UNUSED					
@@ -2959,60 +2959,60 @@
 0xB8D	_UNUSED					
 0xB8E	_UNUSED					
 0xB8F	_UNUSED					
-0xB90	ITEM GIFT					TMFLG_T03R0401_ITEMGET_01
+0xB90	ITEM GIFT	Camphrier Town	House	[Daily] Received Sweet Heart from maid		TMFLG_T03R0401_ITEMGET_01
 0xB91	_UNUSED					
-0xB92						TMFLG_HOTEL_GUEST_01
-0xB93						TMFLG_HOTEL_GUEST_02
-0xB94						TMFLG_HOTEL_GUEST_03
-0xB95						TMFLG_HOTEL_GUEST_04
-0xB96						TMFLG_HOTEL_GUEST_05
-0xB97						TMFLG_HOTEL_GUEST_06
-0xB98						TMFLG_HOTEL_RIBBON_DONE
-0xB99						TMFLG_HOTEL_RIBBON_COMP
+0xB92	SIDE EVENT	Kalos Hotels	Room	[Daily] Talked to Hiker		TMFLG_HOTEL_GUEST_01
+0xB93	SIDE EVENT	Kalos Hotels	Room	[Daily] Talked to Waiter		TMFLG_HOTEL_GUEST_02
+0xB94	SIDE EVENT	Kalos Hotels	Room	[Daily] Talked to Madame		TMFLG_HOTEL_GUEST_03
+0xB95	SIDE EVENT	Kalos Hotels	Room	[Daily] Talked to Maid		TMFLG_HOTEL_GUEST_04
+0xB96	SIDE EVENT	Kalos Hotels	Room	[Daily] Talked to Tourist		TMFLG_HOTEL_GUEST_05
+0xB97	SIDE EVENT	Kalos Hotels	Room	[Daily] Talked to Backpacker		TMFLG_HOTEL_GUEST_06
+0xB98	SIDE EVENT	Kalos Hotels	Room	[Daily] Received daily ribbon		TMFLG_HOTEL_RIBBON_DONE
+0xB99				[unused?]		TMFLG_HOTEL_RIBBON_COMP
 0xB9A						TMFLG_T06_OISIIMIZU_01
 0xB9B						TMFLG_T05R0301_WAZA_CHOICE
 0xB9C						TMFLG_T05R0301_WAZA_GET
-0xB9D						TMFLG_CAFE_HEIGEN
+0xB9D	EVENT	Cyllage City	Café	[Daily] Visited the Café for new Pokédex entries		TMFLG_CAFE_HEIGEN
 0xB9E						TMFLG_CAFE_KAIGAN
 0xB9F						TMFLG_CAFE_SANGAKU
 0xBA0						TMFLG_ID_KUJI
-0xBA1						TMFLG_C03R0501_MASSAGE_01
+0xBA1	SIDE EVENT	Cyllage City	House	[Daily] Lead Pokémon received massage		TMFLG_C03R0501_MASSAGE_01
 0xBA2						TMFLG_SAKASA_BATTLE
 0xBA3						TMFLG_JUICE_FRESH
 0xBA4						TMFLG_JUICE_VINTAGE
-0xBA5						TMFLG_T09_ITEMCHANGE_01
-0xBA6						TMFLG_C02R0102_POKETORE_01
+0xBA5	ITEM GIFT	Ambrette Town		[Daily] Exchanged a Poké Ball for a Dive Ball with the punk guy		TMFLG_T09_ITEMCHANGE_01
+0xBA6	ITEM GIFT	Lumiose City (South Boulevard)	Sycamore's Lab 2F	[Daily] Received Rare Candy from male scientist for a chain length of at least 31 Pokémon with the Poké Radar		TMFLG_C02R0102_POKETORE_01
 0xBA7						TMFLG_C09_HERO_BTL_01
 0xBA8	SIDE EVENT			Finished Room Service Task (Today)		TMFLG_HOTEL_ROOMSERVICE
 0xBA9	SIDE EVENT			Finished Making Beds Task (Today)		TMFLG_HOTEL_BEDMAKE
 0xBAA	SIDE EVENT			Finished Lost and Found Task (Today)		TMFLG_HOTEL_CONCIERGE
 0xBAB						TMFLG_C02R2301_C02GIRL_EX_BTL
-0xBAC	ITEM GIFT					TMFLG_T09R0301_ITEMGET_01
-0xBAD						TMFLG_T09R0301_AGI_CHOICE_01
+0xBAC	ITEM GIFT	Ambrette Town	House	[Daily] Received Health Wing from woman for showing a Pokémon with a Speed stat equals or higher than requested		TMFLG_T09R0301_ITEMGET_01
+0xBAD	EVENT	Ambrette Town	House	[Daily] Girl has requested to see a Pokémon with a Speed stat equals or higher than specified		TMFLG_T09R0301_AGI_CHOICE_01
 0xBAE	ITEM GIFT					TMFLG_C06_ITEMGET_01
 0xBAF	ITEM GIFT					TMFLG_C06_ITEMGET_02
 0xBB0						TMFLG_C08R0501_TIP_01
-0xBB1						TMFLG_C05R0701_TIP_01
-0xBB2						TMFLG_C05_KINOMIRND_01
-0xBB3						TMFLG_C05_KINOMIGET_01
-0xBB4						TMFLG_C05R0701_TIPPAY_01
+0xBB1	EVENT	Coumarine City	(Hillcrest) House	[Daily] Listened to music		TMFLG_C05R0701_TIP_01
+0xBB2	EVENT	Coumarine City	(Seaside)	[Daily] Random berry was determined		TMFLG_C05_KINOMIRND_01
+0xBB3	ITEM GIFT	Coumarine City	(Seaside)	[Daily] Picked the random berry from the empty stand		TMFLG_C05_KINOMIGET_01
+0xBB4	EVENT	Coumarine City	(Hillcrest) House	[Daily] Gave a tip to music guy		TMFLG_C05R0701_TIPPAY_01
 0xBB5						TMFLG_C08R0501_TIPPAY_01
 0xBB6						TMFLG_C09R1003_TIP_01
-0xBB7						TMFLG_T03R0401_POKETYPE_01
+0xBB7	ITEM GIFT	Camphrier Town	House	[Daily] Received a berry from man for showing him a Pokémon of the requested type		TMFLG_T03R0401_POKETYPE_01
 0xBB8						TMFLG_C02R3602_POKELEVEL_01
 0xBB9						TMFLG_C02R1601_PV_01
 0xBBA						TMFLG_C02Z03_GALETTE_01
 0xBBB						TMFLG_T04_MEGA_INFO
 0xBBC	ITEM GIFT					TMFLG_C02R2701_ITEMGET_01
-0xBBD						TMFLG_C02R0102_POKETORE_02
-0xBBE						TMFLG_C02R0102_POKETORE_03
-0xBBF						TMFLG_C02R0102_POKETORE_04
-0xBC0						TMFLG_C05_WAZAMACHINEGET_01
+0xBBD	ITEM GIFT	Lumiose City (South Boulevard)	Sycamore's Lab 2F	[Daily] Received PP Max from male scientist for a chain length of 21-30 Pokémon with the Poké Radar		TMFLG_C02R0102_POKETORE_02
+0xBBE	ITEM GIFT	Lumiose City (South Boulevard)	Sycamore's Lab 2F	[Daily] Received PP Up from male scientist for a chain length of 11-20 Pokémon with the Poké Radar		TMFLG_C02R0102_POKETORE_03
+0xBBF	ITEM GIFT	Lumiose City (South Boulevard)	Sycamore's Lab 2F	[Daily] Received Ultra Ball from male scientist for a chain length of 1-10 Pokémon with the Poké Radar		TMFLG_C02R0102_POKETORE_04
+0xBC0	EVENT	Coumarine City	(Seaside)	[Daily] Received the random TM from veteran woman		TMFLG_C05_WAZAMACHINEGET_01
 0xBC1	_UNUSED					
 0xBC2						TMFLG_T04_FRIEND3_MEGATALK
 0xBC3						TMFLG_C02R3101_REST_01
-0xBC4						TMFLG_C05A0101_WAZACHOISE_01
-0xBC5	ITEM GIFT					TMFLG_C05A0101_ITEMGET_01
+0xBC4	EVENT	Coumarine City	(Hillcrest)	[Daily] Random dance move was determined		TMFLG_C05A0101_WAZACHOISE_01
+0xBC5	ITEM GIFT	Coumarine City	(Hillcrest)	[Daily] Received Heart Scale from Tierno for showing him a Pokémon with the requested dance move		TMFLG_C05A0101_ITEMGET_01
 0xBC6						TMFLG_JUICE_VINTAGE_CHOICE
 0xBC7	_UNUSED					
 0xBC8	_UNUSED					
@@ -3352,7 +3352,7 @@
 0x011	_UNUSED					
 0x012	_UNUSED					
 0x013	_UNUSED					
-0x014						LOCALWORK_TV
+0x014				Temp state for TV channels		LOCALWORK_TV
 0x015	_UNUSED					
 0x016	_UNUSED					
 0x017	_UNUSED					
@@ -3380,7 +3380,7 @@
 0x02D						OBJCHRWORK13
 0x02E						OBJCHRWORK14
 0x02F						OBJCHRWORK15
-0x030	STORY EVENT			First Partner	0:Chespin,1:Fennekin,2:Froakie	WK_SYS_FIRST_POKETYPE
+0x030		Aquacorde Town		First Partner chosen	0:Chespin,1:Fennekin,2:Froakie	WK_SYS_FIRST_POKETYPE
 0x031						WK_SYS_MAPREPLACE01
 0x032						WK_SYS_MAPREPLACE02
 0x033						WK_SYS_MAPREPLACE03
@@ -3391,7 +3391,7 @@
 0x038						WK_SYS_MAPREPLACE08
 0x039						WK_SYS_MAPREPLACE09
 0x03A						WK_SYS_MAPREPLACE10
-0x03B				Kanto Starter	0:Not Chosen,3:Bulbasaur,4:Charmander,5:Squirtle	WK_SYS_SECOND_POKETYPE
+0x03B		Lumiose City (South Boulevard)	Sycamore's Lab 3F	Kanto Partner chosen	0:Not Chosen,3:Bulbasaur,4:Charmander,5:Squirtle	WK_SYS_SECOND_POKETYPE
 0x03C						WK_SYS_C02GYM_BGMCHANGE
 0x03D	_UNUSED					
 0x03E	_UNUSED					
@@ -3444,57 +3444,57 @@
 0x06D	_UNUSED					
 0x06E	_UNUSED					
 0x06F	_UNUSED					
-0x070						WK_SCENE_T01OHMON
-0x071						WK_SCENE_T01START
-0x072						WK_SCENE_T01
-0x073						WK_SCENE_T01R0101
-0x074						WK_SCENE_T02
-0x075				Route 2 Event	0:Will Battle Static Wild Pidgey,1:Battled Static Wild Pidgey,2:Tutorial Complete	WK_SCENE_R02
-0x076						WK_SCENE_D01
-0x077						WK_SCENE_D01_IE_STATE
-0x078						WK_SCENE_R03
-0x079						WK_SCENE_C01
-0x07A						WK_SCENE_T02_STOPPER
+0x070		Vaniville Town		Gate state	0:Closed,1:Open	WK_SCENE_T01OHMON
+0x071				[unused?]		WK_SCENE_T01START
+0x072		Vaniville Town		Scene State	0:Not entered,1:Will meet neighbors outside,2:After neighbors introduced,3:Rhyhorn will awake,4:Normal,5:Shauna will ask to trade,6:Normal (after game clear)	WK_SCENE_T01
+0x073				[unused?]		WK_SCENE_T01R0101
+0x074		Aquacorde Town		Scene State	0:Not entered,1:Neighbors calling player to join them,2:Will battle Shauna,3:Normal	WK_SCENE_T02
+0x075		Route 2		Scene State	0:Will battle static wild Pidgey,1:Will see catch tutorial,2:Normal	WK_SCENE_R02
+0x076		Santalune Forest		Scene State	0:Not entered,1:Joined by Shauna,2:All reunited near exit to Route 3,3:Normal	WK_SCENE_D01
+0x077		Santalune Forest		Shauna Companion State	0:?,1:?,2:Will give Paralyze Heal when near the area,3:?,9:Done	WK_SCENE_D01_IE_STATE
+0x078		Route 3		Scene State	0:Not entered,2:Received Adventure Rules,4:Normal	WK_SCENE_R03
+0x079		Santalune City		Scene State	0:Roller Skater Rinka blocks Gym entrance,2:Normal	WK_SCENE_C01
+0x07A		Aquacorde Town		Blocking man state	0:Cannot pass,1:Will warn about tall grass,2:Can pass	WK_SCENE_T02_STOPPER
 0x07B	_UNUSED					
-0x07C						WK_SCENE_T01R0102
-0x07D						WK_SCENE_R05
-0x07E						WK_SCENE_D02A0101
-0x07F						WK_SCENE_R07
-0x080						WK_SCENE_R07R0101
+0x07C		Vaniville Town	Player's House	Scene State	0:Not entered,2:Mom requests player to change out from their pajamas,4:Mom allows to go outside,5:Can tell Mom that has being invited to next town by neighbors,6:Will deliver Prof's Letter to Mom,7:Normal,8:Mom will tell that Prof. Sycamore awaits at Lumiose Station,10:Normal (after game clear)	WK_SCENE_T01R0102
+0x07D		Route 5		Scene State	0:Korrina and Lucarios will show up,1:Will battle Tierno,2:Normal	WK_SCENE_R05
+0x07E		Parfum Palace	Courtyard	Scene State	0:Shauna will appears after the bridge,1:Furfrou is at the maze,2:Solving the maze puzzle,5:Puzzle completed	WK_SCENE_D02A0101
+0x07F		Route 7		Scene State	0:Not entered,2:After seeing sleeping Snorlax,3:Will play Poké Flute,6:Will introduce Day Care,10:Will Introduce Battle Chateau,11:Will double battle against Trevor and Tierno,14:Normal	WK_SCENE_R07
+0x080		Route 7	Day Care		0:Not entered,2:Normal	WK_SCENE_R07R0101
 0x081						WK_SCENE_HOROGRAM
 0x082						WK_SCENE_GAMESTART
-0x083						WK_SCENE_T03R0101
-0x084						WK_SCENE_D02R0102
-0x085						WK_SCENE_T09G0101
-0x086						WK_SCENE_T09R0201
-0x087						WK_SCENE_T09
-0x088		Glittering Cave		Team Flare Grunt M & Team Flare double battle in Glittering Cave	0:none defeated,2:Team Flare Grunt Defeated,4:Team Flare Grunt Double Battle Defeated and Cleared	WK_SCENE_D03R0102
-0x089						WK_SCENE_C03
-0x08A				Cycle Shop	0:Bicycle Pending,1:Received Bicycle	WK_SCENE_C03R0301
-0x08B						WK_SCENE_R08
-0x08C						WK_SCENE_C05A0101
+0x083		Shabboneau Castle		Scene State	0:Owner will leave to Route 7,1:Normal	WK_SCENE_T03R0101
+0x084		Parfum Palace	1F	Scene State	0:Not entered,1:Owner is looking for his missing Furfrou	WK_SCENE_D02R0102
+0x085		Ambrette Gate		Scene State	0:Cannot pass,1:Can pass	WK_SCENE_T09G0101
+0x086		Ambrette Town	Fossil Lab	Scene State	0:Will be requested to find assistant at Glittering Cave,1:Normal	WK_SCENE_T09R0201
+0x087		Ambrette Town		Scene State	0:Not entered,1:Met Calem/Serena	WK_SCENE_T09
+0x088		Glittering Cave		Deep cave scene state	0:Not entered,1:Met Team Flare Grunt,2:Battled first Team Flare Grunt,3:Preparing for Multi-Battle against Team Flare Grunts,4:Battled Multi-Battle against Team Flare Grunts,5:Chose a fossil	WK_SCENE_D03R0102
+0x089		Cyllage City		Scene State	0:Will meet Grant,1:Received HM04 (Strength)	WK_SCENE_C03
+0x08A		Cyllage City	Cycle Shop	Scene State	0:Not entered,1:Received Bicycle	WK_SCENE_C03R0301
+0x08B		Route 8		Scene State	0:Not entered,1:After receiving Coastal Kalos Pokédex (woman blocking passage to Cyllage City),2:Will receive Dowsing Machine,3:Normal	WK_SCENE_R08
+0x08C		Coumarine City	(Hillcrest)	Scene State	0:Will battle Calem/Serena,1:Battled Calem/Serena,2:Will receive Holo Clip from Lysandre,3:Normal	WK_SCENE_C05A0101
 0x08D	_UNUSED					
 0x08E	_UNUSED					
-0x08F						WK_SCENE_D02
+0x08F		Parfum Palace	Entrance	Scene State	0:Will pay fee to enter,1:Normal	WK_SCENE_D02
 0x090		Power Plant		Team Flare Grunt M First Battle in Power Plant	0:Not Defeated,1:Defeated	WK_SCENE_D12R0102
 0x091		Power Plant		3 Team Flare Battles	0:Not Defeated,1:Defeated Team Grunt M,2:Defeated Admin,3:Defeated Aliana	WK_SCENE_D12R0103
 0x092						WK_SCENE_D02R0204
-0x093						WK_SCENE_C01_R04STOPPER
+0x093		Santalune City		Blocking Alexa state	0:Cannot Pass,1:Can pass	WK_SCENE_C01_R04STOPPER
 0x094						WK_SCENE_R13
 0x095		Route 13		Team Flare Grunt M on route 13 (Flag 1101 set)	1:Not Defeated,2:Defeated	WK_SCENE_R13_FLARE
-0x096						WK_SCENE_R04
-0x097						WK_SCENE_C04
-0x098						WK_SCENE_C04R1002
-0x099						WK_SCENE_C02Z01
-0x09A						WK_SCENE_C02Z02
-0x09B						WK_SCENE_C02R0101
-0x09C						WK_SCENE_C02R2101
-0x09D						WK_SCENE_C02G0101
-0x09E						WK_SCENE_C04R1001
-0x09F						WK_SCENE_T04
-0x0A0		Route 10		Team Flare Grunt M Battle on Route 10	1:Not Defeated,2:Defeated	WK_SCENE_R10
+0x096		Route 4		Scene State	0:Sina and Dexio will introduce themselves,1:Sina and Dexio waiting,2:Normal	WK_SCENE_R04
+0x097		Shalour City		Scene State	0:Will meet Tierno and Trevor,1:Will receive Intriguing Stone from Tierno,2:Needs to go to Mastery Tower,3:Can enter Gym,7:Earned Rumble Badge,8:Received HM03 (Surf) from Calem/Serena,9:Will receive HM 03 (Surf) from Calem/Serena	WK_SCENE_C04
+0x098		Tower of Mastery	Top	Scene State	0:Will battle Korrina,2:Normal	WK_SCENE_C04R1002
+0x099		Lumiose City (South Boulevard)		Scene State	0:Will play entrance cinematic,2:Sina and Dexio will show the way to lab,3:Sina will wait in front of the lab,4:Must enter the lab,5:After visiting lab,6:Tierno and Trevor shows Camphrier City direction,7:Calem/Serena await in front of Soleil Cafe	WK_SCENE_C02Z01
+0x09A		Lumiose City (South Boulevard)		Scene State	0:Start Event,1:Calem/Serena await in front of Soleil Cafe,2:Will receive Holo Clip from Tierno,3:Normal	WK_SCENE_C02Z02
+0x09B		Lumiose City (South Boulevard)	Sycamore's Lab 1F	Scene State	0:Start Event,1:After first visit,2:Will meet Lysandre,3:Friends will reunite,4:After friends reunite,5:Normal	WK_SCENE_C02R0101
+0x09C		Lumiose City (South Boulevard)	Café Soleil	Scene State	0:Not entered,1:Lysandre and Diantha are present,2:Will receive Holo Clip from Tierno,3:Normal	WK_SCENE_C02R2101
+0x09D		Lumiose Gate	(Route 4)	Scene State	0:Sina and Dexio will give TM27,1:Sina and Dexio in room,2:Normal	WK_SCENE_C02G0101
+0x09E		Tower of Mastery		Scene State	0:Will play cinematic entrance,2:?,6:Will battle Calem/Serena,7:Battled Calem/Serena,8:Will receive information from Guru,9:Will be allowed to go up,10:Will battle Korrina	WK_SCENE_C04R1001
+0x09F		Geosenge Town		Scene State	0:Not entered,1:Will see Team Flare Grunt,2:Team Flare Grunt will disappears in the dead end,3:Will battle Korrina,4:Battled Korrina	WK_SCENE_T04
+0x0A0		Route 10		Scene State	0:Before earning Cliff Badge,1:Will battle Team Flare Grunt,2:Battled Team Flare Grunt	WK_SCENE_R10
 0x0A1						WK_SCENE_R14
-0x0A2						WK_SCENE_C04R1006
+0x0A2		Tower of Mastery	Guru's Room	Scene State	0:Will meet the Guru,1:Normal	WK_SCENE_C04R1006
 0x0A3						WK_SCENE_C06
 0x0A4						WK_SCENE_D05
 0x0A5		PokeBall Factory		First Team Flare Grunt M in PokeBall Factory	0:Not defeated,1:Defeated	WK_SCENE_D05R0101
@@ -3506,12 +3506,12 @@
 0x0AB						WK_SCENE_C07
 0x0AC						WK_SCENE_D08G0101
 0x0AD						WK_SCENE_T05
-0x0AE				Hiker (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Asks to Trade,4:Trade Pending,5:Traded for Magikarp	WK_SCENE_HOTEL_GUEST_01
-0x0AF				Waiter (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Will give Rage Candy Bar,5:Gave Rage Candy Bar	WK_SCENE_HOTEL_GUEST_02
-0x0B0				Madame (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Will give Lava Cookie,5:Gave Lava Cookie	WK_SCENE_HOTEL_GUEST_03
-0x0B1				Maid (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Asks to Trade,4:Trade Pending,5:Traded for Eevee	WK_SCENE_HOTEL_GUEST_04
-0x0B2				Tourist (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:3rd Meeting,4:4th Meeting	WK_SCENE_HOTEL_GUEST_05
-0x0B3				Backpacker (Kalos Hotels)	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Will give Strange Souvenir,5:Gave Strange Souvenir	WK_SCENE_HOTEL_GUEST_06
+0x0AE		Kalos Hotels	Room	Hiker meeting state	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Asks to Trade,4:Trade Pending,5:Traded for Magikarp	WK_SCENE_HOTEL_GUEST_01
+0x0AF		Kalos Hotels	Room	Waiter meeting state	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Will give Rage Candy Bar,5:Gave Rage Candy Bar	WK_SCENE_HOTEL_GUEST_02
+0x0B0		Kalos Hotels	Room	Madame meeting state	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Will give Lava Cookie,5:Gave Lava Cookie	WK_SCENE_HOTEL_GUEST_03
+0x0B1		Kalos Hotels	Room	Maid meeting state	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Asks to Trade,4:Trade Pending,5:Traded for Eevee	WK_SCENE_HOTEL_GUEST_04
+0x0B2		Kalos Hotels	Room	Tourist meeting state	0:Not Met,1:1st Meeting,2:2nd Meeting,3:3rd Meeting,4:4th Meeting	WK_SCENE_HOTEL_GUEST_05
+0x0B3		Kalos Hotels	Room	Backpacker meeting state	0:Not Met,1:1st Meeting,2:2nd Meeting,3:Will give Strange Souvenir,5:Gave Strange Souvenir	WK_SCENE_HOTEL_GUEST_06
 0x0B4						WK_SCENE_T06
 0x0B5						WK_SCENE_C08
 0x0B6						WK_SCENE_C02R0601
@@ -3530,22 +3530,22 @@
 0x0C3						WK_SCENE_PLR0201
 0x0C4						WK_SCENE_PLR0601
 0x0C5						WK_SCENE_C02Z07
-0x0C6						WK_SCENE_C02R0801
+0x0C6		Lumiose City (South Boulevard)	PR Video Studio	Scene State	0:Will create first Trainer PR Video,1:Normal	WK_SCENE_C02R0801
 0x0C7						WK_SCENE_C07G0201
 0x0C8						WK_SCENE_D13R0101
 0x0C9						WK_SCENE_D13R0102
 0x0CA						WK_SCENE_D13R0103
 0x0CB						WK_SCENE_D13R0104
-0x0CC				Route 12 Breeder	0:Blocking further access,1:Has Lapras Gift,2:Gave Lapras	WK_SCENE_R12
+0x0CC		Route 12		Scene State	0:Cannot pass,1:Can pass (pending Lapras Gift),2:Received Lapras	WK_SCENE_R12
 0x0CD						WK_SCENE_C06G0101
 0x0CE						WK_SCENE_PLR0302
 0x0CF						WK_SCENE_PLR0402
 0x0D0						WK_SCENE_PLR0502
 0x0D1						WK_SCENE_PLR0602
-0x0D2						WK_SCENE_C01P0101
-0x0D3						WK_SCENE_C02G0201
+0x0D2		Santalune City	Poké Center	Scene State	0:Tierno will explain,1:Normal	WK_SCENE_C01P0101
+0x0D3		Lumiose Gate	(Route 5)	Scene State	0:Mr. Bonding will introduce himself,2:Normal	WK_SCENE_C02G0201
 0x0D4						WK_SCENE_D13R0102_IE_STATE
-0x0D5						WK_SCENE_C02R0103
+0x0D5		Lumiose City (South Boulevard)	Sycamore's Lab 3F	Scene State	0:Will meet Prof. Sycamore,1:Prof. awaits at office,2:Will battle Prof. Sycamore,3:After choosing Kanto partner,4:Normal (evaluates Pokédex)	WK_SCENE_C02R0103
 0x0D6						WK_SCENE_D07
 0x0D7						WK_SCENE_C09
 0x0D8						WK_SCENE_C02G0301
@@ -3554,35 +3554,35 @@
 0x0DB						WK_SCENE_C02G0501
 0x0DC				Lumiose Station Event	0:Pre-Champion,1:Will get National Dex,2:Received National Dex,3:Received TMV Pass	WK_SCENE_C02R0901
 0x0DD		Lumiose City	Gym	? Elevator or Quiz Progression	0:?,1:?,2:?,3:?,4:Completed	WK_SCENE_C02GYM_LIGHTUP
-0x0DE						WK_SCENE_D04R0102
-0x0DF						WK_SCENE_C05R0101
+0x0DE		Reflection Cave	B1F	Scene State	0:Will receive TM70 (Flash) from Tierno,2:Normal	WK_SCENE_D04R0102
+0x0DF		Coumarine City	(Seaside) Station	Scene State	0:Will meet Prof. Sycamore and Diantha,1:Normal	WK_SCENE_C05R0101
 0x0E0						WK_SCENE_R14R0101
-0x0E1						WK_SCENE_I01_TUTORIAL
-0x0E2						WK_SCENE_C01GYM0101
+0x0E1		Route 7	Berry Fields	Scene State	0:Will explain about berries,1:Normal,3:After berry mutation explanation	WK_SCENE_I01_TUTORIAL
+0x0E2		Santalune City	Gym	Scene State	0:Not entered,1:Will be congratulated,2:Normal	WK_SCENE_C01GYM0101
 0x0E3				Lost Hotel Punk Guy	0:Blocking further access (Not learned all Tricks),1:Allows access (Learned all Tricks)	WK_SCENE_D15R0101
 0x0E4				Hex Maniac Ghost (Lumiose City)	0:Not Encountered,1:Encountered	WK_SCENE_C02R1202
 0x0E5						WK_SCENE_C02R3901
-0x0E6						WK_SCENE_D17R0101
+0x0E6		Sea Spirit's Den		Scene State	0:Empty,1:Roamer is inside	WK_SCENE_D17R0101
 0x0E7						WK_SCENE_PLR0702
-0x0E8						WK_SCENE_R11
+0x0E8		Route 11		Scene State	0:Will receive Holo Clip from Prof. Sycamore,1:Normal	WK_SCENE_R11
 0x0E9						WK_SCENE_R15
-0x0EA						WK_SCENE_C01GYM0101_ENTRANCE
+0x0EA		Santalune City	Gym	Entrance Cinematic State	0:Will play cinematic,2:Normal	WK_SCENE_C01GYM0101_ENTRANCE
 0x0EB						WK_SCENE_C02GYM0101_ENTRANCE
-0x0EC						WK_SCENE_C03GYM0101_ENTRANCE
-0x0ED						WK_SCENE_C04GYM0101_ENTRANCE
-0x0EE						WK_SCENE_C05GYM0101_ENTRANCE
+0x0EC		Cyllage City	Gym	Entrance Cinematic State	0:Will play cinematic,2:Normal	WK_SCENE_C03GYM0101_ENTRANCE
+0x0ED		Shalour City	Gym	Entrance Cinematic State	0:Will play cinematic,2:Normal	WK_SCENE_C04GYM0101_ENTRANCE
+0x0EE		Coumarine City	Gym	Entrance Cinematic State	0:Will play cinematic,2:Normal	WK_SCENE_C05GYM0101_ENTRANCE
 0x0EF						WK_SCENE_C06GYM0101_ENTRANCE
 0x0F0						WK_SCENE_C07GYM0101_ENTRANCE
 0x0F1						WK_SCENE_C08GYM0101_ENTRANCE
-0x0F2						WK_SCENE_C05
+0x0F2		Coumarine City		Scene State	0:Will receive an Holo Clip from Calem/Serena,1:Normal	WK_SCENE_C05
 0x0F3						WK_SCENE_C06GYM0101_WARP
-0x0F4						WK_SCENE_T03
+0x0F4		Camphrier Town		Scene State	0:Will receive an Holo Clip,1:Cannot leave to Route 7,2:Normal	WK_SCENE_T03
 0x0F5						WK_SCENE_I03
-0x0F6						WK_SCENE_C02R0401
-0x0F7						WK_SCENE_C04GYM0101
-0x0F8						WK_SCENE_C05G0101
-0x0F9						WK_SCENE_C02R0802
-0x0FA						WK_SCENE_C01_IAIGIRI
+0x0F6		Lumiose City (Vernal Avenue)	Boutique Couture	Scene State	0:Not entered,1:Low Style points,2:Normal	WK_SCENE_C02R0401
+0x0F7		Shalour City	Gym	Scene State	0:Korrina will appears,1:Normal	WK_SCENE_C04GYM0101
+0x0F8		Coumarine Gate		Scene State	0:Before Plant Badge,1:Will meet Sina and Dexio,2:Received Mountain Kalos Pokédex	WK_SCENE_C05G0101
+0x0F9		Lumiose City (South Boulevard)	PR Video Studio Make up room	Scene State	0:Will explain first time,2:Normal	WK_SCENE_C02R0802
+0x0FA		Santalune City		[removed event?]	0:Not entered,1:?	WK_SCENE_C01_IAIGIRI
 0x0FB	_UNUSED					
 0x0FC	_UNUSED					
 0x0FD	_UNUSED					
@@ -3644,12 +3644,12 @@
 0x135	_UNUSED					
 0x136	_UNUSED					
 0x137	_UNUSED					
-0x138						WK_OTHER_D02A0101_FRIEND1
-0x139						WK_OTHER_D02A0101_EV_POKE08
+0x138		Parfum Palace	Courtyard	Shauna State	0:Not entered,2:?	WK_OTHER_D02A0101_FRIEND1
+0x139		Parfum Palace	Courtyard	Furfrou State	5:Puzzle completed	WK_OTHER_D02A0101_EV_POKE08
 0x13A						WK_OTHER_KASEKI
 0x13B						WK_OTHER_T05R0301_WAZA_CHOICE
-0x13C						WK_OTHER_CAFE_BITS
-0x13D						WK_OTHER_CAFE_MONSNO_HEIGEN
+0x13C			Café	State bits		WK_OTHER_CAFE_BITS
+0x13D		Cyllage City	Café	Pokédex slots to be seen (bits)		WK_OTHER_CAFE_MONSNO_HEIGEN
 0x13E						WK_OTHER_CAFE_MONSNO_KAIGAN
 0x13F						WK_OTHER_CAFE_MONSNO_SANGAKU
 0x140	_UNUSED					
@@ -3663,7 +3663,7 @@
 0x148						WK_OTHER_C02R0701_ENTRANCE
 0x149						WK_OTHER_D13R0104_EXIT
 0x14A				Hotel Richissme Tasks Perfect		WK_OTHER_HOTEL_BAITO_POINT
-0x14B						WK_OTHER_T09R0301_AGI_CHOICE
+0x14B		Ambrette Town	House	Requested speed stat value		WK_OTHER_T09R0301_AGI_CHOICE
 0x14C						WK_OTHER_HOTEL_BAITO_RESULT
 0x14D						WK_OTHER_HOTEL_BEDMAKE_CNT
 0x14E						WK_OTHER_HOTEL_BDMK_TIME_01
@@ -3672,8 +3672,8 @@
 0x151						WK_OTHER_HOTEL_ITEMCNT
 0x152						WK_OTHER_C07R0501_POKEAZUKE
 0x153						WK_OTHER_C02R2401_STONE_CNT
-0x154						WK_OTHER_C05_KINOMI_CHOICE
-0x155						WK_OTHER_T03R0401_POKETYPE
+0x154		Coumarine City	(Seaside)	Stand random berry	0:Cheri Berry,1:Chesto Berry,2:Pecha Berry,3:Rawst Berry,4:Aspear Berry	WK_OTHER_C05_KINOMI_CHOICE
+0x155		Camphrier Town	House	Requested Pokémon type the man wants to see today	9:Fire	WK_OTHER_T03R0401_POKETYPE
 0x156						WK_OTHER_HANDSOME_TICKET_NUM
 0x157						WK_OTHER_C02R2301_HANDSOME_ST
 0x158						WK_OTHER_MOKOO_FRIEND_POINT
@@ -3685,12 +3685,12 @@
 0x15E	_UNUSED					
 0x15F	_UNUSED					
 0x160						WK_OTHER_C02R2901_COSPLAY
-0x161						WK_OTHER_ASSISTPOWER_COUNTER
+0x161				Total O-Powers received		WK_OTHER_ASSISTPOWER_COUNTER
 0x162						WK_OTHER_HOTEL_BDMK_TIME_02
 0x163						WK_OTHER_T04_FRIEND3_MEGAPOKE
 0x164						WK_OTHER_C02R1601_TELOP
 0x165						WK_OTHER_C02R1601_TELOP_COUNT
-0x166						WK_OTHER_C05A0101_WAZA
+0x166		Coumarine City	(Hillcrest)	Random dance move	0:Swords Dance,1:Petal Dance,2:Feather Dance,3:Teeter Dance,4:Dragon Dance,5:Lunar Dance,6:Quiver Dance,7:Fiery Dance	WK_OTHER_C05A0101_WAZA
 0x167	_UNUSED					
 0x168	_UNUSED					
 0x169	_UNUSED					
