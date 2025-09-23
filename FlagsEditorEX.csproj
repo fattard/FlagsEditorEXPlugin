@@ -61,7 +61,7 @@
     <EmbeddedResource Include="localization\lang_zh-Hant.txt" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="PKHeX.Core" Version="25.6.9" />
+    <PackageReference Include="PKHeX.Core" Version="25.8.31" />
   </ItemGroup>
   <ItemGroup>
     <Using Include="PKHeX.Core" />
