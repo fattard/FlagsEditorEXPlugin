@@ -130,6 +130,7 @@
 
         public class WorkDetail
         {
+            public int SourceIdx { get; set; }
             public ulong WorkIdx { get; private set; }
             public EventFlagType FlagTypeVal { get; private set; }
             public string FlagTypeTxt => FlagTypeVal.AsText();
@@ -158,6 +159,7 @@
                 DetailMsg = info[4];
                 InternalName = info[6];
                 Value = 0;
+                SourceIdx = 0;
 
                 ValidValues = new Dictionary<long, string>(4);
                 if (!string.IsNullOrWhiteSpace(info[5]))
@@ -184,9 +186,10 @@
                 InternalName = workDetail.InternalName;
                 ValidValues = workDetail.ValidValues;
                 Value = workDetail.Value;
+                SourceIdx = workDetail.SourceIdx;
             }
 
-            public WorkDetail(ulong workIdx, EventFlagType flagType, string locationName, string detailMsg, string internalName)
+            public WorkDetail(ulong workIdx, int source, EventFlagType flagType, string locationName, string detailMsg, string internalName)
             {
                 WorkIdx = workIdx;
                 FlagTypeVal = flagType;
@@ -195,6 +198,7 @@
                 InternalName = internalName;
                 ValidValues = new Dictionary<long, string>(4);
                 Value = 0;
+                SourceIdx = source;
             }
 
             public override string ToString()
