@@ -617,6 +617,9 @@
                 GameVersion.SV
                     => new FlagsGen9SV(),
 
+                GameVersion.ZA
+                    => new FlagsGen9LZA(),
+
                 _ => null
             };
 

@@ -1,17 +1,17 @@
-﻿using static FlagsEditorEXPlugin.FlagsOrganizer;
-
-namespace FlagsEditorEXPlugin
+﻿namespace FlagsEditorEXPlugin
 {
     internal class FlagsGen9LZA : FlagsOrganizer
     {
         static string? s_flagsList_res = null;
 
         const int Src_EventFlags = 0;
-        const int Src_EventWork = 1;
-        const int Src_MissionsWork = 2;
-        const int Src_FieldItemFlags = 3;
-        //const int Src_HiddenItemFlags = 4;
-        //const int Src_TrainerFlags = 5;
+        const int Src_SysFlags = 1;
+        const int Src_EventWork = 2;
+        const int Src_MissionsWork = 3;
+        const int Src_MableResearchWork = 4;
+        const int Src_FieldItemFlags = 5;
+        //const int Src_HiddenItemFlags = 6;
+        //const int Src_TrainerFlags = 7;
 
         readonly uint[] HiddenItemsBlockKeys =
         [
@@ -33,19 +33,23 @@ namespace FlagsEditorEXPlugin
             s_flagsList_res = resData ?? s_flagsList_res ?? ReadFlagsResFile("flags_gen9lza");
 
             int idxEventFlagsSection = s_flagsList_res.IndexOf("//\tEvent Flags");
+            int idxSysFlagsSection = s_flagsList_res.IndexOf("//\tSys Flags");
             int idxFieldItemFlagsSection = s_flagsList_res.IndexOf("//\tField Item Flags");
             //int idxHiddenItemsFlagsSection = s_flagsList_res.IndexOf("//\tHidden Item Flags");
             //int idxTrainerFlagsSection = s_flagsList_res.IndexOf("//\tTrainer Flags");
             int idxEventWorkSection = s_flagsList_res.IndexOf("//\tEvent Work");
             int idxMissionsWorkSection = s_flagsList_res.IndexOf("//\tMissions Work");
+            int idxMableResearchWorkSection = s_flagsList_res.IndexOf("//\tMable Research Work");
 
             AssembleList(s_flagsList_res[idxEventFlagsSection..], Src_EventFlags, "Event Flags", []);
+            AssembleList(s_flagsList_res[idxSysFlagsSection..], Src_SysFlags, "Sys Flags", []);
             AssembleList(s_flagsList_res[idxFieldItemFlagsSection..], Src_FieldItemFlags, "Field Item Flags", []);
             //AssembleList(s_flagsList_res[idxHiddenItemsFlagsSection..], Src_HiddenItemFlags, "Hidden Item Flags", []);
             //AssembleList(s_flagsList_res[idxTrainerFlagsSection..], Src_TrainerFlags, "Regular Trainer Flags", []);
 
             AssembleWorkList(s_flagsList_res[idxEventWorkSection..], Src_EventWork, "Event Work", Array.Empty<ulong>());
             AssembleWorkList(s_flagsList_res[idxMissionsWorkSection..], Src_MissionsWork, "Missions Work", Array.Empty<ulong>());
+            AssembleWorkList(s_flagsList_res[idxMableResearchWorkSection..], Src_MableResearchWork, "Mable Research Work", Array.Empty<ulong>());
         }
 
         protected override void AssembleList(string flagsList_res, int sourceIdx, string sourceName, bool[] flagValues)
@@ -55,7 +59,24 @@ namespace FlagsEditorEXPlugin
             using (System.IO.StringReader reader = new System.IO.StringReader(flagsList_res))
             {
                 FlagsGroup flagsGroup = new FlagsGroup(sourceIdx, sourceName);
-                Dictionary<ulong, bool>? listOfStatuses = null;
+                Dictionary<ulong, bool>? listOfStatuses = (sourceIdx) switch
+                {
+                    Src_SysFlags => RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0xED6F46E7).AsByteArray(), emptyKey: 0xCBF29CE484222645),
+                    Src_EventFlags => RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0x58505C5E).AsByteArray(), emptyKey: 0xCBF29CE484222645),
+                    Src_FieldItemFlags => RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0x2482AD60).AsByteArray(), emptyKey: 0x0000000000000000),
+                    _ => []
+                };
+
+#if DEBUG
+                string dumpName = (sourceIdx) switch
+                {
+                    Src_SysFlags => "SysFlags",
+                    Src_EventFlags => "EventFlags",
+                    Src_FieldItemFlags => "FieldItems",
+                    _ => ""
+                };
+                DumpListOfStatuses($"k{dumpName}_status_LZA.txt", listOfStatuses);
+#endif
 
                 string? s = reader.ReadLine();
 
@@ -80,49 +101,13 @@ namespace FlagsEditorEXPlugin
                             break;
                         }
 
-                        switch (sourceIdx)
+                        var flagDetail = new FlagDetail(s);
+                        if (listOfStatuses!.TryGetValue(flagDetail.FlagIdx, out bool value))
                         {
-                            case Src_EventFlags:
-                                {
-                                    if (listOfStatuses is null)
-                                    {
-                                        listOfStatuses = RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0xED6F46E7).AsByteArray(), emptyKey: 0xCBF29CE484222645);
-#if DEBUG
-                                        DumpListOfStatuses("kEventFlags_status_LZA.txt", listOfStatuses);
-#endif
-                                    }
-
-                                    var flagDetail = new FlagDetail(s);
-                                    if (listOfStatuses.TryGetValue(flagDetail.FlagIdx, out bool value))
-                                    {
-                                        flagDetail.IsSet = value;
-                                        flagDetail.OriginalState = flagDetail.IsSet;
-                                        flagDetail.SourceIdx = sourceIdx;
-                                        flagsGroup.Flags.Add(flagDetail);
-                                    }
-                                }
-                                break;
-
-                            case Src_FieldItemFlags:
-                                {
-                                    if (listOfStatuses is null)
-                                    {
-                                        listOfStatuses = RetrieveBlockStatuses(savEventBlocks.GetBlockSafe(0x2482AD60).AsByteArray(), emptyKey: 0x0000000000000000);
-#if DEBUG
-                                        DumpListOfStatuses("kFieldItems_status_LZA.txt", listOfStatuses);
-#endif
-                                    }
-
-                                    var flagDetail = new FlagDetail(s);
-                                    if (listOfStatuses.TryGetValue(flagDetail.FlagIdx, out bool value))
-                                    {
-                                        flagDetail.IsSet = value;
-                                        flagDetail.OriginalState = flagDetail.IsSet;
-                                        flagDetail.SourceIdx = sourceIdx;
-                                        flagsGroup.Flags.Add(flagDetail);
-                                    }
-                                }
-                                break;
+                            flagDetail.IsSet = value;
+                            flagDetail.OriginalState = flagDetail.IsSet;
+                            flagDetail.SourceIdx = sourceIdx;
+                            flagsGroup.Flags.Add(flagDetail);
                         }
                     }
 
@@ -140,7 +125,25 @@ namespace FlagsEditorEXPlugin
 
             using (System.IO.StringReader reader = new System.IO.StringReader(workList_res))
             {
-                Dictionary<ulong, ulong>? listOfValues = null;
+                Dictionary<ulong, ulong>? listOfValues = (sourceIdx) switch
+                {
+                    Src_EventWork => RetrieveBlockValues(savEventBlocks.GetBlockSafe(0xFADA7742).AsByteArray(), emptyKey: 0xCBF29CE484222645),
+                    Src_MissionsWork => RetrieveBlockValues(savEventBlocks.GetBlockSafe(0xB9B223B9).AsByteArray(), emptyKey: 0xCBF29CE484222645),
+                    Src_MableResearchWork => RetrieveBlockValues(savEventBlocks.GetBlockSafe(0x03913534).AsByteArray(), emptyKey: 0xCBF29CE484222645),
+                    _ => []
+                };
+
+#if DEBUG
+                string dumpName = (sourceIdx) switch
+                {
+                    Src_EventWork => "EventWork",
+                    Src_MissionsWork => "MissionsWork",
+                    Src_MableResearchWork => "MableResearchWork",
+                    _ => ""
+                };
+                DumpListOfValues($"k{dumpName}_values_LZA.txt", listOfValues);
+#endif
+
 
                 string? s = reader.ReadLine();
 
@@ -165,57 +168,16 @@ namespace FlagsEditorEXPlugin
                             break;
                         }
 
-                        switch (sourceIdx)
+                        var workDetail = new WorkDetail(s);
+                        if (listOfValues.TryGetValue(workDetail.WorkIdx, out ulong value))
                         {
-                            case Src_EventWork:
-                                {
-                                    if (listOfValues == null)
-                                    {
-                                        listOfValues = RetrieveBlockValues(savEventBlocks.GetBlockSafe(0xFADA7742).AsByteArray(), emptyKey: 0xCBF29CE484222645);
-
-#if DEBUG
-                                        DumpListOfValues($"kEventWork{sourceIdx}_values_LZA.txt", listOfValues);
-#endif
-                                    }
-
-                                    var workDetail = new WorkDetail(s);
-                                    if (listOfValues.TryGetValue(workDetail.WorkIdx, out ulong value))
-                                    {
-                                        workDetail.Value = (long)value;
-                                        workDetail.SourceIdx = sourceIdx;
-                                        m_eventWorkList.Add(workDetail);
-                                    }
-                                    else
-                                    {
-                                        m_unavailableWorkBlocks.Add(workDetail);
-                                    }
-                                }
-                                break;
-
-                            case Src_MissionsWork:
-                                {
-                                    if (listOfValues == null)
-                                    {
-                                        listOfValues = RetrieveBlockValues(savEventBlocks.GetBlockSafe(0xB9B223B9).AsByteArray(), emptyKey: 0xCBF29CE484222645);
-
-#if DEBUG
-                                        DumpListOfValues($"kEventWork{sourceIdx}_values_LZA.txt", listOfValues);
-#endif
-                                    }
-
-                                    var workDetail = new WorkDetail(s);
-                                    if (listOfValues.TryGetValue(workDetail.WorkIdx, out ulong value))
-                                    {
-                                        workDetail.Value = (long)value;
-                                        workDetail.SourceIdx = sourceIdx;
-                                        m_eventWorkList.Add(workDetail);
-                                    }
-                                    else
-                                    {
-                                        m_unavailableWorkBlocks.Add(workDetail);
-                                    }
-                                }
-                                break;
+                            workDetail.Value = (long)value;
+                            workDetail.SourceIdx = sourceIdx;
+                            m_eventWorkList.Add(workDetail);
+                        }
+                        else
+                        {
+                            m_unavailableWorkBlocks.Add(workDetail);
                         }
                     }
 
@@ -392,6 +354,54 @@ namespace FlagsEditorEXPlugin
             _ => false
         };
 
+#if DEBUG
+        public override EditableEventInfo[] GetSpecialEditableEvents()
+        {
+            int idx = 0;
+            return
+            [
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGenLZA.specialEvtBtn_{idx}", "Complete all missions")) { IsAvailable = true },
+                new EditableEventInfo(idx++, LocalizedStrings.Find($"SpecialEditsGenLZA.specialEvtBtn_{idx}", "Reset all missions")) { IsAvailable = true },
+            ];
+        }
+
+        public override void ProcessSpecialEventEdit(EditableEventInfo eventInfo)
+        {
+            var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
+
+            switch (eventInfo.Index)
+            {
+                case 0: // Complete all missions
+                    {
+                        foreach (var w in m_eventWorkList)
+                        {
+                            if (w.SourceIdx == Src_MissionsWork)
+                            {
+                                w.Value = 255;
+                            }
+                        }
+
+                        SyncEditedEventWork();
+                    }
+                    break;
+
+                case 1: // Reset all missions
+                    {
+                        foreach (var w in m_eventWorkList)
+                        {
+                            if (w.SourceIdx == Src_MissionsWork)
+                            {
+                                w.Value = 0;
+                            }
+                        }
+
+                        SyncEditedEventWork();
+                    }
+                    break;
+            }
+        }
+#endif
+
         public override void BulkMarkFlags(EventFlagType flagType)
         {
             ChangeFlagsVal(flagType, value: true);
@@ -413,7 +423,7 @@ namespace FlagsEditorEXPlugin
                 {
                     case EventFlagType.FlySpot:
                         {
-                            foreach (var f in m_flagsGroupsList[Src_EventFlags].Flags)
+                            foreach (var f in m_flagsGroupsList[Src_SysFlags].Flags)
                             {
                                 if (f.FlagTypeVal == flagType)
                                 {
@@ -421,7 +431,7 @@ namespace FlagsEditorEXPlugin
                                 }
                             }
 
-                            SyncEditedFlags(m_flagsGroupsList[Src_EventFlags]);
+                            SyncEditedFlags(m_flagsGroupsList[Src_SysFlags]);
                         }
                         break;
 
@@ -445,48 +455,27 @@ namespace FlagsEditorEXPlugin
         public override void SyncEditedFlags(FlagsGroup fGroup)
         {
             var savEventBlocks = ((ISCBlockArray)m_savFile!).Accessor;
-
-            switch (fGroup.SourceIdx)
+            var bdata = (fGroup.SourceIdx) switch
             {
-                case Src_EventFlags:
-                    {
-                        var bdata = savEventBlocks.GetBlockSafe(0xED6F46E7).AsByteArray();
-                        using (var ms = new System.IO.MemoryStream(bdata))
-                        {
-                            using (var writer = new System.IO.BinaryWriter(ms))
-                            {
-                                foreach (var f in fGroup.Flags)
-                                {
-                                    if (ms.Position < ms.Length)
-                                    {
-                                        writer.Write(f.FlagIdx);
-                                        writer.Write(f.IsSet ? (ulong)1 : (ulong)0);
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    break;
+                Src_SysFlags => savEventBlocks.GetBlockSafe(0xED6F46E7).AsByteArray(),
+                Src_EventFlags => savEventBlocks.GetBlockSafe(0x58505C5E).AsByteArray(),
+                Src_FieldItemFlags => savEventBlocks.GetBlockSafe(0x2482AD60).AsByteArray(),
+                _ => []
+            };
 
-                case Src_FieldItemFlags:
+            using (var ms = new System.IO.MemoryStream(bdata))
+            {
+                using (var writer = new System.IO.BinaryWriter(ms))
+                {
+                    foreach (var f in fGroup.Flags)
                     {
-                        var bdata = savEventBlocks.GetBlockSafe(0x2482AD60).AsByteArray();
-                        using (var ms = new System.IO.MemoryStream(bdata))
+                        if (ms.Position < ms.Length)
                         {
-                            using (var writer = new System.IO.BinaryWriter(ms))
-                            {
-                                foreach (var f in fGroup.Flags)
-                                {
-                                    if (ms.Position < ms.Length)
-                                    {
-                                        writer.Write(f.FlagIdx);
-                                        writer.Write(f.IsSet ? (ulong)1 : (ulong)0);
-                                    }
-                                }
-                            }
+                            writer.Write(f.FlagIdx);
+                            writer.Write(f.IsSet ? (ulong)1 : (ulong)0);
                         }
                     }
-                    break;
+                }
             }
         }
 
@@ -496,12 +485,15 @@ namespace FlagsEditorEXPlugin
 
             byte[] bdata_evtWork = savEventBlocks.GetBlockSafe(0xFADA7742).AsByteArray();
             byte[] bdata_missionWork = savEventBlocks.GetBlockSafe(0xB9B223B9).AsByteArray();
+            byte[] bdata_mableWork = savEventBlocks.GetBlockSafe(0x03913534).AsByteArray();
 
             using (var ms_evtWork = new System.IO.MemoryStream(bdata_evtWork))
             using (var ms_missionWork = new System.IO.MemoryStream(bdata_missionWork))
+            using (var ms_mableWork = new System.IO.MemoryStream(bdata_mableWork))
             {
                 using (var writer_evtWork = new System.IO.BinaryWriter(ms_evtWork))
-                using (var writer_misisonWork = new System.IO.BinaryWriter(ms_missionWork))
+                using (var writer_missionWork = new System.IO.BinaryWriter(ms_missionWork))
+                using (var writer_mableWork = new System.IO.BinaryWriter(ms_mableWork))
                 {
                     foreach (var w in m_eventWorkList)
                     {
@@ -516,10 +508,17 @@ namespace FlagsEditorEXPlugin
 
                             case Src_MissionsWork:
                                 {
-                                    writer_misisonWork.Write(w.WorkIdx);
-                                    writer_misisonWork.Write(w.Value);
+                                    writer_missionWork.Write(w.WorkIdx);
+                                    writer_missionWork.Write(w.Value);
                                 }
-                                break;    
+                                break;
+
+                            case Src_MableResearchWork:
+                                {
+                                    writer_mableWork.Write(w.WorkIdx);
+                                    writer_mableWork.Write(w.Value);
+                                }
+                                break;
                         }
                     }
                 }
