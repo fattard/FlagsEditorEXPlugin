@@ -1212,6 +1212,21 @@
 0xCD5D40B6ABBD6826	FIELD ITEM					itb_last_battle_03
 0xCD5D43B6ABBD6D3F	FIELD ITEM					itb_last_battle_04
 0xCD5D42B6ABBD6B8C	FIELD ITEM					itb_last_battle_05
+0x15DC6E78C08F8B74				unused?		itb_a0502_79
+0xCD59DAB6ABBA84FD				unused?		itb_last_battle_11
+0xCD56D2B6ABB8418E				unused?		itb_last_battle_21
+0xCD534EB6ABB52B6B				unused?		itb_last_battle_31
+0xCD6AD6B6ABC8F164				unused?		itb_last_battle_41
+0xCD67D2B6ABC6B4C1				unused?		itb_last_battle_51
+0xCD644AB6ABC397D2				unused?		itb_last_battle_61
+0xCD60C6B6ABC081AF				unused?		itb_last_battle_71
+0x4E0686D2A5C54F76				unused?		itb_t1_i008_1_01
+0x4E0685D2A5C54DC3				unused?		itb_t1_i008_1_02
+0x4E0684D2A5C54C10				unused?		itb_t1_i008_1_03
+0x4E068BD2A5C557F5				unused?		itb_t1_i008_1_04
+0x4E068AD2A5C55642				unused?		itb_t1_i008_1_05
+0x79BF12FAC905CCD4				unused?		itb_t1_i012_2_01
+0x79BF15FAC905D1ED				unused?		itb_t1_i012_2_02
 						
 						
 						
@@ -1984,26 +1999,6 @@
 						
 						
 						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-						
-//	Trainer Flags					
 						
 						
 						
@@ -2980,49 +2975,49 @@
 0x19DA3BF4345C9161						flag_entry_area_a03_z02_06
 0xF93DA9F7234395C4						flag_Main10_Y_Bousou_01
 0x480D6C76D2519F0F						flag_athletic_time_attack_03
-0x898D0B2475E9DF42						flag_ReceiveNPC_01
+0x898D0B2475E9DF42	ITEM GIFT					flag_ReceiveNPC_01
 0x35BCF5BAE7577FF1						FLAG_POKELIST_ENABLE
 0x5E150651E284BD9B						flag_Batsu_Success
 0x353BB3480AD2BE54						FLAG_POKEDEX_ENABLE
-0x1AA3D1DBB1CFD664						flag_FastTravel_a05_02
+0x1AA3D1DBB1CFD664	FLY SPOT					flag_FastTravel_a05_02
 0x17B2CCCB89B58797						flag_Main7_yukarizone02_loop
-0x162C93C4DE7E08D7						flag_FastTravel_a06_02
+0x162C93C4DE7E08D7	FLY SPOT					flag_FastTravel_a06_02
 0x271C7379CF569D0C						flag_Main10_Xerneas_pos
-0x47D209EE97B7C40E						flag_FastTravel_a03_02
-0x8993942475EF33BB						flag_ReceiveNPC_24
+0x47D209EE97B7C40E	FLY SPOT					flag_FastTravel_a03_02
+0x8993942475EF33BB	ITEM GIFT					flag_ReceiveNPC_24
 0xC3F2F6D338F6CB0D						flag_Main10_Ev_m10_9300_pos
 0xB2688E8D439F811B						flag_Maru_Success
-0xF943E812F73267BC						flag_FastTravel_Battle_06
+0xF943E812F73267BC				unused?		flag_FastTravel_Battle_06
 0xEE0DAF0E80D564B0				Player can Save progress and access Outfits		FLAG_REPORT_ENABLE
 0x00772C8C58286EB1						SYS_FLAG_PRIORITY_UP_DUMMY
 0x17B94287D17FD36A						flag_has_checked_pokedex_tips
-0x1AA3CFDBB1CFD2FE						flag_FastTravel_a05_04
+0x1AA3CFDBB1CFD2FE	FLY SPOT					flag_FastTravel_a05_04
 0xB08A0B0CDEEB4BF8				Player can access Y Menu		FLAG_MAINMENU_ENABLE
 0x54F1208AD197BAE7						flag_Phase020200_pin
-0x78E0F61B2BD658BD						flag_FastTravel_Cafe_02
+0x78E0F61B2BD658BD	FLY SPOT					flag_FastTravel_Cafe_02
 0x27F07C4E688B93AA						SYS_FLAG_EQUIP_BANGLE
 0xC0F48CD5E3535691						flag_entry_area_a01_r01
 0xB962B5C35D47F8CC				Satchel Unlocked		FLAG_BAG_ENABLE
-0xA09B17F5424F1D24						flag_FastTravel_Prohibit
+0xA09B17F5424F1D24	EVENT					flag_FastTravel_Prohibit
 0x8D1F49705F38DE86						flag_has_checked_tips_2020
 0x6EA9E92577A1AA00						FLAG_ROYALE_APP_ENABLE
-0xEE9D4BD55066A101						flag_FastTravel_a04_02
-0x2CFD894B174CAED9						flag_FastTravel_Restaurant03
+0xEE9D4BD55066A101	FLY SPOT					flag_FastTravel_a04_02
+0x2CFD894B174CAED9	FLY SPOT					flag_FastTravel_Restaurant03
 0xD5523BC2E2F38F55						flag_entry_area_a02_r02
 0x9C4A67BEF79BC16B						FLAG_MOMIJI_ENABLE
-0xEE9D4DD55066A467						flag_FastTravel_a04_04
+0xEE9D4DD55066A467	FLY SPOT					flag_FastTravel_a04_04
 0xA64A739759EFD0B2						flag_entry_area_a03_r02
 0xD3BC66F3D2EFF7D8						FLAG_ENABLE_HIDEN_BOX
 0xF1E0E73AF58B9100						flag_replace_teapot
 0xE13E3A724AF7913C						flag_entry_area_a02_z02_06
-0x78E0EF1B2BD64CD8						flag_FastTravel_Cafe_05
-0xC5ABF37D7DFCB7FC						flag_FastTravel_wild_a05_03
+0x78E0EF1B2BD64CD8	FLY SPOT					flag_FastTravel_Cafe_05
+0xC5ABF37D7DFCB7FC	FLY SPOT					flag_FastTravel_wild_a05_03
 0x4E194A2F18C07D06						flag_battle_common_temp_08
 0xA4015A8D9E6EB4F9						flag_Tournament_ex
 0x4E194B2F18C07EB9						flag_battle_common_temp_09
 0xB323A68F904664A1						FLAG_ROYALE_APP_PHOTO
-0x706242878D09048A						flag_FastTravel_wild_a04_02
-0x8993992475EF3C3A						flag_ReceiveNPC_23
+0x706242878D09048A	FLY SPOT					flag_FastTravel_wild_a04_02
+0x8993992475EF3C3A	ITEM GIFT					flag_ReceiveNPC_23
 0x4AB6E2BF6CF42C41						flag_PokemonCenterEvent_Shop
 0x6CAB92CF0954851E						FLAG_TRAINER_RANK_INFINITE_OPEN
 0x5A8798F42E5A1099						flag_Rest_Battle
@@ -3041,10 +3036,10 @@
 0x34D1C1FD8F8A1EFC						flag_lab_power_on_00
 0x31ABF1DE36184A27						flag_M3_HUDMessage_03
 0x66E516B27A63420D						flag_M9_RivalWIN
-0x8993962475EF3721						flag_ReceiveNPC_26
+0x8993962475EF3721	ITEM GIFT					flag_ReceiveNPC_26
 0x5AFC105B01288B87						flag_Quizzone_Enable_en
 0xBB58A779CC64EEAC						FLAG_MAP_ENABLE
-0x78DDED1B2BD4139B						flag_FastTravel_Cafe_13
+0x78DDED1B2BD4139B	FLY SPOT					flag_FastTravel_Cafe_13
 0xD8E0183436C5F369						flag_M6_PokeSpawner02
 0x4E1CD02F18C3968F						flag_battle_common_temp_18
 0xDA58CDB307BA5E64						flag_replace_pulesand01
@@ -3052,7 +3047,7 @@
 0xEAF5BD42F63323F0						flag_replace_teacup01
 0xC27C4D05DA5D1824						FLAG_DRESSUP_ENABLE
 0x8C287D5DCADD852F						flag_entry_area_a01_z01_03
-0xC996FDA0D45A227E						flag_FastTravel_wild_a01_01
+0xC996FDA0D45A227E	FLY SPOT					flag_FastTravel_wild_a01_01
 0x8C89F3BBDC2EA1F4						flag_Main05_mega_jupe
 0x1175B7096E07C185						flag_M5_Talk_09
 0xF29721A5409C4B9B						flag_Tournament_3rd
@@ -3061,21 +3056,21 @@
 0xEDE14C1E7ECDE13B						flag_entry_area_a05
 0x0AD5F678BB8E5848						hud_tips_debug_flag_03
 0x46BC0ED39856B7FB						flag_replace_t1_last_yukari
-0x78E0F21B2BD651F1						flag_FastTravel_Cafe_06
+0x78E0F21B2BD651F1	FLY SPOT					flag_FastTravel_Cafe_06
 0xE29FA281A8F1EA48						flag_has_checked_tips_0051
-0x8989892475E6CC85						flag_ReceiveNPC_13
-0x898D0A2475E9DD8F						flag_ReceiveNPC_02
+0x8989892475E6CC85	ITEM GIFT					flag_ReceiveNPC_13
+0x898D0A2475E9DD8F	ITEM GIFT					flag_ReceiveNPC_02
 0x70822ECB3AF4C629						flag_Tournament_4th_2
 0x97D4218A9C309427						flag_has_checked_tips_1000
-0x47D20BEE97B7C774						flag_FastTravel_a03_04
+0x47D20BEE97B7C774	FLY SPOT					flag_FastTravel_a03_04
 0xB9D91C7D919D6881						flag_M7_HUDMessage_01
 0x539B66DEF4B026C4						flag_replace_crystals_enable
 0x31ABF3DE36184D8D						flag_M3_HUDMessage_01
-0x78DDF31B2BD41DCD						flag_FastTravel_Cafe_15
+0x78DDF31B2BD41DCD				unused?		flag_FastTravel_Cafe_15
 0x557C7AFAC793ADCC						flag_M9_RivalLOSE
 0x9CB3D6DA02F6C3F7						FLAG_NETCONNECT_ENABLE
 0xE77BD6A539A02DF8						flag_Tournament_2nd
-0xA39ED2C05CBF4025						flag_FastTravel_Spot_tower
+0xA39ED2C05CBF4025	FLY SPOT					flag_FastTravel_Spot_tower
 0x3A9F519BF46A2D1C				Z-A Royale Tips displayed		flag_has_checked_royale_app_tips
 0xF93DACF723439ADD						flag_Main10_Y_Bousou_02
 0x543518DEF293523D						SYS_FLAG_05
@@ -3085,24 +3080,24 @@
 0x96E60F98266B7725						flag_sub104_nestBall
 0xE0DB94B28B9E545A						flag_Main7_yukarizone02_in
 0xEAF5C042F6332909						flag_replace_teacup02
-0x8989882475E6CAD2						flag_ReceiveNPC_12
-0x898D092475E9DBDC						flag_ReceiveNPC_03
-0x5F07958E97FEC6F5						flag_FastTravel_Spot_t3
-0xEE9D4AD550669F4E						flag_FastTravel_a04_03
+0x8989882475E6CAD2	ITEM GIFT					flag_ReceiveNPC_12
+0x898D092475E9DBDC	ITEM GIFT					flag_ReceiveNPC_03
+0x5F07958E97FEC6F5	FLY SPOT					flag_FastTravel_Spot_t3
+0xEE9D4AD550669F4E	FLY SPOT					flag_FastTravel_a04_03
 0xB51B89EFE82D533D						flag_co_ladder_off
 0x8F5A91EE65DBD368						flag_Ev_m09_1100_replace
 0x33DB94D2916B50FE						flag_PokemonCenterEvent_BirthSet
 0xEA6B9F259CB87D79						FLAG_BOX_ENABLE
 0xFD360036E9A907A1						flag_M9_siroHUD
 0xB7A20CCA0A1F061E						flag_M6_HUDMessage_01
-0x1AA3D2DBB1CFD817						flag_FastTravel_a05_03
+0x1AA3D2DBB1CFD817	FLY SPOT					flag_FastTravel_a05_03
 0x9A1705AB83F0568C						flag_tips_zukanapp_tutorial_0001
-0x8019274249666259						flag_Ev_sys_lucario
+0x8019274249666259	PKMN GIFT	Hotel Z	Player's Room	Item ball with Lucario appeared		flag_Ev_sys_lucario
 0x1FC9B43876729CE6						flag_Main10_X_Oyabun_01
 0x1175B8096E07C338						flag_M5_Talk_06
-0x204239FF099F7520						flag_FastTravel_a01_02
-0x8993982475EF3A87						flag_ReceiveNPC_20
-0xA207B1B14642B3DC						flag_FastTravel_wild_a03_01
+0x204239FF099F7520	FLY SPOT					flag_FastTravel_a01_02
+0x8993982475EF3A87	ITEM GIFT					flag_ReceiveNPC_20
+0xA207B1B14642B3DC	FLY SPOT					flag_FastTravel_wild_a03_01
 0x8D22CF705F3BF80F				Dashing Tips displayed		flag_has_checked_tips_2030
 0x19DA3FF4345C982D						flag_entry_area_a03_z02_02
 0xF93DABF72343992A						flag_Main10_Y_Bousou_03
@@ -3123,31 +3118,31 @@
 0x1175BD096E07CBB7						flag_M5_Talk_03
 0x170F1C34DDCE44B7						flag_co_ladder
 0x176A6BC914350369						flag_Bed_Time
-0x8989832475E6C253						flag_ReceiveNPC_15
-0x898D082475E9DA29						flag_ReceiveNPC_04
-0x8989872475E6C91F						flag_ReceiveNPC_11
-0x898D142475E9EE8D						flag_ReceiveNPC_08
+0x8989832475E6C253	ITEM GIFT					flag_ReceiveNPC_15
+0x898D082475E9DA29	ITEM GIFT					flag_ReceiveNPC_04
+0x8989872475E6C91F	ITEM GIFT					flag_ReceiveNPC_11
+0x898D142475E9EE8D	ITEM GIFT					flag_ReceiveNPC_08
 0x15A9928F39AEF8E4						flag_finish_tips_2300
 0xB1300AA2173A1E2C						flag_holovator_area_rouge_04
-0x8989842475E6C406						flag_ReceiveNPC_16
-0x898D052475E9D510						flag_ReceiveNPC_07
-0x898D062475E9D6C3						flag_ReceiveNPC_06
+0x8989842475E6C406	ITEM GIFT					flag_ReceiveNPC_16
+0x898D052475E9D510	ITEM GIFT					flag_ReceiveNPC_07
+0x898D062475E9D6C3	ITEM GIFT					flag_ReceiveNPC_06
 0x6AF642F1F254AFC7				Player is carrying Travel Bag		SYS_FLAG_TRAVEL_BAG
-0x8989852475E6C5B9						flag_ReceiveNPC_17
-0x89898E2475E6D504						flag_ReceiveNPC_18
+0x8989852475E6C5B9	ITEM GIFT					flag_ReceiveNPC_17
+0x89898E2475E6D504	ITEM GIFT					flag_ReceiveNPC_18
 0x0A885B9A5467A582						flag_get_big_kanary_doll
-0x89898F2475E6D6B7						flag_ReceiveNPC_19
-0x8989862475E6C76C						flag_ReceiveNPC_10
-0x898D072475E9D876						flag_ReceiveNPC_05
+0x89898F2475E6D6B7	ITEM GIFT					flag_ReceiveNPC_19
+0x8989862475E6C76C	ITEM GIFT					flag_ReceiveNPC_10
+0x898D072475E9D876	ITEM GIFT					flag_ReceiveNPC_05
 0xA64A6E9759EFC833						flag_entry_area_a03_r05
-0xEE9D48D550669BE8						flag_FastTravel_a04_01
-0x8993932475EF3208						flag_ReceiveNPC_25
+0xEE9D48D550669BE8	FLY SPOT					flag_FastTravel_a04_01
+0x8993932475EF3208	ITEM GIFT					flag_ReceiveNPC_25
 0xF5FFB8BACDA80CF2						flag_Main10_Yveltal_2nd_pos
 0x02F0B7B55C0D68F4						flag_M8_HUDMessage_01
 0xE2A32A81A8F50737						flag_has_checked_tips_0021
 0x67697627A9EAD921						flag_Main10_Yveltal_pos
 0x117924096E0AB093						flag_M5_Talk_10
-0x8989822475E6C0A0						flag_ReceiveNPC_14
+0x8989822475E6C0A0	ITEM GIFT					flag_ReceiveNPC_14
 0xC3D46CA4D8A3812C				Taking Photos Tips displayed		flag_has_checked_photo_mode_tips
 0x4E19512F18C088EB						flag_battle_common_temp_03
 0x84AFCBA091BB96DF						flag_finish_tips_0080
@@ -3171,23 +3166,23 @@
 0x843B4D164C452BA8						disable_auto_save_scenario
 0xCEF1FDDA26ECE107						FLAG_MINIMAP_ENABLE
 0x933EE70F4E2F38A0						flag_wild_zone_disable
-0x8993972475EF38D4						flag_ReceiveNPC_21
+0x8993972475EF38D4	ITEM GIFT					flag_ReceiveNPC_21
 0x2C449BEF03EB3CFB						flag_Main10_Xerneas_2nd_pos
 0x4EC6B647F4B32312						flag_holovator_area_jaune_05
 0xE2AAC0F0E7686BE3						flag_has_checked_net_rank_battle_tips
 0x8C287C5DCADD837C						flag_entry_area_a01_z01_02
 0xA42CB0F685A8AF46						FLAG_GUIDE_ENABLE
-0x89939A2475EF3DED						flag_ReceiveNPC_22
+0x89939A2475EF3DED	ITEM GIFT					flag_ReceiveNPC_22
 0x6EB19CB1F12DD790						flag_PokemonCenterEvent
 0x5FF0F4073D1D826E						flag_lost_ball_add
 0x8D22D1705F3BFB75						flag_has_checked_tips_2032
-0xA207B3B14642B742						flag_FastTravel_wild_a03_03
+0xA207B3B14642B742	FLY SPOT					flag_FastTravel_wild_a03_03
 0x962E787064770F3F						flag_has_checked_tips_2100
 0x4E19502F18C08738						flag_battle_common_temp_02
 0x84AFCAA091BB952C						flag_finish_tips_0081
-0x898D132475E9ECDA						flag_ReceiveNPC_09
+0x898D132475E9ECDA	ITEM GIFT					flag_ReceiveNPC_09
 0xE2A32C81A8F50A9D						flag_has_checked_tips_0023
-0xE1593A8F92FB69F6						SYS_FLAG_GAME_CLEAR
+0xE1593A8F92FB69F6	STORY EVENT			Finished Main Story		SYS_FLAG_GAME_CLEAR
 0x16EC51909AF1D175						flag_Main7_yukarizone01
 0xA7B88FBFEC848D3C				Save Progress Tips displayed		flag_has_checked_report_tips
 0xD909DA3F0DEDE586						flag_BattleZone_Active_06
@@ -3210,7 +3205,7 @@
 0x6071D1201C1491BC						flag_M1_WaitressLOSE
 0xB521DCA51D90F8A4						flag_Tournament_4th
 0x84C44DA091CD1CCF						flag_finish_tips_0022
-0xCE0E3AB7A7ABEE58						flag_FastTravel_wild_a02_02
+0xCE0E3AB7A7ABEE58	FLY SPOT					flag_FastTravel_wild_a02_02
 0xB7DFF35E884E8753						flag_Quizzone_Enable
 0x84C44CA091CD1B1C						flag_finish_tips_0023
 0xD58DCA8CDFE5314E						flag_tips_lockon_tutorial_0001
@@ -3218,17 +3213,17 @@
 0xDC4E3D542AECD3C9						disable_auto_save_event_battle
 0x84C0C9A091CA06AC						flag_finish_tips_0030
 0x84C44AA091CD17B6						flag_finish_tips_0025
-0x2CFD874B174CAB73						flag_FastTravel_Restaurant01
+0x2CFD874B174CAB73	FLY SPOT					flag_FastTravel_Restaurant01
 0x36880D683BEB7E74						flag_entry_area_a02_z03_01
 0x84C0CAA091CA085F						flag_finish_tips_0031
 0x84C44BA091CD1969						flag_finish_tips_0024
 0x84AC45A091B87D56						flag_finish_tips_0090
 0x1D7D8DF3819F62B1						flag_deurochair_sitdown
-0x706241878D0902D7						flag_FastTravel_wild_a04_01
+0x706241878D0902D7	FLY SPOT					flag_FastTravel_wild_a04_01
 0x19DA3CF4345C9314						flag_entry_area_a03_z02_01
 0xB8759ABEB1D93053						flag_entry_area_a05_z03_01
 0xCFA0D8979E9CF721						flag_finish_tips_1009
-0x78E0F51B2BD6570A						flag_FastTravel_Cafe_03
+0x78E0F51B2BD6570A	FLY SPOT					flag_FastTravel_Cafe_03
 0xF2DF9DE07F08B082						flag_capture_force_success
 0x31ABEEDE3618450E						flag_M3_HUDMessage_04
 0xCFA455979EA0015F						flag_finish_tips_1010
@@ -3247,73 +3242,73 @@
 0x2F2C0B8F47FFA641						flag_finish_tips_2040
 0x1EC02D8F3EF3FFCF						flag_finish_tips_2200
 0x1EBCA78F3EF0E646						flag_finish_tips_2210
-0xC5ABF27D7DFCB649						flag_FastTravel_wild_a05_04
+0xC5ABF27D7DFCB649	FLY SPOT					flag_FastTravel_wild_a05_04
 0x27D6688F4438639A						flag_finish_tips_2100
 0x1EB5BB8F3EEAE994						flag_finish_tips_2230
 0xD5523AC2E2F38DA2						flag_entry_area_a02_r03
-0x2CFD884B174CAD26						flag_FastTravel_Restaurant02
+0x2CFD884B174CAD26	FLY SPOT					flag_FastTravel_Restaurant02
 0xCECD1788C8D4F674						flag_finish_tips_3000
 0xD7E33288CE1923DF						flag_finish_tips_3100
 0xE0F96D88D35D87AA						flag_finish_tips_3200
-0x760C0C5638875CBC						flag_FastTravel_Spot_cafe_temp
-0x2CFD8A4B174CB08C						flag_FastTravel_Restaurant04
-0xFAC88AC4704945D8						flag_FastTravel_Spot_i003
+0x760C0C5638875CBC	FLY SPOT					flag_FastTravel_Spot_cafe_temp
+0x2CFD8A4B174CB08C	FLY SPOT					flag_FastTravel_Restaurant04
+0xFAC88AC4704945D8	FLY SPOT					flag_FastTravel_Spot_i003
 0xCED7E937E2828922						flag_holovator_area_veil_06
-0xF4175E9ACF4AA704						flag_FastTravel_Spot_t3_2
+0xF4175E9ACF4AA704	FLY SPOT					flag_FastTravel_Spot_t3_2
 0xA3499012D44CC0EC						flag_zaroyale_disable
-0x162C94C4DE7E0A8A						flag_FastTravel_a06_01
+0x162C94C4DE7E0A8A				unused?		flag_FastTravel_a06_01
 0xD909DD3F0DEDEA9F						flag_BattleZone_Active_01
-0x20423CFF099F7A39						flag_FastTravel_a01_01
+0x20423CFF099F7A39	FLY SPOT					flag_FastTravel_a01_01
 0x1175BB096E07C851						flag_M5_Talk_05
 0xBB012F53949F6010				Tourist Tips unlocked		FLAG_TIPS_ENABLE
-0x20423AFF099F76D3						flag_FastTravel_a01_03
+0x20423AFF099F76D3				unused?		flag_FastTravel_a01_03
 0x1175B9096E07C4EB						flag_M5_Talk_07
-0xF9476C12F7357DDF						flag_FastTravel_Battle_10
-0xF943EB12F7326CD5						flag_FastTravel_Battle_05
-0x20423FFF099F7F52						flag_FastTravel_a01_04
-0x204240FF099F8105						flag_FastTravel_a01_05
+0xF9476C12F7357DDF				unused?		flag_FastTravel_Battle_10
+0xF943EB12F7326CD5				unused?		flag_FastTravel_Battle_05
+0x20423FFF099F7F52				unused?		flag_FastTravel_a01_04
+0x204240FF099F8105				unused?		flag_FastTravel_a01_05
 0x1175BF096E07CF1D						flag_M5_Talk_01
-0x20423DFF099F7BEC						flag_FastTravel_a01_06
+0x20423DFF099F7BEC				unused?		flag_FastTravel_a01_06
 0x1175BC096E07CA04						flag_M5_Talk_02
 0x4CB7DFA7314145FC						flag_M9_tragonHUD_02
 0x6F95F661FF723F65						flag_reset_kisopoint_first
 0x84BD43A091C6ED23						flag_finish_tips_0040
-0x47D20CEE97B7C927						flag_FastTravel_a03_05
+0x47D20CEE97B7C927	FLY SPOT					flag_FastTravel_a03_05
 0xEDE1521E7ECDEB6D						flag_entry_area_a03
-0xF943EE12F73271EE						flag_FastTravel_Battle_08
-0xEE9D4CD55066A2B4						flag_FastTravel_a04_05
+0xF943EE12F73271EE				unused?		flag_FastTravel_Battle_08
+0xEE9D4CD55066A2B4	FLY SPOT					flag_FastTravel_a04_05
 0xA64A729759EFCEFF						flag_entry_area_a03_r01
 0x1806EA25589C8387						hud_tips_flag_0002
 0xD909E53F0DEDF837						flag_BattleZone_Active_09
 0x0126392B0BAABC2E						flag_pokedex_regist_disable
 0x5DBF7E45BDE8DD0F						flag_entry_area_a01_z02_02
-0x1AA3D4DBB1CFDB7D						flag_FastTravel_a05_01
+0x1AA3D4DBB1CFDB7D	FLY SPOT					flag_FastTravel_a05_01
 0xE13E37724AF78C23						flag_entry_area_a02_z02_03
 0x28029D70921F70F6						flag_has_checked_btlspot_tips
-0xC5ABF57D7DFCBB62						flag_FastTravel_wild_a05_01
-0x78E0F11B2BD6503E						flag_FastTravel_Cafe_07
+0xC5ABF57D7DFCBB62	FLY SPOT					flag_FastTravel_wild_a05_01
+0x78E0F11B2BD6503E	FLY SPOT					flag_FastTravel_Cafe_07
 0x9698822B021916F0						flag_SimpleMegaevo
-0xC5ABF47D7DFCB9AF						flag_FastTravel_wild_a05_02
-0x78E0F01B2BD64E8B						flag_FastTravel_Cafe_04
+0xC5ABF47D7DFCB9AF	FLY SPOT					flag_FastTravel_wild_a05_02
+0x78E0F01B2BD64E8B	FLY SPOT					flag_FastTravel_Cafe_04
 0xE13E3B724AF792EF						flag_entry_area_a02_z02_07
-0x78E0EB1B2BD6460C						flag_FastTravel_Cafe_09
+0x78E0EB1B2BD6460C	FLY SPOT					flag_FastTravel_Cafe_09
 0xD804ACCB859AF924						flag_tips_capture_tutorial_0001
 0x0C0BF2B4A15AB80A						flag_entry_area_a05_z02_05
 0x97D4188A9C3084DC						flag_has_checked_tips_1009
-0x78DDEE1B2BD4154E						flag_FastTravel_Cafe_10
-0x724FFAE34E4EFAE0						flag_FastTravel_a02_03
-0x78DDEF1B2BD41701						flag_FastTravel_Cafe_11
-0x724FFBE34E4EFC93						flag_FastTravel_a02_02
-0xF41575958AF23EB5						flag_FastTravel_wild_a06_01
-0xF943EA12F7326B22						flag_FastTravel_Battle_04
-0xF9476B12F7357C2C						flag_FastTravel_Battle_11
-0xF9476E12F7358145						flag_FastTravel_Battle_12
+0x78DDEE1B2BD4154E	FLY SPOT					flag_FastTravel_Cafe_10
+0x724FFAE34E4EFAE0	FLY SPOT					flag_FastTravel_a02_03
+0x78DDEF1B2BD41701	FLY SPOT					flag_FastTravel_Cafe_11
+0x724FFBE34E4EFC93	FLY SPOT					flag_FastTravel_a02_02
+0xF41575958AF23EB5	FLY SPOT					flag_FastTravel_wild_a06_01
+0xF943EA12F7326B22				unused?		flag_FastTravel_Battle_04
+0xF9476B12F7357C2C				unused?		flag_FastTravel_Battle_11
+0xF9476E12F7358145				unused?		flag_FastTravel_Battle_12
 0xD90D613F0DF100C2						flag_BattleZone_Active_11
 0x1806E525589C7B08						hud_tips_flag_0007
 0x3C8EB1FC486E4E62						flag_ForceNormalMegaevo
 0x4EC6B047F4B318E0						flag_holovator_area_jaune_03
 0x34D1C2FD8F8A20AF						flag_lab_power_on_01
-0x60006D6F9E71B432						flag_tips_fasttravel_tutorial_0001
+0x60006D6F9E71B432	EVENT					flag_tips_fasttravel_tutorial_0001
 0x4EC6B147F4B31A93						flag_holovator_area_jaune_02
 0x34D1C3FD8F8A2262						flag_lab_power_on_02
 0x4EC6B247F4B31C46						flag_holovator_area_jaune_01
@@ -3342,8 +3337,8 @@
 0x1806E925589C81D4						hud_tips_flag_0003
 0x8C287A5DCADD8016						flag_entry_area_a01_z01_04
 0x1806E825589C8021						hud_tips_flag_0004
-0x76A19098CB842C78						flag_FastTravel_Enable
-0xCE0E3BB7A7ABF00B						flag_FastTravel_wild_a02_03
+0x76A19098CB842C78	EVENT					flag_FastTravel_Enable
+0xCE0E3BB7A7ABF00B	FLY SPOT					flag_FastTravel_wild_a02_03
 0xEF82D2435D9992EF						flag_has_checked_box_tips
 0x543513DEF29349BE						SYS_FLAG_00
 0x8C28785DCADD7CB0						flag_entry_area_a01_z01_06
@@ -3356,8 +3351,8 @@
 0x1806E725589C7E6E						hud_tips_flag_0005
 0x81F57F51AD9AC902						flag_holovator_area_blue_02
 0xE2991781A8EC9269						flag_has_checked_tips_0070
-0x78DDF01B2BD418B4						flag_FastTravel_Cafe_16
-0x724FFCE34E4EFE46						flag_FastTravel_a02_01
+0x78DDF01B2BD418B4	FLY SPOT					flag_FastTravel_Cafe_16
+0x724FFCE34E4EFE46	FLY SPOT					flag_FastTravel_a02_01
 0x84C44EA091CD1E82						flag_finish_tips_0021
 0x97D09B8A9C2D7A9E						flag_has_checked_tips_1010
 0x7C6CAC1E3E4D5CF9						flag_entry_area_r04
@@ -3372,8 +3367,8 @@
 0x97C6898A9C250783						flag_has_checked_tips_1040
 0x2F400F8F48105617						flag_finish_tips_2020
 0x8D185A705F32DCBB						flag_has_checked_tips_2005
-0x78DDEC1B2BD411E8						flag_FastTravel_Cafe_12
-0xA207B4B14642B8F5						flag_FastTravel_wild_a03_02
+0x78DDEC1B2BD411E8	FLY SPOT					flag_FastTravel_Cafe_12
+0xA207B4B14642B8F5	FLY SPOT					flag_FastTravel_wild_a03_02
 0xB9FE2ED05CAB2D31						flag_entry_area_a05_z01_01
 0x19DA3EF4345C967A						flag_entry_area_a03_z02_03
 0x8D22CE705F3BF65C				Rolling Tips displayed		flag_has_checked_tips_2031
@@ -3385,9 +3380,9 @@
 0xDB9194DB11BDDDE9						flag_Ev_m08_3500_pos
 0xD7A802EDB35BD19A						flag_entry_area_a04_r01
 0x9D951970684CC1B3						flag_has_checked_tips_2210
-0x78E0EC1B2BD647BF						flag_FastTravel_Cafe_08
+0x78E0EC1B2BD647BF	FLY SPOT					flag_FastTravel_Cafe_08
 0xACCD1B5AA6E1072B						flag_M9_HUDMessage_05
-0x78E0F31B2BD653A4						flag_FastTravel_Cafe_01
+0x78E0F31B2BD653A4	FLY SPOT					flag_FastTravel_Cafe_01
 0xC0F489D5E3535178						flag_entry_area_a01_r02
 0x1EB9418F3EEE031D						flag_finish_tips_2220
 0xB2683E5A3DA61C55						flag_entry_area_a02_z01_04
@@ -3408,17 +3403,17 @@
 0xBB8DA4BDC6827A7D						flag_holovator_area_rose_04
 0x69870F183D49ADA6						flag_entry_area_wild16
 0xD7A7FFEDB35BCC81						flag_entry_area_a04_r04
-0x47D20AEE97B7C5C1						flag_FastTravel_a03_03
+0x47D20AEE97B7C5C1	FLY SPOT					flag_FastTravel_a03_03
 0xDA58D0B307BA637D						flag_replace_pulesand02
 0x5EAC27C14C658F45						flag_has_checked_map_quest_tips
 0xEDE1501E7ECDE807						flag_entry_area_a01
 0x4E1CDA2F18C3A78D						flag_battle_common_temp_12
-0xF943E712F7326609						flag_FastTravel_Battle_01
+0xF943E712F7326609				unused?		flag_FastTravel_Battle_01
 0xEDE14B1E7ECDDF88						flag_entry_area_a04
 0x84B9DDA091C409FA						flag_finish_tips_0050
 0xB70D730504A8F9BC						flag_entry_area_a04_z01_01
 0x81F58051AD9ACAB5						flag_holovator_area_blue_03
-0x725001E34E4F06C5						flag_FastTravel_a02_04
+0x725001E34E4F06C5	FLY SPOT					flag_FastTravel_a02_04
 0x0C0BEEB4A15AB13E						flag_entry_area_a05_z02_01
 0x7C6CAF1E3E4D6212						flag_entry_area_r01
 0xB9FE2FD05CAB2EE4						flag_entry_area_a05_z01_06
@@ -3437,10 +3432,10 @@
 0x8C287F5DCADD8895						flag_entry_area_a01_z01_01
 0x4E1CD82F18C3A427						flag_battle_common_temp_10
 0x4E19572F18C0931D						flag_battle_common_temp_05
-0xF943E512F73262A3						flag_FastTravel_Battle_03
+0xF943E512F73262A3				unused?		flag_FastTravel_Battle_03
 0x8DDCE0BD96728E5D				Player can Roll		FLAG_ROLLING_ENABLE
-0xF943EF12F73273A1						flag_FastTravel_Battle_09
-0x47D208EE97B7C25B						flag_FastTravel_a03_01
+0xF943EF12F73273A1				unused?		flag_FastTravel_Battle_09
+0x47D208EE97B7C25B	FLY SPOT					flag_FastTravel_a03_01
 0x5E6975674AE81AF5						flag_has_checked_judge_tips
 0x561FA503A5AB9B42						flag_t3_LadderReplace
 0x8D8C97FBFDC22F91						flag_waza_prohibit
@@ -3457,11 +3452,11 @@
 0xD55235C2E2F38523						flag_entry_area_a02_r04
 0x2F3D098F480E160E						flag_finish_tips_2030
 0xE18B6CF9BB403FD9						flag_entry_area_a04_z02_03
-0x78DDF21B2BD41C1A						flag_FastTravel_Cafe_14
+0x78DDF21B2BD41C1A	FLY SPOT					flag_FastTravel_Cafe_14
 0xD8E0173436C5F1B6						flag_M6_PokeSpawner03
 0x4E1CCF2F18C394DC						flag_battle_common_temp_19
 0xD7A7FEEDB35BCACE						flag_entry_area_a04_r05
-0xCE0E3DB7A7ABF371						flag_FastTravel_wild_a02_01
+0xCE0E3DB7A7ABF371	FLY SPOT					flag_FastTravel_wild_a02_01
 0x84B352A091BEB21B						flag_finish_tips_0071
 0x073B08F9F47D6150						flag_Ev_m05_0090_pos_2
 0x383B86D837C1B122						FLAG_CANT_RELEASE_ABUSORU
@@ -3490,7 +3485,7 @@
 0x84B351A091BEB068						flag_finish_tips_0070
 0xD909D93F0DEDE3D3						flag_BattleZone_Active_05
 0x4E19562F18C0916A						flag_battle_common_temp_04
-0xF943E412F73260F0						flag_FastTravel_Battle_02
+0xF943E412F73260F0				unused?		flag_FastTravel_Battle_02
 0x4E1CD72F18C3A274						flag_battle_common_temp_11
 0x4E1CD92F18C3A5DA						flag_battle_common_temp_13
 0xF6437A91142EC7AB						flag_Tournament_Finish
@@ -3499,17 +3494,17 @@
 0xB70D760504A8FED5						flag_entry_area_a04_z01_02
 0xDA2104E4B89CE3E9						flag_M4_MegaUsed
 0x7EA8433FC15EF946						flag_Ev_m06_2500_pos
-0xC996FCA0D45A20CB						flag_FastTravel_wild_a01_02
+0xC996FCA0D45A20CB	FLY SPOT					flag_FastTravel_wild_a01_02
 0xB70D750504A8FD22						flag_entry_area_a04_z01_03
 0xEDE14D1E7ECDE2EE						flag_entry_area_a06
-0xF943E912F732696F						flag_FastTravel_Battle_07
+0xF943E912F732696F				unused?		flag_FastTravel_Battle_07
 0xB70D700504A8F4A3						flag_entry_area_a04_z01_04
 0xAE6B8D2AB224FB64						FLAG_BALL_THROW_ENABLE
 0xA64A6D9759EFC680						flag_entry_area_a03_r04
 0x9D91B3706849DE8A						flag_has_checked_tips_2200
 0xB13007A2173A1913						flag_holovator_area_rouge_01
 0x84B9DEA091C40BAD						flag_finish_tips_0051
-0x78DDF11B2BD41A67						flag_FastTravel_Cafe_17
+0x78DDF11B2BD41A67	FLY SPOT					flag_FastTravel_Cafe_17
 0xCFA0CF979E9CE7D6						flag_finish_tips_1000
 0xB268385A3DA61223						flag_entry_area_a02_z01_02
 0xB268375A3DA61070						flag_entry_area_a02_z01_03
