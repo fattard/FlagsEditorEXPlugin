@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0-windows</TargetFramework>
+    <TargetFramework>net10.0-windows</TargetFramework>
     <OutputType>Library</OutputType>
     <RootNamespace>FlagsEditorEXPlugin</RootNamespace>
     <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
@@ -62,7 +62,7 @@
     <EmbeddedResource Include="localization\lang_zh-Hant.txt" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="PKHeX.Core" Version="25.12.15" />
+    <PackageReference Include="PKHeX.Core" Version="26.1.31" />
   </ItemGroup>
   <ItemGroup>
     <Using Include="PKHeX.Core" />
