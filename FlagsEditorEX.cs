@@ -85,21 +85,13 @@
                 return;
             }
 
-            ctrl.Enabled = savData.Version switch
+            // Disable on unsupported games
+            ctrl.Enabled = (savData.Version.IsValidSavedVersion() ? savData.Version : savData.Version.GetSingleVersion()) switch
             {
-                GameVersion.Any or
-                GameVersion.RBY or
-                GameVersion.StadiumJ or
-                GameVersion.Stadium or
-                GameVersion.Stadium2 or
-                GameVersion.RSBOX or
-                GameVersion.COLO or
-                GameVersion.XD or
                 GameVersion.CXD or
                 GameVersion.BATREV or
-                GameVersion.ORASDEMO or
                 GameVersion.GO or
-                GameVersion.Invalid
+                GameVersion.CP
                     => false,
 
                 // Check for AS Demo
@@ -109,7 +101,8 @@
                 // Check for SN Demo
                 GameVersion.SN
                     // Can't have a renamed box which is locked in non-demo version
-                    => !(((SAV7SM)savData).BoxLayout.BoxesUnlocked == 8 && string.IsNullOrWhiteSpace(((SAV7SM)savData).BoxLayout.GetBoxName(10))),
+                    => !(((SAV7SM)savData).BoxLayout.BoxesUnlocked == 8 &&
+                        string.IsNullOrWhiteSpace(((SAV7SM)savData).BoxLayout.GetBoxName(10))),
 
                 _ => true
             };

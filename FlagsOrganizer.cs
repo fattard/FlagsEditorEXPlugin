@@ -503,118 +503,93 @@
 
         public static FlagsOrganizer CreateFlagsOrganizer(SaveFile savFile, string? resData)
         {
-            FlagsOrganizer? flagsOrganizer = savFile.Version switch
+            FlagsOrganizer? flagsOrganizer = savFile.Version.GetSingleVersion() switch
             {
-                GameVersion.Any or
-                GameVersion.RBY or
-                GameVersion.StadiumJ or
-                GameVersion.Stadium or
-                GameVersion.Stadium2 or
-                GameVersion.RSBOX or
-                GameVersion.COLO or
-                GameVersion.XD or
                 GameVersion.CXD or
                 GameVersion.BATREV or
-                GameVersion.ORASDEMO or
                 GameVersion.GO or
-                GameVersion.Invalid
+                GameVersion.CP
                     // unsupported format
                     => null,
 
                 GameVersion.RD or
                 GameVersion.GN or
-                GameVersion.BU or
-                GameVersion.RB
+                GameVersion.BU
                     => new FlagsGen1RB(),
 
                 GameVersion.YW
                     => new FlagsGen1Y(),
 
                 GameVersion.GD or
-                GameVersion.SI or
-                GameVersion.GS
+                GameVersion.SI
                     => new FlagsGen2GS(),
 
                 GameVersion.C
                     => new FlagsGen2C(),
 
                 GameVersion.R or
-                GameVersion.S or
-                GameVersion.RS
+                GameVersion.S
                     => new FlagsGen3RS(),
 
                 GameVersion.FR or
-                GameVersion.LG or
-                GameVersion.FRLG
+                GameVersion.LG
                     => new FlagsGen3FRLG(),
 
                 GameVersion.E
                     => new FlagsGen3E(),
 
                 GameVersion.D or
-                GameVersion.P or
-                GameVersion.DP
+                GameVersion.P
                     => new FlagsGen4DP(),
 
                 GameVersion.Pt
                     => new FlagsGen4Pt(),
 
                 GameVersion.HG or
-                GameVersion.SS or
-                GameVersion.HGSS
+                GameVersion.SS
                     => new FlagsGen4HGSS(),
 
                 GameVersion.B or
-                GameVersion.W or
-                GameVersion.BW
+                GameVersion.W
                     => new FlagsGen5BW(),
 
                 GameVersion.B2 or
-                GameVersion.W2 or
-                GameVersion.B2W2
+                GameVersion.W2
                     => new FlagsGen5B2W2(),
 
                 GameVersion.X or
-                GameVersion.Y or
-                GameVersion.XY
+                GameVersion.Y
                     => new FlagsGen6XY(),
 
                 GameVersion.OR or
-                GameVersion.AS or
-                GameVersion.ORAS
+                GameVersion.AS
                     => new FlagsGen6ORAS(),
 
                 GameVersion.SN or
-                GameVersion.MN or
-                GameVersion.SM
+                GameVersion.MN
                     => new FlagsGen7SM(),
 
                 GameVersion.US or
-                GameVersion.UM or
-                GameVersion.USUM
+                GameVersion.UM
                     => new FlagsGen7USUM(),
 
                 GameVersion.GP or
-                GameVersion.GE or
-                GameVersion.GG
+                GameVersion.GE
                     => new FlagsGen7bGPGE(),
 
                 GameVersion.SW or
-                GameVersion.SH or
-                GameVersion.SWSH
+                GameVersion.SH
                     => new FlagsGen8SWSH(),
 
                 GameVersion.BD or
-                GameVersion.SP or
-                GameVersion.BDSP
+                GameVersion.SP
                     => new FlagsGen8BDSP(),
 
                 GameVersion.PLA
                     => new FlagsGen8LA(),
 
                 GameVersion.SL or
-                GameVersion.VL or
-                GameVersion.SV
+                GameVersion.VL
                     => new FlagsGen9SV(),
 
                 GameVersion.ZA
